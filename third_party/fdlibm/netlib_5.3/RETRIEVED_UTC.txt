@@ -1,0 +1,3 @@
+Sun Oct 25 20:36:13 UTC 2026
+source: https://www.netlib.org/fdlibm/
+Sun Oct 25 21:14:56 UTC 2026 added s_fabs.c s_floor.c s_scalbn.c s_copysign.c (link dependencies of k_rem_pio2/e_rem_pio2) from https://www.netlib.org/fdlibm/

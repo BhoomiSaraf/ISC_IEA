@@ -1,0 +1,32 @@
+[
+  {
+    "case": "flip_body_bit",
+    "raised": true,
+    "exception": "AuthenticationError",
+    "note": "authentication failed"
+  },
+  {
+    "case": "flip_header_bit",
+    "raised": true,
+    "exception": "Malformed",
+    "note": "size limit exceeded or length mismatch"
+  },
+  {
+    "case": "flip_tag_bit",
+    "raised": true,
+    "exception": "AuthenticationError",
+    "note": "authentication failed"
+  },
+  {
+    "case": "wrong_key",
+    "raised": true,
+    "exception": "AuthenticationError",
+    "note": "authentication failed"
+  },
+  {
+    "case": "truncated_ciphertext",
+    "raised": true,
+    "exception": "Malformed",
+    "note": "size limit exceeded or length mismatch"
+  }
+]

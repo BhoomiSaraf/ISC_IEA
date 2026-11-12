@@ -1,0 +1,287 @@
+{
+ "gate": "R",
+ "backend": "numpy",
+ "environment": {
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "implementation": "CPython",
+  "platform": "Windows-10-10.0.22631-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "float_info": "sys.float_info(max=1.7976931348623157e+308, max_exp=1024, max_10_exp=308, min=2.2250738585072014e-308, min_exp=-1021, min_10_exp=-307, dig=15, mant_dig=53, epsilon=2.220446049250313e-16, radix=2, rounds=1)",
+  "byteorder": "little",
+  "backend": "numpy",
+  "cpu_flags_subset": "unavailable (not Linux)",
+  "numpy": "2.4.6",
+  "numpy_build": {
+   "compilers": {
+    "c": {
+     "name": "msvc",
+     "linker": "link",
+     "version": "19.44.35226",
+     "commands": "cl"
+    },
+    "cython": {
+     "name": "cython",
+     "linker": "cython",
+     "version": "3.2.4",
+     "commands": "cython"
+    },
+    "c++": {
+     "name": "msvc",
+     "linker": "link",
+     "version": "19.44.35226",
+     "commands": "cl"
+    }
+   },
+   "simd": {
+    "baseline": [
+     "X86_V2"
+    ],
+    "found": [
+     "X86_V3"
+    ]
+   }
+  }
+ },
+ "checks": {
+  "R-fdlibm-hashes": {
+   "status": "PASS",
+   "seconds": 0.0,
+   "detail": {
+    "mismatched_files": []
+   }
+  },
+  "R-trig-KAT": {
+   "status": "PASS",
+   "seconds": 0.3,
+   "detail": {
+    "vectors": 74063,
+    "mismatches": 0,
+    "first_mismatches": []
+   }
+  },
+  "R-trajectory-KAT": {
+   "status": "PASS",
+   "seconds": 125.3,
+   "detail": {
+    "trajectories": [
+     {
+      "x0": "3fb999999999999a",
+      "y0": "3fb999999999999a",
+      "match": true
+     },
+     {
+      "x0": "bff0000000000000",
+      "y0": "bff0000000000000",
+      "match": true
+     },
+     {
+      "x0": "3feffffffffffffe",
+      "y0": "3feffffffffffffe",
+      "match": true
+     },
+     {
+      "x0": "0000000000000000",
+      "y0": "0000000000000000",
+      "match": true
+     },
+     {
+      "x0": "bff0000000000000",
+      "y0": "3feffffffffffffe",
+      "match": true
+     },
+     {
+      "x0": "3fe0000000000000",
+      "y0": "bfe0000000000000",
+      "match": true
+     },
+     {
+      "x0": "bcb0000000000000",
+      "y0": "3cb0000000000000",
+      "match": true
+     },
+     {
+      "x0": "bfe11bf4471ef292",
+      "y0": "bfefcb407a4a5acc",
+      "match": true
+     },
+     {
+      "x0": "3fe0456e49baf62c",
+      "y0": "bfe86332e96e1034",
+      "match": true
+     },
+     {
+      "x0": "3fe15379fe967544",
+      "y0": "bfeffe3a0442a5f4",
+      "match": true
+     }
+    ]
+   }
+  },
+  "R-stream-KAT": {
+   "status": "PASS",
+   "seconds": 1.6,
+   "detail": {
+    "sbox": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "perm": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "fwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "bwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    }
+   }
+  },
+  "R-cipher-KAT": {
+   "status": "PASS",
+   "seconds": 29.3,
+   "detail": [
+    {
+     "shape": [
+      1,
+      1,
+      1
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      1,
+      7,
+      1
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      7,
+      1,
+      1
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      4,
+      6,
+      3
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      16,
+      16,
+      1
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      64,
+      64,
+      3
+     ],
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    }
+   ]
+  }
+ },
+ "vectors_provenance": {
+  "generated_utc": "2026-10-25T21:23:41+00:00",
+  "host": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.9",
+  "oracle_build": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nLinux 6.18.54.1-microsoft-standard-WSL2 x86_64\nflags: -O0 -ffp-contract=off -fno-builtin -D__LITTLE_ENDIAN -w\nb4bccc1cee024184e52415eab1802775ff6cc53b5baf223c6df0b39a4540165f  /mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/isc_cipher_kat/oracle/build/oracle\n",
+  "fdlibm_sha256": "3a08dd4a38f9f9fc9478a33ca05cb81a6566f1010ab14412e97cae091bede16b *e_rem_pio2.c\n64113c472c2676499288bc35a821b0867916552930bc52c7445d2c50dddf0e71 *fdlibm.h\n841086c75288f3f9fef03bae2a9dc24e99c3cdb2035e170c69452013a7b5befc *k_cos.c\n5796209ea3fe1af88e22badeaed0f6a6aa923914e097e227c410527cb5815740 *k_rem_pio2.c\n75d391f3c124806ce14893cd038ae5dd10663e40430ffa174d5fddcb33012167 *k_sin.c\nc6f96d4eea94d45a47d5852ac96d3ec55fc1a04cff25d909c4264c7a8c5c11b9 *readme\nbdcbea3c83b2d4aa521b9a5341f3e58b8cb9c8d326fcc4abb715f3704cf17799 *s_cos.c\n4d5edb75368e4f8e0ac18682d3ae4b6944ba06801637cf0df6f378d6211f4c81 *s_sin.c\nc6389f3e0472ec0157d648b3e4e80b405038acfaf3e85b961363ea483e3259f1 *s_fabs.c\nfbe8779a58d46879222ba6b390931b13118037c5123b8e89a73cf0231f643b4a *s_floor.c\n9ad1bb374fc2951ec086474c82373b45bccfdecd34d631974dccf8633f40d99e *s_scalbn.c\n459c18858c944a4e7062d38ab4dfb596edbe76706d24029c2dac766dcd2be3fd *s_copysign.c\n",
+  "make_kat_sha256": "9cc31d5ddfed5c6bf441b6bc911aa259cec63dca762988b0c73d86319b5dcca3",
+  "independent": [
+   "trig_kat.txt.gz",
+   "traj_kat.json",
+   "stream_kat.json (seeds derived by isc_cipher.kdf, which is checked separately against RFC 5869 vectors and the cryptography library)"
+  ],
+  "self_generated": [
+   "cipher_kat.json (R1)"
+  ],
+  "public_test_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "public_test_nonce_hex": "000102030405060708090a0b0c0d0e0f"
+ },
+ "overall": "PASS"
+}

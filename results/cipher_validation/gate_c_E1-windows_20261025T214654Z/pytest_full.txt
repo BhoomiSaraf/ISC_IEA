@@ -1,0 +1,298 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis
+plugins: anyio-4.14.2
+collected 225 items
+
+tests\test_experiment.py ...                                             [  1%]
+tests\test_isc_cipher_auth.py .......................................... [ 20%]
+                                                                         [ 20%]
+tests\test_isc_cipher_kdf_state.py ...........................           [ 32%]
+tests\test_isc_cipher_numeric.py ...............                         [ 38%]
+tests\test_isc_cipher_roundtrip.py ................s............s.       [ 52%]
+tests\test_isc_cipher_sampling_diffusion.py ............................ [ 64%]
+..................                                                       [ 72%]
+tests\test_isc_map.py ..........                                         [ 77%]
+tests\test_nist.py ...............                                       [ 84%]
+tests\test_periodicity.py ....                                           [ 85%]
+tests\test_sts_official.py ...............                               [ 92%]
+tests\test_trajectory_extract.py .................                       [100%]
+
+============================== warnings summary ===============================
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:145: DeprecationWarning: invalid escape sequence '\o'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:176: DeprecationWarning: invalid escape sequence '\l'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:177: DeprecationWarning: invalid escape sequence '\l'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:180: DeprecationWarning: invalid escape sequence '\o'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:181: DeprecationWarning: invalid escape sequence '\l'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:192: DeprecationWarning: invalid escape sequence '\o'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:236: DeprecationWarning: invalid escape sequence '\o'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+  <unknown>:237: DeprecationWarning: invalid escape sequence '\o'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[final_validation.py]
+  <unknown>:181: DeprecationWarning: invalid escape sequence '\D'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[final_freeze_validation.py]
+  <unknown>:202: DeprecationWarning: invalid escape sequence '\l'
+
+tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[final_freeze_validation.py]
+  <unknown>:203: DeprecationWarning: invalid escape sequence '\l'
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=================================== PASSES ====================================
+_________________ test_small_run_outputs_and_reproducibility __________________
+---------------------------- Captured stdout call -----------------------------
+[03:17:07] sequences 0..1: iterating 2048 steps after 50 transient
+[03:17:07] sequences 2..2: iterating 2048 steps after 50 transient
+[03:17:07] periodicity: float32 IC 0
+[03:17:07] periodicity: 4-bit quantised state
+[03:17:07] periodicity: float64 IC 0
+[03:17:08] done in 1 s -> C:\Users\bhoom\AppData\Local\Temp\pytest-of-bhoomi\pytest-10\test_small_run_outputs_and_rep0\a
+[03:17:08] sequences 0..1: iterating 2048 steps after 50 transient
+[03:17:08] sequences 2..2: iterating 2048 steps after 50 transient
+[03:17:08] periodicity: float32 IC 0
+[03:17:08] periodicity: 4-bit quantised state
+[03:17:08] periodicity: float64 IC 0
+[03:17:08] done in 1 s -> C:\Users\bhoom\AppData\Local\Temp\pytest-of-bhoomi\pytest-10\test_small_run_outputs_and_rep0\b
+- generated xml file: C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis\results\cipher_validation\gate_c_E1-windows_20261025T214654Z\junit_full.xml -
+=========================== short test summary info ===========================
+PASSED tests/test_experiment.py::test_rejects_non_frozen_params
+PASSED tests/test_experiment.py::test_rejects_unknown_method
+PASSED tests/test_experiment.py::test_small_run_outputs_and_reproducibility
+PASSED tests/test_isc_cipher_auth.py::test_valid_ciphertext_decrypts
+PASSED tests/test_isc_cipher_auth.py::test_header_layout
+PASSED tests/test_isc_cipher_auth.py::test_every_bit_flip_rejected_before_generation
+PASSED tests/test_isc_cipher_auth.py::test_truncation_and_extension_rejected
+PASSED tests/test_isc_cipher_auth.py::test_swapping_nonce_kcv_or_tag_between_ciphertexts_rejected
+PASSED tests/test_isc_cipher_auth.py::test_dimension_relabelling_rejected
+PASSED tests/test_isc_cipher_auth.py::test_profile_field_change_rejected
+PASSED tests/test_isc_cipher_auth.py::test_wrong_keys_rejected_before_generation
+PASSED tests/test_isc_cipher_auth.py::test_invalid_key_types[]
+PASSED tests/test_isc_cipher_auth.py::test_invalid_key_types[\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_invalid_key_types[\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_invalid_key_types[kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk]
+PASSED tests/test_isc_cipher_auth.py::test_invalid_key_types[None]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCX\x01\x01\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x02\x01\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x00\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x03\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x02\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x02\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x00\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x01\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x01\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x01\x00\x02\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_malformed_ciphertexts[ISCI\x01\x01\x01\x01\x10\x01\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_auth.py::test_non_bytes_ciphertext_rejected
+PASSED tests/test_isc_cipher_auth.py::test_kcv_definition_exact
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[499-3]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[500-3]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[501-3]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[502-3]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[500-10]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[2000-100]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext[3070-255]
+PASSED tests/test_isc_cipher_auth.py::test_kcv_detects_state_change_in_burn_in
+PASSED tests/test_isc_cipher_auth.py::test_kcv_detects_divergence_in_last_output_step
+PASSED tests/test_isc_cipher_auth.py::test_selftest_failure_blocks_decryption
+PASSED tests/test_isc_cipher_auth.py::test_profile2_roundtrip_numpy_only
+PASSED tests/test_isc_cipher_auth.py::test_array_api_rejects_tampered
+PASSED tests/test_isc_cipher_kdf_state.py::test_generate_key_is_32_random_bytes
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[00000000000000000000000000000000]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[None]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[123]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[bad6]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_rejects_wrong_type_or_length[bad7]
+PASSED tests/test_isc_cipher_kdf_state.py::test_check_key_accepts_bytes_and_bytearray
+PASSED tests/test_isc_cipher_kdf_state.py::test_hkdf_rfc5869_test_case_1
+PASSED tests/test_isc_cipher_kdf_state.py::test_hkdf_rfc5869_test_case_3_empty_salt_and_info
+PASSED tests/test_isc_cipher_kdf_state.py::test_hkdf_matches_cryptography_library
+PASSED tests/test_isc_cipher_kdf_state.py::test_hkdf_output_length_limits
+PASSED tests/test_isc_cipher_kdf_state.py::test_context_bytes_exact
+PASSED tests/test_isc_cipher_kdf_state.py::test_derivation_labels_lengths_and_definition
+PASSED tests/test_isc_cipher_kdf_state.py::test_derivation_depends_on_every_input
+PASSED tests/test_isc_cipher_kdf_state.py::test_derivation_rejects_wrong_nonce_length
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_boundaries[0--1.0]
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_boundaries[1--0.9999999999999998]
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_boundaries[4503599627370495--2.220446049250313e-16]
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_boundaries[4503599627370496-0.0]
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_boundaries[9007199254740991-0.9999999999999998]
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_exact_against_rational_arithmetic
+PASSED tests/test_isc_cipher_kdf_state.py::test_mapping_ignores_exactly_the_11_low_bits
+PASSED tests/test_isc_cipher_kdf_state.py::test_seed_to_ints_rejects_wrong_length
+PASSED tests/test_isc_cipher_kdf_state.py::test_frozen_parameters_match_isc_seq
+PASSED tests/test_isc_cipher_numeric.py::test_trig_r1_matches_c_oracle
+PASSED tests/test_isc_cipher_numeric.py::test_trig_v1_matches_c_oracle
+PASSED tests/test_isc_cipher_numeric.py::test_trig_within_one_ulp_of_correctly_rounded
+PASSED tests/test_isc_cipher_numeric.py::test_large_argument_branch_is_rejected
+PASSED tests/test_isc_cipher_numeric.py::test_step_argument_guard
+PASSED tests/test_isc_cipher_numeric.py::test_step_ref_equals_step_vec_bitwise
+PASSED tests/test_isc_cipher_numeric.py::test_profile2_step_is_the_existing_canonical_isc_step
+PASSED tests/test_isc_cipher_numeric.py::test_states_stay_in_unit_square_on_kat_trajectories
+PASSED tests/test_isc_cipher_numeric.py::test_step_ref_first_checkpoints_match_oracle
+PASSED tests/test_isc_cipher_numeric.py::test_m_byte_definition
+PASSED tests/test_isc_cipher_numeric.py::test_stream_byte_order_lane_minor_x_before_y
+PASSED tests/test_isc_cipher_numeric.py::test_stream_consumption_and_steps
+PASSED tests/test_isc_cipher_numeric.py::test_reference_and_numpy_streams_identical
+PASSED tests/test_isc_cipher_numeric.py::test_burn_in_length_and_stream_kat_after_burn_in
+PASSED tests/test_isc_cipher_numeric.py::test_reference_backend_rejects_profile2
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[1-1-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[1-1-3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[1-7-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[7-1-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[2-2-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[15-16-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[16-15-3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[31-17-3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_numpy_all_patterns[64-64-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_reference_backend[1-1-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_reference_backend[1-7-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_roundtrip_reference_backend[4-6-3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_backends_produce_identical_ciphertexts_and_cross_decrypt[1-1-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_backends_produce_identical_ciphertexts_and_cross_decrypt[3-5-3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_backends_produce_identical_ciphertexts_and_cross_decrypt[16-16-1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_larger_images_roundtrip
+PASSED tests/test_isc_cipher_roundtrip.py::test_repeated_encryption_uses_fresh_nonces
+PASSED tests/test_isc_cipher_roundtrip.py::test_fixed_nonce_is_deterministic
+PASSED tests/test_isc_cipher_roundtrip.py::test_public_api_takes_no_nonce
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad0]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad1]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad2]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad3]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad4]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad5]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad6]
+PASSED tests/test_isc_cipher_roundtrip.py::test_invalid_images_rejected[bad7]
+PASSED tests/test_isc_cipher_roundtrip.py::test_size_limits
+PASSED tests/test_isc_cipher_roundtrip.py::test_generate_key_works_with_cipher
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[1]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[2]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[3]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[5]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[7]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[255]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[256]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[1000]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[2147483647]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[2147483648]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[2147483649]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[4294967295]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_accepted_value_is_floor_ws[4294967296]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_rejection_draws_next_word
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_rejects_out_of_range_bound
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[1]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[2]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[3]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[5]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[6]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[7]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[100]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[255]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[256]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[257]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[1000]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_bounded_is_exactly_uniform[4093]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_sbox_all_ones_words_gives_identity
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_sbox_matches_independent_fisher_yates_and_is_bijective
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_sbox_consumes_extra_word_on_rejection
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_spec_example
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_n1_consumes_nothing
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_bijective_and_matches_reference[2]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_bijective_and_matches_reference[3]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_bijective_and_matches_reference[17]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_bijective_and_matches_reference[256]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_permutation_bijective_and_matches_reference[1000]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_gather_and_scatter_are_inverse
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_spec_example_forward_backward_and_inverses
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[1]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[2]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[3]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[64]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[1000]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_diffusion_inverse_random_and_extreme_inputs[4097]
+PASSED tests/test_isc_cipher_sampling_diffusion.py::test_forward_recurrence_definition_independently
+PASSED tests/test_isc_map.py::test_frozen_parameters
+PASSED tests/test_isc_map.py::test_single_step_matches_spec
+PASSED tests/test_isc_map.py::test_output_bounded
+PASSED tests/test_isc_map.py::test_scalar_and_batched_bit_identical
+PASSED tests/test_isc_map.py::test_float32_stays_float32
+PASSED tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[analyze.py]
+PASSED tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[final_validation.py]
+PASSED tests/test_isc_map.py::test_legacy_step_reproduces_scripts_bitwise[final_freeze_validation.py]
+PASSED tests/test_isc_map.py::test_canonical_and_legacy_agree_per_step
+PASSED tests/test_isc_map.py::test_golden_values_regression
+PASSED tests/test_nist.py::test_frequency_example
+PASSED tests/test_nist.py::test_block_frequency_example
+PASSED tests/test_nist.py::test_runs_example
+PASSED tests/test_nist.py::test_longest_run_example
+PASSED tests/test_nist.py::test_universal_matches_independent_computation
+PASSED tests/test_nist.py::test_battery_protocol_on_reference_prng
+PASSED tests/test_nist.py::test_serial_example
+PASSED tests/test_nist.py::test_approximate_entropy_example
+PASSED tests/test_nist.py::test_cumulative_sums_example
+PASSED tests/test_nist.py::test_gf2_rank_matches_bruteforce
+PASSED tests/test_nist.py::test_rank_probabilities_32
+PASSED tests/test_nist.py::test_battery_reference_generator_mostly_passes
+PASSED tests/test_nist.py::test_battery_detects_bias
+PASSED tests/test_nist.py::test_protocol_evaluation
+PASSED tests/test_nist.py::test_proportion_range_matches_sp800_22
+PASSED tests/test_periodicity.py::test_brent_on_known_cycles
+PASSED tests/test_periodicity.py::test_brent_respects_budget
+PASSED tests/test_periodicity.py::test_floyd_meeting_index_is_multiple_of_period
+PASSED tests/test_periodicity.py::test_quantised_isc_map_cycles_quickly
+PASSED tests/test_sts_official.py::test_menu_answers
+PASSED tests/test_sts_official.py::test_series_labels_match_counts
+PASSED tests/test_sts_official.py::test_wsl_path
+PASSED tests/test_sts_official.py::test_sts_metrics_basic_and_thresholds
+PASSED tests/test_sts_official.py::test_sts_metrics_reproduces_float32_reading
+PASSED tests/test_sts_official.py::test_sts_metrics_small_and_empty_samples
+PASSED tests/test_sts_official.py::test_parse_counts_and_missing_lines
+PASSED tests/test_sts_official.py::test_random_excursion_applicability_and_report_rule
+PASSED tests/test_sts_official.py::test_applicability_inconsistency_is_reported
+PASSED tests/test_sts_official.py::test_cycle_count_matches_definition
+PASSED tests/test_sts_official.py::test_parse_final_analysis_report_and_verify
+PASSED tests/test_sts_official.py::test_parse_report_handles_empty_sample
+PASSED tests/test_sts_official.py::test_verify_treats_empty_report_row_as_zero_sample
+PASSED tests/test_sts_official.py::test_real_run_parses_and_matches_official_reports
+PASSED tests/test_sts_official.py::test_real_run_test_summary_consistent_with_series
+PASSED tests/test_trajectory_extract.py::test_transient_semantics
+PASSED tests/test_trajectory_extract.py::test_first_output_is_first_iterate_not_initial_condition
+PASSED tests/test_trajectory_extract.py::test_deterministic_and_batched_matches_single
+PASSED tests/test_trajectory_extract.py::test_initial_conditions_count_dependence_is_as_documented
+PASSED tests/test_trajectory_extract.py::test_float32_trajectory_dtype
+PASSED tests/test_trajectory_extract.py::test_invalid_arguments
+PASSED tests/test_trajectory_extract.py::test_save_load_roundtrip_and_no_overwrite
+PASSED tests/test_trajectory_extract.py::test_extractor_lengths_and_values[sign]
+PASSED tests/test_trajectory_extract.py::test_extractor_lengths_and_values[arccos8]
+PASSED tests/test_trajectory_extract.py::test_extractor_lengths_and_values[frac8]
+PASSED tests/test_trajectory_extract.py::test_extractor_lengths_and_values[mantissa8]
+PASSED tests/test_trajectory_extract.py::test_extractor_lengths_and_values[mantissa8_xor]
+PASSED tests/test_trajectory_extract.py::test_sign_bits_order
+PASSED tests/test_trajectory_extract.py::test_arccos_byte_endpoints_and_monotone
+PASSED tests/test_trajectory_extract.py::test_frac_byte
+PASSED tests/test_trajectory_extract.py::test_mantissa_byte_against_struct
+PASSED tests/test_trajectory_extract.py::test_byte_bits_are_msb_first_x_then_y
+SKIPPED [1] tests\test_isc_cipher_roundtrip.py:82: set ISC_SLOW=1 (scikit-image samples, full size)
+SKIPPED [1] tests\test_isc_cipher_roundtrip.py:138: set ISC_SLOW=1 (maximum size 4096 x 4096, several minutes)
+=========== 223 passed, 2 skipped, 11 warnings in 963.32s (0:16:03) ===========

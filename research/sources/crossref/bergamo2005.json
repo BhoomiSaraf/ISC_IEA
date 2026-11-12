@@ -1,0 +1,381 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/tcsi.2005.851701",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     3
+    ]
+   ],
+   "date-time": "2026-10-03T20:23:56Z",
+   "timestamp": 1791059036299,
+   "version": "4.1.0"
+  },
+  "reference-count": 36,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2005,
+       7,
+       1
+      ]
+     ],
+     "date-time": "2005-07-01T00:00:00Z",
+     "timestamp": 1120176000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Trans. Circuits Syst. I"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2005,
+     7
+    ]
+   ]
+  },
+  "DOI": "10.1109/tcsi.2005.851701",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2005,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2005-07-27T17:51:59Z",
+   "timestamp": 1122486719000
+  },
+  "page": "1382-1393",
+  "source": "Crossref",
+  "is-referenced-by-count": 265,
+  "title": [
+   "Security of public-key cryptosystems based on Chebyshev polynomials"
+  ],
+  "prefix": "10.1109",
+  "volume": "52",
+  "author": [
+   {
+    "given": "P.",
+    "family": "Bergamo",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "P.",
+    "family": "D'Arco",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "A.",
+    "family": "De Santis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "L.",
+    "family": "Kocarev",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref1",
+    "year": "1970",
+    "journal-title": "Dover"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/168588.168596"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-48658-5_30"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/mark.1979.8817296"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-46416-6_49"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/276698.276741"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02620136"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/S0097539791194999"
+   },
+   {
+    "key": "ref9",
+    "volume-title": "Introduction to Algorithms",
+    "author": "Cormen",
+    "year": "[AU: YEAR?]"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BFb0055717"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/S0097539702403773"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2001.972857"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1976.1055638"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1985.1057074"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/74540.74549"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0022-0000(84)90070-9"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-46416-6_11"
+   },
+   {
+    "key": "ref19",
+    "volume-title": "Controlling Chaos, Theoretical and Practical Methods in Non-Linear Dynamics",
+    "author": "Kapitaniak",
+    "year": "1996"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/7384.963463"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ISCAS.2003.1204947"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0167-2789(00)00184-6"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127499000778"
+   },
+   {
+    "key": "ref24",
+    "author": "Menezes",
+    "year": "1997",
+    "journal-title": "CRC"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.64.821"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/359168.359176"
+   },
+   {
+    "key": "ref27",
+    "author": "Stinson",
+    "year": "2002",
+    "journal-title": "Cryptography: Theory and Practice"
+   },
+   {
+    "key": "ref28",
+    "first-page": "433",
+    "article-title": "Noninteractive zero-knowledge proof of knowledge and chosen ciphertext attacks",
+    "volume-title": "Proc. Crypto\u201991",
+    "volume": "576",
+    "author": "Rackoff"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/359340.359342"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevE.55.5280"
+   },
+   {
+    "key": "ref31",
+    "volume-title": "System, apparatus, and method for outputting pseudorandom noise sequences, and data recording medium",
+    "author": "Umeno",
+    "year": "2003"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0898-1221(99)00339-9"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(02)00431-0"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-46035-7_10"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICCCAS.2004.1345928"
+   },
+   {
+    "key": "ref37",
+    "volume-title": "A Course of Modern Analysis",
+    "author": "Whittaker",
+    "year": "1935"
+   },
+   {
+    "key": "ref38",
+    "first-page": "104",
+    "author": "Umeno",
+    "year": "1999",
+    "journal-title": "Exactly solvable chaos and addition theorems of elliptic functions"
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Circuits and Systems I: Regular Papers"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx5/8919/32002/01487666.pdf?arnumber=1487666",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     4,
+     11
+    ]
+   ],
+   "date-time": "2025-04-11T04:50:34Z",
+   "timestamp": 1744347034000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/1487666/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2005,
+     7
+    ]
+   ]
+  },
+  "references-count": 36,
+  "journal-issue": {
+   "issue": "7"
+  },
+  "URL": "https://doi.org/10.1109/tcsi.2005.851701",
+  "relation": {},
+  "ISSN": [
+   "1057-7122"
+  ],
+  "issn-type": [
+   {
+    "value": "1057-7122",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2005,
+     7
+    ]
+   ]
+  }
+ }
+}

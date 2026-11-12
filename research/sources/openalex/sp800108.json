@@ -1,0 +1,577 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.6028/nist.sp.800-108r1",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W4301849883",
+  "doi": "https://doi.org/10.6028/nist.sp.800-108r1",
+  "title": "Recommendation for key derivation using pseudorandom functions",
+  "display_name": "Recommendation for key derivation using pseudorandom functions",
+  "publication_year": 2022,
+  "publication_date": "2022-08-11",
+  "ids": {
+   "openalex": "https://openalex.org/W4301849883",
+   "doi": "https://doi.org/10.6028/nist.sp.800-108r1"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.6028/nist.sp.800-108r1",
+   "doi": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "any_repository_has_fulltext": null
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5101968542",
+     "display_name": "Lily Chen",
+     "orcid": "https://orcid.org/0000-0002-3487-4967",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-3487-4967"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Lily Chen",
+    "raw_affiliation_strings": [
+     "National Institute of Standards and Technology Attn: Computer Security Division , Information Technology Laboratory 100 Bureau Drive (Mail Stop 8930) Gaithersburg , MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "National Institute of Standards and Technology Attn: Computer Security Division , Information Technology Laboratory 100 Bureau Drive (Mail Stop 8930) Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5101968542"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I1321296531",
+   "https://openalex.org/I4210126846"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 81,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 0.9692000150680542,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.9692000150680542,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11504",
+    "display_name": "Advanced Authentication Protocols Security",
+    "score": 0.018699999898672104,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1705",
+     "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.002899999963119626,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/key-derivation",
+    "display_name": "key derivation",
+    "score": 0.9940000176429749
+   },
+   {
+    "id": "https://openalex.org/keywords/pseudorandom-functions",
+    "display_name": "pseudorandom functions",
+    "score": 0.9559999704360962
+   },
+   {
+    "id": "https://openalex.org/keywords/hmac",
+    "display_name": "HMAC",
+    "score": 0.9200000166893005
+   },
+   {
+    "id": "https://openalex.org/keywords/cmac",
+    "display_name": "CMAC",
+    "score": 0.9990000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/key-establishment",
+    "display_name": "key establishment",
+    "score": 0.7300000190734863
+   },
+   {
+    "id": "https://openalex.org/keywords/secret-key",
+    "display_name": "secret key",
+    "score": 0.46399998664855957
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C26517878",
+    "wikidata": "https://www.wikidata.org/wiki/Q228039",
+    "display_name": "Key (lock)",
+    "level": 2,
+    "score": 0.8304675221443176
+   },
+   {
+    "id": "https://openalex.org/C140642157",
+    "wikidata": "https://www.wikidata.org/wiki/Q1623338",
+    "display_name": "Pseudorandom number generator",
+    "level": 2,
+    "score": 0.821820080280304
+   },
+   {
+    "id": "https://openalex.org/C178774983",
+    "wikidata": "https://www.wikidata.org/wiki/Q734896",
+    "display_name": "Pseudorandom function family",
+    "level": 3,
+    "score": 0.6868444681167603
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6076717972755432
+   },
+   {
+    "id": "https://openalex.org/C2776542216",
+    "wikidata": "https://www.wikidata.org/wiki/Q6398306",
+    "display_name": "Keying",
+    "level": 2,
+    "score": 0.5758612751960754
+   },
+   {
+    "id": "https://openalex.org/C100485629",
+    "wikidata": "https://www.wikidata.org/wiki/Q1669397",
+    "display_name": "Hash-based message authentication code",
+    "level": 4,
+    "score": 0.5453975796699524
+   },
+   {
+    "id": "https://openalex.org/C77618280",
+    "wikidata": "https://www.wikidata.org/wiki/Q1155772",
+    "display_name": "Scheme (mathematics)",
+    "level": 2,
+    "score": 0.5122091174125671
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.4867815673351288
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.39255082607269287
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.3611997365951538
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.2508540451526642
+   },
+   {
+    "id": "https://openalex.org/C141492731",
+    "wikidata": "https://www.wikidata.org/wiki/Q1052621",
+    "display_name": "Message authentication code",
+    "level": 3,
+    "score": 0.21681466698646545
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.18159520626068115
+   },
+   {
+    "id": "https://openalex.org/C76155785",
+    "wikidata": "https://www.wikidata.org/wiki/Q418",
+    "display_name": "Telecommunications",
+    "level": 1,
+    "score": 0.10600036382675171
+   },
+   {
+    "id": "https://openalex.org/C134306372",
+    "wikidata": "https://www.wikidata.org/wiki/Q7754",
+    "display_name": "Mathematical analysis",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.6028/nist.sp.800-108r1",
+    "doi": "https://doi.org/10.6028/nist.sp.800-108r1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+    "pdf_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "National Institute of Standards and Technology",
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.6028/nist.sp.800-108r1",
+   "doi": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-108r1",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320311089",
+    "display_name": "National Security Agency",
+    "ror": "https://ror.org/0047bvr32"
+   },
+   {
+    "id": "https://openalex.org/F4320332178",
+    "display_name": "National Institute of Standards and Technology",
+    "ror": "https://ror.org/05xpvk416"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4301849883.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4301849883.grobid-xml"
+  },
+  "referenced_works_count": 10,
+  "referenced_works": [
+   "https://openalex.org/W1536935781",
+   "https://openalex.org/W2117362057",
+   "https://openalex.org/W2724229234",
+   "https://openalex.org/W4210967652",
+   "https://openalex.org/W4230377664",
+   "https://openalex.org/W4245236482",
+   "https://openalex.org/W4246562921",
+   "https://openalex.org/W4255258048",
+   "https://openalex.org/W4298016935",
+   "https://openalex.org/W4298403653"
+  ],
+  "related_works": [
+   "https://openalex.org/W2148555789",
+   "https://openalex.org/W2160673074",
+   "https://openalex.org/W2061106457",
+   "https://openalex.org/W3150645827",
+   "https://openalex.org/W4301849883",
+   "https://openalex.org/W4283397891",
+   "https://openalex.org/W2138018877",
+   "https://openalex.org/W2994422363",
+   "https://openalex.org/W2891331077",
+   "https://openalex.org/W3006619306"
+  ],
+  "abstract_inverted_index": {
+   "This": [
+    0
+   ],
+   "Recommendation": [
+    1
+   ],
+   "specifies": [
+    2
+   ],
+   "techniques": [
+    3
+   ],
+   "for": [
+    4
+   ],
+   "the": [
+    5
+   ],
+   "derivation": [
+    6
+   ],
+   "of": [
+    7
+   ],
+   "additional": [
+    8
+   ],
+   "keying": [
+    9
+   ],
+   "material": [
+    10
+   ],
+   "from": [
+    11
+   ],
+   "a": [
+    12,
+    18
+   ],
+   "secret": [
+    13
+   ],
+   "key": [
+    14
+   ],
+   "either": [
+    15
+   ],
+   "established": [
+    16
+   ],
+   "through": [
+    17,
+    23
+   ],
+   "key-establishment": [
+    19
+   ],
+   "scheme": [
+    20
+   ],
+   "or": [
+    21
+   ],
+   "shared": [
+    22
+   ],
+   "some": [
+    24
+   ],
+   "other": [
+    25
+   ],
+   "manner": [
+    26
+   ],
+   "using": [
+    27
+   ],
+   "pseudorandom": [
+    28
+   ],
+   "functions:": [
+    29
+   ],
+   "HMAC,": [
+    30
+   ],
+   "CMAC,": [
+    31
+   ],
+   "and": [
+    32
+   ],
+   "KMAC.": [
+    33
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 9
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 29
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 5
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 2
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 2
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 5
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 2
+   }
+  ],
+  "updated_date": "2026-09-27T08:07:27.782135",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

@@ -1,0 +1,532 @@
+{
+ "query": "https://api.crossref.org/works/10.1155/2014/490179",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     12
+    ]
+   ],
+   "date-time": "2026-05-12T20:48:10Z",
+   "timestamp": 1778618890940,
+   "version": "3.51.4"
+  },
+  "reference-count": 21,
+  "publisher": "Wiley",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2014,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2014-01-01T00:00:00Z",
+     "timestamp": 1388534400000
+    },
+    "content-version": "unspecified",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by/3.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61073013"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61073013"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "20121045"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "20121045"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "X201316"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "X201316"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Doctoral Scientific Research Foundation of Liaoning Province",
+    "award": [
+     "61073013"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61073013"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Doctoral Scientific Research Foundation of Liaoning Province",
+    "award": [
+     "20121045"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "20121045"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Doctoral Scientific Research Foundation of Liaoning Province",
+    "award": [
+     "X201316"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "X201316"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Scientific Research Foundation of Liaoning University of Technology",
+    "award": [
+     "61073013"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61073013"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Scientific Research Foundation of Liaoning University of Technology",
+    "award": [
+     "20121045"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "20121045"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Scientific Research Foundation of Liaoning University of Technology",
+    "award": [
+     "X201316"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "X201316"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "The Scientific World Journal"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "abstract": "<jats:p>In the field of chaotic image encryption, the algorithm based on correlating key with plaintext has become a new developing direction. However, for this kind of algorithm, some shortcomings in resistance to reconstruction attack, efficient utilization of chaotic resource, and reducing dynamical degradation of digital chaos are found. In order to solve these problems and further enhance the security of encryption algorithm, based on disturbance and feedback mechanism, we present a new image encryption scheme. In the running-key generation stage, by successively disturbing chaotic stream with cipher-text, the relation of running-key to plaintext is established, reconstruction attack is avoided, effective use of chaotic resource is guaranteed, and dynamical degradation of digital chaos is minimized. In the image encryption stage, by introducing random-feedback mechanism, the difficulty of breaking this scheme is increased. Comparing with the-state-of-the-art algorithms, our scheme exhibits good properties such as large key space, long key period, and extreme sensitivity to the initial key and plaintext. Therefore, it can resist brute-force, reconstruction attack, and differential attack.</jats:p>",
+  "DOI": "10.1155/2014/490179",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     2,
+     23
+    ]
+   ],
+   "date-time": "2014-02-23T21:04:35Z",
+   "timestamp": 1393189475000
+  },
+  "page": "1-9",
+  "source": "Crossref",
+  "is-referenced-by-count": 10,
+  "title": [
+   "Chaotic Image Encryption Based on Running-Key Related to Plaintext"
+  ],
+  "prefix": "10.1155",
+  "volume": "2014",
+  "author": [
+   {
+    "given": "Cao",
+    "family": "Guanghui",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Electronic & Information Engineering College, Liaoning University of Technology, Jinzhou 121001, China"
+     },
+     {
+      "name": "School of Computer Science and Technology, Beihang University, Beijing 100191, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Hu",
+    "family": "Kai",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Computer Science and Technology, Beihang University, Beijing 100191, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Zhang",
+    "family": "Yizhi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Electronic & Information Engineering College, Liaoning University of Technology, Jinzhou 121001, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Zhou",
+    "family": "Jun",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Electronic & Information Engineering College, Liaoning University of Technology, Jinzhou 121001, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Zhang",
+    "family": "Xing",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Electronic & Information Engineering College, Liaoning University of Technology, Jinzhou 121001, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "reference": [
+   {
+    "key": "1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2011.08.017"
+   },
+   {
+    "key": "2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.2728112"
+   },
+   {
+    "issue": "6",
+    "key": "3",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "volume": "8",
+    "year": "1998",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "key": "4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.022"
+   },
+   {
+    "key": "5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812740401151X"
+   },
+   {
+    "key": "6",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "270",
+    "DOI": "10.1007/11582267_24",
+    "volume-title": "A color image encryption algorithm based on magic cube transformation and modular arithmetic operation",
+    "volume": "3768",
+    "year": "2005"
+   },
+   {
+    "key": "7",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "671",
+    "DOI": "10.1007/11795131_98",
+    "volume-title": "A new chaos-based encryption method for color image",
+    "volume": "4062",
+    "year": "2006"
+   },
+   {
+    "key": "9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127406015970"
+   },
+   {
+    "key": "10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127410026563"
+   },
+   {
+    "issue": "1",
+    "key": "11",
+    "first-page": "73",
+    "volume": "9",
+    "year": "2012",
+    "journal-title": "China Communications"
+   },
+   {
+    "key": "12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2011.12.023"
+   },
+   {
+    "issue": "3",
+    "key": "13",
+    "doi-asserted-by": "crossref",
+    "first-page": "826",
+    "DOI": "10.1016/j.jss.2012.11.026",
+    "volume": "86",
+    "year": "2013",
+    "journal-title": "Journal of Systems and Software"
+   },
+   {
+    "key": "14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2011.11.030"
+   },
+   {
+    "issue": "7",
+    "key": "15",
+    "doi-asserted-by": "crossref",
+    "first-page": "4007",
+    "DOI": "10.7498/aps.57.4007",
+    "volume": "57",
+    "year": "2008",
+    "journal-title": "Acta Physica Sinica"
+   },
+   {
+    "key": "16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S1005-8885(08)60109-0"
+   },
+   {
+    "key": "17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127405014052"
+   },
+   {
+    "key": "18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/1674-1056/18/12/019"
+   },
+   {
+    "key": "19",
+    "series-title": "Lecture Notes in Mathematics",
+    "doi-asserted-by": "crossref",
+    "first-page": "230",
+    "DOI": "10.1007/BFb0091916",
+    "volume-title": "On the numerical determination of the dimension of an attractor",
+    "volume": "898",
+    "year": "1981"
+   },
+   {
+    "issue": "4",
+    "key": "20",
+    "doi-asserted-by": "crossref",
+    "first-page": "656",
+    "DOI": "10.1002/j.1538-7305.1949.tb00928.x",
+    "volume": "28",
+    "year": "1949",
+    "journal-title": "Bell System Technical Journal"
+   },
+   {
+    "key": "21",
+    "first-page": "67",
+    "volume": "77",
+    "year": "2002",
+    "journal-title": "Bulletin of the EATCS"
+   },
+   {
+    "key": "22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2011.02.039"
+   }
+  ],
+  "container-title": [
+   "The Scientific World Journal"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://downloads.hindawi.com/journals/tswj/2014/490179.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://downloads.hindawi.com/journals/tswj/2014/490179.xml",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://downloads.hindawi.com/journals/tswj/2014/490179.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     3,
+     27
+    ]
+   ],
+   "date-time": "2022-03-27T12:44:42Z",
+   "timestamp": 1648385082000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://www.hindawi.com/journals/tswj/2014/490179/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "references-count": 21,
+  "alternative-id": [
+   "490179",
+   "490179"
+  ],
+  "URL": "https://doi.org/10.1155/2014/490179",
+  "relation": {},
+  "ISSN": [
+   "2356-6140",
+   "1537-744X"
+  ],
+  "issn-type": [
+   {
+    "value": "2356-6140",
+    "type": "print"
+   },
+   {
+    "value": "1537-744X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  }
+ }
+}

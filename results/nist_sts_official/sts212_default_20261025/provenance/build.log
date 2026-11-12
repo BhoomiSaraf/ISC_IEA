@@ -1,0 +1,53 @@
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+GNU Make 4.3
+ldd (Ubuntu GLIBC 2.39-0ubuntu8.6) 2.39
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
+
+/usr/bin/gcc -o obj/assess.o -c ./src/assess.c
+/usr/bin/gcc -o obj/frequency.o -c -Wall ./src/frequency.c
+/usr/bin/gcc -o obj/blockFrequency.o -c -Wall ./src/blockFrequency.c
+/usr/bin/gcc -o obj/cusum.o -c -Wall ./src/cusum.c
+/usr/bin/gcc -o obj/runs.o -c -Wall ./src/runs.c
+/usr/bin/gcc -o obj/longestRunOfOnes.o -c -Wall ./src/longestRunOfOnes.c
+/usr/bin/gcc -o obj/serial.o -c -Wall ./src/serial.c
+/usr/bin/gcc -o obj/rank.o -c -Wall ./src/rank.c
+/usr/bin/gcc -o obj/discreteFourierTransform.o -c -Wall ./src/discreteFourierTransform.c
+/usr/bin/gcc -o obj/nonOverlappingTemplateMatchings.o -c -Wall ./src/nonOverlappingTemplateMatchings.c
+./src/nonOverlappingTemplateMatchings.c: In function ‘NonOverlappingTemplateMatchings’:
+./src/nonOverlappingTemplateMatchings.c:24:37: warning: variable ‘nu’ set but not used [-Wunused-but-set-variable]
+   24 |         unsigned int    bit, W_obs, nu[6], *Wj = NULL;
+      |                                     ^~
+/usr/bin/gcc -o obj/overlappingTemplateMatchings.o -c -Wall ./src/overlappingTemplateMatchings.c
+/usr/bin/gcc -o obj/universal.o -c -Wall ./src/universal.c
+/usr/bin/gcc -o obj/approximateEntropy.o -c -Wall ./src/approximateEntropy.c
+/usr/bin/gcc -o obj/randomExcursions.o -c -Wall ./src/randomExcursions.c
+/usr/bin/gcc -o obj/randomExcursionsVariant.o -c -Wall ./src/randomExcursionsVariant.c
+/usr/bin/gcc -o obj/linearComplexity.o -c -Wall ./src/linearComplexity.c
+/usr/bin/gcc -o obj/dfft.o -c -Wall ./src/dfft.c
+/usr/bin/gcc -o obj/cephes.o -c -Wall ./src/cephes.c
+/usr/bin/gcc -o obj/matrix.o -c -Wall ./src/matrix.c
+./src/matrix.c: In function ‘find_unit_element_and_swap’:
+./src/matrix.c:69:17: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+   69 |                 while ( (index < M) && (A[index][i] == 0) )
+      |                 ^~~~~
+./src/matrix.c:71:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   71 |                         if ( index < M )
+      |                         ^~
+./src/matrix.c:76:17: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+   76 |                 while ( (index >= 0) && (A[index][i] == 0) )
+      |                 ^~~~~
+./src/matrix.c:78:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   78 |                         if ( index >= 0 )
+      |                         ^~
+/usr/bin/gcc -o obj/utilities.o -c -Wall ./src/utilities.c
+/usr/bin/gcc -o obj/generators.o -c -Wall ./src/generators.c
+./src/generators.c: In function ‘lcg’:
+./src/generators.c:48:28: warning: variable ‘counter’ set but not used [-Wunused-but-set-variable]
+   48 |         int             i, counter;
+      |                            ^~~~~~~
+/usr/bin/gcc -o obj/genutils.o -c -Wall ./src/genutils.c
+./src/genutils.c: In function ‘Mult’:
+./src/genutils.c:175:34: warning: variable ‘LA’ set but not used [-Wunused-but-set-variable]
+  175 |         int             i, j, k, LA;
+      |                                  ^~
+/usr/bin/gcc -o assess ./obj/assess.o ./obj/frequency.o ./obj/blockFrequency.o ./obj/cusum.o ./obj/runs.o ./obj/longestRunOfOnes.o ./obj/serial.o ./obj/rank.o ./obj/discreteFourierTransform.o ./obj/nonOverlappingTemplateMatchings.o ./obj/overlappingTemplateMatchings.o ./obj/universal.o ./obj/approximateEntropy.o ./obj/randomExcursions.o ./obj/randomExcursionsVariant.o ./obj/linearComplexity.o ./obj/dfft.o ./obj/cephes.o ./obj/matrix.o ./obj/utilities.o ./obj/generators.o ./obj/genutils.o -lm

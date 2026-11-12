@@ -1,0 +1,17 @@
+{
+ "type": "EXPLORATORY",
+ "rows": [
+  {
+   "k": 8,
+   "bits_per_coordinate_output": 2,
+   "candidates_initial": 66049,
+   "steps_used": 64,
+   "candidates_left": 15,
+   "map_evaluations": 71639,
+   "predicts_remaining_outputs": true,
+   "seconds": 0.22
+  }
+ ],
+ "note": "reduced-precision model only; says nothing directly about full binary64 ISC lanes",
+ "elapsed_seconds": 3.58
+}

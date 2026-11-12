@@ -1,0 +1,6 @@
+case,supported,exact,note
+1x1_grayscale,True,True,
+non_contiguous_transpose_view,True,True,"encrypt() calls np.ascontiguousarray() internally, so a transposed view is accepted and correctly materialized before flattening"
+rgba_4channel,False,False,"correctly rejected: shape must be (H, W) or (H, W, 3)"
+uint16_dtype,False,False,correctly rejected: image must be a numpy uint8 array
+empty_plaintext_h0w0,False,False,"correctly rejected (h,w>=1 required): unsupported dimensions (1 <= H, W <= 65535, C in {1, 3}, H*W*C <= 2^24)"

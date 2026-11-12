@@ -1,0 +1,231 @@
+{
+ "query": "https://api.crossref.org/works/10.6028/nist.sp.800-108r1",
+ "message": {
+  "institution": [
+   {
+    "id": [
+     {
+      "id": "https://ror.org/05xpvk416",
+      "id-type": "ROR",
+      "asserted-by": "publisher"
+     },
+     {
+      "id": "https://www.isni.org/000000012158463X",
+      "id-type": "ISNI",
+      "asserted-by": "publisher"
+     }
+    ],
+    "name": "National Institute of Standards and Technology",
+    "department": [
+     "Information Technology Laboratory"
+    ]
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T09:03:14Z",
+   "timestamp": 1790499794158,
+   "version": "4.1.0"
+  },
+  "publisher-location": "Gaithersburg, MD",
+  "update-to": [
+   {
+    "DOI": "10.6028/nist.sp.800-108",
+    "type": "new_version",
+    "label": "New version",
+    "source": "publisher",
+    "updated": {
+     "date-parts": [
+      [
+       2022,
+       8,
+       17
+      ]
+     ],
+     "date-time": "2022-08-17T00:00:00Z",
+     "timestamp": 1660694400000
+    }
+   }
+  ],
+  "reference-count": 0,
+  "publisher": "National Institute of Standards and Technology (U.S.)",
+  "funder": [
+   {
+    "DOI": "10.13039/100000161",
+    "name": "National Institute of Standards and Technology",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000161",
+    "name": "Information Technology Laboratory",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "nvlpubs.nist.gov"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "abstract": "<jats:p>This Recommendation specifies techniques for the derivation of additional keying material from a secret key either established through a key-establishment scheme or shared through some other manner using pseudorandom functions: HMAC, CMAC, and KMAC.</jats:p>",
+  "DOI": "10.6028/nist.sp.800-108r1",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     11
+    ]
+   ],
+   "date-time": "2022-08-11T12:04:12Z",
+   "timestamp": 1660219452000
+  },
+  "update-policy": "https://doi.org/10.6028/nist-techpubs.crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 20,
+  "title": [
+   "Recommendation for key derivation using pseudorandom functions"
+  ],
+  "prefix": "10.6028",
+  "author": [
+   {
+    "given": "Lily",
+    "family": "Chen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "4068",
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     17
+    ]
+   ]
+  },
+  "updated-by": [
+   {
+    "DOI": "10.6028/nist.sp.800-108r1-upd1",
+    "type": "erratum",
+    "label": "Erratum",
+    "source": "publisher",
+    "updated": {
+     "date-parts": [
+      [
+       2024,
+       2,
+       2
+      ]
+     ],
+     "date-time": "2024-02-02T00:00:00Z",
+     "timestamp": 1706832000000
+    }
+   }
+  ],
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     11
+    ]
+   ],
+   "date-time": "2024-10-11T14:51:42Z",
+   "timestamp": 1728658302000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1.pdf"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     17
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.6028/nist.sp.800-108r1",
+  "relation": {
+   "replaces": [
+    {
+     "id-type": "doi",
+     "id": "10.6028/NIST.SP.800-108",
+     "asserted-by": "subject"
+    }
+   ]
+  },
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     17
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "URL": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "order": 0,
+    "name": "licensing",
+    "label": "Licensing Information",
+    "group": {
+     "name": "copyright_licensing",
+     "label": "Copyright, Fair Use, and Licensing"
+    }
+   },
+   {
+    "value": "https://doi.org/10.6028/NIST.SP.800-108",
+    "URL": "10.6028/NIST.SP.800-108",
+    "order": 0,
+    "name": "publication_history",
+    "label": "Supersedes",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

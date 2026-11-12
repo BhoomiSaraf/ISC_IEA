@@ -1,0 +1,13 @@
+{
+ "a_lanes": 64,
+ "a_max_steps": 3000,
+ "b_lanes": 4096,
+ "b_subset": 256,
+ "b_subset_steps": 1024,
+ "b_check_every": 256,
+ "c_pairs": 100,
+ "d_steps": 2000,
+ "seed": 606,
+ "experiment": "A6_states",
+ "mode": "diagnostic"
+}

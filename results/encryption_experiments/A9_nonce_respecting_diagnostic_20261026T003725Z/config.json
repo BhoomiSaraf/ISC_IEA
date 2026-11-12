@@ -1,0 +1,11 @@
+{
+ "dims": [
+  64,
+  64,
+  1
+ ],
+ "fresh_nonce_trials": 3,
+ "transfer_images": 3,
+ "experiment": "A9_nonce_respecting",
+ "mode": "diagnostic"
+}

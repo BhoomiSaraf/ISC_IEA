@@ -1,0 +1,20 @@
+{
+  "name": "default",
+  "params": {"a": 0.9, "c": 0.4, "d": 6.0, "omega": 10.0},
+  "seed": 20261025,
+  "n_sequences": 100,
+  "bits_per_sequence": 1000000,
+  "transient": 5000,
+  "batch_size": 10,
+  "methods": ["sign", "arccos8", "frac8", "mantissa8", "mantissa8_xor"],
+  "nist": {"alpha": 0.01, "serial_m": 16, "apen_m": 10, "block_M": 128},
+  "raw_stats": {"max_lag": 10, "entropy_ns": [10000, 50000, 100000, 200000, 500000]},
+  "periodicity": {
+    "float32_ics": 10, "float32_max_steps": 4000000,
+    "float64_ics": 3, "float64_max_steps": 2000000,
+    "quant_bits": [8, 10, 12, 14, 16], "quant_ics": 10, "quant_max_steps": 4000000,
+    "legacy_check": true, "legacy_floyd_max_iter": 1000000
+  },
+  "legacy_reproduction": true,
+  "save": {"raw_trajectory_first_sequence": true, "bitstreams": true}
+}

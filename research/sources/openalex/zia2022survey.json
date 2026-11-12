@@ -1,0 +1,1263 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1007/s10207-022-00588-5",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W4225668582",
+  "doi": "https://doi.org/10.1007/s10207-022-00588-5",
+  "title": "Survey on image encryption techniques using chaotic maps in spatial, transform and spatiotemporal domains",
+  "display_name": "Survey on image encryption techniques using chaotic maps in spatial, transform and spatiotemporal domains",
+  "publication_year": 2022,
+  "publication_date": "2022-04-07",
+  "ids": {
+   "openalex": "https://openalex.org/W4225668582",
+   "doi": "https://doi.org/10.1007/s10207-022-00588-5"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1007/s10207-022-00588-5",
+   "doi": "https://doi.org/10.1007/s10207-022-00588-5",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s10207-022-00588-5",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+   "source": {
+    "id": "https://openalex.org/S164062316",
+    "display_name": "International Journal of Information Security",
+    "issn_l": "1615-5262",
+    "issn": [
+     "1615-5262",
+     "1615-5270"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-d",
+     "jufo-1",
+     "norway-2",
+     "poland-100",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Journal of Information Security",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "hybrid",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5076206820",
+     "display_name": "Unsub Zia",
+     "orcid": "https://orcid.org/0000-0003-1422-2408",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-1422-2408"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Unsub Zia",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-1422-2408",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5045122982",
+     "display_name": "Mark McCartney",
+     "orcid": "https://orcid.org/0000-0001-9304-419X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-9304-419X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Mark McCartney",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5025293749",
+     "display_name": "Bryan W. Scotney",
+     "orcid": "https://orcid.org/0000-0002-8243-2223",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8243-2223"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Bryan Scotney",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-8243-2223",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5013444161",
+     "display_name": "Jorge Mart\u00ednez Carracedo",
+     "orcid": "https://orcid.org/0000-0001-8017-2598",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8017-2598"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jorge Martinez",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8017-2598",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5067408685",
+     "display_name": "Mamun Abu-Tair",
+     "orcid": "https://orcid.org/0000-0001-6796-9981",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-6796-9981"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Mamun AbuTair",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-6796-9981",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5025556182",
+     "display_name": "Jamshed Memon",
+     "orcid": "https://orcid.org/0000-0001-8314-5333",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8314-5333"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I138801177",
+      "display_name": "University of Ulster",
+      "ror": "https://ror.org/01yp9g959",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Jamshed Memon",
+    "raw_affiliation_strings": [
+     "Ulster University, Northern Ireland, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8314-5333",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Ulster University, Northern Ireland, UK",
+      "institution_ids": [
+       "https://openalex.org/I138801177"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5051623294",
+     "display_name": "Ali Sajjad",
+     "orcid": "https://orcid.org/0000-0003-0150-8060",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-0150-8060"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1332878012",
+      "display_name": "BT Group (United Kingdom)",
+      "ror": "https://ror.org/00kv9pj15",
+      "country_code": "GB",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I1332878012"
+      ]
+     }
+    ],
+    "countries": [
+     "GB"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Ali Sajjad",
+    "raw_affiliation_strings": [
+     "Applied Research, British Telecom, Ipswich, UK"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0003-0150-8060",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Applied Research, British Telecom, Ipswich, UK",
+      "institution_ids": [
+       "https://openalex.org/I1332878012"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5076206820"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I138801177"
+  ],
+  "apc_list": {
+   "value": 2990,
+   "currency": "USD",
+   "value_usd": 2990
+  },
+  "apc_paid": {
+   "value": 2990,
+   "currency": "USD",
+   "value_usd": 2990
+  },
+  "fwci": 13.5221,
+  "has_fulltext": true,
+  "cited_by_count": 227,
+  "citation_normalized_percentile": {
+   "value": 0.99466972,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 99,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "21",
+   "issue": "4",
+   "first_page": "917",
+   "last_page": "935"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T13674",
+    "display_name": "Computer Science and Engineering",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10388",
+    "display_name": "Advanced Steganography and Watermarking Techniques",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/image-encryption",
+    "display_name": "image encryption",
+    "score": 0.9399999976158142
+   },
+   {
+    "id": "https://openalex.org/keywords/chaos-based-cryptosystem",
+    "display_name": "chaos-based cryptosystem",
+    "score": 0.859000027179718
+   },
+   {
+    "id": "https://openalex.org/keywords/chaotic-maps",
+    "display_name": "chaotic maps",
+    "score": 0.9980000257492065
+   },
+   {
+    "id": "https://openalex.org/keywords/chebyshev-polynomials",
+    "display_name": "Chebyshev polynomials",
+    "score": 0.949999988079071
+   },
+   {
+    "id": "https://openalex.org/keywords/video-encryption",
+    "display_name": "video encryption",
+    "score": 0.7059999704360962
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.8610059022903442
+   },
+   {
+    "id": "https://openalex.org/C6295992",
+    "wikidata": "https://www.wikidata.org/wiki/Q976521",
+    "display_name": "Cryptosystem",
+    "level": 3,
+    "score": 0.7198365926742554
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6786891222000122
+   },
+   {
+    "id": "https://openalex.org/C2779374083",
+    "wikidata": "https://www.wikidata.org/wiki/Q5011038",
+    "display_name": "CHAOS (operating system)",
+    "level": 2,
+    "score": 0.6741476655006409
+   },
+   {
+    "id": "https://openalex.org/C57795399",
+    "wikidata": "https://www.wikidata.org/wiki/Q5265706",
+    "display_name": "Deterministic encryption",
+    "level": 4,
+    "score": 0.5687945485115051
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.5484666228294373
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.5423411130905151
+   },
+   {
+    "id": "https://openalex.org/C54569210",
+    "wikidata": "https://www.wikidata.org/wiki/Q7246854",
+    "display_name": "Probabilistic encryption",
+    "level": 3,
+    "score": 0.5314409136772156
+   },
+   {
+    "id": "https://openalex.org/C2777052490",
+    "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+    "display_name": "Chaotic",
+    "level": 2,
+    "score": 0.5109376311302185
+   },
+   {
+    "id": "https://openalex.org/C115961682",
+    "wikidata": "https://www.wikidata.org/wiki/Q860623",
+    "display_name": "Image (mathematics)",
+    "level": 2,
+    "score": 0.5075229406356812
+   },
+   {
+    "id": "https://openalex.org/C26517878",
+    "wikidata": "https://www.wikidata.org/wiki/Q228039",
+    "display_name": "Key (lock)",
+    "level": 2,
+    "score": 0.5003714561462402
+   },
+   {
+    "id": "https://openalex.org/C119133118",
+    "wikidata": "https://www.wikidata.org/wiki/Q7200761",
+    "display_name": "Plaintext-aware encryption",
+    "level": 5,
+    "score": 0.5003006458282471
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.45845288038253784
+   },
+   {
+    "id": "https://openalex.org/C154945302",
+    "wikidata": "https://www.wikidata.org/wiki/Q11660",
+    "display_name": "Artificial intelligence",
+    "level": 1,
+    "score": 0.2191145420074463
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.18280702829360962
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.1007/s10207-022-00588-5",
+    "doi": "https://doi.org/10.1007/s10207-022-00588-5",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s10207-022-00588-5",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+    "source": {
+     "id": "https://openalex.org/S164062316",
+     "display_name": "International Journal of Information Security",
+     "issn_l": "1615-5262",
+     "issn": [
+      "1615-5262",
+      "1615-5270"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "dongbi-d",
+      "jufo-1",
+      "norway-2",
+      "poland-100",
+      "russia-white-list-2"
+     ],
+     "host_organization": "https://openalex.org/P4310319900",
+     "host_organization_name": "Springer Science+Business Media",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319900",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer Science+Business Media",
+      "Springer Nature"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Information Security",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:pure.atira.dk:openaire/f7299f3f-3a2a-4f4d-8de7-611e2e03003d",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://pure.ulster.ac.uk/en/publications/f7299f3f-3a2a-4f4d-8de7-611e2e03003d",
+    "pdf_url": "https://pure.ulster.ac.uk/ws/files/101743662/Survey_On_Image_EncryptionTechniq.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306402454",
+     "display_name": "Ulster University Research Portal (Ulster University)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I138801177",
+     "host_organization_name": "University of Ulster",
+     "host_organization_lineage": [
+      "https://openalex.org/I138801177"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": "Zia, S M U, McCartney, M, Scotney, B, Martinez Carracedo, J, Abu-Tair, M, Memon, J & Sajjad, A 2022, 'Survey on Image Encryption Techniques using Chaotic Maps in Spatial, Transform and Spatiotemporal Domains', International Journal of Information Security, vol. 21, no. 4, pp. 1-19. https://doi.org/10.1007/s10207-022-00588-5",
+    "raw_type": "info:eu-repo/semantics/article"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.1007/s10207-022-00588-5",
+   "doi": "https://doi.org/10.1007/s10207-022-00588-5",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s10207-022-00588-5",
+   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+   "source": {
+    "id": "https://openalex.org/S164062316",
+    "display_name": "International Journal of Information Security",
+    "issn_l": "1615-5262",
+    "issn": [
+     "1615-5262",
+     "1615-5270"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-d",
+     "jufo-1",
+     "norway-2",
+     "poland-100",
+     "russia-white-list-2"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Journal of Information Security",
+   "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "id": "https://metadata.un.org/sdg/16",
+    "display_name": "Peace, justice, and strong institutions",
+    "score": 0.4399999976158142
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320314204",
+    "display_name": "Invest Northern Ireland",
+    "ror": "https://ror.org/00qnrsq87"
+   },
+   {
+    "id": "https://openalex.org/F4320320329",
+    "display_name": "British Telecommunications",
+    "ror": "https://ror.org/00kv9pj15"
+   }
+  ],
+  "has_content": {
+   "grobid_xml": true,
+   "pdf": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4225668582.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4225668582.grobid-xml"
+  },
+  "referenced_works_count": 132,
+  "referenced_works": [
+   "https://openalex.org/W1499522599",
+   "https://openalex.org/W1500356409",
+   "https://openalex.org/W1545756401",
+   "https://openalex.org/W1556597491",
+   "https://openalex.org/W1561363170",
+   "https://openalex.org/W1569252980",
+   "https://openalex.org/W1573222895",
+   "https://openalex.org/W1597699498",
+   "https://openalex.org/W1603934303",
+   "https://openalex.org/W1894646615",
+   "https://openalex.org/W1949810609",
+   "https://openalex.org/W1963898829",
+   "https://openalex.org/W1977776154",
+   "https://openalex.org/W2000309477",
+   "https://openalex.org/W2007242835",
+   "https://openalex.org/W2007802160",
+   "https://openalex.org/W2009621772",
+   "https://openalex.org/W2010620862",
+   "https://openalex.org/W2010885591",
+   "https://openalex.org/W2013613544",
+   "https://openalex.org/W2024116832",
+   "https://openalex.org/W2033975883",
+   "https://openalex.org/W2036349070",
+   "https://openalex.org/W2037545544",
+   "https://openalex.org/W2037720111",
+   "https://openalex.org/W2041330138",
+   "https://openalex.org/W2043811010",
+   "https://openalex.org/W2051074144",
+   "https://openalex.org/W2056105196",
+   "https://openalex.org/W2060791695",
+   "https://openalex.org/W2063685463",
+   "https://openalex.org/W2074882608",
+   "https://openalex.org/W2081451319",
+   "https://openalex.org/W2082182279",
+   "https://openalex.org/W2088793480",
+   "https://openalex.org/W2090023141",
+   "https://openalex.org/W2097819018",
+   "https://openalex.org/W2098297578",
+   "https://openalex.org/W2101246926",
+   "https://openalex.org/W2102174595",
+   "https://openalex.org/W2120885950",
+   "https://openalex.org/W2121125304",
+   "https://openalex.org/W2128546931",
+   "https://openalex.org/W2143840652",
+   "https://openalex.org/W2145776412",
+   "https://openalex.org/W2147502515",
+   "https://openalex.org/W2150378887",
+   "https://openalex.org/W2156186849",
+   "https://openalex.org/W2170234221",
+   "https://openalex.org/W2207398216",
+   "https://openalex.org/W2313304643",
+   "https://openalex.org/W2323473128",
+   "https://openalex.org/W2328175339",
+   "https://openalex.org/W2355550369",
+   "https://openalex.org/W2422610273",
+   "https://openalex.org/W2462918968",
+   "https://openalex.org/W2507521523",
+   "https://openalex.org/W2522139398",
+   "https://openalex.org/W2523137896",
+   "https://openalex.org/W2547085574",
+   "https://openalex.org/W2547857037",
+   "https://openalex.org/W2552635402",
+   "https://openalex.org/W2562860847",
+   "https://openalex.org/W2564046431",
+   "https://openalex.org/W2583685912",
+   "https://openalex.org/W2583995297",
+   "https://openalex.org/W2592206357",
+   "https://openalex.org/W2596583328",
+   "https://openalex.org/W2603527983",
+   "https://openalex.org/W2604322561",
+   "https://openalex.org/W2606922384",
+   "https://openalex.org/W2735389800",
+   "https://openalex.org/W2746859623",
+   "https://openalex.org/W2750706617",
+   "https://openalex.org/W2760967785",
+   "https://openalex.org/W2766777494",
+   "https://openalex.org/W2767797770",
+   "https://openalex.org/W2770022950",
+   "https://openalex.org/W2770440250",
+   "https://openalex.org/W2790379335",
+   "https://openalex.org/W2790533449",
+   "https://openalex.org/W2790843571",
+   "https://openalex.org/W2793374487",
+   "https://openalex.org/W2797416078",
+   "https://openalex.org/W2803633784",
+   "https://openalex.org/W2804041477",
+   "https://openalex.org/W2806287498",
+   "https://openalex.org/W2808159413",
+   "https://openalex.org/W2808665100",
+   "https://openalex.org/W2809058415",
+   "https://openalex.org/W2810072183",
+   "https://openalex.org/W2842644092",
+   "https://openalex.org/W2883860000",
+   "https://openalex.org/W2883984100",
+   "https://openalex.org/W2888617929",
+   "https://openalex.org/W2889887095",
+   "https://openalex.org/W2895809499",
+   "https://openalex.org/W2895870710",
+   "https://openalex.org/W2897664099",
+   "https://openalex.org/W2901602009",
+   "https://openalex.org/W2907236946",
+   "https://openalex.org/W2908420681",
+   "https://openalex.org/W2909459674",
+   "https://openalex.org/W2912584642",
+   "https://openalex.org/W2913940620",
+   "https://openalex.org/W2915449064",
+   "https://openalex.org/W2917996869",
+   "https://openalex.org/W2943424596",
+   "https://openalex.org/W2948556935",
+   "https://openalex.org/W2949464293",
+   "https://openalex.org/W2972307409",
+   "https://openalex.org/W2975069116",
+   "https://openalex.org/W2976706823",
+   "https://openalex.org/W2976828254",
+   "https://openalex.org/W2979113336",
+   "https://openalex.org/W2980452906",
+   "https://openalex.org/W2987884598",
+   "https://openalex.org/W3005886022",
+   "https://openalex.org/W3010845618",
+   "https://openalex.org/W3013808668",
+   "https://openalex.org/W3015526431",
+   "https://openalex.org/W3017948761",
+   "https://openalex.org/W3019581990",
+   "https://openalex.org/W3023833946",
+   "https://openalex.org/W3040524301",
+   "https://openalex.org/W3043315433",
+   "https://openalex.org/W3048972734",
+   "https://openalex.org/W3102512821",
+   "https://openalex.org/W3139123230",
+   "https://openalex.org/W4230620784",
+   "https://openalex.org/W4244951634",
+   "https://openalex.org/W6600952760"
+  ],
+  "related_works": [
+   "https://openalex.org/W4245054042",
+   "https://openalex.org/W2026063244",
+   "https://openalex.org/W2022545730",
+   "https://openalex.org/W2383771631",
+   "https://openalex.org/W847269276",
+   "https://openalex.org/W2889430153",
+   "https://openalex.org/W2530342688",
+   "https://openalex.org/W2082747849",
+   "https://openalex.org/W4294892315",
+   "https://openalex.org/W2786896676"
+  ],
+  "abstract_inverted_index": {
+   "Abstract": [
+    0
+   ],
+   "Chaos-based": [
+    1
+   ],
+   "cryptosystems": [
+    2,
+    25,
+    39
+   ],
+   "have": [
+    3,
+    50
+   ],
+   "been": [
+    4,
+    52
+   ],
+   "an": [
+    5
+   ],
+   "active": [
+    6
+   ],
+   "area": [
+    7
+   ],
+   "of": [
+    8,
+    107
+   ],
+   "research": [
+    9
+   ],
+   "in": [
+    10,
+    104,
+    131
+   ],
+   "recent": [
+    11,
+    132
+   ],
+   "years.": [
+    12
+   ],
+   "Although": [
+    13
+   ],
+   "these": [
+    14
+   ],
+   "algorithms": [
+    15,
+    46
+   ],
+   "are": [
+    16,
+    110
+   ],
+   "not": [
+    17
+   ],
+   "standardized": [
+    18
+   ],
+   "like": [
+    19,
+    26,
+    40
+   ],
+   "AES,": [
+    20
+   ],
+   "DES,": [
+    21
+   ],
+   "RSA,": [
+    22
+   ],
+   "etc.,": [
+    23
+   ],
+   "chaos-based": [
+    24,
+    68,
+    85
+   ],
+   "Chebyshev": [
+    27
+   ],
+   "polynomials": [
+    28
+   ],
+   "can": [
+    29
+   ],
+   "provide": [
+    30
+   ],
+   "additional": [
+    31
+   ],
+   "security": [
+    32,
+    128
+   ],
+   "when": [
+    33,
+    57
+   ],
+   "used": [
+    34
+   ],
+   "with": [
+    35
+   ],
+   "standard": [
+    36
+   ],
+   "public": [
+    37
+   ],
+   "key": [
+    38
+   ],
+   "RSA": [
+    41
+   ],
+   "and": [
+    42,
+    89,
+    95,
+    129
+   ],
+   "El-gamal.": [
+    43
+   ],
+   "Standard": [
+    44
+   ],
+   "encryption": [
+    45,
+    69,
+    87,
+    109,
+    126
+   ],
+   "such": [
+    47
+   ],
+   "as": [
+    48
+   ],
+   "AES": [
+    49
+   ],
+   "always": [
+    51
+   ],
+   "the": [
+    53,
+    82,
+    105,
+    120,
+    125
+   ],
+   "primary": [
+    54
+   ],
+   "choice,": [
+    55
+   ],
+   "but": [
+    56
+   ],
+   "it": [
+    58
+   ],
+   "comes": [
+    59
+   ],
+   "to": [
+    60,
+    72,
+    118
+   ],
+   "image": [
+    61,
+    86,
+    108
+   ],
+   "or": [
+    62
+   ],
+   "video": [
+    63
+   ],
+   "encryption,": [
+    64
+   ],
+   "many": [
+    65
+   ],
+   "researchers": [
+    66
+   ],
+   "recommend": [
+    67
+   ],
+   "techniques": [
+    70,
+    88
+   ],
+   "due": [
+    71
+   ],
+   "their": [
+    73
+   ],
+   "computational": [
+    74
+   ],
+   "efficiency.": [
+    75
+   ],
+   "This": [
+    76
+   ],
+   "paper": [
+    77
+   ],
+   "presents": [
+    78
+   ],
+   "a": [
+    79
+   ],
+   "survey": [
+    80
+   ],
+   "on": [
+    81
+   ],
+   "most": [
+    83
+   ],
+   "up-to-date": [
+    84
+   ],
+   "classifies": [
+    90
+   ],
+   "them": [
+    91
+   ],
+   "into": [
+    92
+   ],
+   "spatial,": [
+    93
+   ],
+   "temporal": [
+    94
+   ],
+   "spatiotemporal": [
+    96
+   ],
+   "domains": [
+    97
+   ],
+   "for": [
+    98,
+    123
+   ],
+   "better": [
+    99
+   ],
+   "understanding.": [
+    100
+   ],
+   "The": [
+    101
+   ],
+   "significant": [
+    102
+   ],
+   "improvements": [
+    103
+   ],
+   "field": [
+    106
+   ],
+   "discussed.": [
+    111
+   ],
+   "In": [
+    112
+   ],
+   "addition,": [
+    113
+   ],
+   "comparative": [
+    114
+   ],
+   "analysis": [
+    115
+   ],
+   "is": [
+    116
+   ],
+   "performed": [
+    117
+   ],
+   "validate": [
+    119
+   ],
+   "evaluation": [
+    121
+   ],
+   "matrices": [
+    122
+   ],
+   "quantifying": [
+    124
+   ],
+   "algorithms\u2019": [
+    127
+   ],
+   "performance": [
+    130
+   ],
+   "papers.": [
+    133
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 59
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 56
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 54
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 48
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 10
+   }
+  ],
+  "updated_date": "2026-10-22T09:42:04.148104",
+  "created_date": "2022-05-05T00:00:00"
+ }
+}

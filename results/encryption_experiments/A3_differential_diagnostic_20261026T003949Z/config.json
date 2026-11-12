@@ -1,0 +1,17 @@
+{
+ "images": [
+  "camera"
+ ],
+ "crop": "128x128 (coffee: RGB)",
+ "keys": 1,
+ "positions": "first, last, middle + 2 random",
+ "variants": [
+  "V-FULL",
+  "V-LINEAR",
+  "V-CHACHA"
+ ],
+ "nonce": "fixed per (key, dims) - nonce-misuse model",
+ "alpha": 0.05,
+ "experiment": "A3_differential",
+ "mode": "diagnostic"
+}

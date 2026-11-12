@@ -1,0 +1,13 @@
+NIST SP 800-22 Rev 1a Test Environment Specification
+====================================================
+System: Windows 10 (AMD64)
+Python: 3.11.9 (C:\Users\bhoom\AppData\Local\Programs\Python\Python311\python.exe)
+NumPy: 2.4.6
+SciPy: installed
+nistrng Version: 1.2.3
+Bit Unpacking Convention: MSB-first (np.unpackbits)
+Array Protection: Defensive copying (bit_array.copy()) enforced per test
+Significance Level (Alpha): 0.01
+Multi-Sequence Streams: M = 100 independent streams per candidate
+Initial Condition Seed: 20261110 (uniform in [-0.8, 0.8]^2)
+Transient Burn-in: 5,000 discarded iterations

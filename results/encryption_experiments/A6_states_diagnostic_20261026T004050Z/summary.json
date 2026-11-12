@@ -1,0 +1,61 @@
+{
+ "a_cycles": {
+  "lanes": 64,
+  "max_steps": 3000,
+  "cycles_found": 0,
+  "periods": [],
+  "first_detection_steps": [],
+  "finding": false
+ },
+ "b_merges": {
+  "lanes": 4096,
+  "duplicate_initial_states": 0,
+  "duplicates_after_burn_in": 0,
+  "subset": 256,
+  "subset_checks": [
+   [
+    256,
+    0
+   ],
+   [
+    512,
+    0
+   ],
+   [
+    768,
+    0
+   ],
+   [
+    1024,
+    0
+   ]
+  ],
+  "finding": false
+ },
+ "c_neighbour_divergence": {
+  "x": {
+   "not_diverged_by_T": 34,
+   "min": 11,
+   "median": 13.0,
+   "max": 16,
+   "pairs": 100
+  },
+  "y": {
+   "not_diverged_by_T": 27,
+   "min": 10,
+   "median": 13.0,
+   "max": 16,
+   "pairs": 100
+  },
+  "finding": true
+ },
+ "d_lane_independence": {
+  "tests": 2080,
+  "bonferroni_alpha": 4.807692307692308e-06,
+  "min_p": 0.0002729478442955276,
+  "rejections": 0,
+  "bytes_per_lane": 4000,
+  "finding": false
+ },
+ "elapsed_seconds": 44.71
+}

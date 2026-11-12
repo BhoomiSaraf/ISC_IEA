@@ -1,0 +1,4657 @@
+{
+ "query": "https://api.openalex.org/works?search=An+Image+Encryption+Algorithm+Using+Ikeda+and+Henon+Chaotic+Maps&per-page=5",
+ "mode": "title",
+ "results": [
+  {
+   "id": "https://openalex.org/W2573687956",
+   "doi": "https://doi.org/10.1109/telfor.2016.7818872",
+   "title": "An image encryption algorithm using Ikeda and Henon chaotic maps",
+   "display_name": "An image encryption algorithm using Ikeda and Henon chaotic maps",
+   "relevance_score": 469.72562,
+   "publication_year": 2016,
+   "publication_date": "2016-11-01",
+   "ids": {
+    "openalex": "https://openalex.org/W2573687956",
+    "doi": "https://doi.org/10.1109/telfor.2016.7818872",
+    "mag": "2573687956"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1109/telfor.2016.7818872",
+    "doi": "https://doi.org/10.1109/telfor.2016.7818872",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/telfor.2016.7818872",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4363605816",
+     "display_name": "Telecommunications Forum (TELFOR)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2016 24th Telecommunications Forum (TELFOR)",
+    "raw_type": "proceedings-article"
+   },
+   "volume": null,
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5036038532",
+      "display_name": "Yeter Sekertekin",
+      "orcid": "https://orcid.org/0009-0005-7455-6778",
+      "observed_orcids": [
+       "https://orcid.org/0009-0005-7455-6778"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I118567650",
+       "display_name": "Van Y\u00fcz\u00fcnc\u00fc Y\u0131l \u00dcniversitesi",
+       "ror": "https://ror.org/041jyzp61",
+       "country_code": "TR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I118567650"
+       ]
+      }
+     ],
+     "countries": [
+      "TR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Yeter Sekertekin",
+     "raw_affiliation_strings": [
+      "Department of electrical-electronic engineering, Yuzuncu Yil University, Van, Turkey"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of electrical-electronic engineering, Yuzuncu Yil University, Van, Turkey",
+       "institution_ids": [
+        "https://openalex.org/I118567650"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5081659070",
+      "display_name": "\u00d6zkan Atan",
+      "orcid": "https://orcid.org/0000-0001-6443-9600",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-6443-9600"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I118567650",
+       "display_name": "Van Y\u00fcz\u00fcnc\u00fc Y\u0131l \u00dcniversitesi",
+       "ror": "https://ror.org/041jyzp61",
+       "country_code": "TR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I118567650"
+       ]
+      }
+     ],
+     "countries": [
+      "TR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ozkan Atan",
+     "raw_affiliation_strings": [
+      "Department of electrical-electronic engineering, Yuzuncu Yil University, Van, Turkey"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of electrical-electronic engineering, Yuzuncu Yil University, Van, Turkey",
+       "institution_ids": [
+        "https://openalex.org/I118567650"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I118567650"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.8096,
+   "has_fulltext": false,
+   "cited_by_count": 15,
+   "citation_normalized_percentile": {
+    "value": 0.86379267,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 88,
+    "max": 99
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "4"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11017",
+     "display_name": "Chaos-based Image/Signal Encryption",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13674",
+     "display_name": "Computer Science and Engineering",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10388",
+     "display_name": "Advanced Steganography and Watermarking Techniques",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/image-encryption",
+     "display_name": "image encryption",
+     "score": 1.0
+    },
+    {
+     "id": "https://openalex.org/keywords/ikeda-map",
+     "display_name": "Ikeda map",
+     "score": 0.9620000123977661
+    },
+    {
+     "id": "https://openalex.org/keywords/henon-map",
+     "display_name": "Henon map",
+     "score": 0.996999979019165
+    },
+    {
+     "id": "https://openalex.org/keywords/chaotic-maps",
+     "display_name": "chaotic maps",
+     "score": 0.9639999866485596
+    },
+    {
+     "id": "https://openalex.org/keywords/pixel-shuffling",
+     "display_name": "pixel shuffling",
+     "score": 0.8429999947547913
+    },
+    {
+     "id": "https://openalex.org/keywords/pixel-diffusion",
+     "display_name": "pixel diffusion",
+     "score": 0.8610000014305115
+    },
+    {
+     "id": "https://openalex.org/keywords/key-sensitivity-analysis",
+     "display_name": "key sensitivity analysis",
+     "score": 0.7919999957084656
+    },
+    {
+     "id": "https://openalex.org/keywords/chaos-based-encryption",
+     "display_name": "chaos-based cryptography",
+     "score": 0.5690000057220459
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2781402108",
+     "wikidata": "https://www.wikidata.org/wiki/Q1642961",
+     "display_name": "H\u00e9non map",
+     "level": 3,
+     "score": 0.8823769092559814
+    },
+    {
+     "id": "https://openalex.org/C148730421",
+     "wikidata": "https://www.wikidata.org/wiki/Q141090",
+     "display_name": "Encryption",
+     "level": 2,
+     "score": 0.7695412635803223
+    },
+    {
+     "id": "https://openalex.org/C160633673",
+     "wikidata": "https://www.wikidata.org/wiki/Q355198",
+     "display_name": "Pixel",
+     "level": 2,
+     "score": 0.7026374340057373
+    },
+    {
+     "id": "https://openalex.org/C167927819",
+     "wikidata": "https://www.wikidata.org/wiki/Q1930567",
+     "display_name": "Shuffling",
+     "level": 2,
+     "score": 0.6705825328826904
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.6248827576637268
+    },
+    {
+     "id": "https://openalex.org/C115961682",
+     "wikidata": "https://www.wikidata.org/wiki/Q860623",
+     "display_name": "Image (mathematics)",
+     "level": 2,
+     "score": 0.5828695297241211
+    },
+    {
+     "id": "https://openalex.org/C2777052490",
+     "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+     "display_name": "Chaotic",
+     "level": 2,
+     "score": 0.5807605385780334
+    },
+    {
+     "id": "https://openalex.org/C26517878",
+     "wikidata": "https://www.wikidata.org/wiki/Q228039",
+     "display_name": "Key (lock)",
+     "level": 2,
+     "score": 0.4797312319278717
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.46700677275657654
+    },
+    {
+     "id": "https://openalex.org/C105322999",
+     "wikidata": "https://www.wikidata.org/wiki/Q1557574",
+     "display_name": "Key space",
+     "level": 3,
+     "score": 0.4446573257446289
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.4240691065788269
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.34980618953704834
+    },
+    {
+     "id": "https://openalex.org/C178489894",
+     "wikidata": "https://www.wikidata.org/wiki/Q8789",
+     "display_name": "Cryptography",
+     "level": 2,
+     "score": 0.3288659453392029
+    },
+    {
+     "id": "https://openalex.org/C111919701",
+     "wikidata": "https://www.wikidata.org/wiki/Q9135",
+     "display_name": "Operating system",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C105795698",
+     "wikidata": "https://www.wikidata.org/wiki/Q12483",
+     "display_name": "Statistics",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C38652104",
+     "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+     "display_name": "Computer security",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 3,
+   "locations": [
+    {
+     "id": "doi:10.1109/telfor.2016.7818872",
+     "doi": "https://doi.org/10.1109/telfor.2016.7818872",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1109/telfor.2016.7818872",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4363605816",
+      "display_name": "Telecommunications Forum (TELFOR)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2016 24th Telecommunications Forum (TELFOR)",
+     "raw_type": "proceedings-article"
+    },
+    {
+     "id": "pmh:6bbf9720-72d1-4e77-b689-d4ba00e1f158",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://avesis.yyu.edu.tr/publication/details/6bbf9720-72d1-4e77-b689-d4ba00e1f158/oai",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S7407055328",
+      "display_name": "Van Y\u00fcz\u00fcnc\u00fc Y\u0131l University Academic Data Management System",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "info:eu-repo/semantics/conferenceObject"
+    },
+    {
+     "id": "pmh:d824e606-239b-4c38-b7f8-2642aaf3b4f3",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://avesis.yyu.edu.tr/publication/details/d824e606-239b-4c38-b7f8-2642aaf3b4f3/oai",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S7407055328",
+      "display_name": "Van Y\u00fcz\u00fcnc\u00fc Y\u0131l University Academic Data Management System",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "info:eu-repo/semantics/conferenceObject"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 12,
+   "referenced_works": [
+    "https://openalex.org/W2016201254",
+    "https://openalex.org/W2023917641",
+    "https://openalex.org/W2062086221",
+    "https://openalex.org/W2068684969",
+    "https://openalex.org/W2085481500",
+    "https://openalex.org/W2092152122",
+    "https://openalex.org/W2105145864",
+    "https://openalex.org/W2125566231",
+    "https://openalex.org/W2153936398",
+    "https://openalex.org/W2185903905",
+    "https://openalex.org/W2425286230",
+    "https://openalex.org/W4285719527"
+   ],
+   "related_works": [
+    "https://openalex.org/W2547693587",
+    "https://openalex.org/W2349050058",
+    "https://openalex.org/W1972971222",
+    "https://openalex.org/W4387193533",
+    "https://openalex.org/W132233946",
+    "https://openalex.org/W1551155421",
+    "https://openalex.org/W2029024691",
+    "https://openalex.org/W2599995810",
+    "https://openalex.org/W3095115343",
+    "https://openalex.org/W2242673861"
+   ],
+   "abstract_inverted_index": {
+    "In": [
+     0
+    ],
+    "this": [
+     1,
+     34
+    ],
+    "paper,": [
+     2
+    ],
+    "an": [
+     3
+    ],
+    "image": [
+     4,
+     22,
+     42,
+     69
+    ],
+    "encryption": [
+     5,
+     23
+    ],
+    "algorithm": [
+     6,
+     99
+    ],
+    "based": [
+     7
+    ],
+    "on": [
+     8
+    ],
+    "Ikeda": [
+     9,
+     46,
+     61
+    ],
+    "and": [
+     10,
+     28,
+     38,
+     48,
+     83
+    ],
+    "Henon": [
+     11,
+     57
+    ],
+    "chaotic": [
+     12
+    ],
+    "maps": [
+     13
+    ],
+    "is": [
+     14,
+     26,
+     31,
+     63,
+     71,
+     100
+    ],
+    "presented.": [
+     15
+    ],
+    "One": [
+     16
+    ],
+    "of": [
+     17,
+     40,
+     52
+    ],
+    "the": [
+     18,
+     41,
+     68,
+     73,
+     91,
+     98,
+     106
+    ],
+    "most": [
+     19
+    ],
+    "used": [
+     20,
+     32,
+     64,
+     88
+    ],
+    "in": [
+     21,
+     33
+    ],
+    "techniques": [
+     24
+    ],
+    "which": [
+     25,
+     70
+    ],
+    "shuffling": [
+     27
+    ],
+    "diffusion": [
+     29
+    ],
+    "combination": [
+     30
+    ],
+    "study.": [
+     35
+    ],
+    "Firstly": [
+     36
+    ],
+    "rows": [
+     37
+    ],
+    "columns": [
+     39
+    ],
+    "are": [
+     43,
+     54,
+     87
+    ],
+    "shuffled": [
+     44
+    ],
+    "by": [
+     45,
+     56
+    ],
+    "map": [
+     47
+    ],
+    "then": [
+     49
+    ],
+    "gray": [
+     50
+    ],
+    "levels": [
+     51
+    ],
+    "pixels": [
+     53
+    ],
+    "changed": [
+     55,
+     72
+    ],
+    "map.": [
+     58
+    ],
+    "After": [
+     59
+    ],
+    "that,": [
+     60
+    ],
+    "Map": [
+     62
+    ],
+    "again": [
+     65
+    ],
+    "to": [
+     66,
+     89,
+     104
+    ],
+    "shuffle": [
+     67
+    ],
+    "pixels.": [
+     74
+    ],
+    "Some": [
+     75
+    ],
+    "tests": [
+     76,
+     82,
+     86
+    ],
+    "including": [
+     77
+    ],
+    "key": [
+     78
+    ],
+    "sensitivity": [
+     79
+    ],
+    "analysis,": [
+     80
+    ],
+    "statistical": [
+     81
+    ],
+    "several": [
+     84
+    ],
+    "experimental": [
+     85
+    ],
+    "evaluate": [
+     90
+    ],
+    "developed": [
+     92
+    ],
+    "algorithm.": [
+     93
+    ],
+    "The": [
+     94
+    ],
+    "results": [
+     95
+    ],
+    "show": [
+     96
+    ],
+    "that": [
+     97
+    ],
+    "a": [
+     101
+    ],
+    "secure": [
+     102
+    ],
+    "way": [
+     103
+    ],
+    "encrypt": [
+     105
+    ],
+    "images": [
+     107
+    ],
+    "efficiently.": [
+     108
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2023,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2022,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 4
+    },
+    {
+     "year": 2020,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 7
+    }
+   ],
+   "updated_date": "2026-10-16T09:59:22.235173",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W2957457698",
+   "doi": "https://doi.org/10.1109/access.2019.2929244",
+   "title": "A Selective Image Encryption Scheme Based on 2D DWT, Henon Map and 4D Qi Hyper-Chaos",
+   "display_name": "A Selective Image Encryption Scheme Based on 2D DWT, Henon Map and 4D Qi Hyper-Chaos",
+   "relevance_score": 78.14205,
+   "publication_year": 2019,
+   "publication_date": "2019-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W2957457698",
+    "doi": "https://doi.org/10.1109/access.2019.2929244",
+    "mag": "2957457698"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1109/access.2019.2929244",
+    "doi": "https://doi.org/10.1109/access.2019.2929244",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/access.2019.2929244",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08764407.pdf",
+    "source": {
+     "id": "https://openalex.org/S2485537415",
+     "display_name": "IEEE Access",
+     "issn_l": "2169-3536",
+     "issn": [
+      "2169-3536"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "ki-jl-1",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Access",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08764407.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5006205299",
+      "display_name": "Tresor Lisungu Oteko",
+      "orcid": "https://orcid.org/0000-0003-4641-5773",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-4641-5773"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I165390105",
+       "display_name": "University of South Africa",
+       "ror": "https://ror.org/048cwvf49",
+       "country_code": "ZA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I165390105"
+       ]
+      }
+     ],
+     "countries": [
+      "ZA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Lisungu Oteko Tresor",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Mining Engineering, University of South Africa, Johannesburg, South Africa"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0003-4641-5773",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Mining Engineering, University of South Africa, Johannesburg, South Africa",
+       "institution_ids": [
+        "https://openalex.org/I165390105"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5074071660",
+      "display_name": "Mbuyu Sumbwanyambe",
+      "orcid": "https://orcid.org/0000-0003-1709-0607",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-1709-0607"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I165390105",
+       "display_name": "University of South Africa",
+       "ror": "https://ror.org/048cwvf49",
+       "country_code": "ZA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I165390105"
+       ]
+      }
+     ],
+     "countries": [
+      "ZA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Mbuyu Sumbwanyambe",
+     "raw_affiliation_strings": [
+      "Department of Electrical and Mining Engineering, University of South Africa, Johannesburg, South Africa"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electrical and Mining Engineering, University of South Africa, Johannesburg, South Africa",
+       "institution_ids": [
+        "https://openalex.org/I165390105"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I165390105"
+   ],
+   "apc_list": {
+    "value": 1750,
+    "currency": "USD",
+    "value_usd": 1750
+   },
+   "apc_paid": {
+    "value": 1750,
+    "currency": "USD",
+    "value_usd": 1750
+   },
+   "fwci": 2.6632,
+   "has_fulltext": true,
+   "cited_by_count": 45,
+   "citation_normalized_percentile": {
+    "value": 0.91081462,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+   },
+   "biblio": {
+    "volume": "7",
+    "issue": null,
+    "first_page": "103463",
+    "last_page": "103472"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11017",
+     "display_name": "Chaos-based Image/Signal Encryption",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13674",
+     "display_name": "Computer Science and Engineering",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10388",
+     "display_name": "Advanced Steganography and Watermarking Techniques",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/image-encryption",
+     "display_name": "image encryption",
+     "score": 0.9789999723434448
+    },
+    {
+     "id": "https://openalex.org/keywords/2d-discrete-wavelet-transform",
+     "display_name": "two-dimensional wavelet transform",
+     "score": 0.8629999756813049
+    },
+    {
+     "id": "https://openalex.org/keywords/henon-map",
+     "display_name": "Henon map",
+     "score": 0.9620000123977661
+    },
+    {
+     "id": "https://openalex.org/keywords/pixel-shuffling",
+     "display_name": "pixel shuffling",
+     "score": 0.781000018119812
+    },
+    {
+     "id": "https://openalex.org/keywords/xor-encryption",
+     "display_name": "XOR encryption",
+     "score": 0.7250000238418579
+    },
+    {
+     "id": "https://openalex.org/keywords/key-space",
+     "display_name": "key space",
+     "score": 0.8289999961853027
+    },
+    {
+     "id": "https://openalex.org/keywords/chaos-based-encryption",
+     "display_name": "chaos-based cryptography",
+     "score": 0.7559999823570251
+    },
+    {
+     "id": "https://openalex.org/keywords/attack-resistance",
+     "display_name": "attack resistance",
+     "score": 0.5210000276565552
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C148730421",
+     "wikidata": "https://www.wikidata.org/wiki/Q141090",
+     "display_name": "Encryption",
+     "level": 2,
+     "score": 0.8424820899963379
+    },
+    {
+     "id": "https://openalex.org/C105322999",
+     "wikidata": "https://www.wikidata.org/wiki/Q1557574",
+     "display_name": "Key space",
+     "level": 3,
+     "score": 0.7759127020835876
+    },
+    {
+     "id": "https://openalex.org/C2781402108",
+     "wikidata": "https://www.wikidata.org/wiki/Q1642961",
+     "display_name": "H\u00e9non map",
+     "level": 3,
+     "score": 0.7509995698928833
+    },
+    {
+     "id": "https://openalex.org/C6295992",
+     "wikidata": "https://www.wikidata.org/wiki/Q976521",
+     "display_name": "Cryptosystem",
+     "level": 3,
+     "score": 0.6803184747695923
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.6114650964736938
+    },
+    {
+     "id": "https://openalex.org/C2779374083",
+     "wikidata": "https://www.wikidata.org/wiki/Q5011038",
+     "display_name": "CHAOS (operating system)",
+     "level": 2,
+     "score": 0.5882970094680786
+    },
+    {
+     "id": "https://openalex.org/C2777052490",
+     "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+     "display_name": "Chaotic",
+     "level": 2,
+     "score": 0.5421808958053589
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.5059422850608826
+    },
+    {
+     "id": "https://openalex.org/C26517878",
+     "wikidata": "https://www.wikidata.org/wiki/Q228039",
+     "display_name": "Key (lock)",
+     "level": 2,
+     "score": 0.483083039522171
+    },
+    {
+     "id": "https://openalex.org/C115961682",
+     "wikidata": "https://www.wikidata.org/wiki/Q860623",
+     "display_name": "Image (mathematics)",
+     "level": 2,
+     "score": 0.47674334049224854
+    },
+    {
+     "id": "https://openalex.org/C160633673",
+     "wikidata": "https://www.wikidata.org/wiki/Q355198",
+     "display_name": "Pixel",
+     "level": 2,
+     "score": 0.45599550008773804
+    },
+    {
+     "id": "https://openalex.org/C178489894",
+     "wikidata": "https://www.wikidata.org/wiki/Q8789",
+     "display_name": "Cryptography",
+     "level": 2,
+     "score": 0.4366968870162964
+    },
+    {
+     "id": "https://openalex.org/C46286280",
+     "wikidata": "https://www.wikidata.org/wiki/Q2414958",
+     "display_name": "Discrete wavelet transform",
+     "level": 4,
+     "score": 0.4311612546443939
+    },
+    {
+     "id": "https://openalex.org/C54569210",
+     "wikidata": "https://www.wikidata.org/wiki/Q7246854",
+     "display_name": "Probabilistic encryption",
+     "level": 3,
+     "score": 0.42234525084495544
+    },
+    {
+     "id": "https://openalex.org/C80444323",
+     "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+     "display_name": "Theoretical computer science",
+     "level": 1,
+     "score": 0.3774562180042267
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.32026588916778564
+    },
+    {
+     "id": "https://openalex.org/C47432892",
+     "wikidata": "https://www.wikidata.org/wiki/Q831390",
+     "display_name": "Wavelet",
+     "level": 2,
+     "score": 0.29608869552612305
+    },
+    {
+     "id": "https://openalex.org/C196216189",
+     "wikidata": "https://www.wikidata.org/wiki/Q2867",
+     "display_name": "Wavelet transform",
+     "level": 3,
+     "score": 0.27646923065185547
+    },
+    {
+     "id": "https://openalex.org/C38652104",
+     "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+     "display_name": "Computer security",
+     "level": 1,
+     "score": 0.232162743806839
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.1109/access.2019.2929244",
+     "doi": "https://doi.org/10.1109/access.2019.2929244",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1109/access.2019.2929244",
+     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08764407.pdf",
+     "source": {
+      "id": "https://openalex.org/S2485537415",
+      "display_name": "IEEE Access",
+      "issn_l": "2169-3536",
+      "issn": [
+       "2169-3536"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "IEEE Access",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:0f023e6e834d492b8aefc17a6a344db1",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://doaj.org/article/0f023e6e834d492b8aefc17a6a344db1",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "IEEE Access, Vol 7, Pp 103463-103472 (2019)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.1109/access.2019.2929244",
+    "doi": "https://doi.org/10.1109/access.2019.2929244",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1109/access.2019.2929244",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08764407.pdf",
+    "source": {
+     "id": "https://openalex.org/S2485537415",
+     "display_name": "IEEE Access",
+     "issn_l": "2169-3536",
+     "issn": [
+      "2169-3536"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core",
+      "doaj",
+      "jufo-1",
+      "ki-jl-1",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Access",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [
+    {
+     "id": "https://metadata.un.org/sdg/16",
+     "score": 0.7900000214576721,
+     "display_name": "Peace, justice, and strong institutions"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320324956",
+     "display_name": "University of South Africa",
+     "ror": "https://ror.org/048cwvf49"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2957457698.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2957457698.grobid-xml"
+   },
+   "referenced_works_count": 56,
+   "referenced_works": [
+    "https://openalex.org/W61436802",
+    "https://openalex.org/W756511252",
+    "https://openalex.org/W1524166177",
+    "https://openalex.org/W1585665690",
+    "https://openalex.org/W1719430855",
+    "https://openalex.org/W1882297107",
+    "https://openalex.org/W1968703490",
+    "https://openalex.org/W1969748380",
+    "https://openalex.org/W1985725551",
+    "https://openalex.org/W1988353954",
+    "https://openalex.org/W1990027217",
+    "https://openalex.org/W1990979552",
+    "https://openalex.org/W1991298770",
+    "https://openalex.org/W2000309477",
+    "https://openalex.org/W2010204579",
+    "https://openalex.org/W2011474530",
+    "https://openalex.org/W2013795513",
+    "https://openalex.org/W2029024691",
+    "https://openalex.org/W2032820503",
+    "https://openalex.org/W2037399233",
+    "https://openalex.org/W2051707326",
+    "https://openalex.org/W2071902337",
+    "https://openalex.org/W2081388274",
+    "https://openalex.org/W2084344108",
+    "https://openalex.org/W2086030937",
+    "https://openalex.org/W2105145864",
+    "https://openalex.org/W2107203798",
+    "https://openalex.org/W2128435529",
+    "https://openalex.org/W2131754986",
+    "https://openalex.org/W2132984323",
+    "https://openalex.org/W2171464389",
+    "https://openalex.org/W2293597365",
+    "https://openalex.org/W2323254472",
+    "https://openalex.org/W2347090988",
+    "https://openalex.org/W2358062679",
+    "https://openalex.org/W2425286230",
+    "https://openalex.org/W2547857037",
+    "https://openalex.org/W2573687956",
+    "https://openalex.org/W2577487555",
+    "https://openalex.org/W2604466980",
+    "https://openalex.org/W2740970426",
+    "https://openalex.org/W2785457040",
+    "https://openalex.org/W2785911196",
+    "https://openalex.org/W2787614473",
+    "https://openalex.org/W2790533449",
+    "https://openalex.org/W2793112219",
+    "https://openalex.org/W2803528367",
+    "https://openalex.org/W2893358598",
+    "https://openalex.org/W2898533271",
+    "https://openalex.org/W2900678413",
+    "https://openalex.org/W2903770557",
+    "https://openalex.org/W2914945329",
+    "https://openalex.org/W2916528660",
+    "https://openalex.org/W2924210827",
+    "https://openalex.org/W3082424351",
+    "https://openalex.org/W4256068510"
+   ],
+   "related_works": [
+    "https://openalex.org/W2035456305",
+    "https://openalex.org/W2547693587",
+    "https://openalex.org/W2349050058",
+    "https://openalex.org/W4387193533",
+    "https://openalex.org/W4229012706",
+    "https://openalex.org/W2744344075",
+    "https://openalex.org/W2063632270",
+    "https://openalex.org/W4205956545",
+    "https://openalex.org/W4376154626",
+    "https://openalex.org/W4389388433"
+   ],
+   "abstract_inverted_index": {
+    "In": [
+     0,
+     160
+    ],
+    "recent": [
+     1
+    ],
+    "years": [
+     2,
+     81
+    ],
+    "hyperchaos": [
+     3,
+     226
+    ],
+    "has": [
+     4,
+     16,
+     62
+    ],
+    "found": [
+     5
+    ],
+    "applications": [
+     6,
+     21
+    ],
+    "in": [
+     7,
+     19,
+     48,
+     60,
+     82
+    ],
+    "several": [
+     8
+    ],
+    "fields": [
+     9
+    ],
+    "such": [
+     10,
+     57,
+     187
+    ],
+    "as": [
+     11
+    ],
+    "medicine": [
+     12
+    ],
+    "and": [
+     13,
+     26,
+     54,
+     69,
+     176,
+     199,
+     245,
+     272
+    ],
+    "engineering.": [
+     14
+    ],
+    "It": [
+     15
+    ],
+    "been": [
+     17,
+     76,
+     95
+    ],
+    "applied": [
+     18
+    ],
+    "image-based": [
+     20
+    ],
+    "which": [
+     22
+    ],
+    "require": [
+     23
+    ],
+    "reliable,": [
+     24
+    ],
+    "fast,": [
+     25
+    ],
+    "robust": [
+     27,
+     129
+    ],
+    "security": [
+     28,
+     47,
+     149,
+     156,
+     271
+    ],
+    "systems": [
+     29
+    ],
+    "to": [
+     30,
+     84,
+     127,
+     145,
+     193,
+     206,
+     247,
+     254,
+     270
+    ],
+    "store": [
+     31
+    ],
+    "or/and": [
+     32
+    ],
+    "transfer": [
+     33
+    ],
+    "images.": [
+     34,
+     58
+    ],
+    "Given": [
+     35
+    ],
+    "the": [
+     36,
+     79,
+     100,
+     114,
+     119,
+     138,
+     147,
+     155,
+     195,
+     208,
+     220,
+     235,
+     258,
+     261
+    ],
+    "increased": [
+     37
+    ],
+    "use": [
+     38
+    ],
+    "of": [
+     39,
+     56,
+     99,
+     116,
+     118,
+     135,
+     137,
+     151,
+     250,
+     260
+    ],
+    "images,": [
+     40
+    ],
+    "there": [
+     41
+    ],
+    "is": [
+     42,
+     112,
+     123,
+     158,
+     181,
+     185,
+     191,
+     204,
+     216
+    ],
+    "a": [
+     43,
+     64,
+     163,
+     239,
+     265
+    ],
+    "fundamental": [
+     44
+    ],
+    "requirement": [
+     45
+    ],
+    "among": [
+     46
+    ],
+    "ensuring": [
+     49
+    ],
+    "protection,": [
+     50
+    ],
+    "confidentiality,": [
+     51
+    ],
+    "privacy,": [
+     52
+    ],
+    "integrity,": [
+     53
+    ],
+    "authenticity": [
+     55
+    ],
+    "This,": [
+     59
+    ],
+    "essence,": [
+     61
+    ],
+    "become": [
+     63
+    ],
+    "major": [
+     65
+    ],
+    "concern.": [
+     66
+    ],
+    "Many": [
+     67
+    ],
+    "preventive": [
+     68
+    ],
+    "protective": [
+     70
+    ],
+    "algorithms,": [
+     71,
+     257
+    ],
+    "including": [
+     72
+    ],
+    "chaos-based": [
+     73,
+     91,
+     105,
+     152
+    ],
+    "schemes,": [
+     74
+    ],
+    "have": [
+     75,
+     94
+    ],
+    "developed": [
+     77,
+     186
+    ],
+    "over": [
+     78
+    ],
+    "past": [
+     80
+    ],
+    "trying": [
+     83
+    ],
+    "prevent": [
+     85
+    ],
+    "directed": [
+     86
+    ],
+    "attacks.": [
+     87,
+     251
+    ],
+    "However,": [
+     88
+    ],
+    "many": [
+     89,
+     136
+    ],
+    "existing": [
+     90,
+     139,
+     256
+    ],
+    "encryption": [
+     92,
+     107,
+     166,
+     273
+    ],
+    "schemes": [
+     93,
+     108
+    ],
+    "successfully": [
+     96,
+     110
+    ],
+    "decrypted.": [
+     97
+    ],
+    "One": [
+     98
+    ],
+    "main": [
+     101
+    ],
+    "reasons": [
+     102
+    ],
+    "for": [
+     103,
+     277
+    ],
+    "these": [
+     104
+    ],
+    "image": [
+     106,
+     165,
+     196,
+     210,
+     215
+    ],
+    "being": [
+     109
+    ],
+    "attacked": [
+     111
+    ],
+    "that": [
+     113,
+     188,
+     234
+    ],
+    "degree": [
+     115
+    ],
+    "randomness": [
+     117
+    ],
+    "chaotic": [
+     120,
+     202
+    ],
+    "system": [
+     121
+    ],
+    "used": [
+     122,
+     192,
+     205
+    ],
+    "not": [
+     124,
+     142
+    ],
+    "high": [
+     125,
+     243
+    ],
+    "enough": [
+     126,
+     144
+    ],
+    "guarantee": [
+     128,
+     146
+    ],
+    "encryption.": [
+     130
+    ],
+    "The": [
+     131,
+     213,
+     230
+    ],
+    "key": [
+     132,
+     241
+    ],
+    "space": [
+     133
+    ],
+    "lengths": [
+     134
+    ],
+    "cryptosystems": [
+     140
+    ],
+    "are": [
+     141
+    ],
+    "long": [
+     143
+    ],
+    "desired": [
+     148
+    ],
+    "properties": [
+     150
+    ],
+    "ciphers.": [
+     153
+    ],
+    "Thus,": [
+     154
+    ],
+    "level": [
+     157
+    ],
+    "lowered.": [
+     159
+    ],
+    "this": [
+     161
+    ],
+    "paper,": [
+     162
+    ],
+    "selective": [
+     164
+    ],
+    "algorithm": [
+     167,
+     237
+    ],
+    "based": [
+     168
+    ],
+    "on": [
+     169
+    ],
+    "2D": [
+     170,
+     189
+    ],
+    "Discrete": [
+     171
+    ],
+    "Wavelet": [
+     172
+    ],
+    "Transform,": [
+     173
+    ],
+    "Henon's": [
+     174
+    ],
+    "Map": [
+     175
+    ],
+    "4D": [
+     177
+    ],
+    "Qi": [
+     178,
+     225
+    ],
+    "Hyper": [
+     179
+    ],
+    "Chaos": [
+     180
+    ],
+    "proposed.": [
+     182
+    ],
+    "This": [
+     183
+    ],
+    "paper": [
+     184
+    ],
+    "DWT": [
+     190
+    ],
+    "decompose": [
+     194
+    ],
+    "into": [
+     197
+    ],
+    "details": [
+     198
+    ],
+    "approximations,": [
+     200
+    ],
+    "Henon": [
+     201
+    ],
+    "map": [
+     203
+    ],
+    "shuffle": [
+     207
+    ],
+    "decomposed": [
+     209
+    ],
+    "pixels'": [
+     211
+    ],
+    "positions.": [
+     212
+    ],
+    "shuffled": [
+     214
+    ],
+    "further": [
+     217
+    ],
+    "encrypted": [
+     218
+    ],
+    "with": [
+     219,
+     268
+    ],
+    "bit": [
+     221
+    ],
+    "streams": [
+     222
+    ],
+    "generated": [
+     223
+    ],
+    "by": [
+     224
+    ],
+    "using": [
+     227
+    ],
+    "XOR": [
+     228
+    ],
+    "operation.": [
+     229
+    ],
+    "experimental": [
+     231
+    ],
+    "results": [
+     232
+    ],
+    "demonstrate": [
+     233
+    ],
+    "proposed": [
+     236,
+     262
+    ],
+    "provides": [
+     238
+    ],
+    "large": [
+     240
+    ],
+    "space,": [
+     242
+    ],
+    "security,": [
+     244
+    ],
+    "resistance": [
+     246
+    ],
+    "different": [
+     248
+    ],
+    "types": [
+     249
+    ],
+    "When": [
+     252
+    ],
+    "compared": [
+     253
+    ],
+    "some": [
+     255
+    ],
+    "performance": [
+     259,
+     267
+    ],
+    "method": [
+     263
+    ],
+    "displays": [
+     264
+    ],
+    "better": [
+     266
+    ],
+    "respect": [
+     269
+    ],
+    "making": [
+     274
+    ],
+    "it": [
+     275
+    ],
+    "suited": [
+     276
+    ],
+    "real-time": [
+     278
+    ],
+    "applications.": [
+     279
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2025,
+     "cited_by_count": 8
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 11
+    },
+    {
+     "year": 2022,
+     "cited_by_count": 11
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 6
+    },
+    {
+     "year": 2020,
+     "cited_by_count": 7
+    }
+   ],
+   "updated_date": "2026-10-16T09:59:22.235173",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4226019213",
+   "doi": "https://doi.org/10.1063/5.0072434",
+   "title": "A modified chaotic image encryption scheme for color image using diagonal pixel confusion and diffusion method",
+   "display_name": "A modified chaotic image encryption scheme for color image using diagonal pixel confusion and diffusion method",
+   "relevance_score": 75.900406,
+   "publication_year": 2022,
+   "publication_date": "2022-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W4226019213",
+    "doi": "https://doi.org/10.1063/5.0072434"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1063/5.0072434",
+    "doi": "https://doi.org/10.1063/5.0072434",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1063/5.0072434",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S2764696622",
+     "display_name": "AIP conference proceedings",
+     "issn_l": "0094-243X",
+     "issn": [
+      "0094-243X",
+      "1551-7616",
+      "1935-0465"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310320257",
+     "host_organization_name": "American Institute of Physics",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320257"
+     ],
+     "host_organization_lineage_names": [
+      "American Institute of Physics"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AIP Conference Proceedings",
+    "raw_type": "proceedings-article"
+   },
+   "volume": null,
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5055432266",
+      "display_name": "Jai Ganesh Sekar",
+      "orcid": "https://orcid.org/0000-0003-4860-5597",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-4860-5597"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": true,
+     "raw_author_name": "Jai Ganesh Sekar",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5036410017",
+      "display_name": "C. Arun",
+      "orcid": "https://orcid.org/0000-0001-9540-3459",
+      "observed_orcids": [
+       "https://orcid.org/0000-0001-9540-3459"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "C. Arun",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5017117234",
+      "display_name": "V. M. Abilash",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "V. M. Abilash",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5032412724",
+      "display_name": "K. Aravindan",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "K. Aravindan",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5012043085",
+      "display_name": "K. Barathiselvan",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "K. Barathiselvan",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5092157032",
+      "display_name": "Jaisankar Bharath",
+      "orcid": "https://orcid.org/0000-0002-0790-2045",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0790-2045"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "J. Bharath",
+     "raw_affiliation_strings": [
+      "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Electronics and Communication Engineering, RMK College of Engineering and Technology, Chennai, Tamil Nadu 601206, India",
+       "institution_ids": []
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5055432266"
+   ],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.2898,
+   "has_fulltext": false,
+   "cited_by_count": 3,
+   "citation_normalized_percentile": {
+    "value": 0.58974584,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+   },
+   "biblio": {
+    "volume": "2459",
+    "issue": null,
+    "first_page": "030009",
+    "last_page": "030009"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11017",
+     "display_name": "Chaos-based Image/Signal Encryption",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13674",
+     "display_name": "Computer Science and Engineering",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10388",
+     "display_name": "Advanced Steganography and Watermarking Techniques",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/image-encryption",
+     "display_name": "image encryption",
+     "score": 0.7749999761581421
+    },
+    {
+     "id": "https://openalex.org/keywords/chaos-based-encryption",
+     "display_name": "chaos-based cryptography",
+     "score": 0.6700000166893005
+    },
+    {
+     "id": "https://openalex.org/keywords/color-image-encryption",
+     "display_name": "color image encryption",
+     "score": 0.9190000295639038
+    },
+    {
+     "id": "https://openalex.org/keywords/henon-map",
+     "display_name": "Henon map",
+     "score": 0.7559999823570251
+    },
+    {
+     "id": "https://openalex.org/keywords/ikeda-map",
+     "display_name": "Ikeda map",
+     "score": 0.9869999885559082
+    },
+    {
+     "id": "https://openalex.org/keywords/s-box-generation",
+     "display_name": "S-box generation",
+     "score": 0.753000020980835
+    },
+    {
+     "id": "https://openalex.org/keywords/npcr",
+     "display_name": "NPCR",
+     "score": 0.828000009059906
+    },
+    {
+     "id": "https://openalex.org/keywords/uaci",
+     "display_name": "UACI",
+     "score": 0.9810000061988831
+    },
+    {
+     "id": "https://openalex.org/keywords/key-sensitivity-analysis",
+     "display_name": "key sensitivity analysis",
+     "score": 0.7979999780654907
+    },
+    {
+     "id": "https://openalex.org/keywords/shannon-entropy",
+     "display_name": "Shannon entropy",
+     "score": 0.7200000286102295
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C148730421",
+     "wikidata": "https://www.wikidata.org/wiki/Q141090",
+     "display_name": "Encryption",
+     "level": 2,
+     "score": 0.86859130859375
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.6581577062606812
+    },
+    {
+     "id": "https://openalex.org/C54569210",
+     "wikidata": "https://www.wikidata.org/wiki/Q7246854",
+     "display_name": "Probabilistic encryption",
+     "level": 3,
+     "score": 0.5749821662902832
+    },
+    {
+     "id": "https://openalex.org/C80444323",
+     "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+     "display_name": "Theoretical computer science",
+     "level": 1,
+     "score": 0.510363757610321
+    },
+    {
+     "id": "https://openalex.org/C6295992",
+     "wikidata": "https://www.wikidata.org/wiki/Q976521",
+     "display_name": "Cryptosystem",
+     "level": 3,
+     "score": 0.4747011065483093
+    },
+    {
+     "id": "https://openalex.org/C184685986",
+     "wikidata": "https://www.wikidata.org/wiki/Q3505167",
+     "display_name": "Multiple encryption",
+     "level": 3,
+     "score": 0.4687977433204651
+    },
+    {
+     "id": "https://openalex.org/C178489894",
+     "wikidata": "https://www.wikidata.org/wiki/Q8789",
+     "display_name": "Cryptography",
+     "level": 2,
+     "score": 0.4504826068878174
+    },
+    {
+     "id": "https://openalex.org/C18319499",
+     "wikidata": "https://www.wikidata.org/wiki/Q5448402",
+     "display_name": "Filesystem-level encryption",
+     "level": 4,
+     "score": 0.43248677253723145
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.3959999680519104
+    },
+    {
+     "id": "https://openalex.org/C31258907",
+     "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+     "display_name": "Computer network",
+     "level": 1,
+     "score": 0.2609938383102417
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1063/5.0072434",
+     "doi": "https://doi.org/10.1063/5.0072434",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1063/5.0072434",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764696622",
+      "display_name": "AIP conference proceedings",
+      "issn_l": "0094-243X",
+      "issn": [
+       "0094-243X",
+       "1551-7616",
+       "1935-0465"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "jufo-1",
+       "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320257",
+      "host_organization_name": "American Institute of Physics",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320257"
+      ],
+      "host_organization_lineage_names": [
+       "American Institute of Physics"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "AIP Conference Proceedings",
+     "raw_type": "proceedings-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 17,
+   "referenced_works": [
+    "https://openalex.org/W756511252",
+    "https://openalex.org/W960484378",
+    "https://openalex.org/W1918016542",
+    "https://openalex.org/W1966443185",
+    "https://openalex.org/W2000093475",
+    "https://openalex.org/W2016380472",
+    "https://openalex.org/W2018406493",
+    "https://openalex.org/W2025266594",
+    "https://openalex.org/W2029024691",
+    "https://openalex.org/W2053111047",
+    "https://openalex.org/W2066208760",
+    "https://openalex.org/W2092152122",
+    "https://openalex.org/W2767243453",
+    "https://openalex.org/W2965070013",
+    "https://openalex.org/W3008319366",
+    "https://openalex.org/W3011000437",
+    "https://openalex.org/W4253247325"
+   ],
+   "related_works": [
+    "https://openalex.org/W2545514196",
+    "https://openalex.org/W4315815885",
+    "https://openalex.org/W2387840805",
+    "https://openalex.org/W2293431571",
+    "https://openalex.org/W4243621294",
+    "https://openalex.org/W4240313302",
+    "https://openalex.org/W2183295123",
+    "https://openalex.org/W3143289714",
+    "https://openalex.org/W2188276378",
+    "https://openalex.org/W1993945719"
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0,
+     38,
+     62,
+     113,
+     170
+    ],
+    "tremendous": [
+     1
+    ],
+    "growth": [
+     2
+    ],
+    "in": [
+     3,
+     77,
+     91,
+     186
+    ],
+    "wireless": [
+     4
+    ],
+    "and": [
+     5,
+     40,
+     122,
+     134,
+     137,
+     165
+    ],
+    "mobile": [
+     6
+    ],
+    "communication": [
+     7,
+     81,
+     94
+    ],
+    "for": [
+     8
+    ],
+    "the": [
+     9,
+     19,
+     27,
+     53,
+     60,
+     66,
+     78,
+     89,
+     138,
+     175,
+     181
+    ],
+    "past": [
+     10
+    ],
+    "few": [
+     11
+    ],
+    "decades": [
+     12
+    ],
+    "gives": [
+     13
+    ],
+    "rise": [
+     14
+    ],
+    "to": [
+     15,
+     33,
+     43,
+     87,
+     129
+    ],
+    "data": [
+     16,
+     22,
+     46,
+     55,
+     76,
+     90
+    ],
+    "sharing": [
+     17
+    ],
+    "through": [
+     18,
+     26
+    ],
+    "Internet.": [
+     20
+    ],
+    "These": [
+     21
+    ],
+    "that": [
+     23,
+     52,
+     64,
+     174
+    ],
+    "are": [
+     24,
+     30,
+     168
+    ],
+    "transferred": [
+     25
+    ],
+    "open": [
+     28
+    ],
+    "channel": [
+     29
+    ],
+    "more": [
+     31
+    ],
+    "prone": [
+     32
+    ],
+    "several": [
+     34
+    ],
+    "types": [
+     35
+    ],
+    "of": [
+     36,
+     68,
+     75,
+     80,
+     178
+    ],
+    "attacks.": [
+     37
+    ],
+    "traditional": [
+     39
+    ],
+    "only": [
+     41
+    ],
+    "way": [
+     42
+    ],
+    "protect": [
+     44
+    ],
+    "these": [
+     45
+    ],
+    "from": [
+     47,
+     59
+    ],
+    "hackers": [
+     48
+    ],
+    "is": [
+     49,
+     70,
+     104,
+     127,
+     135,
+     141,
+     146
+    ],
+    "Encryption.": [
+     50
+    ],
+    "So": [
+     51
+    ],
+    "confidential": [
+     54
+    ],
+    "can": [
+     56
+    ],
+    "be": [
+     57
+    ],
+    "secured": [
+     58
+    ],
+    "hackers.": [
+     61
+    ],
+    "system": [
+     63
+    ],
+    "performs": [
+     65
+    ],
+    "process": [
+     67,
+     184
+    ],
+    "encryption": [
+     69,
+     102,
+     108,
+     179,
+     183
+    ],
+    "called": [
+     71
+    ],
+    "as": [
+     72,
+     153
+    ],
+    "cryptosystem.": [
+     73
+    ],
+    "Encryption": [
+     74
+    ],
+    "fields": [
+     79
+    ],
+    "has": [
+     82
+    ],
+    "become": [
+     83
+    ],
+    "a": [
+     84,
+     99,
+     131
+    ],
+    "significant": [
+     85
+    ],
+    "task": [
+     86
+    ],
+    "secure": [
+     88
+    ],
+    "this": [
+     92,
+     97,
+     187
+    ],
+    "modern": [
+     93
+    ],
+    "world.": [
+     95
+    ],
+    "In": [
+     96
+    ],
+    "paper,": [
+     98
+    ],
+    "new": [
+     100
+    ],
+    "image": [
+     101,
+     139
+    ],
+    "algorithm": [
+     103
+    ],
+    "proposed": [
+     105,
+     114,
+     176,
+     185
+    ],
+    "using": [
+     106
+    ],
+    "chaotic": [
+     107,
+     120
+    ],
+    "theory": [
+     109
+    ],
+    "via": [
+     110
+    ],
+    "Diagonal": [
+     111
+    ],
+    "Shuffling.": [
+     112
+    ],
+    "scheme": [
+     115
+    ],
+    "incorporates": [
+     116
+    ],
+    "two-dimensional": [
+     117
+    ],
+    "Henon,": [
+     118
+    ],
+    "Ikeda": [
+     119
+    ],
+    "maps,": [
+     121
+    ],
+    "shuffling": [
+     123
+    ],
+    "processes.": [
+     124
+    ],
+    "Henon": [
+     125
+    ],
+    "Map": [
+     126
+    ],
+    "used": [
+     128
+    ],
+    "generate": [
+     130
+    ],
+    "random": [
+     132
+    ],
+    "S-Box": [
+     133
+    ],
+    "selected": [
+     136
+    ],
+    "pixel": [
+     140
+    ],
+    "substituted": [
+     142
+    ],
+    "randomly.": [
+     143
+    ],
+    "This": [
+     144
+    ],
+    "cryptosystem": [
+     145
+    ],
+    "investigated": [
+     147
+    ],
+    "on": [
+     148
+    ],
+    "various": [
+     149
+    ],
+    "measuring": [
+     150
+    ],
+    "parameters": [
+     151
+    ],
+    "such": [
+     152
+    ],
+    "information": [
+     154
+    ],
+    "entropy,": [
+     155
+    ],
+    "histogram": [
+     156
+    ],
+    "investigation,": [
+     157
+    ],
+    "correlation": [
+     158
+    ],
+    "analysis,": [
+     159,
+     162
+    ],
+    "key": [
+     160
+    ],
+    "sensitivity": [
+     161
+    ],
+    "NPCR,": [
+     163
+    ],
+    "UACI": [
+     164
+    ],
+    "time": [
+     166
+    ],
+    "complexity": [
+     167
+    ],
+    "performed.": [
+     169
+    ],
+    "simulation": [
+     171
+    ],
+    "results": [
+     172
+    ],
+    "shows": [
+     173
+    ],
+    "method": [
+     177
+    ],
+    "outperforms": [
+     180
+    ],
+    "other": [
+     182
+    ],
+    "era.": [
+     188
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2024,
+     "cited_by_count": 3
+    }
+   ],
+   "updated_date": "2026-10-01T08:54:57.152042",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W2335047053",
+   "doi": "https://doi.org/10.5120/2892-3779",
+   "title": "Image Encryption using Chaotic Maps and DNA Addition Operation and Noise Effects on it",
+   "display_name": "Image Encryption using Chaotic Maps and DNA Addition Operation and Noise Effects on it",
+   "relevance_score": 74.88255,
+   "publication_year": 2011,
+   "publication_date": "2011-06-30",
+   "ids": {
+    "openalex": "https://openalex.org/W2335047053",
+    "doi": "https://doi.org/10.5120/2892-3779",
+    "mag": "2335047053"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.5120/2892-3779",
+    "doi": "https://doi.org/10.5120/2892-3779",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5120/2892-3779",
+    "pdf_url": "https://doi.org/10.5120/2892-3779",
+    "source": {
+     "id": "https://openalex.org/S4210206007",
+     "display_name": "International Journal of Computer Applications",
+     "issn_l": "0975-8887",
+     "issn": [
+      "0975-8887"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4322545532",
+     "host_organization_name": "Foundation of Computer Science",
+     "host_organization_lineage": [
+      "https://openalex.org/P4322545532"
+     ],
+     "host_organization_lineage_names": [
+      "Foundation of Computer Science"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Computer Applications",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.5120/2892-3779",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5100655763",
+      "display_name": "Kuldeep Singh",
+      "orcid": "https://orcid.org/0000-0002-2350-1700",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-2350-1700"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I129798099",
+       "display_name": "The NorthCap University",
+       "ror": "https://ror.org/0343j7r38",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I129798099"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Kuldeep Singh",
+     "raw_affiliation_strings": [
+      "ITM University School of Engineering & Technology Department of EECE , Gurgaon , Haryana",
+      "ITM University School of Engineering & Technology Department of EECE, Gurgaon, Haryana"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "ITM University School of Engineering & Technology Department of EECE , Gurgaon , Haryana",
+       "institution_ids": [
+        "https://openalex.org/I129798099"
+       ]
+      },
+      {
+       "raw_affiliation_string": "ITM University School of Engineering & Technology Department of EECE, Gurgaon, Haryana",
+       "institution_ids": [
+        "https://openalex.org/I129798099"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5021388926",
+      "display_name": "Komalpreet Kaur",
+      "orcid": "https://orcid.org/0000-0003-2346-5487",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-2346-5487"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I129798099",
+       "display_name": "The NorthCap University",
+       "ror": "https://ror.org/0343j7r38",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I129798099"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I191366470",
+       "display_name": "ITM University",
+       "ror": "https://ror.org/004pc5924",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I191366470"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Komalpreet Kaur",
+     "raw_affiliation_strings": [
+      "Assistant Professor ITM University , School of Engineering & Technology Department of EECE , Gurgaon , Haryana",
+      "ITM University, School of Engineering & Technology Department of EECE, Gurgaon, Haryana"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Assistant Professor ITM University , School of Engineering & Technology Department of EECE , Gurgaon , Haryana",
+       "institution_ids": [
+        "https://openalex.org/I129798099",
+        "https://openalex.org/I191366470"
+       ]
+      },
+      {
+       "raw_affiliation_string": "ITM University, School of Engineering & Technology Department of EECE, Gurgaon, Haryana",
+       "institution_ids": [
+        "https://openalex.org/I129798099"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 2.4141,
+   "has_fulltext": true,
+   "cited_by_count": 35,
+   "citation_normalized_percentile": {
+    "value": 0.90044904,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+   },
+   "biblio": {
+    "volume": "23",
+    "issue": "6",
+    "first_page": "17",
+    "last_page": "24"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11017",
+     "display_name": "Chaos-based Image/Signal Encryption",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13674",
+     "display_name": "Computer Science and Engineering",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10388",
+     "display_name": "Advanced Steganography and Watermarking Techniques",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/image-encryption",
+     "display_name": "image encryption",
+     "score": 0.9990000128746033
+    },
+    {
+     "id": "https://openalex.org/keywords/chaotic-maps",
+     "display_name": "chaotic maps",
+     "score": 0.9829999804496765
+    },
+    {
+     "id": "https://openalex.org/keywords/dna-encryption",
+     "display_name": "DNA-based encryption",
+     "score": 0.6269999742507935
+    },
+    {
+     "id": "https://openalex.org/keywords/noise-effects",
+     "display_name": "noise effects",
+     "score": 0.6690000295639038
+    },
+    {
+     "id": "https://openalex.org/keywords/decoding",
+     "display_name": "decoding",
+     "score": 0.39800000190734863
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.8735475540161133
+    },
+    {
+     "id": "https://openalex.org/C148730421",
+     "wikidata": "https://www.wikidata.org/wiki/Q141090",
+     "display_name": "Encryption",
+     "level": 2,
+     "score": 0.8372411131858826
+    },
+    {
+     "id": "https://openalex.org/C2777052490",
+     "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+     "display_name": "Chaotic",
+     "level": 2,
+     "score": 0.7336829900741577
+    },
+    {
+     "id": "https://openalex.org/C99498987",
+     "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+     "display_name": "Noise (video)",
+     "level": 3,
+     "score": 0.6252014636993408
+    },
+    {
+     "id": "https://openalex.org/C115961682",
+     "wikidata": "https://www.wikidata.org/wiki/Q860623",
+     "display_name": "Image (mathematics)",
+     "level": 2,
+     "score": 0.6055416464805603
+    },
+    {
+     "id": "https://openalex.org/C31972630",
+     "wikidata": "https://www.wikidata.org/wiki/Q844240",
+     "display_name": "Computer vision",
+     "level": 1,
+     "score": 0.4065340757369995
+    },
+    {
+     "id": "https://openalex.org/C124101348",
+     "wikidata": "https://www.wikidata.org/wiki/Q172491",
+     "display_name": "Data mining",
+     "level": 1,
+     "score": 0.38036394119262695
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.3636610507965088
+    },
+    {
+     "id": "https://openalex.org/C38652104",
+     "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+     "display_name": "Computer security",
+     "level": 1,
+     "score": 0.32758134603500366
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.5120/2892-3779",
+     "doi": "https://doi.org/10.5120/2892-3779",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5120/2892-3779",
+     "pdf_url": "https://doi.org/10.5120/2892-3779",
+     "source": {
+      "id": "https://openalex.org/S4210206007",
+      "display_name": "International Journal of Computer Applications",
+      "issn_l": "0975-8887",
+      "issn": [
+       "0975-8887"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4322545532",
+      "host_organization_name": "Foundation of Computer Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4322545532"
+      ],
+      "host_organization_lineage_names": [
+       "Foundation of Computer Science"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Computer Applications",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:CiteSeerX.psu:10.1.1.259.2085",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.259.2085",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "http://www.ijcaonline.org/volume23/number6/pxc3873779.pdf",
+     "raw_type": "text"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.5120/2892-3779",
+    "doi": "https://doi.org/10.5120/2892-3779",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5120/2892-3779",
+    "pdf_url": "https://doi.org/10.5120/2892-3779",
+    "source": {
+     "id": "https://openalex.org/S4210206007",
+     "display_name": "International Journal of Computer Applications",
+     "issn_l": "0975-8887",
+     "issn": [
+      "0975-8887"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4322545532",
+     "host_organization_name": "Foundation of Computer Science",
+     "host_organization_lineage": [
+      "https://openalex.org/P4322545532"
+     ],
+     "host_organization_lineage_names": [
+      "Foundation of Computer Science"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Computer Applications",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2335047053.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2335047053.grobid-xml"
+   },
+   "referenced_works_count": 11,
+   "referenced_works": [
+    "https://openalex.org/W1533162639",
+    "https://openalex.org/W1891231544",
+    "https://openalex.org/W1969972949",
+    "https://openalex.org/W1983082846",
+    "https://openalex.org/W2010950703",
+    "https://openalex.org/W2102174595",
+    "https://openalex.org/W2104687148",
+    "https://openalex.org/W2122374500",
+    "https://openalex.org/W2146876110",
+    "https://openalex.org/W2153468994",
+    "https://openalex.org/W4300096983"
+   ],
+   "related_works": [
+    "https://openalex.org/W2100090372",
+    "https://openalex.org/W4361205702",
+    "https://openalex.org/W2385965183",
+    "https://openalex.org/W2013342653",
+    "https://openalex.org/W2376048186",
+    "https://openalex.org/W2375981391",
+    "https://openalex.org/W45120566",
+    "https://openalex.org/W2767997441",
+    "https://openalex.org/W2361408597",
+    "https://openalex.org/W2370269429"
+   ],
+   "abstract_inverted_index": {
+    "In": [
+     0
+    ],
+    "this": [
+     1
+    ],
+    "paper,": [
+     2
+    ],
+    "four": [
+     3
+    ],
+    "chaotic": [
+     4
+    ],
+    "maps": [
+     5
+    ],
+    "are": [
+     6,
+     11
+    ],
+    "compared": [
+     7
+    ],
+    "and": [
+     8,
+     35,
+     66
+    ],
+    "noise": [
+     9,
+     30,
+     41,
+     58
+    ],
+    "effects": [
+     10
+    ],
+    "observed": [
+     12
+    ],
+    "on": [
+     13,
+     31,
+     63
+    ],
+    "image.Firstly,": [
+     14
+    ],
+    "we": [
+     15,
+     28
+    ],
+    "use": [
+     16
+    ],
+    "the": [
+     17,
+     32,
+     72
+    ],
+    "image": [
+     18,
+     24,
+     34,
+     39,
+     65
+    ],
+    "encryption": [
+     19
+    ],
+    "algorithm": [
+     20
+    ],
+    "to": [
+     21,
+     25,
+     43
+    ],
+    "convert": [
+     22
+    ],
+    "original": [
+     23,
+     44,
+     64
+    ],
+    "encrypted": [
+     26,
+     33
+    ],
+    "image.Now": [
+     27
+    ],
+    "apply": [
+     29
+    ],
+    "then": [
+     36
+    ],
+    "decrypt": [
+     37
+    ],
+    "cipher": [
+     38
+    ],
+    "with": [
+     40
+    ],
+    "back": [
+     42
+    ],
+    "image.The": [
+     45
+    ],
+    "Simulation": [
+     46
+    ],
+    "experimental": [
+     47
+    ],
+    "results": [
+     48
+    ],
+    "shows": [
+     49
+    ],
+    "that": [
+     50
+    ],
+    "Cross": [
+     51
+    ],
+    "Chaotic": [
+     52
+    ],
+    "map": [
+     53
+    ],
+    "has": [
+     54,
+     59
+    ],
+    "got": [
+     55
+    ],
+    "best": [
+     56
+    ],
+    "results.Also,": [
+     57
+    ],
+    "a": [
+     60
+    ],
+    "little": [
+     61
+    ],
+    "effect": [
+     62
+    ],
+    "can": [
+     67
+    ],
+    "easily": [
+     68
+    ],
+    "be": [
+     69
+    ],
+    "received": [
+     70
+    ],
+    "by": [
+     71
+    ],
+    "receiver.": [
+     73
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2022,
+     "cited_by_count": 3
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 4
+    },
+    {
+     "year": 2020,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 5
+    },
+    {
+     "year": 2018,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2017,
+     "cited_by_count": 3
+    },
+    {
+     "year": 2016,
+     "cited_by_count": 5
+    },
+    {
+     "year": 2015,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2014,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2013,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2012,
+     "cited_by_count": 3
+    }
+   ],
+   "updated_date": "2026-10-09T09:14:12.587421",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W2490750013",
+   "doi": "https://doi.org/10.5120/ijca2016908122",
+   "title": "A proficient Image Encryption using Chaotic Map Approach",
+   "display_name": "A proficient Image Encryption using Chaotic Map Approach",
+   "relevance_score": 74.769684,
+   "publication_year": 2016,
+   "publication_date": "2016-01-15",
+   "ids": {
+    "openalex": "https://openalex.org/W2490750013",
+    "doi": "https://doi.org/10.5120/ijca2016908122",
+    "mag": "2490750013"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.5120/ijca2016908122",
+    "doi": "https://doi.org/10.5120/ijca2016908122",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5120/ijca2016908122",
+    "pdf_url": "https://doi.org/10.5120/ijca2016908122",
+    "source": {
+     "id": "https://openalex.org/S4210206007",
+     "display_name": "International Journal of Computer Applications",
+     "issn_l": "0975-8887",
+     "issn": [
+      "0975-8887"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4322545532",
+     "host_organization_name": "Foundation of Computer Science",
+     "host_organization_lineage": [
+      "https://openalex.org/P4322545532"
+     ],
+     "host_organization_lineage_names": [
+      "Foundation of Computer Science"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Computer Applications",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.5120/ijca2016908122",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5100977294",
+      "display_name": "Deepshikha Rathore",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Deepshikha Rathore",
+     "raw_affiliation_strings": [
+      "Department of Information and Technology SATI , VIDISHA INDIASATI , VIDISHA INDIA",
+      "Department of Information and Technology SATI , VIDISHA INDIASATI, VIDISHA INDIA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Technology SATI , VIDISHA INDIASATI , VIDISHA INDIA",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "Department of Information and Technology SATI , VIDISHA INDIASATI, VIDISHA INDIA",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5113829992",
+      "display_name": "Anil Suryavanshi",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Anil Suryavanshi",
+     "raw_affiliation_strings": [
+      "Department of Information and Technology SATI , VIDISHA INDIASATI , VIDISHA INDIA",
+      "Department of Information and Technology SATI , VIDISHA INDIASATI, VIDISHA INDIA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Information and Technology SATI , VIDISHA INDIASATI , VIDISHA INDIA",
+       "institution_ids": []
+      },
+      {
+       "raw_affiliation_string": "Department of Information and Technology SATI , VIDISHA INDIASATI, VIDISHA INDIA",
+       "institution_ids": []
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 1.1411,
+   "has_fulltext": true,
+   "cited_by_count": 6,
+   "citation_normalized_percentile": {
+    "value": 0.83002052,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 88,
+    "max": 96
+   },
+   "biblio": {
+    "volume": "134",
+    "issue": "10",
+    "first_page": "20",
+    "last_page": "24"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11017",
+     "display_name": "Chaos-based Image/Signal Encryption",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13674",
+     "display_name": "Computer Science and Engineering",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10388",
+     "display_name": "Advanced Steganography and Watermarking Techniques",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/image-encryption",
+     "display_name": "image encryption",
+     "score": 0.9959999918937683
+    },
+    {
+     "id": "https://openalex.org/keywords/chaotic-maps",
+     "display_name": "chaotic maps",
+     "score": 0.8820000290870667
+    },
+    {
+     "id": "https://openalex.org/keywords/chaos-based-encryption",
+     "display_name": "chaos-based cryptography",
+     "score": 0.7710000276565552
+    },
+    {
+     "id": "https://openalex.org/keywords/image-confidentiality",
+     "display_name": "image confidentiality",
+     "score": 0.652999997138977
+    },
+    {
+     "id": "https://openalex.org/keywords/image-integrity",
+     "display_name": "image integrity",
+     "score": 0.5139999985694885
+    },
+    {
+     "id": "https://openalex.org/keywords/multimedia-security",
+     "display_name": "multimedia security",
+     "score": 0.5730000138282776
+    },
+    {
+     "id": "https://openalex.org/keywords/chaotic-systems",
+     "display_name": "chaotic systems",
+     "score": 0.37599998712539673
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.9130233526229858
+    },
+    {
+     "id": "https://openalex.org/C148730421",
+     "wikidata": "https://www.wikidata.org/wiki/Q141090",
+     "display_name": "Encryption",
+     "level": 2,
+     "score": 0.7607361078262329
+    },
+    {
+     "id": "https://openalex.org/C2777052490",
+     "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+     "display_name": "Chaotic",
+     "level": 2,
+     "score": 0.6347002983093262
+    },
+    {
+     "id": "https://openalex.org/C115961682",
+     "wikidata": "https://www.wikidata.org/wiki/Q860623",
+     "display_name": "Image (mathematics)",
+     "level": 2,
+     "score": 0.6296171545982361
+    },
+    {
+     "id": "https://openalex.org/C2983793180",
+     "wikidata": "https://www.wikidata.org/wiki/Q166314",
+     "display_name": "Chaotic map",
+     "level": 3,
+     "score": 0.4948276877403259
+    },
+    {
+     "id": "https://openalex.org/C80444323",
+     "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+     "display_name": "Theoretical computer science",
+     "level": 1,
+     "score": 0.39655303955078125
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.3951672315597534
+    },
+    {
+     "id": "https://openalex.org/C31972630",
+     "wikidata": "https://www.wikidata.org/wiki/Q844240",
+     "display_name": "Computer vision",
+     "level": 1,
+     "score": 0.3491014242172241
+    },
+    {
+     "id": "https://openalex.org/C38652104",
+     "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+     "display_name": "Computer security",
+     "level": 1,
+     "score": 0.27826428413391113
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.5120/ijca2016908122",
+     "doi": "https://doi.org/10.5120/ijca2016908122",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5120/ijca2016908122",
+     "pdf_url": "https://doi.org/10.5120/ijca2016908122",
+     "source": {
+      "id": "https://openalex.org/S4210206007",
+      "display_name": "International Journal of Computer Applications",
+      "issn_l": "0975-8887",
+      "issn": [
+       "0975-8887"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4322545532",
+      "host_organization_name": "Foundation of Computer Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4322545532"
+      ],
+      "host_organization_lineage_names": [
+       "Foundation of Computer Science"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Computer Applications",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:CiteSeerX.psu:10.1.1.742.2934",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.742.2934",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "http://www.ijcaonline.org/research/volume134/number10/rathore-2016-ijca-908122.pdf",
+     "raw_type": "text"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.5120/ijca2016908122",
+    "doi": "https://doi.org/10.5120/ijca2016908122",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5120/ijca2016908122",
+    "pdf_url": "https://doi.org/10.5120/ijca2016908122",
+    "source": {
+     "id": "https://openalex.org/S4210206007",
+     "display_name": "International Journal of Computer Applications",
+     "issn_l": "0975-8887",
+     "issn": [
+      "0975-8887"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-scientific",
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4322545532",
+     "host_organization_name": "Foundation of Computer Science",
+     "host_organization_lineage": [
+      "https://openalex.org/P4322545532"
+     ],
+     "host_organization_lineage_names": [
+      "Foundation of Computer Science"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Computer Applications",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2490750013.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2490750013.grobid-xml"
+   },
+   "referenced_works_count": 22,
+   "referenced_works": [
+    "https://openalex.org/W1593204929",
+    "https://openalex.org/W1793814472",
+    "https://openalex.org/W1997733248",
+    "https://openalex.org/W2020039621",
+    "https://openalex.org/W2023290515",
+    "https://openalex.org/W2037099377",
+    "https://openalex.org/W2037720111",
+    "https://openalex.org/W2037769729",
+    "https://openalex.org/W2056105196",
+    "https://openalex.org/W2056212627",
+    "https://openalex.org/W2057835419",
+    "https://openalex.org/W2060791695",
+    "https://openalex.org/W2074131074",
+    "https://openalex.org/W2081927932",
+    "https://openalex.org/W2096433939",
+    "https://openalex.org/W2102892532",
+    "https://openalex.org/W2115605660",
+    "https://openalex.org/W2171803110",
+    "https://openalex.org/W2366222920",
+    "https://openalex.org/W2977619292",
+    "https://openalex.org/W4247961814",
+    "https://openalex.org/W4285719527"
+   ],
+   "related_works": [
+    "https://openalex.org/W2376048186",
+    "https://openalex.org/W2375981391",
+    "https://openalex.org/W2380035304",
+    "https://openalex.org/W2393587766",
+    "https://openalex.org/W2074995517",
+    "https://openalex.org/W1627362987",
+    "https://openalex.org/W1485575252",
+    "https://openalex.org/W3207953639",
+    "https://openalex.org/W2361408597",
+    "https://openalex.org/W2370269429"
+   ],
+   "abstract_inverted_index": {
+    "Important": [
+     0
+    ],
+    "information": [
+     1
+    ],
+    "for": [
+     2,
+     64,
+     106
+    ],
+    "general": [
+     3,
+     101
+    ],
+    "users,": [
+     4
+    ],
+    "advanced": [
+     5
+    ],
+    "data": [
+     6
+    ],
+    "and": [
+     7,
+     14,
+     20,
+     23,
+     55,
+     81,
+     85,
+     112,
+     117,
+     124
+    ],
+    "multimedia,": [
+     8
+    ],
+    "arts,": [
+     9
+    ],
+    "entertainment,": [
+     10
+    ],
+    "advertising,": [
+     11
+    ],
+    "education,": [
+     12
+    ],
+    "training": [
+     13
+    ],
+    "business": [
+     15
+    ],
+    "sectors": [
+     16
+    ],
+    "have,": [
+     17
+    ],
+    "the": [
+     18,
+     30,
+     46,
+     51,
+     65,
+     69,
+     107,
+     127,
+     144,
+     148
+    ],
+    "faster": [
+     19
+    ],
+    "more": [
+     21
+    ],
+    "digital": [
+     22
+    ],
+    "multimedia": [
+     24
+    ],
+    "applications": [
+     25
+    ],
+    "development": [
+     26
+    ],
+    "are": [
+     27,
+     75
+    ],
+    "transmitted": [
+     28
+    ],
+    "through": [
+     29
+    ],
+    "network": [
+     31
+    ],
+    "that": [
+     32
+    ],
+    "can": [
+     33
+    ],
+    "be": [
+     34
+    ],
+    "accessed": [
+     35
+    ],
+    "by": [
+     36
+    ],
+    "should": [
+     37
+    ],
+    "not": [
+     38
+    ],
+    "be.Therefore": [
+     39
+    ],
+    "confidentiality,": [
+     40,
+     43
+    ],
+    "integrity,": [
+     41
+    ],
+    "security,": [
+     42
+    ],
+    "authenticity": [
+     44
+    ],
+    "of": [
+     45,
+     53,
+     57,
+     92,
+     103,
+     130,
+     147
+    ],
+    "images": [
+     47,
+     58,
+     74
+    ],
+    "as": [
+     48,
+     50
+    ],
+    "well": [
+     49
+    ],
+    "issue": [
+     52,
+     63
+    ],
+    "communication": [
+     54
+    ],
+    "storage": [
+     56
+    ],
+    "has": [
+     59
+    ],
+    "become": [
+     60
+    ],
+    "an": [
+     61
+    ],
+    "important": [
+     62
+    ],
+    "defense.In": [
+     66
+    ],
+    "recent": [
+     67
+    ],
+    "years,": [
+     68
+    ],
+    "technology": [
+     70,
+     105,
+     122,
+     141
+    ],
+    "to": [
+     71,
+     110,
+     135
+    ],
+    "protect": [
+     72
+    ],
+    "confidential": [
+     73
+    ],
+    "applied": [
+     76
+    ],
+    "have": [
+     77
+    ],
+    "developed": [
+     78
+    ],
+    "various": [
+     79,
+     118
+    ],
+    "encryption": [
+     80,
+     96,
+     114,
+     121,
+     140,
+     152
+    ],
+    "unauthorized": [
+     82
+    ],
+    "users.Letter": [
+     83
+    ],
+    "aspects": [
+     84
+    ],
+    "chaotic": [
+     86,
+     115,
+     119,
+     138
+    ],
+    "map": [
+     87
+    ],
+    "based": [
+     88,
+     123,
+     142
+    ],
+    "on": [
+     89,
+     143
+    ],
+    "a": [
+     90,
+     100,
+     104
+    ],
+    "review": [
+     91,
+     111
+    ],
+    "existing": [
+     93
+    ],
+    "different": [
+     94
+    ],
+    "image": [
+     95,
+     113,
+     120,
+     139,
+     151
+    ],
+    "technology.This": [
+     97
+    ],
+    "paper": [
+     98,
+     132
+    ],
+    "introduces": [
+     99
+    ],
+    "discussion": [
+     102
+    ],
+    "first": [
+     108
+    ],
+    "time": [
+     109
+    ],
+    "system": [
+     116
+    ],
+    "related": [
+     125
+    ],
+    "tasks.Finally,": [
+     126
+    ],
+    "main": [
+     128
+    ],
+    "objective": [
+     129
+    ],
+    "this": [
+     131
+    ],
+    "is": [
+     133
+    ],
+    "designed": [
+     134
+    ],
+    "help": [
+     136
+    ],
+    "new": [
+     137
+    ],
+    "future": [
+     145
+    ],
+    "behavior": [
+     146
+    ],
+    "current": [
+     149
+    ],
+    "chaos-based": [
+     150
+    ],
+    "algorithms": [
+     153
+    ],
+    "studied.": [
+     154
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2020,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2018,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2017,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-09-23T05:00:35.095934",
+   "created_date": "2025-10-10T00:00:00"
+  }
+ ]
+}

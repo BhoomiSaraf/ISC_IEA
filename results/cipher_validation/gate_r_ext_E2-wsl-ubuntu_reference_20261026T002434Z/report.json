@@ -1,0 +1,29 @@
+{
+ "gate": "R (revision-3 KAT-1 extension)",
+ "backend": "reference",
+ "environment": {
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "machine": "x86_64"
+ },
+ "checks": [
+  {
+   "file": "trig_kat.txt.gz",
+   "sha256": "2d6cbecf818a140ea523abccf7f19d2345736950987e81967108d86ce6f5caca",
+   "vectors": 74063,
+   "mismatches": 0,
+   "first_mismatches": [],
+   "status": "PASS"
+  },
+  {
+   "file": "trig_kat_ext.txt.gz",
+   "sha256": "77aa9d1a85b8a3efcba1884555768dd0fcf5bd8e145d7e055218dea51e763403",
+   "vectors": 26000,
+   "mismatches": 0,
+   "first_mismatches": [],
+   "status": "PASS"
+  }
+ ],
+ "total_vectors": 100063,
+ "overall": "PASS"
+}

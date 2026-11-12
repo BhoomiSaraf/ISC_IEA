@@ -1,0 +1,95 @@
+{
+  "pilots": [
+    {
+      "A": 3,
+      "n": 2,
+      "M": 1,
+      "naive_space": 8748,
+      "measured_s": 0.027213335037231445,
+      "n_tested": 8748,
+      "n_found": 972
+    }
+  ],
+  "experiments": [
+    {
+      "A": 4,
+      "n": 3,
+      "M": 1,
+      "seed": 1,
+      "n_tested": 9437184,
+      "n_found": 147456,
+      "exhausted": true,
+      "elapsed_s": 46.06391787528992,
+      "unique_true_tuple_found": false,
+      "num_consistent_tuples": 147456,
+      "all_found_tuples_agree_on_held_out_target": false,
+      "at_least_one_found_tuple_agrees_on_held_out_target": true,
+      "target_decryption_succeeded": false
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 2,
+      "seed": 1,
+      "n_tested": 9437184,
+      "n_found": 10752,
+      "exhausted": true,
+      "elapsed_s": 54.38616132736206,
+      "unique_true_tuple_found": false,
+      "num_consistent_tuples": 10752,
+      "all_found_tuples_agree_on_held_out_target": false,
+      "at_least_one_found_tuple_agrees_on_held_out_target": true,
+      "target_decryption_succeeded": false
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 4,
+      "seed": 1,
+      "n_tested": 9437184,
+      "n_found": 64,
+      "exhausted": true,
+      "elapsed_s": 55.23130774497986,
+      "unique_true_tuple_found": false,
+      "num_consistent_tuples": 64,
+      "all_found_tuples_agree_on_held_out_target": true,
+      "at_least_one_found_tuple_agrees_on_held_out_target": true,
+      "target_decryption_succeeded": true
+    }
+  ],
+  "scale_decision_arithmetic": {
+    "per_candidate_cost_s": 3.1108064743062925e-06,
+    "candidates": [
+      {
+        "A": 3,
+        "n": 3,
+        "naive_space": 236196,
+        "projected_s": 0.734760046005249
+      },
+      {
+        "A": 4,
+        "n": 2,
+        "naive_space": 196608,
+        "projected_s": 0.6116094393004116
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "naive_space": 9437184,
+        "projected_s": 29.357253086419753
+      },
+      {
+        "A": 5,
+        "n": 2,
+        "naive_space": 3750000,
+        "projected_s": 11.665524278648597
+      }
+    ]
+  },
+  "chosen_scale": {
+    "A": 4,
+    "n": 3,
+    "naive_space": 9437184,
+    "projected_s": 29.357253086419753
+  }
+}

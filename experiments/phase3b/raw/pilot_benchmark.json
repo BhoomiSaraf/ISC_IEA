@@ -1,0 +1,26 @@
+{
+  "extraction_1": {
+    "burn_in": 1024,
+    "bytes_per_lane_requested": 20000,
+    "bytes_per_stream": 1280000,
+    "t_build_seconds": 1.2355806999839842,
+    "t_take_seconds": 36.844397499924526,
+    "total_bytes_all_4_streams": 5120000,
+    "throughput_bytes_per_sec": 138962.78260515694
+  },
+  "extraction_2": {
+    "burn_in": 1024,
+    "bytes_per_lane_requested": 20000,
+    "bytes_per_stream": 1280000,
+    "t_build_seconds": 1.0819832000415772,
+    "t_take_seconds": 44.8543332000263,
+    "total_bytes_all_4_streams": 5120000,
+    "throughput_bytes_per_sec": 114147.27707950851
+  },
+  "burn_in_scaling_seconds": {
+    "1024": 1.5054826999548823,
+    "2048": 2.3435132999438792,
+    "5000": 5.732923700008541,
+    "10000": 11.754330600146204
+  }
+}

@@ -1,0 +1,14 @@
+# Final Quantisation Comparison Table (Step 1.1 Validated)
+
+| Method_Stream | Shannon_Entropy_Bits | Normalized_Entropy | Chi2_Statistic | Chi2_p_value | Chi2_Decision | Adjacent_Byte_Corr_rho1 | Max_Byte_ACF_1M | Max_Byte_ACF_Lag | NIST_Single_Pass_Ratio | NIST_Multi_Seq_Pass_Rate | Precision_Limitation |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| de_k13_x | 7.999807 | 0.999976 | 268.02 | 2.7549e-01 | UNIFORM | -0.000318 | 0.002538 | 84 | 1.0000 | N/A | None (within Float64 mantissa) |
+| de_k13_y | 7.999822 | 0.999978 | 247.34 | 6.2285e-01 | UNIFORM | -0.000895 | -0.003262 | 43 | 1.0000 | N/A | None (within Float64 mantissa) |
+| de_k14_x | 7.999831 | 0.999979 | 234.07 | 8.2215e-01 | UNIFORM | -0.000588 | -0.002277 | 8 | 1.0000 | 98.8% | None (within Float64 mantissa) |
+| de_k14_y | 7.999846 | 0.999981 | 212.49 | 9.7549e-01 | UNIFORM | -0.000067 | -0.002737 | 75 | 1.0000 | 99.0% | None (within Float64 mantissa) |
+| de_k15_x | 7.999816 | 0.999977 | 254.95 | 4.8918e-01 | UNIFORM | -0.000377 | -0.003184 | 79 | 1.0000 | N/A | None (within Float64 mantissa) |
+| de_k15_y | 7.999812 | 0.999976 | 261.18 | 3.8167e-01 | UNIFORM | -0.001625 | 0.003424 | 88 | 1.0000 | N/A | None (within Float64 mantissa) |
+| de_k16_x | 7.941283 | 0.992660 | 80290.63 | 0.0000e+00 | REJECTED | -0.000715 | 0.003452 | 3 | 0.3333 | N/A | Severe (ULP=2.0 jump forces even parity over 28.2% of states) |
+| de_k16_y | 7.935329 | 0.991916 | 88319.99 | 0.0000e+00 | REJECTED | 0.000475 | -0.002380 | 22 | 0.3333 | N/A | Severe (ULP=2.0 jump forces even parity over 28.2% of states) |
+| arccos_x | 7.996226 | 0.999528 | 5258.98 | 0.0000e+00 | REJECTED | -0.095149 | -0.095149 | 1 | 1.0000 | N/A | Invariant measure departs 3.1% from theoretical arcsine |
+| arccos_y | 7.993013 | 0.999127 | 9950.42 | 0.0000e+00 | REJECTED | 0.012714 | 0.012714 | 1 | 0.5556 | N/A | Invariant measure departs 3.1% from theoretical arcsine |

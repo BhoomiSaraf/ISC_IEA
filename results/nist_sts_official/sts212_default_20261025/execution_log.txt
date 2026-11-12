@@ -1,0 +1,30 @@
+[2026-10-25T22:10:57] command: experiments/run_official_sts.py --run-id sts212_default_20261025 --workers 6
+[2026-10-25T22:11:01] provenance recorded; assess sha256 d2a91cc977bdcc6497ca2a749fccdcda197a91521c6d71d5d3342c1f4b44b30b
+[2026-10-25T22:11:02] inputs verified against C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis\results\sequence_generation\default_20261025/manifest.json: 500 sequences
+[2026-10-25T22:11:02] start appendix_b/e: n=1000000 streams=1 binary=False tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/data/data.e\n1\n0\n1\n0\n'
+[2026-10-25T22:11:02] start appendix_b/sha1: n=1000000 streams=1 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/data/data.sha1\n1\n0\n1\n1\n'
+[2026-10-25T22:11:02] start appendix_b/pi: n=1000000 streams=1 binary=False tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/data/data.pi\n1\n0\n1\n0\n'
+[2026-10-25T22:11:02] start appendix_b/sqrt3: n=1000000 streams=1 binary=False tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/data/data.sqrt3\n1\n0\n1\n0\n'
+[2026-10-25T22:11:02] start appendix_b/sqrt2: n=1000000 streams=1 binary=False tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/data/data.sqrt2\n1\n0\n1\n0\n'
+[2026-10-25T22:11:02] start examples/dft_2.6.8: n=100 streams=1 binary=False tests=['FFT'] generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/nist_sts_official/sts212_default_20261025/raw/examples/sp800-22_2.6.8_epsilon.txt\n0\n000000100000000\n1\n0\n'
+[2026-10-25T22:11:03] end examples/dft_2.6.8: returncode=1 complete=True errors=0 elapsed=0s
+[2026-10-25T22:11:03] start examples/gsha1_n1000000_all: n=1000000 streams=1 binary=False tests=all generator=9 stdin='9\n1\n0\n1\n'
+[2026-10-25T22:11:15] end examples/gsha1_n1000000_all: returncode=1 complete=True errors=0 elapsed=13s
+[2026-10-25T22:11:15] start examples/universal_2.9.8: n=1048576 streams=1 binary=False tests=['Universal'] generator=9 stdin='9\n0\n000000000100000\n1\n'
+[2026-10-25T22:11:16] end examples/universal_2.9.8: returncode=1 complete=True errors=0 elapsed=1s
+[2026-10-25T22:11:16] start methods/sign: n=1000000 streams=100 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/sequence_generation/default_20261025/bitstreams/sign.bin\n1\n0\n100\n1\n'
+[2026-10-25T22:11:18] end appendix_b/sha1: returncode=1 complete=True errors=0 elapsed=16s
+[2026-10-25T22:11:18] start methods/arccos8: n=1000000 streams=100 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/sequence_generation/default_20261025/bitstreams/arccos8.bin\n1\n0\n100\n1\n'
+[2026-10-25T22:11:18] end appendix_b/e: returncode=1 complete=True errors=0 elapsed=16s
+[2026-10-25T22:11:18] start methods/frac8: n=1000000 streams=100 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/sequence_generation/default_20261025/bitstreams/frac8.bin\n1\n0\n100\n1\n'
+[2026-10-25T22:11:19] end appendix_b/pi: returncode=1 complete=True errors=0 elapsed=17s
+[2026-10-25T22:11:19] start methods/mantissa8: n=1000000 streams=100 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/sequence_generation/default_20261025/bitstreams/mantissa8.bin\n1\n0\n100\n1\n'
+[2026-10-25T22:11:19] end appendix_b/sqrt3: returncode=1 complete=True errors=0 elapsed=17s
+[2026-10-25T22:11:19] start methods/mantissa8_xor: n=1000000 streams=100 binary=True tests=all generator=0 stdin='0\n/mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/sequence_generation/default_20261025/bitstreams/mantissa8_xor.bin\n1\n0\n100\n1\n'
+[2026-10-25T22:11:20] end appendix_b/sqrt2: returncode=1 complete=True errors=0 elapsed=17s
+[2026-10-25T22:32:54] end methods/sign: returncode=1 complete=True errors=0 elapsed=1298s
+[2026-10-25T22:33:38] end methods/arccos8: returncode=1 complete=True errors=0 elapsed=1340s
+[2026-10-25T22:34:07] end methods/mantissa8_xor: returncode=1 complete=True errors=0 elapsed=1367s
+[2026-10-25T22:34:08] end methods/mantissa8: returncode=1 complete=True errors=0 elapsed=1368s
+[2026-10-25T22:34:23] end methods/frac8: returncode=1 complete=True errors=0 elapsed=1385s
+[2026-10-25T22:34:23] execution stage finished

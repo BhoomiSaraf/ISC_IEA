@@ -1,0 +1,45 @@
+Profiling h=64 w=64 c=1 (n=4096 bytes)...
+  1_key_validation                         mean=   0.010ms median=   0.010ms
+  2_hkdf_derivation                        mean=   0.049ms median=   0.049ms
+  3_4_state_construction_and_burnin_combined mean=1239.046ms median=1241.780ms
+  6_sbox_construction                      mean=  22.308ms median=  22.423ms
+  7_fisher_yates_permutation               mean= 345.406ms median= 343.991ms
+  8_permutation_application                mean=   0.677ms median=   0.675ms
+  9_forward_diffusion                      mean=   1.316ms median=   1.305ms
+  10_backward_diffusion                    mean=   1.398ms median=   1.370ms
+  11_kcv_generation                        mean=   0.353ms median=   0.362ms
+  12_hmac_tag_computation                  mean=   0.090ms median=   0.087ms
+  13a_container_pack                       mean=   0.022ms median=   0.021ms
+  13b_container_parse                      mean=   0.052ms median=   0.053ms
+  14_complete_encryption                   mean=3683.274ms median=3683.274ms
+  15_complete_decryption                   mean=3690.829ms median=3690.829ms
+Profiling h=128 w=128 c=1 (n=16384 bytes)...
+  1_key_validation                         mean=   0.011ms median=   0.011ms
+  2_hkdf_derivation                        mean=   0.059ms median=   0.059ms
+  3_4_state_construction_and_burnin_combined mean=3221.983ms median=3183.366ms
+  6_sbox_construction                      mean=  23.141ms median=  22.372ms
+  7_fisher_yates_permutation               mean=1457.353ms median=1438.801ms
+  8_permutation_application                mean=   2.790ms median=   2.771ms
+  9_forward_diffusion                      mean=   5.126ms median=   5.110ms
+  10_backward_diffusion                    mean=   5.475ms median=   5.137ms
+  11_kcv_generation                        mean=   0.272ms median=   0.272ms
+  12_hmac_tag_computation                  mean=   0.197ms median=   0.197ms
+  13a_container_pack                       mean=   0.020ms median=   0.019ms
+  13b_container_parse                      mean=   0.053ms median=   0.054ms
+  14_complete_encryption                   mean=5253.952ms median=5253.952ms
+  15_complete_decryption                   mean=5264.706ms median=5264.706ms
+Profiling h=256 w=256 c=1 (n=65536 bytes)...
+  1_key_validation                         mean=   0.014ms median=   0.014ms
+  2_hkdf_derivation                        mean=   0.057ms median=   0.052ms
+  3_4_state_construction_and_burnin_combined mean=3238.863ms median=3116.593ms
+  6_sbox_construction                      mean=  20.104ms median=  22.666ms
+  7_fisher_yates_permutation               mean=5736.801ms median=5732.862ms
+  8_permutation_application                mean=  12.644ms median=  12.745ms
+  9_forward_diffusion                      mean=  20.026ms median=  20.634ms
+  10_backward_diffusion                    mean=  17.455ms median=  20.403ms
+  11_kcv_generation                        mean=   0.291ms median=   0.272ms
+  12_hmac_tag_computation                  mean=   0.506ms median=   0.462ms
+  13a_container_pack                       mean=   0.016ms median=   0.016ms
+  13b_container_parse                      mean=   0.058ms median=   0.058ms
+  14_complete_encryption                   mean=11617.969ms median=11617.969ms
+  15_complete_decryption                   mean=11588.757ms median=11588.757ms

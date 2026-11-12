@@ -1,0 +1,143 @@
+{
+ "query": "https://api.crossref.org/works/10.17487/rfc9106",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     22
+    ]
+   ],
+   "date-time": "2026-10-22T01:15:49Z",
+   "timestamp": 1792631749522,
+   "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "RFC Editor",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "DOI": "10.17487/rfc9106",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     9,
+     8
+    ]
+   ],
+   "date-time": "2021-09-08T02:31:06Z",
+   "timestamp": 1631068266000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 27,
+  "title": [
+   "Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications"
+  ],
+  "prefix": "10.17487",
+  "author": [
+   {
+    "given": "A.",
+    "family": "Biryukov",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "D.",
+    "family": "Dinu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "D.",
+    "family": "Khovratovich",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S.",
+    "family": "Josefsson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "7045",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     9
+    ]
+   ]
+  },
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     9,
+     8
+    ]
+   ],
+   "date-time": "2021-09-08T02:31:07Z",
+   "timestamp": 1631068267000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.rfc-editor.org/info/rfc9106"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     9
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.17487/rfc9106",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     9
+    ]
+   ]
+  }
+ }
+}

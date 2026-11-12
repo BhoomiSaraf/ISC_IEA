@@ -1,0 +1,11 @@
+Sequence_Key,NIST_Available,Bits_Tested,Passed_Tests,Total_Tests,Pass_Ratio
+de_k13_x,True,100000,6,12,0.5000
+de_k13_y,True,100000,6,12,0.5000
+de_k14_x,True,100000,7,12,0.5833
+de_k14_y,True,100000,6,12,0.5000
+de_k15_x,True,100000,7,12,0.5833
+de_k15_y,True,100000,7,12,0.5833
+de_k16_x,True,100000,3,11,0.2727
+de_k16_y,True,100000,4,11,0.3636
+arccos_x,True,100000,6,12,0.5000
+arccos_y,True,100000,5,11,0.4545

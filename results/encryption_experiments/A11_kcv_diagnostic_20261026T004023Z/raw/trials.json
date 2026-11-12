@@ -1,0 +1,37 @@
+[
+ {
+  "trial": 0,
+  "call": 1314,
+  "element": 58,
+  "direction": -1.0,
+  "outcome": "detected_by_kcv"
+ },
+ {
+  "trial": 1,
+  "call": 1757,
+  "element": 149,
+  "direction": 1.0,
+  "outcome": "identical_states_correct_plaintext"
+ },
+ {
+  "trial": 2,
+  "call": 2849,
+  "element": 216,
+  "direction": -1.0,
+  "outcome": "detected_by_kcv"
+ },
+ {
+  "trial": 3,
+  "call": 464,
+  "element": 17,
+  "direction": -1.0,
+  "outcome": "identical_states_correct_plaintext"
+ },
+ {
+  "trial": 4,
+  "call": 2420,
+  "element": 205,
+  "direction": -1.0,
+  "outcome": "detected_by_kcv"
+ }
+]

@@ -1,0 +1,48 @@
+{
+ "by_variant": {
+  "V-FULL": {
+   "tests": 5,
+   "npcr_fail": 0,
+   "uaci_fail": 0,
+   "npcr_min": 0.99774169921875,
+   "uaci_range": [
+    0.332266295189951,
+    0.33676925359987747
+   ],
+   "expected_false_fail_rate_each": 0.05
+  },
+  "V-LINEAR": {
+   "tests": 5,
+   "npcr_fail": 0,
+   "uaci_fail": 5,
+   "npcr_min": 0.99639892578125,
+   "uaci_range": [
+    0.09253958907781863,
+    0.4646922392003677
+   ],
+   "expected_false_fail_rate_each": 0.05
+  },
+  "V-CHACHA": {
+   "tests": 5,
+   "npcr_fail": 0,
+   "uaci_fail": 0,
+   "npcr_min": 0.99737548828125,
+   "uaci_range": [
+    0.333160280713848,
+    0.3372261795343137
+   ],
+   "expected_false_fail_rate_each": 0.05
+  }
+ },
+ "critical_values_128x128_gray": {
+  "npcr_mean": 0.99609375,
+  "npcr_lower_critical": 0.995292169004512,
+  "uaci_mean": 0.3346354166666667,
+  "uaci_interval": [
+   0.3310121110520426,
+   0.3382587222812908
+  ]
+ },
+ "note": "fixed nonce only; NPCR/UACI under fresh nonces are not evidence",
+ "elapsed_seconds": 6.75
+}

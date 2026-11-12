@@ -1,0 +1,1232 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1109/tifs.2015.2489178",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2190925335",
+  "doi": "https://doi.org/10.1109/tifs.2015.2489178",
+  "title": "On the Security of Permutation-Only Image Encryption Schemes",
+  "display_name": "On the Security of Permutation-Only Image Encryption Schemes",
+  "publication_year": 2015,
+  "publication_date": "2015-10-09",
+  "ids": {
+   "openalex": "https://openalex.org/W2190925335",
+   "doi": "https://doi.org/10.1109/tifs.2015.2489178",
+   "mag": "2190925335"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1109/tifs.2015.2489178",
+   "doi": "https://doi.org/10.1109/tifs.2015.2489178",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/tifs.2015.2489178",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S61310614",
+    "display_name": "IEEE Transactions on Information Forensics and Security",
+    "issn_l": "1556-6013",
+    "issn": [
+     "1556-6013",
+     "1556-6021"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "ccf-a",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-2",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319808",
+    "host_organization_name": "Institute of Electrical and Electronics Engineers",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5045461052",
+     "display_name": "Alireza Jolfaei",
+     "orcid": "https://orcid.org/0000-0001-7818-459X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-7818-459X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I11701301",
+      "display_name": "Griffith University",
+      "ror": "https://ror.org/02sc3r913",
+      "country_code": "AU",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ],
+    "countries": [
+     "AU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Alireza Jolfaei",
+    "raw_affiliation_strings": [
+     "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai",
+      "institution_ids": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5004691007",
+     "display_name": "Xin-Wen Wu",
+     "orcid": "https://orcid.org/0000-0003-2548-9271",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2548-9271"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I11701301",
+      "display_name": "Griffith University",
+      "ror": "https://ror.org/02sc3r913",
+      "country_code": "AU",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ],
+    "countries": [
+     "AU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Xin-Wen Wu",
+    "raw_affiliation_strings": [
+     "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai",
+      "institution_ids": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5016915945",
+     "display_name": "Vallipuram Muthukkumarasamy",
+     "orcid": "https://orcid.org/0000-0002-6787-6379",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-6787-6379"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I11701301",
+      "display_name": "Griffith University",
+      "ror": "https://ror.org/02sc3r913",
+      "country_code": "AU",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ],
+    "countries": [
+     "AU"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Vallipuram Muthukkumarasamy",
+    "raw_affiliation_strings": [
+     "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "School of Information and Communication Technology, Griffith University, Gold Coast, QLD, Australai",
+      "institution_ids": [
+       "https://openalex.org/I11701301"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I11701301"
+  ],
+  "apc_list": {
+   "value": 2645,
+   "currency": "USD",
+   "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 13.2024,
+  "has_fulltext": false,
+  "cited_by_count": 212,
+  "citation_normalized_percentile": {
+   "value": 0.99030372,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 89,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "11",
+   "issue": "2",
+   "first_page": "235",
+   "last_page": "246"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 0.9887999892234802,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.9887999892234802,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.009399999864399433,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T13674",
+    "display_name": "Computer Science and Engineering",
+    "score": 0.0006000000284984708,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/chosen-plaintext-attack",
+    "display_name": "chosen-plaintext attack",
+    "score": 0.8059999942779541
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptanalysis",
+    "display_name": "cryptanalysis",
+    "score": 0.9589999914169312
+   },
+   {
+    "id": "https://openalex.org/keywords/image-scrambling",
+    "display_name": "image scrambling",
+    "score": 0.6060000061988831
+   },
+   {
+    "id": "https://openalex.org/keywords/multimedia-encryption",
+    "display_name": "multimedia encryption",
+    "score": 0.6600000262260437
+   },
+   {
+    "id": "https://openalex.org/keywords/attack-complexity",
+    "display_name": "attack complexity",
+    "score": 0.5649999976158142
+   },
+   {
+    "id": "https://openalex.org/keywords/video-encryption",
+    "display_name": "video encryption",
+    "score": 0.4819999933242798
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C21308566",
+    "wikidata": "https://www.wikidata.org/wiki/Q7169365",
+    "display_name": "Permutation (music)",
+    "level": 2,
+    "score": 0.6423601508140564
+   },
+   {
+    "id": "https://openalex.org/C181149355",
+    "wikidata": "https://www.wikidata.org/wiki/Q897511",
+    "display_name": "Cryptanalysis",
+    "level": 3,
+    "score": 0.6405965089797974
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.5986247658729553
+   },
+   {
+    "id": "https://openalex.org/C92717368",
+    "wikidata": "https://www.wikidata.org/wiki/Q1162538",
+    "display_name": "Plaintext",
+    "level": 3,
+    "score": 0.5984595417976379
+   },
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.5656570196151733
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.4786280691623688
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.46488329768180847
+   },
+   {
+    "id": "https://openalex.org/C93974786",
+    "wikidata": "https://www.wikidata.org/wiki/Q1589480",
+    "display_name": "Ciphertext",
+    "level": 3,
+    "score": 0.43654510378837585
+   },
+   {
+    "id": "https://openalex.org/C311688",
+    "wikidata": "https://www.wikidata.org/wiki/Q2393193",
+    "display_name": "Time complexity",
+    "level": 2,
+    "score": 0.42938029766082764
+   },
+   {
+    "id": "https://openalex.org/C2780221543",
+    "wikidata": "https://www.wikidata.org/wiki/Q4681865",
+    "display_name": "Cipher",
+    "level": 3,
+    "score": 0.42587360739707947
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.42264845967292786
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.13336890935897827
+   },
+   {
+    "id": "https://openalex.org/C121332964",
+    "wikidata": "https://www.wikidata.org/wiki/Q413",
+    "display_name": "Physics",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C24890656",
+    "wikidata": "https://www.wikidata.org/wiki/Q82811",
+    "display_name": "Acoustics",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+   {
+    "id": "doi:10.1109/tifs.2015.2489178",
+    "doi": "https://doi.org/10.1109/tifs.2015.2489178",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tifs.2015.2489178",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S61310614",
+     "display_name": "IEEE Transactions on Information Forensics and Security",
+     "issn_l": "1556-6013",
+     "issn": [
+      "1556-6013",
+      "1556-6021"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "ccf-a",
+      "cwts-core",
+      "dongbi-a",
+      "jufo-2",
+      "norway-2",
+      "poland-200",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:vital:13439",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://researchonline.federation.edu.au/vital/access/HandleResolver/1959.17/166499",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400234",
+     "display_name": "FedUni ResearchOnline (Federation University Australia)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4210158496",
+     "host_organization_name": "Australian Federation of University Women \u2013 South Australia",
+     "host_organization_lineage": [
+      "https://openalex.org/I4210158496"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Text"
+   },
+   {
+    "id": "pmh:oai:research-repository.griffith.edu.au:10072/339277",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10072/339277",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S7407064376",
+     "display_name": "Griffith Research Online",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Journal article"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "id": "https://metadata.un.org/sdg/16",
+    "score": 0.49000000953674316,
+    "display_name": "Peace, justice, and strong institutions"
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 34,
+  "referenced_works": [
+   "https://openalex.org/W1567484412",
+   "https://openalex.org/W1957146688",
+   "https://openalex.org/W1966371408",
+   "https://openalex.org/W1980122784",
+   "https://openalex.org/W1982484305",
+   "https://openalex.org/W1990979552",
+   "https://openalex.org/W2004513455",
+   "https://openalex.org/W2008604527",
+   "https://openalex.org/W2009460929",
+   "https://openalex.org/W2009474744",
+   "https://openalex.org/W2010206928",
+   "https://openalex.org/W2052454383",
+   "https://openalex.org/W2061055971",
+   "https://openalex.org/W2066730489",
+   "https://openalex.org/W2075323089",
+   "https://openalex.org/W2078286562",
+   "https://openalex.org/W2099307121",
+   "https://openalex.org/W2101779172",
+   "https://openalex.org/W2108709789",
+   "https://openalex.org/W2110997719",
+   "https://openalex.org/W2115371521",
+   "https://openalex.org/W2133598069",
+   "https://openalex.org/W2141288453",
+   "https://openalex.org/W2171464389",
+   "https://openalex.org/W2199322517",
+   "https://openalex.org/W2223384635",
+   "https://openalex.org/W2260218888",
+   "https://openalex.org/W2481164891",
+   "https://openalex.org/W2499372985",
+   "https://openalex.org/W4211206866",
+   "https://openalex.org/W4247166193",
+   "https://openalex.org/W4252343056",
+   "https://openalex.org/W6688829517",
+   "https://openalex.org/W6829109127"
+  ],
+  "related_works": [
+   "https://openalex.org/W2997530193",
+   "https://openalex.org/W2942137924",
+   "https://openalex.org/W4236344152",
+   "https://openalex.org/W4310649982",
+   "https://openalex.org/W2011667854",
+   "https://openalex.org/W1589129854",
+   "https://openalex.org/W2802117553",
+   "https://openalex.org/W2939324531",
+   "https://openalex.org/W2026278835",
+   "https://openalex.org/W2917292502"
+  ],
+  "abstract_inverted_index": {
+   "Permutation": [
+    0
+   ],
+   "is": [
+    1,
+    45,
+    136,
+    199,
+    209
+   ],
+   "a": [
+    2,
+    40,
+    48,
+    140,
+    156,
+    167,
+    220
+   ],
+   "commonly": [
+    3
+   ],
+   "used": [
+    4
+   ],
+   "primitive": [
+    5
+   ],
+   "in": [
+    6,
+    18,
+    122,
+    219
+   ],
+   "multimedia": [
+    7,
+    25
+   ],
+   "(image/video)": [
+    8
+   ],
+   "encryption": [
+    9,
+    105,
+    197
+   ],
+   "schemes,": [
+    10
+   ],
+   "and": [
+    11,
+    107,
+    116,
+    179,
+    248
+   ],
+   "many": [
+    12
+   ],
+   "permutation-only": [
+    13,
+    28,
+    63,
+    103,
+    195,
+    243
+   ],
+   "algorithms": [
+    14
+   ],
+   "have": [
+    15,
+    78
+   ],
+   "been": [
+    16,
+    80
+   ],
+   "proposed": [
+    17,
+    207,
+    232,
+    242,
+    254
+   ],
+   "recent": [
+    19
+   ],
+   "years": [
+    20
+   ],
+   "for": [
+    21,
+    149
+   ],
+   "the": [
+    22,
+    31,
+    34,
+    55,
+    62,
+    75,
+    84,
+    88,
+    97,
+    109,
+    129,
+    132,
+    144,
+    150,
+    162,
+    171,
+    185,
+    194,
+    206,
+    228,
+    231,
+    253,
+    257
+   ],
+   "protection": [
+    23
+   ],
+   "of": [
+    24,
+    33,
+    57,
+    87,
+    102,
+    128,
+    146,
+    174,
+    188,
+    205,
+    223,
+    230
+   ],
+   "data.": [
+    26
+   ],
+   "In": [
+    27,
+    92
+   ],
+   "image": [
+    29,
+    35,
+    58,
+    64,
+    104,
+    125,
+    196
+   ],
+   "ciphers,": [
+    30,
+    126
+   ],
+   "entries": [
+    32
+   ],
+   "matrix": [
+    36,
+    43
+   ],
+   "are": [
+    37,
+    66,
+    173
+   ],
+   "scrambled": [
+    38
+   ],
+   "using": [
+    39,
+    166
+   ],
+   "permutation": [
+    41,
+    134
+   ],
+   "mapping": [
+    42,
+    135
+   ],
+   "which": [
+    44,
+    215
+   ],
+   "built": [
+    46
+   ],
+   "by": [
+    47,
+    139
+   ],
+   "pseudo-random": [
+    49
+   ],
+   "number": [
+    50,
+    186
+   ],
+   "generator.": [
+    51
+   ],
+   "The": [
+    52,
+    203
+   ],
+   "literature": [
+    53
+   ],
+   "on": [
+    54,
+    100,
+    112,
+    239
+   ],
+   "cryptanalysis": [
+    56,
+    101,
+    110
+   ],
+   "ciphers": [
+    59,
+    65
+   ],
+   "indicates": [
+    60,
+    216
+   ],
+   "that": [
+    61,
+    121,
+    159,
+    252
+   ],
+   "insecure": [
+    67
+   ],
+   "against": [
+    68
+   ],
+   "ciphertext-only": [
+    69
+   ],
+   "attacks": [
+    70,
+    114
+   ],
+   "and/or": [
+    71
+   ],
+   "known/chosenplaintext": [
+    72
+   ],
+   "attacks.": [
+    73
+   ],
+   "However,": [
+    74
+   ],
+   "previous": [
+    76,
+    98
+   ],
+   "studies": [
+    77
+   ],
+   "not": [
+    79
+   ],
+   "able": [
+    81
+   ],
+   "to": [
+    82,
+    192
+   ],
+   "ensure": [
+    83
+   ],
+   "correct": [
+    85,
+    133,
+    163
+   ],
+   "retrieval": [
+    86
+   ],
+   "complete": [
+    89,
+    115
+   ],
+   "plaintext": [
+    90,
+    164
+   ],
+   "elements.": [
+    91
+   ],
+   "this": [
+    93,
+    153
+   ],
+   "paper,": [
+    94
+   ],
+   "we": [
+    95
+   ],
+   "revisited": [
+    96
+   ],
+   "works": [
+    99
+   ],
+   "schemes": [
+    106
+   ],
+   "made": [
+    108
+   ],
+   "work": [
+    111
+   ],
+   "chosen-plaintext": [
+    113,
+    157,
+    233
+   ],
+   "more": [
+    117
+   ],
+   "efficient.": [
+    118
+   ],
+   "We": [
+    119
+   ],
+   "proved": [
+    120
+   ],
+   "all": [
+    123
+   ],
+   "permutationonly": [
+    124
+   ],
+   "regardless": [
+    127
+   ],
+   "cipher": [
+    130
+   ],
+   "structure,": [
+    131
+   ],
+   "recovered": [
+    137
+   ],
+   "completely": [
+    138,
+    160
+   ],
+   "chosenplaintext": [
+    141
+   ],
+   "attack.": [
+    142
+   ],
+   "To": [
+    143,
+    226
+   ],
+   "best": [
+    145
+   ],
+   "our": [
+    147
+   ],
+   "knowledge,": [
+    148
+   ],
+   "first": [
+    151
+   ],
+   "time,": [
+    152
+   ],
+   "paper": [
+    154
+   ],
+   "gives": [
+    155
+   ],
+   "attack": [
+    158,
+    208,
+    255
+   ],
+   "determines": [
+    161
+   ],
+   "elements": [
+    165
+   ],
+   "deterministic": [
+    168
+   ],
+   "method.": [
+    169
+   ],
+   "When": [
+    170
+   ],
+   "plain-images": [
+    172,
+    191
+   ],
+   "size": [
+    175
+   ],
+   "M": [
+    176,
+    213
+   ],
+   "\u00d7": [
+    177
+   ],
+   "N": [
+    178
+   ],
+   "with": [
+    180
+   ],
+   "L": [
+    181
+   ],
+   "different": [
+    182
+   ],
+   "color": [
+    183
+   ],
+   "intensities,": [
+    184
+   ],
+   "n": [
+    187,
+    200
+   ],
+   "required": [
+    189
+   ],
+   "chosen": [
+    190
+   ],
+   "break": [
+    193
+   ],
+   "algorithm": [
+    198
+   ],
+   "=": [
+    201
+   ],
+   "\u0393logL(MN)1.": [
+    202
+   ],
+   "complexity": [
+    204
+   ],
+   "O": [
+    210
+   ],
+   "(n": [
+    211
+   ],
+   "\u00b7": [
+    212
+   ],
+   "N)": [
+    214
+   ],
+   "its": [
+    217
+   ],
+   "feasibility": [
+    218
+   ],
+   "polynomial": [
+    221
+   ],
+   "amount": [
+    222
+   ],
+   "computation": [
+    224
+   ],
+   "time.": [
+    225
+   ],
+   "validate": [
+    227
+   ],
+   "performance": [
+    229
+   ],
+   "attack,": [
+    234
+   ],
+   "numerous": [
+    235
+   ],
+   "experiments": [
+    236
+   ],
+   "were": [
+    237
+   ],
+   "performed": [
+    238
+   ],
+   "two": [
+    240
+   ],
+   "recently": [
+    241
+   ],
+   "image/video": [
+    244
+   ],
+   "ciphers.": [
+    245
+   ],
+   "Both": [
+    246
+   ],
+   "theoretical": [
+    247
+   ],
+   "experimental": [
+    249
+   ],
+   "results": [
+    250
+   ],
+   "showed": [
+    251
+   ],
+   "outperforms": [
+    256
+   ],
+   "state-of-theart": [
+    258
+   ],
+   "cryptanalytic": [
+    259
+   ],
+   "methods.": [
+    260
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 19
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 19
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 21
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 28
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 25
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 23
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 2
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

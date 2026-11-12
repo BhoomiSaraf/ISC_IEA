@@ -1,0 +1,424 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/mcas.2013.2271444",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     12
+    ]
+   ],
+   "date-time": "2026-04-12T01:18:28Z",
+   "timestamp": 1775956708161,
+   "version": "3.50.1"
+  },
+  "reference-count": 46,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2013,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2013-01-01T00:00:00Z",
+     "timestamp": 1356998400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Circuits Syst. Mag."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "DOI": "10.1109/mcas.2013.2271444",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2013,
+     8,
+     31
+    ]
+   ],
+   "date-time": "2013-08-31T01:26:20Z",
+   "timestamp": 1377912380000
+  },
+  "page": "35-52",
+  "source": "Crossref",
+  "is-referenced-by-count": 54,
+  "title": [
+   "The Dangers of Rounding Errors for Simulations and Analysis of Nonlinear Circuits and Systems?and How to Avoid Them"
+  ],
+  "prefix": "10.1109",
+  "volume": "13",
+  "author": [
+   {
+    "given": "Z.",
+    "family": "Galias",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref39",
+    "first-page": "235",
+    "article-title": "Generating partitions for the dissipative H&#x00E9;non map",
+    "volume": "17d",
+    "author": "grassberger",
+    "year": "1985",
+    "journal-title": "Physica"
+   },
+   {
+    "key": "ref38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127401003516"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "crossref",
+    "first-page": "169",
+    "DOI": "10.12775/TMNA.1996.026",
+    "article-title": "Fixed point index for iterations of maps, topological horseshoe and chaos",
+    "volume": "8",
+    "author": "zgliczyn\u00b4ski",
+    "year": "1996",
+    "journal-title": "Topol Meth Nonlinear Anal"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0893-9659(94)90058-2"
+   },
+   {
+    "key": "ref31",
+    "author": "robinson",
+    "year": "1995",
+    "journal-title": "Dynamical Systems Stability Symbolic Dynamics and Chaos"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127406016513"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01608556"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/0951-7715/20/9/008"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/31.1836"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/0951-7715/10/1/016"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02307379"
+   },
+   {
+    "key": "ref40",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/0305-4470/22/24/011"
+   },
+   {
+    "key": "ref11",
+    "article-title": "FADBAD, a flexible C++ package for automatic differentiation",
+    "author": "bendtsen",
+    "year": "1996",
+    "journal-title": "Tech Rep IMM&#x2013;REP&#x2013;1996&#x2013;17"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-94-017-1247-7_7"
+   },
+   {
+    "key": "ref13",
+    "year": "0"
+   },
+   {
+    "key": "ref14",
+    "first-page": "9",
+    "article-title": "Cr-Lohner algorithm",
+    "volume": "20",
+    "author": "wilczak",
+    "year": "2011",
+    "journal-title": "Scheda Informaticae"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "crossref",
+    "first-page": "365",
+    "DOI": "10.3934/dcdsb.2009.11.365",
+    "article-title": "A Lohner-type algorithm for control systems and ordinary differential inclusions",
+    "volume": "11",
+    "author": "zgliczyn\u00b4ski",
+    "year": "2009",
+    "journal-title": "Discrete and Continuous Dynamical Systems"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2012.2188947"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0764-4442(99)80439-X"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ISCAS.2012.6272047"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127492000422"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/78928.78931"
+   },
+   {
+    "key": "ref4",
+    "author": "alefeld",
+    "year": "1983",
+    "journal-title": "Introduction to Interval Computations"
+   },
+   {
+    "key": "ref27",
+    "first-page": "7",
+    "article-title": "Inclusion methods for systems of nonlinear equations&#x2014;The interval Newton method and modifications",
+    "author": "alefeld",
+    "year": "1994",
+    "journal-title": "Topics in Validated Computations Proceedings of the IMACS-GAMM International Workshop on Validated Computations"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/1.9781611970906"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/1467-8659.1550287"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/imanum/22.2.167"
+   },
+   {
+    "key": "ref5",
+    "first-page": "225",
+    "article-title": "Enclosing the solutions of ordinary initial and boundary value problems",
+    "author": "lohner",
+    "year": "1987",
+    "journal-title": "Computer Arithmetic Scientific Computation and Programming Languages"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1024467732637"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02684450"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ISCAS.2013.6572448"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/3-540-10861-0"
+   },
+   {
+    "key": "ref1",
+    "author": "katok",
+    "year": "1997",
+    "journal-title": "Introduction to the Modern Theory of Dynamical Systems"
+   },
+   {
+    "key": "ref46",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127497000224"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127411029021"
+   },
+   {
+    "key": "ref45",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCS.1985.1085791"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "crossref",
+    "first-page": "1075",
+    "DOI": "10.1017/S0308210500026901",
+    "article-title": "A combinatorial procedure for finding isolating neighborhoods and index pairs",
+    "volume": "127a",
+    "author": "szymczak",
+    "year": "1997",
+    "journal-title": "Proc R Soc Edinb A Math"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.166223"
+   },
+   {
+    "key": "ref42",
+    "doi-asserted-by": "crossref",
+    "first-page": "909",
+    "DOI": "10.1088/0951-7715/14/5/301",
+    "article-title": "Abundance of homoclinic and heteroclinic orbits and rigorous bounds for the topological entropy for the H&#x00E9;non map",
+    "volume": "14",
+    "author": "galias",
+    "year": "2001",
+    "journal-title": "Nonlinearity"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.58.2387"
+   },
+   {
+    "key": "ref41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01048189"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/0951-7715/15/6/304"
+   },
+   {
+    "key": "ref44",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/31.55064"
+   },
+   {
+    "key": "ref26",
+    "author": "neumaier",
+    "year": "1990",
+    "journal-title": "Interval Methods for Systems of Equations"
+   },
+   {
+    "key": "ref43",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/conm/469/09170"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.61.2729"
+   }
+  ],
+  "container-title": [
+   "IEEE Circuits and Systems Magazine"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/7384/6583285/06585769.pdf?arnumber=6585769",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     12
+    ]
+   ],
+   "date-time": "2022-01-12T16:19:00Z",
+   "timestamp": 1642004340000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/6585769/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "references-count": 46,
+  "journal-issue": {
+   "issue": "3"
+  },
+  "URL": "https://doi.org/10.1109/mcas.2013.2271444",
+  "relation": {},
+  "ISSN": [
+   "1531-636X"
+  ],
+  "issn-type": [
+   {
+    "value": "1531-636X",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  }
+ }
+}

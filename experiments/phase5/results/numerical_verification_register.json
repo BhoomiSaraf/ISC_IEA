@@ -1,0 +1,170 @@
+[
+  {
+    "claim_id": "4B-A1",
+    "metric": "n_trials_core_recovery_csv",
+    "reported_value": 147,
+    "recomputed_value": 147,
+    "abs_diff": 0.0,
+    "source": "phase4b/results/experiment_A_recovery.csv",
+    "status": "VERIFIED",
+    "note": "The narrative '147 trials' figure refers to the core recovery CSV only; the 5 structural edge-case rows (1x1, non-contiguous, etc.) are a SEPARATE file/category, not summed into 147. Initial verification pass incorrectly summed both files (152) -- corrected here."
+  },
+  {
+    "claim_id": "4B-A2",
+    "metric": "n_failures_core",
+    "reported_value": 0,
+    "recomputed_value": 0,
+    "abs_diff": 0.0,
+    "source": "phase4b/results/experiment_A_recovery.csv",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-A3",
+    "metric": "n_edgecase_rows",
+    "reported_value": 5,
+    "recomputed_value": 5,
+    "abs_diff": 0.0,
+    "source": "phase4b/results/experiment_A_recovery_edgecases.csv",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-E1",
+    "metric": "npcr_mean_pct",
+    "reported_value": 99.83,
+    "recomputed_value": 99.83013765311536,
+    "abs_diff": 0.0001376531153596261,
+    "source": "phase4b/results/experiment_E_summary.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-E2",
+    "metric": "uaci_mean_pct",
+    "reported_value": 33.54,
+    "recomputed_value": 33.53771378704838,
+    "abs_diff": 0.002286212951617017,
+    "source": "phase4b/results/experiment_E_summary.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-F1",
+    "metric": "key_sens_npcr_mean_pct",
+    "reported_value": 99.61,
+    "recomputed_value": 99.61231231689453,
+    "abs_diff": 0.0023123168945318184,
+    "source": "phase4b/results/experiment_F_summary.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-F2",
+    "metric": "key_sens_uaci_mean_pct",
+    "reported_value": 33.47,
+    "recomputed_value": 33.47054589963427,
+    "abs_diff": 0.0005458996342682099,
+    "source": "phase4b/results/experiment_F_summary.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-F3",
+    "metric": "key_sens_hamming_fraction_mean",
+    "reported_value": 0.4998,
+    "recomputed_value": 0.49980669021606444,
+    "abs_diff": 6.690216064419996e-06,
+    "source": "phase4b/results/experiment_F_summary.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4B-H1",
+    "metric": "throughput_range_KBps",
+    "reported_value": "2.65 -> 15.7",
+    "recomputed_value": "see experiment_H_performance.csv for per-size throughput_KBps column",
+    "abs_diff": null,
+    "source": "phase4b/results/experiment_H_performance.csv",
+    "status": "DISCREPANCY",
+    "note": "Qualitative scaling direction verified by inspection; exact per-size KB/s not independently recomputed from a single aggregate formula since throughput depends on which byte-count/time-column convention was used."
+  },
+  {
+    "claim_id": "4C-V1",
+    "metric": "phase4b_claims_verified_count",
+    "reported_value": "9/9 (per 4C report)",
+    "recomputed_value": "9/9",
+    "abs_diff": null,
+    "source": "phase4c/results/phase4b_verification.csv",
+    "status": "DISCREPANCY",
+    "note": ""
+  },
+  {
+    "claim_id": "4C-NU1",
+    "metric": "natural_npcr_mean_pct",
+    "reported_value": 99.745,
+    "recomputed_value": 99.75100215130135,
+    "abs_diff": 0.006002151301345293,
+    "source": "phase4c/results/npcr_uaci_natural.csv",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4C-NU2",
+    "metric": "natural_uaci_mean_pct",
+    "reported_value": 33.486,
+    "recomputed_value": 33.48492157432769,
+    "abs_diff": 0.0010784256723042063,
+    "source": "phase4c/results/npcr_uaci_natural.csv",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4C-NU3",
+    "metric": "n_raw_trials",
+    "reported_value": 21,
+    "recomputed_value": 21,
+    "abs_diff": 0.0,
+    "source": "phase4c/results/npcr_uaci_natural.csv",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4D-C1",
+    "metric": "n_security_claims_tabulated",
+    "reported_value": 16,
+    "recomputed_value": 16,
+    "abs_diff": 0.0,
+    "source": "phase4d/results/claim_evidence_table.json",
+    "status": "VERIFIED",
+    "note": ""
+  },
+  {
+    "claim_id": "4D-D1",
+    "metric": "combined_dependency_density",
+    "reported_value": 0.9958,
+    "recomputed_value": 0.995849609375,
+    "abs_diff": 4.9609374999981526e-05,
+    "source": "phase4d/results/diffusion_analysis.json",
+    "status": "VERIFIED",
+    "note": "All density-like fields found: [('/dependency_matrix_summary/forward_only/density', 0.5078125), ('/dependency_matrix_summary/combined/density', 0.995849609375)]"
+  },
+  {
+    "claim_id": "4E-T1",
+    "metric": "toy_tuple_counts_by_M[1,2,4]",
+    "reported_value": [
+      147456,
+      10752,
+      64
+    ],
+    "recomputed_value": [
+      147456,
+      10752,
+      64
+    ],
+    "abs_diff": null,
+    "source": "phase4e/results/toy_solver_results.json",
+    "status": "VERIFIED",
+    "note": ""
+  }
+]

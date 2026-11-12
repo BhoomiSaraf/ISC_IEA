@@ -1,0 +1,211 @@
+[
+  {
+    "A": 256,
+    "n": 4096,
+    "M": 1,
+    "unknowns_raw_slot_count": 12546,
+    "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+    "equations_raw_count": 8192,
+    "equation_bits_upper_bound_IF_independent": 65536.0,
+    "naive_verdict_bits_only": "underdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 256,
+    "n": 4096,
+    "M": 2,
+    "unknowns_raw_slot_count": 12546,
+    "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+    "equations_raw_count": 16384,
+    "equation_bits_upper_bound_IF_independent": 131072.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 256,
+    "n": 4096,
+    "M": 4,
+    "unknowns_raw_slot_count": 12546,
+    "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+    "equations_raw_count": 32768,
+    "equation_bits_upper_bound_IF_independent": 262144.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 256,
+    "n": 4096,
+    "M": 8,
+    "unknowns_raw_slot_count": 12546,
+    "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+    "equations_raw_count": 65536,
+    "equation_bits_upper_bound_IF_independent": 524288.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 256,
+    "n": 4096,
+    "M": 16,
+    "unknowns_raw_slot_count": 12546,
+    "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+    "equations_raw_count": 131072,
+    "equation_bits_upper_bound_IF_independent": 1048576.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 4,
+    "n": 3,
+    "M": 1,
+    "unknowns_raw_slot_count": 15,
+    "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+    "equations_raw_count": 6,
+    "equation_bits_upper_bound_IF_independent": 12.0,
+    "naive_verdict_bits_only": "underdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 4,
+    "n": 3,
+    "M": 2,
+    "unknowns_raw_slot_count": 15,
+    "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+    "equations_raw_count": 12,
+    "equation_bits_upper_bound_IF_independent": 24.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 4,
+    "n": 3,
+    "M": 4,
+    "unknowns_raw_slot_count": 15,
+    "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+    "equations_raw_count": 24,
+    "equation_bits_upper_bound_IF_independent": 48.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 8,
+    "n": 4,
+    "M": 2,
+    "unknowns_raw_slot_count": 22,
+    "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+    "equations_raw_count": 16,
+    "equation_bits_upper_bound_IF_independent": 48.0,
+    "naive_verdict_bits_only": "underdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 8,
+    "n": 4,
+    "M": 4,
+    "unknowns_raw_slot_count": 22,
+    "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+    "equations_raw_count": 32,
+    "equation_bits_upper_bound_IF_independent": 96.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  },
+  {
+    "A": 8,
+    "n": 4,
+    "M": 8,
+    "unknowns_raw_slot_count": 22,
+    "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+    "equations_raw_count": 64,
+    "equation_bits_upper_bound_IF_independent": 192.0,
+    "naive_verdict_bits_only": "overdetermined (upper bound)",
+    "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+    "identifiability_classes_considered": [
+      "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+      "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+      "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+      "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+      "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+    ],
+    "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+  }
+]

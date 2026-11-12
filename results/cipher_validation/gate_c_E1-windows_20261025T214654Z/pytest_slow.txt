@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis
+plugins: anyio-4.14.2
+collected 31 items / 29 deselected / 2 selected
+
+tests\test_isc_cipher_roundtrip.py ..                                    [100%]
+
+=================================== PASSES ====================================
+- generated xml file: C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis\results\cipher_validation\gate_c_E1-windows_20261025T214654Z\junit_slow.xml -
+============================== slowest durations ==============================
+4365.89s call     tests/test_isc_cipher_roundtrip.py::test_maximum_size_roundtrip
+1215.01s call     tests/test_isc_cipher_roundtrip.py::test_scikit_image_samples_roundtrip
+0.01s teardown tests/test_isc_cipher_roundtrip.py::test_maximum_size_roundtrip
+0.01s teardown tests/test_isc_cipher_roundtrip.py::test_scikit_image_samples_roundtrip
+
+(2 durations < 0.005s hidden.  Use -vv to show these durations.)
+=========================== short test summary info ===========================
+PASSED tests/test_isc_cipher_roundtrip.py::test_scikit_image_samples_roundtrip
+PASSED tests/test_isc_cipher_roundtrip.py::test_maximum_size_roundtrip
+================ 2 passed, 29 deselected in 5581.34s (1:33:01) ================

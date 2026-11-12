@@ -1,0 +1,416 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/access.2018.2817600",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T10:58:24Z",
+   "timestamp": 1790506704587,
+   "version": "4.1.0"
+  },
+  "reference-count": 38,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2018-01-01T00:00:00Z",
+     "timestamp": 1514764800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/OAPA.html"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Open Project of Guangxi Colleges and Universities Key Laboratory of Complex System Optimization and Big Data Processing",
+    "award": [
+     "2016CSOBDP0103"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016CSOBDP0103"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61472451"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61472451"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Access"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "DOI": "10.1109/access.2018.2817600",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     3,
+     21
+    ]
+   ],
+   "date-time": "2018-03-21T18:05:27Z",
+   "timestamp": 1521655527000
+  },
+  "page": "18759-18770",
+  "source": "Crossref",
+  "is-referenced-by-count": 156,
+  "title": [
+   "Cryptanalyzing and Improving a Novel Color Image Encryption Algorithm Using RT-Enhanced Chaotic Tent Maps"
+  ],
+  "prefix": "10.1109",
+  "volume": "6",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-9662-0532",
+    "authenticated-orcid": false,
+    "given": "Congxu",
+    "family": "Zhu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kehui",
+    "family": "Sun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref38",
+    "first-page": "31",
+    "article-title": "NPCR and UACI randomness tests for image encryption",
+    "volume": "1",
+    "author": "wu",
+    "year": "2011",
+    "journal-title": "Cyber J Multidisciplinary J Sci Technol J Select Areas Telecommu"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2014.02.156"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel colour image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "wang",
+    "year": "2012",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "crossref",
+    "first-page": "10",
+    "DOI": "10.1016/j.asoc.2014.09.039",
+    "article-title": "A new image encryption algorithm based on non-adjacent coupled map lattices",
+    "volume": "26",
+    "author": "zhang",
+    "year": "2015",
+    "journal-title": "Appl Soft Comput"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2013.10.020"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2014.08.005"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2015.03.022"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-015-2573-x"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2010.11.009"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2016.01.017"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2014.11.018"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2016.10.019"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2017.04.006"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-015-2590-3"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-015-3088-1"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-011-0155-7"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-015-2579-y"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.patrec.2009.11.008"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2011.08.079"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MMUL.2017.3051512"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.image.2012.12.009"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2017.2692043"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2018.2799681"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-015-2691-5"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-013-0924-6"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2015.07.015"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "crossref",
+    "first-page": "333",
+    "DOI": "10.1007/s11071-015-2330-8",
+    "article-title": "A novel image encryption algorithm based on genetic recombination and hyper-chaotic systems",
+    "volume": "83",
+    "author": "wang",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2015.09.007"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1155/2018/6328504"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2015.05.006"
+   },
+   {
+    "key": "ref1",
+    "doi-asserted-by": "crossref",
+    "first-page": "2333",
+    "DOI": "10.1007/s11071-016-2648-x",
+    "article-title": "A joint color image encryption and compression scheme based on hyper-chaotic system",
+    "volume": "84",
+    "author": "tong",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.camwa.2010.03.017"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2012.01.016"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2011.04.001"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2013.06.031"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-010-9749-8"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-016-3030-8"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2012.11.001"
+   }
+  ],
+  "container-title": [
+   "IEEE Access"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/6287639/8274985/08320779.pdf?arnumber=8320779",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     26
+    ]
+   ],
+   "date-time": "2022-01-26T08:07:42Z",
+   "timestamp": 1643184462000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/8320779/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "references-count": 38,
+  "URL": "https://doi.org/10.1109/access.2018.2817600",
+  "relation": {},
+  "ISSN": [
+   "2169-3536"
+  ],
+  "issn-type": [
+   {
+    "value": "2169-3536",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  }
+ }
+}

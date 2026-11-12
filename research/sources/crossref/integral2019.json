@@ -1,0 +1,787 @@
+{
+ "query": "https://api.crossref.org/works/10.3390/e21080815",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T16:25:21Z",
+   "timestamp": 1790785521802,
+   "version": "4.1.0"
+  },
+  "reference-count": 58,
+  "publisher": "MDPI AG",
+  "issue": "8",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       8,
+       20
+      ]
+     ],
+     "date-time": "2019-08-20T00:00:00Z",
+     "timestamp": 1566259200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100003141",
+    "name": "Consejo Nacional de Ciencia y Tecnolog\u00eda",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "166654 (A1-S-31628)"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "166654 (A1-S-31628)"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100003141",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Entropy"
+  ],
+  "abstract": "<jats:p>Currently, chaos-based cryptosystems are being proposed in the literature to provide confidentiality for digital images, since the diffusion effect in the Advance Encryption Standard (AES) algorithm is weak. Security is the most important challenge to assess in cryptosystems according to the National Institute of Standard and Technology (NIST), then cost and performance, and finally algorithm and implementation. Recent chaos-based image encryption algorithms present basic security analysis, which could make them insecure for some applications. In this paper, we suggest an integral analysis framework related to comprehensive security analysis, cost and performance, and the algorithm and implementation for chaos-based image cryptosystems. The proposed guideline based on 20 analysis points can assist new cryptographic designers to present an integral analysis of new algorithms. Future comparisons of new schemes can be more consistent in terms of security and efficiency. In addition, we present aspects regarding digital chaos implementation, chaos validation, and key definition to improve the security of the overall cryptosystem. The suggested guideline does not guarantee security, and it does not intend to limit the liberty to implement new analysis. However, it provides for the first time in the literature a solid basis about integral analysis for chaos-based image cryptosystems as an effective approach to improve security.</jats:p>",
+  "DOI": "10.3390/e21080815",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2019-08-21T11:19:06Z",
+   "timestamp": 1566386346000
+  },
+  "page": "815",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 110,
+  "title": [
+   "Suggested Integral Analysis for Chaos-Based Image Cryptosystems"
+  ],
+  "prefix": "10.3390",
+  "volume": "21",
+  "author": [
+   {
+    "given": "Miguel Angel",
+    "family": "Murillo-Escobar",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Electronics and Telecommunication Department, Scientific Research and Advanced Studies Center of Ensenada (CICESE), Ensenada BC 22860, Mexico"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Manuel Omar",
+    "family": "Meranza-Castill\u00f3n",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Electronics and Telecommunication Department, Scientific Research and Advanced Studies Center of Ensenada (CICESE), Ensenada BC 22860, Mexico"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1205-2425",
+    "authenticated-orcid": false,
+    "given": "Rosa Martha",
+    "family": "L\u00f3pez-Guti\u00e9rrez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Engineering, Architecture and Design Faculty, Autonomous University of Baja California (UABC), Ensenada BC 22860, Mexico"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C\u00e9sar",
+    "family": "Cruz-Hern\u00e1ndez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Electronics and Telecommunication Department, Scientific Research and Advanced Studies Center of Ensenada (CICESE), Ensenada BC 22860, Mexico"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1968",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     20
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Van Tilborg, H.C.A., and Jajodia, S. (2011). Encyclopedia of Cryptography and Security, Springer US. [2nd ed.].",
+    "DOI": "10.1007/978-1-4419-5906-5"
+   },
+   {
+    "key": "ref_2",
+    "doi-asserted-by": "crossref",
+    "first-page": "120",
+    "DOI": "10.1145/359340.359342",
+    "article-title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+    "volume": "10",
+    "author": "Rivest",
+    "year": "1978",
+    "journal-title": "Commun. ACM"
+   },
+   {
+    "key": "ref_3",
+    "unstructured": "Hankerson, D., Menezes, A., and Vanstone, S. (2004). Guide to Elliptic Curve Cryptography, Springer. [1st ed.]."
+   },
+   {
+    "key": "ref_4",
+    "unstructured": "Menezes, A.J., van Oorschot, P.C., and Vanstone, S.A. (1997). Handbook of Applied Cryptography, CRC Press. [1st ed.]."
+   },
+   {
+    "key": "ref_5",
+    "first-page": "1",
+    "article-title": "Recommendation for Key Management Part 1: General",
+    "volume": "Volume 800",
+    "author": "Barker",
+    "year": "2016",
+    "journal-title": "NIST Special Publication 800-57"
+   },
+   {
+    "key": "ref_6",
+    "doi-asserted-by": "crossref",
+    "first-page": "821",
+    "DOI": "10.1103/PhysRevLett.64.821",
+    "article-title": "Synchronization in chaotic systems",
+    "volume": "64",
+    "author": "Pecora",
+    "year": "1990",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "ref_7",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Oppenheim, A.V., Wornell, G.W., Isabelle, S.H., and Cuomo, K.M. Signal processing in the context of chaotic signals. Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, San Francisco, CA, USA, 23\u201326 March 1992, IEEE. [4th ed.].",
+    "DOI": "10.1109/ICASSP.1992.226472"
+   },
+   {
+    "key": "ref_8",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cuomo, K.M., Oppenheim, A.V., and Isabelle, S.H. (1992). Spread Spectrum Modulation and Signal Masking Using Synchronized Chaotic Systems, Technical Report for MIT Research Laboratory of Electronics.",
+    "DOI": "10.21236/ADA459567"
+   },
+   {
+    "key": "ref_9",
+    "doi-asserted-by": "crossref",
+    "first-page": "645",
+    "DOI": "10.1016/j.cnsns.2006.06.010",
+    "article-title": "Communicating via synchronized time-delay Chua\u2019s circuits",
+    "volume": "13",
+    "year": "2008",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "ref_10",
+    "first-page": "337",
+    "article-title": "Communicating encrypted information based on synchronized hyperchaotic maps",
+    "volume": "11",
+    "year": "2010",
+    "journal-title": "Int. J. Nonlin. Sci. Num."
+   },
+   {
+    "key": "ref_11",
+    "first-page": "472",
+    "article-title": "Encrypted audio transmission via synchronized chaotic Nd:YAG lasers",
+    "volume": "58",
+    "author": "Spirine",
+    "year": "2012",
+    "journal-title": "Revista Mexicana de F\u00edsica"
+   },
+   {
+    "key": "ref_12",
+    "first-page": "93",
+    "article-title": "Experimental network synchronization via plastic optical fiber",
+    "volume": "19",
+    "year": "2012",
+    "journal-title": "Opt. Fiber Technol."
+   },
+   {
+    "key": "ref_13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Int. J. Bifurcat. Chaos"
+   },
+   {
+    "key": "ref_14",
+    "doi-asserted-by": "crossref",
+    "first-page": "615",
+    "DOI": "10.1007/s11071-010-9749-8",
+    "article-title": "A chaotic image encryption algorithm based on perceptron model",
+    "volume": "62",
+    "author": "Wang",
+    "year": "2010",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_15",
+    "doi-asserted-by": "crossref",
+    "first-page": "238",
+    "DOI": "10.1016/j.optlaseng.2016.10.020",
+    "article-title": "A hyper-chaos-based image encryption algorithm using pixel-level permutation and bit-level permutation",
+    "volume": "90",
+    "author": "Li",
+    "year": "2017",
+    "journal-title": "Opt. Laser Eng."
+   },
+   {
+    "key": "ref_16",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/s11071-018-4426-4",
+    "article-title": "A novel plaintext-related image encryption scheme using hyper-chaotic system",
+    "volume": "94",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_17",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel colour image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "Wang",
+    "year": "2012",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "ref_18",
+    "doi-asserted-by": "crossref",
+    "first-page": "24",
+    "DOI": "10.1016/j.asoc.2015.08.008",
+    "article-title": "A new color image encryption scheme based on DNA sequences and multiple improved 1D chaotic maps",
+    "volume": "37",
+    "author": "Wua",
+    "year": "2015",
+    "journal-title": "Appl. Soft Compt."
+   },
+   {
+    "key": "ref_19",
+    "first-page": "1",
+    "article-title": "A fingerprint image encryption scheme based on hyperchaotic R\u00f6ssler Map",
+    "volume": "2016",
+    "year": "2016",
+    "journal-title": "Math. Prob. Eng."
+   },
+   {
+    "key": "ref_20",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/s11082-016-0669-9",
+    "article-title": "Securing color image by using hyperchaotic system in gyrator transform domains",
+    "volume": "48",
+    "author": "Chen",
+    "year": "2016",
+    "journal-title": "Opt. Quant. Electron."
+   },
+   {
+    "key": "ref_21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1688",
+    "DOI": "10.1109/TIFS.2013.2259819",
+    "article-title": "An ROI privacy protection scheme for H.264 video based on FMO and chaos",
+    "volume": "8",
+    "author": "Peng",
+    "year": "2013",
+    "journal-title": "IEEE T. Inf. Foren. Sec."
+   },
+   {
+    "key": "ref_22",
+    "doi-asserted-by": "crossref",
+    "first-page": "297",
+    "DOI": "10.1016/j.micpro.2016.06.004",
+    "article-title": "Implementation of an improved chaotic encryption algorithm for real-time embedded systems by using a 32-bit microcontroller",
+    "volume": "45",
+    "year": "2016",
+    "journal-title": "Microprocess. Microsyst."
+   },
+   {
+    "key": "ref_23",
+    "doi-asserted-by": "crossref",
+    "first-page": "8198",
+    "DOI": "10.1016/j.eswa.2015.06.035",
+    "article-title": "A robust embedded biometric authentication system based on fingerprint and chaotic encryption",
+    "volume": "42",
+    "year": "2015",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "ref_24",
+    "first-page": "1",
+    "article-title": "A double chaotic layer encryption algorithm for clinical signals in telemedicine",
+    "volume": "41",
+    "year": "2017",
+    "journal-title": "J. Med. Syst."
+   },
+   {
+    "key": "ref_25",
+    "doi-asserted-by": "crossref",
+    "first-page": "119",
+    "DOI": "10.1016/j.sigpro.2014.10.033",
+    "article-title": "A RGB image encryption algorithm based on total plain image characteristics and chaos",
+    "volume": "109",
+    "year": "2015",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_26",
+    "first-page": "1",
+    "article-title": "A novel image encryption scheme based on substitution-permutation network and chaos",
+    "volume": "6",
+    "author": "Belazi",
+    "year": "2016",
+    "journal-title": "3D Research"
+   },
+   {
+    "key": "ref_27",
+    "doi-asserted-by": "crossref",
+    "first-page": "314",
+    "DOI": "10.1016/j.ins.2015.10.027",
+    "article-title": "Circular inter\u2013intra pixels bit-level permutation and chaos-based image encryption",
+    "volume": "355",
+    "author": "Diaconu",
+    "year": "2016",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "ref_28",
+    "doi-asserted-by": "crossref",
+    "first-page": "137",
+    "DOI": "10.1016/j.ins.2016.02.041",
+    "article-title": "A novel lossless color image encryption scheme using 2D DWT and 6D hyperchaotic system",
+    "volume": "349",
+    "author": "Wu",
+    "year": "2016",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "ref_29",
+    "doi-asserted-by": "crossref",
+    "first-page": "144",
+    "DOI": "10.1016/j.image.2015.10.004",
+    "article-title": "A new chaos-based image encryption system",
+    "volume": "41",
+    "author": "Assad",
+    "year": "2016",
+    "journal-title": "Signal Process-Image"
+   },
+   {
+    "key": "ref_30",
+    "doi-asserted-by": "crossref",
+    "first-page": "92",
+    "DOI": "10.1016/j.chaos.2016.12.018",
+    "article-title": "Secure image encryption algorithm design using a novel chaos based S-Box",
+    "volume": "95",
+    "author": "Pehlivan",
+    "year": "2017",
+    "journal-title": "Chaos Solit. Fract."
+   },
+   {
+    "key": "ref_31",
+    "doi-asserted-by": "crossref",
+    "first-page": "61",
+    "DOI": "10.1007/s11071-017-3436-y",
+    "article-title": "An image encryption algorithm based on compound homogeneous hyper-chaotic system",
+    "volume": "89",
+    "author": "Zhu",
+    "year": "2017",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_32",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1016/j.optlaseng.2016.08.009",
+    "article-title": "A novel chaos-based image encryption algorithm using DNA sequence operations",
+    "volume": "88",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Opt. Laser Eng."
+   },
+   {
+    "key": "ref_33",
+    "doi-asserted-by": "crossref",
+    "first-page": "225",
+    "DOI": "10.1016/j.optlaseng.2016.10.019",
+    "article-title": "Color image encryption based on hybrid hyper-chaotic system and cellular automata",
+    "volume": "90",
+    "author": "Niyat",
+    "year": "2017",
+    "journal-title": "Opt. Laser Eng."
+   },
+   {
+    "key": "ref_34",
+    "doi-asserted-by": "crossref",
+    "first-page": "324",
+    "DOI": "10.1049/iet-ipr.2016.0040",
+    "article-title": "Chaos-based fast colour image encryption scheme with true random number keys from environmental noise",
+    "volume": "11",
+    "author": "Liu",
+    "year": "2017",
+    "journal-title": "IET Image. Process."
+   },
+   {
+    "key": "ref_35",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1016/j.image.2017.01.002",
+    "article-title": "A new parallel image cryptosystem based on 5D hyper-chaotic system",
+    "volume": "52",
+    "author": "Yuan",
+    "year": "2017",
+    "journal-title": "Signal Process-Image"
+   },
+   {
+    "key": "ref_36",
+    "first-page": "1",
+    "article-title": "A new chaos-based color image encryption scheme with an efficient substitution keystream generation strategy",
+    "volume": "2018",
+    "author": "Fu",
+    "year": "2018",
+    "journal-title": "Secur. Commun. Netw."
+   },
+   {
+    "key": "ref_37",
+    "doi-asserted-by": "crossref",
+    "first-page": "148",
+    "DOI": "10.1016/j.sigpro.2018.03.010",
+    "article-title": "2D Logistic-Sine-coupling map for image encryption",
+    "volume": "149",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_38",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Li, S., Ding, W., Yin, B., Zhang, T., and Ma, Y. (2018). A Novel Delay Linear Coupling Logistics Map Model for Color Image Encryption. Entropy, 20.",
+    "DOI": "10.3390/e20060463"
+   },
+   {
+    "key": "ref_39",
+    "doi-asserted-by": "crossref",
+    "first-page": "42227",
+    "DOI": "10.1109/ACCESS.2018.2858839",
+    "article-title": "An efficient chaotic image cryptosystem based on simultaneous permutation and diffusion operations",
+    "volume": "6",
+    "author": "Diab",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_40",
+    "first-page": "1",
+    "article-title": "An efficient pixel-level chaotic image encryption algorithm",
+    "volume": "94",
+    "author": "Ye",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_41",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cai, S., Huang, L., Chen, X., and Xiong, X. (2019). A symmetric plaintext-related color image encryption system based on bit permutation. Entropy, 20.",
+    "DOI": "10.3390/e20040282"
+   },
+   {
+    "key": "ref_42",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhang, W., Zhu, Z., and Yu, H. (2019). A symmetric image encryption algorithm based on a coupled logistic\u2013bernoulli map and cellular automata diffusion strategy. Entropy, 21.",
+    "DOI": "10.3390/e21050504"
+   },
+   {
+    "key": "ref_43",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1016/j.optlaseng.2018.12.002",
+    "article-title": "Chaos-based image encryption algorithm with orbit perturbation and dynamic state variable selection mechanisms",
+    "volume": "115",
+    "author": "Li",
+    "year": "2019",
+    "journal-title": "Opt. Laser Eng."
+   },
+   {
+    "key": "ref_44",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Chang, S., Perlner, R., Burr, W.E., Turan, M.S., Kelsey, J.M., Paul, S., and Bassham, L.E. (2012). Third-round report of the SHA-3 cryptographic Hash algorithm competition. NISTIR 7886, 1\u201384. Available online: https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7896.pdf.",
+    "DOI": "10.6028/NIST.IR.7896"
+   },
+   {
+    "key": "ref_45",
+    "doi-asserted-by": "crossref",
+    "first-page": "511",
+    "DOI": "10.6028/jres.106.023",
+    "article-title": "Report on the Development of the Advanced Encryption Standard (AES)",
+    "volume": "106",
+    "author": "Nechvatal",
+    "year": "2001",
+    "journal-title": "J. Res. Natl. Inst. Stand. Technol."
+   },
+   {
+    "key": "ref_46",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "Li",
+    "year": "2006",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "ref_47",
+    "doi-asserted-by": "crossref",
+    "first-page": "305",
+    "DOI": "10.1007/s11071-018-4056-x",
+    "article-title": "Brief review on application of nonlinear dynamics in image encryption",
+    "volume": "92",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_48",
+    "doi-asserted-by": "crossref",
+    "first-page": "2137",
+    "DOI": "10.1109/TIFS.2018.2812080",
+    "article-title": "Depreciating motivation and empirical security analysis of chaos-based image and video encryption",
+    "volume": "13",
+    "author": "Preishuber",
+    "year": "2018",
+    "journal-title": "IEEE T. Inf. Foren. Sec."
+   },
+   {
+    "key": "ref_49",
+    "unstructured": "Li, S. (2003). Analyses and New Designs of Digital Chaotic Ciphers. [Ph.D. Thesis, School of Electronics and Information Engineering, Xi\u2019an Jiaotong University]. Available online: https://core.ac.uk/download/pdf/30340300.pdf."
+   },
+   {
+    "key": "ref_50",
+    "doi-asserted-by": "crossref",
+    "first-page": "285",
+    "DOI": "10.1016/0167-2789(85)90011-9",
+    "article-title": "Determining Lyapunov exponents from a time series",
+    "volume": "16",
+    "author": "Wolf",
+    "year": "1985",
+    "journal-title": "Phys. D"
+   },
+   {
+    "key": "ref_51",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Skokos, C., Gottwald, G.A., and Laskar, J. (2016). The 0-1 Test for Chaos: A Review. Chaos Detection and Predictability, Springer.",
+    "DOI": "10.1007/978-3-662-48410-4_7"
+   },
+   {
+    "key": "ref_52",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1016/j.ins.2016.01.017",
+    "article-title": "Image encryption using 2D Logistic-adjusted-Sine map",
+    "volume": "339",
+    "author": "Hua",
+    "year": "2016",
+    "journal-title": "Info. Sci."
+   },
+   {
+    "key": "ref_53",
+    "doi-asserted-by": "crossref",
+    "first-page": "1797",
+    "DOI": "10.1007/s11071-016-3153-y",
+    "article-title": "Differential cryptanalysis of a novel image encryption algorithm based on chaos and Line map",
+    "volume": "87",
+    "author": "Chen",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_54",
+    "doi-asserted-by": "crossref",
+    "first-page": "444",
+    "DOI": "10.1016/j.sigpro.2017.11.005",
+    "article-title": "Cryptanalysis and enhancements of image encryption using combination of the 1D chaotic map",
+    "volume": "144",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_55",
+    "doi-asserted-by": "crossref",
+    "first-page": "18759",
+    "DOI": "10.1109/ACCESS.2018.2817600",
+    "article-title": "Cryptanalyzing and improving a novel color image encryption algorithm using RT-enhanced chaotic Tent maps",
+    "volume": "6",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_56",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhu, S., Zhu, C., and Wang, W. (2018). A New Image Encryption Algorithm Based on Chaos and Secure Hash SHA-256. Entropy, 20.",
+    "DOI": "10.3390/e20090716"
+   },
+   {
+    "key": "ref_57",
+    "first-page": "31",
+    "article-title": "NPCR and UACI randomness tests for image encryption",
+    "volume": "1",
+    "author": "Wu",
+    "year": "2012",
+    "journal-title": "J. Sel. Areas Telecommun."
+   },
+   {
+    "key": "ref_58",
+    "doi-asserted-by": "crossref",
+    "unstructured": "\u00d6zkaynak, F. Role of NPCR and UACI tests in security problems of chaos based image encryption algorithms and possible solution proposals. IEEE International Conference on Computer Science and Engineering (UBMK), Antalya, Turkey, 5-8 October 2017, IEEE.",
+    "DOI": "10.1109/UBMK.2017.8093481"
+   }
+  ],
+  "container-title": [
+   "Entropy"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.mdpi.com/1099-4300/21/8/815/pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     11
+    ]
+   ],
+   "date-time": "2025-10-11T13:12:27Z",
+   "timestamp": 1760188347000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.mdpi.com/1099-4300/21/8/815"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     20
+    ]
+   ]
+  },
+  "references-count": 58,
+  "journal-issue": {
+   "issue": "8",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      8
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "e21080815"
+  ],
+  "URL": "https://doi.org/10.3390/e21080815",
+  "relation": {},
+  "ISSN": [
+   "1099-4300"
+  ],
+  "issn-type": [
+   {
+    "value": "1099-4300",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     20
+    ]
+   ]
+  }
+ }
+}

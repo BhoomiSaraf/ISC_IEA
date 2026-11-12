@@ -1,0 +1,6 @@
+[2026-11-11T19:24:27] Gate R (k14 extension), backend=both, Python 3.11.9
+[2026-11-11T19:24:31] R-k14-stream-KAT (reference): PASS (3.9 s)
+[2026-11-11T19:25:49] R-k14-cipher-KAT (reference): PASS (78.0 s)
+[2026-11-11T19:25:51] R-k14-stream-KAT (numpy): PASS (2.1 s)
+[2026-11-11T19:26:31] R-k14-cipher-KAT (numpy): PASS (40.1 s)
+[2026-11-11T19:27:06] R-k14-backend-cross-equal: PASS

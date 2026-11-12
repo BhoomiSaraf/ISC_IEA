@@ -1,0 +1,15 @@
+{
+ "bytes_per_source": 22000,
+ "train": 10000,
+ "test": 10000,
+ "lc_segments": 2,
+ "lc_segment_bits": 2000,
+ "z_threshold": 3.54,
+ "lc_thresholds": [
+  10,
+  14
+ ],
+ "spec": "research/gate_a_plan.md \u00a72.2 (revision B)",
+ "experiment": "A15_predict",
+ "mode": "diagnostic"
+}

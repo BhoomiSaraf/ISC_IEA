@@ -1,0 +1,23 @@
+  gray astronaut_gray pos=top_left kn=0 NPCR=99.9954 UACI=33.5465
+  gray astronaut_gray pos=top_left kn=1 NPCR=99.6506 UACI=33.5693
+  gray astronaut_gray pos=center kn=0 NPCR=99.7879 UACI=33.5679
+  gray astronaut_gray pos=center kn=1 NPCR=99.8337 UACI=33.4375
+  gray astronaut_gray pos=bottom_right kn=0 NPCR=99.8398 UACI=33.4372
+  gray astronaut_gray pos=bottom_right kn=1 NPCR=99.6902 UACI=33.5244
+  gray chelsea_gray pos=top_left kn=0 NPCR=99.7426 UACI=33.5658
+  gray chelsea_gray pos=top_left kn=1 NPCR=99.6944 UACI=33.6009
+  gray chelsea_gray pos=center kn=0 NPCR=99.6737 UACI=33.5590
+  gray chelsea_gray pos=center kn=1 NPCR=99.7771 UACI=33.3170
+  gray chelsea_gray pos=bottom_right kn=0 NPCR=99.6737 UACI=33.3647
+  gray chelsea_gray pos=bottom_right kn=1 NPCR=99.7587 UACI=33.3875
+  gray hubble_deep_field_gray pos=top_left kn=0 NPCR=99.6619 UACI=33.6157
+  gray hubble_deep_field_gray pos=top_left kn=1 NPCR=99.6111 UACI=33.3934
+  gray hubble_deep_field_gray pos=center kn=0 NPCR=99.9632 UACI=33.5660
+  gray hubble_deep_field_gray pos=center kn=1 NPCR=99.9457 UACI=33.4474
+  gray hubble_deep_field_gray pos=bottom_right kn=0 NPCR=99.7337 UACI=33.5198
+  gray hubble_deep_field_gray pos=bottom_right kn=1 NPCR=99.6357 UACI=33.2787
+  rgb astronaut_rgb ch=R kn=0 NPCR=99.6618 UACI=33.5133
+  rgb astronaut_rgb ch=G kn=0 NPCR=99.6618 UACI=33.4660
+  rgb astronaut_rgb ch=B kn=0 NPCR=99.7782 UACI=33.5055
+
+21 NPCR/UACI trials completed.

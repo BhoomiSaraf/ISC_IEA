@@ -1,0 +1,1007 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s11071-018-4332-9",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     23
+    ]
+   ],
+   "date-time": "2026-09-23T20:34:28Z",
+   "timestamp": 1790195668223,
+   "version": "4.1.0"
+  },
+  "reference-count": 57,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       5,
+       15
+      ]
+     ],
+     "date-time": "2018-05-15T00:00:00Z",
+     "timestamp": 1526342400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "funder": [
+   {
+    "name": "the Fundamental Research Funds for the Central Universities",
+    "award": [
+     "N171903003"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "N171903003"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "the Fundamental Research Funds for the Central Universities",
+    "award": [
+     "N171904009"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "N171904009"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "the Fundamental Research Funds for the Central Universities",
+    "award": [
+     "N151903001"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "N151903001"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61672146"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61672146"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61771121"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61771121"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Nonlinear Dyn"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11071-018-4332-9",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     15
+    ]
+   ],
+   "date-time": "2018-05-15T03:12:23Z",
+   "timestamp": 1526353943000
+  },
+  "page": "2399-2413",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 58,
+  "title": [
+   "Cryptanalysis and improvement in an image encryption scheme using combination of the 1D chaotic map"
+  ],
+  "prefix": "10.1007",
+  "volume": "93",
+  "author": [
+   {
+    "given": "Junxin",
+    "family": "Chen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fangfang",
+    "family": "Han",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wei",
+    "family": "Qian",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yu-Dong",
+    "family": "Yao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhi-liang",
+    "family": "Zhu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     15
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "issue": "08",
+    "key": "4332_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "volume": "16",
+    "author": "G Alvarez",
+    "year": "2006",
+    "unstructured": "Alvarez, G., Li, S.: Some basic cryptographic requirements for chaos-based cryptosystems. Int. J. Bifurc Chaos 16(08), 2129\u20132151 (2006)",
+    "journal-title": "Int. J. Bifurc Chaos"
+   },
+   {
+    "key": "4332_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "35",
+    "DOI": "10.1016/j.sigpro.2016.11.016",
+    "volume": "134",
+    "author": "X Chai",
+    "year": "2017",
+    "unstructured": "Chai, X., Gan, Z., Chen, Y., Zhang, Y.: A visually secure image encryption scheme based on compressive sensing. Signal Process. 134, 35\u201351 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "volume": "21",
+    "author": "G Chen",
+    "year": "2004",
+    "unstructured": "Chen, G., Mao, Y., Chui, C.K.: A symmetric image encryption scheme based on 3D chaotic cat maps. Chaos Solitons Fractals 21(3), 749\u2013761 (2004)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "4332_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "238",
+    "DOI": "10.1016/j.optlastec.2017.09.008",
+    "volume": "99",
+    "author": "J Chen",
+    "year": "2018",
+    "unstructured": "Chen, J., Zhang, Y., Qi, L., Fu, C., Xu, L.: Exploiting chaos-based compressed sensing and cryptographic algorithm for image encryption and compression. Optics Laser Technol. 99, 238\u2013248 (2018)",
+    "journal-title": "Optics Laser Technol."
+   },
+   {
+    "key": "4332_CR5",
+    "doi-asserted-by": "publisher",
+    "first-page": "340",
+    "DOI": "10.1016/j.sigpro.2017.07.034",
+    "volume": "142",
+    "author": "J Chen",
+    "year": "2018",
+    "unstructured": "Chen, J., Zhu, Z., Zhang, L., Zhang, Y., Yang, Bq: Exploiting self-adaptive permutationdiffusion and DNA random encoding for secure and efficient image encryption. Signal Process. 142, 340\u2013353 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "4332_CR6",
+    "doi-asserted-by": "publisher",
+    "first-page": "1191",
+    "DOI": "10.1007/s11071-014-1370-9",
+    "volume": "77",
+    "author": "J Chen",
+    "year": "2014",
+    "unstructured": "Chen, J., Zhu, Zl, Fu, C., Yu, H.: A fast image encryption scheme with a novel pixel swapping-based confusion approach. Nonlinear Dyn. 77(4), 1191\u20131207 (2014)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "1797",
+    "DOI": "10.1007/s11071-016-3153-y",
+    "volume": "87",
+    "author": "L Chen",
+    "year": "2017",
+    "unstructured": "Chen, L., Ma, B., Zhao, X., Wang, S.: Differential cryptanalysis of a novel image encryption algorithm based on chaos and Line map. Nonlinear Dyn. 87(3), 1797\u20131807 (2017)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "314",
+    "DOI": "10.1016/j.ins.2015.10.027",
+    "volume": "355",
+    "author": "AV Diaconu",
+    "year": "2016",
+    "unstructured": "Diaconu, A.V.: Circular inter-intra pixels bit-level permutation and chaos-based image encryption. Inf. Sci. 355, 314\u2013327 (2016)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "06",
+    "key": "4332_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "volume": "8",
+    "author": "J Fridrich",
+    "year": "1998",
+    "unstructured": "Fridrich, J.: Symmetric ciphers based on two-dimensional chaotic maps. Int. J. Bifurc. Chaos 8(06), 1259\u20131284 (1998)",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "8",
+    "key": "4332_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "1000",
+    "DOI": "10.1016/j.compbiomed.2013.05.005",
+    "volume": "43",
+    "author": "C Fu",
+    "year": "2013",
+    "unstructured": "Fu, C., Meng, W., Zhan, Y., Zhu, Z., Lau, F.C.M., Chi, K.T., Ma, H.F.: An efficient and secure medical image protection scheme based on chaotic maps. Comput. Biol. Med. 43(8), 1000\u20131010 (2013)",
+    "journal-title": "Comput. Biol. Med."
+   },
+   {
+    "issue": "83",
+    "key": "4332_CR11",
+    "doi-asserted-by": "publisher",
+    "first-page": "1123",
+    "DOI": "10.1007/s11071-015-2392-7",
+    "volume": "3",
+    "author": "R Guesmi",
+    "year": "2016",
+    "unstructured": "Guesmi, R., Farah, M., Kachouri, A., Samet, M.: A novel chaos-based image encryption using DNA sequence operation and secure hash algorithm SHA-2. Nonlinear Dyn. 3(83), 1123\u20131136 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "1123",
+    "DOI": "10.1007/s11071-015-2392-7",
+    "volume": "83",
+    "author": "R Guesmi",
+    "year": "2016",
+    "unstructured": "Guesmi, R., Farah, M.A.B., Kachouri, A., Samet, M.: A novel chaos-based image encryption using DNA sequence operation and secure hash algorithm SHA-2. Nonlinear Dyn. 83(3), 1123\u20131136 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "514",
+    "DOI": "10.1016/j.sigpro.2016.09.011",
+    "volume": "131",
+    "author": "M Hamdi",
+    "year": "2017",
+    "unstructured": "Hamdi, M., Rhouma, R., Belghith, S.: A selective compression-encryption of images based on SPIHT coding and Chirikov standard map. Signal Process. 131, 514\u2013526 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "88",
+    "key": "4332_CR14",
+    "doi-asserted-by": "publisher",
+    "first-page": "1305",
+    "DOI": "10.1007/s11071-016-3311-2",
+    "volume": "2",
+    "author": "G Hu",
+    "year": "2017",
+    "unstructured": "Hu, G., Xiao, D., Wang, Y., Li, X.: Cryptanalysis of a chaotic image cipher using Latin square-based confusion and diffusion. Nonlinear Dyn. 2(88), 1305\u20131316 (2017)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "87",
+    "key": "4332_CR15",
+    "first-page": "1359",
+    "volume": "2",
+    "author": "G Hu",
+    "year": "2016",
+    "unstructured": "Hu, G., Xiao, D., Zhang, Y., Xiang, T.: An efficient chaotic image cipher with dynamic lookup table driven bit-level permutation strategy. Nonlinear Dyn. 2(87), 1359\u20131375 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "1",
+    "key": "4332_CR16",
+    "doi-asserted-by": "publisher",
+    "first-page": "51",
+    "DOI": "10.1007/s11071-016-3024-6",
+    "volume": "87",
+    "author": "T Hu",
+    "year": "2017",
+    "unstructured": "Hu, T., Liu, Y., Gong, L.H., Ouyang, C.J.: An image encryption scheme combining chaos with cycle operation for DNA sequences. Nonlinear Dyn. 87(1), 51\u201366 (2017)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR17",
+    "doi-asserted-by": "publisher",
+    "first-page": "134",
+    "DOI": "10.1016/j.sigpro.2017.10.004",
+    "volume": "144",
+    "author": "Z Hua",
+    "year": "2018",
+    "unstructured": "Hua, Z., Yi, S., Zhou, Y.: Medical image encryption using high-speed scrambling and pixel adaptive diffusion. Signal Process. 144, 134\u2013144 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "4332_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "97",
+    "DOI": "10.1016/j.ins.2017.02.036",
+    "volume": "396",
+    "author": "Z Hua",
+    "year": "2017",
+    "unstructured": "Hua, Z., Zhou, Y.: Design of image cipher using block-based scrambling and image filtering. Inf. Sci. 396, 97\u2013113 (2017)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "4",
+    "key": "4332_CR19",
+    "doi-asserted-by": "publisher",
+    "first-page": "1143",
+    "DOI": "10.1177/1077546314536919",
+    "volume": "22",
+    "author": "I Hussain",
+    "year": "2016",
+    "unstructured": "Hussain, I.: Optical image encryption based on s-box transformation and fractional Hartley transform. J. Vib. Control 22(4), 1143\u20131146 (2016)",
+    "journal-title": "J. Vib. Control"
+   },
+   {
+    "issue": "4",
+    "key": "4332_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "1493",
+    "DOI": "10.3233/IFS-151628",
+    "volume": "29",
+    "author": "I Hussain",
+    "year": "2015",
+    "unstructured": "Hussain, I., Ahmed, J., Hussain, A.: An image encryption technique based on coupled map lattice and one-time s-boxes based on complex chaotic system. J. Intell. Fuzzy Syst. 29(4), 1493\u20131500 (2015)",
+    "journal-title": "J. Intell. Fuzzy Syst."
+   },
+   {
+    "issue": "2",
+    "key": "4332_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "1355",
+    "DOI": "10.1007/s11071-013-1214-z",
+    "volume": "76",
+    "author": "I Hussain",
+    "year": "2014",
+    "unstructured": "Hussain, I., Gondal, M.A.: An extended image encryption using chaotic coupled map and s-box transformation. Nonlinear Dyn. 76(2), 1355\u20131363 (2014)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "24",
+    "key": "4332_CR22",
+    "doi-asserted-by": "publisher",
+    "first-page": "4887",
+    "DOI": "10.1016/j.optcom.2012.06.011",
+    "volume": "285",
+    "author": "I Hussain",
+    "year": "2012",
+    "unstructured": "Hussain, I., Shah, T., Gondal, M.A.: An efficient image encryption algorithm based on S8 S-box transformation and NCA map. Optics Commun. 285(24), 4887\u20134890 (2012)",
+    "journal-title": "Optics Commun."
+   },
+   {
+    "issue": "1",
+    "key": "4332_CR23",
+    "doi-asserted-by": "publisher",
+    "first-page": "181",
+    "DOI": "10.1007/s11071-012-0440-0",
+    "volume": "70",
+    "author": "I Hussain",
+    "year": "2012",
+    "unstructured": "Hussain, I., Shah, T., Gondal, M.A.: Image encryption algorithm based on pgl(2, gf(28)) s-boxes and td-ercs chaotic sequence. Nonlinear Dyn. 70(1), 181\u2013187 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "9",
+    "key": "4332_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "2576",
+    "DOI": "10.1016/j.mcm.2013.01.009",
+    "volume": "57",
+    "author": "I Hussain",
+    "year": "2013",
+    "unstructured": "Hussain, I., Shah, T., Gondal, M.A.: Application of s-box and chaotic map for image encryption. Math. Comput. Model. 57(9), 2576\u20132579 (2013)",
+    "journal-title": "Math. Comput. Model."
+   },
+   {
+    "issue": "14",
+    "key": "4332_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "2133",
+    "DOI": "10.1177/1077546313482960",
+    "volume": "20",
+    "author": "I Hussain",
+    "year": "2014",
+    "unstructured": "Hussain, I., Shah, T., Gondal, M.A.: Image encryption algorithm based on total shuffling scheme and chaotic s-box transformation. J. Vib. Control 20(14), 2133\u20132136 (2014)",
+    "journal-title": "J. Vib. Control"
+   },
+   {
+    "key": "4332_CR26",
+    "doi-asserted-by": "publisher",
+    "first-page": "203",
+    "DOI": "10.1016/j.sigpro.2015.07.008",
+    "volume": "118",
+    "author": "C Li",
+    "year": "2016",
+    "unstructured": "Li, C.: Cracking a hierarchical chaotic image encryption algorithm based on permutation. Signal Process. 118, 203\u2013210 (2016)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR27",
+    "doi-asserted-by": "publisher",
+    "first-page": "2083",
+    "DOI": "10.1007/s11071-013-0924-6",
+    "volume": "73",
+    "author": "C Li",
+    "year": "2013",
+    "unstructured": "Li, C., Liu, Y., Xie, T., Chen, M.Z.Q.: Breaking a novel image encryption scheme based on improved hyperchaotic sequences. Nonlinear Dyn. 73(3), 2083\u20132089 (2013)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "4",
+    "key": "4332_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "949",
+    "DOI": "10.1016/j.sigpro.2010.09.014",
+    "volume": "91",
+    "author": "C Li",
+    "year": "2011",
+    "unstructured": "Li, C., Lo, K.T.: Optimal quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks. Signal process. 91(4), 949\u2013954 (2011)",
+    "journal-title": "Signal process."
+   },
+   {
+    "issue": "2",
+    "key": "4332_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "1545",
+    "DOI": "10.1007/s11071-014-1533-8",
+    "volume": "78",
+    "author": "C Li",
+    "year": "2014",
+    "unstructured": "Li, C., Xie, T., Liu, Q., Cheng, G.: Cryptanalyzing image encryption using chaotic logistic map. Nonlinear Dyn. 78(2), 1545\u20131551 (2014)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "1569",
+    "DOI": "10.1007/s11071-017-3565-3",
+    "volume": "89",
+    "author": "J Ma",
+    "year": "2017",
+    "unstructured": "Ma, J., Tang, J.: A review for dynamics in neuron and neuronal network. Nonlinear Dyn. 89(3), 1569\u20131578 (2017)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR31",
+    "doi-asserted-by": "publisher",
+    "first-page": "1469",
+    "DOI": "10.1007/s11042-012-1292-9",
+    "volume": "71",
+    "author": "B Norouzi",
+    "year": "2014",
+    "unstructured": "Norouzi, B., Mirzakuchaki, S., Seyedzadeh, S.M., Mosavi, M.R.: A simple, sensitive and secure image encryption algorithm based on hyper-chaotic system with only one round diffusion process. Multimed. Tools Appl. 71(3), 1469 (2014)",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "issue": "2",
+    "key": "4332_CR32",
+    "doi-asserted-by": "publisher",
+    "first-page": "305",
+    "DOI": "10.1007/s11071-018-4056-x",
+    "volume": "92",
+    "author": "F \u00d6zkaynak",
+    "year": "2018",
+    "unstructured": "\u00d6zkaynak, F.: Brief review on application of nonlinear dynamics in image encryption. Nonlinear Dyn. 92(2), 305\u2013313 (2018)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR33",
+    "doi-asserted-by": "publisher",
+    "first-page": "129",
+    "DOI": "10.1016/j.sigpro.2017.03.011",
+    "volume": "138",
+    "author": "C Pak",
+    "year": "2017",
+    "unstructured": "Pak, C., Huang, L.: A new color image encryption using combination of the 1D chaotic map. Signal Process. 138, 129\u2013137 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "7",
+    "key": "4332_CR34",
+    "doi-asserted-by": "publisher",
+    "first-page": "3056",
+    "DOI": "10.1016/j.cnsns.2008.11.005",
+    "volume": "14",
+    "author": "V Patidar",
+    "year": "2009",
+    "unstructured": "Patidar, V., Pareek, N., Sud, K.: A new substitution-diffusion based image cipher using chaotic standard and logistic maps. Commun. Nonlinear Sci. Numer. Simul. 14(7), 3056\u20133075 (2009)",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "4332_CR35",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Paul, S., Preneel, B.: Solving systems of differential equations of addition. In: Proceedings of the 10th Australasian Conference on Information Security and Privacy, pp. 75\u201388 (2005)",
+    "DOI": "10.1007/11506157_7"
+   },
+   {
+    "key": "4332_CR36",
+    "unstructured": "Solak, E., \u00c7okal, C., Yildiz, O.T., BIYIKO\u011eLU, T.: Cryptanalysis of Fridrich\u2019s chaotic image encryption. Int. J. Bifurc. Chaos 20(05), 1405\u20131413 (2010)"
+   },
+   {
+    "issue": "84",
+    "key": "4332_CR37",
+    "doi-asserted-by": "publisher",
+    "first-page": "2333",
+    "DOI": "10.1007/s11071-016-2648-x",
+    "volume": "4",
+    "author": "XJ Tong",
+    "year": "2016",
+    "unstructured": "Tong, X.J., Zhang, M., Wang, Z., Ma, J.: A joint color image encryption and compression scheme based on hyper-chaotic system. Nonlinear Dyn. 4(84), 2333\u20132356 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR38",
+    "doi-asserted-by": "publisher",
+    "first-page": "444",
+    "DOI": "10.1016/j.sigpro.2017.11.005",
+    "volume": "144",
+    "author": "H Wang",
+    "year": "2018",
+    "unstructured": "Wang, H., Xiao, D., Chen, X., Huang, H.: Cryptanalysis and enhancements of image encryption using combination of the 1d chaotic map. Signal Process. 144, 444\u2013452 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR39",
+    "doi-asserted-by": "publisher",
+    "first-page": "1595",
+    "DOI": "10.1007/s11071-015-2590-3",
+    "volume": "84",
+    "author": "X Wang",
+    "year": "2016",
+    "unstructured": "Wang, X., Liu, C., Zhang, H.: An effective and fast image encryption algorithm based on chaos and interweaving of ranks. Nonlinear Dyn. 84(3), 1595\u20131607 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "87",
+    "key": "4332_CR40",
+    "first-page": "383",
+    "volume": "1",
+    "author": "W Wen",
+    "year": "2016",
+    "unstructured": "Wen, W., Zhang, Y., Su, M., Zhang, R., Chen, Jx, Li, M.: Differential attack on a hyper-chaos-based image cryptosystem with a classic bi-modular architecture. Nonlinear Dyn. 1(87), 383\u2013390 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR41",
+    "doi-asserted-by": "publisher",
+    "first-page": "109",
+    "DOI": "10.1016/j.sigpro.2017.04.006",
+    "volume": "141",
+    "author": "J Wu",
+    "year": "2017",
+    "unstructured": "Wu, J., Liao, X., Yang, B.: Color image encryption based on chaotic systems and elliptic curve Elgamal scheme. Signal Process. 141, 109\u2013124 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "4332_CR42",
+    "doi-asserted-by": "publisher",
+    "first-page": "24",
+    "DOI": "10.1016/j.asoc.2015.08.008",
+    "volume": "37",
+    "author": "X Wu",
+    "year": "2015",
+    "unstructured": "Wu, X., Kan, H., Kurths, J.: A new color image encryption scheme based on DNA sequences and multiple improved 1D chaotic maps. Appl. Soft Comput. 37, 24\u201339 (2015)",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "key": "4332_CR43",
+    "doi-asserted-by": "publisher",
+    "first-page": "137",
+    "DOI": "10.1016/j.ins.2016.02.041",
+    "volume": "349",
+    "author": "X Wu",
+    "year": "2016",
+    "unstructured": "Wu, X., Wang, D., Kurths, J., Kan, H.: A novel lossless color image encryption scheme using 2D DWT and 6D hyperchaotic system. Inf. Sci. 349, 137\u2013153 (2016)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "2",
+    "key": "4332_CR44",
+    "doi-asserted-by": "publisher",
+    "first-page": "855",
+    "DOI": "10.1007/s11071-017-3698-4",
+    "volume": "90",
+    "author": "X Wu",
+    "year": "2017",
+    "unstructured": "Wu, X., Wang, K., Wang, X., Kan, H.: Lossless chaotic color image cryptosystem based on DNA encryption and entropy. Nonlinear Dyn. 90(2), 855\u2013875 (2017)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR45",
+    "unstructured": "Wu, Y., Noonan, J.P., Agaian, S.: NPCR and UACI randomness tests for image encryption. Cyber J Multidiscip. J. Sci. Technol. J. Sel. Areas Telecommun. (JSAT) 1, 31\u201338 (2011)"
+   },
+   {
+    "key": "4332_CR46",
+    "doi-asserted-by": "publisher",
+    "first-page": "317",
+    "DOI": "10.1016/j.ins.2013.11.027",
+    "volume": "264",
+    "author": "Y Wu",
+    "year": "2014",
+    "unstructured": "Wu, Y., Zhou, Y., Noonan, J.P., Agaian, S.: Design of image cipher using latin squares. Inf. Sci. 264, 317\u2013339 (2014)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "4332_CR47",
+    "doi-asserted-by": "publisher",
+    "first-page": "501",
+    "DOI": "10.1016/j.asoc.2016.10.018",
+    "volume": "52",
+    "author": "WS Yap",
+    "year": "2017",
+    "unstructured": "Yap, W.S., Phan, R.C.W.: Commentary on a block chaotic image encryption scheme based on self-adaptive modelling[Applied Soft Computing 22 (2014) 351\u2013357]. Appl. Soft Comput. 52, 501\u2013504 (2017)",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "issue": "83",
+    "key": "4332_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "2067",
+    "DOI": "10.1007/s11071-015-2465-7",
+    "volume": "4",
+    "author": "G Ye",
+    "year": "2016",
+    "unstructured": "Ye, G., Zhao, H., Chai, H.: Chaotic image encryption algorithm using wave-line permutation and block diffusion. Nonlinear Dyn. 4(83), 2067\u20132077 (2016)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR49",
+    "first-page": "1",
+    "volume": "2015",
+    "author": "L Zhang",
+    "year": "2015",
+    "unstructured": "Zhang, L., Zhu, Z., Yang, B., Liu, W., Zhu, H., Zou, M.: Cryptanalysis and improvement of an efficient and secure medical image protection scheme. Math. Problems Eng. 2015, 1\u201311 (2015)",
+    "journal-title": "Math. Problems Eng."
+   },
+   {
+    "key": "4332_CR50",
+    "unstructured": "Zhang, L.Y.: Design and analysis of multimedia cryptosystems. Ph.D. thesis, City University of Hongkong"
+   },
+   {
+    "key": "4332_CR51",
+    "doi-asserted-by": "publisher",
+    "first-page": "228",
+    "DOI": "10.1016/j.ins.2017.11.021",
+    "volume": "430\u2013431",
+    "author": "LY Zhang",
+    "year": "2018",
+    "unstructured": "Zhang, L.Y., Liu, Y., Wang, C., Zhou, J., Zhang, Y., Chen, G.: Improved known-plaintext attack to permutation-only multimedia ciphers. Inf. Sci. 430\u2013431, 228\u2013239 (2018)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "4332_CR52",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1109/TCYB.2017.2743003",
+    "volume": "99",
+    "author": "LY Zhang",
+    "year": "2017",
+    "unstructured": "Zhang, L.Y., Liu, Y., Wong, K.W., Pareschi, F., Zhang, Y., Rovatti, R., Setti, G.: On the security of a class of diffusion mechanisms for image encryption. IEEE Trans. Cybern. 99, 1\u201313 (2017)",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR53",
+    "doi-asserted-by": "publisher",
+    "first-page": "1091",
+    "DOI": "10.1007/s11071-012-0329-y",
+    "volume": "69",
+    "author": "Y Zhang",
+    "year": "2012",
+    "unstructured": "Zhang, Y., Li, C., Li, Q., Zhang, D., Shu, S.: Breaking a chaotic image encryption algorithm based on perceptron model. Nonlinear Dyn. 69(3), 1091\u20131096 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "4332_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "292",
+    "DOI": "10.1016/j.image.2012.12.009",
+    "volume": "28",
+    "author": "Y Zhang",
+    "year": "2013",
+    "unstructured": "Zhang, Y., Xiao, D., Shu, Y., Li, J.: A novel image encryption scheme based on a linear hyperbolic chaotic system of partial differential equations. Signal Process. Image Commun. 28(3), 292\u2013300 (2013)",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "issue": "76",
+    "key": "4332_CR55",
+    "doi-asserted-by": "publisher",
+    "first-page": "1645",
+    "DOI": "10.1007/s11071-014-1235-2",
+    "volume": "3",
+    "author": "Y Zhang",
+    "year": "2014",
+    "unstructured": "Zhang, Y., Xiao, D., Wen, W., Li, M.: Breaking an image encryption algorithm based on hyper-chaotic system with only one round diffusion process. Nonlinear Dyn. 3(76), 1645\u20131650 (2014)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "4332_CR56",
+    "doi-asserted-by": "publisher",
+    "first-page": "254",
+    "DOI": "10.1016/j.ins.2014.08.005",
+    "volume": "289",
+    "author": "Y Zhang",
+    "year": "2014",
+    "unstructured": "Zhang, Y., Xiao, D., Wen, W., Wong, K.W.: On the security of symmetric ciphers based on DNA coding. Inf. Sci. 289, 254\u2013261 (2014)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "4332_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "121",
+    "DOI": "10.1016/j.optlastec.2016.02.018",
+    "volume": "82",
+    "author": "N Zhou",
+    "year": "2016",
+    "unstructured": "Zhou, N., Pan, S., Cheng, S., Zhou, Z.: Image compression-encryption scheme based on hyper-chaotic system and 2D compressive sensing. Optics Laser Technol. 82, 121\u2013133 (2016)",
+    "journal-title": "Optics Laser Technol."
+   }
+  ],
+  "container-title": [
+   "Nonlinear Dynamics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/article/10.1007/s11071-018-4332-9/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-018-4332-9.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-018-4332-9.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     5,
+     14
+    ]
+   ],
+   "date-time": "2019-05-14T20:04:22Z",
+   "timestamp": 1557864262000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/s11071-018-4332-9"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     15
+    ]
+   ]
+  },
+  "references-count": 57,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2018,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "4332"
+  ],
+  "URL": "https://doi.org/10.1007/s11071-018-4332-9",
+  "relation": {},
+  "ISSN": [
+   "0924-090X",
+   "1573-269X"
+  ],
+  "issn-type": [
+   {
+    "value": "0924-090X",
+    "type": "print"
+   },
+   {
+    "value": "1573-269X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     15
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "9 December 2017",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "23 April 2018",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "15 May 2018",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Compliance with ethical standards"
+    }
+   },
+   {
+    "value": "The authors declare that there is no conflict of interests regarding the publication of this paper.",
+    "order": 2,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Conflicts of interest"
+    }
+   }
+  ]
+ }
+}

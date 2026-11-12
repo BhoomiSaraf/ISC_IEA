@@ -1,0 +1,76 @@
+{
+ "label": "POST-HOC investigation of the A6(c) diagnostic finding; no pass/fail criterion",
+ "part1_rows": 12,
+ "part2": {
+  "x": {
+   "after_1_step": {
+    "blocks": 20,
+    "block_size": 1024,
+    "distinct_mean": 990.75,
+    "distinct_min": 732,
+    "distinct_quantiles_5_50_95": [
+     867.85,
+     1018.5,
+     1024.0
+    ],
+    "log2_compression_mean": 0.05169199490263702,
+    "log2_compression_max": 0.4843001617159575,
+    "seconds": 0.0
+   },
+   "after_burn_in_1024": {
+    "blocks": 4,
+    "block_size": 1024,
+    "distinct_mean": 1016.75,
+    "distinct_min": 1000,
+    "distinct_quantiles_5_50_95": [
+     1003.15,
+     1021.5,
+     1023.7
+    ],
+    "log2_compression_mean": 0.010317270880622531,
+    "log2_compression_max": 0.03421571533791298,
+    "seconds": 5.3
+   }
+  },
+  "y": {
+   "after_1_step": {
+    "blocks": 20,
+    "block_size": 1024,
+    "distinct_mean": 958.4,
+    "distinct_min": 220,
+    "distinct_quantiles_5_50_95": [
+     848.9000000000001,
+     1017.0,
+     1024.0
+    ],
+    "log2_compression_mean": 0.14823016557952323,
+    "log2_compression_max": 2.2186402864753405,
+    "seconds": 0.0
+   },
+   "after_burn_in_1024": {
+    "blocks": 4,
+    "block_size": 1024,
+    "distinct_mean": 1011.75,
+    "distinct_min": 995,
+    "distinct_quantiles_5_50_95": [
+     997.4,
+     1014.0,
+     1022.95
+    ],
+    "log2_compression_mean": 0.017444009702118568,
+    "log2_compression_max": 0.04144728456898896,
+    "seconds": 5.7
+   }
+  }
+ },
+ "part3": {
+  "seeds": 1024,
+  "seed_source": "HKDF-SHA-256(salt = public seed salt, IKM = 'A6e/part3'), labels seed/<i>, 16 bytes -> isc_cipher.state_map",
+  "duplicate_initial_states": 0,
+  "duplicate_states_after_burn_in": 0,
+  "uniform_model_95pct_lower_bound_on_distinct_post_burn_in_states": 175011.6339261553,
+  "log2_bound": 17.417091303064083,
+  "seconds": 2.8
+ },
+ "elapsed_seconds": 19.61
+}

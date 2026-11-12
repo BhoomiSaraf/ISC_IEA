@@ -1,0 +1,6 @@
+[2026-10-25T21:28:20] Gate R, backend=reference, Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39, Python 3.12.3
+[2026-10-25T21:28:20] R-fdlibm-hashes: PASS (0.1 s)
+[2026-10-25T21:28:22] R-trig-KAT: PASS (1.8 s)
+[2026-10-25T21:28:35] R-trajectory-KAT: PASS (13.2 s)
+[2026-10-25T21:28:38] R-stream-KAT: PASS (2.9 s)
+[2026-10-25T21:29:57] R-cipher-KAT: PASS (79.4 s)

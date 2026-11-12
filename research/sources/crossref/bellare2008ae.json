@@ -1,0 +1,762 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s00145-008-9026-x",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     5
+    ]
+   ],
+   "date-time": "2026-10-05T02:39:19Z",
+   "timestamp": 1791167959243,
+   "version": "4.1.0"
+  },
+  "reference-count": 52,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       7,
+       30
+      ]
+     ],
+     "date-time": "2008-07-30T00:00:00Z",
+     "timestamp": 1217376000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "J Cryptol"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1007/s00145-008-9026-x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2008,
+     7,
+     29
+    ]
+   ],
+   "date-time": "2008-07-29T14:45:13Z",
+   "timestamp": 1217342713000
+  },
+  "page": "469-491",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 266,
+  "title": [
+   "Authenticated Encryption: Relations among Notions and\u00a0Analysis of the Generic Composition Paradigm"
+  ],
+  "prefix": "10.1007",
+  "volume": "21",
+  "author": [
+   {
+    "given": "Mihir",
+    "family": "Bellare",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chanathip",
+    "family": "Namprempre",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2008,
+     7,
+     30
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "9026_CR1",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "512",
+    "DOI": "10.1007/3-540-46035-7_6",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2002",
+    "author": "J.H. An",
+    "year": "2002",
+    "unstructured": "J.H. An and M. Bellare. Does encryption with redundancy provide authenticity? In Advances in Cryptology\u2014EUROCRYPT 2002, ed. by L.R. Knudsen, Amsterdam, The Netherlands, Apr. 28\u2013May\u00a02, 2002. Lecture Notes in Computer Science, vol.\u00a02332 (Springer, Berlin, 2002), pp.\u00a0512\u2013528"
+   },
+   {
+    "key": "9026_CR2",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "83",
+    "DOI": "10.1007/3-540-46035-7_6",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2002",
+    "author": "J.H. An",
+    "year": "2002",
+    "unstructured": "J.H. An, Y. Dodis, T. Rabin, On the security of joint signature and encryption, in Advances in Cryptology\u2014EUROCRYPT 2002, ed. by L.R. Knudsen, Amsterdam, The Netherlands, Apr. 28\u2013May\u00a02, 2002. Lecture Notes in Computer Science, vol.\u00a02332 (Springer, Berlin, 2002), pp.\u00a083\u2013107"
+   },
+   {
+    "key": "9026_CR3",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "602",
+    "DOI": "10.1007/11818175_36",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO",
+    "author": "M. Bellare",
+    "year": "2006",
+    "unstructured": "M. Bellare, New proofs for NMAC and HMAC: Security without collision-resistance, in Advances in Cryptology\u2014CRYPTO, ed. by C. Dwork, Santa Barbara, CA, USA, Aug. 20\u201324, 2006. Lecture Notes in Computer Science, vol.\u00a04117 (Springer, Berlin, 2006), pp.\u00a0602\u2013619"
+   },
+   {
+    "key": "9026_CR4",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "531",
+    "DOI": "10.1007/3-540-44448-3_41",
+    "volume-title": "Advances in Cryptology\u2014ASIACRYPT 2000",
+    "author": "M. Bellare",
+    "year": "2000",
+    "unstructured": "M. Bellare, C. Namprempre, Authenticated encryption: Relations among notions and analysis of the generic composition paradigm, in Advances in Cryptology\u2014ASIACRYPT 2000, ed. by T. Okamoto, Kyoto, Japan, Dec. 3\u20137, 2000. Lecture Notes in Computer Science, vol.\u00a01976 (Springer, Berlin, 2000), pp.\u00a0531\u2013545"
+   },
+   {
+    "key": "9026_CR5",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "317",
+    "DOI": "10.1007/3-540-44448-3_24",
+    "volume-title": "Advances in Cryptology\u2014ASIACRYPT 2000",
+    "author": "M. Bellare",
+    "year": "2000",
+    "unstructured": "M. Bellare, P. Rogaway, Encode-then-encipher encryption: How to exploit nonces or redundancy in plaintexts for efficient cryptography, in Advances in Cryptology\u2014ASIACRYPT 2000, ed. by T. Okamoto, Kyoto, Japan, Dec. 3\u20137, 2000. Lecture Notes in Computer Science, vol.\u00a01976 (Springer, Berlin, 2000), pp.\u00a0317\u2013330"
+   },
+   {
+    "key": "9026_CR6",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "409",
+    "DOI": "10.1007/11761679_25",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2006",
+    "author": "M. Bellare",
+    "year": "2006",
+    "unstructured": "M. Bellare, P. Rogaway, The security of triple encryption and a framework for code-based game-playing proofs, in Advances in Cryptology\u2014EUROCRYPT 2006, ed. by S. Vaudenay, St. Petersburg, Russia, May 29\u2013June 1, 2006. Lecture Notes in Computer Science, vol.\u00a04004 (Springer, Berlin, 2006), pp.\u00a0409\u2013426. Available as Cryptology ePrint Report 2005/334"
+   },
+   {
+    "key": "9026_CR7",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "519",
+    "DOI": "10.1007/3-540-48405-1_33",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201999",
+    "author": "M. Bellare",
+    "year": "1999",
+    "unstructured": "M. Bellare, A. Sahai, Non-malleable encryption: Equivalence between two notions, and an indistinguishability-based characterization, in Advances in Cryptology\u2014CRYPTO\u201999, ed. by M.J. Wiener, Santa Barbara, CA, USA, Aug. 15\u201319, 1999. Lecture Notes in Computer Science, vol.\u00a01666 (Springer, Berlin, 1999), pp.\u00a0519\u2013536. Available as Cryptology ePrint Report 2006/228"
+   },
+   {
+    "key": "9026_CR8",
+    "series-title": "Lecture Notes in Computer Science",
+    "first-page": "1",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201996",
+    "author": "M. Bellare",
+    "year": "1996",
+    "unstructured": "M. Bellare, R. Canetti, H. Krawczyk, Keying hash functions for message authentication, in Advances in Cryptology\u2014CRYPTO\u201996, ed. by N. Koblitz, Santa Barbara, CA, USA, Aug. 18\u201322, 1996. Lecture Notes in Computer Science, vol.\u00a01109 (Springer, Berlin, 1996), pp.\u00a01\u201315"
+   },
+   {
+    "key": "9026_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "394",
+    "DOI": "10.1109/SFCS.1997.646128",
+    "volume-title": "38th Annual Symposium on Foundations of Computer Science",
+    "author": "M. Bellare",
+    "year": "1997",
+    "unstructured": "M. Bellare, A. Desai, E. Jokipii, P. Rogaway, A concrete security treatment of symmetric encryption, in 38th Annual Symposium on Foundations of Computer Science, Miami Beach, Florida, Oct. 19\u201322, 1997 (IEEE Computer Society, Los Alamitos, 1997), pp.\u00a0394\u2013403"
+   },
+   {
+    "key": "9026_CR10",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.1007/BFb0055718",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201998",
+    "author": "M. Bellare",
+    "year": "1998",
+    "unstructured": "M. Bellare, A. Desai, D. Pointcheval, P. Rogaway, Relations among notions of security for public-key encryption schemes, in Advances in Cryptology\u2014CRYPTO\u201998, ed. by H. Krawczyk, Santa Barbara, CA, USA, Aug. 23\u201327, 1998. Lecture Notes in Computer Science, vol.\u00a01462 (Springer, Berlin, 1998), pp.\u00a026\u201345"
+   },
+   {
+    "issue": "3",
+    "key": "9026_CR11",
+    "doi-asserted-by": "publisher",
+    "first-page": "362",
+    "DOI": "10.1006/jcss.1999.1694",
+    "volume": "61",
+    "author": "M. Bellare",
+    "year": "2000",
+    "unstructured": "M. Bellare, J. Kilian, P. Rogaway, The security of the cipher block chaining message authentication code. J.\u00a0Comput. Syst. Sci. 61(3), 362\u2013399 (2000)",
+    "journal-title": "J.\u00a0Comput. Syst. Sci."
+   },
+   {
+    "key": "9026_CR12",
+    "unstructured": "M. Bellare, O. Goldreich, A. Mityagin, The power of verification queries in message authentication and authenticated encryption, 2004. Available as Cryptology ePrint Report 2004/309"
+   },
+   {
+    "issue": "2",
+    "key": "9026_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "206",
+    "DOI": "10.1145/996943.996945",
+    "volume": "7",
+    "author": "M. Bellare",
+    "year": "2004",
+    "unstructured": "M. Bellare, T. Kohno, C. Namprempre, Breaking and provably repairing the SSH authenticated encryption scheme: A case study of the Encode-then-Encrypt-and-MAC paradigm. ACM Trans. Inf. Syst. Secur. 7(2), 206\u2013241 (2004)",
+    "journal-title": "ACM Trans. Inf. Syst. Secur."
+   },
+   {
+    "key": "9026_CR14",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "389",
+    "DOI": "10.1007/978-3-540-25937-4_25",
+    "volume-title": "Fast Software Encryption 2004",
+    "author": "M. Bellare",
+    "year": "2004",
+    "unstructured": "M. Bellare, P. Rogaway, D. Wagner, The EAX mode of operation, in Fast Software Encryption 2004, ed. by B.K. Roy, W. Meier, New Delhi, India, Feb. 5\u20137, 2004. Lecture Notes in Computer Science, vol.\u00a03017 (Springer, Berlin, 2004), pp.\u00a0389\u2013407"
+   },
+   {
+    "key": "9026_CR15",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "527",
+    "DOI": "10.1007/11535218_32",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO 2005",
+    "author": "M. Bellare",
+    "year": "2005",
+    "unstructured": "M. Bellare, K. Pietrzak, P. Rogaway, Improved security analyses for CBC MACs, in Advances in Cryptology\u2014CRYPTO 2005, ed. by V. Shoup, Santa Barbara, CA, USA, Aug. 14\u201318, 2005. Lecture Notes in Computer Science, vol.\u00a03621 (Springer, Berlin, 2005), pp.\u00a0527\u2013545"
+   },
+   {
+    "key": "9026_CR16",
+    "unstructured": "M. Bellare, D. Hoffheinz, E. Kiltz, IND-CCA revisited: When and how should challenge decryption be disallowed? Manuscript, 2007"
+   },
+   {
+    "key": "9026_CR17",
+    "volume-title": "Encyclopedia of Cryptography and Security",
+    "author": "J. Black",
+    "year": "2005",
+    "unstructured": "J. Black, Authenticated encryption, in Encyclopedia of Cryptography and Security, ed. by H.C. van Tilborg (Springer, Berlin, 2005)"
+   },
+   {
+    "key": "9026_CR18",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "197",
+    "DOI": "10.1007/3-540-44598-6_12",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO 2000",
+    "author": "J. Black",
+    "year": "2000",
+    "unstructured": "J. Black, P. Rogaway, CBC MACs for arbitrary-length messages: The three-key constructions, in Advances in Cryptology\u2014CRYPTO 2000, ed. by M. Bellare, Santa Barbara, CA, USA, Aug. 20\u201324, 2000. Lecture Notes in Computer Science, vol.\u00a01880 (Springer, Berlin, 2000), pp.\u00a0197\u2013215"
+   },
+   {
+    "key": "9026_CR19",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "384",
+    "DOI": "10.1007/3-540-46035-7_25",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2002",
+    "author": "J. Black",
+    "year": "2002",
+    "unstructured": "J. Black, P. Rogaway, A block-cipher mode of operation for parallelizable message authentication, in Advances in Cryptology\u2014EUROCRYPT 2002, ed. by L.R. Knudsen, Amsterdam, The Netherlands, Apr. 28\u2013May 2, 2002. Lecture Notes in Computer Science, vol.\u00a02332 (Springer, Berlin, 2002), pp.\u00a0384\u2013397"
+   },
+   {
+    "key": "9026_CR20",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "216",
+    "DOI": "10.1007/3-540-48405-1_14",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201999",
+    "author": "J. Black",
+    "year": "1999",
+    "unstructured": "J. Black, S. Halevi, H. Krawczyk, T. Krovetz, P. Rogaway, UMAC: Fast and secure message authentication, in Advances in Cryptology\u2014CRYPTO\u201999, ed. by M.J. Wiener, Santa Barbara, CA, USA, Aug. 15\u201319, 1999. Lecture Notes in Computer Science, vol.\u00a01666 (Springer, Berlin, 1999), pp.\u00a0216\u2013233"
+   },
+   {
+    "key": "9026_CR21",
+    "series-title": "Lecture Notes in Computer Science",
+    "first-page": "451",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2001",
+    "author": "R. Canetti",
+    "year": "2001",
+    "unstructured": "R. Canetti, H. Krawczyk, Analysis of key-exchange protocols and their use for building secure channels, in Advances in Cryptology\u2014EUROCRYPT 2001, ed. by B. Pfitzmann, Innsbruck, Austria, May 6\u201310, 2001. Lecture Notes in Computer Science, vol.\u00a02045 (Springer, Berlin, 2001), pp.\u00a0451\u2013472"
+   },
+   {
+    "key": "9026_CR22",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "297",
+    "DOI": "10.1007/3-540-44750-4_24",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201995",
+    "author": "R. Cramer",
+    "year": "1995",
+    "unstructured": "R. Cramer, I. Damg\u00e5rd, Secure signature schemes based on interactive protocols, in Advances in Cryptology\u2014CRYPTO\u201995, ed. by D. Coppersmith, Santa Barbara, CA, USA, Aug. 27\u201331, 1995. Lecture Notes in Computer Science, vol.\u00a0963 (Springer, Berlin, 1995), pp.\u00a0297\u2013310"
+   },
+   {
+    "key": "9026_CR23",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "394",
+    "DOI": "10.1007/3-540-44598-6_25",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO 2000",
+    "author": "A. Desai",
+    "year": "2000",
+    "unstructured": "A. Desai, New paradigms for constructing symmetric encryption schemes secure against chosen-ciphertext attack, in Advances in Cryptology\u2014CRYPTO 2000, ed. by M. Bellare, Santa Barbara, CA, USA, Aug. 20\u201324, 2000. Lecture Notes in Computer Science, vol.\u00a01880 (Springer, Berlin, 2000), pp.\u00a0394\u2013412"
+   },
+   {
+    "issue": "2",
+    "key": "9026_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "391",
+    "DOI": "10.1137/S0097539795291562",
+    "volume": "30",
+    "author": "D. Dolev",
+    "year": "2000",
+    "unstructured": "D. Dolev, C. Dwork, M. Naor, Nonmalleable cryptography. SIAM J. Comput. 30(2), 391\u2013437 (2000)",
+    "journal-title": "SIAM J. Comput."
+   },
+   {
+    "key": "9026_CR25",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "330",
+    "DOI": "10.1007/978-3-540-39887-5_24",
+    "volume-title": "Fast Software Encryption 2003",
+    "author": "N. Ferguson",
+    "year": "2003",
+    "unstructured": "N. Ferguson, D. Whiting, B. Schneier, J. Kelsey, S. Lucks, T. Kohno, Helix: Fast encryption and authentication in a single cryptographic primitive, in Fast Software Encryption 2003, ed. by T. Johansson, Lund, Sweden, Feb. 24\u201326, 2003. Lecture Notes in Computer Science, vol.\u00a02887 (Springer, Berlin, 2003), pp.\u00a0330\u2013346"
+   },
+   {
+    "key": "9026_CR26",
+    "unstructured": "A. Freier, P. Karlton, P. Kocher, The SSL protocol: Version 3.0, 1996"
+   },
+   {
+    "key": "9026_CR27",
+    "series-title": "Lecture Notes in Computer Science",
+    "volume-title": "Fast Software Encryption 2001",
+    "author": "V. Gligor",
+    "year": "2001",
+    "unstructured": "V. Gligor, P. Donescu, Fast encryption and authentication: XCBC encryption and XECB authentication modes, in Fast Software Encryption 2001, ed. by M. Matsui, Yokohama, Japan, Apr. 2\u20134, 2001. Lecture Notes in Computer Science, vol.\u00a02355 (Springer, Berlin, 2001)"
+   },
+   {
+    "issue": "1",
+    "key": "9026_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "21",
+    "DOI": "10.1007/BF02620230",
+    "volume": "6",
+    "author": "O. Goldreich",
+    "year": "1993",
+    "unstructured": "O. Goldreich, A uniform complexity treatment of encryption and zero-knowledge. J.\u00a0Cryptol. 6(1), 21\u201353 (1993)",
+    "journal-title": "J.\u00a0Cryptol."
+   },
+   {
+    "key": "9026_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "270",
+    "DOI": "10.1016/0022-0000(84)90070-9",
+    "volume": "28",
+    "author": "S. Goldwasser",
+    "year": "1984",
+    "unstructured": "S. Goldwasser, S. Micali, Probabilistic encryption. J.\u00a0Comput. Syst. Sci. 28, 270\u2013299 (1984)",
+    "journal-title": "J.\u00a0Comput. Syst. Sci."
+   },
+   {
+    "issue": "2",
+    "key": "9026_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "281",
+    "DOI": "10.1137/0217017",
+    "volume": "17",
+    "author": "S. Goldwasser",
+    "year": "1988",
+    "unstructured": "S. Goldwasser, S. Micali, R.L. Rivest, A digital signature scheme secure against adaptive chosen-message attacks. SIAM J. Comput. 17(2), 281\u2013308 (1988)",
+    "journal-title": "SIAM J. Comput."
+   },
+   {
+    "key": "9026_CR31",
+    "unstructured": "S. Halevi, An observation regarding Jutla\u2019s modes of operation, 2001. Available as Cryptology ePrint Report 2001/015"
+   },
+   {
+    "issue": "2",
+    "key": "9026_CR32",
+    "doi-asserted-by": "publisher",
+    "first-page": "153",
+    "DOI": "10.1007/s00145-006-0225-z",
+    "volume": "20",
+    "author": "J. Hastad",
+    "year": "2007",
+    "unstructured": "J. Hastad, The security of the IAPM and IACBC modes. J.\u00a0Cryptol. 20(2), 153\u2013163 (2007)",
+    "journal-title": "J.\u00a0Cryptol."
+   },
+   {
+    "key": "9026_CR33",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1007/978-3-540-39887-5_11",
+    "volume-title": "Fast Software Encryption 2003",
+    "author": "T. Iwata",
+    "year": "2003",
+    "unstructured": "T. Iwata, K. Kurosawa, OMAC: One-key CBC MAC, in Fast Software Encryption 2003, ed. by T. Johansson, Lund, Sweden, Feb. 24\u201326, 2003. Lecture Notes in Computer Science, vol.\u00a02887 (Springer, Berlin, 2003), pp.\u00a0129\u2013153"
+   },
+   {
+    "key": "9026_CR34",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "237",
+    "DOI": "10.1007/3-540-45661-9_19",
+    "volume-title": "Fast Software Encryption 2002",
+    "author": "E. Jaulmes",
+    "year": "2002",
+    "unstructured": "E. Jaulmes, A. Joux, F. Valette, On the security of randomized CBC-MAC beyond the birthday paradox limit: A new construction, in Fast Software Encryption 2002, ed. by J. Daemen, V. Rijmen, Leuven, Belgium, Feb. 4\u20136, 2002. Lecture Notes in Computer Science, vol.\u00a02365 (Springer, Berlin, 2002), pp.\u00a0237\u2013251"
+   },
+   {
+    "key": "9026_CR35",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "529",
+    "DOI": "10.1007/3-540-44987-6_32",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2001",
+    "author": "C. Jutla",
+    "year": "2001",
+    "unstructured": "C. Jutla, Encryption modes with almost free message integrity, in Advances in Cryptology\u2014EUROCRYPT 2001, ed. by B. Pfitzmann, Innsbruck, Austria, May 6\u201310, 2001. Lecture Notes in Computer Science, vol.\u00a02045 (Springer, Berlin, 2001), pp.\u00a0529\u2013544"
+   },
+   {
+    "key": "9026_CR36",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "284",
+    "DOI": "10.1007/3-540-44706-7_20",
+    "volume-title": "Fast Software Encryption",
+    "author": "J. Katz",
+    "year": "2000",
+    "unstructured": "J. Katz, M. Yung, Unforgeable encryption and chosen ciphertext secure modes of operation, in Fast Software Encryption, ed. by B. Schneier, New York, NY, USA, Apr. 10\u201312, 2000. Lecture Notes in Computer Science, vol.\u00a01978 (Springer, Berlin, 2000), pp.\u00a0284\u2013299"
+   },
+   {
+    "issue": "1",
+    "key": "9026_CR37",
+    "doi-asserted-by": "publisher",
+    "first-page": "67",
+    "DOI": "10.1007/s00145-005-0310-8",
+    "volume": "19",
+    "author": "J. Katz",
+    "year": "2006",
+    "unstructured": "J. Katz, M. Yung, Characterization of security notions for probabilistic private-key encryption. J. Cryptol. 19(1), 67\u201395 (2006)",
+    "journal-title": "J. Cryptol."
+   },
+   {
+    "key": "9026_CR38",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S. Kent, IP encapsulating security payload (ESP). RFC 4303, Dec. 2005",
+    "DOI": "10.17487/rfc4303"
+   },
+   {
+    "key": "9026_CR39",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "408",
+    "DOI": "10.1007/978-3-540-25937-4_26",
+    "volume-title": "Fast Software Encryption 2004",
+    "author": "T. Kohno",
+    "year": "2004",
+    "unstructured": "T. Kohno, J. Viega, D. Whiting, CWC: A high-performance conventional authenticated encryption mode, in Fast Software Encryption 2004, ed. by B.K. Roy, New Delhi, India, Feb. 5\u20137, 2004. Lecture Notes in Computer Science, vol.\u00a03017 (Springer, Berlin, 2004), pp.\u00a0408\u2013426"
+   },
+   {
+    "key": "9026_CR40",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "310",
+    "DOI": "10.1007/3-540-44647-8_19",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO 2001",
+    "author": "H. Krawczyk",
+    "year": "2001",
+    "unstructured": "H. Krawczyk, The order of encryption and authentication for protecting communications (or: How secure is SSL?), in Advances in Cryptology\u2014CRYPTO 2001, ed. by J. Kilian, Santa Barbara, CA, USA, Aug. 19\u201323, 2001. Lecture Notes in Computer Science, vol.\u00a02139 (Springer, Berlin, 2001), pp.\u00a0310\u2013331"
+   },
+   {
+    "key": "9026_CR41",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "33",
+    "DOI": "10.1007/3-540-36563-X_3",
+    "volume-title": "Topics in Cryptology\u2014CT-RSA 2003",
+    "author": "K. Kurosawa",
+    "year": "2003",
+    "unstructured": "K. Kurosawa, T. Iwata, TMAC: Two-key CBC MAC, in Topics in Cryptology\u2014CT-RSA 2003, ed. by M. Joye, San Francisco, CA, USA, Apr. 13\u201317, 2003. Lecture Notes in Computer Science, vol.\u00a02612 (Springer, Berlin, 2003), pp.\u00a033\u201349"
+   },
+   {
+    "key": "9026_CR42",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "343",
+    "DOI": "10.1007/978-3-540-30556-9_27",
+    "volume-title": "Progress in Cryptology\u2014INDOCRYPT 2004: 5th International Conference in Cryptology in India",
+    "author": "D. McGrew",
+    "year": "2004",
+    "unstructured": "D. McGrew, J. Viega, The security and performance of the Galois/Counter Mode (GCM) of operation, in Progress in Cryptology\u2014INDOCRYPT 2004: 5th International Conference in Cryptology in India, ed. by A. Canteaut, K. Viswanathan, Chennai, India, Dec. 20\u201322, 2004. Lecture Notes in Computer Science, vol.\u00a03348 (Springer, Berlin, 2004), pp.\u00a0343\u2013355"
+   },
+   {
+    "key": "9026_CR43",
+    "volume-title": "22nd Annual ACM Symposium on Theory of Computing",
+    "author": "M. Naor",
+    "year": "1990",
+    "unstructured": "M. Naor, M. Yung, Public-key cryptosystems provably secure against chosen ciphertext attacks, in 22nd Annual ACM Symposium on Theory of Computing, Baltimore, Maryland, USA, May 14\u201316, 1990 (ACM Press, New York, 1990)"
+   },
+   {
+    "issue": "3",
+    "key": "9026_CR44",
+    "doi-asserted-by": "publisher",
+    "first-page": "315",
+    "DOI": "10.1007/s001450010009",
+    "volume": "13",
+    "author": "E. Petrank",
+    "year": "2000",
+    "unstructured": "E. Petrank, C. Rackoff, CBC MAC for real time data sources. J.\u00a0Cryptol. 13(3), 315\u2013338 (2000)",
+    "journal-title": "J.\u00a0Cryptol."
+   },
+   {
+    "key": "9026_CR45",
+    "series-title": "Lecture Notes in Computer Science",
+    "first-page": "433",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201991",
+    "author": "C. Rackoff",
+    "year": "1991",
+    "unstructured": "C. Rackoff, D.R. Simon, Non-interactive zero-knowledge proof of knowledge and chosen ciphertext attack, in Advances in Cryptology\u2014CRYPTO\u201991, ed. by J. Feigenbaum, Santa Barbara, CA, USA, Aug. 11\u201315, 1991. Lecture Notes in Computer Science, vol.\u00a0576 (Springer, Berlin, 1991), pp.\u00a0433\u2013444"
+   },
+   {
+    "key": "9026_CR46",
+    "doi-asserted-by": "publisher",
+    "first-page": "98",
+    "DOI": "10.1145/586110.586125",
+    "volume-title": "ACM CCS 2002: 9th Conference on Computer and Communications Security",
+    "author": "P. Rogaway",
+    "year": "2002",
+    "unstructured": "P. Rogaway, Authenticated-encryption with associated-data, in ACM CCS 2002: 9th Conference on Computer and Communications Security, ed. by V. Atluri, Washington, D.C., USA, Nov. 18\u201322, 2002 (ACM Press, New York, 2002), pp.\u00a098\u2013107"
+   },
+   {
+    "key": "9026_CR47",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "373",
+    "DOI": "10.1007/11761679_23",
+    "volume-title": "Advances in Cryptology\u2014EUROCRYPT 2006",
+    "author": "P. Rogaway",
+    "year": "2006",
+    "unstructured": "P. Rogaway, T. Shrimpton, A provable-security treatment of the key-wrap problem, in Advances in Cryptology\u2014EUROCRYPT 2006, ed. by S. Vaudenay, St. Petersburg, Russia, May 29\u2013June 1, 2006. Lecture Notes in Computer Science, vol.\u00a04004 (Springer, Berlin, 2006), pp.\u00a0373\u2013390"
+   },
+   {
+    "key": "9026_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "196",
+    "DOI": "10.1145/501983.502011",
+    "volume-title": "ACM CCS 2001: 8th Conference on Computer and Communications Security",
+    "author": "P. Rogaway",
+    "year": "2001",
+    "unstructured": "P. Rogaway, M. Bellare, J. Black, T. Krovetz, OCB: A block-cipher mode of operation for efficient authenticated encryption, in ACM CCS 2001: 8th Conference on Computer and Communications Security, ed. by M. Reiter, Philadelphia, PA, USA, Nov. 5\u20138, 2001 (ACM Press, New York, 2001), pp.\u00a0196\u2013205"
+   },
+   {
+    "key": "9026_CR49",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J. Song, R. Poovendran, J. Lee, T. Iwata, The advanced encryption standard-cipher-based message authentication code-pseudo-random function-128 (AES-CMAC-PRF-128) algorithm for the Internet key exchange protocol (IKE). RFC 4615, 2006",
+    "DOI": "10.17487/rfc4615"
+   },
+   {
+    "key": "9026_CR50",
+    "unstructured": "D. Whiting, R. Housley, N. Ferguson, AES encryption & authentication using CTR mode & CBC-MAC. IEEE P802.11 doc 02/001r2, May 2002"
+   },
+   {
+    "key": "9026_CR51",
+    "doi-asserted-by": "crossref",
+    "unstructured": "T. Ylonen, C. Lonvick, The secure shell (SSH) transport layer protocol. RFC 4253, Jan. 2006",
+    "DOI": "10.17487/rfc4253"
+   },
+   {
+    "key": "9026_CR52",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "165",
+    "DOI": "10.1007/BFb0052234",
+    "volume-title": "Advances in Cryptology\u2014CRYPTO\u201997",
+    "author": "Y. Zheng",
+    "year": "1997",
+    "unstructured": "Y. Zheng, Digital signcryption or how to achieve cost(signature & encryption) \u226a cost(signature) + cost(encryption), in Advances in Cryptology\u2014CRYPTO\u201997, ed. by B.S. Kaliski, Santa Barbara, CA, USA, Aug. 17\u201321, 1997. Lecture Notes in Computer Science, vol.\u00a01294 (Springer, Berlin, 1997), pp.\u00a0165\u2013179"
+   }
+  ],
+  "container-title": [
+   "Journal of Cryptology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s00145-008-9026-x.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/s00145-008-9026-x/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s00145-008-9026-x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s00145-008-9026-x.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     4,
+     8
+    ]
+   ],
+   "date-time": "2020-04-08T04:39:20Z",
+   "timestamp": 1586320760000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/s00145-008-9026-x"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     7,
+     30
+    ]
+   ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "9026"
+  ],
+  "URL": "https://doi.org/10.1007/s00145-008-9026-x",
+  "relation": {},
+  "ISSN": [
+   "0933-2790",
+   "1432-1378"
+  ],
+  "issn-type": [
+   {
+    "value": "0933-2790",
+    "type": "print"
+   },
+   {
+    "value": "1432-1378",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2008,
+     7,
+     30
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "15 July 2007",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "24 June 2008",
+    "order": 2,
+    "name": "revised",
+    "label": "Revised",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "30 July 2008",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "This content has been made available to all.",
+    "name": "free",
+    "label": "Free to read"
+   }
+  ]
+ }
+}

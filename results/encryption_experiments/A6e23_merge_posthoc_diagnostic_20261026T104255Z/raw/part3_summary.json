@@ -1,0 +1,74 @@
+{
+ "states": 65536,
+ "messages": 256,
+ "lanes_per_message": 256,
+ "stop_reason": "target reached",
+ "seed_source": "Derivation(public_key('A6e23/part3/message/<j>'), public_nonce(same), context(1,1,256,256,1)).seeds(), canonical stream order sbox, perm, fwd, bwd x lanes 0..63 -> state_map.seed_to_ints",
+ "exact_duplicates": {
+  "initial": {
+   "overall": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   },
+   "within_message": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   }
+  },
+  "after_1_step": {
+   "overall": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   },
+   "within_message": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   }
+  },
+  "after_burn_in_1024": {
+   "overall": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   },
+   "within_message": {
+    "duplicate_states": 0,
+    "colliding_pairs": 0
+   }
+  }
+ },
+ "coordinate_only_coincidences": {
+  "initial": {
+   "equal_x_bits_pairs_or_more": 0,
+   "equal_y_bits_pairs_or_more": 0
+  },
+  "after_1_step": {
+   "equal_x_bits_pairs_or_more": 0,
+   "equal_y_bits_pairs_or_more": 0
+  },
+  "after_burn_in_1024": {
+   "equal_x_bits_pairs_or_more": 0,
+   "equal_y_bits_pairs_or_more": 0
+  }
+ },
+ "unordered_pairs": 2147450880,
+ "grid_neighbours_initial": {
+  "min_abs_alpha_gap": 67896,
+  "min_abs_beta_gap": 5593122,
+  "D_128": {
+   "pairs_within_D_in_x": 0,
+   "pairs_within_D_in_both": 0,
+   "min_chebyshev_among_x_close_pairs": null
+  },
+  "D_2^20": {
+   "pairs_within_D_in_x": 2,
+   "pairs_within_D_in_both": 0,
+   "min_chebyshev_among_x_close_pairs": 2308594625907644
+  },
+  "expected_pairs_within_D_in_x_uniform": {
+   "D_128": 6.127263986854814e-05,
+   "D_2^20": 0.4999926090204099
+  }
+ },
+ "per_pair_collision_after_burn_in_95pct_upper_bound_if_zero": 1.3970051785305562e-09,
+ "seconds": 122.9
+}

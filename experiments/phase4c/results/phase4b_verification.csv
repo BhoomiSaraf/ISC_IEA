@@ -1,0 +1,10 @@
+claim,source_file,verified_value,status
+"147 correctness trials, 0 failures",experiment_A_summary.json + experiment_A_recovery.csv,"n_trials=147, n_failures=0; csv_rows=147, csv_failures=None",VERIFIED
+"Encrypted-body entropy 7.95-7.9992 bits/byte, mean 7.9869",experiment_C_entropy.csv (entropy_encrypted_overall),"min=7.9502, max=7.9992, mean=7.9869",VERIFIED
+Histogram chi-square p-value mean 0.4755; 5/63 below 0.05,experiment_B_histogram.csv (enc_chi2_pvalue),"mean=0.4755, n_below_0.05=5/63",VERIFIED
+Mean |adjacent-pixel correlation| drops from ~0.57 to ~0.007,experiment_D_correlation.csv,"orig_mean_abs_r=0.5762, enc_mean_abs_r=0.0076; n_rows=129",VERIFIED
+"NPCR/UACI (plaintext diff): mean NPCR 99.83%, mean UACI 33.54% vs ideal-random refs 99.61%/33.46%",experiment_E_summary.json,"n_trials=27, NPCR mean=99.8301, UACI mean=33.5377, ref NPCR=99.6094, ref UACI=33.4635",VERIFIED
+"Key sensitivity: NPCR 99.61%, UACI 33.47%, Hamming-fraction 0.4998 (ideal 0.5)",experiment_F_summary.json,"n_trials=40, NPCR mean=99.6123, UACI mean=33.4705, Hamming mean=0.4998",VERIFIED
+mantissa8_v1 vs k14_scaled_modulo_v1: no meaningful statistical difference; ciphertexts differ in all 63 cases,experiment_G_profile_stats.csv,"n_rows=63, any_bodies_identical=False, mean_entropy_diff=0.000055",VERIFIED
+Encryption throughput ~2.65 KB/s at 64x64 scaling to ~15.7 KB/s at 512x512,experiment_H_performance.csv (enc_throughput_MBps * 1024),"64x64=2.65 KB/s, 512x512=15.71 KB/s",VERIFIED
+(supplementary) All 5 tamper/auth regression cases raised the expected exception,experiment_J_tamper.json,"n_cases=5, all_raised=True",VERIFIED

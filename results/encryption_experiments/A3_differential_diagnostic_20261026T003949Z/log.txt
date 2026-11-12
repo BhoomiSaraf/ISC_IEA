@@ -1,0 +1,5 @@
+[2026-10-26T06:09:51] start A3_differential mode=diagnostic
+[2026-10-26T06:09:53] V-FULL: 5 tests, NPCR fails 0, UACI fails 0
+[2026-10-26T06:09:56] V-LINEAR: 5 tests, NPCR fails 0, UACI fails 5
+[2026-10-26T06:09:56] V-CHACHA: 5 tests, NPCR fails 0, UACI fails 0
+[2026-10-26T06:09:56] finished in 6.75 s

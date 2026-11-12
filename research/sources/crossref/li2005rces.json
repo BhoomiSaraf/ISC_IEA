@@ -1,0 +1,586 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.jss.2007.07.037",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     16
+    ]
+   ],
+   "date-time": "2026-06-16T16:09:45Z",
+   "timestamp": 1781626185820,
+   "version": "3.54.5"
+  },
+  "reference-count": 41,
+  "publisher": "Elsevier BV",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       7,
+       1
+      ]
+     ],
+     "date-time": "2008-07-01T00:00:00Z",
+     "timestamp": 1214870400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Systems and Software"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     7
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jss.2007.07.037",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     9,
+     15
+    ]
+   ],
+   "date-time": "2007-09-15T11:23:42Z",
+   "timestamp": 1189855422000
+  },
+  "page": "1130-1143",
+  "source": "Crossref",
+  "is-referenced-by-count": 50,
+  "title": [
+   "Cryptanalysis of the RCES/RSES image encryption scheme"
+  ],
+  "prefix": "10.1016",
+  "volume": "81",
+  "author": [
+   {
+    "given": "Shujun",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Guanrong",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kwok-Tung",
+    "family": "Lo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "3",
+    "key": "10.1016/j.jss.2007.07.037_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "251",
+    "DOI": "10.1117/12.208654",
+    "article-title": "Image encryption method using a class of fractals",
+    "volume": "4",
+    "author": "Alexopoulos",
+    "year": "1995",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jss.2007.07.037_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "57",
+    "DOI": "10.1023/B:MTAP.0000033983.62130.00",
+    "article-title": "MPEG video encryption algorithms",
+    "volume": "24",
+    "author": "Bhargava",
+    "year": "2004",
+    "journal-title": "Multimedia Tools Applicat."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jss.2007.07.037_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "567",
+    "DOI": "10.1016/0031-3203(92)90074-S",
+    "article-title": "Picture data encryption using SCAN patterns",
+    "volume": "25",
+    "author": "Bourbakis",
+    "year": "1992",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jss.2007.07.037_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "1923",
+    "DOI": "10.1155/ASP.2005.1923",
+    "article-title": "Cryptanalysis of the two-dimensional circulation encryption algorithm",
+    "volume": "2005",
+    "author": "Canni\u00e8re",
+    "year": "2005",
+    "journal-title": "EURASIP J. Appl. Signal Process."
+   },
+   {
+    "issue": "14",
+    "key": "10.1016/j.jss.2007.07.037_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1847",
+    "DOI": "10.1016/S0167-8655(02)00157-5",
+    "article-title": "Cryptanalysis of an encryption scheme for binary images",
+    "volume": "23",
+    "author": "Chang",
+    "year": "2002",
+    "journal-title": "Pattern Recognit. Lett."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jss.2007.07.037_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "83",
+    "DOI": "10.1016/S0164-1212(01)00029-2",
+    "article-title": "A new encryption algorithm for image cryptosystems",
+    "volume": "58",
+    "author": "Chang",
+    "year": "2001",
+    "journal-title": "J. Syst. Software"
+   },
+   {
+    "issue": "7\u20139",
+    "key": "10.1016/j.jss.2007.07.037_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "355",
+    "DOI": "10.1016/S1383-7621(03)00087-0",
+    "article-title": "A new cryptography system and its VLSI realization",
+    "volume": "49",
+    "author": "Chen",
+    "year": "2003",
+    "journal-title": "J. Syst. Architec."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib8",
+    "series-title": "Proceedings of the PCM\u20192002",
+    "first-page": "1041",
+    "article-title": "Design of a new cryptography system",
+    "volume": "vol. 2532",
+    "author": "Chen",
+    "year": "2002"
+   },
+   {
+    "issue": "13",
+    "key": "10.1016/j.jss.2007.07.037_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1291",
+    "DOI": "10.1155/S1110865703309011",
+    "article-title": "Design and realization of a new signal security system for multimedia data transmission",
+    "volume": "2003",
+    "author": "Chen",
+    "year": "2003",
+    "journal-title": "EURASIP J. Appl. Signal Process."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib10",
+    "unstructured": "Cheng, H.C.H., 1998. Partial encryption for image and video communication. Master\u2019s thesis, Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada (Fall)."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jss.2007.07.037_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "2439",
+    "DOI": "10.1109/78.852023",
+    "article-title": "Partial encryption of compressed images and videos",
+    "volume": "48",
+    "author": "Cheng",
+    "year": "2000",
+    "journal-title": "IEEE Trans. Signal Process."
+   },
+   {
+    "issue": "5\u20136",
+    "key": "10.1016/j.jss.2007.07.037_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "461",
+    "DOI": "10.1016/S0167-8655(98)00017-8",
+    "article-title": "Large encryption binary images with higher security",
+    "volume": "19",
+    "author": "Chung",
+    "year": "1998",
+    "journal-title": "Pattern Recognit. Lett."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jss.2007.07.037_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "395",
+    "DOI": "10.1109/30.883383",
+    "article-title": "Image encryption for secure internet multimedia applications",
+    "volume": "46",
+    "author": "Dang",
+    "year": "2000",
+    "journal-title": "IEEE Trans. Consumer Electron."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib14",
+    "series-title": "An Introduction to Chaotic Dynamical Systems",
+    "author": "Devaney",
+    "year": "1989"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jss.2007.07.037_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Int. J. Bifurcat. Chaos"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib16",
+    "series-title": "Multimedia Security Handbook",
+    "first-page": "93",
+    "article-title": "Fundamentals of multimedia encryption techniques",
+    "author": "Furht",
+    "year": "2004"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jss.2007.07.037_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "261",
+    "DOI": "10.1016/S0020-0190(96)00168-8",
+    "article-title": "On the security of image encryption method",
+    "volume": "60",
+    "author": "Jan",
+    "year": "1996",
+    "journal-title": "Inf. Process. Lett."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jss.2007.07.037_bib18",
+    "first-page": "772",
+    "article-title": "Chaos in discrete systems and diagnosis of experimental chaos",
+    "volume": "E73",
+    "author": "Kohda",
+    "year": "1990",
+    "journal-title": "Trans. IEICE"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib19",
+    "unstructured": "Li, S., 2003. Analyses and new designs of digital chaotic ciphers. Ph.D. thesis, School of Electronics and Information Engineering, Xi\u2019an Jiaotong University, Xi\u2019an, China, June. Available from: <http://www.hooklee.com/pub.html>."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib20",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Li, S., Zheng, X., 2002a. On the security of an image encryption method. In: Proceedings of the IEEE International Conference on Image Processing (ICIP\u20192002), vol. 2, pp. 925\u2013928.",
+    "DOI": "10.1109/ICIP.2002.1040103"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib21",
+    "unstructured": "Li, S., Zheng, X., 2002b. Cryptanalysis of a chaotic image encryption method. In: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS\u20192002), vol. II, pp. 708\u2013711."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib22",
+    "series-title": "Multimedia Security Handbook",
+    "first-page": "133",
+    "article-title": "Chaos-based encryption for digital images and videos",
+    "author": "Li",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib23",
+    "series-title": "Advances in Multimedia Information Processing \u2013 PCM 2004 Proceedings, Part III",
+    "first-page": "418",
+    "article-title": "Cryptanalysis of a chaotic neural network based multimedia encryption scheme",
+    "volume": "vol. 3333",
+    "author": "Li",
+    "year": "2004"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jss.2007.07.037_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "1277",
+    "DOI": "10.1155/ASP.2005.1277",
+    "article-title": "Cryptanalysis of a new signal security system for multimedia data transmission",
+    "volume": "2005",
+    "author": "Li",
+    "year": "2005",
+    "journal-title": "EURASIP J. Appl. Signal Process."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jss.2007.07.037_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "253",
+    "DOI": "10.1016/j.jss.2005.04.021",
+    "article-title": "On the security of the Yen\u2013Guo\u2019s domino signal encryption algorithm (DSEA)",
+    "volume": "79",
+    "author": "Li",
+    "year": "2006",
+    "journal-title": "J. Syst. Software"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib26",
+    "unstructured": "Li, S., Li, C., Chen, G., Bourbakis, N.G., Lo, K.-T., 2007. A general cryptanalysis of permutation-only multimedia encryption algorithms, IACR\u2019s Cryptology ePrint Archive: Report 2004/374. Available from: <http://eprint.iacr.org/2004/374>."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jss.2007.07.037_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "725",
+    "DOI": "10.1016/j.patcog.2003.08.011",
+    "article-title": "Image and video encryption using SCAN patterns",
+    "volume": "37",
+    "author": "Maniccam",
+    "year": "2004",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.jss.2007.07.037_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "2061",
+    "DOI": "10.1109/TIP.2006.873426",
+    "article-title": "A joint signal processing and cryptographic approach to multimedia encryption",
+    "volume": "15",
+    "author": "Mao",
+    "year": "2006",
+    "journal-title": "IEEE Trans. Image Process."
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.jss.2007.07.037_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "article-title": "A novel fast image encryption scheme based on 3D chaotic Baker maps",
+    "volume": "14",
+    "author": "Mao",
+    "year": "2004",
+    "journal-title": "Int. J. Bifurcat. Chaos"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib30",
+    "unstructured": "Pommer, A. 2003. Selective encryption of wavelet-compressed visual data. Ph.D. thesis, Department of Scientific Computing, University of Salzburg, Austria, June 2003."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib31",
+    "unstructured": "Qiao, L., 1998. Multimedia security and copyright protection. Ph.D. thesis, Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jss.2007.07.037_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "318",
+    "DOI": "10.1117/1.482647",
+    "article-title": "Fast encryption of image data using chaotic Kolmogorov flows",
+    "volume": "7",
+    "author": "Scharinger",
+    "year": "1998",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib33",
+    "series-title": "Applied Cryptography \u2013 Protocols, Algorithms, and Source Code in C",
+    "author": "Schneier",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib34",
+    "series-title": "Image and Video Encryption: From Digital Rights Management to Secured Personal Communication",
+    "author": "Uhl",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib35",
+    "unstructured": "Wikipedia, 2007. Geometric distribution. Available from: <http://en.wikipedia.org/wiki/Geometric_Distribution>."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jss.2007.07.037_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "828",
+    "DOI": "10.1109/TMM.2005.854469",
+    "article-title": "Design of integrated multimedia compression and encryption systems",
+    "volume": "7",
+    "author": "Wu",
+    "year": "2005",
+    "journal-title": "IEEE Trans. Multimedia"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jss.2007.07.037_bib37",
+    "first-page": "2025",
+    "article-title": "Image encryption scheme based on a truncated Baker transformation",
+    "volume": "E85-A",
+    "author": "Yano",
+    "year": "2002",
+    "journal-title": "IEICE Trans. Fundam."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib38",
+    "unstructured": "Yen, J.-C., Guo, J.-I., 1999. A new image encryption algorithm and its VLSI architecture. In: Proceedings of the IEEE Workshop Signal Processing Systems, pp. 430\u2013437."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jss.2007.07.037_bib39",
+    "doi-asserted-by": "crossref",
+    "first-page": "167",
+    "DOI": "10.1049/ip-vis:20000208",
+    "article-title": "Efficient hierarchical chaotic image encryption algorithm and its VLSI realisation",
+    "volume": "147",
+    "author": "Yen",
+    "year": "2000",
+    "journal-title": "IEE Proc. \u2013 Vis. Image Signal Process."
+   },
+   {
+    "key": "10.1016/j.jss.2007.07.037_bib40",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yen, J.-C., Guo, J.-I., 2000b. A new chaotic key-based design for image encryption and decryption. In: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS\u20192000), vol. 4, pp. 49\u201352.",
+    "DOI": "10.1109/ISCAS.2000.858685"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jss.2007.07.037_bib41",
+    "first-page": "69",
+    "article-title": "The design and realization of a new domino signal security system",
+    "volume": "10",
+    "author": "Yen",
+    "year": "2003",
+    "journal-title": "J. Chin. Inst. Electr. Eng. (Trans. Chin. Inst. Eng., Ser. E)"
+   }
+  ],
+  "container-title": [
+   "Journal of Systems and Software"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0164121207001896?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0164121207001896?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     21
+    ]
+   ],
+   "date-time": "2025-01-21T00:43:49Z",
+   "timestamp": 1737420229000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0164121207001896"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     7
+    ]
+   ]
+  },
+  "references-count": 41,
+  "journal-issue": {
+   "issue": "7",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      7
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0164121207001896"
+  ],
+  "URL": "https://doi.org/10.1016/j.jss.2007.07.037",
+  "relation": {},
+  "ISSN": [
+   "0164-1212"
+  ],
+  "issn-type": [
+   {
+    "value": "0164-1212",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2008,
+     7
+    ]
+   ]
+  }
+ }
+}

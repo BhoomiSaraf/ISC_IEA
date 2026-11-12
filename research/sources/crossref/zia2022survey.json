@@ -1,0 +1,1799 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s10207-022-00588-5",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     21
+    ]
+   ],
+   "date-time": "2026-10-21T21:41:34Z",
+   "timestamp": 1792618894391,
+   "version": "4.5.0"
+  },
+  "reference-count": 165,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       4,
+       7
+      ]
+     ],
+     "date-time": "2022-04-07T00:00:00Z",
+     "timestamp": 1649289600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       4,
+       7
+      ]
+     ],
+     "date-time": "2022-04-07T00:00:00Z",
+     "timestamp": 1649289600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100000842",
+    "name": "British Telecommunications",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100000842",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100013360",
+    "name": "Invest Northern Ireland",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100013360",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Int. J. Inf. Secur."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     8
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Chaos-based cryptosystems have been an active area of research in recent years. Although these algorithms are not standardized like AES, DES, RSA, etc., chaos-based cryptosystems like Chebyshev polynomials can provide additional security when used with standard public key cryptosystems like RSA and El-gamal. Standard encryption algorithms such as AES have always been the primary choice, but when it comes to image or video encryption, many researchers recommend chaos-based encryption techniques due to their computational efficiency. This paper presents a survey on the most up-to-date chaos-based image encryption techniques and classifies them into spatial, temporal and spatiotemporal domains for better understanding. The significant improvements in the field of image encryption are discussed. In addition, comparative analysis is performed to validate the evaluation matrices for quantifying the encryption algorithms\u2019 security and performance in recent papers.</jats:p>",
+  "DOI": "10.1007/s10207-022-00588-5",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     7
+    ]
+   ],
+   "date-time": "2022-04-07T05:18:00Z",
+   "timestamp": 1649308680000
+  },
+  "page": "917-935",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 211,
+  "title": [
+   "Survey on image encryption techniques using chaotic maps in spatial, transform and spatiotemporal domains"
+  ],
+  "prefix": "10.1007",
+  "volume": "21",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-1422-2408",
+    "authenticated-orcid": false,
+    "given": "Unsub",
+    "family": "Zia",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mark",
+    "family": "McCartney",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8243-2223",
+    "authenticated-orcid": false,
+    "given": "Bryan",
+    "family": "Scotney",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8017-2598",
+    "authenticated-orcid": false,
+    "given": "Jorge",
+    "family": "Martinez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6796-9981",
+    "authenticated-orcid": false,
+    "given": "Mamun",
+    "family": "AbuTair",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8314-5333",
+    "authenticated-orcid": false,
+    "given": "Jamshed",
+    "family": "Memon",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0150-8060",
+    "authenticated-orcid": false,
+    "given": "Ali",
+    "family": "Sajjad",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     7
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "588_CR1",
+    "unstructured": "Apostol, K.: Brute-Force Attack (2012)"
+   },
+   {
+    "key": "588_CR2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hurley, N., Cheng, Z., Zhang M.: Statistical attack detection. In: Proceedings of the Third ACM Conference on Recommender Systems, pp. 149\u2013156 (2009)",
+    "DOI": "10.1145/1639714.1639740"
+   },
+   {
+    "key": "588_CR3",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Lu, J., Dunkelman, O., Keller, N., Kim, J.: New impossible differential attacks on aes. In: International Conference on Cryptology in India, Springer, pp. 279\u2013293 (2008)",
+    "DOI": "10.1007/978-3-540-89754-5_22"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "1429",
+    "DOI": "10.1007/s11277-019-06793-1",
+    "volume": "110",
+    "author": "T Shah",
+    "year": "2020",
+    "unstructured": "Shah, T., Jamal, S.S., et al.: An improved chaotic cryptosystem for image encryption and digital watermarking. Wireless Personal Commun. 110(3), 1429\u20131442 (2020)",
+    "journal-title": "Wireless Personal Commun."
+   },
+   {
+    "key": "588_CR5",
+    "unstructured": "Zeng, W., Lei, S.M.: Digital image scrambling for image coding systems. US Patent 6,505,299 (2003)"
+   },
+   {
+    "key": "588_CR6",
+    "unstructured": "Morkel, T., Eloff, J.H., Olivier, M.S.: An overview of image steganography. In: ISSA, vol\u00a01 (2005)"
+   },
+   {
+    "key": "588_CR7",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bhowmik, S., Acharyya, S.: Image cryptography: The genetic algorithm approach. In: 2011 IEEE International Conference on Computer Science and Automation Engineering, IEEE, vol.\u00a02, pp. 223\u2013227 (2011)",
+    "DOI": "10.1109/CSAE.2011.5952458"
+   },
+   {
+    "key": "588_CR8",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jeyanthi, N., Thandeeswaran, R.: Security Breaches and Threat Prevention in the Internet of Things. IGI Global (2017)",
+    "DOI": "10.4018/978-1-5225-2296-6"
+   },
+   {
+    "key": "588_CR9",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kumari, S.: A research paper on cryptography encryption and compression techniques. International Journal Of Engineering And Computer Science 6(4) (2017)",
+    "DOI": "10.18535/ijecs/v6i4.20"
+   },
+   {
+    "key": "588_CR10",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hell, M., Johansson, T., Maximov, A., Meier, W.: A stream cipher proposal: Grain-128. In: 2006 IEEE International Symposium on Information Theory, IEEE, pp. 1614\u20131618 (2006)",
+    "DOI": "10.1109/ISIT.2006.261549"
+   },
+   {
+    "key": "588_CR11",
+    "doi-asserted-by": "crossref",
+    "unstructured": "De\u00a0Canniere, C.: Trivium: A stream cipher construction inspired by block cipher design principles. In: International Conference on Information Security, Springer, pp. 171\u2013186 (2006)",
+    "DOI": "10.1007/11836810_13"
+   },
+   {
+    "key": "588_CR12",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Babbage, S., Dodd, M.: The mickey stream ciphers. In: New Stream Cipher Designs, Springer, pp. 191\u2013209 (2008)",
+    "DOI": "10.1007/978-3-540-68351-3_15"
+   },
+   {
+    "issue": "12",
+    "key": "588_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "8",
+    "DOI": "10.1016/S1353-4858(10)70006-4",
+    "volume": "2009",
+    "author": "S Heron",
+    "year": "2009",
+    "unstructured": "Heron, S.: Advanced encryption standard (aes). Netw. Security 2009(12), 8\u201312 (2009)",
+    "journal-title": "Netw. Security"
+   },
+   {
+    "key": "588_CR14",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Barker, W.C.: Recommendation for the triple data encryption algorithm (tdea) block cipher (2004)",
+    "DOI": "10.6028/NIST.SP.800-67v1"
+   },
+   {
+    "key": "588_CR15",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Shirai, T., Shibutani, K., Akishita, T., Moriai, S., Iwata, T.: The 128-bit blockcipher clefia. In: International Workshop on Fast Software Encryption, Springer, pp. 181\u2013195 (2007)",
+    "DOI": "10.1007/978-3-540-74619-5_12"
+   },
+   {
+    "key": "588_CR16",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bogdanov, A., Knudsen, L.R., Leander, G., Paar, C., Poschmann, A., Robshaw, M.J., Seurin, Y., Vikkelsoe, C.: Present: An ultra-lightweight block cipher. In: International Workshop on Cryptographic Hardware and Embedded Systems, Springer, pp. 450\u2013466 (2007)",
+    "DOI": "10.1007/978-3-540-74735-2_31"
+   },
+   {
+    "key": "588_CR17",
+    "unstructured": "Tripathi, R., Agrawal, S.: Comparative study of symmetric and asymmetric Cryptogr Techniq (2014)"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "198",
+    "DOI": "10.1109/LCOMM.2004.825705",
+    "volume": "8",
+    "author": "L Harn",
+    "year": "2004",
+    "unstructured": "Harn, L., Mehta, M., Hsin, W.J.: Integrating Diffie-Hellman key exchange into the digital signature algorithm (dsa). IEEE Commun. lett. 8(3), 198\u2013200 (2004)",
+    "journal-title": "IEEE Commun. lett."
+   },
+   {
+    "issue": "1",
+    "key": "588_CR19",
+    "doi-asserted-by": "publisher",
+    "first-page": "36",
+    "DOI": "10.1007/s102070100002",
+    "volume": "1",
+    "author": "D Johnson",
+    "year": "2001",
+    "unstructured": "Johnson, D., Menezes, A., Vanstone, S.: The elliptic curve digital signature algorithm (ecdsa). Int. J. Inf. Security 1(1), 36\u201363 (2001)",
+    "journal-title": "Int. J. Inf. Security"
+   },
+   {
+    "key": "588_CR20",
+    "unstructured": "Milanov, E.: The rsa algorithm. RSA laboratories, pp. 1\u201311 (2009)"
+   },
+   {
+    "issue": "6",
+    "key": "588_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "644",
+    "DOI": "10.1109/TIT.1976.1055638",
+    "volume": "22",
+    "author": "W Diffie",
+    "year": "1976",
+    "unstructured": "Diffie, W., Hellman, M.: New directions in cryptography. IEEE Trans. Inf. Theory 22(6), 644\u2013654 (1976)",
+    "journal-title": "IEEE Trans. Inf. Theory"
+   },
+   {
+    "key": "588_CR22",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Noshadian, S., Ebrahimzade, A., Kazemitabar, S.J.: Optimizing chaos based image encryption. Multimedia Tools Appl. 77(19):25,569\u201325,590 (2018)",
+    "DOI": "10.1007/s11042-018-5807-x"
+   },
+   {
+    "key": "588_CR23",
+    "unstructured": "Furht, B., Muharemagic, E., Socek, D.: Multimedia encryption and watermarking, vol\u00a028. Springer Science & Business Media (2006)"
+   },
+   {
+    "issue": "2",
+    "key": "588_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "1383",
+    "DOI": "10.1007/s11071-020-05804-2",
+    "volume": "101",
+    "author": "Z Liu",
+    "year": "2020",
+    "unstructured": "Liu, Z., Wang, Y., Zhao, Y., Zhang, L.Y.: A stream cipher algorithm based on 2d coupled map lattice and partitioned cellular automata. Nonlinear Dyn. 101(2), 1383\u20131396 (2020)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "707",
+    "DOI": "10.1007/s11071-012-0747-x",
+    "volume": "72",
+    "author": "Wang Xy",
+    "year": "2013",
+    "unstructured": "Xy, Wang, Xm, Bao: A novel block cryptosystem based on the coupled chaotic map lattice. Nonlinear Dyn. 72(4), 707\u2013715 (2013)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "588_CR26",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Peng, Z., Yu, W., Wang, J., Zhou, Z., Chen, J., Zhong, G.: Secure communication based on microcontroller unit with a novel five-dimensional hyperchaotic system. Arab. J. Sci. Eng., pp. 1\u201316 (2021)",
+    "DOI": "10.1007/s13369-021-05450-9"
+   },
+   {
+    "issue": "1",
+    "key": "588_CR27",
+    "doi-asserted-by": "publisher",
+    "first-page": "615",
+    "DOI": "10.1007/s11071-015-1893-8",
+    "volume": "80",
+    "author": "S Som",
+    "year": "2015",
+    "unstructured": "Som, S., Dutta, S., Singha, R., Kotal, A., Palit, S.: Confusion and diffusion of color images with multiple chaotic maps and chaos-based pseudorandom binary number generator. Nonlinear Dyn. 80(1), 615\u2013627 (2015)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "20",
+    "key": "588_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "9305",
+    "DOI": "10.1016/j.ijleo.2016.07.024",
+    "volume": "127",
+    "author": "H Xu",
+    "year": "2016",
+    "unstructured": "Xu, H., Tong, X., Meng, X.: An efficient chaos pseudo-random number generator applied to video encryption. Optik 127(20), 9305\u20139319 (2016)",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "588_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "133",
+    "DOI": "10.1016/j.sigpro.2018.01.026",
+    "volume": "147",
+    "author": "R Lan",
+    "year": "2018",
+    "unstructured": "Lan, R., He, J., Wang, S., Gu, T., Luo, X.: Integrated chaotic systems for image encryption. Signal Processing 147, 133\u2013145 (2018)",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "588_CR30",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sankpal, P.R., Vijaya, P.: Image encryption using chaotic maps: a survey. In: 2014 Fifth international Conference on Signal and image Processing, IEEE, pp. 102\u2013107 (2014)",
+    "DOI": "10.1109/ICSIP.2014.80"
+   },
+   {
+    "key": "588_CR31",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wei-Bin, C., Xin, Z.: Image encryption algorithm based on Henon chaotic system. In: 2009 International Conference on Image Analysis and Signal Processing, IEEE, pp. 94\u201397 (2009)",
+    "DOI": "10.1109/IASP.2009.5054653"
+   },
+   {
+    "key": "588_CR32",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Krishna, P.R., Teja, C.V.S., Thanikaiselvan, V., et al.: A chaos based image encryption using tinkerbell map functions. In: 2018 Second International Conference on Electronics, pp. 578\u2013582. Communication and Aerospace Technology (ICECA), IEEE (2018)",
+    "DOI": "10.1109/ICECA.2018.8474891"
+   },
+   {
+    "key": "588_CR33",
+    "doi-asserted-by": "publisher",
+    "first-page": "129",
+    "DOI": "10.1016/j.sigpro.2017.03.011",
+    "volume": "138",
+    "author": "C Pak",
+    "year": "2017",
+    "unstructured": "Pak, C., Huang, L.: A new color image encryption using combination of the 1d chaotic map. Signal Process. 138, 129\u2013137 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR34",
+    "doi-asserted-by": "publisher",
+    "first-page": "148",
+    "DOI": "10.1016/j.sigpro.2018.03.010",
+    "volume": "149",
+    "author": "Z Hua",
+    "year": "2018",
+    "unstructured": "Hua, Z., Jin, F., Xu, B., Huang, H.: 2d logistic-sine-coupling map for image encryption. Signal Process. 149, 148\u2013161 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "2",
+    "key": "588_CR35",
+    "first-page": "179",
+    "volume": "20",
+    "author": "L Shan",
+    "year": "2005",
+    "unstructured": "Shan, L., Qiang, H., Li, J., Zq, Wang: Chaotic optimization algorithm based on tent map. Control Decision 20(2), 179\u2013182 (2005)",
+    "journal-title": "Control Decision"
+   },
+   {
+    "key": "588_CR36",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Fang, D., Sun, S.: A new secure image encryption algorithm based on a 5d hyperchaotic map. Plos one 15(11):e0242,110 (2020)",
+    "DOI": "10.1371/journal.pone.0242110"
+   },
+   {
+    "key": "588_CR37",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Flayh, N.A., Parveen, R., Ahson, S.I.: Wavelet based partial image encryption. In: 2009 International Multimedia, Signal Processing and Communication Technologies, pp. 32\u201335, IEEE (2009)",
+    "DOI": "10.1109/MSPCT.2009.5164167"
+   },
+   {
+    "issue": "2",
+    "key": "588_CR38",
+    "doi-asserted-by": "publisher",
+    "first-page": "1319",
+    "DOI": "10.1007/s11071-018-4426-4",
+    "volume": "94",
+    "author": "Z Li",
+    "year": "2018",
+    "unstructured": "Li, Z., Peng, C., Li, L., Zhu, X.: A novel plaintext-related image encryption scheme using hyper-chaotic system. Nonlinear Dyn. 94(2), 1319\u20131333 (2018)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "588_CR39",
+    "doi-asserted-by": "publisher",
+    "first-page": "94",
+    "DOI": "10.1016/j.ins.2019.09.052",
+    "volume": "511",
+    "author": "H Deng",
+    "year": "2020",
+    "unstructured": "Deng, H., Qin, Z., Wu, Q., Guan, Z., Zhou, Y.: Flexible attribute-based proxy re-encryption for efficient data sharing. Inf.Sci. 511, 94\u2013113 (2020)",
+    "journal-title": "Inf.Sci."
+   },
+   {
+    "issue": "20",
+    "key": "588_CR40",
+    "doi-asserted-by": "publisher",
+    "first-page": "2638",
+    "DOI": "10.1016/j.physd.2008.03.049",
+    "volume": "237",
+    "author": "AN Pisarchik",
+    "year": "2008",
+    "unstructured": "Pisarchik, A.N., Zanin, M.: Image encryption with chaotically coupled chaotic maps. Phys. D Nonlinear Phenomena 237(20), 2638\u20132648 (2008)",
+    "journal-title": "Phys. D Nonlinear Phenomena"
+   },
+   {
+    "issue": "22",
+    "key": "588_CR41",
+    "doi-asserted-by": "publisher",
+    "first-page": "5290",
+    "DOI": "10.1016/j.optcom.2011.07.070",
+    "volume": "284",
+    "author": "R Ye",
+    "year": "2011",
+    "unstructured": "Ye, R.: A novel chaos-based image encryption scheme with an efficient permutation-diffusion mechanism. Optics Commun. 284(22), 5290\u20135298 (2011)",
+    "journal-title": "Optics Commun."
+   },
+   {
+    "key": "588_CR42",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Koduru, S.C., Chandrasekaran, V.: Integrated confusion-diffusion mechanisms for chaos based image encryption. In: 2008 IEEE 8th International Conference on Computer and Information Technology Workshops, IEEE, pp. 260\u2013263 (2008)",
+    "DOI": "10.1109/CIT.2008.Workshops.33"
+   },
+   {
+    "key": "588_CR43",
+    "unstructured": "Li, S., Zheng, X.: Cryptanalysis of a chaotic image encryption method. In: 2002 IEEE International Symposium on Circuits and Systems. Proceedings (Cat. No.02CH37353), vol.\u00a02, pp. II\u2013II, 10.1109/ISCAS.2002.1011451 (2002)"
+   },
+   {
+    "key": "588_CR44",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Feng, W., He, Y., Li, H., Li, C.: Cryptanalysis and improvement of the image encryption scheme based on 2d logistic-adjusted-sine map. Ieee Access 7, 12,584\u201312,597 (2019)",
+    "DOI": "10.1109/ACCESS.2019.2893760"
+   },
+   {
+    "key": "588_CR45",
+    "doi-asserted-by": "publisher",
+    "first-page": "444",
+    "DOI": "10.1016/j.sigpro.2017.11.005",
+    "volume": "144",
+    "author": "H Wang",
+    "year": "2018",
+    "unstructured": "Wang, H., Xiao, D., Chen, X., Huang, H.: Cryptanalysis and enhancements of image encryption using combination of the 1d chaotic map. Signal Process. 144, 444\u2013452 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR46",
+    "doi-asserted-by": "publisher",
+    "first-page": "2399",
+    "DOI": "10.1007/s11071-018-4332-9",
+    "volume": "93",
+    "author": "J Chen",
+    "year": "2018",
+    "unstructured": "Chen, J., Han, F., Qian, W., Yao, Y.D., Zl, Zhu: Cryptanalysis and improvement in an image encryption scheme using combination of the 1d chaotic map. Nonlinear Dyn. 93(4), 2399\u20132413 (2018)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "05",
+    "key": "588_CR47",
+    "doi-asserted-by": "publisher",
+    "first-page": "1405",
+    "DOI": "10.1142/S0218127410026563",
+    "volume": "20",
+    "author": "E Solak",
+    "year": "2010",
+    "unstructured": "Solak, E., Cokal, C., Yildiz, O.T., Biyiko\u011flu, T.: Cryptanalysis of Fridrich\u2018s chaotic image encryption. Int. J. Bifur. Chaos 20(05), 1405\u20131413 (2010)",
+    "journal-title": "Int. J. Bifur. Chaos"
+   },
+   {
+    "key": "588_CR48",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Ben-Aroya, I., Biham, E.: Differential cryptanalysis of Lucifer. In: Annual International Cryptology Conference, Springer, pp. 187\u2013199 (1993)",
+    "DOI": "10.1007/3-540-48329-2_17"
+   },
+   {
+    "key": "588_CR49",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Alani, M.M.: Neuro-cryptanalysis of des and triple-des. In: International Conference on Neural Information Processing, Springer, pp. 637\u2013646 (2012)",
+    "DOI": "10.1007/978-3-642-34500-5_75"
+   },
+   {
+    "key": "588_CR50",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Fluhrer, S., Mantin, I., Shamir, A.: Weaknesses in the key scheduling algorithm of rc4. In: International Workshop on Selected Areas in Cryptography, Springer, pp. 1\u201324 (2001)",
+    "DOI": "10.1007/3-540-45537-X_1"
+   },
+   {
+    "key": "588_CR51",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Biryukov, A., Khovratovich, D.: (2009) Related-key cryptanalysis of the full aes-192 and aes-256. In: International Conference on the Theory and Application of Cryptology and Information Security, Springer, pp. 1\u201318",
+    "DOI": "10.1007/978-3-642-10366-7_1"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR52",
+    "doi-asserted-by": "publisher",
+    "first-page": "494",
+    "DOI": "10.3390/app9030494",
+    "volume": "9",
+    "author": "M Li",
+    "year": "2019",
+    "unstructured": "Li, M., Zhou, K., Ren, H., Fan, H.: Cryptanalysis of permutation-diffusion-based lightweight chaotic image encryption scheme using cpa. Appl. Sci. 9(3), 494 (2019)",
+    "journal-title": "Appl. Sci."
+   },
+   {
+    "key": "588_CR53",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Mondal, B., Kumar, P., Singh, S.: A chaotic permutation and diffusion based image encryption algorithm for secure communications. Multimedia Tools Appl. 77(23), 31,177\u201331,198 (2018)",
+    "DOI": "10.1007/s11042-018-6214-z"
+   },
+   {
+    "issue": "6",
+    "key": "588_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "2187",
+    "DOI": "10.3390/app10062187",
+    "volume": "10",
+    "author": "Y Dou",
+    "year": "2020",
+    "unstructured": "Dou, Y., Li, M.: Cryptanalysis of a new color image encryption using combination of the 1d chaotic map. Appl. Sci. 10(6), 2187 (2020)",
+    "journal-title": "Appl. Sci."
+   },
+   {
+    "key": "588_CR55",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Pak, C., An, K., Jang, P., Kim, J., Kim, S.: A novel bit-level color image encryption using improved 1d chaotic map. Multimedia Tools Appl. 78(9), 12,027\u201312,042 (2019)",
+    "DOI": "10.1007/s11042-018-6739-1"
+   },
+   {
+    "key": "588_CR56",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Li, M., Wang, P., Liu, Y., Fan, H.: Cryptanalysis of a novel bit-level color image encryption using improved 1d chaotic map. IEEE Access 7, 145,798\u2013145,806 (2019)",
+    "DOI": "10.1109/ACCESS.2019.2945578"
+   },
+   {
+    "issue": "06",
+    "key": "588_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "volume": "8",
+    "author": "J Fridrich",
+    "year": "1998",
+    "unstructured": "Fridrich, J.: Symmetric ciphers based on two-dimensional chaotic maps. Int. J. Bifur. chaos 8(06), 1259\u20131284 (1998)",
+    "journal-title": "Int. J. Bifur. chaos"
+   },
+   {
+    "key": "588_CR58",
+    "doi-asserted-by": "publisher",
+    "first-page": "150",
+    "DOI": "10.1016/j.sigpro.2016.10.002",
+    "volume": "132",
+    "author": "EY Xie",
+    "year": "2017",
+    "unstructured": "Xie, E.Y., Li, C., Yu, S., L\u00fc, J.: On the cryptanalysis of fridrich\u2018s chaotic image encryption scheme. Signal Process. 132, 150\u2013154 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR59",
+    "doi-asserted-by": "publisher",
+    "first-page": "200",
+    "DOI": "10.1016/j.ijleo.2017.01.062",
+    "volume": "135",
+    "author": "DS Laiphrakpam",
+    "year": "2017",
+    "unstructured": "Laiphrakpam, D.S., Khumanthem, M.S.: Cryptanalysis of symmetric key image encryption using chaotic Rossler system. Optik 135, 200\u2013209 (2017)",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "11",
+    "key": "588_CR60",
+    "doi-asserted-by": "publisher",
+    "first-page": "2145",
+    "DOI": "10.1002/sec.927",
+    "volume": "7",
+    "author": "MK Mandal",
+    "year": "2014",
+    "unstructured": "Mandal, M.K., Kar, M., Singh, S.K., Barnwal, V.K.: Symmetric key image encryption using chaotic Rossler system. Security Commun. Netw. 7(11), 2145\u20132152 (2014)",
+    "journal-title": "Security Commun. Netw."
+   },
+   {
+    "key": "588_CR61",
+    "doi-asserted-by": "publisher",
+    "first-page": "172",
+    "DOI": "10.1016/j.sigpro.2018.02.011",
+    "volume": "148",
+    "author": "H Diab",
+    "year": "2018",
+    "unstructured": "Diab, H., El-semary, A.M.: Cryptanalysis and improvement of the image cryptosystem reusing permutation matrix dynamically. Signal Process. 148, 172\u2013192 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR62",
+    "doi-asserted-by": "publisher",
+    "first-page": "294",
+    "DOI": "10.1016/j.sigpro.2015.01.003",
+    "volume": "111",
+    "author": "Chen Jx",
+    "year": "2015",
+    "unstructured": "Jx, Chen, Zhu Zl, Fu.C., Yu, H., Zhang, Y.: Reusing the permutation matrix dynamically for efficient image cryptographic algorithm. Signal Process. 111, 294\u2013307 (2015)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR63",
+    "doi-asserted-by": "publisher",
+    "first-page": "881",
+    "DOI": "10.1016/S0960-0779(03)00065-1",
+    "volume": "18",
+    "author": "M Feki",
+    "year": "2003",
+    "unstructured": "Feki, M., Robert, B., Gelle, G., Colas, M.: Secure digital communication using discrete-time chaos synchronization. Chaos Solitons Fractals 18(4), 881\u2013890 (2003)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR64",
+    "doi-asserted-by": "publisher",
+    "first-page": "689",
+    "DOI": "10.1016/j.chaos.2003.12.013",
+    "volume": "21",
+    "author": "G Alvarez",
+    "year": "2004",
+    "unstructured": "Alvarez, G., Montoya, F., Romera, M., Pastor, G.: Cryptanalyzing a discrete-time chaos synchronization secure communication system. Chaos Solitons Fractals 21(3), 689\u2013694 (2004)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "588_CR65",
+    "unstructured": "Kester, Q.A.: A hybrid cryptosystem based on vigenere cipher and columnar transposition cipher. (2013) arXiv preprint arXiv:1307.7786"
+   },
+   {
+    "issue": "1",
+    "key": "588_CR66",
+    "doi-asserted-by": "publisher",
+    "first-page": "29",
+    "DOI": "10.1080/0161-118991863745",
+    "volume": "8",
+    "author": "R Matthews",
+    "year": "1984",
+    "unstructured": "Matthews, R.: On the derivation of a chaotic encryption algorithm. Cryptologia 8(1), 29\u201341 (1984)",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "issue": "2",
+    "key": "588_CR67",
+    "first-page": "44",
+    "volume": "3",
+    "author": "A Mousa",
+    "year": "2006",
+    "unstructured": "Mousa, A., Hamad, A.: Evaluation of the rc4 algorithm for data encryption. IJCSA 3(2), 44\u201356 (2006)",
+    "journal-title": "IJCSA"
+   },
+   {
+    "issue": "7",
+    "key": "588_CR68",
+    "first-page": "116",
+    "volume": "2",
+    "author": "S Basu",
+    "year": "2011",
+    "unstructured": "Basu, S.: International data encryption algorithm (idea)-a typical illustration. J. Global Res. Comput. Sci. 2(7), 116\u2013118 (2011)",
+    "journal-title": "J. Global Res. Comput. Sci."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR69",
+    "first-page": "38",
+    "volume": "19",
+    "author": "B Schneier",
+    "year": "1994",
+    "unstructured": "Schneier, B.: The blowfish encryption algorithm. Dr Dobb\u2018s J. Softw. Tools Profess. Program. 19(4), 38\u201343 (1994)",
+    "journal-title": "Dr Dobb\u2018s J. Softw. Tools Profess. Program."
+   },
+   {
+    "key": "588_CR70",
+    "first-page": "102",
+    "volume": "1",
+    "author": "S Mandal",
+    "year": "2014",
+    "unstructured": "Mandal, S., Das, S., Nath, A.: Data hiding and retrieval using visual cryptography. Int. J. Innov. Res. Adv. Eng. 1, 102\u2013110 (2014)",
+    "journal-title": "Int. J. Innov. Res. Adv. Eng."
+   },
+   {
+    "key": "588_CR71",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Rivest, R.L.: The rc5 encryption algorithm. In: International Workshop on Fast Software Encryption, Springer, pp. 86\u201396 (1994)",
+    "DOI": "10.1007/3-540-60590-8_7"
+   },
+   {
+    "key": "588_CR72",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Ahmed, H.E.d.H., Kalash, H.M., Allah, O.F.: Encryption efficiency analysis and security evaluation of rc6 block cipher for digital images. In: 2007 International Conference on Electrical Engineering, IEEE, pp. 1\u20137 (2007)",
+    "DOI": "10.1109/ICEE.2007.4287293"
+   },
+   {
+    "issue": "19",
+    "key": "588_CR73",
+    "first-page": "12",
+    "volume": "50",
+    "author": "R Rayarikar",
+    "year": "2012",
+    "unstructured": "Rayarikar, R., Upadhyay, S., Pimpale, P.: Sms encryption using aes algorithm on android. Int. J. Comput. Appl. 50(19), 12\u201317 (2012)",
+    "journal-title": "Int. J. Comput. Appl."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR74",
+    "doi-asserted-by": "publisher",
+    "first-page": "1995",
+    "DOI": "10.1007/s11071-012-0402-6",
+    "volume": "69",
+    "author": "IS Sam",
+    "year": "2012",
+    "unstructured": "Sam, I.S., Devaraj, P., Bhuvaneswaran, R.: An intertwining chaotic maps based image encryption scheme. Nonlinear Dyn. 69(4), 1995\u20132007 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "588_CR75",
+    "doi-asserted-by": "publisher",
+    "first-page": "249",
+    "DOI": "10.1016/j.image.2011.11.003",
+    "volume": "27",
+    "author": "M Fran\u00e7ois",
+    "year": "2012",
+    "unstructured": "Fran\u00e7ois, M., Grosges, T., Barchiesi, D., Erra, R.: A new image encryption scheme based on a chaotic function. Signal Process. Image Commun. 27(3), 249\u2013259 (2012)",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "issue": "2",
+    "key": "588_CR76",
+    "doi-asserted-by": "publisher",
+    "first-page": "315",
+    "DOI": "10.1007/s11042-010-0652-6",
+    "volume": "56",
+    "author": "IS Sam",
+    "year": "2012",
+    "unstructured": "Sam, I.S., Devaraj, P., Bhuvaneswaran, R.S.: A novel image cipher based on mixed transformed logistic maps. Multimedia Tools Appl. 56(2), 315\u2013330 (2012)",
+    "journal-title": "Multimedia Tools Appl."
+   },
+   {
+    "key": "588_CR77",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hanchinamani, G., Kulkarni, L.: An efficient image encryption scheme based on a peter de jong chaotic map and a rc4 stream cipher. 3D Research 6(3), 1\u201315 (2015)",
+    "DOI": "10.1007/s13319-015-0062-7"
+   },
+   {
+    "key": "588_CR78",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bansal, R., Gupta, S., Sharma, G.: An innovative image encryption scheme based on chaotic map and vigen\u00e8re scheme. Multimedia Tools Appl. 76(15), 16,529\u201316,562 (2017)",
+    "DOI": "10.1007/s11042-016-3926-9"
+   },
+   {
+    "key": "588_CR79",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kumari, M., Gupta, S., Sardana, P.: A survey of image encryption algorithms. 3D Research 8(4), 37 (2017)",
+    "DOI": "10.1007/s13319-017-0148-5"
+   },
+   {
+    "key": "588_CR80",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sriadhi, S., Rahim, R., Ahmar, A.S.: Rc4 algorithm visualization for cryptography education. In: J. Phys. Conf. Ser. 1028, 012057 (2018)",
+    "DOI": "10.1088/1742-6596/1028/1/012057"
+   },
+   {
+    "key": "588_CR81",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Mandal, A., Parakash, C., Tiwari, A.: Performance evaluation of cryptographic algorithms: Des and aes. In2012 IEEE Students\u2018 Conference on Electrical, Electronics and Computer Science. 1 mar 2012 (pp. 1\u20135)",
+    "DOI": "10.1109/SCEECS.2012.6184991"
+   },
+   {
+    "key": "588_CR82",
+    "unstructured": "Kathil, P., Goyal, S., Agrawal, R.: Survey on various image encryption schemed through chaotic maps. Int. J. Adv. Res. Comput. Sci. 8(5) (2017)"
+   },
+   {
+    "key": "588_CR83",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Saikia, M., Baruah, B.: Chaotic map based image encryption in spatial domain: a brief survey. In: Proceedings of the First International Conference on Intelligent Computing and Communication, Springer, pp. 569\u2013579 (2017)",
+    "DOI": "10.1007/978-981-10-2035-3_58"
+   },
+   {
+    "key": "588_CR84",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dahiya, M., Kumar, R.: A literature survey on various image encryption & steganography techniques. In: 2018 First International Conference on Secure Cyber Computing and Communication (ICSCCC), IEEE, pp. 310\u2013314 (2018)",
+    "DOI": "10.1109/ICSCCC.2018.8703368"
+   },
+   {
+    "key": "588_CR85",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Priyanka, M., Prasad, E.L., Reddy, A.: Fpga implementation of image encryption and decryption using aes 128-bit core. In: 2016 International Conference on Communication and Electronics Systems (ICCES), IEEE, pp. 1\u20135 (2016)",
+    "DOI": "10.1109/CESYS.2016.7889929"
+   },
+   {
+    "key": "588_CR86",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kalubandi, V.K.P., Vaddi, H., Ramineni, V., Loganathan, A.: A novel image encryption algorithm using aes and visual cryptography. In: 2016 2nd International Conference on Next Generation Computing Technologies (NGCT), IEEE, pp. 808\u2013813 (2016)",
+    "DOI": "10.1109/NGCT.2016.7877521"
+   },
+   {
+    "key": "588_CR87",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Abood, M.H.: An efficient image cryptography using hash-lsb steganography with rc4 and pixel shuffling encryption algorithms. In: 2017 Annual Conference on New Trends in Information & Communications Technology Applications (NTICT), IEEE, pp. 86\u201390 (2017)",
+    "DOI": "10.1109/NTICT.2017.7976154"
+   },
+   {
+    "key": "588_CR88",
+    "first-page": "12",
+    "volume": "178",
+    "author": "J Ferdush",
+    "year": "2017",
+    "unstructured": "Ferdush, J., Begum, M., Mahmood, A.: A new image encryption technique combining the idea of one time pad with rgb value. Int. J. Comput. Appl. 178, 12\u201315 (2017)",
+    "journal-title": "Int. J. Comput. Appl."
+   },
+   {
+    "key": "588_CR89",
+    "unstructured": "Singh, S., Agrawal, A., Pradhan, P.: Advanced text to image encryption by using selective encryption technique with c hash (aes encryption and cfb mode). Int. J. Innov. Res. Comput. Commun. Eng"
+   },
+   {
+    "key": "588_CR90",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Shanthi, V.P.: A novel text to image encryption technique by aes rijndael algorithm with color code conversion. Int. J. Eng. Trends Technol (IJETT) 13(5) (2014)",
+    "DOI": "10.14445/22315381/IJETT-V13P249"
+   },
+   {
+    "key": "588_CR91",
+    "unstructured": "Mishra, M., Pandit, S.: Image encryption technique incorporating wavelet transform and hash integrity. IJRET: Int. J. Res. Eng. Technol 4(02) (2015)"
+   },
+   {
+    "key": "588_CR92",
+    "unstructured": "Panchal, D., Jani, C., Panchal, H.: An approach providing two phase security of images using encryption and steganography in image processing. Int. J. Eng. Develop. Res. 3(4) (2015)"
+   },
+   {
+    "issue": "4",
+    "key": "588_CR93",
+    "first-page": "299",
+    "volume": "2",
+    "author": "MSQ Khizrai",
+    "year": "2014",
+    "unstructured": "Khizrai, M.S.Q., Bodkhe, S.: Image encryption using different techniques for high security transmission over a network. Int. J. Eng. Res. General Sci. 2(4), 299\u2013306 (2014)",
+    "journal-title": "Int. J. Eng. Res. General Sci."
+   },
+   {
+    "issue": "7",
+    "key": "588_CR94",
+    "first-page": "150",
+    "volume": "4",
+    "author": "P Singh",
+    "year": "2013",
+    "unstructured": "Singh, P., Singh, K.: Image encryption and decryption using blowfish algorithm in matlab. In. J. Sci. Eng. Res. 4(7), 150\u2013154 (2013)",
+    "journal-title": "In. J. Sci. Eng. Res."
+   },
+   {
+    "issue": "2",
+    "key": "588_CR95",
+    "doi-asserted-by": "publisher",
+    "first-page": "1039",
+    "DOI": "10.1007/s13369-013-0713-z",
+    "volume": "39",
+    "author": "H Khanzadi",
+    "year": "2014",
+    "unstructured": "Khanzadi, H., Eshghi, M., Borujeni, S.E.: Image encryption using random bit sequence based on chaotic maps. Arab. J. Sci. Eng. 39(2), 1039\u20131047 (2014)",
+    "journal-title": "Arab. J. Sci. Eng."
+   },
+   {
+    "key": "588_CR96",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Abusukhon, A., Talib, M.: A novel network security algorithm based on private key encryption. In: Proceedings Title: 2012 International Conference on Cyber Security, pp. 33\u201337. Cyber Warfare and Digital Forensic (CyberSec), IEEE (2012)",
+    "DOI": "10.1109/CyberSec.2012.6246080"
+   },
+   {
+    "key": "588_CR97",
+    "unstructured": "Ahmad, J., Ahmed, F.: Efficiency analysis and security evaluation of image encryption schemes. computing 23, 25 (2010)"
+   },
+   {
+    "issue": "2",
+    "key": "588_CR98",
+    "first-page": "15",
+    "volume": "1",
+    "author": "P Radhadevi",
+    "year": "2012",
+    "unstructured": "Radhadevi, P., Kalpana, P.: Secure image encryption using aes. Int. J. Res. Eng. Technol. 1(2), 15\u2013117 (2012)",
+    "journal-title": "Int. J. Res. Eng. Technol."
+   },
+   {
+    "issue": "2",
+    "key": "588_CR99",
+    "first-page": "210",
+    "volume": "7",
+    "author": "P Deshmukh",
+    "year": "2016",
+    "unstructured": "Deshmukh, P.: An image encryption and decryption using aes algorithm. Int. J. Sci. Eng. Res. 7(2), 210\u2013213 (2016)",
+    "journal-title": "Int. J. Sci. Eng. Res."
+   },
+   {
+    "key": "588_CR100",
+    "unstructured": "Karthigaikumar, P., Rasheed, S.: Simulation of image encryption using aes algorithm. IJCA Special Issue on Computational Science-New Dimensions and Perspectives NCCSE, pp. 166\u2013172 (2011)"
+   },
+   {
+    "key": "588_CR101",
+    "first-page": "169",
+    "volume": "1",
+    "author": "M Prasad",
+    "year": "2011",
+    "unstructured": "Prasad, M., Sudha, K.: Chaos image encryption using pixel shuffling. CCSEA 1, 169\u2013179 (2011)",
+    "journal-title": "CCSEA"
+   },
+   {
+    "key": "588_CR102",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Samson, C., Sastry, V.: A novel image encryption supported by compression using multilevel wavelet transform. IJACSA) Int. J. Adv. Comput. Sci. Appl. 3(9) (2012)",
+    "DOI": "10.14569/IJACSA.2012.030926"
+   },
+   {
+    "issue": "1",
+    "key": "588_CR103",
+    "doi-asserted-by": "publisher",
+    "first-page": "15",
+    "DOI": "10.1007/s11831-018-9298-8",
+    "volume": "27",
+    "author": "M Kaur",
+    "year": "2020",
+    "unstructured": "Kaur, M., Kumar, V.: A comprehensive review on image encryption techniques. Arch. Comput. Methods Eng. 27(1), 15\u201343 (2020)",
+    "journal-title": "Arch. Comput. Methods Eng."
+   },
+   {
+    "key": "588_CR104",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dixit, P., Gupta, A.K., Trivedi, M.C., Yadav, V.K.: Traditional and hybrid encryption techniques: a survey. In: Networking Communication and Data Knowledge Engineering, Springer, pp. 239\u2013248 (2018)",
+    "DOI": "10.1007/978-981-10-4600-1_22"
+   },
+   {
+    "key": "588_CR105",
+    "unstructured": "Adedeji\u00a0Kazeem, B., Akinlolu, P.: A new hybrid data encryption and decryption technique to enhance data security in communication networks: algorithm development. Int. J. Sci. Eng. Res. 5(10) (2014)"
+   },
+   {
+    "key": "588_CR106",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hossain, M.B., Rahman, M.T., Rahman, A.S., Islam, S.: A new approach of image encryption using 3d chaotic map to enhance security of multimedia component. In: 2014 International Conference on Informatics, Electronics & Vision (ICIEV), IEEE, pp. 1\u20136 (2014)",
+    "DOI": "10.1109/ICIEV.2014.6850856"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR107",
+    "first-page": "164",
+    "volume": "14",
+    "author": "K Singh",
+    "year": "2012",
+    "unstructured": "Singh, K., Samaddar, S.G.: Enhancing koyama scheme using selective encryption technique in rsa-based singular cubic curve with avk. IJ Netw. Security 14(3), 164\u2013172 (2012)",
+    "journal-title": "IJ Netw. Security"
+   },
+   {
+    "issue": "5\u20136",
+    "key": "588_CR108",
+    "doi-asserted-by": "publisher",
+    "first-page": "539",
+    "DOI": "10.1080/09720529.2014.952520",
+    "volume": "17",
+    "author": "L Qiu",
+    "year": "2014",
+    "unstructured": "Qiu, L., Yu, Y.: An efficient scheme for joint compression and encryption. J. Discrete Math. Sci. Cryptogr. 17(5\u20136), 539\u2013548 (2014)",
+    "journal-title": "J. Discrete Math. Sci. Cryptogr."
+   },
+   {
+    "key": "588_CR109",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Alabaichi, A., Ahmad, F., Mahmod, R.: Security analysis of blowfish algorithm. In: 2013 Second International Conference on Informatics and Applications (ICIA), IEEE, pp. 12\u201318 (2013)",
+    "DOI": "10.1109/ICoIA.2013.6650222"
+   },
+   {
+    "key": "588_CR110",
+    "doi-asserted-by": "publisher",
+    "first-page": "293",
+    "DOI": "10.1016/j.procs.2016.03.038",
+    "volume": "79",
+    "author": "SC Iyer",
+    "year": "2016",
+    "unstructured": "Iyer, S.C., Sedamkar, R., Gupta, S.: A novel idea on multimedia encryption using hybrid crypto approach. Proc. Compu. Sci. 79, 293\u2013298 (2016)",
+    "journal-title": "Proc. Compu. Sci."
+   },
+   {
+    "issue": "1",
+    "key": "588_CR111",
+    "doi-asserted-by": "publisher",
+    "first-page": "9",
+    "DOI": "10.26483/ijarcs.v10i1.6350",
+    "volume": "10",
+    "author": "MAB Younes",
+    "year": "2019",
+    "unstructured": "Younes, M.A.B.: A survey of the most current image encryption and decryption techniques. In. J. Adv. Res. Comput. Sci. 10(1), 9 (2019)",
+    "journal-title": "In. J. Adv. Res. Comput. Sci."
+   },
+   {
+    "key": "588_CR112",
+    "unstructured": "Prathipa, N., Sathya, V.: A survey on image encryption techniques"
+   },
+   {
+    "key": "588_CR113",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jasra, B., Moon, A.H.: Image encryption techniques: A review. In: 2020 10th International Conference on Cloud Computing, Data Science and Engineering (Confluence), IEEE, pp. 221\u2013226 (2020)",
+    "DOI": "10.1109/Confluence47617.2020.9058071"
+   },
+   {
+    "key": "588_CR114",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kumar, R.R., Mathew, J.: Image encryption: Traditional methods vs alternative methods. In: 2020 Fourth International Conference on Computing Methodologies and Communication (ICCMC), IEEE, pp. 1\u20137 (2020)",
+    "DOI": "10.1109/ICCMC48092.2020.ICCMC-000115"
+   },
+   {
+    "key": "588_CR115",
+    "doi-asserted-by": "publisher",
+    "first-page": "155",
+    "DOI": "10.1016/j.sigpro.2016.03.021",
+    "volume": "128",
+    "author": "A Belazi",
+    "year": "2016",
+    "unstructured": "Belazi, A., Abd El-Latif, A.A., Belghith, S.: A novel image encryption scheme based on substitution-permutation network and chaos. Signal Process. 128, 155\u2013170 (2016)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR116",
+    "doi-asserted-by": "publisher",
+    "first-page": "197",
+    "DOI": "10.1016/j.optlaseng.2016.08.009",
+    "volume": "88",
+    "author": "X Chai",
+    "year": "2017",
+    "unstructured": "Chai, X., Chen, Y., Broyde, L.: A novel chaos-based image encryption algorithm using dna sequence operations. Opt. Lasers Eng. 88, 197\u2013213 (2017)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "issue": "2",
+    "key": "588_CR117",
+    "doi-asserted-by": "publisher",
+    "first-page": "194",
+    "DOI": "10.1016/S1007-0214(11)70030-X",
+    "volume": "16",
+    "author": "G Zhao",
+    "year": "2011",
+    "unstructured": "Zhao, G., Chen, G., Fang, J., Xu, G.: Block cipher design: generalized single-use-algorithm based on chaos. Tsinghua Sci. Technol. 16(2), 194\u2013206 (2011)",
+    "journal-title": "Tsinghua Sci. Technol."
+   },
+   {
+    "issue": "17",
+    "key": "588_CR118",
+    "doi-asserted-by": "publisher",
+    "first-page": "4700",
+    "DOI": "10.1016/j.ijleo.2014.05.023",
+    "volume": "125",
+    "author": "G Gu",
+    "year": "2014",
+    "unstructured": "Gu, G., Ling, J.: A fast image encryption method by using chaotic 3d cat maps. Optik 125(17), 4700\u20134705 (2014)",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "588_CR119",
+    "doi-asserted-by": "publisher",
+    "first-page": "134",
+    "DOI": "10.1016/j.sigpro.2017.10.004",
+    "volume": "144",
+    "author": "Z Hua",
+    "year": "2018",
+    "unstructured": "Hua, Z., Yi, S., Zhou, Y.: Medical image encryption using high-speed scrambling and pixel adaptive diffusion. Signal Process. 144, 134\u2013144 (2018)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "6",
+    "key": "588_CR120",
+    "doi-asserted-by": "publisher",
+    "first-page": "7305",
+    "DOI": "10.1007/s11042-017-4634-9",
+    "volume": "77",
+    "author": "M Ghebleh",
+    "year": "2018",
+    "unstructured": "Ghebleh, M., Kanso, A., Stevanovi\u0107, D.: A novel image encryption algorithm based on piecewise linear chaotic maps and least squares approximation. Multimedia Tools Appl. 77(6), 7305\u20137326 (2018)",
+    "journal-title": "Multimedia Tools Appl."
+   },
+   {
+    "key": "588_CR121",
+    "doi-asserted-by": "crossref",
+    "unstructured": "May, R.M.: Simple mathematical models with very complicated dynamics. The Theory of Chaotic Attractors, pp. 85\u201393 (2004)",
+    "DOI": "10.1007/978-0-387-21830-4_7"
+   },
+   {
+    "key": "588_CR122",
+    "doi-asserted-by": "publisher",
+    "first-page": "172",
+    "DOI": "10.1016/j.sigpro.2013.10.034",
+    "volume": "97",
+    "author": "Y Zhou",
+    "year": "2014",
+    "unstructured": "Zhou, Y., Bao, L., Chen, C.P.: A new 1d chaotic system for image encryption. Signal Process. 97, 172\u2013182 (2014)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR123",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Maryoosh, A.A., Mustafa, R.A., Dhaief, Z.S.: Image encryption techniques based on chaotic map. Int. J. Eng. Res. Adv. Technol IJERAT (ISSN: 2454-6135) 5(9), 01\u201305 (2019)",
+    "DOI": "10.31695/IJERAT.2019.3559"
+   },
+   {
+    "key": "588_CR124",
+    "doi-asserted-by": "publisher",
+    "first-page": "238",
+    "DOI": "10.1016/j.optlaseng.2016.10.020",
+    "volume": "90",
+    "author": "Y Li",
+    "year": "2017",
+    "unstructured": "Li, Y., Wang, C., Chen, H.: A hyper-chaos-based image encryption algorithm using pixel-level permutation and bit-level permutation. Opt. Lasers Eng. 90, 238\u2013246 (2017)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "588_CR125",
+    "doi-asserted-by": "publisher",
+    "first-page": "779",
+    "DOI": "10.1016/j.ijleo.2018.12.178",
+    "volume": "181",
+    "author": "C Han",
+    "year": "2019",
+    "unstructured": "Han, C.: An image encryption algorithm based on modified logistic chaotic map. Optik 181, 779\u2013785 (2019)",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "588_CR126",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Talhaoui, M.Z., Wang, X., Midoun, M.A.: A new one-dimensional cosine polynomial chaotic map and its use in image encryption. The Visual Computer pp. 1\u201311 (2020)",
+    "DOI": "10.1007/s00371-020-01822-8"
+   },
+   {
+    "key": "588_CR127",
+    "unstructured": "Hsu, H., Lee, R.: Dna based encryption methods. In: The 23rd Workshop on Ccombinatorial Mathematics and Computation theory, Citeseer, p. 545 (2006)"
+   },
+   {
+    "issue": "1\u20132",
+    "key": "588_CR128",
+    "doi-asserted-by": "publisher",
+    "first-page": "1497",
+    "DOI": "10.1007/s11042-019-08247-z",
+    "volume": "79",
+    "author": "AY Niyat",
+    "year": "2020",
+    "unstructured": "Niyat, A.Y., Moattar, M.H.: Color image encryption based on hybrid chaotic system and dna sequences. Multimedia Tools Appl. 79(1\u20132), 1497\u20131518 (2020)",
+    "journal-title": "Multimedia Tools Appl."
+   },
+   {
+    "issue": "3",
+    "key": "588_CR129",
+    "doi-asserted-by": "publisher",
+    "first-page": "549",
+    "DOI": "10.1016/j.chaos.2004.02.035",
+    "volume": "22",
+    "author": "C Li",
+    "year": "2004",
+    "unstructured": "Li, C., Chen, G.: Chaos in the fractional order chen system and its control. Chaos Solitons Fractals 22(3), 549\u2013554 (2004)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "588_CR130",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Chai, X., Zheng, X., Gan, Z., Chen, Y.: Exploiting plaintext-related mechanism for secure color image encryption. Neural Comput. Appl., pp. 1\u201324 (2019)",
+    "DOI": "10.1007/s00521-019-04312-8"
+   },
+   {
+    "key": "588_CR131",
+    "doi-asserted-by": "publisher",
+    "first-page": "130",
+    "DOI": "10.1016/j.ins.2020.02.024",
+    "volume": "520",
+    "author": "J Chen",
+    "year": "2020",
+    "unstructured": "Chen, J., Chen, L., Zhou, Y.: Cryptanalysis of a dna-based image encryption scheme. Inf. Sci. 520, 130\u2013141 (2020)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "588_CR132",
+    "doi-asserted-by": "publisher",
+    "first-page": "44",
+    "DOI": "10.1016/j.sigpro.2018.09.029",
+    "volume": "155",
+    "author": "X Chai",
+    "year": "2019",
+    "unstructured": "Chai, X., Fu, X., Gan, Z., Lu, Y., Chen, Y.: A color image cryptosystem based on dynamic dna encryption and chaos. Signal Process. 155, 44\u201362 (2019)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "12",
+    "key": "588_CR133",
+    "first-page": "36",
+    "volume": "53",
+    "author": "K Zhan",
+    "year": "2017",
+    "unstructured": "Zhan, K., Jiang, W.: Novel four-wing hyper-chaos system and its application in image encryption. Comput. Eng. Appl. 53(12), 36\u201344 (2017)",
+    "journal-title": "Comput. Eng. Appl."
+   },
+   {
+    "issue": "1B",
+    "key": "588_CR134",
+    "first-page": "434",
+    "volume": "59",
+    "author": "SM Hameed",
+    "year": "2018",
+    "unstructured": "Hameed, S.M., Al-Ani, M., et al.: Image encryption using dna encoding and rc4 algorithm. Iraq. J. Sci. 59(1B), 434\u2013446 (2018)",
+    "journal-title": "Iraq. J. Sci."
+   },
+   {
+    "issue": "4",
+    "key": "588_CR135",
+    "first-page": "499",
+    "volume": "29",
+    "author": "B Mondal",
+    "year": "2017",
+    "unstructured": "Mondal, B., Mandal, T.: A light weight secure image encryption scheme based on chaos and dna computing. J. King Saud Univ. Comput. Inf. Sci. 29(4), 499\u2013504 (2017)",
+    "journal-title": "J. King Saud Univ. Comput. Inf. Sci."
+   },
+   {
+    "issue": "12",
+    "key": "588_CR136",
+    "doi-asserted-by": "publisher",
+    "first-page": "1836",
+    "DOI": "10.1016/j.optlaseng.2012.06.002",
+    "volume": "50",
+    "author": "J Jin",
+    "year": "2012",
+    "unstructured": "Jin, J.: An image encryption based on elementary cellular automata. Opt. Lasers Eng. 50(12), 1836\u20131843 (2012)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "588_CR137",
+    "doi-asserted-by": "publisher",
+    "first-page": "225",
+    "DOI": "10.1016/j.optlaseng.2016.10.019",
+    "volume": "90",
+    "author": "AY Niyat",
+    "year": "2017",
+    "unstructured": "Niyat, A.Y., Moattar, M.H., Torshiz, M.N.: Color image encryption based on hybrid hyper-chaotic system and cellular automata. Opt. Lasers Eng. 90, 225\u2013237 (2017)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "588_CR138",
+    "doi-asserted-by": "publisher",
+    "first-page": "6",
+    "DOI": "10.1016/j.image.2016.12.007",
+    "volume": "52",
+    "author": "X Chai",
+    "year": "2017",
+    "unstructured": "Chai, X., Gan, Z., Yang, K., Chen, Y., Liu, X.: An image encryption algorithm based on the memristive hyperchaotic system, cellular automata and dna sequence operations. Signal Process. Image Commun. 52, 6\u201319 (2017)",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "key": "588_CR139",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Li, M., Lu, D., Wen, W., Ren, H., Zhang, Y.: Cryptanalyzing a color image encryption scheme based on hybrid hyper-chaotic system and cellular automata. IEEE Access 6, 47,102\u201347,111 (2018)",
+    "DOI": "10.1109/ACCESS.2018.2867111"
+   },
+   {
+    "key": "588_CR140",
+    "doi-asserted-by": "publisher",
+    "first-page": "855",
+    "DOI": "10.1016/j.ins.2019.10.028",
+    "volume": "512",
+    "author": "Y Khedmati",
+    "year": "2020",
+    "unstructured": "Khedmati, Y., Parvaz, R., Behroo, Y.: 2d hybrid chaos map for image security transform based on framelet and cellular automata. Inf. Sci. 512, 855\u2013879 (2020)",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "588_CR141",
+    "doi-asserted-by": "publisher",
+    "first-page": "200",
+    "DOI": "10.1016/j.optlaseng.2017.08.018",
+    "volume": "100",
+    "author": "X Li",
+    "year": "2018",
+    "unstructured": "Li, X., Xiao, D., Wang, Q.H.: Error-free holographic frames encryption with ca pixel-permutation encoding algorithm. Opt. Lasers Eng. 100, 200\u2013207 (2018)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "issue": "164",
+    "key": "588_CR142",
+    "first-page": "000",
+    "volume": "203",
+    "author": "A Babaei",
+    "year": "2020",
+    "unstructured": "Babaei, A., Motameni, H., Enayatifar, R.: A new permutation-diffusion-based image encryption technique using cellular automata and dna sequence. Optik 203(164), 000 (2020)",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "588_CR143",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Naskar, P.K., Bhattacharyya, S., Nandy, D., Chaudhuri, A.: A robust image encryption scheme using chaotic tent map and cellular automata. Nonlinear Dyn. (2020)",
+    "DOI": "10.1007/s11071-020-05625-3"
+   },
+   {
+    "key": "588_CR144",
+    "doi-asserted-by": "publisher",
+    "first-page": "134",
+    "DOI": "10.1016/j.image.2018.12.008",
+    "volume": "72",
+    "author": "Y Su",
+    "year": "2019",
+    "unstructured": "Su, Y., Wo, Y., Han, G.: Reversible cellular automata image encryption for similarity search. Signal Process. Image Commun. 72, 134\u2013147 (2019)",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "key": "588_CR145",
+    "doi-asserted-by": "publisher",
+    "first-page": "72",
+    "DOI": "10.1016/j.optlaseng.2016.06.006",
+    "volume": "89",
+    "author": "L Yao",
+    "year": "2017",
+    "unstructured": "Yao, L., Yuan, C., Qiang, J., Feng, S., Nie, S.: An asymmetric color image encryption method by using deduced gyrator transform. Opt. Lasers Eng. 89, 72\u201379 (2017)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "588_CR146",
+    "doi-asserted-by": "publisher",
+    "first-page": "277",
+    "DOI": "10.1016/j.ijleo.2018.06.029",
+    "volume": "171",
+    "author": "CL Li",
+    "year": "2018",
+    "unstructured": "Li, C.L., Li, H.M., Li, F.D., Wei, D.Q., Yang, X.B., Zhang, J.: Multiple-image encryption by using robust chaotic map in wavelet transform domain. Optik 171, 277\u2013286 (2018)",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "6",
+    "key": "588_CR147",
+    "doi-asserted-by": "publisher",
+    "first-page": "701",
+    "DOI": "10.1007/s10043-018-0464-x",
+    "volume": "25",
+    "author": "G Ren",
+    "year": "2018",
+    "unstructured": "Ren, G., Han, J., Fu, J., Shan, M.: Asymmetric image encryption using phase-truncated discrete multiple-parameter fractional fourier transform. Opt. Rev. 25(6), 701\u2013707 (2018)",
+    "journal-title": "Opt. Rev."
+   },
+   {
+    "issue": "11",
+    "key": "588_CR148",
+    "doi-asserted-by": "publisher",
+    "first-page": "2517",
+    "DOI": "10.1007/s11517-019-02037-3",
+    "volume": "57",
+    "author": "S Kumar",
+    "year": "2019",
+    "unstructured": "Kumar, S., Panna, B., Jha, R.K.: Medical image encryption using fractional discrete cosine transform with chaotic function. Med. Biol. Eng. Comput. 57(11), 2517\u20132533 (2019)",
+    "journal-title": "Med. Biol. Eng. Comput."
+   },
+   {
+    "issue": "1",
+    "key": "588_CR149",
+    "first-page": "155",
+    "volume": "22",
+    "author": "L Meng",
+    "year": "2020",
+    "unstructured": "Meng, L., Yin, S., Zhao, C., Li, H., Sun, Y.: An improved image encryption algorithm based on chaotic mapping and discrete wavelet transform domain. IJ Netw. Security 22(1), 155\u2013160 (2020)",
+    "journal-title": "IJ Netw. Security"
+   },
+   {
+    "issue": "3",
+    "key": "588_CR150",
+    "doi-asserted-by": "publisher",
+    "first-page": "2243",
+    "DOI": "10.1007/s11277-020-07680-w",
+    "volume": "115",
+    "author": "A Shafique",
+    "year": "2020",
+    "unstructured": "Shafique, A., Ahmed, F.: Image encryption using dynamic s-box substitution in the wavelet domain. Wireless Personal Commun. 115(3), 2243\u20132268 (2020)",
+    "journal-title": "Wireless Personal Commun."
+   },
+   {
+    "key": "588_CR151",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Karmakar, J., Mandal, M.K.: Chaos-based image encryption using integer wavelet transform. In: 2020 7th International Conference on Signal Processing and Integrated Networks (SPIN), IEEE, pp. 756\u2013760 (2020)",
+    "DOI": "10.1109/SPIN48934.2020.9071316"
+   },
+   {
+    "key": "588_CR152",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Shakir, H.R.: An image encryption method based on selective aes coding of wavelet transform and chaotic pixel shuffling. Multimedia Tools Appl. 78(18), 26,073\u201326,087 (2019)",
+    "DOI": "10.1007/s11042-019-07766-z"
+   },
+   {
+    "key": "588_CR153",
+    "doi-asserted-by": "publisher",
+    "first-page": "9",
+    "DOI": "10.1016/j.optlaseng.2017.11.005",
+    "volume": "103",
+    "author": "M Annaby",
+    "year": "2018",
+    "unstructured": "Annaby, M., Rushdi, M., Nehary, E.: Color image encryption using random transforms, phase retrieval, chaotic maps, and diffusion. Opt. Lasers Eng. 103, 9\u201323 (2018)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "issue": "9",
+    "key": "588_CR154",
+    "doi-asserted-by": "publisher",
+    "first-page": "1267",
+    "DOI": "10.1007/s00371-018-1574-y",
+    "volume": "35",
+    "author": "Gd Li",
+    "year": "2019",
+    "unstructured": "Li, Gd., et al.: Double chaotic image encryption algorithm based on optimal sequence solution and fractional transform. Vis. Comput. 35(9), 1267\u20131277 (2019)",
+    "journal-title": "Vis. Comput."
+   },
+   {
+    "issue": "18",
+    "key": "588_CR155",
+    "doi-asserted-by": "publisher",
+    "first-page": "3329",
+    "DOI": "10.1016/j.ijleo.2012.11.002",
+    "volume": "124",
+    "author": "CY Song",
+    "year": "2013",
+    "unstructured": "Song, C.Y., Qiao, Y.L., Zhang, X.Z.: An image encryption scheme based on new spatiotemporal chaos. Optik Int. J. Light Electron Opt 124(18), 3329\u20133334 (2013)",
+    "journal-title": "Optik Int. J. Light Electron Opt"
+   },
+   {
+    "issue": "5",
+    "key": "588_CR156",
+    "doi-asserted-by": "publisher",
+    "first-page": "6191",
+    "DOI": "10.1007/s11042-018-6326-5",
+    "volume": "78",
+    "author": "X Wang",
+    "year": "2019",
+    "unstructured": "Wang, X., Qin, X., Liu, C.: Color image encryption algorithm based on customized globally coupled map lattices. Multimedia Tools Appl. 78(5), 6191\u20136209 (2019)",
+    "journal-title": "Multimedia Tools Appl."
+   },
+   {
+    "key": "588_CR157",
+    "doi-asserted-by": "publisher",
+    "first-page": "234",
+    "DOI": "10.1016/j.sigpro.2016.12.008",
+    "volume": "134",
+    "author": "T Hu",
+    "year": "2017",
+    "unstructured": "Hu, T., Liu, Y., Gong, L.H., Guo, S.F., Yuan, H.M.: Chaotic image cryptosystem using dna deletion and dna insertion. Signal Process. 134, 234\u2013243 (2017)",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "588_CR158",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Oravec, J., Turan, J., Ovsenik, L.: Image encryption technique with key diffused by coupled map lattice. In: 2018 28th International Conference Radioelektronika (RADIOELEKTRONIKA), IEEE, pp. 1\u20136 (2018)",
+    "DOI": "10.1109/RADIOELEK.2018.8376374"
+   },
+   {
+    "key": "588_CR159",
+    "doi-asserted-by": "publisher",
+    "first-page": "42",
+    "DOI": "10.1016/j.optlastec.2019.02.009",
+    "volume": "115",
+    "author": "X Wang",
+    "year": "2019",
+    "unstructured": "Wang, X., Zhao, H., Wang, M.: A new image encryption algorithm with nonlinear-diffusion based on multiple coupled map lattices. Opt. Laser Technol. 115, 42\u201357 (2019)",
+    "journal-title": "Opt. Laser Technol."
+   },
+   {
+    "key": "588_CR160",
+    "doi-asserted-by": "publisher",
+    "first-page": "24",
+    "DOI": "10.1016/j.optlaseng.2018.05.009",
+    "volume": "110",
+    "author": "H Nematzadeh",
+    "year": "2018",
+    "unstructured": "Nematzadeh, H., Enayatifar, R., Motameni, H., Guimar\u00e3es, F.G., Coelho, V.N.: Medical image encryption using a hybrid model of modified genetic algorithm and coupled map lattices. Opt. Lasers Eng. 110, 24\u201332 (2018)",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "588_CR161",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Xingyuan, W., Le, F., Shibing, W., Zhang, C., Yingqian, Z.: Spatiotemporal chaos in coupled logistic map lattice with dynamic coupling coefficient and its application in image encryption. IEEE Access 6, 39,705\u201339,724 (2018)",
+    "DOI": "10.1109/ACCESS.2018.2855726"
+   },
+   {
+    "key": "588_CR162",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yu W, Liu Y, Gong L, Tian M, Tu L (2019) Double-image encryption based on spatiotemporal chaos and dna operations. Multimedia Tools Appl. 78(14), 20,037\u201320,064",
+    "DOI": "10.1007/s11042-018-7110-2"
+   },
+   {
+    "key": "588_CR163",
+    "doi-asserted-by": "publisher",
+    "first-page": "148",
+    "DOI": "10.1016/j.physa.2017.07.019",
+    "volume": "490",
+    "author": "YQ Zhang",
+    "year": "2018",
+    "unstructured": "Zhang, Y.Q., He, Y., Wang, X.Y.: Spatiotemporal chaos in mixed linear-nonlinear two-dimensional coupled logistic map lattice. Phys. A Stat. Mech. Appl. 490, 148\u2013160 (2018)",
+    "journal-title": "Phys. A Stat. Mech. Appl."
+   },
+   {
+    "issue": "125",
+    "key": "588_CR164",
+    "first-page": "039",
+    "volume": "373",
+    "author": "Sun Yj",
+    "year": "2020",
+    "unstructured": "Yj, Sun, Zhang, H., Xy, Wang, Xq, Wang, Pf, Yan: 2d non-adjacent coupled map lattice with q and its applications in image encryption. Appl. Math. Comput. 373(125), 039 (2020)",
+    "journal-title": "Appl. Math. Comput."
+   },
+   {
+    "key": "588_CR165",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhang, H., Wang, X., Xie, H., Wang, C., Wang, X.: An efficient and secure image encryption algorithm based on non-adjacent coupled maps. IEEE Access 8, 122,104\u2013122,120 (2020)",
+    "DOI": "10.1109/ACCESS.2020.3006513"
+   }
+  ],
+  "container-title": [
+   "International Journal of Information Security"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1007/s10207-022-00588-5/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s10207-022-00588-5.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     21
+    ]
+   ],
+   "date-time": "2024-09-21T15:11:21Z",
+   "timestamp": 1726931481000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1007/s10207-022-00588-5"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     7
+    ]
+   ]
+  },
+  "references-count": 165,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      8
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "588"
+  ],
+  "URL": "https://doi.org/10.1007/s10207-022-00588-5",
+  "relation": {},
+  "ISSN": [
+   "1615-5262",
+   "1615-5270"
+  ],
+  "issn-type": [
+   {
+    "value": "1615-5262",
+    "type": "print"
+   },
+   {
+    "value": "1615-5270",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     7
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "7 April 2022",
+    "order": 1,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Declarations"
+    }
+   },
+   {
+    "value": "The authors have no conflicts of interest to declare. All co-authors have seen and agreed with the contents of the manuscript. We certify that the submission is original work and is not under review at any other publication.",
+    "order": 2,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Conflict of Interest"
+    }
+   },
+   {
+    "value": "This article does not contain any studies with human participants or animals performed by any of the authors.",
+    "order": 3,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Ethical approval"
+    }
+   },
+   {
+    "value": "Not applicable.",
+    "order": 4,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Informed consent"
+    }
+   },
+   {
+    "value": "Not applicable.",
+    "order": 5,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Informed consent"
+    }
+   }
+  ]
+ }
+}

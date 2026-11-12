@@ -1,0 +1,21 @@
+{
+  "n_trials": 27,
+  "elapsed_sec": 188.89820837974548,
+  "npcr_pct": {
+    "mean": 99.83013765311536,
+    "std": 0.10385884702467264,
+    "min": 99.609375,
+    "max": 100.0
+  },
+  "uaci_pct": {
+    "mean": 33.53771378704838,
+    "std": 0.296844546300829,
+    "min": 33.1585813036152,
+    "max": 34.27475873161765
+  },
+  "reference_expectation_for_iid_uniform_bytes": {
+    "npcr_expected_pct": 99.609375,
+    "uaci_expected_pct": 33.46354166666667
+  },
+  "note": "reference_expectation is a descriptive 'ideal random cipher' baseline (Wu/Noonan/Agaian closed-form), NOT a security threshold or proof."
+}

@@ -1,0 +1,25 @@
+[19:57:07] generating extraction=1 seed=seedA (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:01:34]   generation done in 267.1s
+[20:01:45]   reproducibility check (independent re-run, byte-exact): True
+[20:02:01]   cross-stream MI (6 pairs, n=200000) done
+[20:06:11]   NIST lane battery (64 lanes/stream): 122.9s; stream-chunk battery (64 chunks/stream): 126.9s
+[20:06:11] generating extraction=1 seed=seedB (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:10:52]   generation done in 280.6s
+[20:11:08]   cross-stream MI (6 pairs, n=200000) done
+[20:12:49]   NIST lane battery (32 lanes/stream): 67.2s; stream-chunk battery (16 chunks/stream): 33.9s
+[20:12:49] generating extraction=1 seed=seedC (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:17:17]   generation done in 267.7s
+[20:17:32]   cross-stream MI (6 pairs, n=200000) done
+[20:19:05]   NIST lane battery (32 lanes/stream): 60.9s; stream-chunk battery (16 chunks/stream): 31.6s
+[20:19:05] generating extraction=2 seed=seedA (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:24:09]   generation done in 304.6s
+[20:24:30]   cross-stream MI (6 pairs, n=200000) done
+[20:29:15]   NIST lane battery (64 lanes/stream): 150.8s; stream-chunk battery (64 chunks/stream): 133.8s
+[20:29:15] generating extraction=2 seed=seedB (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:33:56]   generation done in 280.7s
+[20:34:11]   cross-stream MI (6 pairs, n=200000) done
+[20:35:43]   NIST lane battery (32 lanes/stream): 61.5s; stream-chunk battery (16 chunks/stream): 30.9s
+[20:35:43] generating extraction=2 seed=seedC (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:40:11]   generation done in 267.1s
+[20:40:25]   cross-stream MI (6 pairs, n=200000) done
+[20:42:05]   NIST lane battery (32 lanes/stream): 63.6s; stream-chunk battery (16 chunks/stream): 35.8s

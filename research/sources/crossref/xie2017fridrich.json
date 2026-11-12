@@ -1,0 +1,600 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.sigpro.2016.10.002",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T19:57:02Z",
+   "timestamp": 1792180622558,
+   "version": "4.4.0"
+  },
+  "reference-count": 29,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2017,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2017-03-01T00:00:00Z",
+     "timestamp": 1488326400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100004735",
+    "name": "Hunan Provincial Natural Science Foundation of China",
+    "doi-asserted-by": "crossref",
+    "award": [
+     "2015JJ1013"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2015JJ1013"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004735",
+      "id-type": "DOI",
+      "asserted-by": "crossref"
+     }
+    ]
+   },
+   {
+    "name": "Scientific Research Fund of Hunan Provincial Education Department",
+    "award": [
+     "15A186"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "15A186"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61532020, 61611530549"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61532020, 61611530549"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2017,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.sigpro.2016.10.002",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2016,
+     10,
+     10
+    ]
+   ],
+   "date-time": "2016-10-10T15:55:06Z",
+   "timestamp": 1476114906000
+  },
+  "page": "150-154",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 252,
+  "special_numbering": "C",
+  "title": [
+   "On the cryptanalysis of Fridrich's chaotic image encryption scheme"
+  ],
+  "prefix": "10.1016",
+  "volume": "132",
+  "author": [
+   {
+    "given": "Eric Yong",
+    "family": "Xie",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Simin",
+    "family": "Yu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jinhu",
+    "family": "L\u00fc",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2016.10.002_bib1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1063/1.2728112",
+    "article-title": "Selective image encryption using a spatiotemporal chaotic system",
+    "volume": "17",
+    "author": "Xiang",
+    "year": "2007",
+    "journal-title": "Chaos"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2016.10.002_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1203",
+    "DOI": "10.1109/TCSVT.2014.2369711",
+    "article-title": "Design and ARM-embedded implementation of a chaotic map-based real-time secure video communication system",
+    "volume": "25",
+    "author": "Lin",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2016.10.002_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "2001",
+    "DOI": "10.1109/TCYB.2014.2363168",
+    "article-title": "Cascade chaotic system with applications",
+    "volume": "45",
+    "author": "Zhou",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1016/j.ins.2016.01.017",
+    "article-title": "Image encryption using 2D Logistic-adjusted-Sine map",
+    "volume": "339",
+    "author": "Hua",
+    "year": "2016",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "155",
+    "DOI": "10.1016/j.sigpro.2016.03.021",
+    "article-title": "A novel image encryption scheme based on substitution-permutation network and chaos",
+    "volume": "128",
+    "author": "Belazi",
+    "year": "2016",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2016.10.002_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1080/0161-118991863745",
+    "article-title": "On the derivation of a chaotic encryption algorithm",
+    "volume": "13",
+    "author": "Matthews",
+    "year": "1989",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2016.10.002_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "243",
+    "DOI": "10.1080/0161-118991863934",
+    "article-title": "Problems with chaotic cryptosystems",
+    "volume": "13",
+    "author": "Wheeler",
+    "year": "1989",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib8",
+    "doi-asserted-by": "crossref",
+    "unstructured": "T. Beth, D.E. Lazic, A. Mathias, Cryptanalysis of cryptosystems based on remote chaos replication, in: Advances in Cryptology\u2013Crypto'94, of Lecture Notes in Computer Science, vol. 839, 1994, pp. 318\u2013331.",
+    "DOI": "10.1007/3-540-48658-5_30"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2016.10.002_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "651",
+    "DOI": "10.1142/S0217979209049966",
+    "article-title": "Cryptanalysis of a new chaotic cryptosystem based on ergodicity",
+    "volume": "23",
+    "author": "Arroyo",
+    "year": "2009",
+    "journal-title": "Int. J. Mod. Phys. B"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.sigpro.2016.10.002_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "557",
+    "DOI": "10.1109/TCSII.2004.834534",
+    "article-title": "Partial identification of lorenz system and its application to key space reduction of chaotic cryptosystems",
+    "volume": "51",
+    "author": "Solak",
+    "year": "2004",
+    "journal-title": "IEEE Trans. Circuits Syst. II: Express Briefs"
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib11",
+    "doi-asserted-by": "crossref",
+    "unstructured": "E. Biham, Cryptanalysis of the chaotic-map cryptosystem suggested at Eurocrypt'91, in: Advances in Cryptology\u2013Crypto'91, of Lecture Notes in Computer Science, vol. 547, 1991, pp. 532\u2013534.",
+    "DOI": "10.1007/3-540-46416-6_49"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2016.10.002_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "1358",
+    "DOI": "10.1016/j.sigpro.2012.11.019",
+    "article-title": "Cryptanalysis of a one round chaos-based substitution permutation network",
+    "volume": "93",
+    "author": "Arroyo",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2016.10.002_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "2083",
+    "DOI": "10.1007/s11071-013-0924-6",
+    "article-title": "Breaking a novel image encryption scheme based on improved hyperchaotic sequences",
+    "volume": "73",
+    "author": "Li",
+    "year": "2013",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2016.10.002_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1483",
+    "DOI": "10.1007/s11071-015-1956-x",
+    "article-title": "Cryptanalysis of a new image alternate encryption algorithm based on chaotic map",
+    "volume": "80",
+    "author": "Yap",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2016.10.002_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "\u00c1lvarez",
+    "year": "2006",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib16",
+    "unstructured": "G. Alvarez, J. M. Amig\u00f3, D. Arroyo, S. Li, Lessons learnt from the cryptanalysis of chaos-based ciphers, in: L. Kocarev, S. Lian (Eds.), Chaos-Based Cryptography: Theory, Algorithms and Applications, of Studies in Computational Intelligence, Springer, vol. 354, 2011, pp. 257\u2013295."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2016.10.002_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "949",
+    "DOI": "10.1016/j.sigpro.2010.09.014",
+    "article-title": "Optimal quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "volume": "91",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1016/j.sigpro.2015.07.008",
+    "article-title": "Cracking a hierarchical chaotic image encryption algorithm based on permutation",
+    "volume": "118",
+    "author": "Li",
+    "year": "2016",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2016.10.002_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "656",
+    "DOI": "10.1002/j.1538-7305.1949.tb00928.x",
+    "article-title": "Communication theory of secrecy systems",
+    "volume": "28",
+    "author": "Shannon",
+    "year": "1949",
+    "journal-title": "Bell Syst. Tech. J."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2016.10.002_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "1405",
+    "DOI": "10.1142/S0218127410026563",
+    "article-title": "Cryptanalysis of fridrich's chaotic image encryption",
+    "volume": "20",
+    "author": "Solak",
+    "year": "2010",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2016.10.002_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2016.10.002_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3D chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos, Solitons Fractals"
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib23",
+    "unstructured": "G. Leurent, T. Peyrin, L. Wang, New generic attacks against hash-based macs, in: Advances in Cryptology\u2013Asiacrypt 2013, of Lecture Notes in Computer Science, vol. 8270, 2013, pp. 1\u201320."
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.sigpro.2016.10.002_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "article-title": "A novel fast image encryption scheme based on 3D chaotic baker maps",
+    "volume": "14",
+    "author": "Mao",
+    "year": "2004",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2016.10.002_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "1245",
+    "DOI": "10.1214/aoms/1177698793",
+    "article-title": "Permutations without rising or falling \u03c9-sequences",
+    "volume": "38",
+    "author": "Abramson",
+    "year": "1967",
+    "journal-title": "Ann. Math. Stat."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2016.10.002_bib26",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127413500752",
+    "article-title": "Breaking a chaotic image encryption algorithm based on modulo addition and XOR operation",
+    "volume": "23",
+    "author": "Li",
+    "year": "2013",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2016.10.002_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "432",
+    "DOI": "10.1016/j.physleta.2005.05.040",
+    "article-title": "On the security of 3D cat map based symmetric image encryption scheme",
+    "volume": "343",
+    "author": "Wang",
+    "year": "2005",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/j.sigpro.2016.10.002_bib28",
+    "doi-asserted-by": "crossref",
+    "unstructured": "C. Li, G. Chen, On the security of a class of image encryption schemes, in: Proceedings of 2008 IEEE International Symposium on Circuits and Systems, 2008, pp. 3290\u20133293",
+    "DOI": "10.1109/ISCAS.2008.4542161"
+   },
+   {
+    "issue": "13",
+    "key": "10.1016/j.sigpro.2016.10.002_bib29",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127415501886",
+    "article-title": "Deciphering an image cipher based on mixed transformed logistic maps",
+    "volume": "25",
+    "author": "Liu",
+    "year": "2015",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   }
+  ],
+  "container-title": [
+   "Signal Processing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168416302651?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168416302651?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     11
+    ]
+   ],
+   "date-time": "2025-06-11T04:47:22Z",
+   "timestamp": 1749617242000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165168416302651"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2017,
+     3
+    ]
+   ]
+  },
+  "references-count": 29,
+  "alternative-id": [
+   "S0165168416302651"
+  ],
+  "URL": "https://doi.org/10.1016/j.sigpro.2016.10.002",
+  "relation": {},
+  "ISSN": [
+   "0165-1684"
+  ],
+  "issn-type": [
+   {
+    "value": "0165-1684",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2017,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "On the cryptanalysis of Fridrich's chaotic image encryption scheme",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.sigpro.2016.10.002",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2016 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

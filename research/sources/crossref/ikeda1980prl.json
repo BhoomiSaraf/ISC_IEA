@@ -1,0 +1,368 @@
+{
+ "query": "https://api.crossref.org/works/10.1103/physrevlett.45.709",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     9
+    ]
+   ],
+   "date-time": "2026-10-09T18:04:03Z",
+   "timestamp": 1791569043607,
+   "version": "4.3.4"
+  },
+  "reference-count": 18,
+  "publisher": "American Physical Society (APS)",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1980,
+       9,
+       1
+      ]
+     ],
+     "date-time": "1980-09-01T00:00:00Z",
+     "timestamp": 336614400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://link.aps.org/licenses/aps-default-license"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Phys. Rev. Lett."
+  ],
+  "DOI": "10.1103/physrevlett.45.709",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2002-07-27T00:03:20Z",
+   "timestamp": 1027728200000
+  },
+  "page": "709-712",
+  "source": "Crossref",
+  "is-referenced-by-count": 767,
+  "title": [
+   "Optical Turbulence: Chaotic Behavior of Transmitted Light from a Ring Cavity"
+  ],
+  "prefix": "10.1103",
+  "volume": "45",
+  "author": [
+   {
+    "given": "K.",
+    "family": "Ikeda",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "H.",
+    "family": "Daido",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "O.",
+    "family": "Akimoto",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "16",
+  "published-online": {
+   "date-parts": [
+    [
+     1980,
+     9,
+     1
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "PhysRevLett.45.709Cc1R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1135",
+    "DOI": "10.1103/PhysRevLett.36.1135",
+    "volume": "36",
+    "author": "H. M. Gibbs",
+    "year": "1976",
+    "journal-title": "Phys. Rev. Lett."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc2R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1169",
+    "DOI": "10.1103/PhysRevA.19.1169",
+    "volume": "19",
+    "author": "T. Bischofberger",
+    "year": "1979",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc3R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "320",
+    "DOI": "10.1063/1.90035",
+    "volume": "32",
+    "author": "E. Garmire",
+    "year": "1978",
+    "journal-title": "Appl. Phys. Lett."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc3R2",
+    "doi-asserted-by": "crossref",
+    "first-page": "374",
+    "DOI": "10.1063/1.90794",
+    "volume": "34",
+    "author": "E. Garmire",
+    "year": "1979",
+    "journal-title": "Appl. Phys. Lett."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc4R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1515",
+    "DOI": "10.1103/PhysRevA.9.1515",
+    "volume": "9",
+    "author": "S. L. McCall",
+    "year": "1974",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc5R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1023",
+    "DOI": "10.1103/PhysRevLett.40.1023",
+    "volume": "40",
+    "author": "R. Bonifacio",
+    "year": "1978",
+    "journal-title": "Phys. Rev. Lett."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc5R2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1129",
+    "DOI": "10.1103/PhysRevA.18.1129",
+    "volume": "18",
+    "author": "R. Bonifacio",
+    "year": "1978",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc6R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1016/0030-4018(79)90059-2",
+    "volume": "30",
+    "author": "R. Bonifacio",
+    "year": "1979",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc6R2",
+    "doi-asserted-by": "crossref",
+    "first-page": "284",
+    "DOI": "10.1063/1.90021",
+    "volume": "32",
+    "author": "S. L. McCall",
+    "year": "1978",
+    "journal-title": "Appl. Phys. Lett."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc7R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "167",
+    "DOI": "10.1007/BF01646553",
+    "volume": "20",
+    "author": "D. Ruelle",
+    "year": "1971",
+    "journal-title": "Commun. Math. Phys."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc8R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "186",
+    "DOI": "10.1103/PhysRevA.12.186",
+    "volume": "12",
+    "author": "J. B. McLaughlin",
+    "year": "1975",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc9R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "130",
+    "DOI": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+    "volume": "20",
+    "author": "E. N. Lorenz",
+    "year": "1963",
+    "journal-title": "J. Atmos, Sci."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc9R2",
+    "volume-title": "Synergetics, A Workshop",
+    "author": "O. E. R\u00f6ssler",
+    "year": "1977"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc10R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "459",
+    "DOI": "10.1038/261459a0",
+    "volume": "261",
+    "author": "R. May",
+    "year": "1976",
+    "journal-title": "Nature (London)"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc11R1",
+    "volume-title": "Fluid Mechanics",
+    "author": "L. D. Landau",
+    "year": "1959"
+   },
+   {
+    "key": "PhysRevLett.45.709Cc12R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1016/0030-4018(79)90090-7",
+    "volume": "30",
+    "author": "K. Ikeda",
+    "year": "1979",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc15R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "69",
+    "DOI": "10.1007/BF01608556",
+    "volume": "50",
+    "author": "M. H\u00e9non",
+    "year": "1976",
+    "journal-title": "Commun. Math. Phys."
+   },
+   {
+    "key": "PhysRevLett.45.709Cc17R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "679",
+    "DOI": "10.1143/PTP.56.679",
+    "volume": "56",
+    "author": "Y. Kuramoto",
+    "year": "1976",
+    "journal-title": "Prog. Theor. Phys."
+   }
+  ],
+  "container-title": [
+   "Physical Review Letters"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.aps.org/article/10.1103/PhysRevLett.45.709",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.45.709/fulltext",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     2
+    ]
+   ],
+   "date-time": "2025-01-02T20:24:25Z",
+   "timestamp": 1735849465000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.aps.org/doi/10.1103/PhysRevLett.45.709"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1980,
+     9,
+     1
+    ]
+   ]
+  },
+  "references-count": 18,
+  "journal-issue": {
+   "issue": "9",
+   "published-print": {
+    "date-parts": [
+     [
+      1980,
+      9
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1103/physrevlett.45.709",
+  "relation": {},
+  "ISSN": [
+   "0031-9007"
+  ],
+  "issn-type": [
+   {
+    "value": "0031-9007",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1980,
+     9,
+     1
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,767 @@
+{
+ "query": "https://api.crossref.org/works/10.1080/09500340.2025.2519795",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     12
+    ]
+   ],
+   "date-time": "2026-09-12T02:22:12Z",
+   "timestamp": 1789179732823,
+   "version": "build-2803163510"
+  },
+  "reference-count": 58,
+  "publisher": "Informa UK Limited",
+  "issue": "16-18",
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "the National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61802111, 61872125"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61802111, 61872125"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100010950",
+    "name": "the Science and Technology Project of Henan Province",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "232102210109"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "232102210109"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100010950",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100010950",
+    "name": "the Science and Technology Project of Henan Province",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "232102210096"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "232102210096"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100010950",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100013066",
+    "name": "Key Scientific Research Projects of Colleges and Universities of Henan Province",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "24A520003"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "24A520003"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100013066",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Pre-research Project of SongShan Laboratory",
+    "award": [
+     "YYJC012022011"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "YYJC012022011"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100006407",
+    "name": "Natural Science Foundation Project of Henan Province",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "242300421404"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "242300421404"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100006407",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "the Graduate Talent Program of Henan University",
+    "award": [
+     "SYLYC2022193"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "SYLYC2022193"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "the Graduate Talent Program of Henan University",
+    "award": [
+     "SYLAL2023020"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "SYLAL2023020"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "www.tandfonline.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of Modern Optics"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     24
+    ]
+   ]
+  },
+  "DOI": "10.1080/09500340.2025.2519795",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     23
+    ]
+   ],
+   "date-time": "2025-06-23T16:05:40Z",
+   "timestamp": 1750694740000
+  },
+  "page": "741-766",
+  "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+  "source": "Crossref",
+  "is-referenced-by-count": 3,
+  "title": [
+   "Exploiting 2D improved Sine-Chebyshev chaotic map and adaptive cellular automata permutation for image encryption"
+  ],
+  "prefix": "10.1080",
+  "volume": "72",
+  "author": [
+   {
+    "given": "Yiming",
+    "family": "Zhang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Henan University",
+      "place": [
+       "Zhengzhou, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiuli",
+    "family": "Chai",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Henan University",
+      "place": [
+       "Zhengzhou, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lvchen",
+    "family": "Cao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Henan University",
+      "place": [
+       "Zhengzhou, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhihua",
+    "family": "Gan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Intelligent Network System, Henan University",
+      "place": [
+       "Kaifeng, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yang",
+    "family": "Lu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Henan University",
+      "place": [
+       "Zhengzhou, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiaodong",
+    "family": "Xie",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Henan University",
+      "place": [
+       "Zhengzhou, People\u2019s Republic of China"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "301",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     23
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_3_4_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/09500340.2023.2295372"
+   },
+   {
+    "key": "e_1_3_4_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2023.122052"
+   },
+   {
+    "key": "e_1_3_4_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2023.114111"
+   },
+   {
+    "key": "e_1_3_4_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2023.3285481"
+   },
+   {
+    "key": "e_1_3_4_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2022.3218886"
+   },
+   {
+    "key": "e_1_3_4_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/1402-4896/ad9d8b"
+   },
+   {
+    "key": "e_1_3_4_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cjph.2021.03.029"
+   },
+   {
+    "key": "e_1_3_4_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1117/1.JEI.27.6.063022"
+   },
+   {
+    "key": "e_1_3_4_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.image.2021.116246"
+   },
+   {
+    "key": "e_1_3_4_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s40747-021-00515-6"
+   },
+   {
+    "key": "e_1_3_4_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlaseng.2018.09.015"
+   },
+   {
+    "key": "e_1_3_4_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jisa.2019.01.010"
+   },
+   {
+    "key": "e_1_3_4_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TII.2019.2897733"
+   },
+   {
+    "key": "e_1_3_4_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/JAS.2019.1911726"
+   },
+   {
+    "key": "e_1_3_4_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/SKIMA47702.2019.8982535"
+   },
+   {
+    "key": "e_1_3_4_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fphy.2022.1006324"
+   },
+   {
+    "key": "e_1_3_4_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1088/1402-4896/ad04a1"
+   },
+   {
+    "key": "e_1_3_4_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.image.2016.12.007"
+   },
+   {
+    "key": "e_1_3_4_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2016.05.012"
+   },
+   {
+    "key": "e_1_3_4_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2023.114396"
+   },
+   {
+    "key": "e_1_3_4_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2019.105581"
+   },
+   {
+    "key": "e_1_3_4_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2018.02.007"
+   },
+   {
+    "key": "e_1_3_4_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-024-18107-0"
+   },
+   {
+    "key": "e_1_3_4_25_1",
+    "first-page": "43",
+    "article-title": "Image encryption algorithm based on a four-dimensional memristor hyperchaotic system",
+    "volume": "20",
+    "author": "YAN Shaohui GB",
+    "year": "2023",
+    "unstructured": "YAN Shaohui GB, Zhenlong SONG. Image encryption algorithm based on a four-dimensional memristor hyperchaotic system. Complex Syst Complex Sci. 2023;20:43\u201351.",
+    "journal-title": "Complex Syst Complex Sci"
+   },
+   {
+    "key": "e_1_3_4_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11517-023-02925-9"
+   },
+   {
+    "key": "e_1_3_4_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2022.112584"
+   },
+   {
+    "key": "e_1_3_4_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2016.01.017"
+   },
+   {
+    "key": "e_1_3_4_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2018.03.010"
+   },
+   {
+    "key": "e_1_3_4_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2022.3185229"
+   },
+   {
+    "key": "e_1_3_4_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-021-06692-w"
+   },
+   {
+    "key": "e_1_3_4_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-022-13733-y"
+   },
+   {
+    "key": "e_1_3_4_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-021-06472-6"
+   },
+   {
+    "key": "e_1_3_4_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-021-06663-1"
+   },
+   {
+    "key": "e_1_3_4_35_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-022-08101-2"
+   },
+   {
+    "key": "e_1_3_4_36_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s40747-021-00460-4"
+   },
+   {
+    "key": "e_1_3_4_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-020-05625-3"
+   },
+   {
+    "key": "e_1_3_4_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2022.01.031"
+   },
+   {
+    "key": "e_1_3_4_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00521-020-04808-8"
+   },
+   {
+    "key": "e_1_3_4_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ijleo.2022.169676"
+   },
+   {
+    "key": "e_1_3_4_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/ipr2.12429"
+   },
+   {
+    "key": "e_1_3_4_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2014.02.015"
+   },
+   {
+    "key": "e_1_3_4_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-018-4251-9"
+   },
+   {
+    "key": "e_1_3_4_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-017-5378-2"
+   },
+   {
+    "key": "e_1_3_4_45_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/e23101297"
+   },
+   {
+    "key": "e_1_3_4_46_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2019.01.039"
+   },
+   {
+    "key": "e_1_3_4_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10773-019-04162-z"
+   },
+   {
+    "key": "e_1_3_4_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-020-10142-x"
+   },
+   {
+    "key": "e_1_3_4_49_1",
+    "first-page": "1",
+    "article-title": "Multiple-image encryption algorithm based on the stereo zigzag transformation",
+    "volume": "83",
+    "author": "Zhang X",
+    "year": "2023",
+    "unstructured": "Zhang X, Liu M. Multiple-image encryption algorithm based on the stereo zigzag transformation. Multimed Tools Appl. 2023;83:1\u201326.",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "e_1_3_4_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2019.105769"
+   },
+   {
+    "key": "e_1_3_4_51_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11633-018-1159-2"
+   },
+   {
+    "key": "e_1_3_4_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2017.07.034"
+   },
+   {
+    "key": "e_1_3_4_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-020-09134-8"
+   },
+   {
+    "key": "e_1_3_4_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10773-018-3872-6"
+   },
+   {
+    "key": "e_1_3_4_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/computation11090178"
+   },
+   {
+    "key": "e_1_3_4_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2020.3039643"
+   },
+   {
+    "key": "e_1_3_4_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2019.03.022"
+   },
+   {
+    "key": "e_1_3_4_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/s21030758"
+   },
+   {
+    "key": "e_1_3_4_59_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-019-7642-0"
+   }
+  ],
+  "container-title": [
+   "Journal of Modern Optics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.tandfonline.com/doi/pdf/10.1080/09500340.2025.2519795",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     23
+    ]
+   ],
+   "date-time": "2025-09-23T18:17:08Z",
+   "timestamp": 1758651428000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/09500340.2025.2519795"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     23
+    ]
+   ]
+  },
+  "references-count": 58,
+  "journal-issue": {
+   "issue": "16-18",
+   "published-print": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      24
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1080/09500340.2025.2519795"
+  ],
+  "URL": "https://doi.org/10.1080/09500340.2025.2519795",
+  "relation": {},
+  "ISSN": [
+   "0950-0340",
+   "1362-3044"
+  ],
+  "issn-type": [
+   {
+    "value": "0950-0340",
+    "type": "print"
+   },
+   {
+    "value": "1362-3044",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     23
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+    "order": 1,
+    "name": "peerreview_statement",
+    "label": "Peer Review Statement"
+   },
+   {
+    "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tmop20",
+    "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tmop20",
+    "order": 2,
+    "name": "aims_and_scope_url",
+    "label": "Aim & Scope"
+   },
+   {
+    "value": "2024-12-17",
+    "order": 0,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2025-06-07",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2025-06-23",
+    "order": 3,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

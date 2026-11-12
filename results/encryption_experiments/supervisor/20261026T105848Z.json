@@ -1,0 +1,26 @@
+{
+ "utc_start": "20261026T105848Z",
+ "command": [
+  "C:\\Users\\bhoom\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "-E",
+  "-s",
+  "-m",
+  "isc_eval.run",
+  "A6e23",
+  "--mode",
+  "full"
+ ],
+ "wall_seconds_limit": 7200.0,
+ "min_free_mb": 200.0,
+ "run_dir": "C:\\Users\\bhoom\\Desktop\\sine_chebyshev_ikeda_analysis\\results\\encryption_experiments\\A6e23_merge_posthoc_full_20261026T105853Z",
+ "killed": true,
+ "kill_reason": "wall-clock limit 7200.0 s exceeded",
+ "taskkill_returncode": 0,
+ "verified_terminated": true,
+ "exit_code": 1,
+ "worker_peak_working_set_mb": 178.5,
+ "min_system_available_mb": 288.3,
+ "samples": 85,
+ "pid": 11968,
+ "wall_seconds": 11648.1
+}

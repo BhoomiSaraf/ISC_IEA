@@ -1,0 +1,19 @@
+{
+  "context_v1_len": 17,
+  "context_v2_len": 18,
+  "context_prefix_hex": "4953432d494d472f7631",
+  "context_v1_equals_v2_minus_last_byte": true,
+  "context_v2_extraction1_vs_extraction2_differ": true,
+  "context_v2_only_diff_is_last_byte": true,
+  "derivation_deterministic_same_inputs": true,
+  "mac_key_changes_with_key": true,
+  "kcv_key_changes_with_key": true,
+  "ivs_change_with_key": true,
+  "all_256_seeds_change_with_key": true,
+  "mac_key_changes_with_nonce": true,
+  "all_256_seeds_change_with_nonce": true,
+  "num_derived_values_checked": 258,
+  "all_pairwise_distinct": true,
+  "v2_extraction_binding_changes_all_seeds": true,
+  "v1_context_has_no_extraction_byte": true
+}

@@ -1,0 +1,22 @@
+{
+  "n_images": 84,
+  "generators": [
+    "uniform_gray127",
+    "all_zero",
+    "all_255",
+    "gradient_horizontal",
+    "gradient_vertical",
+    "checkerboard",
+    "binary_bw",
+    "low_entropy",
+    "high_texture_random",
+    "smooth_natural_like",
+    "correlated_rgb"
+  ],
+  "sizes": [
+    64,
+    128,
+    256,
+    512
+  ]
+}

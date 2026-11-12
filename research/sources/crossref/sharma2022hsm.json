@@ -1,0 +1,801 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s11042-022-13733-y",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T15:55:08Z",
+   "timestamp": 1790697308251,
+   "version": "4.1.0"
+  },
+  "reference-count": 48,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       9,
+       15
+      ]
+     ],
+     "date-time": "2022-09-15T00:00:00Z",
+     "timestamp": 1663200000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       9,
+       15
+      ]
+     ],
+     "date-time": "2022-09-15T00:00:00Z",
+     "timestamp": 1663200000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Multimed Tools Appl"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11042-022-13733-y",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     15
+    ]
+   ],
+   "date-time": "2022-09-15T13:08:27Z",
+   "timestamp": 1663247307000
+  },
+  "page": "11949-11972",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "title": [
+   "An image encryption algorithm based on a novel hyperchaotic Henon sine map"
+  ],
+  "prefix": "10.1007",
+  "volume": "82",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-3303-5651",
+    "authenticated-orcid": false,
+    "given": "Madhu",
+    "family": "Sharma",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8796-4579",
+    "authenticated-orcid": false,
+    "given": "Ranjeet Kumar",
+    "family": "Ranjan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7806-9169",
+    "authenticated-orcid": false,
+    "given": "Vishal",
+    "family": "Bharti",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     15
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "13733_CR1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1155",
+    "DOI": "10.1016/j.ins.2019.10.055",
+    "volume": "512",
+    "author": "M Alawidai",
+    "year": "2020",
+    "unstructured": "Alawidai M, Samsudin A, Teh J (2020) Enhanced digital chaotic maps based on bit reversal with applications in random bit generators. Inf Sci 512:1155\u20131169",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "13733_CR2",
+    "doi-asserted-by": "crossref",
+    "first-page": "11327",
+    "DOI": "10.1007/s11042-019-08337-y",
+    "volume": "79",
+    "author": "A Broumandnia",
+    "year": "2020",
+    "unstructured": "Broumandnia A (2020) Scale invariant digital image encryption using 3D modular chaotic map. Multimed Tools Appl 79:11327\u201311355",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "13733_CR3",
+    "doi-asserted-by": "crossref",
+    "first-page": "9907",
+    "DOI": "10.1007/s11042-016-3585-x",
+    "volume": "76",
+    "author": "X Chai",
+    "year": "2017",
+    "unstructured": "Chai X, Yang K, Gan Z (2017) A new chaos-based image encryption algorithm with dynamic key selection mechanisms. Multimed Tools Appl 76:9907\u20139927",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "2",
+    "key": "13733_CR4",
+    "doi-asserted-by": "crossref",
+    "first-page": "83",
+    "DOI": "10.1016/S0164-1212(01)00029-2",
+    "volume": "58",
+    "author": "CC Chang",
+    "year": "2001",
+    "unstructured": "Chang CC, Hwang MS, Chen TS (2001) A new encryption algorithm for image cryptosystems. J Syst Softw 58(2):83\u201391",
+    "journal-title": "J Syst Softw"
+   },
+   {
+    "key": "13733_CR5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1821",
+    "DOI": "10.1016/j.sjbs.2017.11.023",
+    "volume": "24",
+    "author": "X Chen",
+    "year": "2017",
+    "unstructured": "Chen X, Hu CJ (2017) Adaptive medical image encryption algorithm based on multiple chaotic mapping. Saudi J Biol Sci 24:1821\u20131827",
+    "journal-title": "Saudi J Biol Sci"
+   },
+   {
+    "issue": "3",
+    "key": "13733_CR6",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "volume": "21",
+    "author": "G Chen",
+    "year": "2004",
+    "unstructured": "Chen G, Mao Y, Chui C (2004) A symmetric image encryption scheme based on 3D chaotic cat maps. Chaos Solit Fractals 21(3):749\u2013761",
+    "journal-title": "Chaos Solit Fractals"
+   },
+   {
+    "key": "13733_CR7",
+    "doi-asserted-by": "crossref",
+    "first-page": "340",
+    "DOI": "10.1016/j.sigpro.2017.07.034",
+    "volume": "142",
+    "author": "J Chen",
+    "year": "2018",
+    "unstructured": "Chen J, Zhu Z, Zhang L, Zhang Y, Yang B (2018) Exploiting self-adaptive permutation-diffusion and DNA random encoding for secure and efficient image encryption. Signal Process 142:340\u2013353",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "13733_CR8",
+    "doi-asserted-by": "crossref",
+    "first-page": "107286",
+    "DOI": "10.1016/j.sigpro.2019.107286",
+    "volume": "167",
+    "author": "Y Chen",
+    "year": "2020",
+    "unstructured": "Chen Y, Tang C, Ye R (2020) Cryptanalysis and improvement of medical image encryption using high-speed scrambling and pixel adaptive diffusion. Signal Process 167:107286",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "7",
+    "key": "13733_CR9",
+    "first-page": "681",
+    "volume": "16",
+    "author": "AM Eskicioglu",
+    "year": "2001",
+    "unstructured": "Eskicioglu AM, Delp EJ (2001) An overview of multimedia content protection in consumer electronics devices. Signal Processing: Image Communication 16(7):681\u2013699",
+    "journal-title": "Signal Processing: Image Communication"
+   },
+   {
+    "key": "13733_CR10",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Farsana F, Devi V, Gopakumar K (2019) An audio encryption scheme based on fast Walsh Hadamard transform and mixed chaotic keystreams. Applied Computing and Informatics. https://doi.org/10.1016/j.aci.2019.10.001",
+    "DOI": "10.1016/j.aci.2019.10.001"
+   },
+   {
+    "issue": "4",
+    "key": "13733_CR11",
+    "doi-asserted-by": "crossref",
+    "first-page": "481",
+    "DOI": "10.1016/j.bodyim.2013.04.008",
+    "volume": "10",
+    "author": "DL Franko",
+    "year": "2013",
+    "unstructured": "Franko DL, Cousineau TM, Rodgers RF, Roehrig JP (2013) Bodimojo: effective internet-based promotion of positive body image in adolescent girls. Body Image 10(4):481\u2013488",
+    "journal-title": "Body Image"
+   },
+   {
+    "issue": "23",
+    "key": "13733_CR12",
+    "doi-asserted-by": "crossref",
+    "first-page": "5415",
+    "DOI": "10.1016/j.optcom.2011.08.013",
+    "volume": "284",
+    "author": "C Fu",
+    "year": "2011",
+    "unstructured": "Fu C, Lin B, Miao Y, Liu X, Chen J (2011) A novel chaos-based bit-level permutation scheme for digital image encryption. Opt Commun 284(23):5415\u20135423",
+    "journal-title": "Opt Commun"
+   },
+   {
+    "issue": "3",
+    "key": "13733_CR13",
+    "doi-asserted-by": "crossref",
+    "first-page": "2363",
+    "DOI": "10.1364/OE.20.002363",
+    "volume": "20",
+    "author": "C Fu",
+    "year": "2012",
+    "unstructured": "Fu C, Chen J, Zou H, Meng W, Zhan Y, Yu Y (2012) A chaos-based digital image encryption scheme with an improved diffusion strategy. Opt Express 20(3):2363\u20132378",
+    "journal-title": "Opt Express"
+   },
+   {
+    "key": "13733_CR14",
+    "doi-asserted-by": "crossref",
+    "first-page": "169",
+    "DOI": "10.1016/j.optlaseng.2019.03.006",
+    "volume": "121",
+    "author": "L Gong",
+    "year": "2019",
+    "unstructured": "Gong L, Qiu K, Deng C, Zhou N (2019) An optical image compression and encryption scheme based on compressive sensing and RSA algorithm. Opt Lasers Eng 121:169\u2013180",
+    "journal-title": "Opt Lasers Eng"
+   },
+   {
+    "issue": "2",
+    "key": "13733_CR15",
+    "doi-asserted-by": "crossref",
+    "first-page": "355",
+    "DOI": "10.1016/S0097-8493(02)00062-6",
+    "volume": "26",
+    "author": "F Graf",
+    "year": "2002",
+    "unstructured": "Graf F (2002) Providing security for eLearning. Computers & Graphics 26(2):355\u2013365",
+    "journal-title": "Computers & Graphics"
+   },
+   {
+    "issue": "4",
+    "key": "13733_CR16",
+    "doi-asserted-by": "crossref",
+    "first-page": "2591",
+    "DOI": "10.1103/PhysRevA.28.2591",
+    "volume": "28",
+    "author": "P Grassberger",
+    "year": "1983",
+    "unstructured": "Grassberger P, Procaccia I (1983) Estimation of the Kolmogorov entropy from a chaotic signal. Phys Rev A 28(4):2591\u20132593",
+    "journal-title": "Phys Rev A"
+   },
+   {
+    "key": "13733_CR17",
+    "doi-asserted-by": "crossref",
+    "first-page": "69",
+    "DOI": "10.1007/BF01608556",
+    "volume": "50",
+    "author": "M Henon",
+    "year": "1976",
+    "unstructured": "Henon M (1976) A two-dimensional mapping with a strange attractor. Commun Math Phys 50:69\u201377",
+    "journal-title": "Commun Math Phys"
+   },
+   {
+    "issue": "7",
+    "key": "13733_CR18",
+    "first-page": "870",
+    "volume": "32",
+    "author": "NA Hikal",
+    "year": "2020",
+    "unstructured": "Hikal NA, Eid MM (2020) A new approach for palmprint image encryption based on hybrid chaotic maps. J King Saud Univ - Comput Inf Sci 32(7):870\u2013882",
+    "journal-title": "J King Saud Univ - Comput Inf Sci"
+   },
+   {
+    "key": "13733_CR19",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1016/j.ins.2016.01.017",
+    "volume": "339",
+    "author": "Z Hua",
+    "year": "2016",
+    "unstructured": "Hua Z, Zhou Y (2016) Image encryption using 2D logistic-adjusted-sine map. Inf Sci 339:237\u2013253",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "13733_CR20",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.1016/j.ins.2014.11.018",
+    "volume": "297",
+    "author": "Z Hua",
+    "year": "2015",
+    "unstructured": "Hua Z, Zhou Y, Pun C, Chen C (2015) 2D sine logistic modulation map for image encryption. Inf Sci 297:80\u201394",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "13733_CR21",
+    "doi-asserted-by": "crossref",
+    "first-page": "134",
+    "DOI": "10.1016/j.sigpro.2017.10.004",
+    "volume": "144",
+    "author": "Z Hua",
+    "year": "2018",
+    "unstructured": "Hua Z, Yi S, Zhou Y (2018) Medical image encryption using high-speed scrambling and pixel adaptive diffusion. Signal Process 144:134\u2013144",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "13733_CR22",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1016/j.ins.2018.12.048",
+    "volume": "480",
+    "author": "Z Hua",
+    "year": "2019",
+    "unstructured": "Hua Z, Zhou Y, Huang H (2019) Cosine-transform-based chaotic system for image encryption. Inf Sci 480:403\u2013419",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "issue": "10",
+    "key": "13733_CR23",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.ins.2014.02.011",
+    "volume": "269",
+    "author": "J Kang",
+    "year": "2014",
+    "unstructured": "Kang J, Nyang D, Lee K (2014) Two-factor face authentication using matrix permutation transformation and a user password. Inf Sci 269(10):1\u201320",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "issue": "9",
+    "key": "13733_CR24",
+    "doi-asserted-by": "crossref",
+    "first-page": "1282",
+    "DOI": "10.1016/j.compind.2013.06.007",
+    "volume": "64",
+    "author": "S Kopacsi",
+    "year": "2013",
+    "unstructured": "Kopacsi S, Kovacs GL, Nacsa J (2013) Some aspects of dynamic 3D representation and control of industrial processes via the Internet. Comput Ind 64(9):1282\u20131289",
+    "journal-title": "Comput Ind"
+   },
+   {
+    "key": "13733_CR25",
+    "doi-asserted-by": "crossref",
+    "first-page": "492",
+    "DOI": "10.1016/j.ins.2019.05.064",
+    "volume": "502",
+    "author": "YL Lai",
+    "year": "2019",
+    "unstructured": "Lai YL, Hwang JY, Jina Z, Cho KS, Teohc ABJ (2019) Symmetric keyring encryption scheme for biometric cryptosystem. Inf Sci 502:492\u2013509",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "13733_CR26",
+    "unstructured": "\u201clena512.bmp\u201d. https://www.ece.rice.edu/wakin/images/lena512.bmp. Accessed 4 Feb 2021"
+   },
+   {
+    "issue": "3",
+    "key": "13733_CR27",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/j.jnca.2009.12.003",
+    "volume": "33",
+    "author": "P Li",
+    "year": "2010",
+    "unstructured": "Li P, Yang X, Cao K, Tao X, Wang R, Tian J (2010) An alignment-free fingerprint cryptosystem based on fuzzy vault scheme. J Netw Comput Appl 33(3):207\u2013220",
+    "journal-title": "J Netw Comput Appl"
+   },
+   {
+    "issue": "1",
+    "key": "13733_CR28",
+    "doi-asserted-by": "crossref",
+    "first-page": "127",
+    "DOI": "10.1007/s11071-016-3030-8",
+    "volume": "87",
+    "author": "C Li",
+    "year": "2016",
+    "unstructured": "Li C, Luo G, Qin K, Li C (2016) An image encryption scheme based on chaotic tent map. Nonlinear Dyn 87(1):127\u2013133",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "13733_CR29",
+    "doi-asserted-by": "crossref",
+    "first-page": "63336",
+    "DOI": "10.1109/ACCESS.2019.2916402",
+    "volume": "7",
+    "author": "M Ming Li",
+    "year": "2019",
+    "unstructured": "Ming Li M, Xu M, Luo J, Fan H (2019) Cryptanalysis of an image encryption using 2D Henon-Sine map and DNA approach. IEEE Access 7:63336\u201363345",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "6",
+    "key": "13733_CR30",
+    "doi-asserted-by": "crossref",
+    "first-page": "1229",
+    "DOI": "10.1016/S0031-3203(00)00062-5",
+    "volume": "34",
+    "author": "SS Maniccam",
+    "year": "2001",
+    "unstructured": "Maniccam SS, Bourbakis NG (2001) Lossless image compression and encryption using SCAN. Pattern Recogn 34(6):1229\u20131245",
+    "journal-title": "Pattern Recogn"
+   },
+   {
+    "key": "13733_CR31",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Natiq H, Al-Saidi NMG, Kilicman A (2018) A new hyperchaotic map and its application for image encryption. Eur Phys J Plus 133(6)",
+    "DOI": "10.1140/epjp/i2018-11834-2"
+   },
+   {
+    "key": "13733_CR32",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1016/j.sigpro.2017.03.011",
+    "volume": "138",
+    "author": "C Pak",
+    "year": "2017",
+    "unstructured": "Pak C, Huang L (2017) A new color image encryption using combination of the 1D chaotic map. Signal Process 138:129\u2013137",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "13733_CR33",
+    "doi-asserted-by": "crossref",
+    "first-page": "103639",
+    "DOI": "10.1016/j.micpro.2020.103639",
+    "volume": "80",
+    "author": "X Qin",
+    "year": "2020",
+    "unstructured": "Qin X (2020) Business English visualization system based on video surveillance and the internet of things. Microprocess Microsyst 80:103639",
+    "journal-title": "Microprocess Microsyst"
+   },
+   {
+    "key": "13733_CR34",
+    "doi-asserted-by": "crossref",
+    "first-page": "355",
+    "DOI": "10.1007/s11042-019-08079-x",
+    "volume": "79",
+    "author": "M Sharma",
+    "year": "2019",
+    "unstructured": "Sharma M (2019) Image encryption based on a new 2D logistic adjusted logistic map. Multimed Tools Appl 79:355\u2013374",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "13733_CR35",
+    "unstructured": "Sheela SJ, Suresh KV, Tandur D (2019) Image encryption based on modified Henon map using hybrid chaotic shift transform. Multimed Tools Appl 11042-018-5782-2"
+   },
+   {
+    "key": "13733_CR36",
+    "volume-title": "Nonlinear dynamics and chaos - with applications to physics, biology, chemistry and engineering",
+    "author": "SH Strogatz",
+    "year": "2015",
+    "unstructured": "Strogatz SH (2015) Nonlinear dynamics and chaos - with applications to physics, biology, chemistry and engineering. CRC Press, Boca Raton"
+   },
+   {
+    "key": "13733_CR37",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Talhaoui Z, Wang X, Midoun A (2020) Fast image encryption algorithm with high security level using the B\u00fclban chaotic map. Journal of Real-Time Image Processing. Accessed 4 Feb 2021. https://doi.org/10.1007/s11554-020-00948-1",
+    "DOI": "10.1007/s11554-020-00948-1"
+   },
+   {
+    "key": "13733_CR38",
+    "unstructured": "USC-SIPI Image Database Website. http://sipi.usc.edu/database/database.php?volume=misc. Accessed 30 Sept 2020"
+   },
+   {
+    "key": "13733_CR39",
+    "doi-asserted-by": "crossref",
+    "first-page": "444",
+    "DOI": "10.1016/j.sigpro.2017.11.005",
+    "volume": "144",
+    "author": "H Wang",
+    "year": "2018",
+    "unstructured": "Wang H, Xiao D, Chen X, Huang H (2018) Cryptanalysis and enhancements of image encryption using combination of the 1D chaotic map. Signal Process 144:444\u2013452",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "3",
+    "key": "13733_CR40",
+    "doi-asserted-by": "crossref",
+    "first-page": "131",
+    "DOI": "10.1016/S0969-6989(03)00012-2",
+    "volume": "11",
+    "author": "SJ Wilde",
+    "year": "2004",
+    "unstructured": "Wilde SJ, Kelly SJ, Scott D (2004) An exploratory investigation into e-tail image attributes important to repeat, internet savvy customers. J Retail Consum Serv 11(3):131\u2013139",
+    "journal-title": "J Retail Consum Serv"
+   },
+   {
+    "key": "13733_CR41",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wu Y, Yang G, Jin H, Noonan JP (2012) Image encryption using the two-dimensional logistic chaotic map. Electron Imaging 21(1), Art ID 013014",
+    "DOI": "10.1117/1.JEI.21.1.013014"
+   },
+   {
+    "issue": "10",
+    "key": "13733_CR42",
+    "doi-asserted-by": "crossref",
+    "first-page": "323",
+    "DOI": "10.1016/j.ins.2012.07.049",
+    "volume": "222",
+    "author": "Y Wu",
+    "year": "2013",
+    "unstructured": "Wu Y, Zhou Y, Saveriades G, Agaian S, Noonan JP, Natarajan P (2013) Local Shannon entropy measure with statistical tests for image randomness. Inf Sci 222(10):323\u2013342",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "issue": "0",
+    "key": "13733_CR43",
+    "doi-asserted-by": "crossref",
+    "first-page": "317",
+    "DOI": "10.1016/j.ins.2013.11.027",
+    "volume": "264",
+    "author": "Y Wu",
+    "year": "2014",
+    "unstructured": "Wu Y, Zhou Y, Noonan JP, Agaian S (2014) Design of image cipher using latin squares. Inf Sci 264(0):317\u2013339",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "13733_CR44",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1016/j.sigpro.2018.06.008",
+    "volume": "153",
+    "author": "JH Wu",
+    "year": "2018",
+    "unstructured": "Wu JH, Liao XF, Yang B (2018) \u2018Image encryption using 2D H\u00e9non-Sine map and DNA approach. Signal Process 153:11\u201323",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "3",
+    "key": "13733_CR45",
+    "doi-asserted-by": "crossref",
+    "first-page": "1309",
+    "DOI": "10.1016/j.patcog.2013.10.001",
+    "volume": "47",
+    "author": "W Yang",
+    "year": "2014",
+    "unstructured": "Yang W, Hu J, Wang S Stojmenovic M (2014) An alignment-free fingerprint bio-cryptosystem based on modified Voronoi neighbor structures. Pattern Recogn 47(3):1309\u20131320",
+    "journal-title": "Pattern Recogn"
+   },
+   {
+    "issue": "5",
+    "key": "13733_CR46",
+    "doi-asserted-by": "crossref",
+    "first-page": "691",
+    "DOI": "10.1016/j.patcog.2004.11.006",
+    "volume": "38",
+    "author": "YH Yu",
+    "year": "2005",
+    "unstructured": "Yu YH, Chang CC, Hu YC (2005) Hiding secret data in images via predictive coding. Pattern Recogn 38(5):691\u2013705",
+    "journal-title": "Pattern Recogn"
+   },
+   {
+    "key": "13733_CR47",
+    "doi-asserted-by": "crossref",
+    "first-page": "101850",
+    "DOI": "10.1016/j.compmedimag.2020.101850",
+    "volume": "88",
+    "author": "Q Zhang",
+    "year": "2021",
+    "unstructured": "Zhang Q, Samani A, Peters TM (2021) MR and ultrasound cardiac image dynamic visualization and synchronization over Internet for distributed heart function diagnosis. Comput Med Imaging Graph 88:101850",
+    "journal-title": "Comput Med Imaging Graph"
+   },
+   {
+    "issue": "11",
+    "key": "13733_CR48",
+    "doi-asserted-by": "crossref",
+    "first-page": "3039",
+    "DOI": "10.1016/j.sigpro.2013.04.021",
+    "volume": "93",
+    "author": "Y Zhou",
+    "year": "2013",
+    "unstructured": "Zhou Y, Bao L, Chen CLP (2013) Image encryption using a new parametric switching chaotic system. Signal Process 93(11):3039\u20133052",
+    "journal-title": "Signal Process"
+   }
+  ],
+  "container-title": [
+   "Multimedia Tools and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11042-022-13733-y.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1007/s11042-022-13733-y/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11042-022-13733-y.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     3,
+     3
+    ]
+   ],
+   "date-time": "2023-03-03T09:46:17Z",
+   "timestamp": 1677836777000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1007/s11042-022-13733-y"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     15
+    ]
+   ]
+  },
+  "references-count": 48,
+  "journal-issue": {
+   "issue": "8",
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "13733"
+  ],
+  "URL": "https://doi.org/10.1007/s11042-022-13733-y",
+  "relation": {},
+  "ISSN": [
+   "1380-7501",
+   "1573-7721"
+  ],
+  "issn-type": [
+   {
+    "value": "1380-7501",
+    "type": "print"
+   },
+   {
+    "value": "1573-7721",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     15
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "13 February 2021",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "15 June 2022",
+    "order": 2,
+    "name": "revised",
+    "label": "Revised",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "25 August 2022",
+    "order": 3,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "15 September 2022",
+    "order": 4,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Declarations"
+    }
+   },
+   {
+    "value": "The authors declare that they have no conflict of interests/competing interests.",
+    "order": 2,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "<!--Emphasis Type='Bold' removed-->Competing interests"
+    }
+   }
+  ]
+ }
+}

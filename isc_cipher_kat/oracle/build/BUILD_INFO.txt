@@ -1,0 +1,4 @@
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
+flags: -O0 -ffp-contract=off -fno-builtin -D__LITTLE_ENDIAN -w
+b4bccc1cee024184e52415eab1802775ff6cc53b5baf223c6df0b39a4540165f  /mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/isc_cipher_kat/oracle/build/oracle

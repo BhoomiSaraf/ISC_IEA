@@ -1,0 +1,505 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s11042-020-10289-7",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2025,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2025-12-17T13:00:35Z",
+   "timestamp": 1765976435220,
+   "version": "3.37.3"
+  },
+  "reference-count": 27,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       1,
+       18
+      ]
+     ],
+     "date-time": "2021-01-18T00:00:00Z",
+     "timestamp": 1610928000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.springer.com/tdm"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       1,
+       18
+      ]
+     ],
+     "date-time": "2021-01-18T00:00:00Z",
+     "timestamp": 1610928000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Multimed Tools Appl"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     4
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11042-020-10289-7",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     18
+    ]
+   ],
+   "date-time": "2021-01-18T20:11:02Z",
+   "timestamp": 1611000662000
+  },
+  "page": "13801-13820",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 20,
+  "title": [
+   "Cryptanalysis of an embedded systems\u2019 image encryption"
+  ],
+  "prefix": "10.1007",
+  "volume": "80",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-7228-2818",
+    "authenticated-orcid": false,
+    "given": "Imad",
+    "family": "El Hanouti",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Hakim",
+    "family": "El Fadili",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Khalid",
+    "family": "Zenkouar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     18
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "10289_CR1",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Akmansoy V, Kartal S (2014) Chaos theory and its application to education: Mehmet Akif Ersoy University case. Educ Sci Theory Pract. https://doi.org/10.12738/estp.2014.2.1928",
+    "DOI": "10.12738/estp.2014.2.1928"
+   },
+   {
+    "key": "10289_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "volume": "16",
+    "author": "G Alvarez",
+    "year": "2006",
+    "unstructured": "Alvarez G, Li S (2006) Some basic cryptographic requirements for chaos-based cryptosystems. Int J Bifurc Chaos 16:2129\u20132151. https://doi.org/10.1142/S0218127406015970",
+    "journal-title": "Int J Bifurc Chaos"
+   },
+   {
+    "key": "10289_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "651",
+    "DOI": "10.1142/S0217979209049966",
+    "volume": "23",
+    "author": "D Arroyo",
+    "year": "2009",
+    "unstructured": "Arroyo D, Alvarez G, Li S et al (2009) Cryptanalysis of a new chaotic cryptosystem based on ergodicity. Int J Mod Phys B 23:651\u2013659. https://doi.org/10.1142/S0217979209049966",
+    "journal-title": "Int J Mod Phys B"
+   },
+   {
+    "key": "10289_CR4",
+    "unstructured": "Auger N, Nicaud C, Pivoteau C (2015) Merge strategies: from merge sort to Timsort"
+   },
+   {
+    "key": "10289_CR5",
+    "unstructured": "Bassham L, Rukhin A, Soto J, et al (2010) A statistical test suite for the validation of cryptographic random number generators. CSRC"
+   },
+   {
+    "key": "10289_CR6",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Bin Muhaya F, Usama M, Khan MK (2009) Modified AES using chaotic key generator for satellite imagery encryption. In: Huang DS, Jo KH, Lee HH, Kang HJ, Bevilacqua V (eds) Emerging Intelligent Computing Technology and Applications. ICIC 2009. Lecture Notes in Computer Science, vol 5754. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-04070-2_107",
+    "DOI": "10.1007/978-3-642-04070-2_107"
+   },
+   {
+    "key": "10289_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "255",
+    "DOI": "10.1198/tas.2011.10191",
+    "volume": "65",
+    "author": "LD Broemeling",
+    "year": "2011",
+    "unstructured": "Broemeling LD (2011) An account of early statistical inference in Arab cryptology. Am Stat 65:255\u2013257. https://doi.org/10.1198/tas.2011.10191",
+    "journal-title": "Am Stat"
+   },
+   {
+    "key": "10289_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "98",
+    "DOI": "10.1002/j.1556-6678.2009.tb00555.x",
+    "volume": "87",
+    "author": "CJ Bussolari",
+    "year": "2009",
+    "unstructured": "Bussolari CJ, Goodell JA (2009) Chaos theory as a model for life transitions counseling: nonlinear dynamics and life\u2019s changes. J Couns Dev 87:98\u2013107. https://doi.org/10.1002/j.1556-6678.2009.tb00555.x",
+    "journal-title": "J Couns Dev"
+   },
+   {
+    "key": "10289_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "62",
+    "DOI": "10.1109/MCOM.2018.1701148",
+    "volume": "56",
+    "author": "M Du",
+    "year": "2018",
+    "unstructured": "Du M, Wang K, Chen Y et al (2018) Big data privacy preserving in multi-access edge computing for heterogeneous internet of things. IEEE Commun Mag 56:62\u201367. https://doi.org/10.1109/MCOM.2018.1701148",
+    "journal-title": "IEEE Commun Mag"
+   },
+   {
+    "key": "10289_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "28225",
+    "DOI": "10.1007/s11042-018-6015-4",
+    "volume": "77",
+    "author": "M Farajallah",
+    "year": "2018",
+    "unstructured": "Farajallah M, El Assad S, Deforges O (2018) Cryptanalyzing an image encryption scheme using reverse 2-dimensional chaotic map and dependent diffusion. Multimed Tools Appl 77:28225\u201328248. https://doi.org/10.1007/s11042-018-6015-4",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10289_CR11",
+    "unstructured": "Fridrich J (1997) Image encryption based on chaotic maps. In: Proceedings of the IEEE International Conference on Systems, Man and Cybernetics"
+   },
+   {
+    "key": "10289_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "908",
+    "DOI": "10.1016/j.physleta.2010.12.065",
+    "volume": "375",
+    "author": "X Ge",
+    "year": "2011",
+    "unstructured": "Ge X, Liu F, Lu B, Wang W (2011) Cryptanalysis of a spatiotemporal chaotic image/video cryptosystem and its improved version. Phys Lett Sect A 375:908\u2013913. https://doi.org/10.1016/j.physleta.2010.12.065",
+    "journal-title": "Phys Lett Sect A"
+   },
+   {
+    "key": "10289_CR13",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Hanouti IE, Fadili HE, Souhail W, Masood F (2020) A lightweight pseudo-random number denerator based on a robust chaotic map. 2020 Fourth International Conference On Intelligent Computing in Data Sciences (ICDS), Fez, Morocco pp 1\u20136. https://doi.org/10.1109/ICDS50568.2020.9268715",
+    "DOI": "10.1109/ICDS50568.2020.9268715"
+   },
+   {
+    "key": "10289_CR14",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Hraoui S, Gmira F, Jarar AO, et al (2013) Benchmarking AES and chaos based logistic map for image encryption. In: Proceedings of IEEE/ACS International Conference on Computer Systems and Applications, AICCSA pp 1\u20134. https://doi.org/10.1109/AICCSA.2013.6616441",
+    "DOI": "10.1109/AICCSA.2013.6616441"
+   },
+   {
+    "key": "10289_CR15",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hraoui S, Gmira F, Abbou MF, et al (2019) A new cryptosystem of color image using a dynamic-Chaos Hill cipher algorithm. In: Procedia Computer Science",
+    "DOI": "10.1016/j.procs.2019.01.048"
+   },
+   {
+    "key": "10289_CR16",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Jolfaei A, Wu XW, Muthukkumarasamy V (2016) On the security of permutation-only image encryption schemes. IEEE Trans Inf Forensics Secur 11(2):235\u2013246. https://doi.org/10.1109/TIFS.2015.2489178",
+    "DOI": "10.1109/TIFS.2015.2489178"
+   },
+   {
+    "key": "10289_CR17",
+    "doi-asserted-by": "publisher",
+    "first-page": "537",
+    "DOI": "10.2307/1853680",
+    "volume": "74",
+    "author": "K Larew",
+    "year": "1968",
+    "unstructured": "Larew K, Kahn D (1968) The Codebreakers: the story of secret writing. Am Hist Rev 74:537. https://doi.org/10.2307/1853680",
+    "journal-title": "Am Hist Rev"
+   },
+   {
+    "key": "10289_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "1035",
+    "DOI": "10.1016/j.imavis.2008.09.004",
+    "volume": "27",
+    "author": "C Li",
+    "year": "2009",
+    "unstructured": "Li C, Li S, Chen G, Halang WA (2009) Cryptanalysis of an image encryption scheme based on a compound chaotic sequence. Image Vis Comput 27:1035\u20131039. https://doi.org/10.1016/j.imavis.2008.09.004",
+    "journal-title": "Image Vis Comput"
+   },
+   {
+    "key": "10289_CR19",
+    "doi-asserted-by": "publisher",
+    "first-page": "2509",
+    "DOI": "10.1016/j.chaos.2007.10.054",
+    "volume": "40",
+    "author": "S Lian",
+    "year": "2009",
+    "unstructured": "Lian S (2009) Efficient image or video encryption based on spatiotemporal chaos system. Chaos Solitons Fractals 40:2509\u20132519. https://doi.org/10.1016/j.chaos.2007.10.054",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "10289_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "20511",
+    "DOI": "10.1007/s11042-018-6824-5",
+    "volume": "78",
+    "author": "Z Lin",
+    "year": "2019",
+    "unstructured": "Lin Z, Liu J, Lian J, Ma Y, Zhang X (2019) A novel fast image encryption algorithm for embedded systems. Multimed Tools Appl 78:20511\u201320531. https://doi.org/10.1007/s11042-018-6824-5",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10289_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "588",
+    "DOI": "10.2307/2967297",
+    "volume": "63",
+    "author": "VC Polite",
+    "year": "1994",
+    "unstructured": "Polite VC (1994) The method in the madness: African American males, avoidance schooling, and Chaos theory. J Negro Educ 63:588. https://doi.org/10.2307/2967297",
+    "journal-title": "J Negro Educ"
+   },
+   {
+    "key": "10289_CR22",
+    "doi-asserted-by": "publisher",
+    "first-page": "5790",
+    "DOI": "10.1016/j.physleta.2008.07.042",
+    "volume": "372",
+    "author": "R Rhouma",
+    "year": "2008",
+    "unstructured": "Rhouma R, Belghith S (2008) Cryptanalysis of a spatiotemporal chaotic image/video cryptosystem. Phys Lett Sect A Gen At Solid State Phys 372:5790\u20135794. https://doi.org/10.1016/j.physleta.2008.07.042",
+    "journal-title": "Phys Lett Sect A Gen At Solid State Phys"
+   },
+   {
+    "key": "10289_CR23",
+    "doi-asserted-by": "publisher",
+    "first-page": "26073",
+    "DOI": "10.1007/s11042-019-07766-z",
+    "volume": "78",
+    "author": "HR Shakir",
+    "year": "2019",
+    "unstructured": "Shakir HR (2019) An image encryption method based on selective AES coding of wavelet transform and chaotic pixel shuffling. Multimed Tools Appl 78:26073\u201326087. https://doi.org/10.1007/s11042-019-07766-z",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10289_CR24",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Smekal D, Hajny J, Martinasek Z (2018) Comparative analysis of different implementations of encryption algorithms on FPGA network cards. IFAC-PapersOnLine. 51(6):312\u2013317. https://doi.org/10.1016/j.ifacol.2018.07.172",
+    "DOI": "10.1016/j.ifacol.2018.07.172"
+   },
+   {
+    "key": "10289_CR25",
+    "unstructured": "Wu Y, Noonan JP, Agaian S (2011) NPCR and UACI randomness tests for image encryption. cyberjournals.com"
+   },
+   {
+    "key": "10289_CR26",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zeraoulia E, Sprott JC (2011) Robust Chaos and its applications. World Scientific",
+    "DOI": "10.1142/8296"
+   },
+   {
+    "key": "10289_CR27",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Zhang W, Wo WK, Yu H, Liang ZZ (2013) An image encryption scheme using reverse 2-dimensional chaotic map and dependent diffusion. Commun Nonlinear Sci Numer Simul 18(8):2066\u20132080. https://doi.org/10.1016/j.cnsns.2012.12.012",
+    "DOI": "10.1016/j.cnsns.2012.12.012"
+   }
+  ],
+  "container-title": [
+   "Multimedia Tools and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11042-020-10289-7.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1007/s11042-020-10289-7/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11042-020-10289-7.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     25
+    ]
+   ],
+   "date-time": "2021-04-25T08:56:11Z",
+   "timestamp": 1619340971000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1007/s11042-020-10289-7"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     18
+    ]
+   ]
+  },
+  "references-count": 27,
+  "journal-issue": {
+   "issue": "9",
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      4
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10289"
+  ],
+  "URL": "https://doi.org/10.1007/s11042-020-10289-7",
+  "relation": {},
+  "ISSN": [
+   "1380-7501",
+   "1573-7721"
+  ],
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1380-7501"
+   },
+   {
+    "type": "electronic",
+    "value": "1573-7721"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     18
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "22 August 2019",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "21 September 2020",
+    "order": 2,
+    "name": "revised",
+    "label": "Revised",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "22 December 2020",
+    "order": 3,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "18 January 2021",
+    "order": 4,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   }
+  ]
+ }
+}

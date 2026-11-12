@@ -1,0 +1,23 @@
+{
+ "utc_start": "20261026T104230Z",
+ "command": [
+  "C:\\Users\\bhoom\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "-E",
+  "-s",
+  "-c",
+  "import subprocess,sys,time; c=subprocess.Popen([sys.executable,'-c','import time; time.sleep(600)']); print('GRANDCHILD', c.pid, flush=True); time.sleep(600)"
+ ],
+ "wall_seconds_limit": 8.0,
+ "min_free_mb": 200,
+ "run_dir": null,
+ "killed": true,
+ "kill_reason": "wall-clock limit 8.0 s exceeded",
+ "taskkill_returncode": 0,
+ "verified_terminated": true,
+ "exit_code": 1,
+ "worker_peak_working_set_mb": 11.1,
+ "min_system_available_mb": 563.4,
+ "samples": 3,
+ "pid": 18468,
+ "wall_seconds": 10.2
+}

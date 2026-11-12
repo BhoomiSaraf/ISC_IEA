@@ -1,0 +1,365 @@
+{
+ "gate": "R (k14 extension)",
+ "backend": "both",
+ "checks": {
+  "R-k14-stream-KAT [reference]": {
+   "status": "PASS",
+   "seconds": 3.9,
+   "detail": {
+    "sbox": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "perm": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "fwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "bwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    }
+   }
+  },
+  "R-k14-cipher-KAT [reference]": {
+   "status": "PASS",
+   "seconds": 78.0,
+   "detail": [
+    {
+     "shape": [
+      1,
+      1,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      1,
+      7,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      7,
+      1,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      4,
+      6,
+      3
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      16,
+      16,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      64,
+      64,
+      3
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    }
+   ]
+  },
+  "R-k14-stream-KAT [numpy]": {
+   "status": "PASS",
+   "seconds": 2.1,
+   "detail": {
+    "sbox": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "perm": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "fwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    },
+    "bwd": {
+     "seeds": true,
+     "initial_states": true,
+     "after_burn_in": true,
+     "first_1024_bytes": true,
+     "states_after_8_steps": true,
+     "steps": 8
+    }
+   }
+  },
+  "R-k14-cipher-KAT [numpy]": {
+   "status": "PASS",
+   "seconds": 40.1,
+   "detail": [
+    {
+     "shape": [
+      1,
+      1,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      1,
+      7,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      7,
+      1,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      4,
+      6,
+      3
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      16,
+      16,
+      1
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    },
+    {
+     "shape": [
+      64,
+      64,
+      3
+     ],
+     "header": true,
+     "sbox": true,
+     "ivs": true,
+     "pi": true,
+     "a_b_prefix": true,
+     "steps": true,
+     "kcv": true,
+     "body": true,
+     "ciphertext": true,
+     "decrypt_roundtrip": true,
+     "kcv_recomputed_from_states": true
+    }
+   ]
+  },
+  "R-k14-backend-cross-equal": {
+   "status": "PASS",
+   "seconds": 34.7,
+   "detail": [
+    {
+     "shape": [
+      1,
+      1,
+      1
+     ],
+     "reference_equals_numpy": true
+    },
+    {
+     "shape": [
+      1,
+      7,
+      1
+     ],
+     "reference_equals_numpy": true
+    },
+    {
+     "shape": [
+      7,
+      1,
+      1
+     ],
+     "reference_equals_numpy": true
+    },
+    {
+     "shape": [
+      4,
+      6,
+      3
+     ],
+     "reference_equals_numpy": true
+    },
+    {
+     "shape": [
+      16,
+      16,
+      1
+     ],
+     "reference_equals_numpy": true
+    },
+    {
+     "shape": [
+      64,
+      64,
+      3
+     ],
+     "reference_equals_numpy": true
+    }
+   ]
+  }
+ },
+ "overall": "PASS"
+}

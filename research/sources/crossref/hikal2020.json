@@ -1,0 +1,466 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.jksuci.2018.09.006",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     17
+    ]
+   ],
+   "date-time": "2026-01-17T10:03:51Z",
+   "timestamp": 1768644231025,
+   "version": "3.49.0"
+  },
+  "reference-count": 24,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2020-09-01T00:00:00Z",
+     "timestamp": 1598918400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       9,
+       8
+      ]
+     ],
+     "date-time": "2018-09-08T00:00:00Z",
+     "timestamp": 1536364800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of King Saud University - Computer and Information Sciences"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jksuci.2018.09.006",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     8
+    ]
+   ],
+   "date-time": "2018-09-08T06:12:44Z",
+   "timestamp": 1536387164000
+  },
+  "page": "870-882",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 12,
+  "title": [
+   "A new approach for palmprint image encryption based on hybrid chaotic maps"
+  ],
+  "prefix": "10.1007",
+  "volume": "32",
+  "author": [
+   {
+    "given": "Noha A.",
+    "family": "Hikal",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Marwa M.",
+    "family": "Eid",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "reference": [
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "23",
+    "DOI": "10.1016/j.image.2017.03.008",
+    "article-title": "A combined watermarking approach for securing biometric data",
+    "volume": "55",
+    "author": "Rzouga Haddada",
+    "year": "2017",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "issue": "03",
+    "key": "10.1016/j.jksuci.2018.09.006_b0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "1220",
+    "DOI": "10.21917/ijivp.2016.0177",
+    "article-title": "Image encryption in block-wise with multiple chaotic maps for permutation and diffusion",
+    "volume": "06",
+    "author": "Gopalakrishnan",
+    "year": "2016",
+    "journal-title": "ICTACT J. Image Video Process."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jksuci.2018.09.006_b0015",
+    "first-page": "78",
+    "article-title": "A secure iris image encryption technique using bio-chaotic algorithm",
+    "volume": "2",
+    "author": "Alghamdi",
+    "year": "2010",
+    "journal-title": "Int. J. Comput. Netw. Secur."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0020",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sankpal, P.R., Vijaya, P.A., 2014.Image Encryption Using Chaotic Maps: A Survey. In: Fifth Int. Conf. Signal Image Process., pp. 102\u2013107.",
+    "DOI": "10.1109/ICSIP.2014.80"
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0025",
+    "unstructured": "Fang, D., Sun, S., 2018. A New Scheme for Image Steganography based on Hyperchaotic Map and DNA Sequence. 9(2), pp. 392\u2013399."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0030",
+    "series-title": "Iris Biometric Model for Secured Network Access",
+    "first-page": "101",
+    "author": "El Khoury",
+    "year": "2016"
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0035",
+    "unstructured": "Supriya, V.G., Manjunatha, R., 2016. Logistic Map for Cancellable Biometrics In: International Conference on Advanced Material Technologies ((ICAMT)-, pp. 1\u20138."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jksuci.2018.09.006_b0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "1827",
+    "DOI": "10.4304/jsw.7.8.1827-1834",
+    "article-title": "A high performance and secure palmprint template protection scheme",
+    "volume": "7",
+    "author": "Li",
+    "year": "2012",
+    "journal-title": "J. Software"
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0045",
+    "unstructured": "Liu Yang, H.Y., Dong, Yue Xue, Fei, Liu Ying. 2010. Iris Recognition System Based on Chaos Encryption. In: Int. Conf. Comput. Des. Appliations (ICCDA 2010), vol. 1, pp. 537\u2013539."
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.jksuci.2018.09.006_b0050",
+    "first-page": "11255",
+    "article-title": "A new algorithm of image compression and encryption based on spatiotemporal cross chaotic system",
+    "volume": "74",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Download PDF Multimed. Tools Appl."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0055",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bhatnagar, G., Wu, Q.M.J., 2012. A novel chaotic encryption framework for securing palmprint data. vol. 10, pp. 442\u2013449.",
+    "DOI": "10.1016/j.procs.2012.06.057"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jksuci.2018.09.006_b0060",
+    "first-page": "181",
+    "article-title": "Image encryption based on diffusion and multiple chaotic",
+    "volume": "3",
+    "author": "Sathishkumar",
+    "year": "2011",
+    "journal-title": "Int. J. Network Secur. Appl."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jksuci.2018.09.006_b0065",
+    "first-page": "1",
+    "article-title": "Chaotic maps for biometric template protection-a proposal journal of biometrics & biostatistics",
+    "volume": "6",
+    "author": "Vg",
+    "year": "2015",
+    "journal-title": "J. Biom. Biostat."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0070",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Uludag, U., Member, S., Pankanti, S., Member, S., 2004. Biometric Cryptosystems: Issues and Challenges. 92(6).",
+    "DOI": "10.1109/JPROC.2004.827372"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.jksuci.2018.09.006_b0075",
+    "first-page": "0975",
+    "article-title": "A proficient image encryption using chaotic map approach.pdf",
+    "volume": "134",
+    "author": "Rathore",
+    "year": "2016",
+    "journal-title": "Int. J. Comput. Appl."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0080",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jia, X., 2010. Image encryption using the Ikeda map. In: Proc. \u2013 2010 Int. Conf. Intell. Comput. Cogn. Informatics, ICICCI 2010, pp. 455\u2013458.",
+    "DOI": "10.1109/ICICCI.2010.124"
+   },
+   {
+    "issue": "1\u20133",
+    "key": "10.1016/j.jksuci.2018.09.006_b0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "153",
+    "DOI": "10.1016/j.physleta.2005.08.006",
+    "article-title": "Chaos-based image encryption algorithm",
+    "volume": "346",
+    "author": "Guan",
+    "year": "2005",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "03",
+    "key": "10.1016/j.jksuci.2018.09.006_b0090",
+    "first-page": "238",
+    "article-title": "Image encryption based on the general approach for multiple chaotic systems",
+    "volume": "02",
+    "author": "Alsafasfeh",
+    "year": "2011",
+    "journal-title": "J. Signal Inf. Process."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0095",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhang, J.J., 2015. An image encryption scheme based on cat map and hyperchaotic lorenz system, In: Proc. \u2013 2015 IEEE Int. Conf. Comput. Intell. Commun. Technol. CICT 2015, no. 2, pp. 78\u201382, 2015.",
+    "DOI": "10.1109/CICT.2015.134"
+   },
+   {
+    "issue": "May",
+    "key": "10.1016/j.jksuci.2018.09.006_b0100",
+    "first-page": "263",
+    "article-title": "Human identity verification using multispectral palmprint fusion",
+    "volume": "3",
+    "author": "Kisku",
+    "year": "2012",
+    "journal-title": "J. Signal Inf. Process."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jksuci.2018.09.006_b0105",
+    "article-title": "Scheme with identical encryption and decryption",
+    "volume": "26",
+    "author": "Yong",
+    "year": "2017",
+    "journal-title": "Chin. J. Electron."
+   },
+   {
+    "key": "10.1016/j.jksuci.2018.09.006_b0110",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Xu, W., Song, B., Fan, C., Ding, Q., Chu, S.-C., 2014. The Complexity Analysis of Chaotic Systems. In: Intelligent Data Analysis and Its Applications. vol. 2, Advances in Intelligent Systems and Computing 298, Springer, Cham, 2014, pp. 311\u2013320.",
+    "DOI": "10.1007/978-3-319-07773-4_31"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jksuci.2018.09.006_b0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "2965",
+    "DOI": "10.1002/mma.3743",
+    "article-title": "Solution and dynamics analysis of a fractional-order hyperchaotic system",
+    "volume": "39",
+    "author": "He",
+    "year": "2016",
+    "journal-title": "Math. Methods Appl. Sci."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jksuci.2018.09.006_b0120",
+    "first-page": "231",
+    "article-title": "Chaos-based key stream generator based on multiple maps combinations and its application to images encryption",
+    "volume": "7",
+    "author": "Faraoun",
+    "year": "2010",
+    "journal-title": "Int. Arab J. Inf. Technol."
+   }
+  ],
+  "updated-by": [
+   {
+    "DOI": "10.1016/j.jksuci.2020.11.014",
+    "type": "erratum",
+    "label": "Erratum",
+    "source": "publisher",
+    "updated": {
+     "date-parts": [
+      [
+       2020,
+       12,
+       1
+      ]
+     ],
+     "date-time": "2020-12-01T00:00:00Z",
+     "timestamp": 1606780800000
+    }
+   }
+  ],
+  "container-title": [
+   "Journal of King Saud University - Computer and Information Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1319157818302210?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1319157818302210?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     6
+    ]
+   ],
+   "date-time": "2025-01-06T17:21:31Z",
+   "timestamp": 1736184091000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1319157818302210"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     9
+    ]
+   ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+   "issue": "7",
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S1319157818302210"
+  ],
+  "URL": "https://doi.org/10.1016/j.jksuci.2018.09.006",
+  "relation": {
+   "erratum": [
+    {
+     "id-type": "doi",
+     "id": "10.1016/j.jksuci.2020.11.014",
+     "asserted-by": "object"
+    }
+   ]
+  },
+  "ISSN": [
+   "1319-1578"
+  ],
+  "issn-type": [
+   {
+    "value": "1319-1578",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     9
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "A new approach for palmprint image encryption based on hybrid chaotic maps",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Journal of King Saud University - Computer and Information Sciences",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.jksuci.2018.09.006",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2018 The Authors. Production and hosting by Elsevier B.V. on behalf of King Saud University.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

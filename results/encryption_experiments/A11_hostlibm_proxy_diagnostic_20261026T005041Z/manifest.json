@@ -1,0 +1,13 @@
+{
+ "command.txt": "bd3dfcc0a5a8a8e0d98b5a70d590791a60c158cc05a97521ea386b35312a37e5",
+ "config.json": "6e4d54f1b2e2331e02db7ee5cf6833ee41846d96ed7dce7bc2cc399191b85284",
+ "environment.json": "ac319b151a97f7b94eeb552294eb4c3499bda9e43e0e6bc6ef17308f83bf06d6",
+ "log.txt": "03ff88b608bda5be2b2547065483180b51979b31d0266bb497ea725034a35d52",
+ "summary.json": "9fb2ebef6590cad44e26a767d9a8d6edfa59726cf9a551ab2835add6ceba216c",
+ "raw/E1/info.json": "59a1848bc3d8b73558060d7bc23d258fbade7490005d434c946dd19b9dab9eac",
+ "raw/E1/math_traj.bin": "125bbfcee9dfbef4f649a6920cb552b0b281abe8c53103bc8fe27567c51ddc6b",
+ "raw/E1/math_trig.txt.gz": "9d467025f79d388af0e1dc58f4859236ee56d4433b023d9b95eba7fe610385ce",
+ "raw/E2/info.json": "18825e0f322bb323080b9ab6157517871e771004770ffeb7b751db677c2d6d08",
+ "raw/E2/math_traj.bin": "d05e5541e5b6bfdac46901baebec77b4b9e2112e512c031b192cb55c85645ce1",
+ "raw/E2/math_trig.txt.gz": "e4adfdbef37141658148ddb703f61c7f38add6ef8efc9beaddbc0c74a1b9d279"
+}

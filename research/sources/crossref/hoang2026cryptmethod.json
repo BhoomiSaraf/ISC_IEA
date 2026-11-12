@@ -1,0 +1,227 @@
+{
+ "query": "https://api.crossref.org/works/10.1038/s41598-026-68585-5",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ],
+   "date-time": "2026-08-27T12:21:21Z",
+   "timestamp": 1787833281524,
+   "version": "build-2784847793"
+  },
+  "reference-count": 0,
+  "publisher": "Springer Science and Business Media LLC",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       27
+      ]
+     ],
+     "date-time": "2026-08-27T00:00:00Z",
+     "timestamp": 1787788800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       8,
+       27
+      ]
+     ],
+     "date-time": "2026-08-27T00:00:00Z",
+     "timestamp": 1787788800000
+    },
+    "content-version": "am",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Sci Rep"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Chaos-based image encryption has emerged as a compelling strategy for safeguarding highly correlated bulk data, particularly digital images. Most contemporary chaotic ciphers utilize chaotic systems for generating pseudo-random session keys within a conventional permutation\u2013diffusion framework. To ensure high-speed performance, the diffusion layer frequently employs elementary operations such as bitwise XOR, modular arithmetic, and addition. Although various specific chaotic encryption schemes have been successfully compromised using standard cryptanalytic techniques-such as chosen-plaintext (CPA), chosen-ciphertext (CCA), and known-plaintext (KPA) attacks-there is a notable deficiency in generalized methods capable of analyzing entire classes of such algorithms. To address this gap, this paper proposes a generalized cryptanalysis framework for chaos-based image encryption. The encryption equations associated with the permutation-diffusion architecture are mathematically reduced to two generalized forms. A systematic and step-by-step cryptanalysis protocol is then established to evaluate these forms under the CPA, CCA, and KPA conditions. Experimental results confirm that the proposed methodology can fully reconstruct the encryption/decryption matrices and recover the equivalent diffusion/inverse diffusion keys. The success probability for these types of attacks is derived analytically. Moreover, the approach is highly feasible, exhibiting a modest computational complexity that is easily handled by modern hardware, thereby highlighting critical vulnerabilities in widespread chaotic encryption architectures.</jats:p>",
+  "DOI": "10.1038/s41598-026-68585-5",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ],
+   "date-time": "2026-08-27T11:55:01Z",
+   "timestamp": 1787831701000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+   "A cryptanalysis method for two classes of chaos-based image encryption algorithms"
+  ],
+  "prefix": "10.1038",
+  "author": [
+   {
+    "given": "Thang Manh",
+    "family": "Hoang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Quang-Duc",
+    "family": "Nguyen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ]
+  },
+  "container-title": [
+   "Scientific Reports"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.nature.com/articles/s41598-026-68585-5",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ],
+   "date-time": "2026-08-27T11:55:02Z",
+   "timestamp": 1787831702000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.nature.com/articles/s41598-026-68585-5"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ]
+  },
+  "references-count": 0,
+  "alternative-id": [
+   "68585"
+  ],
+  "URL": "https://doi.org/10.1038/s41598-026-68585-5",
+  "relation": {},
+  "ISSN": [
+   "2045-2322"
+  ],
+  "issn-type": [
+   {
+    "value": "2045-2322",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     27
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "27 April 2026",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "21 August 2026",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "27 August 2026",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "The authors declare no competing interests.",
+    "order": 1,
+    "name": "Ethics",
+    "label": "Competing interests",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Declarations"
+    }
+   }
+  ]
+ }
+}

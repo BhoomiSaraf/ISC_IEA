@@ -1,0 +1,464 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.cpc.2012.11.017",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     22
+    ]
+   ],
+   "date-time": "2026-10-22T20:49:04Z",
+   "timestamp": 1792702144908,
+   "version": "4.5.0"
+  },
+  "reference-count": 26,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2013,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2013-03-01T00:00:00Z",
+     "timestamp": 1362096000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Computer Physics Communications"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2013,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.cpc.2012.11.017",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     12,
+     4
+    ]
+   ],
+   "date-time": "2012-12-04T10:40:53Z",
+   "timestamp": 1354617653000
+  },
+  "page": "765-768",
+  "source": "Crossref",
+  "is-referenced-by-count": 122,
+  "title": [
+   "Pseudorandom sequence generator based on the Chen chaotic system"
+  ],
+  "prefix": "10.1016",
+  "volume": "184",
+  "author": [
+   {
+    "given": "HanPing",
+    "family": "Hu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "LingFeng",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "NaiDa",
+    "family": "Ding",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000005",
+    "series-title": "Signal Processing Systems",
+    "author": "Kalouptsidis",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000010",
+    "series-title": "Shift Register Sequences",
+    "author": "Golomb",
+    "year": "1967"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000015",
+    "series-title": "Handbook of Applied Cryptography",
+    "author": "Menezes",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000020",
+    "first-page": "534",
+    "article-title": "Pseudo-random number generators and chaos",
+    "volume": "65",
+    "author": "Oishi",
+    "year": "1982",
+    "journal-title": "Transactions of the Institute of Electronics and Communication Engineers of Japan, Section E"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000025",
+    "doi-asserted-by": "crossref",
+    "first-page": "109",
+    "DOI": "10.1016/S0010-4655(99)00233-7",
+    "article-title": "Random number generator based on unpredictable chaotic functions",
+    "volume": "120",
+    "author": "Gonzalez",
+    "year": "1999",
+    "journal-title": "Computer Physics Communications"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000030",
+    "doi-asserted-by": "crossref",
+    "first-page": "373",
+    "DOI": "10.1016/S0375-9601(99)00747-1",
+    "article-title": "New approach to chaotic encryption",
+    "volume": "263",
+    "author": "Alvarez",
+    "year": "1999",
+    "journal-title": "Physics Letters. A"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000035",
+    "doi-asserted-by": "crossref",
+    "first-page": "281",
+    "DOI": "10.1109/81.915385",
+    "article-title": "Chaos-based random number generators\u2013Part I: analysis",
+    "volume": "48",
+    "author": "Stojanovski",
+    "year": "2001",
+    "journal-title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000040",
+    "doi-asserted-by": "crossref",
+    "first-page": "382",
+    "DOI": "10.1109/81.915396",
+    "article-title": "Chaos-based random number generators\u2013Part II: practical realization",
+    "volume": "48",
+    "author": "Stojanovski",
+    "year": "2001",
+    "journal-title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000045",
+    "series-title": "Progress in Cryptology\u2014INDOCRYPT 2001",
+    "first-page": "316",
+    "article-title": "Pseudo-random bit generator based on couple chaotic systems and its application in stream-ciphers cryptography",
+    "volume": "vol. 2247",
+    "author": "Li",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000050",
+    "doi-asserted-by": "crossref",
+    "first-page": "67",
+    "DOI": "10.1016/S0375-9601(03)00259-7",
+    "article-title": "A chaotic cryptography scheme for generating short ciphertext",
+    "volume": "310",
+    "author": "Wong",
+    "year": "2003",
+    "journal-title": "Physics Letters. A"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000055",
+    "first-page": "559",
+    "article-title": "Generating chaotic stream ciphers using chaotic systems",
+    "volume": "41",
+    "author": "Lee",
+    "year": "2003",
+    "journal-title": "Chinese Journal of Physics"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000060",
+    "doi-asserted-by": "crossref",
+    "first-page": "123",
+    "DOI": "10.1109/TCSI.2002.804550",
+    "article-title": "Pseudorandom bits generated by chaotic maps",
+    "volume": "50",
+    "author": "Kocarev",
+    "year": "2003",
+    "journal-title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000065",
+    "doi-asserted-by": "crossref",
+    "first-page": "75",
+    "DOI": "10.1016/S0375-9601(03)00122-1",
+    "article-title": "Discrete chaotic cryptography using external key",
+    "volume": "309",
+    "author": "Pareek",
+    "year": "2003",
+    "journal-title": "Physics Letters. A"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000070",
+    "doi-asserted-by": "crossref",
+    "first-page": "2409",
+    "DOI": "10.1142/S0217979204025440",
+    "article-title": "Pseudo-random number generator based on coupled map lattices",
+    "volume": "18",
+    "author": "Huaping",
+    "year": "2004",
+    "journal-title": "International Journal of Modern Physics B"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.cpc.2012.11.017_br000075",
+    "doi-asserted-by": "crossref",
+    "first-page": "715",
+    "DOI": "10.1016/j.cnsns.2004.03.006",
+    "article-title": "Cryptography using multiple one-dimensional chaotic maps",
+    "volume": "10",
+    "author": "Pareek",
+    "year": "2005",
+    "journal-title": "Communications in Nonlinear Science and Numerical Simulation"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000080",
+    "doi-asserted-by": "crossref",
+    "first-page": "3964",
+    "DOI": "10.7498/aps.55.3964",
+    "article-title": "Novel chaos-based pseudo-random number generator",
+    "volume": "55",
+    "author": "Wang",
+    "year": "2006",
+    "journal-title": "Acta Physica Sinica"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.cpc.2012.11.017_br000085",
+    "doi-asserted-by": "crossref",
+    "first-page": "867",
+    "DOI": "10.1016/j.chaos.2006.03.088",
+    "article-title": "A stream cipher based on a spatiotemporal chaotic system",
+    "volume": "32",
+    "author": "Li",
+    "year": "2007",
+    "journal-title": "Chaos, Solitons & Fractals"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000090",
+    "doi-asserted-by": "crossref",
+    "first-page": "2216",
+    "DOI": "10.1016/j.chaos.2008.08.032",
+    "article-title": "Cryptographic pseudo-random sequence from the spatial chaotic map",
+    "volume": "41",
+    "author": "Sun",
+    "year": "2009",
+    "journal-title": "Chaos, Solitons & Fractals"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.cpc.2012.11.017_br000095",
+    "doi-asserted-by": "crossref",
+    "first-page": "2557",
+    "DOI": "10.1016/j.chaos.2007.10.049",
+    "article-title": "Logistic chaotic maps for binary numbers generations",
+    "volume": "40",
+    "author": "Kanso",
+    "year": "2009",
+    "journal-title": "Chaos, Solitons & Fractals"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.cpc.2012.11.017_br000100",
+    "doi-asserted-by": "crossref",
+    "first-page": "3455",
+    "DOI": "10.1016/j.cam.2011.02.006",
+    "article-title": "A novel dynamic model of pseudo random number generator",
+    "volume": "235",
+    "author": "Behnia",
+    "year": "2011",
+    "journal-title": "Journal of Computational and Applied Mathematics"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000105",
+    "doi-asserted-by": "crossref",
+    "first-page": "761",
+    "DOI": "10.1016/j.cnsns.2010.04.021",
+    "article-title": "Pseudo-randomness and complexity of binary sequences generated by the chaotic system",
+    "volume": "16",
+    "author": "Liu",
+    "year": "2011",
+    "journal-title": "Communications in Nonlinear Science and Numerical Simulation"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.cpc.2012.11.017_br000110",
+    "doi-asserted-by": "crossref",
+    "first-page": "959",
+    "DOI": "10.1142/S021812749400068X",
+    "article-title": "Steps toward unmasking secure communications",
+    "volume": "4",
+    "author": "Short",
+    "year": "1994",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.cpc.2012.11.017_br000115",
+    "doi-asserted-by": "crossref",
+    "first-page": "659",
+    "DOI": "10.1142/S0218127402004620",
+    "article-title": "A new chaotic attractor coined",
+    "volume": "12",
+    "author": "Lu",
+    "year": "2002",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.cpc.2012.11.017_br000120",
+    "doi-asserted-by": "crossref",
+    "first-page": "2128",
+    "DOI": "10.1103/PhysRevE.54.2128",
+    "article-title": "Driving and synchronizing by chaotic impulses",
+    "volume": "54",
+    "author": "Stojanovski",
+    "year": "1996",
+    "journal-title": "Physical Review E"
+   },
+   {
+    "key": "10.1016/j.cpc.2012.11.017_br000125",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. Rukin, J. Soto, J. Nechvatal, et al. A statistical test suite for random and pseudorandom number generators for cryptographic applications, NIST Special Publication 800-22, 15 March 2001.",
+    "DOI": "10.6028/NIST.SP.800-22"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.cpc.2012.11.017_br000130",
+    "doi-asserted-by": "crossref",
+    "first-page": "69",
+    "DOI": "10.1016/S0898-1221(97)00008-4",
+    "article-title": "Inversion formulas and linear complexity algorithm for diagonal plus semiseparable matrices",
+    "volume": "33",
+    "author": "Eidelman",
+    "year": "1997",
+    "journal-title": "Computers & Mathematics with Applications"
+   }
+  ],
+  "container-title": [
+   "Computer Physics Communications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0010465512003931?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0010465512003931?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     2,
+     2
+    ]
+   ],
+   "date-time": "2022-02-02T04:16:37Z",
+   "timestamp": 1643775397000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0010465512003931"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2013,
+     3
+    ]
+   ]
+  },
+  "references-count": 26,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2013,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0010465512003931"
+  ],
+  "URL": "https://doi.org/10.1016/j.cpc.2012.11.017",
+  "relation": {},
+  "ISSN": [
+   "0010-4655"
+  ],
+  "issn-type": [
+   {
+    "value": "0010-4655",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2013,
+     3
+    ]
+   ]
+  }
+ }
+}

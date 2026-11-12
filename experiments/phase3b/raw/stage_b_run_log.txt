@@ -1,0 +1,16 @@
+[20:42:21] generating extraction=1 burn_in=1024 seed=seedA (20000 bytes/lane)
+[20:43:19]   done in 58.0s
+[20:43:34] generating extraction=1 burn_in=2048 seed=seedA (20000 bytes/lane)
+[20:44:37]   done in 63.5s
+[20:44:58] generating extraction=1 burn_in=5000 seed=seedA (20000 bytes/lane)
+[20:45:57]   done in 59.4s
+[20:46:39] generating extraction=1 burn_in=10000 seed=seedA (20000 bytes/lane)
+[20:47:33]   done in 53.6s
+[20:48:54] generating extraction=2 burn_in=1024 seed=seedA (20000 bytes/lane)
+[20:49:38]   done in 44.0s
+[20:49:48] generating extraction=2 burn_in=2048 seed=seedA (20000 bytes/lane)
+[20:50:34]   done in 45.9s
+[20:50:52] generating extraction=2 burn_in=5000 seed=seedA (20000 bytes/lane)
+[20:51:41]   done in 48.1s
+[20:52:22] generating extraction=2 burn_in=10000 seed=seedA (20000 bytes/lane)
+[20:53:16]   done in 54.1s

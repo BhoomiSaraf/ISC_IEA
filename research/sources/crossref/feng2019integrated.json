@@ -1,0 +1,731 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.ijleo.2018.12.103",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     28
+    ]
+   ],
+   "date-time": "2026-02-28T07:17:05Z",
+   "timestamp": 1772263025033,
+   "version": "3.50.1"
+  },
+  "reference-count": 36,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2019-06-01T00:00:00Z",
+     "timestamp": 1559347200000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "51577046"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "51577046"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "State Key Program of National Natural Science Foundation of China",
+    "award": [
+     "51637004"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "51637004"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "National key research and development plan",
+    "award": [
+     "2016YFF0102200"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016YFF0102200"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Science and Technology Program of Hunan Province",
+    "award": [
+     "2016TP1021"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016TP1021"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Foundation of Education Bureau of Hunan Province of China",
+    "award": [
+     "16B113"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "16B113"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Hunan Provincial Natural Science Foundation of China",
+    "award": [
+     "2016JJ4036"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016JJ4036"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Optik"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.ijleo.2018.12.103",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     21
+    ]
+   ],
+   "date-time": "2018-12-21T19:37:19Z",
+   "timestamp": 1545421039000
+  },
+  "page": "449-457",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 30,
+  "special_numbering": "C",
+  "title": [
+   "Cryptanalysis of the integrated chaotic systems based image encryption algorithm"
+  ],
+  "prefix": "10.1016",
+  "volume": "186",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-3707-1577",
+    "authenticated-orcid": false,
+    "given": "Wei",
+    "family": "Feng",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6642-0740",
+    "authenticated-orcid": false,
+    "given": "Yi-Gang",
+    "family": "He",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Hong-Min",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Chun-Lai",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "133",
+    "DOI": "10.1016/j.sigpro.2018.01.026",
+    "article-title": "Integrated chaotic systems for image encryption",
+    "volume": "147",
+    "author": "Lan",
+    "year": "2018",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0010",
+    "first-page": "1",
+    "article-title": "SPRING: a novel parallel chaos-based image encryption scheme",
+    "volume": "92",
+    "author": "Lee",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "838",
+    "DOI": "10.1109/TCE.2003.1196410",
+    "article-title": "A new chaotic algorithm for video encryption",
+    "volume": "48",
+    "author": "Chiaraluce",
+    "year": "2002",
+    "journal-title": "Ieee Trans. Consum. Electron."
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "231",
+    "DOI": "10.1016/j.ijleo.2016.10.036",
+    "article-title": "Color image encryption scheme using coupled hyper chaotic system with multiple impulse injections",
+    "volume": "129",
+    "author": "Kadir",
+    "year": "2017",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0025",
+    "first-page": "1105",
+    "article-title": "Image encryption based on chaotic maps",
+    "volume": "2",
+    "author": "Fridrich",
+    "year": "1997",
+    "journal-title": "IEEE International Conference on Systems"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3D chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "1518",
+    "DOI": "10.1016/j.chaos.2005.11.090",
+    "article-title": "A fast image encryption system based on chaotic maps with finite precision representation",
+    "volume": "32",
+    "author": "Kwok",
+    "year": "2007",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "1202",
+    "DOI": "10.1016/j.sigpro.2011.11.004",
+    "article-title": "A fast color image encryption algorithm based on coupled two-dimensional piecewise chaotic map",
+    "volume": "92",
+    "author": "Seyedzadeh",
+    "year": "2012",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "117",
+    "DOI": "10.1016/j.ijleo.2017.09.099",
+    "article-title": "An efficient mixed inter-intra pixels substitution at 2bits-level for image encryption technique using DNA and chaos",
+    "volume": "153",
+    "author": "Rehman",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "348",
+    "DOI": "10.1016/j.ijleo.2018.01.064",
+    "article-title": "A color image encryption technique using Exclusive-OR with DNA complementary rules based on Chaos theory and SHA-2",
+    "volume": "159",
+    "author": "Rehman",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "538",
+    "DOI": "10.1016/j.ijleo.2017.10.080",
+    "article-title": "A memristor-based chaotic system and its application in image encryption",
+    "volume": "154",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1007/s11071-017-3874-6",
+    "article-title": "A novel scheme for image encryption using substitution box and chaotic system",
+    "volume": "91",
+    "author": "Ullah",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0065",
+    "article-title": "Image encryption-then-Transmission using DNA encryption algorithm and the double Chaos",
+    "volume": "1",
+    "author": "Fu",
+    "year": "2018",
+    "journal-title": "IEEE Photonics J."
+   },
+   {
+    "issue": "22",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "5411",
+    "DOI": "10.1016/j.ijleo.2013.03.113",
+    "article-title": "Cryptanalysis of a color image encryption algorithm based on chaos",
+    "volume": "124",
+    "author": "Tu",
+    "year": "2013",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "14",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "1773",
+    "DOI": "10.1016/j.ijleo.2012.06.020",
+    "article-title": "Cryptanalysis of an image cryptosystem based on logistic map",
+    "volume": "124",
+    "author": "Wang",
+    "year": "2013",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "200",
+    "DOI": "10.1016/j.ijleo.2017.01.062",
+    "article-title": "Cryptanalysis of symmetric key image encryption using chaotic Rossler system",
+    "volume": "135",
+    "author": "Laiphrakpam",
+    "year": "2017",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "13",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "5190",
+    "DOI": "10.1016/j.ijleo.2016.03.018",
+    "article-title": "Cryptanalysis of a new image encryption algorithm based on chaos",
+    "volume": "127",
+    "author": "\u00d6zkaynak",
+    "year": "2016",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "305",
+    "DOI": "10.1007/s11071-018-4056-x",
+    "article-title": "Brief review on application of nonlinear dynamics in image encryption",
+    "volume": "92",
+    "author": "\u00d6zkaynak",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1016/j.sigpro.2017.12.021",
+    "article-title": "Cryptanalysis of image encryption scheme based on a new 1D chaotic system",
+    "volume": "146",
+    "author": "Dhall",
+    "year": "2018",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0100",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127418500864",
+    "article-title": "Cryptanalysis of a chaotic stream cipher and its improved scheme",
+    "volume": "28",
+    "author": "Lin",
+    "year": "2018",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0105",
+    "article-title": "Cryptanalysis and improvement of a chaotic image encryption by first-order time-delay system",
+    "volume": "1",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Ieee Multimed."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "1305",
+    "DOI": "10.1007/s11071-016-3311-2",
+    "article-title": "Cryptanalysis of a chaotic image cipher using Latin square-based confusion and diffusion",
+    "volume": "88",
+    "author": "Hu",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "366",
+    "DOI": "10.1016/j.ijleo.2017.10.072",
+    "article-title": "Cryptanalysis and security improvement for a symmetric color image encryption algorithm",
+    "volume": "155",
+    "author": "Hoang",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.ijleo.2018.12.103_bib0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "456",
+    "DOI": "10.1016/j.ijleo.2017.08.050",
+    "article-title": "Cryptanalysis of a DNA and chaos based image encryption algorithm",
+    "volume": "145",
+    "author": "Dou",
+    "year": "2017",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "38",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0125",
+    "first-page": "5973",
+    "article-title": "Cryptanalysis of a new image encryption algorithm based on hyper-chaos",
+    "volume": "372",
+    "author": "Rhouma",
+    "year": "2008",
+    "journal-title": "Mod. Phys. Lett. B"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "1035",
+    "DOI": "10.1016/j.imavis.2008.09.004",
+    "article-title": "Cryptanalysis of an image encryption scheme based on a compound chaotic sequence",
+    "volume": "27",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Image Vis. Comput."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1007/s11071-014-1435-9",
+    "article-title": "Cryptanalysis of image scrambling based on chaotic sequences and Vigen\u00e8re cipher",
+    "volume": "78",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0140",
+    "doi-asserted-by": "crossref",
+    "first-page": "1885",
+    "DOI": "10.1007/s11042-013-1684-5",
+    "article-title": "Cryptanalyzing a novel image cipher based on mixed transformed logistic maps",
+    "volume": "73",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0145",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s11071-016-2642-3",
+    "article-title": "Chosen-plaintext attack of an image encryption scheme based on modified permutation\u2013diffusion structure",
+    "volume": "84",
+    "author": "Liu",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "1-2",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0150",
+    "doi-asserted-by": "crossref",
+    "first-page": "243",
+    "DOI": "10.1007/s11071-014-1287-3",
+    "article-title": "Security evaluation of bilateral-diffusion based image encryption algorithm",
+    "volume": "77",
+    "author": "Su",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "24",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0155",
+    "doi-asserted-by": "crossref",
+    "first-page": "4946",
+    "DOI": "10.1016/j.optcom.2012.07.106",
+    "article-title": "Cryptanalysis of a novel image encryption scheme based on improved hyperchaotic sequences",
+    "volume": "285",
+    "author": "\u00d6zkaynak",
+    "year": "2012",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0160",
+    "doi-asserted-by": "crossref",
+    "first-page": "1831",
+    "DOI": "10.1007/s11071-015-2280-1",
+    "article-title": "Deciphering an image cipher based on 3-cell chaotic map and biological operations",
+    "volume": "82",
+    "author": "Zhang",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0165",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1007/s11071-016-3049-x",
+    "article-title": "Differential attack on a hyper-chaos-based image cryptosystem with a classic bi-modular architecture",
+    "volume": "87",
+    "author": "Wen",
+    "year": "2017",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0170",
+    "doi-asserted-by": "crossref",
+    "first-page": "1887",
+    "DOI": "10.1016/j.cnsns.2009.07.007",
+    "article-title": "Cryptanalysis of a new substitution-diffusion based image cipher",
+    "volume": "15",
+    "author": "Rhouma",
+    "year": "2010",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0175",
+    "article-title": "Cryptanalyzing a color image encryption scheme based on hybrid hyper-chaotic system and cellular automata",
+    "volume": "1",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.ijleo.2018.12.103_bib0180",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1109/JPHOT.2018.2880590",
+    "article-title": "Cryptanalysis and improvement of the hyper-chaotic image encryption scheme based on DNA encoding and scrambling",
+    "volume": "10",
+    "author": "Feng",
+    "year": "2018",
+    "journal-title": "IEEE Photonics J."
+   }
+  ],
+  "container-title": [
+   "Optik"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0030402618320333?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0030402618320333?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     8
+    ]
+   ],
+   "date-time": "2019-08-08T02:41:54Z",
+   "timestamp": 1565232114000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0030402618320333"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     6
+    ]
+   ]
+  },
+  "references-count": 36,
+  "alternative-id": [
+   "S0030402618320333"
+  ],
+  "URL": "https://doi.org/10.1016/j.ijleo.2018.12.103",
+  "relation": {},
+  "ISSN": [
+   "0030-4026"
+  ],
+  "issn-type": [
+   {
+    "value": "0030-4026",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     6
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Cryptanalysis of the integrated chaotic systems based image encryption algorithm",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Optik",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.ijleo.2018.12.103",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2018 Published by Elsevier GmbH.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

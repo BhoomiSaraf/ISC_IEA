@@ -1,0 +1,354 @@
+{
+ "query": "https://api.crossref.org/works/10.1155/2013/728375",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     5
+    ]
+   ],
+   "date-time": "2025-11-05T20:49:36Z",
+   "timestamp": 1762375776194,
+   "version": "3.37.3"
+  },
+  "reference-count": 36,
+  "publisher": "Wiley",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2013,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2013-01-01T00:00:00Z",
+     "timestamp": 1356998400000
+    },
+    "content-version": "unspecified",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by/3.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Mathematical Problems in Engineering"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "DOI": "10.1155/2013/728375",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2013,
+     12,
+     10
+    ]
+   ],
+   "date-time": "2013-12-10T16:02:31Z",
+   "timestamp": 1386691351000
+  },
+  "page": "1-13",
+  "source": "Crossref",
+  "is-referenced-by-count": 18,
+  "title": [
+   "A New Hybrid Chaotic Map and Its Application on Image Encryption and Hiding"
+  ],
+  "prefix": "10.1155",
+  "volume": "2013",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-6940-0868",
+    "authenticated-orcid": true,
+    "given": "Yang",
+    "family": "Cao",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "College of Telecommunications and Information Engineering, Nanjing University of Posts and Telecommunications, Nanjing 210003, China"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "reference": [
+   {
+    "year": "2003",
+    "key": "1"
+   },
+   {
+    "year": "2007",
+    "key": "2"
+   },
+   {
+    "key": "3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0097-8493(98)00089-2"
+   },
+   {
+    "key": "4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01608556"
+   },
+   {
+    "volume": "15",
+    "year": "2004",
+    "key": "5"
+   },
+   {
+    "volume": "354",
+    "year": "2011",
+    "key": "6"
+   },
+   {
+    "year": "2010",
+    "key": "7"
+   },
+   {
+    "key": "8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/5.4441"
+   },
+   {
+    "year": "2006",
+    "key": "9"
+   },
+   {
+    "year": "2002",
+    "key": "11"
+   },
+   {
+    "key": "12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/0161-118991863745"
+   },
+   {
+    "key": "13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.12.026"
+   },
+   {
+    "key": "14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2009.02.044"
+   },
+   {
+    "key": "15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.01.081"
+   },
+   {
+    "key": "16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-010-9749-8"
+   },
+   {
+    "key": "17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(98)00086-3"
+   },
+   {
+    "key": "18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(03)00469-9"
+   },
+   {
+    "key": "19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2007.11.011"
+   },
+   {
+    "key": "20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-013-1065-7"
+   },
+   {
+    "key": "21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2004.03.006"
+   },
+   {
+    "key": "22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.imavis.2006.02.021"
+   },
+   {
+    "key": "23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2003.10.044"
+   },
+   {
+    "key": "24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.imavis.2008.12.008"
+   },
+   {
+    "key": "25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0010-4655(02)00875-5"
+   },
+   {
+    "key": "26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.07.040"
+   },
+   {
+    "key": "27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.camwa.2010.03.017"
+   },
+   {
+    "key": "28",
+    "first-page": "3",
+    "volume": "18",
+    "year": "1845",
+    "journal-title": "Nouveaux M\u00e9moires de l\u2019acad\u00e9mie Royale des Sciences et Belles-Lettres de Bruxelles"
+   },
+   {
+    "key": "29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.186.4164.645"
+   },
+   {
+    "key": "30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0030-4018(79)90090-7"
+   },
+   {
+    "key": "31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0167-2789(85)90011-9"
+   },
+   {
+    "volume": "10",
+    "year": "2003",
+    "key": "32"
+   },
+   {
+    "year": "2003",
+    "key": "33"
+   },
+   {
+    "key": "34",
+    "first-page": "3",
+    "volume": "5",
+    "year": "2001",
+    "journal-title": "ACM SIGMOBILE Mobile Computing and Communications Review"
+   },
+   {
+    "key": "35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/el:20080522"
+   },
+   {
+    "key": "36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/JPROC.2005.862438"
+   },
+   {
+    "journal-title": "Cyber Journals: Multidisciplinary Journals in Science and Technology, Journal of Selected Areas in Telecommunications",
+    "first-page": "31",
+    "year": "2011",
+    "key": "37"
+   }
+  ],
+  "container-title": [
+   "Mathematical Problems in Engineering"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://downloads.hindawi.com/journals/mpe/2013/728375.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://downloads.hindawi.com/journals/mpe/2013/728375.xml",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://downloads.hindawi.com/journals/mpe/2013/728375.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2016,
+     7,
+     30
+    ]
+   ],
+   "date-time": "2016-07-30T12:45:03Z",
+   "timestamp": 1469882703000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://www.hindawi.com/journals/mpe/2013/728375/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "references-count": 36,
+  "alternative-id": [
+   "728375",
+   "728375"
+  ],
+  "URL": "https://doi.org/10.1155/2013/728375",
+  "relation": {},
+  "ISSN": [
+   "1024-123X",
+   "1563-5147"
+  ],
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1024-123X"
+   },
+   {
+    "type": "electronic",
+    "value": "1563-5147"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  }
+ }
+}

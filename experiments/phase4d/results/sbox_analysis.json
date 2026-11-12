@@ -1,0 +1,35 @@
+{
+  "bijectivity": {
+    "is_permutation": true,
+    "inverse_correct": true
+  },
+  "fixed_points": {
+    "count": 3,
+    "positions": [
+      40,
+      61,
+      124
+    ],
+    "expected_for_random_permutation": "~1 on average (E[fixed points]=1)"
+  },
+  "differential_distribution_table": {
+    "computation_time_seconds": 0.026053000008687377,
+    "shape": "256x256 (dx, dy), XOR-difference convention",
+    "max_differential_probability_excluding_trivial": 0.046875,
+    "max_count": 12,
+    "random_permutation_reference_expected_max_count": "~ a few (typically 4-10 for a random 8-bit permutation; textbook AES S-box max is 4/256=0.0156)",
+    "note": "Lower max differential probability is generally considered better against differential cryptanalysis OF THE S-BOX IN ISOLATION. This does NOT by itself establish anything about the resistance of the FULL cipher (permutation + chained diffusion + key schedule) to differential cryptanalysis -- the S-box here is also DIFFERENT for every (key, nonce), unlike AES's fixed public S-box, which changes the relevant threat model entirely (see final report)."
+  },
+  "linear_approximation_table": {
+    "computation_time_seconds": 1.3483445001766086,
+    "shape": "256x256 (a, b) input/output masks",
+    "max_absolute_linear_bias_count": 68,
+    "max_absolute_linear_bias_fraction": 0.265625,
+    "random_permutation_reference": "a random 8-bit permutation typically has max|bias| well above textbook-S-box values (e.g. AES S-box's max bias count is 32/256=0.125 in the +-1 convention used here, before any correction factor); exact comparison convention-dependent -- reported here for THIS S-box only, not compared to a freshly-generated random-permutation ensemble average (out of scope at P1 time budget; flagged as a possible follow-on in section 18/limitations)."
+  },
+  "cross_nonce_sbox_similarity": {
+    "positions_agreeing_between_two_sboxes": 1,
+    "expected_agreement_for_independent_random_permutations": "~1 (E[agreements]=1, same reasoning as fixed points of a random permutation applied to comparing two independent random permutations)",
+    "conclusion": "No detected similarity beyond chance between S-boxes derived under different nonces (same key) at this single-sample check."
+  }
+}

@@ -1,0 +1,740 @@
+{
+ "query": "https://api.crossref.org/works/10.1142/s0218127406015970",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     25
+    ]
+   ],
+   "date-time": "2026-10-25T19:13:23Z",
+   "timestamp": 1792955603834,
+   "version": "4.5.0"
+  },
+  "reference-count": 105,
+  "publisher": "World Scientific Pub Co Pte Ltd",
+  "issue": "08",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Int. J. Bifurcation Chaos"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2006,
+     8
+    ]
+   ]
+  },
+  "abstract": "<jats:p>In recent years, a large amount of work on chaos-based cryptosystems have been published. However, many of the proposed schemes fail to explain or do not possess a number of features that are fundamentally important to all kind of cryptosystems. As a result, many proposed systems are difficult to implement in practice with a reasonable degree of security. Likewise, they are seldom accompanied by a thorough security analysis. Consequently, it is difficult for other researchers and end users to evaluate their security and performance. This work is intended to provide a common framework of basic guidelines that, if followed, could benefit every new cryptosystem. The suggested guidelines address three main issues: implementation, key management and security analysis, aiming at assisting designers of new cryptosystems to present their work in a more systematic and rigorous way to fulfill some basic cryptographic requirements. Meanwhile, several recommendations are made regarding some practical aspects of analog chaos-based secure communications, such as channel noise, limited bandwith and attenuation.</jats:p>",
+  "DOI": "10.1142/s0218127406015970",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     11,
+     1
+    ]
+   ],
+   "date-time": "2006-11-01T07:14:53Z",
+   "timestamp": 1162365293000
+  },
+  "page": "2129-2151",
+  "source": "Crossref",
+  "is-referenced-by-count": 1896,
+  "title": [
+   "SOME BASIC CRYPTOGRAPHIC REQUIREMENTS FOR CHAOS-BASED CRYPTOSYSTEMS"
+  ],
+  "prefix": "10.1142",
+  "volume": "16",
+  "author": [
+   {
+    "given": "GONZALO",
+    "family": "ALVAREZ",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Instituto de F\u00edsica Aplicada, Consejo Superior de Investigaciones Cient\u00edficas, Serrano 144, 28006 Madrid, Spain"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "SHUJUN",
+    "family": "LI",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electronic and Information Engineering, Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong SAR, P. R. China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "219",
+  "published-online": {
+   "date-parts": [
+    [
+     2011,
+     11,
+     20
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "rf1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0010-4825(02)00083-5"
+   },
+   {
+    "key": "rf2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(99)00747-1"
+   },
+   {
+    "key": "rf4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(00)00642-3"
+   },
+   {
+    "key": "rf5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(02)01502-5"
+   },
+   {
+    "key": "rf6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2003.10.044"
+   },
+   {
+    "key": "rf7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(03)00469-9"
+   },
+   {
+    "key": "rf8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0010-4655(03)00432-6"
+   },
+   {
+    "key": "rf10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.comcom.2004.05.007"
+   },
+   {
+    "key": "rf12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jsv.2003.10.031"
+   },
+   {
+    "key": "rf13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.1688092"
+   },
+   {
+    "key": "rf14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.041"
+   },
+   {
+    "key": "rf15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSII.2004.836047"
+   },
+   {
+    "key": "rf16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.013"
+   },
+   {
+    "key": "rf17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0960-0779(04)00440-0"
+   },
+   {
+    "key": "rf19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.09.038"
+   },
+   {
+    "key": "rf21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(98)00086-3"
+   },
+   {
+    "key": "rf22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127495001198"
+   },
+   {
+    "key": "rf26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4613-9314-6"
+   },
+   {
+    "key": "rf27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0370-1573(02)00137-0"
+   },
+   {
+    "key": "rf28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2004.04.004"
+   },
+   {
+    "key": "rf29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0375-9601(96)00179-X"
+   },
+   {
+    "key": "rf30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.1564934"
+   },
+   {
+    "key": "rf31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.022"
+   },
+   {
+    "key": "rf32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.71.65"
+   },
+   {
+    "key": "rf33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/82.246163"
+   },
+   {
+    "key": "rf34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/82.246164"
+   },
+   {
+    "key": "rf35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.633884"
+   },
+   {
+    "key": "rf36",
+    "volume-title": "An Introduction to Chaotic Dynamical Systems",
+    "author": "Devaney R. L.",
+    "year": "1989"
+   },
+   {
+    "key": "rf38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/(SICI)1097-007X(199609/10)24:5<551::AID-CTA936>3.0.CO;2-H"
+   },
+   {
+    "key": "rf40",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/82.246168"
+   },
+   {
+    "key": "rf41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812749800098X"
+   },
+   {
+    "key": "rf42",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.83.5389"
+   },
+   {
+    "key": "rf44",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1008337631906"
+   },
+   {
+    "key": "rf46",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127493000374"
+   },
+   {
+    "key": "rf48",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127498000450"
+   },
+   {
+    "key": "rf49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.70.3031"
+   },
+   {
+    "key": "rf50",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.73.1781"
+   },
+   {
+    "key": "rf51",
+    "first-page": "275",
+    "volume": "50",
+    "author": "Hu G.",
+    "journal-title": "IEEE Trans. Circuits Syst.-I"
+   },
+   {
+    "key": "rf52",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2005.02.080"
+   },
+   {
+    "key": "rf53",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevE.69.067201"
+   },
+   {
+    "key": "rf54",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.05.026"
+   },
+   {
+    "key": "rf55",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.904880"
+   },
+   {
+    "key": "rf56",
+    "volume-title": "Modern Statistical, Systems, and GPSS Simulation",
+    "author": "Karian Z. A.",
+    "year": "1999"
+   },
+   {
+    "key": "rf57",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127492000823"
+   },
+   {
+    "key": "rf59",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/7384.963463"
+   },
+   {
+    "key": "rf61",
+    "series-title": "Seminumerical Algorithms",
+    "volume-title": "The Art of Computer Programming",
+    "author": "Knuth D.",
+    "year": "1997"
+   },
+   {
+    "key": "rf62",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(99)00175-9"
+   },
+   {
+    "key": "rf63",
+    "first-page": "559",
+    "volume": "41",
+    "author": "Lee P.-H.",
+    "journal-title": "Chinese J. Phys."
+   },
+   {
+    "key": "rf65",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1155/ASP.2005.1277"
+   },
+   {
+    "key": "rf71",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0010-4655(02)00875-5"
+   },
+   {
+    "key": "rf72",
+    "first-page": "473",
+    "volume": "25",
+    "author": "Li S.",
+    "journal-title": "J. Electron. Inform. Technol."
+   },
+   {
+    "key": "rf73",
+    "first-page": "3063",
+    "volume": "11",
+    "author": "Li S.",
+    "journal-title": "Int. J. Bifurcation and Chaos"
+   },
+   {
+    "key": "rf74",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127405014052"
+   },
+   {
+    "key": "rf75",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSII.2004.838657"
+   },
+   {
+    "key": "rf76",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2004.09.028"
+   },
+   {
+    "key": "rf77",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S.\u00a0Li, G.\u00a0Chen and X.\u00a0Zheng, Multimedia Security Handbook, eds. B.\u00a0Furht and D.\u00a0Kirovski (CRC Press, LLC, 2004)\u00a0pp. 133\u2013167.",
+    "DOI": "10.1201/9781420038262-4"
+   },
+   {
+    "key": "rf81",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.09.077"
+   },
+   {
+    "key": "rf83",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.1856711"
+   },
+   {
+    "key": "rf84",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2004.02.047"
+   },
+   {
+    "key": "rf85",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.1772731"
+   },
+   {
+    "key": "rf86",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812740401151X"
+   },
+   {
+    "key": "rf87",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.974872"
+   },
+   {
+    "key": "rf89",
+    "first-page": "29",
+    "author": "Matthews R. A. J.",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "key": "rf90",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0140-3664(02)00187-1"
+   },
+   {
+    "key": "rf91",
+    "volume-title": "Handbook of Applied Cryptography",
+    "author": "Menezes A. J.",
+    "year": "1997"
+   },
+   {
+    "key": "rf92",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.166344"
+   },
+   {
+    "key": "rf93",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(98)00868-8"
+   },
+   {
+    "key": "rf95",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127401004030"
+   },
+   {
+    "key": "rf96",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(03)00122-1"
+   },
+   {
+    "key": "rf97",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.922466"
+   },
+   {
+    "key": "rf98",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127492000562"
+   },
+   {
+    "key": "rf99",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.64.821"
+   },
+   {
+    "key": "rf100",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.74.1970"
+   },
+   {
+    "key": "rf102",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevE.51.980"
+   },
+   {
+    "key": "rf103",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/el:19980680"
+   },
+   {
+    "key": "rf104",
+    "volume-title": "Applied Cryptography \u2014 Protocols, algorithms, and Source code in C",
+    "author": "Schneier B.",
+    "year": "1996"
+   },
+   {
+    "key": "rf105",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1006/jsvi.2001.3780"
+   },
+   {
+    "key": "rf106",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1949.tb00928.x"
+   },
+   {
+    "key": "rf107",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812749400068X"
+   },
+   {
+    "key": "rf108",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127496000114"
+   },
+   {
+    "key": "rf109",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127497001230"
+   },
+   {
+    "key": "rf110",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevE.58.1159"
+   },
+   {
+    "key": "rf112",
+    "volume-title": "Cryptography: Theory and Practice",
+    "author": "Stinson D. R.",
+    "year": "1995"
+   },
+   {
+    "key": "rf113",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127496001715"
+   },
+   {
+    "key": "rf114",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2004.841602"
+   },
+   {
+    "key": "rf115",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.04.023"
+   },
+   {
+    "key": "rf116",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127403008193"
+   },
+   {
+    "key": "rf117",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127403007461"
+   },
+   {
+    "key": "rf118",
+    "first-page": "819",
+    "volume": "8",
+    "author": "U\u00eds J.",
+    "journal-title": "Chaos"
+   },
+   {
+    "key": "rf119",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0960-0779(02)00377-6"
+   },
+   {
+    "key": "rf120",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.1633492"
+   },
+   {
+    "key": "rf122",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0010-4655(01)00220-X"
+   },
+   {
+    "key": "rf123",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127493001288"
+   },
+   {
+    "key": "rf124",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0960-0779(04)00387-X"
+   },
+   {
+    "key": "rf125",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/cta.4490230607"
+   },
+   {
+    "key": "rf126",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.536758"
+   },
+   {
+    "key": "rf127",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(98)00560-X"
+   },
+   {
+    "key": "rf128",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.728860"
+   },
+   {
+    "key": "rf129",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(98)00425-3"
+   },
+   {
+    "key": "rf130",
+    "first-page": "81",
+    "volume": "2",
+    "author": "Yang T.",
+    "journal-title": "Int. J. Comp. Cogn."
+   },
+   {
+    "key": "rf131",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevE.59.6629"
+   },
+   {
+    "key": "rf132",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(97)00551-3"
+   },
+   {
+    "key": "rf133",
+    "first-page": "205",
+    "volume": "7",
+    "author": "Zhou H.",
+    "journal-title": "Int. J. Bifurcation and Chaos"
+   },
+   {
+    "key": "rf134",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.557386"
+   },
+   {
+    "key": "rf135",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/82.877154"
+   }
+  ],
+  "container-title": [
+   "International Journal of Bifurcation and Chaos"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.worldscientific.com/doi/pdf/10.1142/S0218127406015970",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     6
+    ]
+   ],
+   "date-time": "2019-08-06T20:08:47Z",
+   "timestamp": 1565122127000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.worldscientific.com/doi/abs/10.1142/S0218127406015970"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2006,
+     8
+    ]
+   ]
+  },
+  "references-count": 105,
+  "journal-issue": {
+   "issue": "08",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      11,
+      20
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2006,
+      8
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1142/S0218127406015970"
+  ],
+  "URL": "https://doi.org/10.1142/s0218127406015970",
+  "relation": {},
+  "ISSN": [
+   "0218-1274",
+   "1793-6551"
+  ],
+  "issn-type": [
+   {
+    "value": "0218-1274",
+    "type": "print"
+   },
+   {
+    "value": "1793-6551",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2006,
+     8
+    ]
+   ]
+  }
+ }
+}

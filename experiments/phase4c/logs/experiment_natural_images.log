@@ -1,0 +1,24 @@
+  astronaut_rgb                profile=1 exact=True enc_entropy=7.9990 chi2_p=0.3039 t_enc=32.60s
+  astronaut_rgb                profile=2 exact=True enc_entropy=7.9991 chi2_p=0.7781 t_enc=34.63s
+  astronaut_gray               profile=1 exact=True enc_entropy=7.9974 chi2_p=0.8122 t_enc=7.07s
+  astronaut_gray               profile=2 exact=True enc_entropy=7.9974 chi2_p=0.7423 t_enc=6.88s
+  camera_gray                  profile=1 exact=True enc_entropy=7.9976 chi2_p=0.9464 t_enc=7.72s
+  chelsea_rgb                  profile=1 exact=True enc_entropy=7.9987 chi2_p=0.6820 t_enc=12.37s
+  chelsea_gray                 profile=1 exact=True enc_entropy=7.9960 chi2_p=0.6983 t_enc=7.47s
+  coffee_rgb                   profile=1 exact=True enc_entropy=7.9986 chi2_p=0.4515 t_enc=15.79s
+  coffee_gray                  profile=1 exact=True enc_entropy=7.9961 chi2_p=0.7510 t_enc=5.80s
+  coins_gray                   profile=1 exact=True enc_entropy=7.9969 chi2_p=0.9228 t_enc=6.70s
+  horse_gray                   profile=1 exact=True enc_entropy=7.9970 chi2_p=0.9346 t_enc=6.63s
+  rocket_rgb                   profile=1 exact=True enc_entropy=7.9987 chi2_p=0.7134 t_enc=13.26s
+  rocket_gray                  profile=1 exact=True enc_entropy=7.9950 chi2_p=0.0251 t_enc=5.98s
+  hubble_deep_field_rgb        profile=1 exact=True enc_entropy=7.9991 chi2_p=0.9706 t_enc=14.42s
+  hubble_deep_field_rgb        profile=2 exact=True enc_entropy=7.9990 chi2_p=0.8573 t_enc=14.91s
+  hubble_deep_field_gray       profile=1 exact=True enc_entropy=7.9970 chi2_p=0.7942 t_enc=6.10s
+  hubble_deep_field_gray       profile=2 exact=True enc_entropy=7.9969 chi2_p=0.6871 t_enc=5.98s
+  immunohistochemistry_rgb     profile=1 exact=True enc_entropy=7.9990 chi2_p=0.2562 t_enc=16.60s
+  immunohistochemistry_gray    profile=1 exact=True enc_entropy=7.9969 chi2_p=0.0915 t_enc=6.54s
+  brick_gray                   profile=1 exact=True enc_entropy=7.9974 chi2_p=0.7739 t_enc=6.81s
+  grass_gray                   profile=1 exact=True enc_entropy=7.9973 chi2_p=0.6271 t_enc=6.68s
+  gravel_gray                  profile=1 exact=True enc_entropy=7.9975 chi2_p=0.8780 t_enc=6.75s
+
+22 runs completed, 0 exact-recovery failures, 0 errored runs.

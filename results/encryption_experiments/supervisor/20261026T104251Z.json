@@ -1,0 +1,26 @@
+{
+ "utc_start": "20261026T104251Z",
+ "command": [
+  "C:\\Users\\bhoom\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "-E",
+  "-s",
+  "-m",
+  "isc_eval.run",
+  "A6e23",
+  "--mode",
+  "diagnostic"
+ ],
+ "wall_seconds_limit": 1500.0,
+ "min_free_mb": 200.0,
+ "run_dir": "C:\\Users\\bhoom\\Desktop\\sine_chebyshev_ikeda_analysis\\results\\encryption_experiments\\A6e23_merge_posthoc_diagnostic_20261026T104255Z",
+ "killed": false,
+ "kill_reason": null,
+ "taskkill_returncode": null,
+ "verified_terminated": true,
+ "exit_code": 0,
+ "worker_peak_working_set_mb": 177.0,
+ "min_system_available_mb": 401.1,
+ "samples": 54,
+ "pid": 28300,
+ "wall_seconds": 270.1
+}

@@ -1,0 +1,119 @@
+{
+ "query": "https://api.crossref.org/works/10.17487/rfc8439",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     22
+    ]
+   ],
+   "date-time": "2026-10-22T00:00:37Z",
+   "timestamp": 1792627237068,
+   "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "RFC Editor",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "DOI": "10.17487/rfc8439",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     6,
+     19
+    ]
+   ],
+   "date-time": "2018-06-19T06:12:07Z",
+   "timestamp": 1529388727000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 144,
+  "title": [
+   "ChaCha20 and Poly1305 for IETF Protocols"
+  ],
+  "prefix": "10.17487",
+  "author": [
+   {
+    "given": "Y.",
+    "family": "Nir",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "A.",
+    "family": "Langley",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "7045",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     6
+    ]
+   ]
+  },
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     6,
+     19
+    ]
+   ],
+   "date-time": "2018-06-19T06:12:08Z",
+   "timestamp": 1529388728000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.rfc-editor.org/info/rfc8439"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     6
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.17487/rfc8439",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     6
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,92 @@
+[
+ {
+  "size": [
+   64,
+   64,
+   1
+  ],
+  "n": 4096,
+  "construction": "V-FULL",
+  "reps": 1,
+  "encrypt_s_median": 20.65255110000726,
+  "encrypt_s_min": 20.65255110000726,
+  "encrypt_s_max": 20.65255110000726,
+  "decrypt_s_median": 25.90077159999055,
+  "decrypt_s_min": 25.90077159999055,
+  "decrypt_s_max": 25.90077159999055,
+  "peak_mem_MB_encrypt": 0.5930109024047852,
+  "peak_mem_MB_decrypt": 0.517547607421875
+ },
+ {
+  "size": [
+   64,
+   64,
+   1
+  ],
+  "n": 4096,
+  "construction": "V-CHACHA",
+  "reps": 1,
+  "encrypt_s_median": 0.28629769998951815,
+  "encrypt_s_min": 0.28629769998951815,
+  "encrypt_s_max": 0.28629769998951815,
+  "decrypt_s_median": 0.17639239999698475,
+  "decrypt_s_min": 0.17639239999698475,
+  "decrypt_s_max": 0.17639239999698475,
+  "peak_mem_MB_encrypt": 0.9015665054321289,
+  "peak_mem_MB_decrypt": 0.25812816619873047
+ },
+ {
+  "size": [
+   64,
+   64,
+   1
+  ],
+  "n": 4096,
+  "construction": "AES-256-GCM",
+  "reps": 1,
+  "encrypt_s_median": 0.012247600010596216,
+  "encrypt_s_min": 0.012247600010596216,
+  "encrypt_s_max": 0.012247600010596216,
+  "decrypt_s_median": 4.1399995097890496e-05,
+  "decrypt_s_min": 4.1399995097890496e-05,
+  "decrypt_s_max": 4.1399995097890496e-05,
+  "peak_mem_MB_encrypt": 0.011586189270019531,
+  "peak_mem_MB_decrypt": 0.00804901123046875
+ },
+ {
+  "size": [
+   64,
+   64,
+   1
+  ],
+  "n": 4096,
+  "construction": "ChaCha20-Poly1305",
+  "reps": 1,
+  "encrypt_s_median": 0.0008786999969743192,
+  "encrypt_s_min": 0.0008786999969743192,
+  "encrypt_s_max": 0.0008786999969743192,
+  "decrypt_s_median": 0.00011670001549646258,
+  "decrypt_s_min": 0.00011670001549646258,
+  "decrypt_s_max": 0.00011670001549646258,
+  "peak_mem_MB_encrypt": 0.007960319519042969,
+  "peak_mem_MB_decrypt": 0.00804901123046875
+ },
+ {
+  "size": [
+   64,
+   64,
+   1
+  ],
+  "n": 4096,
+  "construction": "AES-256-GCM-SIV",
+  "reps": 1,
+  "encrypt_s_median": 0.0006938000151421875,
+  "encrypt_s_min": 0.0006938000151421875,
+  "encrypt_s_max": 0.0006938000151421875,
+  "decrypt_s_median": 5.830000736750662e-05,
+  "decrypt_s_min": 5.830000736750662e-05,
+  "decrypt_s_max": 5.830000736750662e-05,
+  "peak_mem_MB_encrypt": 0.007960319519042969,
+  "peak_mem_MB_decrypt": 0.00804901123046875
+ }
+]

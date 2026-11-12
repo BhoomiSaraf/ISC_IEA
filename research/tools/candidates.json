@@ -1,0 +1,367 @@
+[
+ {
+  "key": "fridrich1998",
+  "doi": "10.1142/S021812749800098X"
+ },
+ {
+  "key": "chen2004cat",
+  "doi": "10.1016/j.chaos.2003.12.022"
+ },
+ {
+  "key": "shannon1949",
+  "doi": "10.1002/j.1538-7305.1949.tb00928.x"
+ },
+ {
+  "key": "kocarev2001",
+  "doi": "10.1109/7384.963463"
+ },
+ {
+  "key": "alvarez2006",
+  "doi": "10.1142/S0218127406015970"
+ },
+ {
+  "key": "biham1991",
+  "title": "Cryptanalysis of the chaotic-map cryptosystem suggested at EUROCRYPT'91"
+ },
+ {
+  "key": "li2008permutation",
+  "doi": "10.1016/j.image.2008.01.003"
+ },
+ {
+  "key": "jolfaei2016",
+  "doi": "10.1109/TIFS.2015.2489178"
+ },
+ {
+  "key": "solak2010fridrich",
+  "title": "Cryptanalysis of Fridrich's chaotic image encryption"
+ },
+ {
+  "key": "xie2017fridrich",
+  "title": "On the cryptanalysis of Fridrich's chaotic image encryption scheme"
+ },
+ {
+  "key": "li2019yearreview",
+  "title": "When an attacker meets a cipher-image in 2018: A year in review"
+ },
+ {
+  "key": "preishuber2018",
+  "doi": "10.1109/TIFS.2018.2812080"
+ },
+ {
+  "key": "ozkaynak2018",
+  "doi": "10.1007/s11071-018-4056-x"
+ },
+ {
+  "key": "teh2020",
+  "doi": "10.1016/j.jisa.2019.102421"
+ },
+ {
+  "key": "yap2016subkey",
+  "title": "On the effective subkey space of some image encryption algorithms using external key"
+ },
+ {
+  "key": "li2005rces",
+  "title": "Cryptanalysis of the RCES/RSES image encryption scheme"
+ },
+ {
+  "key": "li2018entropy",
+  "title": "Cryptanalysis of a chaotic image encryption algorithm based on information entropy"
+ },
+ {
+  "key": "ma2020blockcipher",
+  "title": "Cryptanalysis of an image block encryption algorithm based on chaotic maps"
+ },
+ {
+  "key": "li2016hierarchical",
+  "title": "Cracking a hierarchical chaotic image encryption algorithm based on permutation"
+ },
+ {
+  "key": "li2018autoblocking",
+  "title": "Cryptanalyzing an image encryption algorithm based on autoblocking and electrocardiography"
+ },
+ {
+  "key": "entropy2023crypt2dhyper",
+  "title": "Cryptanalysis of an Image Encryption Algorithm Based on Two-Dimensional Hyperchaotic Map"
+ },
+ {
+  "key": "entropy2022crypt2dhyper",
+  "title": "Cryptanalysis of an Image Encryption Algorithm Based on a 2D Hyperchaotic Map"
+ },
+ {
+  "key": "hua2015slmm",
+  "doi": "10.1016/j.ins.2014.11.018"
+ },
+ {
+  "key": "hua2016lasm",
+  "doi": "10.1016/j.ins.2016.01.017"
+ },
+ {
+  "key": "hua2019cosine",
+  "title": "Cosine-transform-based chaotic system for image encryption"
+ },
+ {
+  "key": "zhou2014new1d",
+  "title": "A new 1D chaotic system for image encryption"
+ },
+ {
+  "key": "hua2018medical",
+  "title": "Medical image encryption using high-speed scrambling and pixel adaptive diffusion"
+ },
+ {
+  "key": "chebsine2019",
+  "title": "2D Chebyshev-Sine Map for Image Encryption"
+ },
+ {
+  "key": "lu2025sinecheb",
+  "doi": "10.1080/09500340.2025.2519795"
+ },
+ {
+  "key": "huang2012chebyshev",
+  "title": "Image encryption algorithm using chaotic Chebyshev generator"
+ },
+ {
+  "key": "cao2013lhi",
+  "doi": "10.1155/2013/728375"
+ },
+ {
+  "key": "hikal2020",
+  "doi": "10.1016/j.jksuci.2018.09.006"
+ },
+ {
+  "key": "ikedahenon2017",
+  "title": "An Image Encryption Algorithm Using Ikeda and Henon Chaotic Maps"
+ },
+ {
+  "key": "sineikeda2023",
+  "title": "A New Sine-Ikeda Modulated Chaotic Key for Cybersecurity"
+ },
+ {
+  "key": "sharma2022hsm",
+  "doi": "10.1007/s11042-022-13733-y"
+ },
+ {
+  "key": "kocarev2003chebpk",
+  "doi": "10.1109/ISCAS.2003.1204947"
+ },
+ {
+  "key": "bergamo2005",
+  "doi": "10.1109/TCSI.2005.851701"
+ },
+ {
+  "key": "ikeda1979",
+  "doi": "10.1016/0030-4018(79)90090-7"
+ },
+ {
+  "key": "ikeda1980prl",
+  "doi": "10.1103/PhysRevLett.45.709"
+ },
+ {
+  "key": "li2005degradation",
+  "doi": "10.1142/S0218127405014052"
+ },
+ {
+  "key": "persohn2012",
+  "title": "Analyzing logistic map pseudorandom number generators for periodicity induced by finite precision floating-point representation"
+ },
+ {
+  "key": "galias2013",
+  "doi": "10.1109/MCAS.2013.2271444"
+ },
+ {
+  "key": "grebogi1988",
+  "doi": "10.1103/PhysRevA.38.3688"
+ },
+ {
+  "key": "brent1980",
+  "doi": "10.1007/BF01933190"
+ },
+ {
+  "key": "rfc5869",
+  "doi": "10.17487/RFC5869"
+ },
+ {
+  "key": "krawczyk2010",
+  "doi": "10.1007/978-3-642-14623-7_34"
+ },
+ {
+  "key": "rfc8439",
+  "doi": "10.17487/RFC8439"
+ },
+ {
+  "key": "rfc9106",
+  "doi": "10.17487/RFC9106"
+ },
+ {
+  "key": "sp80038d",
+  "doi": "10.6028/NIST.SP.800-38D"
+ },
+ {
+  "key": "sp80022",
+  "doi": "10.6028/NIST.SP.800-22r1a"
+ },
+ {
+  "key": "sp800108",
+  "doi": "10.6028/NIST.SP.800-108r1"
+ },
+ {
+  "key": "bellare2008ae",
+  "doi": "10.1007/s00145-008-9026-x"
+ },
+ {
+  "key": "rogaway2004nonce",
+  "doi": "10.1007/978-3-540-25937-4_22"
+ },
+ {
+  "key": "wu2013localentropy",
+  "doi": "10.1016/j.ins.2012.07.049"
+ },
+ {
+  "key": "durstenfeld1964",
+  "doi": "10.1145/364520.364540"
+ },
+ {
+  "key": "lemire2019",
+  "doi": "10.1145/3230636"
+ },
+ {
+  "key": "zia2022survey",
+  "doi": "10.1007/s10207-022-00588-5"
+ },
+ {
+  "key": "satellite2024review",
+  "title": "Privacy-Preserving for Images in Satellite Communications: A Comprehensive Review of Chaos-Based Encryption"
+ },
+ {
+  "key": "abduljaleel2022tentikeda",
+  "doi": "10.3390/jsan11040066"
+ },
+ {
+  "key": "ikedashrimp2024",
+  "title": "Mapping Chaos: Bifurcation Patterns and Shrimp Structures in the Ikeda Map"
+ },
+ {
+  "key": "stojanovski2001rng",
+  "doi": "10.1109/81.915385"
+ },
+ {
+  "key": "li2003finiteprecision",
+  "doi": "10.1016/S0010-4655(02)00875-5"
+ },
+ {
+  "key": "arroyo2008logistic",
+  "title": "On the inadequacy of the logistic map for cryptographic applications"
+ },
+ {
+  "key": "ozkaynak2014csprng",
+  "title": "Cryptographically secure random number generator with chaotic additional input"
+ },
+ {
+  "key": "patidar2009prbg",
+  "title": "A pseudo random bit generator based on chaotic logistic map and its statistical testing"
+ },
+ {
+  "key": "hua2020modular",
+  "doi": "10.1109/TSP.2020.2979596"
+ },
+ {
+  "key": "chen2018crypt1d",
+  "title": "Cryptanalysis and improvement in an image encryption scheme using combination of the 1D chaotic map"
+ },
+ {
+  "key": "zhu2018rttent",
+  "title": "Cryptanalyzing and improving a novel color image encryption algorithm using RT-enhanced chaotic tent maps"
+ },
+ {
+  "key": "feng2019integrated",
+  "title": "Cryptanalysis of the integrated chaotic systems based image encryption algorithm"
+ },
+ {
+  "key": "fips197",
+  "doi": "10.6028/NIST.FIPS.197-upd1"
+ },
+ {
+  "key": "fips1804",
+  "doi": "10.6028/NIST.FIPS.180-4"
+ },
+ {
+  "key": "rfc2104",
+  "doi": "10.17487/RFC2104"
+ },
+ {
+  "key": "rfc8452",
+  "doi": "10.17487/RFC8452"
+ },
+ {
+  "key": "bock2016nonce",
+  "title": "Nonce-Disrespecting Adversaries: Practical Forgery Attacks on GCM in TLS",
+  "note": "not indexed in OpenAlex; verified manually: USENIX WOOT 2016 program page and IACR ePrint 2016/475"
+ },
+ {
+  "key": "wu2011npcr",
+  "title": "NPCR and UACI randomness tests for image encryption"
+ },
+ {
+  "key": "liu2016fast",
+  "title": "A fast image encryption algorithm based on chaotic map"
+ },
+ {
+  "key": "wang2019prng",
+  "title": "Pseudo-Random Number Generator Based on Logistic Chaotic System"
+ },
+ {
+  "key": "hu2013chenprng",
+  "title": "Pseudorandom sequence generator based on the Chen chaotic system"
+ },
+ {
+  "key": "reliability2019devices",
+  "title": "On the reliability of computational chaos-based cryptography for information exchange"
+ },
+ {
+  "key": "coremath2022",
+  "title": "The CORE-MATH Project"
+ },
+ {
+  "key": "aanjaneya2022rlibm",
+  "title": "Progressive polynomial approximations for fast correctly rounded math libraries"
+ },
+ {
+  "key": "gladman2024accuracy",
+  "title": "Accuracy of Mathematical Functions in Single, Double, Double Extended, and Quadruple Precision"
+ },
+ {
+  "key": "zhu2018sha256",
+  "doi": "10.3390/e20090716"
+ },
+ {
+  "key": "embedded2019crypt",
+  "doi": "10.1007/s11042-020-10289-7"
+ },
+ {
+  "key": "securitydefects2017",
+  "title": "On the security defects of an image encryption scheme"
+ },
+ {
+  "key": "farajallah2016auth",
+  "title": "Fast and secure chaos-based cryptosystem for images"
+ },
+ {
+  "key": "medical2026chacha",
+  "title": "A standards-based framework for medical image encryption using ChaCha20, HKDF, and integrated HMAC authentication"
+ },
+ {
+  "key": "jcta2025blockauth",
+  "title": "Block-wise Authenticated DNA-based Image Encryption with Tamper Localization using HKDF-Derived Keys"
+ },
+ {
+  "key": "integral2019",
+  "doi": "10.3390/e21080815"
+ },
+ {
+  "key": "runningkey2014",
+  "title": "Chaotic Image Encryption Based on Running-Key Related to Plaintext"
+ },
+ {
+  "key": "hoang2026cryptmethod",
+  "doi": "10.1038/s41598-026-68585-5"
+ }
+]

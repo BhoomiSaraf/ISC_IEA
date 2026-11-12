@@ -1,0 +1,18 @@
+{
+ "arguments": 100063,
+ "sin_or_cos_results_differing_E1_vs_E2": 4853,
+ "trajectory_first_divergence_step": [
+  12,
+  4,
+  12,
+  9,
+  9,
+  7,
+  1,
+  24,
+  3,
+  6
+ ],
+ "label": "proxy measurement only",
+ "elapsed_seconds": 14.96
+}

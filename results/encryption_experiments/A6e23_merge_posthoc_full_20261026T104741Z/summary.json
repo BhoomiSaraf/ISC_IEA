@@ -1,0 +1,12 @@
+{
+ "label": "POST-HOC A6(e) Parts 2-3 follow-up run (memory-bounded); no pass/fail criterion; diagnostic mode = PILOT at production batch size, not a result",
+ "status": "INCOMPLETE: memory guard stop (available RAM 232 MB < 300 MB at part2 x batch 64)",
+ "memory_at_end": {
+  "working_set_mb": 141.9,
+  "peak_working_set_mb": 176.7,
+  "system_available_mb": 232.2
+ },
+ "part2": null,
+ "part3": null,
+ "elapsed_seconds": 629.52
+}

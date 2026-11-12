@@ -1,0 +1,12 @@
+{
+ "trials": 5,
+ "image": [
+  4,
+  6,
+  3
+ ],
+ "backend": "numpy (V1)",
+ "perturbation": "one sin call uniform over all sin calls of one decryption; one element uniform over that call's array; +-1 ulp uniform; public seed 1103",
+ "experiment": "A11_kcv",
+ "mode": "diagnostic"
+}

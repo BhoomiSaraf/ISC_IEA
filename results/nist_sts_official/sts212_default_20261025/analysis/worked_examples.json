@@ -1,0 +1,124 @@
+{
+  "dft_2.6.8": {
+    "sp800_22_printed": {
+      "N1": 46,
+      "N0": 47.5,
+      "d": -1.376494,
+      "p": 0.168669
+    },
+    "official_sts_stats": "FFT TEST\n\t\t-------------------------------------------\n\t\tCOMPUTATIONAL INFORMATION:\n\t\t-------------------------------------------\n\t\t(a) Percentile = 96.000000\n\t\t(b) N_l        = 48.000000\n\t\t(c) N_o        = 47.500000\n\t\t(d) d          = 0.458831\n\t\t-------------------------------------------\nSUCCESS\t\tp_value = 0.646355",
+    "official_sts_p": "0.646355",
+    "python_p": "0.646355"
+  },
+  "universal_2.9.8": {
+    "sp800_22_printed": {
+      "n": 1048576,
+      "L": 7,
+      "Q": 1280,
+      "K": 148516,
+      "c": 0.591311,
+      "sigma": 0.002703,
+      "sum": 919924.03802,
+      "fn": 6.194107,
+      "p": 0.427733
+    },
+    "official_sts_builtin_gsha1_stats": "UNIVERSAL STATISTICAL TEST\n\t\t--------------------------------------------\n\t\tCOMPUTATIONAL INFORMATION:\n\t\t--------------------------------------------\n\t\t(a) L         = 7\n\t\t(b) Q         = 1280\n\t\t(c) K         = 148516\n\t\t(d) sum       = 689020.251015\n\t\t(e) sigma     = 0.002703\n\t\t(f) variance  = 3.125000\n\t\t(g) exp_value = 6.196251\n\t\t(h) phi       = 4.639367\n\t\t(i) WARNING:  4 bits were discarded.\n\t\t-----------------------------------------\nFAILURE\t\tp_value = 0.000000",
+    "official_sts_builtin_gsha1_p": "0.000000"
+  },
+  "universal_2.9.4_illustration": {
+    "sp800_22_printed": {
+      "sum": 7.169925002,
+      "fn": 1.1949875,
+      "p": 0.767189
+    },
+    "recomputed_sum": 7.169925001442312,
+    "recomputed_fn": 1.1949875002403854,
+    "p_with_sigma_sqrt_variance": 0.7671892618646717,
+    "p_with_sigma_c_sqrt_variance_over_K": 0.06345350241515882,
+    "python_isc_seq_p": 0.06345350241515879,
+    "c": 0.3907218423253028,
+    "K": 6
+  },
+  "builtin_gsha1_vs_appendix_b": [
+    {
+      "test": "Frequency",
+      "appendix_b_p": "0.604458",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Block Frequency (m = 128)",
+      "appendix_b_p": "0.091517",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Cusum-Forward",
+      "appendix_b_p": "0.451231",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Cusum-Reverse",
+      "appendix_b_p": "0.550134",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Runs",
+      "appendix_b_p": "0.309757",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Long Runs of Ones",
+      "appendix_b_p": "0.657812",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Rank",
+      "appendix_b_p": "0.577829",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Spectral DFT",
+      "appendix_b_p": "0.163062",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Non-overlapping Templates (m = 9, B = 000000001)",
+      "appendix_b_p": "0.496601",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Overlapping Templates (m = 9)",
+      "appendix_b_p": "0.339426",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Universal",
+      "appendix_b_p": "0.411079",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Approximate Entropy (m = 10)",
+      "appendix_b_p": "0.982885",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Random Excursions (x = +1)",
+      "appendix_b_p": "0.000000",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Random Excursions Variant (x = -1)",
+      "appendix_b_p": "0.000000",
+      "builtin_gsha1_p": "0.000000"
+    },
+    {
+      "test": "Linear Complexity (M = 500)",
+      "appendix_b_p": "0.309412",
+      "builtin_gsha1_p": "0.786315"
+    },
+    {
+      "test": "Serial (m = 16, del Psi^2_m)",
+      "appendix_b_p": "0.760793",
+      "builtin_gsha1_p": "0.000000"
+    }
+  ]
+}

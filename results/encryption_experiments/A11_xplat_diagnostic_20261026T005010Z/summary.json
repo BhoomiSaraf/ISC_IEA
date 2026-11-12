@@ -1,0 +1,13 @@
+{
+ "e1_to_e2": {
+  "images": 2,
+  "failures": [],
+  "e2": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+ },
+ "e2_to_e1": {
+  "images": 2,
+  "failures": []
+ },
+ "test_failed": false,
+ "elapsed_seconds": 28.97
+}

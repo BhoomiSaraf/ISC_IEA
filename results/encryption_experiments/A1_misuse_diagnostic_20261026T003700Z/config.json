@@ -1,0 +1,14 @@
+{
+ "dims": [
+  64,
+  64,
+  1
+ ],
+ "trials_F1": 2,
+ "pairs_F2": 2,
+ "heldout_F4": 3,
+ "threshold": 0.99,
+ "exploratory_cap_seconds": 120,
+ "experiment": "A1_misuse",
+ "mode": "diagnostic"
+}

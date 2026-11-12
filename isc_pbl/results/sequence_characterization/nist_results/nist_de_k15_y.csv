@@ -1,0 +1,16 @@
+Test_Key,Test_Name,Status,Score_Mean,Min_P_Value,Reason,Elapsed_ms
+monobit,Monobit,PASS,0.904351,0.904351,Evaluated successfully,0.00
+frequency_within_block,Frequency Within Block,PASS,0.524560,0.524560,Evaluated successfully,0.00
+runs,Runs,PASS,0.459344,0.459344,Evaluated successfully,16000.00
+longest_run_ones_in_a_block,Longest Run Ones In A Block,PASS,0.562308,0.562308,Evaluated successfully,0.00
+binary_matrix_rank,Binary Matrix Rank,PASS,0.339569,0.339569,Evaluated successfully,158000.00
+dft,Discrete Fourier Transform,PASS,0.282955,0.282955,Evaluated successfully,7000.00
+non_overlapping_template_matching,Non Overlapping Template Matching,PASS,0.999995,0.999995,Evaluated successfully,197000.00
+overlapping_template_matching,Overlapping Template Matching,INELIGIBLE,N/A,N/A,"Insufficient length (n=100,000 < 1,000,000)",0.00
+maurers_universal,Maurers Universal,INELIGIBLE,N/A,N/A,"Insufficient length (n=100,000 < 387,840)",0.00
+linear_complexity,Linear Complexity,INELIGIBLE,N/A,N/A,"Insufficient length (n=100,000 < 1,000,000)",0.00
+serial,Serial,PASS,0.866047,0.801653,Evaluated successfully,0.00
+approximate_entropy,Approximate Entropy,PASS,0.444937,0.444937,Evaluated successfully,1196000.00
+cumulative sums,Cumulative Sums,PASS,0.953867,0.926465,Evaluated successfully,81000.00
+random_excursion,Random Excursion,INELIGIBLE,N/A,N/A,Insufficient zero-crossings (J=418 < 500 per SP 800-22 Sec 2.14),0.00
+random_excursion_variant,Random Excursion Variant,INELIGIBLE,N/A,N/A,Insufficient zero-crossings (J=418 < 500 per SP 800-22 Sec 2.14),0.00

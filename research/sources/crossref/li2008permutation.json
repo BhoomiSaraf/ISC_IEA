@@ -1,0 +1,824 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.image.2008.01.003",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     13
+    ]
+   ],
+   "date-time": "2026-10-13T16:57:49Z",
+   "timestamp": 1791910669532,
+   "version": "4.3.4"
+  },
+  "reference-count": 54,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2008-03-01T00:00:00Z",
+     "timestamp": 1204329600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2008-03-01T00:00:00Z",
+     "timestamp": 1204329600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100004377",
+    "name": "Hong Kong Polytechnic University",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "5232/06E"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "5232/06E"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004377",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100004377",
+    "name": "Hong Kong Polytechnic University",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "G-YX63"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "G-YX63"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004377",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100005156",
+    "name": "Alexander von Humboldt-Stiftung",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100005156",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100002920",
+    "name": "Research Grants Council, University Grants Committee",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "523206"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "523206"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100002920",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing: Image Communication"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.image.2008.01.003",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2008,
+     3,
+     3
+    ]
+   ],
+   "date-time": "2008-03-03T10:58:36Z",
+   "timestamp": 1204541916000
+  },
+  "page": "212-223",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 165,
+  "title": [
+   "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks"
+  ],
+  "prefix": "10.1016",
+  "volume": "23",
+  "author": [
+   {
+    "given": "Shujun",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Guanrong",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nikolaos G.",
+    "family": "Bourbakis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kwok-Tung",
+    "family": "Lo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "3",
+    "key": "10.1016/j.image.2008.01.003_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "251",
+    "DOI": "10.1117/12.208654",
+    "article-title": "Image encryption method using a class of fractals",
+    "volume": "4",
+    "author": "Alexopoulos",
+    "year": "1995",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib2",
+    "series-title": "Secure Speech Communications",
+    "author": "Beker",
+    "year": "1985"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib3",
+    "first-page": "403",
+    "article-title": "Cryptanalysis of video encryption based on space-filling curves",
+    "volume": "vol. 434",
+    "author": "Bertilsson",
+    "year": "1989"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.image.2008.01.003_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "567",
+    "DOI": "10.1016/0031-3203(92)90074-S",
+    "article-title": "Picture data encryption using SCAN patterns",
+    "volume": "25",
+    "author": "Bourbakis",
+    "year": "1992",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.image.2008.01.003_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "79",
+    "DOI": "10.1109/MMUL.2003.1218259",
+    "article-title": "SCAN-based compression-encryption-hiding for video on demand",
+    "volume": "10",
+    "author": "Bourbakis",
+    "year": "2003",
+    "journal-title": "IEEE Multimedia"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.image.2008.01.003_bib6",
+    "first-page": "1",
+    "article-title": "Comparing the security of pay-TV systems for use in Australia",
+    "volume": "24",
+    "author": "Brown",
+    "year": "1990",
+    "journal-title": "Austral. Telecomm. Res."
+   },
+   {
+    "issue": "14",
+    "key": "10.1016/j.image.2008.01.003_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1847",
+    "DOI": "10.1016/S0167-8655(02)00157-5",
+    "article-title": "Cryptanalysis of an encryption scheme for binary images",
+    "volume": "23",
+    "author": "Chang",
+    "year": "2002",
+    "journal-title": "Pattern Recognition Lett."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.image.2008.01.003_bib8",
+    "first-page": "279",
+    "article-title": "A linear quadtree compression scheme for image encryption",
+    "volume": "10",
+    "author": "Chang",
+    "year": "1997",
+    "journal-title": "Signal Process.: Image Commun."
+   },
+   {
+    "issue": "13",
+    "key": "10.1016/j.image.2008.01.003_bib9",
+    "first-page": "1291",
+    "article-title": "Design and realization of a new signal security system for multimedia data transmission",
+    "volume": "2003",
+    "author": "Chen",
+    "year": "2003",
+    "journal-title": "EURASIP J. Appl. Signal Process."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.image.2008.01.003_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "2439",
+    "DOI": "10.1109/78.852023",
+    "article-title": "Partial encryption of compressed images and videos",
+    "volume": "48",
+    "author": "Cheng",
+    "year": "2000",
+    "journal-title": "IEEE Trans. Signal Process."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib11",
+    "unstructured": "H.C.H. Cheng, Partial encryption for image and video communication, Master Thesis, Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada, 1998."
+   },
+   {
+    "issue": "5\u20136",
+    "key": "10.1016/j.image.2008.01.003_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "461",
+    "DOI": "10.1016/S0167-8655(98)00017-8",
+    "article-title": "Large encryption binary images with higher security",
+    "volume": "19",
+    "author": "Chung",
+    "year": "1998",
+    "journal-title": "Pattern Recognition Lett."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib13",
+    "unstructured": "J.H. Dolske, Secure MPEG video: techniques and pitfalls, June 1997, available online at \u3008http://www.dolske.net/old/gradwork/cis788r08/\u3009."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.image.2008.01.003_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Internat. J. Bifurcation Chaos"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib15",
+    "series-title": "Multimedia Encryption and Watermarking",
+    "author": "Furht",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib16",
+    "series-title": "Multimedia Security Handbook",
+    "first-page": "93",
+    "article-title": "Fundamentals of multimedia encryption techniques",
+    "author": "Furht",
+    "year": "2004"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.image.2008.01.003_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "735",
+    "DOI": "10.1109/49.223875",
+    "article-title": "Design and cryptanalysis of transform-based analog speech scramblers",
+    "volume": "11",
+    "author": "Goldburg",
+    "year": "1993",
+    "journal-title": "IEEE J. Selected Areas Commun."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.image.2008.01.003_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "261",
+    "DOI": "10.1016/S0020-0190(96)00168-8",
+    "article-title": "On the security of image encryption method",
+    "volume": "60",
+    "author": "Jan",
+    "year": "1996",
+    "journal-title": "Inform. Process. Lett."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib19",
+    "unstructured": "A. Kudelski, Method for scrambling and unscrambling a video signal, U.S. Patent 5375168, 1994."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib20",
+    "unstructured": "M. Kuhn, AntiSky\u2014an image processing attack on VideoCrypt, 1994, online document, available at \u3008http://www.cl.cam.ac.uk/~mgk25/tv-crypt/image-processing/antisky.html\u3009."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib21",
+    "unstructured": "M. Kuhn, Analysis for the Nagravision video scrambling method, 1998, online document, available at \u3008http://www.cl.cam.ac.uk/~mgk25/nagra.pdf\u3009."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib22",
+    "series-title": "Cryptology: System Identification and Key-Clustering",
+    "first-page": "309",
+    "article-title": "Cryptology of speech signal",
+    "author": "Kumar",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib23",
+    "series-title": "Multimedia Security Handbook",
+    "first-page": "133",
+    "article-title": "Chaos-based encryption for digital images and videos",
+    "author": "Li",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib24",
+    "series-title": "Proceedings of the IEEE International Conference on Multimedia & Expo (ICME\u20192004)",
+    "article-title": "Perceptual cryptography on SPIHT compressed images or videos",
+    "author": "Lian",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib25",
+    "series-title": "Proceedings of the International Conference on Computer and Information Technology (CIT\u20192004)",
+    "first-page": "78",
+    "article-title": "Perceptual cryptography on JPEG2000 compressed images or videos",
+    "author": "Lian",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib26",
+    "series-title": "Proceedings of the IEEE International Symposium on Intelligent Multimedia, Video and Speech Processing (ISIMP\u20192004)",
+    "first-page": "57",
+    "article-title": "Perceptual cryptography on wavelet-transform encoded videos",
+    "author": "Lian",
+    "year": "2004"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.image.2008.01.003_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "725",
+    "DOI": "10.1016/j.patcog.2003.08.011",
+    "article-title": "Image and video encryption using SCAN patterns",
+    "volume": "37",
+    "author": "Maniccam",
+    "year": "2004",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.image.2008.01.003_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "article-title": "A novel fast image encryption scheme based on 3D chaotic Baker maps",
+    "volume": "14",
+    "author": "Mao",
+    "year": "2004",
+    "journal-title": "Int. J. Bifurcation Chaos"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.image.2008.01.003_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "2061",
+    "DOI": "10.1109/TIP.2006.873426",
+    "article-title": "A joint signal processing and cryptographic approach to multimedia encryption",
+    "volume": "15",
+    "author": "Mao",
+    "year": "2006",
+    "journal-title": "IEEE Trans. Image Process."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib30",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Y. Matias, A. Shamir, A video scrambing technique based on space filling curve (extended abstract), in: Advances in Cryptology\u2014Crypto\u201987, Lecture Notes in Computer Science, vol. 293, Springer, Berlin, 1987, pp. 398\u2013417.",
+    "DOI": "10.1007/3-540-48184-2_35"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib31",
+    "series-title": "Handbook of Applied Cryptography",
+    "author": "Menezes",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib32",
+    "series-title": "Wireless Security: Models, Threats, and Solutions",
+    "first-page": "253",
+    "article-title": "Speech cryptology",
+    "author": "Nichols",
+    "year": "2002"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.image.2008.01.003_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "304",
+    "DOI": "10.1007/BF02916835",
+    "article-title": "A new class of scrambling transformation and its application in the image information covering",
+    "volume": "43",
+    "author": "Qi",
+    "year": "2000",
+    "journal-title": "Sci. China\u2014Ser. E (English Edition)"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib34",
+    "unstructured": "L. Qiao, Multimedia security and copyright protection, Ph.D. Thesis, Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana, IL, USA, 1998."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib35",
+    "series-title": "Proceedings of the IEEE International Symposium on Consumer Electronics (ISCE\u201997)",
+    "first-page": "226",
+    "article-title": "Is MPEG encryption by using random list instead of ZigZag order secure?",
+    "author": "Qiao",
+    "year": "1997"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.image.2008.01.003_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "437",
+    "DOI": "10.1016/S0097-8493(98)00033-8",
+    "article-title": "Comparison of MPEG encryption algorithms",
+    "volume": "22",
+    "author": "Qiao",
+    "year": "1998",
+    "journal-title": "Comput. Graphics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.image.2008.01.003_bib37",
+    "doi-asserted-by": "crossref",
+    "first-page": "318",
+    "DOI": "10.1117/1.482647",
+    "article-title": "Fast encryption of image data using chaotic Kolmogorov flows",
+    "volume": "7",
+    "author": "Scharinger",
+    "year": "1998",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib38",
+    "series-title": "Applied Cryptography\u2014Protocols, Algorithms, and Source Code in C",
+    "author": "Schneier",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib39",
+    "first-page": "191",
+    "article-title": "A secrecy scheme for MPEG video data using the joint of compression and encryption",
+    "volume": "vol. 1729",
+    "author": "Shin",
+    "year": "1999"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.image.2008.01.003_bib40",
+    "doi-asserted-by": "crossref",
+    "first-page": "655",
+    "DOI": "10.1049/el:19900429",
+    "article-title": "Speech encryption in the transform domain",
+    "volume": "26",
+    "author": "Sridharan",
+    "year": "1990",
+    "journal-title": "Electron. Lett."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.image.2008.01.003_bib41",
+    "first-page": "215",
+    "article-title": "Fast Fourier transform based speech encryption system",
+    "volume": "138",
+    "author": "Sridharan",
+    "year": "1991",
+    "journal-title": "IEE Proc. I\u2014Commun. Speech Vision"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib42",
+    "series-title": "Proceedings of the Fourth ACM International Conference on Multimedia",
+    "first-page": "219",
+    "article-title": "Methods for encrypting and decrypting MPEG video data efficiently",
+    "author": "Tang",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib43",
+    "series-title": "Proceedings of the IEEE Pacific-Rim Conference on Multimedia (IEEE-PCM\u20192000)",
+    "first-page": "316",
+    "article-title": "Chosen DCT coefficients attack on MPEG encryption schemes",
+    "author": "Uehara",
+    "year": "2000"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib44",
+    "series-title": "Proceedings of the IEEE Pacific-Rim Conference on Multimedia (IEEE PCM\u20192000)",
+    "first-page": "332",
+    "article-title": "Securing wavelet compression with random permutations",
+    "author": "Uehara",
+    "year": "2000"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib45",
+    "series-title": "Image and Video Encryption: From Digital Rights Management to Secured Personal Communication",
+    "author": "Uhl",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib46",
+    "unstructured": "D. Wagner, G.G. Rose, T. Ritter, T. Jakobsen, N. Ferguson, D.R. Stinson, Transposition ciphers, 2001, online discussions in news group sci.crypt.research at google.com, available online at \u3008http://groups-beta.google.com/group/sci.crypt.research/browse_thread/thread/3cd88407a3485cb1/58ff17304187ce74#58ff17304187ce74\u3009."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib47",
+    "unstructured": "Wikipedia, Television encryption, 2007, online document. URL \u3008http://en.wikipedia.org/wiki/Television_encryption\u3009."
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib48",
+    "series-title": "Proceedings of (Taiwan) National Symposium on Telecommunications",
+    "first-page": "358",
+    "article-title": "A new chaotic image encryption algorithm",
+    "author": "Yen",
+    "year": "1998"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.image.2008.01.003_bib49",
+    "doi-asserted-by": "crossref",
+    "first-page": "167",
+    "DOI": "10.1049/ip-vis:20000208",
+    "article-title": "Efficient hierarchical chaotic image encryption algorithm and its VLSI realisation",
+    "volume": "147",
+    "author": "Yen",
+    "year": "2000",
+    "journal-title": "IEE Proc.\u2014Vision Image Signal Process."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.image.2008.01.003_bib50",
+    "doi-asserted-by": "crossref",
+    "first-page": "118",
+    "DOI": "10.1109/TMM.2003.808817",
+    "article-title": "Efficient frequency domain selective scrambling of digital video",
+    "volume": "5",
+    "author": "Zeng",
+    "year": "2003",
+    "journal-title": "IEEE Trans. Multimedia"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib51",
+    "series-title": "Multimedia Security Technologies for Digital Rights Management",
+    "year": "2006"
+   },
+   {
+    "key": "10.1016/j.image.2008.01.003_bib52",
+    "first-page": "394",
+    "article-title": "Ergodic matrix in image encryption",
+    "volume": "vol. 4875",
+    "author": "Zhao",
+    "year": "2002"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.image.2008.01.003_bib53",
+    "doi-asserted-by": "crossref",
+    "first-page": "803",
+    "DOI": "10.1631/jzus.2004.0803",
+    "article-title": "Decryption of pure-position permutation algorithms",
+    "volume": "5",
+    "author": "Zhao",
+    "year": "2004",
+    "journal-title": "J. Zhejiang Univ. Sci."
+   },
+   {
+    "issue": "20",
+    "key": "10.1016/j.image.2008.01.003_bib54",
+    "doi-asserted-by": "crossref",
+    "first-page": "1929",
+    "DOI": "10.1049/el:19981335",
+    "article-title": "Fractal circuit layout for spatial decorrelation of images",
+    "volume": "34",
+    "author": "Zunino",
+    "year": "1998",
+    "journal-title": "Electron. Lett."
+   }
+  ],
+  "container-title": [
+   "Signal Processing: Image Communication"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0923596508000064?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0923596508000064?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     14
+    ]
+   ],
+   "date-time": "2026-05-14T13:23:25Z",
+   "timestamp": 1778765005000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0923596508000064"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     3
+    ]
+   ]
+  },
+  "references-count": 54,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0923596508000064"
+  ],
+  "URL": "https://doi.org/10.1016/j.image.2008.01.003",
+  "relation": {},
+  "ISSN": [
+   "0923-5965"
+  ],
+  "issn-type": [
+   {
+    "value": "0923-5965",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2008,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing: Image Communication",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.image.2008.01.003",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2008 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

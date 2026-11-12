@@ -1,0 +1,22 @@
+{
+ "verdict": {
+  "method_valid": true,
+  "method_sensitive": true,
+  "isc_predictability_finding": false
+ },
+ "max_z": {
+  "ISC fwd lane 0": 1.5600000000000058,
+  "ISC perm lane 31": 1.1800000000000033,
+  "ISC bwd lane 63": 2.42,
+  "CONTROL- ChaCha20 fwd": 1.6000000000000014,
+  "CONTROL+ arccos8 of lane 0 x": 11.60000000000001
+ },
+ "lc_flags": {
+  "ISC fwd lane 0": false,
+  "ISC perm lane 31": false,
+  "ISC bwd lane 63": false,
+  "CONTROL- ChaCha20 fwd": false,
+  "CONTROL+ arccos8 of lane 0 x": false
+ },
+ "elapsed_seconds": 49.42
+}

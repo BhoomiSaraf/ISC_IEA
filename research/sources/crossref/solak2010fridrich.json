@@ -1,0 +1,324 @@
+{
+ "query": "https://api.crossref.org/works/10.1142/s0218127410026563",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T19:21:04Z",
+   "timestamp": 1791400864179,
+   "version": "4.3.3"
+  },
+  "reference-count": 20,
+  "publisher": "World Scientific Pub Co Pte Lt",
+  "issue": "05",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Int. J. Bifurcation Chaos"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     5
+    ]
+   ]
+  },
+  "abstract": "<jats:p> We cryptanalyze Fridrich's chaotic image encryption algorithm. We show that the algebraic weaknesses of the algorithm make it vulnerable against chosen-ciphertext attacks. We propose an attack that reveals the secret permutation that is used to shuffle the pixels of a round input. We demonstrate the effectiveness of our attack with examples and simulation results. We also show that our proposed attack can be generalized to other well-known chaotic image encryption algorithms. </jats:p>",
+  "DOI": "10.1142/s0218127410026563",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     5,
+     7
+    ]
+   ],
+   "date-time": "2010-05-07T04:13:47Z",
+   "timestamp": 1273205627000
+  },
+  "page": "1405-1413",
+  "source": "Crossref",
+  "is-referenced-by-count": 191,
+  "title": [
+   "CRYPTANALYSIS OF FRIDRICH'S CHAOTIC IMAGE ENCRYPTION"
+  ],
+  "prefix": "10.1142",
+  "volume": "20",
+  "author": [
+   {
+    "given": "ERCAN",
+    "family": "SOLAK",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science and Engineering, Isik University, Sile, Istanbul, Turkey"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "CAHIT",
+    "family": "\u00c7OKAL",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science and Engineering, Isik University, Sile, Istanbul, Turkey"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "OLCAY TANER",
+    "family": "YILDIZ",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science and Engineering, Isik University, Sile, Istanbul, Turkey"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "T\u00dcRKER",
+    "family": "BIYIKO\u011eLU",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Mathematics, Isik University, Sile, Istanbul, Turkey"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "219",
+  "published-online": {
+   "date-parts": [
+    [
+     2012,
+     5,
+     2
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "rf1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127406015970"
+   },
+   {
+    "key": "rf2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.02.021"
+   },
+   {
+    "key": "rf3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.2959102"
+   },
+   {
+    "key": "rf4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.022"
+   },
+   {
+    "key": "rf5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2001.972857"
+   },
+   {
+    "key": "rf6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812749800098X"
+   },
+   {
+    "key": "rf7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127407019603"
+   },
+   {
+    "key": "rf8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2007.07.037"
+   },
+   {
+    "key": "rf9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2004.02.047"
+   },
+   {
+    "key": "rf10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812740401151X"
+   },
+   {
+    "key": "rf11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.974872"
+   },
+   {
+    "key": "rf12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127402005686"
+   },
+   {
+    "key": "rf13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2006.874182"
+   },
+   {
+    "key": "rf14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1201/9781439821916"
+   },
+   {
+    "key": "rf16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.922466"
+   },
+   {
+    "key": "rf17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.2242052"
+   },
+   {
+    "key": "rf18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2004.841602"
+   },
+   {
+    "key": "rf19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2005.02.083"
+   },
+   {
+    "key": "rf20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.572346"
+   },
+   {
+    "key": "rf21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0167-2789(98)00199-7"
+   }
+  ],
+  "container-title": [
+   "International Journal of Bifurcation and Chaos"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.worldscientific.com/doi/pdf/10.1142/S0218127410026563",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     6
+    ]
+   ],
+   "date-time": "2019-08-06T17:26:11Z",
+   "timestamp": 1565112371000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.worldscientific.com/doi/abs/10.1142/S0218127410026563"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     5
+    ]
+   ]
+  },
+  "references-count": 20,
+  "journal-issue": {
+   "issue": "05",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      5,
+      2
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      5
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1142/S0218127410026563"
+  ],
+  "URL": "https://doi.org/10.1142/s0218127410026563",
+  "relation": {},
+  "ISSN": [
+   "0218-1274",
+   "1793-6551"
+  ],
+  "issn-type": [
+   {
+    "value": "0218-1274",
+    "type": "print"
+   },
+   {
+    "value": "1793-6551",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     5
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,1823 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.jisa.2019.102361",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2026-10-23T20:34:01Z",
+   "timestamp": 1792787641113,
+   "version": "4.5.0"
+  },
+  "reference-count": 137,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       10,
+       1
+      ]
+     ],
+     "date-time": "2019-10-01T00:00:00Z",
+     "timestamp": 1569888000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       10,
+       1
+      ]
+     ],
+     "date-time": "2019-10-01T00:00:00Z",
+     "timestamp": 1569888000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of Information Security and Applications"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jisa.2019.102361",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     7,
+     16
+    ]
+   ],
+   "date-time": "2019-07-16T05:36:18Z",
+   "timestamp": 1563255378000
+  },
+  "page": "102361",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 113,
+  "special_numbering": "C",
+  "title": [
+   "When an attacker meets a cipher-image in 2018: A year in review"
+  ],
+  "prefix": "10.1016",
+  "volume": "48",
+  "author": [
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yun",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eric Yong",
+    "family": "Xie",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "75834",
+    "DOI": "10.1109/ACCESS.2018.2883690",
+    "article-title": "Cryptanalysis of a chaotic image encryption algorithm based on information entropy",
+    "volume": "6",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "150",
+    "DOI": "10.1016/j.sigpro.2016.10.002",
+    "article-title": "On the cryptanalysis of Fridrich\u2019s chaotic image encryption scheme",
+    "volume": "132",
+    "author": "Xie",
+    "year": "2017",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.jisa.2019.102361_bib0003",
+    "doi-asserted-by": "crossref",
+    "first-page": "27919",
+    "DOI": "10.1007/s11042-018-5974-9",
+    "article-title": "A double color image encryption scheme based on three-dimensional Brownian motion",
+    "volume": "77",
+    "author": "Gan",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0004",
+    "doi-asserted-by": "crossref",
+    "first-page": "745",
+    "DOI": "10.1007/s11071-018-4391-y",
+    "article-title": "An efficient pixel-level chaotic image encryption algorithm",
+    "volume": "94",
+    "author": "Ye",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "130",
+    "DOI": "10.1016/j.sigpro.2018.05.008",
+    "article-title": "An image encryption scheme using self-adaptive selective permutation and inter-intra-block feedback diffusion",
+    "volume": "151",
+    "author": "dai Liu",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_sbref0006",
+    "article-title": "Cryptanalysis and improvement on an image encryption algorithm design using a novel chaos based S-box",
+    "volume": "10",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "Symmetry-Basel"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "1391",
+    "DOI": "10.1007/s11042-016-4288-z",
+    "article-title": "Chaos based adaptive double-image encryption scheme using hash function and S-boxes",
+    "volume": "77",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0008",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1007/s11071-017-3874-6",
+    "article-title": "A novel scheme for image encryption using substitution box and chaotic system",
+    "volume": "91",
+    "author": "Ullah",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "2003",
+    "DOI": "10.1007/s11071-018-4471-z",
+    "article-title": "Design of a strong S-box based on a matrix approach",
+    "volume": "94",
+    "author": "Aboytes-Gonzalez",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "993",
+    "DOI": "10.1007/s00521-016-2511-5",
+    "article-title": "A novel construction of substitution box for image encryption applications with Gingerbreadman chaotic map and s8 permutation",
+    "volume": "29",
+    "author": "Khan",
+    "year": "2018",
+    "journal-title": "Neural Comput. Appl."
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0011",
+    "doi-asserted-by": "crossref",
+    "first-page": "55405",
+    "DOI": "10.1109/ACCESS.2018.2871557",
+    "article-title": "A new 1d chaotic map and beta-hill climbing for generating substitution-boxes",
+    "volume": "6",
+    "author": "Alzaidi",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0012",
+    "doi-asserted-by": "crossref",
+    "first-page": "2739",
+    "DOI": "10.1007/s11042-017-4375-9",
+    "article-title": "Symmetric cryptosystem based on skew tent map",
+    "volume": "77",
+    "author": "Palacios-Luengas",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0013",
+    "doi-asserted-by": "crossref",
+    "first-page": "172",
+    "DOI": "10.1016/j.sigpro.2018.02.011",
+    "article-title": "Cryptanalysis and improvement of the image cryptosystem reusing permutation matrix dynamically",
+    "volume": "148",
+    "author": "Diab",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "292",
+    "DOI": "10.1016/j.sigpro.2017.06.014",
+    "article-title": "Cryptanalysis and enhancements of image encryption based on three-dimensional bit matrix permutation",
+    "volume": "142",
+    "author": "Wu",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "92",
+    "DOI": "10.1109/MMUL.2018.112142439",
+    "article-title": "Cryptanalysis and improvement of a chaotic image encryption by first-order time-delay system",
+    "volume": "25",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Multimed."
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0016",
+    "doi-asserted-by": "crossref",
+    "first-page": "444",
+    "DOI": "10.1016/j.sigpro.2017.11.005",
+    "article-title": "Cryptanalysis and enhancements of image encryption using combination of the 1D chaotic map",
+    "volume": "144",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2019.102361_sbref0017",
+    "article-title": "Cryptanalysis and improvement of an image encryption scheme using combination of one-dimensional chaotic maps",
+    "volume": "27",
+    "author": "Panwar",
+    "year": "2018",
+    "journal-title": "J Electron Imaging"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0018",
+    "doi-asserted-by": "crossref",
+    "first-page": "2399",
+    "DOI": "10.1007/s11071-018-4332-9",
+    "article-title": "Cryptanalysis and improvement in an image encryption scheme using combination of the 1D chaotic map",
+    "volume": "93",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jisa.2019.102361_sbref0019",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.3390/e20110843",
+    "article-title": "Improved cryptanalysis and enhancements of an image encryption scheme using combined 1D chaotic maps",
+    "volume": "20",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "Entropy"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_sbref0020",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1109/JPHOT.2018.2880590",
+    "article-title": "Cryptanalysis and improvement of the hyper-chaotic image encryption scheme based on DNA encoding and scrambling",
+    "volume": "10",
+    "author": "Feng",
+    "year": "2018",
+    "journal-title": "IEEE Photonics J"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0021",
+    "first-page": "314",
+    "article-title": "Further analytical bifurcation analysis and applications of coupled logistic maps",
+    "volume": "338",
+    "author": "Elsadany",
+    "year": "2018",
+    "journal-title": "Appl Math Comput"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0022",
+    "doi-asserted-by": "crossref",
+    "first-page": "2611",
+    "DOI": "10.1007/s11042-017-4455-x",
+    "article-title": "An image encryption algorithm based on irregular wave representation",
+    "volume": "77",
+    "author": "Huang",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2019.102361_bib0023",
+    "doi-asserted-by": "crossref",
+    "first-page": "3847",
+    "DOI": "10.1007/s00521-017-2970-3",
+    "article-title": "A novel image encryption scheme based on orthogonal matrix, skew tent map, and XOR operation",
+    "volume": "30",
+    "author": "Ahmad",
+    "year": "2018",
+    "journal-title": "Neural Comput Appl"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0024",
+    "doi-asserted-by": "crossref",
+    "first-page": "463",
+    "DOI": "10.1109/TCYB.2016.2642166",
+    "article-title": "Designing hyperchaotic cat maps with any desired number of positive Lyapunov exponents",
+    "volume": "48",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "IEEE Trans Cybern"
+   },
+   {
+    "issue": "20",
+    "key": "10.1016/j.jisa.2019.102361_bib0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "26191",
+    "DOI": "10.1007/s11042-018-5844-5",
+    "article-title": "An efficient and self-adapting colour-image encryption algorithm based on chaos and interactions among multiple layers",
+    "volume": "77",
+    "author": "Luo",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0026",
+    "doi-asserted-by": "crossref",
+    "first-page": "6647",
+    "DOI": "10.1007/s11042-017-4577-1",
+    "article-title": "A plaintext-related image encryption algorithm based on chaos",
+    "volume": "77",
+    "author": "Zhang",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0027",
+    "first-page": "123",
+    "article-title": "A cryptographic model for better information security",
+    "volume": "43",
+    "author": "Kumar",
+    "year": "2018",
+    "journal-title": "J Inf Secur Appl"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0028",
+    "doi-asserted-by": "crossref",
+    "first-page": "195",
+    "DOI": "10.1109/TNNLS.2016.2619345",
+    "article-title": "Synchronization of an inertial neural network with time-varying delays and its application to secure communication",
+    "volume": "29",
+    "author": "Lakshmanan",
+    "year": "2018",
+    "journal-title": "IEEE Trans Neural Netw Learn Syst"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jisa.2019.102361_bib0029",
+    "doi-asserted-by": "crossref",
+    "first-page": "3775",
+    "DOI": "10.1109/TII.2018.2808966",
+    "article-title": "Intelligent impulsive synchronization of nonlinear interconnected neural networks for image protection",
+    "volume": "14",
+    "author": "Hu",
+    "year": "2018",
+    "journal-title": "IEEE Trans Ind Inf"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.sigpro.2017.06.028",
+    "article-title": "Secure image cryptosystem with unique key streams via hyper-chaotic system",
+    "volume": "142",
+    "author": "Diab",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "15",
+    "key": "10.1016/j.jisa.2019.102361_bib0031",
+    "doi-asserted-by": "crossref",
+    "first-page": "20103",
+    "DOI": "10.1007/s11042-017-5437-8",
+    "article-title": "Cryptanalysis of a plaintext-related chaotic RGB image encryption scheme using total plain image characteristics",
+    "volume": "77",
+    "author": "Fan",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.jisa.2019.102361_sbref0032",
+    "article-title": "Cryptanalysis of an image encryption algorithm based on combined chaos for a BAN system, and improved scheme using SHA-512 and hyperchaos",
+    "volume": "10",
+    "author": "Ahmad",
+    "year": "2018",
+    "journal-title": "Symmetry-Basel"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_sbref0033",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127418501146",
+    "article-title": "Cryptanalysis of chaos-based cryptosystem from the hardware perspective",
+    "volume": "28",
+    "author": "Luo",
+    "year": "2018",
+    "journal-title": "Int J Bifurcation Chaos"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0034",
+    "doi-asserted-by": "crossref",
+    "first-page": "336",
+    "DOI": "10.1016/j.sigpro.2017.09.020",
+    "article-title": "On the security of a stream cipher in reversible data hiding schemes operating in the encrypted domain",
+    "volume": "143",
+    "author": "Khelifi",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "305",
+    "DOI": "10.1007/s11071-018-4056-x",
+    "article-title": "Brief review on application of nonlinear dynamics in image encryption",
+    "volume": "92",
+    "author": "\u00d6zkaynak",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "20",
+    "key": "10.1016/j.jisa.2019.102361_bib0036",
+    "doi-asserted-by": "crossref",
+    "first-page": "27337",
+    "DOI": "10.1007/s11042-018-5923-7",
+    "article-title": "Chaotic encryption with different modes of operation based on Rubik\u2019s cube for efficient wireless communication",
+    "volume": "77",
+    "author": "Helmy",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jisa.2019.102361_bib0037",
+    "doi-asserted-by": "crossref",
+    "first-page": "3679",
+    "DOI": "10.1109/TII.2018.2791944",
+    "article-title": "Secure surveillance framework for IoT systems using probabilistic image encryption",
+    "volume": "14",
+    "author": "Muhammad",
+    "year": "2018",
+    "journal-title": "IEEE Trans Ind Inf"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0038",
+    "doi-asserted-by": "crossref",
+    "first-page": "188",
+    "DOI": "10.3390/e20030188",
+    "article-title": "Some iterative properties of f-chaos in nonautonomous discrete systems",
+    "volume": "20",
+    "author": "Tang",
+    "year": "2018",
+    "journal-title": "Entropy"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0039",
+    "doi-asserted-by": "crossref",
+    "first-page": "2557",
+    "DOI": "10.1109/TIE.2017.2736515",
+    "article-title": "Sine-transform-based chaotic system with FPGA implementation",
+    "volume": "65",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "IEEE Trans Ind Electron"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0040",
+    "first-page": "235",
+    "article-title": "One-dimensional nonlinear model for producing chaos",
+    "volume": "65",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "IEEE Trans Circ Syst I"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_bib0041",
+    "doi-asserted-by": "crossref",
+    "first-page": "2359",
+    "DOI": "10.1109/TCSVT.2017.2703946",
+    "article-title": "Design and FPGA-based realization of a chaotic secure video communication system",
+    "volume": "28",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "IEEE Trans Circuits Syst Video Technol"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0042",
+    "doi-asserted-by": "crossref",
+    "first-page": "7741",
+    "DOI": "10.1007/s11042-017-4675-0",
+    "article-title": "A new rapid hyperchaotic system for more efficient 2D data encryption",
+    "volume": "77",
+    "author": "Bouslehi",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0043",
+    "doi-asserted-by": "crossref",
+    "first-page": "148",
+    "DOI": "10.1016/j.sigpro.2018.03.010",
+    "article-title": "2D logistic-sine-coupling map for image encryption",
+    "volume": "149",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0044",
+    "doi-asserted-by": "crossref",
+    "first-page": "24751",
+    "DOI": "10.1007/s11042-018-5675-4",
+    "article-title": "A spatiotemporal chaotic image encryption scheme based on self adaptive model and dynamic keystream fetching technique",
+    "volume": "77",
+    "author": "Gayathri",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "134",
+    "DOI": "10.1016/j.sigpro.2017.10.004",
+    "article-title": "Medical image encryption using high-speed scrambling and pixel adaptive diffusion",
+    "volume": "144",
+    "author": "Hua",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0046",
+    "doi-asserted-by": "crossref",
+    "first-page": "231",
+    "DOI": "10.1016/j.sigpro.2018.07.011",
+    "article-title": "Some properties of the logistic map over the finite field and its application",
+    "volume": "153",
+    "author": "Yang",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.jisa.2019.102361_bib0047",
+    "doi-asserted-by": "crossref",
+    "first-page": "29119",
+    "DOI": "10.1007/s11042-018-6078-2",
+    "article-title": "Image encryption algorithm with an avalanche effect based on a six-dimensional discrete chaotic system",
+    "volume": "77",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0048",
+    "first-page": "2322",
+    "article-title": "Dynamic analysis of digital chaotic maps via state-mapping networks",
+    "volume": "66",
+    "author": "Li",
+    "year": "2019",
+    "journal-title": "IEEE Trans Circuits Syst I"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_sbref0049",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127418500475",
+    "article-title": "A new chaotic image encryption scheme using breadth-first search and dynamic diffusion",
+    "volume": "28",
+    "author": "Yin",
+    "year": "2018",
+    "journal-title": "Int J Bifurcation Chaos"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1049/iet-spr.2016.0584",
+    "article-title": "Image block encryption algorithm based on chaotic maps",
+    "volume": "12",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "IET Signal Process"
+   },
+   {
+    "issue": "23",
+    "key": "10.1016/j.jisa.2019.102361_bib0051",
+    "doi-asserted-by": "crossref",
+    "first-page": "31177",
+    "DOI": "10.1007/s11042-018-6214-z",
+    "article-title": "A chaotic permutation and diffusion based image encryption algorithm for secure communications",
+    "volume": "77",
+    "author": "Mondal",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "17",
+    "key": "10.1016/j.jisa.2019.102361_bib0052",
+    "doi-asserted-by": "crossref",
+    "first-page": "22787",
+    "DOI": "10.1007/s11042-017-5534-8",
+    "article-title": "A new simple chaotic system and its application in medical image encryption",
+    "volume": "77",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0053",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.neucom.2017.12.048",
+    "article-title": "Designing permutation-substitution image encryption networks with Henon map",
+    "volume": "283",
+    "author": "Ping",
+    "year": "2018",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0054",
+    "doi-asserted-by": "crossref",
+    "first-page": "233",
+    "DOI": "10.1016/j.sigpro.2018.04.018",
+    "article-title": "Design of image cipher using life-like cellular automata and chaotic map",
+    "volume": "150",
+    "author": "Ping",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "723",
+    "DOI": "10.1007/s11071-018-4390-z",
+    "article-title": "A pseudo-random numbers generator based on a novel 3D chaotic map with an application to color image encryption",
+    "volume": "94",
+    "author": "Sahari",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0056",
+    "doi-asserted-by": "crossref",
+    "first-page": "67581",
+    "DOI": "10.1109/ACCESS.2018.2879565",
+    "article-title": "A chaos based image encryption scheme using digit-level permutation and block diffusion",
+    "volume": "6",
+    "author": "Ping",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0057",
+    "doi-asserted-by": "crossref",
+    "first-page": "1319",
+    "DOI": "10.1007/s11071-018-4426-4",
+    "article-title": "A novel plaintext-related image encryption scheme using hyper-chaotic system",
+    "volume": "94",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0058",
+    "doi-asserted-by": "crossref",
+    "first-page": "25223",
+    "DOI": "10.1007/s11042-018-5782-2",
+    "article-title": "Image encryption based on modified Henon map using hybrid chaotic shift transform",
+    "volume": "77",
+    "author": "Sheela",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "18",
+    "key": "10.1016/j.jisa.2019.102361_bib0059",
+    "doi-asserted-by": "crossref",
+    "first-page": "23449",
+    "DOI": "10.1007/s11042-017-5566-0",
+    "article-title": "Networked hardware assisted key image and chaotic attractors for secure RGB image communication",
+    "volume": "77",
+    "author": "Rajagopalan",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "6883",
+    "DOI": "10.1007/s11042-017-4605-1",
+    "article-title": "A chaotic color image encryption using integrated bit-level permutation",
+    "volume": "77",
+    "author": "Teng",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0061",
+    "doi-asserted-by": "crossref",
+    "first-page": "122",
+    "DOI": "10.1016/j.sigpro.2017.08.020",
+    "article-title": "A novel bit-level image encryption algorithm based on 2D-LICM hyperchaotic map",
+    "volume": "143",
+    "author": "Cao",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0062",
+    "doi-asserted-by": "crossref",
+    "first-page": "24615",
+    "DOI": "10.1007/s11042-017-5575-z",
+    "article-title": "RISC: a robust image symmetric cryptosystem",
+    "volume": "77",
+    "author": "Becheikh",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0063",
+    "doi-asserted-by": "crossref",
+    "first-page": "7305",
+    "DOI": "10.1007/s11042-017-4634-9",
+    "article-title": "A novel image encryption algorithm based on piecewise linear chaotic maps and least squares approximation",
+    "volume": "77",
+    "author": "Ghebleh",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0064",
+    "doi-asserted-by": "crossref",
+    "first-page": "1318",
+    "DOI": "10.1016/j.neucom.2017.09.068",
+    "article-title": "Image encryption using partitioned cellular automata",
+    "volume": "275",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "1285",
+    "DOI": "10.1007/s11042-016-4279-0",
+    "article-title": "Double-image cryptosystem using chaotic map and mixture amplitude-phase retrieval in gyrator domain",
+    "volume": "77",
+    "author": "Shao",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0066",
+    "doi-asserted-by": "crossref",
+    "first-page": "6897",
+    "DOI": "10.1007/s11042-017-4606-0",
+    "article-title": "Double image compression and encryption scheme using logistic mapped convolution and cellular automata",
+    "volume": "77",
+    "author": "Hanis",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0067",
+    "doi-asserted-by": "crossref",
+    "first-page": "4585",
+    "DOI": "10.1007/s11042-017-4637-6",
+    "article-title": "Four-image encryption scheme based on quaternion fresnel transform, chaos and computer generated hologram",
+    "volume": "77",
+    "author": "Yu",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0068",
+    "doi-asserted-by": "crossref",
+    "first-page": "1715",
+    "DOI": "10.1007/s11042-017-4349-y",
+    "article-title": "Joint encryption and compression of 3D images based on tensor compressive sensing with non-autonomous 3D chaotic system",
+    "volume": "77",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0069",
+    "doi-asserted-by": "crossref",
+    "first-page": "25821",
+    "DOI": "10.1007/s11042-018-5818-7",
+    "article-title": "Multiple color image encryption and authentication based on phase retrieval and partial decryption in quaternion gyrator domain",
+    "volume": "77",
+    "author": "Shao",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jisa.2019.102361_sbref0070",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127418501328",
+    "article-title": "Beta chaotic map based image encryption using genetic algorithm",
+    "volume": "28",
+    "author": "Kaur",
+    "year": "2018",
+    "journal-title": "Int J Bifurcation Chaos"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0071",
+    "doi-asserted-by": "crossref",
+    "first-page": "25569",
+    "DOI": "10.1007/s11042-018-5807-x",
+    "article-title": "Optimizing chaos based image encryption",
+    "volume": "77",
+    "author": "Noshadian",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0072",
+    "doi-asserted-by": "crossref",
+    "first-page": "25799",
+    "DOI": "10.1007/s11042-018-5817-8",
+    "article-title": "Parallel image encryption with bitplane decomposition and genetic algorithm",
+    "volume": "77",
+    "author": "Mozaffari",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0073",
+    "doi-asserted-by": "crossref",
+    "first-page": "183",
+    "DOI": "10.1016/j.sigpro.2018.04.014",
+    "article-title": "A compression-diffusion-permutation strategy for securing image",
+    "volume": "150",
+    "author": "Huang",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.jisa.2019.102361_bib0074",
+    "doi-asserted-by": "crossref",
+    "first-page": "28633",
+    "DOI": "10.1007/s11042-018-6013-6",
+    "article-title": "A novel scheme for simultaneous image compression and encryption based on wavelet packet transform and multi-chaotic systems",
+    "volume": "77",
+    "author": "Lv",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "2191",
+    "DOI": "10.1007/s11042-017-4370-1",
+    "article-title": "A fast and efficient approach to color-image encryption based on compressive sensing and fractional fourier transform",
+    "volume": "77",
+    "author": "Zhang",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0076",
+    "first-page": "371",
+    "article-title": "Secure and lightweight compressive sensing using stream cipher",
+    "volume": "65",
+    "author": "Pudi",
+    "year": "2018",
+    "journal-title": "IEEE Trans Circ SystII"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2019.102361_bib0077",
+    "doi-asserted-by": "crossref",
+    "first-page": "6243",
+    "DOI": "10.1007/s11042-017-4534-z",
+    "article-title": "A novel color image encryption scheme using DNA permutation based on the Lorenz system",
+    "volume": "77",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jisa.2019.102361_bib0078",
+    "doi-asserted-by": "crossref",
+    "first-page": "24701",
+    "DOI": "10.1007/s11042-018-5669-2",
+    "article-title": "A new image encryption algorithm based on heterogeneous chaotic neural network generator and DNA encoding",
+    "volume": "77",
+    "author": "Maddodi",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "20",
+    "key": "10.1016/j.jisa.2019.102361_bib0079",
+    "doi-asserted-by": "crossref",
+    "first-page": "27017",
+    "DOI": "10.1007/s11042-018-5902-z",
+    "article-title": "A RGB image encryption technique using Lorenz and Rossler chaotic system on DNA sequences",
+    "volume": "77",
+    "author": "Girdhar",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "23",
+    "key": "10.1016/j.jisa.2019.102361_bib0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "30993",
+    "DOI": "10.1007/s11042-018-6145-8",
+    "article-title": "A novel chaotic image cryptosystem based on DNA sequence operations and single neuron model",
+    "volume": "77",
+    "author": "Slimane",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_sbref0081",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1109/JPHOT.2018.2827165",
+    "article-title": "Image encryption-then-transmission using DNA encryption algorithm and the double chaos",
+    "volume": "10",
+    "author": "Fu",
+    "year": "2018",
+    "journal-title": "IEEE Photonics J"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_sbref0082",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1109/JPHOT.2018.2817550",
+    "article-title": "A novel hyperchaotic image encryption scheme based on DNA encoding, pixel-level scrambling and bit-level scrambling",
+    "volume": "10",
+    "author": "Sun",
+    "year": "2018",
+    "journal-title": "IEEE Photonics J"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0083",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1016/j.sigpro.2018.06.008",
+    "article-title": "Image encryption using 2D H\u00e9non-Sine map and DNA approach",
+    "volume": "153",
+    "author": "Wu",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0084",
+    "doi-asserted-by": "crossref",
+    "first-page": "653",
+    "DOI": "10.1007/s00521-016-2490-6",
+    "article-title": "Image salient regions encryption for generating visually meaningful ciphertext image",
+    "volume": "29",
+    "author": "Wen",
+    "year": "2018",
+    "journal-title": "Neural Comput Appl"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_bib0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "11084",
+    "DOI": "10.1364/OE.26.011084",
+    "article-title": "Designing optical 3D images encryption and reconstruction using monospectral synthetic aperture integral imaging",
+    "volume": "26",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Opt Express"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0086",
+    "doi-asserted-by": "crossref",
+    "first-page": "701",
+    "DOI": "10.1007/s10043-018-0464-x",
+    "article-title": "Asymmetric image encryption using phase-truncated discrete multiple-parameter fractional fourier transform",
+    "volume": "25",
+    "author": "Ren",
+    "year": "2018",
+    "journal-title": "Opt Rev"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0087",
+    "doi-asserted-by": "crossref",
+    "first-page": "673",
+    "DOI": "10.1109/TII.2017.2714261",
+    "article-title": "Image encryption based on interleaved computer-generated holograms",
+    "volume": "14",
+    "author": "Kong",
+    "year": "2018",
+    "journal-title": "IEEE Trans Ind Inf"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2019.102361_bib0088",
+    "doi-asserted-by": "crossref",
+    "first-page": "2238",
+    "DOI": "10.1049/iet-ipr.2018.5440",
+    "article-title": "Multiple-parameter fractional quaternion fourier transform and its application in colour image encryption",
+    "volume": "12",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "IET Image Proc"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0089",
+    "doi-asserted-by": "crossref",
+    "first-page": "62",
+    "DOI": "10.1016/j.optlaseng.2018.03.011",
+    "article-title": "Optical hyperspectral image encryption based on improved Chirikov mapping and gyrator transform",
+    "volume": "107",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "Opt Lasers Eng"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "321",
+    "DOI": "10.1080/09500340.2017.1395486",
+    "article-title": "QR code-based non-linear image encryption using Shearlet transform and spiral phase transform",
+    "volume": "65",
+    "author": "Kumar",
+    "year": "2018",
+    "journal-title": "J Mod Opt"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_sbref0091",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1145/3165265",
+    "article-title": "Robust privacy-preserving image sharing over online social networks (OSNs)",
+    "volume": "14",
+    "author": "Sun",
+    "year": "2018",
+    "journal-title": "ACM Trans Multimed Comput Commun Appl"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.jisa.2019.102361_bib0092",
+    "doi-asserted-by": "crossref",
+    "first-page": "2645",
+    "DOI": "10.1109/TMM.2018.2817065",
+    "article-title": "JPEG image encryption with improved format compatibility and file size preservation",
+    "volume": "20",
+    "author": "He",
+    "year": "2018",
+    "journal-title": "IEEE Trans Multimedia"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2019.102361_bib0093",
+    "doi-asserted-by": "crossref",
+    "first-page": "2541",
+    "DOI": "10.1109/TIP.2018.2802199",
+    "article-title": "Efficient encrypted images filtering and transform coding with Walsh-Hadamard transform and parallelization",
+    "volume": "27",
+    "author": "Zheng",
+    "year": "2018",
+    "journal-title": "IEEE Trans Image Process"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.jisa.2019.102361_bib0094",
+    "doi-asserted-by": "crossref",
+    "first-page": "1670",
+    "DOI": "10.1109/TIFS.2018.2799381",
+    "article-title": "An efficient MSB prediction-based method for high-capacity reversible data hiding in encrypted images",
+    "volume": "13",
+    "author": "Puteaux",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "272",
+    "DOI": "10.1016/j.jvcir.2018.11.017",
+    "article-title": "Reversible data hiding in encrypted images with private-key homomorphism and public-key homomorphism",
+    "volume": "57",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "J Vis Commun Image Represent"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_sbref0096",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1117/1.JEI.27.2.023017",
+    "article-title": "Enhanced encrypted reversible data hiding algorithm with minimum distortion through homomorphic encryption",
+    "volume": "27",
+    "author": "Bhardwaj",
+    "year": "2018",
+    "journal-title": "J Electron Imaging"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.jisa.2019.102361_bib0097",
+    "doi-asserted-by": "crossref",
+    "first-page": "1670",
+    "DOI": "10.1109/TIFS.2018.2799381",
+    "article-title": "An efficient MSB prediction-based method for high-capacity reversible data hiding in encrypted images",
+    "volume": "13",
+    "author": "Puteaux",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2019.102361_bib0098",
+    "doi-asserted-by": "crossref",
+    "first-page": "1055",
+    "DOI": "10.1109/TDSC.2016.2634161",
+    "article-title": "Separable reversible data hiding in encrypted JPEG bitstreams",
+    "volume": "15",
+    "author": "Qian",
+    "year": "2018",
+    "journal-title": "IEEE Trans Dependable Secure Comput"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jisa.2019.102361_bib0099",
+    "doi-asserted-by": "crossref",
+    "first-page": "3099",
+    "DOI": "10.1109/TCSVT.2017.2742023",
+    "article-title": "Reversible data hiding in homomorphic encrypted domain by mirroring ciphertext group",
+    "volume": "28",
+    "author": "Xiang",
+    "year": "2018",
+    "journal-title": "IEEE Trans Circuits Syst Video Technol"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0100",
+    "doi-asserted-by": "crossref",
+    "first-page": "122",
+    "DOI": "10.1016/j.jvcir.2018.01.007",
+    "article-title": "A lossy compression scheme for encrypted images exploiting Cauchy distribution and weighted rate distortion optimization",
+    "volume": "51",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "J Vis Commun Image Represent"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2019.102361_bib0101",
+    "doi-asserted-by": "crossref",
+    "first-page": "1271",
+    "DOI": "10.1109/TIFS.2017.2784379",
+    "article-title": "Efficient compression of encrypted binary images using the Markov random field",
+    "volume": "13",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_bib0102",
+    "doi-asserted-by": "crossref",
+    "first-page": "2397",
+    "DOI": "10.1109/TCSVT.2017.2707923",
+    "article-title": "XOR-based visual cryptographic schemes with monotonously increasing and flawless reconstruction properties",
+    "volume": "28",
+    "author": "Shyu",
+    "year": "2018",
+    "journal-title": "IEEE Trans Circ Syst Video Technol"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0103",
+    "doi-asserted-by": "crossref",
+    "first-page": "77",
+    "DOI": "10.1016/j.image.2018.05.004",
+    "article-title": "Progressive (k, n) secret image sharing schemes based on boolean operations and covering codes",
+    "volume": "66",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "Signal Process\u2013Image Commun"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0104",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.1016/j.dsp.2018.07.015",
+    "article-title": "Chinese Remainder Theorem-based two-in-one image secret sharing with three decoding options",
+    "volume": "82",
+    "author": "Yan",
+    "year": "2018",
+    "journal-title": "Digit Signal Process"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2019.102361_bib0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "868",
+    "DOI": "10.1109/TDSC.2016.2609930",
+    "article-title": "Towards privacy-preserving and practical image-centric social discovery",
+    "volume": "15",
+    "author": "Yuan",
+    "year": "2018",
+    "journal-title": "IEEE Trans Depend Secure Comput"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0106",
+    "doi-asserted-by": "crossref",
+    "first-page": "1042",
+    "DOI": "10.1109/TIFS.2017.2777787",
+    "article-title": "Privbiomtauth: privacy preserving biometrics-based and user centric protocol for user authentication from mobile phones",
+    "volume": "13",
+    "author": "Gunasinghe",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0107",
+    "doi-asserted-by": "crossref",
+    "first-page": "496",
+    "DOI": "10.1109/TDSC.2016.2593444",
+    "article-title": "Searchable encryption over feature-rich data",
+    "volume": "15",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "IEEE Trans Dependable Secure Comput"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0108",
+    "doi-asserted-by": "crossref",
+    "first-page": "276",
+    "DOI": "10.1109/TCC.2015.2491933",
+    "article-title": "Towards privacy-preserving content-based image retrieval in cloud computing",
+    "volume": "6",
+    "author": "Xia",
+    "year": "2018",
+    "journal-title": "IEEE Trans Cloud Comput"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jisa.2019.102361_sbref0109",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0206460",
+    "article-title": "A novel image encryption scheme based on quantum dynamical spinning and rotations",
+    "volume": "13",
+    "author": "Khan",
+    "year": "2018",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "1073",
+    "DOI": "10.1109/ACCESS.2017.2777869",
+    "article-title": "Robust encryption of quantum medical images",
+    "volume": "6",
+    "author": "El-Latif",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2019.102361_sbref0111",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s11128-018-2104-6",
+    "article-title": "Multi-image encryption scheme based on quantum 3D arnold transform and scaled Zhongtang chaotic system",
+    "volume": "17",
+    "author": "Zhou",
+    "year": "2018",
+    "journal-title": "Quantum Inf Process"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0112",
+    "doi-asserted-by": "crossref",
+    "first-page": "64",
+    "DOI": "10.1109/MMUL.2017.3051512",
+    "article-title": "Cryptanalyzing an image-scrambling encryption algorithm of pixel bits",
+    "volume": "3",
+    "author": "Li",
+    "year": "2017",
+    "journal-title": "IEEE Multimedia"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2019.102361_bib0113",
+    "doi-asserted-by": "crossref",
+    "first-page": "2405",
+    "DOI": "10.1587/transfun.E101.A.2405",
+    "article-title": "Security evaluation for block scrambling-based image encryption including JPEG distortion against jigsaw puzzle solver attacks",
+    "volume": "E101A",
+    "author": "Chuman",
+    "year": "2018",
+    "journal-title": "IEICE Trans Fund ElectronCommun Comput Sci"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2019.102361_bib0114",
+    "doi-asserted-by": "crossref",
+    "first-page": "3150",
+    "DOI": "10.1587/transinf.2018EDT0002",
+    "article-title": "A block-permutation-based encryption scheme with independent processing of RGB components",
+    "volume": "E101\u2013D",
+    "author": "Imaizumi",
+    "year": "2018",
+    "journal-title": "IEICE Trans Inf Syst"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1016/j.sigpro.2015.07.008",
+    "article-title": "Cracking a hierarchical chaotic image encryption algorithm based on permutation",
+    "volume": "118",
+    "author": "Li",
+    "year": "2016",
+    "journal-title": "Signal Process"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2019.102361_bib0116",
+    "doi-asserted-by": "crossref",
+    "first-page": "2137",
+    "DOI": "10.1109/TIFS.2018.2812080",
+    "article-title": "Depreciating motivation and empirical security analysis of chaos-based image and video encryption",
+    "volume": "13",
+    "author": "Preishuber",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0117",
+    "doi-asserted-by": "crossref",
+    "first-page": "46",
+    "DOI": "10.1109/MMUL.2018.2873472",
+    "article-title": "Cryptanalyzing an image encryption algorithm based on autoblocking and electrocardiography",
+    "volume": "25",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Multimed"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2019.102361_bib0118",
+    "doi-asserted-by": "crossref",
+    "first-page": "228",
+    "DOI": "10.1016/j.ins.2017.11.021",
+    "article-title": "Improved known-plaintext attack to permutation-only multimedia ciphers",
+    "volume": "430\u2013431",
+    "author": "Zhang",
+    "year": "2018",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0119",
+    "doi-asserted-by": "crossref",
+    "first-page": "18759",
+    "DOI": "10.1109/ACCESS.2018.2817600",
+    "article-title": "Cryptanalyzing and improving a novel color image encryption algorithm using RT-enhanced chaotic tent maps",
+    "volume": "6",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2019.102361_bib0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "1163",
+    "DOI": "10.1109/TCYB.2017.2682561",
+    "article-title": "On the security of a class of diffusion mechanisms for image encryption",
+    "volume": "48",
+    "author": "Zhang",
+    "year": "2018",
+    "journal-title": "IEEE Trans Cybern"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0121",
+    "doi-asserted-by": "crossref",
+    "first-page": "28",
+    "DOI": "10.1016/j.sigpro.2017.08.018",
+    "article-title": "Cryptanalysis of a colour image encryption using chaotic APFM nonlinear adaptive filter",
+    "volume": "143",
+    "author": "Fan",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0122",
+    "doi-asserted-by": "crossref",
+    "first-page": "164",
+    "DOI": "10.1016/j.image.2018.01.002",
+    "article-title": "Cryptanalysis of a chaotic image encryption scheme based on permutation-diffusion structure",
+    "volume": "62",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Signal Process-Image Commun"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0123",
+    "doi-asserted-by": "crossref",
+    "first-page": "47102",
+    "DOI": "10.1109/ACCESS.2018.2867111",
+    "article-title": "Cryptanalyzing a color image encryption scheme based on hybrid hyper-chaotic system and cellular automata",
+    "volume": "6",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.jisa.2019.102361_bib0124",
+    "doi-asserted-by": "crossref",
+    "first-page": "28225",
+    "DOI": "10.1007/s11042-018-6015-4",
+    "article-title": "Cryptanalyzing an image encryption scheme using reverse 2-dimensional chaotic map and dependent diffusion",
+    "volume": "77",
+    "author": "Farajallah",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0125",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1016/j.sigpro.2017.12.021",
+    "article-title": "Cryptanalysis of image encryption scheme based on a new 1D chaotic system",
+    "volume": "146",
+    "author": "Dhall",
+    "year": "2018",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0126",
+    "doi-asserted-by": "crossref",
+    "first-page": "366",
+    "DOI": "10.1016/j.ijleo.2017.10.072",
+    "article-title": "Cryptanalysis and security improvement for a symmetric color image encryption algorithm",
+    "volume": "155",
+    "author": "Hoang",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0127",
+    "doi-asserted-by": "crossref",
+    "first-page": "320",
+    "DOI": "10.1364/JOSAA.35.000320",
+    "article-title": "Security analysis of a double-image encryption technique based on an asymmetric algorithm",
+    "volume": "35",
+    "author": "Xiong",
+    "year": "2018",
+    "journal-title": "J Opt Soc Am A"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0128",
+    "doi-asserted-by": "crossref",
+    "first-page": "120",
+    "DOI": "10.1016/j.optcom.2018.07.058",
+    "article-title": "Cryptanalysis of an optical cryptosystem based on phase-truncated fourier transform and nonlinear operations",
+    "volume": "428",
+    "author": "Xiong",
+    "year": "2018",
+    "journal-title": "Opt Commun"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_bib0129",
+    "doi-asserted-by": "crossref",
+    "first-page": "370",
+    "DOI": "10.1016/j.ijleo.2018.04.068",
+    "article-title": "Cryptanalysis of multimedia encryption using elliptic curve cryptography",
+    "volume": "168",
+    "author": "Singh",
+    "year": "2018",
+    "journal-title": "Optik"
+   },
+   {
+    "key": "10.1016/j.jisa.2019.102361_sbref0130",
+    "series-title": "Optics and Photonics for Information Processing XII",
+    "article-title": "Cryptanalysis on double random phase encoding with deep learning",
+    "author": "Hai",
+    "year": "2018"
+   },
+   {
+    "issue": "16",
+    "key": "10.1016/j.jisa.2019.102361_bib0131",
+    "doi-asserted-by": "crossref",
+    "first-page": "20455",
+    "DOI": "10.1007/s11042-017-5439-6",
+    "article-title": "On security of image ciphers based on logic circuits and chaotic permutations",
+    "volume": "77",
+    "author": "Annaby",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2019.102361_bib0132",
+    "doi-asserted-by": "crossref",
+    "first-page": "1003",
+    "DOI": "10.1007/s11071-018-4406-8",
+    "article-title": "Security performance analysis of a chaotic stream cipher",
+    "volume": "94",
+    "author": "Lin",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.jisa.2019.102361_sbref0133",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127418500864",
+    "article-title": "Cryptanalysis of a chaotic stream cipher and its improved scheme",
+    "volume": "28",
+    "author": "Lin",
+    "year": "2018",
+    "journal-title": "Int J Bifur Chaos"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jisa.2019.102361_bib0134",
+    "doi-asserted-by": "crossref",
+    "first-page": "1960",
+    "DOI": "10.1109/TMM.2017.2786860",
+    "article-title": "A content-adaptive joint image compression and encryption scheme",
+    "volume": "20",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Trans Multimed"
+   },
+   {
+    "issue": "23",
+    "key": "10.1016/j.jisa.2019.102361_bib0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "31397",
+    "DOI": "10.1007/s11042-018-6051-0",
+    "article-title": "A dynamic approach for a lightweight and secure cipher for medical images",
+    "volume": "77",
+    "author": "Noura",
+    "year": "2018",
+    "journal-title": "Multimed Tools Appl"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2019.102361_bib0136",
+    "doi-asserted-by": "crossref",
+    "first-page": "61",
+    "DOI": "10.1145/272991.273009",
+    "article-title": "Bad subsequences of well-known linear congruential pseudorandom number generators",
+    "volume": "8",
+    "author": "Entacher",
+    "year": "1998",
+    "journal-title": "ACM Trans Model ComputSimul"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jisa.2019.102361_bib0137",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "\u00c1lvarez",
+    "year": "2006",
+    "journal-title": "Int J Bifur Chaos"
+   }
+  ],
+  "container-title": [
+   "Journal of Information Security and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2214212619301954?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2214212619301954?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     1
+    ]
+   ],
+   "date-time": "2025-11-01T11:51:51Z",
+   "timestamp": 1761997911000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2214212619301954"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     10
+    ]
+   ]
+  },
+  "references-count": 137,
+  "alternative-id": [
+   "S2214212619301954"
+  ],
+  "URL": "https://doi.org/10.1016/j.jisa.2019.102361",
+  "relation": {},
+  "ISSN": [
+   "2214-2126"
+  ],
+  "issn-type": [
+   {
+    "value": "2214-2126",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     10
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "When an attacker meets a cipher-image in 2018: A year in review",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Journal of Information Security and Applications",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.jisa.2019.102361",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2019 Elsevier Ltd. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ],
+  "article-number": "102361"
+ }
+}

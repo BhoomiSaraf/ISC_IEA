@@ -1,0 +1,138 @@
+{
+ "results": [
+  {
+   "construction": "V-FULL",
+   "cases": {
+    "every_bit_flip_small": {
+     "attempts": 1120,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 96,
+      "AuthenticationError": 1024
+     }
+    },
+    "random_bit_flip_large": {
+     "attempts": 200,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 198,
+      "Malformed": 2
+     }
+    },
+    "truncate": {
+     "attempts": 64,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 64
+     }
+    },
+    "extend": {
+     "attempts": 64,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 64
+     }
+    },
+    "swap_nonce_kcv_tag": {
+     "attempts": 3,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 3
+     }
+    },
+    "relabel_dims_same_n": {
+     "attempts": 5,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 5
+     }
+    },
+    "profile_change": {
+     "attempts": 1,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 1
+     }
+    },
+    "wrong_key": {
+     "attempts": 20,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 20
+     }
+    }
+   },
+   "total_attempts": 1477,
+   "accepted": 0,
+   "attack_succeeded": false
+  },
+  {
+   "construction": "V-CHACHA",
+   "cases": {
+    "every_bit_flip_small": {
+     "attempts": 1120,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 96,
+      "AuthenticationError": 1024
+     }
+    },
+    "random_bit_flip_large": {
+     "attempts": 200,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 196,
+      "Malformed": 4
+     }
+    },
+    "truncate": {
+     "attempts": 64,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 64
+     }
+    },
+    "extend": {
+     "attempts": 64,
+     "accepted": 0,
+     "exceptions": {
+      "Malformed": 64
+     }
+    },
+    "swap_nonce_kcv_tag": {
+     "attempts": 3,
+     "accepted": 1,
+     "exceptions": {
+      "AuthenticationError": 2
+     }
+    },
+    "relabel_dims_same_n": {
+     "attempts": 5,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 5
+     }
+    },
+    "profile_change": {
+     "attempts": 1,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 1
+     }
+    },
+    "wrong_key": {
+     "attempts": 20,
+     "accepted": 0,
+     "exceptions": {
+      "AuthenticationError": 20
+     }
+    }
+   },
+   "total_attempts": 1477,
+   "accepted": 1,
+   "attack_succeeded": true
+  }
+ ],
+ "criterion": "attack succeeds if any modified ciphertext or wrong key is accepted",
+ "elapsed_seconds": 12.82
+}

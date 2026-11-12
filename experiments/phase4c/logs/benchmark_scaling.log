@@ -1,0 +1,3 @@
+size=64: enc_mean=3.056s dec_mean=3.271s throughput=1.34 KB/s
+size=128: enc_mean=5.273s dec_mean=5.305s throughput=3.11 KB/s
+size=256: enc_mean=11.736s dec_mean=11.569s throughput=5.58 KB/s
