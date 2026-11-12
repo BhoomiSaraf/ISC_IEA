@@ -1,0 +1,4 @@
+# optional; none are required for the cipher
+z3-solver
+pooch
+mpmath

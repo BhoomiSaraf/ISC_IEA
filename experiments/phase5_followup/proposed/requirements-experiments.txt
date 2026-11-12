@@ -1,0 +1,6 @@
+-r requirements-dev.txt
+matplotlib==3.10.0
+pandas==2.2.3
+Pillow==11.1.0
+nistrng==1.2.3
+scikit-learn  # version not recorded (not installed here)

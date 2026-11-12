@@ -1,0 +1,553 @@
+{
+ "env": {
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "scipy": "scipy.stats"
+ },
+ "runs": {
+  "ext1_seedA_sbox": {
+   "n": 8000000,
+   "chi2": 338.559168,
+   "p": 0.00035223473521804887,
+   "stored_chi2": 338.559168,
+   "stored_p": 0.00035223473521804887,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 251.951808,
+   "per_lane_chi2_sd": 20.02710653636416,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 83.559168,
+   "cohen_w": 0.003231856432454882,
+   "max_abs_rel_bin_dev": 0.019935999999999954,
+   "rel_dev_sd": 0.006505374393530325,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.15350051212857668,
+   "split_half_chi2": [
+    327.346432,
+    260.17792
+   ],
+   "chi2_x_pos": 306.235392,
+   "chi2_y_pos": 301.11129600000004,
+   "mean_pairwise_lane_resid_corr": 0.005448003059806711,
+   "bit_marginal_z_msb_to_lsb": [
+    -0.8605489527040451,
+    2.0548523061283173,
+    -1.2600642840743925,
+    -0.15909902576691642,
+    0.8506494577676198,
+    -0.27647875144396145,
+    -3.1501607101861384,
+    -3.913128927086303
+   ],
+   "chi2_high_nibble_df15": [
+    11.068152000000001
+   ],
+   "chi2_low_nibble_df15": [
+    78.112316
+   ],
+   "lag1_highnibble_pair_chi2_df255": 218.9286352410794,
+   "block10k_var_ratio_mean_over_bins": 0.9980280882082995
+  },
+  "ext1_seedA_bwd": {
+   "n": 8000000,
+   "chi2": 313.092992,
+   "p": 0.007580524340129082,
+   "stored_chi2": 313.092992,
+   "stored_p": 0.007580524340129082,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 254.814976,
+   "per_lane_chi2_sd": 21.68384038194858,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 58.09299199999998,
+   "cohen_w": 0.0026947400616757077,
+   "max_abs_rel_bin_dev": 0.021856000000000098,
+   "rel_dev_sd": 0.006255927109549797,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.1550887436019656,
+   "split_half_chi2": [
+    272.077824,
+    270.033408
+   ],
+   "chi2_x_pos": 254.698496,
+   "chi2_y_pos": 296.099328,
+   "mean_pairwise_lane_resid_corr": 0.0036046168692487864,
+   "bit_marginal_z_msb_to_lsb": [
+    0.555078823231151,
+    -0.6915504320003893,
+    -1.1433916651786329,
+    0.1081873375215911,
+    0.1046518036157922,
+    -2.0477812383160914,
+    -2.7888291449998635,
+    -5.791204537917768
+   ],
+   "chi2_high_nibble_df15": [
+    11.064748000000002
+   ],
+   "chi2_low_nibble_df15": [
+    76.444524
+   ],
+   "lag1_highnibble_pair_chi2_df255": 263.4367368045921,
+   "block10k_var_ratio_mean_over_bins": 1.0006582336155487
+  },
+  "ext1_seedB_sbox": {
+   "n": 8000000,
+   "chi2": 362.050112,
+   "p": 1.1585782732054912e-05,
+   "stored_chi2": 362.050112,
+   "stored_p": 1.1585782732054912e-05,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 253.37625599999998,
+   "per_lane_chi2_sd": 23.4385643272552,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 107.05011200000001,
+   "cohen_w": 0.0036580410057843803,
+   "max_abs_rel_bin_dev": 0.02358400000000005,
+   "rel_dev_sd": 0.006727277606877835,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.21153183796559547,
+   "split_half_chi2": [
+    299.923968,
+    297.750016
+   ],
+   "chi2_x_pos": 347.23622400000005,
+   "chi2_y_pos": 309.503744,
+   "mean_pairwise_lane_resid_corr": 0.006854253191014155,
+   "bit_marginal_z_msb_to_lsb": [
+    0.437699097554734,
+    -0.16758430714108496,
+    1.2169307704219503,
+    -0.43133513652379357,
+    0.8301433611128557,
+    -1.6716004307250216,
+    -3.1742023407463873,
+    -5.743828383578241
+   ],
+   "chi2_high_nibble_df15": [
+    9.414068
+   ],
+   "chi2_low_nibble_df15": [
+    90.765212
+   ],
+   "lag1_highnibble_pair_chi2_df255": 228.14361239295158,
+   "block10k_var_ratio_mean_over_bins": 1.0013484909470172
+  },
+  "ext1_seedB_bwd": {
+   "n": 8000000,
+   "chi2": 345.29472,
+   "p": 0.00013972237247133882,
+   "stored_chi2": 345.29472,
+   "stored_p": 0.00013972237247133882,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.84268799999998,
+   "per_lane_chi2_sd": 21.069275084218344,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 90.29471999999998,
+   "cohen_w": 0.0033595892606091,
+   "max_abs_rel_bin_dev": 0.02044800000000002,
+   "rel_dev_sd": 0.006569767119160316,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.16383386298172015,
+   "split_half_chi2": [
+    284.832768,
+    308.608896
+   ],
+   "chi2_x_pos": 308.294528,
+   "chi2_y_pos": 273.557376,
+   "mean_pairwise_lane_resid_corr": 0.005585570962325353,
+   "bit_marginal_z_msb_to_lsb": [
+    -0.0007071067812853854,
+    -1.5004805896778237,
+    0.5296229791086453,
+    0.6194255403193286,
+    0.4928534264868296,
+    -2.381535639036319,
+    -4.963182497148454,
+    -5.087633290637097
+   ],
+   "chi2_high_nibble_df15": [
+    7.113328000000001
+   ],
+   "chi2_low_nibble_df15": [
+    84.62994
+   ],
+   "lag1_highnibble_pair_chi2_df255": 251.97094337136792,
+   "block10k_var_ratio_mean_over_bins": 1.000417257257847
+  },
+  "ext1_seedC_sbox": {
+   "n": 8000000,
+   "chi2": 341.96256000000005,
+   "p": 0.0002220118613024677,
+   "stored_chi2": 341.96256000000005,
+   "stored_p": 0.0002220118613024677,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.90272,
+   "per_lane_chi2_sd": 21.608106597246135,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 86.96256000000005,
+   "cohen_w": 0.003297016833442014,
+   "max_abs_rel_bin_dev": 0.018399999999999972,
+   "rel_dev_sd": 0.006537990516970794,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.19884551254216065,
+   "split_half_chi2": [
+    337.12192000000005,
+    234.892032
+   ],
+   "chi2_x_pos": 310.305024,
+   "chi2_y_pos": 321.377792,
+   "mean_pairwise_lane_resid_corr": 0.005375616469026662,
+   "bit_marginal_z_msb_to_lsb": [
+    1.286934341759783,
+    -0.2149604614806114,
+    1.173090149988537,
+    -2.189909701334671,
+    -1.5379572490806108,
+    -0.9673220766630654,
+    -1.8731258633630947,
+    -5.85484414822466
+   ],
+   "chi2_high_nibble_df15": [
+    20.669956
+   ],
+   "chi2_low_nibble_df15": [
+    90.180928
+   ],
+   "lag1_highnibble_pair_chi2_df255": 279.18963477370437,
+   "block10k_var_ratio_mean_over_bins": 0.9957002284227836
+  },
+  "ext1_seedC_bwd": {
+   "n": 8000000,
+   "chi2": 315.942656,
+   "p": 0.00556905931389397,
+   "stored_chi2": 315.942656,
+   "stored_p": 0.00556905931389397,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.673536,
+   "per_lane_chi2_sd": 21.054614090900262,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 60.942656,
+   "cohen_w": 0.0027600420286655056,
+   "max_abs_rel_bin_dev": 0.018623999999999974,
+   "rel_dev_sd": 0.00628433226365379,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.13926813918123473,
+   "split_half_chi2": [
+    285.359872,
+    269.30995199999995
+   ],
+   "chi2_x_pos": 313.08787199999995,
+   "chi2_y_pos": 268.149888,
+   "mean_pairwise_lane_resid_corr": 0.0036580420564017043,
+   "bit_marginal_z_msb_to_lsb": [
+    1.4764389591172606,
+    1.624224276385809,
+    0.5055813485480825,
+    -0.01060660171771069,
+    -1.9791918805411437,
+    -0.4864894654562032,
+    -3.3905770157895696,
+    -5.930504573811519
+   ],
+   "chi2_high_nibble_df15": [
+    12.5798
+   ],
+   "chi2_low_nibble_df15": [
+    63.225392
+   ],
+   "lag1_highnibble_pair_chi2_df255": 258.807168225896,
+   "block10k_var_ratio_mean_over_bins": 1.0000539563866595
+  },
+  "ext2_seedA_sbox": {
+   "n": 8000000,
+   "chi2": 261.76934400000005,
+   "p": 0.371984916287125,
+   "stored_chi2": 261.76934400000005,
+   "stored_p": 0.371984916287125,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.00339200000002,
+   "per_lane_chi2_sd": 22.562205989030772,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 6.769344000000046,
+   "cohen_w": 0.0009198739044021228,
+   "max_abs_rel_bin_dev": 0.01686399999999999,
+   "rel_dev_sd": 0.0057202419529247235,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.017637699771916593,
+   "split_half_chi2": [
+    276.499584,
+    237.99014400000002
+   ],
+   "chi2_x_pos": 241.104896,
+   "chi2_y_pos": 231.90668800000003,
+   "mean_pairwise_lane_resid_corr": 0.00041875460889452564,
+   "bit_marginal_z_msb_to_lsb": [
+    -1.1108647532442155,
+    -0.8202438661764304,
+    0.17889801564008104,
+    0.03818376618438652,
+    0.6646803743153129,
+    -0.076367532368145,
+    0.42709249583670933,
+    -1.4311841251215904
+   ],
+   "chi2_high_nibble_df15": [
+    15.907823999999998
+   ],
+   "chi2_low_nibble_df15": [
+    7.871791999999999
+   ],
+   "lag1_highnibble_pair_chi2_df255": 250.36422317052788,
+   "block10k_var_ratio_mean_over_bins": 1.0055952698520212
+  },
+  "ext2_seedA_bwd": {
+   "n": 8000000,
+   "chi2": 308.194432,
+   "p": 0.012604773869430545,
+   "stored_chi2": 308.194432,
+   "stored_p": 0.012604773869430545,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 253.49235199999998,
+   "per_lane_chi2_sd": 22.111954897644303,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 53.194432000000006,
+   "cohen_w": 0.0025786244395025813,
+   "max_abs_rel_bin_dev": 0.016735999999999973,
+   "rel_dev_sd": 0.006206794986142203,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.0493425477732109,
+   "split_half_chi2": [
+    277.73606400000006,
+    309.709696
+   ],
+   "chi2_x_pos": 301.747456,
+   "chi2_y_pos": 286.699008,
+   "mean_pairwise_lane_resid_corr": 0.00334393161058339,
+   "bit_marginal_z_msb_to_lsb": [
+    0.31890515831511823,
+    1.6935207409417283,
+    -1.203495741579412,
+    1.2805703807288427,
+    -0.3097127701596643,
+    0.7650895372440208,
+    -0.7749890321804461,
+    -0.17324116139074003
+   ],
+   "chi2_high_nibble_df15": [
+    21.843176
+   ],
+   "chi2_low_nibble_df15": [
+    16.313704
+   ],
+   "lag1_highnibble_pair_chi2_df255": 292.9765804970725,
+   "block10k_var_ratio_mean_over_bins": 0.9973920771945324
+  },
+  "ext2_seedB_sbox": {
+   "n": 8000000,
+   "chi2": 267.63552000000004,
+   "p": 0.28097985561516065,
+   "stored_chi2": 267.63552000000004,
+   "stored_p": 0.28097985561516065,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 253.91583999999995,
+   "per_lane_chi2_sd": 22.862840692523577,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 12.635520000000042,
+   "cohen_w": 0.0012567577332167107,
+   "max_abs_rel_bin_dev": 0.017888000000000015,
+   "rel_dev_sd": 0.005783981327770691,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.05131276183611771,
+   "split_half_chi2": [
+    258.29017600000003,
+    250.857856
+   ],
+   "chi2_x_pos": 264.036864,
+   "chi2_y_pos": 244.67737599999998,
+   "mean_pairwise_lane_resid_corr": 0.0009864018721979233,
+   "bit_marginal_z_msb_to_lsb": [
+    -0.6264966081312404,
+    -0.2043538597629007,
+    0.8266078272070568,
+    -0.9906566004423429,
+    -0.9956063479107126,
+    1.7317045071261148,
+    -1.0323759005322144,
+    0.6625590539720848
+   ],
+   "chi2_high_nibble_df15": [
+    14.747020000000001
+   ],
+   "chi2_low_nibble_df15": [
+    17.611628000000003
+   ],
+   "lag1_highnibble_pair_chi2_df255": 241.41939005242375,
+   "block10k_var_ratio_mean_over_bins": 0.995671756754767
+  },
+  "ext2_seedB_bwd": {
+   "n": 8000000,
+   "chi2": 250.46905599999997,
+   "p": 0.5683851611744067,
+   "stored_chi2": 250.46905599999997,
+   "stored_p": 0.5683851611744067,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.65312,
+   "per_lane_chi2_sd": 21.781628875012267,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": -4.530944000000034,
+   "cohen_w": 0.0,
+   "max_abs_rel_bin_dev": 0.016928000000000054,
+   "rel_dev_sd": 0.005595411691734581,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": -0.003844854834696968,
+   "split_half_chi2": [
+    230.783744,
+    272.08128
+   ],
+   "chi2_x_pos": 297.46380800000003,
+   "chi2_y_pos": 227.57363199999998,
+   "mean_pairwise_lane_resid_corr": -0.00046335512237930725,
+   "bit_marginal_z_msb_to_lsb": [
+    0.014142135623823599,
+    -0.07778174593040175,
+    0.31183409050352046,
+    -0.28637824638070075,
+    1.2268302653586898,
+    0.08202438661780005,
+    0.46103362133338355,
+    1.4983592693345955
+   ],
+   "chi2_high_nibble_df15": [
+    17.826452
+   ],
+   "chi2_low_nibble_df15": [
+    15.47346
+   ],
+   "lag1_highnibble_pair_chi2_df255": 226.81209222651154,
+   "block10k_var_ratio_mean_over_bins": 1.0049237377309874
+  },
+  "ext2_seedC_sbox": {
+   "n": 8000000,
+   "chi2": 258.608128,
+   "p": 0.42523662929382006,
+   "stored_chi2": 258.608128,
+   "stored_p": 0.42523662929382006,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 255.527744,
+   "per_lane_chi2_sd": 25.206038468581614,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 3.608128000000022,
+   "cohen_w": 0.0006715772479767334,
+   "max_abs_rel_bin_dev": 0.02137599999999995,
+   "rel_dev_sd": 0.005685597242154948,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": -0.002517206476581548,
+   "split_half_chi2": [
+    258.265984,
+    260.255488
+   ],
+   "chi2_x_pos": 236.88217600000002,
+   "chi2_y_pos": 281.99168,
+   "mean_pairwise_lane_resid_corr": 0.00030406884965941374,
+   "bit_marginal_z_msb_to_lsb": [
+    -1.2162236636409791,
+    0.5713422791988307,
+    -0.7693321779311051,
+    0.2743574311004193,
+    -0.9029753595752018,
+    0.13435028842538213,
+    -1.3951216792810601,
+    1.272085099354674
+   ],
+   "chi2_high_nibble_df15": [
+    14.463235999999998
+   ],
+   "chi2_low_nibble_df15": [
+    15.170744000000003
+   ],
+   "lag1_highnibble_pair_chi2_df255": 264.85740898217614,
+   "block10k_var_ratio_mean_over_bins": 1.003702957481165
+  },
+  "ext2_seedC_bwd": {
+   "n": 8000000,
+   "chi2": 280.130304,
+   "p": 0.13404068086106133,
+   "stored_chi2": 280.130304,
+   "stored_p": 0.13404068086106133,
+   "chi2_matches_stored": true,
+   "per_lane_chi2_mean": 257.591936,
+   "per_lane_chi2_sd": 23.332487956594083,
+   "expected_lane_mean_sd_if_iid": [
+    255.0,
+    22.58317958127243
+   ],
+   "excess_chi2_over_df": 25.130304000000024,
+   "cohen_w": 0.0017723679076309194,
+   "max_abs_rel_bin_dev": 0.022047999999999957,
+   "rel_dev_sd": 0.005917456210230881,
+   "iid_expected_rel_dev_sd": 0.00565685424949238,
+   "split_half_resid_corr": 0.13004631789938617,
+   "split_half_chi2": [
+    215.25529600000004,
+    281.034112
+   ],
+   "chi2_x_pos": 246.37836800000002,
+   "chi2_y_pos": 290.84403199999997,
+   "mean_pairwise_lane_resid_corr": 0.0013154757349093545,
+   "bit_marginal_z_msb_to_lsb": [
+    -0.0905096679919686,
+    -0.0551543289324096,
+    1.0366185412192985,
+    -1.592404471232049,
+    0.6300321420373532,
+    0.0629325035256068,
+    0.8584276323605029,
+    0.6929646455629601
+   ],
+   "chi2_high_nibble_df15": [
+    18.49962
+   ],
+   "chi2_low_nibble_df15": [
+    11.357564
+   ],
+   "lag1_highnibble_pair_chi2_df255": 265.38796904849613,
+   "block10k_var_ratio_mean_over_bins": 1.0010461827087782
+  }
+ },
+ "iid_null_chi2_mean_sd_100reps": [
+  257.85547136,
+  26.618553360325002
+ ]
+}

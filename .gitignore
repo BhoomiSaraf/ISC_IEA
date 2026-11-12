@@ -3,6 +3,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
+.venv_z3/
 .env
 third_party/nist_sts/build_linux/
 third_party/nist_sts/download/
