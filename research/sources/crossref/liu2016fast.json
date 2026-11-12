@@ -1,0 +1,637 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.optlaseng.2016.03.019",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     9
+    ]
+   ],
+   "date-time": "2026-10-09T18:09:26Z",
+   "timestamp": 1791569366460,
+   "version": "4.3.4"
+  },
+  "reference-count": 35,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2016-09-01T00:00:00Z",
+     "timestamp": 1472688000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61161006"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61161006"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61573383"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61573383"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Optics and Lasers in Engineering"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.optlaseng.2016.03.019",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2016,
+     4,
+     11
+    ]
+   ],
+   "date-time": "2016-04-11T13:48:16Z",
+   "timestamp": 1460382496000
+  },
+  "page": "26-36",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 460,
+  "special_numbering": "C",
+  "title": [
+   "A fast image encryption algorithm based on chaotic map"
+  ],
+  "prefix": "10.1016",
+  "volume": "84",
+  "author": [
+   {
+    "given": "Wenhao",
+    "family": "Liu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kehui",
+    "family": "Sun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Congxu",
+    "family": "Zhu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "33",
+    "DOI": "10.1016/j.optlaseng.2015.03.007",
+    "article-title": "A novel chaotic based image encryption using a hybrid model of deoxyribonucleic acid and cellular automata",
+    "volume": "71",
+    "author": "Enayatifar",
+    "year": "2015",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "191",
+    "DOI": "10.1016/j.optlaseng.2014.11.017",
+    "article-title": "An efficient image encryption scheme using gray code based permutation approach",
+    "volume": "67",
+    "author": "Chen",
+    "year": "2015",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "120511",
+    "DOI": "10.7498/aps.63.120511",
+    "article-title": "Design and application of multi-scroll chaotic attractors based on simplified Lorenz system",
+    "volume": "63",
+    "author": "Ai",
+    "year": "2014",
+    "journal-title": "Acta Phys Sin"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "615",
+    "DOI": "10.1007/s11071-010-9749-8",
+    "article-title": "A chaotic image encryption algorithm based on perceptron model",
+    "volume": "62",
+    "author": "Wang",
+    "year": "2010",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "2714",
+    "DOI": "10.1016/j.sigpro.2010.03.022",
+    "article-title": "A novel image encryption algorithm based on self-adaptive wave transmission",
+    "volume": "90",
+    "author": "Liao",
+    "year": "2010",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "3075",
+    "DOI": "10.1016/j.cnsns.2013.04.008",
+    "article-title": "A novel image encryption algorithm using chaos and reversible cellular automata",
+    "volume": "18",
+    "author": "Wang",
+    "year": "2013",
+    "journal-title": "Commun Nonlinear Sci Numer Simul"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "17",
+    "DOI": "10.1016/j.optlaseng.2015.09.007",
+    "article-title": "A novel bit-level image encryption algorithm based on chaotic maps",
+    "volume": "78",
+    "author": "Xu",
+    "year": "2016",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "118",
+    "DOI": "10.1016/j.optlaseng.2015.07.015",
+    "article-title": "A novel hybrid color image encryption algorithm using two complex chaotic systems",
+    "volume": "77",
+    "author": "Wang",
+    "year": "2016",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1523",
+    "DOI": "10.1007/s11071-015-2258-z",
+    "article-title": "Real-time image encryption using a low-complexity discrete 3D dual chaotic cipher",
+    "volume": "82",
+    "author": "Haroun",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "126",
+    "DOI": "10.1016/j.optlaseng.2014.12.025",
+    "article-title": "Novel image encryption algorithm based on cycle shift and chaotic system",
+    "volume": "68",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "527",
+    "DOI": "10.1007/s11071-015-2173-3",
+    "article-title": "A novel image encryption scheme based on multiple chaotic S-boxes",
+    "volume": "82",
+    "author": "Khan",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "10",
+    "DOI": "10.1016/j.optlaseng.2014.08.005",
+    "article-title": "A novel chaotic block image encryption algorithm based on dynamic random growth technique",
+    "volume": "66",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Opt Laser Eng"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "151",
+    "DOI": "10.1007/s11071-015-1979-3",
+    "article-title": "A color image encryption algorithm using 4-pixel Feistel structure and multiple chaotic systems",
+    "volume": "81",
+    "author": "Yao",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1007/s11071-012-0639-0",
+    "article-title": "Breaking and improving an image encryption scheme based on total shuffling scheme",
+    "volume": "71",
+    "author": "Zhu",
+    "year": "2013",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "3743",
+    "DOI": "10.1016/j.cnsns.2009.02.033",
+    "article-title": "Cryptanalyzing a nonlinear chaotic algorithm (NCA) for image encryption",
+    "volume": "14",
+    "author": "Alvarez",
+    "year": "2009",
+    "journal-title": "Commun Nonlinear Sci Numer Simul"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib16",
+    "series-title": "Chaos and nonlinear dynamics: an introduction for scientists and engineers",
+    "author": "Hilborn",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "155",
+    "DOI": "10.1016/0375-9601(79)90150-6",
+    "article-title": "An equation for hyperchaos",
+    "volume": "71",
+    "author": "R\u00f6ssler",
+    "year": "1979",
+    "journal-title": "Phys Lett A"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "1424",
+    "DOI": "10.1109/78.757236",
+    "article-title": "A general efficient method for chaotic signal estimation",
+    "volume": "47",
+    "author": "Ling",
+    "year": "1999",
+    "journal-title": "IEEE Trans Signal Process"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1016/j.chaos.2004.02.008",
+    "article-title": "Parameter estimation only from the symbolic sequences generated by chaos system",
+    "volume": "22",
+    "author": "Wu",
+    "year": "2004",
+    "journal-title": "Chaos Soliton Fract"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "3320",
+    "DOI": "10.1016/j.camwa.2010.03.017",
+    "article-title": "Color image encryption based on one-time keys and robust chaotic maps",
+    "volume": "59",
+    "author": "Liu",
+    "year": "2010",
+    "journal-title": "Comput Math Appl"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "5290",
+    "DOI": "10.1016/j.optcom.2011.07.070",
+    "article-title": "A novel chaos-based image encryption scheme with an efficient permutation-diffusion mechanism",
+    "volume": "284",
+    "author": "Ye",
+    "year": "2011",
+    "journal-title": "Opt Commun"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "567",
+    "DOI": "10.1007/s11071-013-1086-2",
+    "article-title": "A novel image encryption algorithm based on dynamic S-box constructed by chaos",
+    "volume": "75",
+    "author": "Wang",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.1016/j.ins.2014.11.018",
+    "article-title": "2D Sine Logistic modulation map for image encryption",
+    "volume": "297",
+    "author": "Hua",
+    "year": "2015",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "345",
+    "DOI": "10.1007/s11071-013-1070-x",
+    "article-title": "A novel image encryption scheme based on Brownian motion and PWLCM chaotic system",
+    "volume": "75",
+    "author": "Wang",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "3895",
+    "DOI": "10.1016/j.optcom.2011.04.001",
+    "article-title": "Color image encryption using spatial bit-level permutation and high-dimension chaotic system",
+    "volume": "284",
+    "author": "Liu",
+    "year": "2011",
+    "journal-title": "Opt Commun"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "1457",
+    "DOI": "10.1016/j.asoc.2012.01.016",
+    "article-title": "Image encryption using DNA complementary rule and chaotic maps",
+    "volume": "12",
+    "author": "Liu",
+    "year": "2012",
+    "journal-title": "Appl Soft Comput"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "1141",
+    "DOI": "10.1007/s11071-014-1729-y",
+    "article-title": "A fast image algorithm based on rows and columns switch",
+    "volume": "79",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "1511",
+    "DOI": "10.1007/s11071-014-1757-7",
+    "article-title": "Breaking a novel image encryption scheme based on Brownian motion and PWLCM chaotic system",
+    "volume": "79",
+    "author": "Zhu",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib29",
+    "series-title": "Theory and applications of coupled map lattices",
+    "author": "Kaneko",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "329",
+    "DOI": "10.1016/j.ins.2014.02.156",
+    "article-title": "A symmetric image encryption algorithm based on mixed linear-nonlinear coupled map lattice",
+    "volume": "273",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Inf Sci"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib31",
+    "doi-asserted-by": "crossref",
+    "unstructured": "He D, He C, Jiang LG, Zhu HW, Hu GR. A chaotic map with infinite collapses. In: Proceedings of TENCON, vol. 3; 2000. 95\u20139.",
+    "DOI": "10.1109/TENCON.2000.892231"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1117/1.JEI.21.1.013014",
+    "article-title": "Image encryption using the two-dimensional logistic chaotic map",
+    "volume": "21",
+    "author": "Wu",
+    "year": "2012",
+    "journal-title": "J Electron Imaging"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "1741",
+    "DOI": "10.1103/PhysRevLett.88.174102",
+    "article-title": "Permutation entropy: a natural complexity measure for time series",
+    "volume": "88",
+    "author": "Bandt",
+    "year": "2002",
+    "journal-title": "Phys Rev Lett"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "8299",
+    "DOI": "10.3390/e17127882",
+    "article-title": "Complexity analysis and DSP implementation of the fractional-order Lorenz hyperchaotic system",
+    "volume": "17",
+    "author": "He",
+    "year": "2015",
+    "journal-title": "Entropy"
+   },
+   {
+    "key": "10.1016/j.optlaseng.2016.03.019_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel color image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "Wang",
+    "year": "2012",
+    "journal-title": "Signal Process"
+   }
+  ],
+  "container-title": [
+   "Optics and Lasers in Engineering"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0143816616300173?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0143816616300173?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     2
+    ]
+   ],
+   "date-time": "2025-06-02T09:17:09Z",
+   "timestamp": 1748855829000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0143816616300173"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  },
+  "references-count": 35,
+  "alternative-id": [
+   "S0143816616300173"
+  ],
+  "URL": "https://doi.org/10.1016/j.optlaseng.2016.03.019",
+  "relation": {},
+  "ISSN": [
+   "0143-8166"
+  ],
+  "issn-type": [
+   {
+    "value": "0143-8166",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     9
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "A fast image encryption algorithm based on chaotic map",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Optics and Lasers in Engineering",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.optlaseng.2016.03.019",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2016 Elsevier Ltd. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

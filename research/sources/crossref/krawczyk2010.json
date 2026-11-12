@@ -1,0 +1,497 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/978-3-642-14623-7_34",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     20
+    ]
+   ],
+   "date-time": "2026-10-20T19:33:55Z",
+   "timestamp": 1792524835708,
+   "version": "4.5.0"
+  },
+  "publisher-location": "Berlin, Heidelberg",
+  "reference-count": 40,
+  "publisher": "Springer Berlin Heidelberg",
+  "isbn-type": [
+   {
+    "value": "9783642146220",
+    "type": "print"
+   },
+   {
+    "value": "9783642146237",
+    "type": "electronic"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "DOI": "10.1007/978-3-642-14623-7_34",
+  "type": "book-chapter",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     8,
+     10
+    ]
+   ],
+   "date-time": "2010-08-10T04:15:26Z",
+   "timestamp": 1281413726000
+  },
+  "page": "631-648",
+  "source": "Crossref",
+  "is-referenced-by-count": 304,
+  "title": [
+   "Cryptographic Extraction and Key Derivation: The HKDF Scheme"
+  ],
+  "prefix": "10.1007",
+  "author": [
+   {
+    "given": "Hugo",
+    "family": "Krawczyk",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "reference": [
+   {
+    "key": "34_CR1",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "134",
+    "DOI": "10.1007/978-3-540-30144-8_12",
+    "volume-title": "Information Security",
+    "author": "C. Adams",
+    "year": "2004",
+    "unstructured": "Adams, C., Kramer, G., Mister, S., Zuccherato, R.: On The Security of Key Derivation Functions. In: Zhang, K., Zheng, Y. (eds.) ISC 2004. LNCS, vol.\u00a03225, pp. 134\u2013145. Springer, Heidelberg (2004)"
+   },
+   {
+    "issue": "2",
+    "key": "34_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "194",
+    "DOI": "10.1137/0217013",
+    "volume": "17",
+    "author": "W. Alexi",
+    "year": "1988",
+    "unstructured": "Alexi, W., Chor, B., Goldreich, O., Schnorr, C.-P.: RSA and Rabin Functions: Certain Parts are as Hard as the Whole. SIAM J. Comput.\u00a017(2), 194\u2013209 (1988)",
+    "journal-title": "SIAM J. Comput."
+   },
+   {
+    "key": "34_CR3",
+    "unstructured": "ANSI X9.42-2001: Public Key Cryptography For The Financial Services Industry: Agreement of Symmetric Keys Using Discrete Logarithm Cryptography"
+   },
+   {
+    "key": "34_CR4",
+    "unstructured": "ANSI X9.63-2002: Public Key Cryptography for the Financial Services Industry: Key Agreement and Key Transport"
+   },
+   {
+    "key": "34_CR5",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Barak, B., Halevi, S.: A model and architecture for pseudo-random generation with applications to /dev/random. In: ACM Conference on Computer and Communications Security (2005)",
+    "DOI": "10.1145/1102120.1102148"
+   },
+   {
+    "key": "34_CR6",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "166",
+    "DOI": "10.1007/978-3-540-45238-6_14",
+    "volume-title": "Cryptographic Hardware and Embedded Systems - CHES 2003",
+    "author": "B. Barak",
+    "year": "2003",
+    "unstructured": "Barak, B., Shaltiel, R., Tromer, E.: True random number generators secure in a changing environment. In: Walter, C.D., Ko\u00e7, \u00c7.K., Paar, C. (eds.) CHES 2003. LNCS, vol.\u00a02779, pp. 166\u2013180. Springer, Heidelberg (2003)"
+   },
+   {
+    "key": "34_CR7",
+    "series-title": "Lecture Notes in Computer Science",
+    "first-page": "1",
+    "volume-title": "Advances in Cryptology - CRYPTO \u201996",
+    "author": "M. Bellare",
+    "year": "1996",
+    "unstructured": "Bellare, M., Canetti, R., Krawczyk, H.: Keying hash functions for message authentication. In: Koblitz, N. (ed.) CRYPTO 1996. LNCS, vol.\u00a01109, pp. 1\u201315. Springer, Heidelberg (1996)"
+   },
+   {
+    "key": "34_CR8",
+    "first-page": "514",
+    "volume-title": "Proc. 37th FOCS",
+    "author": "M. Bellare",
+    "year": "1996",
+    "unstructured": "Bellare, M., Canetti, R., Krawczyk, H.: Pseudorandom Functions Revisited: The Cascade Construction and Its Concrete Security. In: Proc. 37th FOCS, pp. 514\u2013523. IEEE, Los Alamitos (1996)"
+   },
+   {
+    "key": "34_CR9",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "602",
+    "DOI": "10.1007/11818175_36",
+    "volume-title": "Advances in Cryptology - CRYPTO 2006",
+    "author": "M. Bellare",
+    "year": "2006",
+    "unstructured": "Bellare, M.: New Proofs for NMAC and HMAC: Security Without Collision-Resistance. In: Dwork, C. (ed.) CRYPTO 2006. LNCS, vol.\u00a04117, pp. 602\u2013619. Springer, Heidelberg (2006)"
+   },
+   {
+    "key": "34_CR10",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Carter, L., Wegman, M.N.: Universal Classes of Hash Functions. JCSS\u00a018(2) (1979)",
+    "DOI": "10.1016/0022-0000(79)90044-8"
+   },
+   {
+    "key": "34_CR11",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "410",
+    "DOI": "10.1007/11745853_27",
+    "volume-title": "Public Key Cryptography - PKC 2006",
+    "author": "O. Chevassut",
+    "year": "2006",
+    "unstructured": "Chevassut, O., Fouque, P.-A., Gaudry, P., Pointcheval, D.: The twist-aUgmented technique for key exchange. In: Yung, M., Dodis, Y., Kiayias, A., Malkin, T.G. (eds.) PKC 2006. LNCS, vol.\u00a03958, pp. 410\u2013426. Springer, Heidelberg (2006)"
+   },
+   {
+    "key": "34_CR12",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "430",
+    "DOI": "10.1007/11535218_26",
+    "volume-title": "Advances in Cryptology \u2013 CRYPTO 2005",
+    "author": "J.-S. Coron",
+    "year": "2005",
+    "unstructured": "Coron, J.-S., Dodis, Y., Malinaud, C., Puniya, P.: Merkle-Damgard Revisited: How to Construct a Hash Function. In: Shoup, V. (ed.) CRYPTO 2005. LNCS, vol.\u00a03621, pp. 430\u2013448. Springer, Heidelberg (2005)"
+   },
+   {
+    "key": "34_CR13",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dierks, T., Allen, C. (eds.): The TLS Protocol \u2013 Version 1. Request for Comments 2246 (1999)",
+    "DOI": "10.17487/rfc2246"
+   },
+   {
+    "key": "34_CR14",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "494",
+    "DOI": "10.1007/978-3-540-28628-8_30",
+    "volume-title": "Advances in Cryptology \u2013 CRYPTO 2004",
+    "author": "Y. Dodis",
+    "year": "2004",
+    "unstructured": "Dodis, Y., Gennaro, R., H\u00e5stad, J., Krawczyk, H., Rabin, T.: Randomness Extraction and Key Derivation Using the CBC, Cascade and HMAC Modes. In: Franklin, M. (ed.) CRYPTO 2004. LNCS, vol.\u00a03152, pp. 494\u2013510. Springer, Heidelberg (2004)"
+   },
+   {
+    "key": "34_CR15",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "267",
+    "DOI": "10.1007/3-540-69053-0_19",
+    "volume-title": "Advances in Cryptology - EUROCRYPT \u201997",
+    "author": "R. Fischlin",
+    "year": "1997",
+    "unstructured": "Fischlin, R., Schnorr, C.-P.: Stronger Security Proofs for RSA and Rabin Bits. In: Fumy, W. (ed.) EUROCRYPT 1997. LNCS, vol.\u00a01233, pp. 267\u2013279. Springer, Heidelberg (1997)"
+   },
+   {
+    "key": "34_CR16",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "240",
+    "DOI": "10.1007/11787006_21",
+    "volume-title": "Automata, Languages and Programming",
+    "author": "P.-A. Fouque",
+    "year": "2006",
+    "unstructured": "Fouque, P.-A., Pointcheval, D., Stern, J., Zimmer, S.: Hardness of Distinguishing the MSB or LSB of Secret Keys in Diffie-Hellman Schemes. In: Bugliesi, M., Preneel, B., Sassone, V., Wegener, I. (eds.) ICALP 2006. LNCS, vol.\u00a04052, pp. 240\u2013251. Springer, Heidelberg (2006)"
+   },
+   {
+    "key": "34_CR17",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "361",
+    "DOI": "10.1007/978-3-540-24676-3_22",
+    "volume-title": "Advances in Cryptology - EUROCRYPT 2004",
+    "author": "R. Gennaro",
+    "year": "2004",
+    "unstructured": "Gennaro, R., Krawczyk, H., Rabin, T.: Secure Hashed Diffie-Hellman over Non-DDH Groups. In: Cachin, C., Camenisch, J.L. (eds.) EUROCRYPT 2004. LNCS, vol.\u00a03027, pp. 361\u2013381. Springer, Heidelberg (2004)"
+   },
+   {
+    "issue": "2",
+    "key": "34_CR18",
+    "first-page": "270",
+    "volume": "28",
+    "author": "S. Goldwasser",
+    "year": "1984",
+    "unstructured": "Goldwasser, S., Micali, S.: Probabilistic Encryption. JCSS\u00a028(2), 270\u2013299 (1984)",
+    "journal-title": "JCSS"
+   },
+   {
+    "key": "34_CR19",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Harkins, D., Carrel, D. (eds.): The Internet Key Exchange (IKE). RFC 2409 (November 1998)",
+    "DOI": "10.17487/rfc2409"
+   },
+   {
+    "issue": "4",
+    "key": "34_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "1364",
+    "DOI": "10.1137/S0097539793244708",
+    "volume": "28",
+    "author": "J. Hastad",
+    "year": "1999",
+    "unstructured": "Hastad, J., Impagliazzo, R., Levin, L., Luby, M.: Construction of a Pseudorandom Generator from any One-way Function. SIAM. J. Computing\u00a028(4), 1364\u20131396 (1999)",
+    "journal-title": "SIAM. J. Computing"
+   },
+   {
+    "issue": "3",
+    "key": "34_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "376",
+    "DOI": "10.1016/0022-0000(93)90038-X",
+    "volume": "47",
+    "author": "J. Hastad",
+    "year": "1993",
+    "unstructured": "Hastad, J., Schrift, A., Shamir, A.: The Discrete Logarithm Modulo a Composite Hides O(n) Bits. J. Comput. Syst. Sci.\u00a047(3), 376\u2013404 (1993)",
+    "journal-title": "J. Comput. Syst. Sci."
+   },
+   {
+    "key": "34_CR22",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "169",
+    "DOI": "10.1007/978-3-540-72540-4_10",
+    "volume-title": "Advances in Cryptology - EUROCRYPT 2007",
+    "author": "C.-Y. Hsiao",
+    "year": "2007",
+    "unstructured": "Hsiao, C.-Y., Lu, C.-J., Reyzin, L.: Conditional Computational Entropy, or Toward Separating Pseudoentropy from Compressibility. In: Naor, M. (ed.) EUROCRYPT 2007. LNCS, vol.\u00a04515, pp. 169\u2013186. Springer, Heidelberg (2007)"
+   },
+   {
+    "key": "34_CR23",
+    "unstructured": "IEEE P1363A: Standard Specifications for Public Key Cryptography: Additional Techniques, Institute of Electrical and Electronics Engineers"
+   },
+   {
+    "key": "34_CR24",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kaufman, C. (ed.): Internet Key Exchange (IKEv2) Protocol. RFC 4306 (December 2005)",
+    "DOI": "10.17487/rfc4306"
+   },
+   {
+    "key": "34_CR25",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Krawczyk, H., Bellare, M., Canetti, R.: HMAC: Keyed-Hashing for Message Authentication. RFC 2104 (February 1997)",
+    "DOI": "10.17487/rfc2104"
+   },
+   {
+    "key": "34_CR26",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "400",
+    "DOI": "10.1007/978-3-540-45146-4_24",
+    "volume-title": "Advances in Cryptology - CRYPTO 2003",
+    "author": "H. Krawczyk",
+    "year": "2003",
+    "unstructured": "Krawczyk, H.: SIGMA: The \u2018SiGn-and-MAc\u2019 Approach to Authenticated Diffie-Hellman and Its Use in the IKE Protocols. In: Boneh, D. (ed.) CRYPTO 2003. LNCS, vol.\u00a02729, pp. 400\u2013425. Springer, Heidelberg (2003)"
+   },
+   {
+    "key": "34_CR27",
+    "unstructured": "Krawczyk, H., Eronen, P.: HMAC-based Extract-and-Expand Key Derivation Function (HKDF), RFC 5869 (to appear)"
+   },
+   {
+    "key": "34_CR28",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Krawczyk, H.: Cryptographic Extraction and Key Derivation: The HKDF Scheme (full version of this paper), http://eprint.iacr.org/2010/264",
+    "DOI": "10.1007/978-3-642-14623-7_34"
+   },
+   {
+    "key": "34_CR29",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "21",
+    "DOI": "10.1007/978-3-540-24638-1_2",
+    "volume-title": "Theory of Cryptography",
+    "author": "U.M. Maurer",
+    "year": "2004",
+    "unstructured": "Maurer, U.M., Renner, R., Holenstein, C.: Indifferentiability, Impossibility Results on Reductions, and Applications to the Random Oracle Methodology. In: Naor, M. (ed.) TCC 2004. LNCS, vol.\u00a02951, pp. 21\u201339. Springer, Heidelberg (2004)"
+   },
+   {
+    "key": "34_CR30",
+    "first-page": "148",
+    "volume": "58",
+    "author": "N. Nisan",
+    "year": "1999",
+    "unstructured": "Nisan, N., Ta-Shma, A.: Extracting Randomness: A Survey and New Constructions. JCSS\u00a058, 148\u2013173 (1999)",
+    "journal-title": "JCSS"
+   },
+   {
+    "issue": "1",
+    "key": "34_CR31",
+    "doi-asserted-by": "publisher",
+    "first-page": "43",
+    "DOI": "10.1006/jcss.1996.0004",
+    "volume": "52",
+    "author": "N. Nisan",
+    "year": "1996",
+    "unstructured": "Nisan, N., Zuckerman, D.: Randomness is linear in space. J. Comput. Syst. Sci.\u00a052(1), 43\u201352 (1996)",
+    "journal-title": "J. Comput. Syst. Sci."
+   },
+   {
+    "key": "34_CR32",
+    "unstructured": "NIST Special Publication (SP) 800-56A, Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (March 2006)"
+   },
+   {
+    "key": "34_CR33",
+    "unstructured": "NIST Special Publication (SP) 800-108, Recommendation for Key Derivation Using Pseudorandom Functions (October 2009)"
+   },
+   {
+    "key": "34_CR34",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "304",
+    "DOI": "10.1007/BFb0055737",
+    "volume-title": "Advances in Cryptology - CRYPTO \u201998",
+    "author": "S. Patel",
+    "year": "1998",
+    "unstructured": "Patel, S., Sundaram, G.: An Efficient Discrete Log Pseudo Random Generator. In: Krawczyk, H. (ed.) CRYPTO 1998. LNCS, vol.\u00a01462, pp. 304\u2013317. Springer, Heidelberg (1998)"
+   },
+   {
+    "issue": "1",
+    "key": "34_CR35",
+    "doi-asserted-by": "publisher",
+    "first-page": "2",
+    "DOI": "10.1137/S0895480197329508",
+    "volume": "13",
+    "author": "J. Radhakrishnan",
+    "year": "2000",
+    "unstructured": "Radhakrishnan, J., Ta-Shma, A.: Tight bounds for depth-two superconcentrators. SIAM J. Discrete Math.\u00a013(1), 2\u201324 (2000)",
+    "journal-title": "SIAM J. Discrete Math."
+   },
+   {
+    "key": "34_CR36",
+    "unstructured": "Renner, R., Wolf, S.: Smooth Renyi entropy and applications. In: Proceedings of IEEE International Symposium on Information Theory (2004)"
+   },
+   {
+    "key": "34_CR37",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "199",
+    "DOI": "10.1007/11593447_11",
+    "volume-title": "Advances in Cryptology - ASIACRYPT 2005",
+    "author": "R. Renner",
+    "year": "2005",
+    "unstructured": "Renner, R., Wolf, S.: Simple and tight bounds for information reconciliation and privacy amplification. In: Roy, B. (ed.) ASIACRYPT 2005. LNCS, vol.\u00a03788, pp. 199\u2013216. Springer, Heidelberg (2005)"
+   },
+   {
+    "key": "34_CR38",
+    "first-page": "67",
+    "volume": "77",
+    "author": "R. Shaltiel",
+    "year": "2002",
+    "unstructured": "Shaltiel, R.: Recent developments in Extractors. Bulletin of the European Association for Theoretical Computer Science\u00a077, 67\u201395 (2002), http://www.wisdom.weizmann.ac.il/~ronens/papers/survey.ps",
+    "journal-title": "Bulletin of the European Association for Theoretical Computer Science"
+   },
+   {
+    "issue": "4",
+    "key": "34_CR39",
+    "first-page": "369",
+    "volume": "4",
+    "author": "R. Douglas",
+    "year": "1994",
+    "unstructured": "Douglas, R.: Stinson: Universal Hashing and Authentication Codes. Des. Codes Cryptography\u00a04(4), 369\u2013380 (1994)",
+    "journal-title": "Des. Codes Cryptography"
+   },
+   {
+    "key": "34_CR40",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "publisher",
+    "first-page": "245",
+    "DOI": "10.1007/978-3-540-30574-3_17",
+    "volume-title": "Topics in Cryptology \u2013 CT-RSA 2005",
+    "author": "F.F. Yao",
+    "year": "2005",
+    "unstructured": "Yao, F.F., Yin, Y.L.: Design and Analysis of Password-Based Key Derivation Functions. In: Menezes, A. (ed.) CT-RSA 2005. LNCS, vol.\u00a03376, pp. 245\u2013261. Springer, Heidelberg (2005)"
+   }
+  ],
+  "container-title": [
+   "Lecture Notes in Computer Science",
+   "Advances in Cryptology \u2013 CRYPTO 2010"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-14623-7_34.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     11,
+     23
+    ]
+   ],
+   "date-time": "2020-11-23T21:55:43Z",
+   "timestamp": 1606168543000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/978-3-642-14623-7_34"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "ISBN": [
+   "9783642146220",
+   "9783642146237"
+  ],
+  "references-count": 40,
+  "URL": "https://doi.org/10.1007/978-3-642-14623-7_34",
+  "relation": {},
+  "ISSN": [
+   "0302-9743",
+   "1611-3349"
+  ],
+  "issn-type": [
+   {
+    "value": "0302-9743",
+    "type": "print"
+   },
+   {
+    "value": "1611-3349",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  }
+ }
+}

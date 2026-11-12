@@ -1,0 +1,39 @@
+{
+  "description": "Pilot single-encrypt-call wall-clock timing measured before sizing the NPCR/UACI (Experiment E) and key-sensitivity (Experiment F) trial matrices, per the mandatory pilot requirement. Backend = numpy unless noted. Measured with isc_cipher._testing.encrypt_bytes_with_nonce_TEST_ONLY and isc_cipher.cipher.encrypt_bytes, fixed/random key+nonce, os.urandom plaintext.",
+  "measurements": [
+    {"shape": "32x32x1", "n_bytes": 1024, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 1.3483},
+    {"shape": "64x64x1", "n_bytes": 4096, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 1.4093},
+    {"shape": "128x128x1", "n_bytes": 16384, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 2.0291},
+    {"shape": "256x256x1", "n_bytes": 65536, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 4.0747},
+    {"shape": "256x256x1", "n_bytes": 65536, "backend": "numpy", "extraction": "k14_scaled_modulo_v1", "seconds": 4.1446},
+    {"shape": "256x256x3", "n_bytes": 196608, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 10.0743},
+    {"shape": "512x512x1", "n_bytes": 262144, "backend": "numpy", "extraction": "mantissa8_v1", "seconds": 12.7643},
+    {"shape": "32x32x1", "n_bytes": 1024, "backend": "reference", "extraction": "mantissa8_v1", "seconds": 2.2734},
+    {"shape": "64x64x1", "n_bytes": 4096, "backend": "reference", "extraction": "mantissa8_v1", "seconds": 2.3883},
+    {"shape": "128x128x1", "n_bytes": 16384, "backend": "reference", "extraction": "mantissa8_v1", "seconds": 2.7229},
+    {"shape": "256x256x1", "n_bytes": 65536, "backend": "reference", "extraction": "mantissa8_v1", "seconds": 4.1090}
+  ],
+  "fitted_model_numpy_backend": {
+    "fixed_cost_sec_approx": 1.3,
+    "marginal_cost_sec_per_byte_approx": 4.22e-05,
+    "note": "fixed cost dominated by 256-lane x 1024-iteration burn-in (independent of n); marginal cost dominated by the Fisher-Yates permutation-construction loop over n Lemire draws, which is inherently sequential regardless of numpy/reference backend -- this is why numpy and reference backend costs converge at larger n (compare 256x256x1: 4.07s numpy vs 4.11s reference)."
+  },
+  "decision_npcr_uaci": {
+    "sizes_full_sweep": [64, 128],
+    "sizes_reduced_sweep": [256],
+    "trials_planned": 21,
+    "encryptions_planned": 42,
+    "estimated_seconds": "~9 (64x64, 18 enc x 1.41s) + ~37 (128x128, 18 enc x 2.03s) + ~24 (256x256, 6 enc x 4.07s) + ~11 (RGB 64x64, 6 enc x ~1.8s) + ~8 (k14 subset, 6 enc x ~1.4s) = ~89s",
+    "actual_seconds": "see results/experiment_E_summary.json (elapsed_sec)",
+    "rationale": "Keeping full position x image-type sweeps only at the two cheap sizes (64, 128) and reducing the 256x256 sweep to positions-only with one image type keeps the whole experiment under ~90s instead of the >300s a full 3-size x 3-type x 3-position x 2-profile matrix would cost; this is the 'meaningful trials, not hundreds of redundant runs' tradeoff the user asked for."
+  },
+  "decision_key_sensitivity": {
+    "bit_positions_full_sweep": "16 positions (every 16th of 256 key bits), sizes 64 and 128",
+    "bit_positions_reduced_sweep": "8 positions (every 32nd bit), size 256 only",
+    "trials_planned": 40,
+    "encryptions_planned": 80,
+    "estimated_seconds": "~45 (64x64, 32 enc x 1.41s) + ~65 (128x128, 32 enc x 2.03s) + ~65 (256x256, 16 enc x 4.07s) = ~175s",
+    "actual_seconds": "see results/experiment_F_summary.json (elapsed_sec)",
+    "rationale": "256-bit exhaustive key-bit sweep (256 positions) at even one image size would cost ~256*2*1.4s=~717s just at 64x64 alone, and far more at larger sizes; sampling every 16th/32nd bit position gives coverage across all 32 key bytes without that cost, consistent with the spec's own instruction to test 'a reasonable number of key-bit positions', not an exhaustive sweep."
+  }
+}

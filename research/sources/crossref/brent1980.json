@@ -1,0 +1,308 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/bf01933190",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T19:36:26Z",
+   "timestamp": 1791401786469,
+   "version": "4.3.3"
+  },
+  "reference-count": 15,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "2",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1980,
+       6,
+       1
+      ]
+     ],
+     "date-time": "1980-06-01T00:00:00Z",
+     "timestamp": 328665600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "BIT"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1980,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1007/bf01933190",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2005,
+     7,
+     25
+    ]
+   ],
+   "date-time": "2005-07-25T10:26:31Z",
+   "timestamp": 1122287191000
+  },
+  "page": "176-184",
+  "source": "Crossref",
+  "is-referenced-by-count": 112,
+  "title": [
+   "An improved Monte Carlo factorization algorithm"
+  ],
+  "prefix": "10.1007",
+  "volume": "20",
+  "author": [
+   {
+    "given": "Richard P.",
+    "family": "Brent",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "reference": [
+   {
+    "key": "BF01933190_CR1",
+    "unstructured": "M. Beeler, R. W. Gosper and R. Schroeppel,Hakmem, M.I.T. Artificial Intelligence Lab. Memo No. 239, Feb. 1972, item 132, pg. 64."
+   },
+   {
+    "key": "BF01933190_CR2",
+    "doi-asserted-by": "crossref",
+    "first-page": "644",
+    "DOI": "10.1109/TIT.1976.1055638",
+    "volume": "IT-22",
+    "author": "W. Diffie",
+    "year": "1976",
+    "unstructured": "W. Diffie and M. Hellman,New directions in cryptography, IEEE Trans. Information Theory IT-22 (1976), 644\u2013654.",
+    "journal-title": "IEEE Trans. Information Theory"
+   },
+   {
+    "key": "BF01933190_CR3",
+    "volume-title": "The Art of Computer Programming, vol. 2",
+    "author": "D. E. Knuth",
+    "year": "1969",
+    "unstructured": "D. E. Knuth,The Art of Computer Programming, vol. 2, Addison-Wesley, Reading, Mass., 1969."
+   },
+   {
+    "key": "BF01933190_CR4",
+    "doi-asserted-by": "crossref",
+    "unstructured": "G. L. Miller,Riemann's hypothesis and a test for primality, Proc. Seventh Annual ACM Symposium on Theory of Computing, ACM, New York, 1975, 234\u2013239.",
+    "DOI": "10.1145/800116.803773"
+   },
+   {
+    "key": "BF01933190_CR5",
+    "first-page": "183",
+    "volume": "29",
+    "author": "M. A. Morrison",
+    "year": "1975",
+    "unstructured": "M. A. Morrison and J. Brillhart,A method of factoring and the factorization of F 7, Math. Comp. 29 (1975), 183\u2013208.",
+    "journal-title": "Math. Comp."
+   },
+   {
+    "key": "BF01933190_CR6",
+    "doi-asserted-by": "crossref",
+    "first-page": "521",
+    "DOI": "10.1017/S0305004100049252",
+    "volume": "76",
+    "author": "J. M. Pollard",
+    "year": "1974",
+    "unstructured": "J. M. Pollard,Theorems on factorization and primality testing, Proc. Camb. Phil. Soc. 76 (1974), 521\u2013528.",
+    "journal-title": "Proc. Camb. Phil. Soc."
+   },
+   {
+    "key": "BF01933190_CR7",
+    "doi-asserted-by": "crossref",
+    "first-page": "331",
+    "DOI": "10.1007/BF01933667",
+    "volume": "15",
+    "author": "J. M. Pollard",
+    "year": "1975",
+    "unstructured": "J. M. Pollard,A Monte Carlo method for factorization, BIT 15 (1975), 331\u2013334. MR50#6992.",
+    "journal-title": "BIT"
+   },
+   {
+    "key": "BF01933190_CR8",
+    "first-page": "918",
+    "volume": "32",
+    "author": "J. M. Pollard",
+    "year": "1978",
+    "unstructured": "J. M. Pollard,Monte Carlo methods for index computation (mod p), Math. Comp. 32 (1978), 918\u2013924. MR52#13611.",
+    "journal-title": "Math. Comp."
+   },
+   {
+    "key": "BF01933190_CR9",
+    "first-page": "31",
+    "volume-title": "Algorithms and Complexity",
+    "author": "M. Rabin",
+    "year": "1976",
+    "unstructured": "M. Rabin,Probabilistic algorithms, inAlgorithms and Complexity (J. F. Traub, ed.), Academic Press, New York, 1976, 31\u201340."
+   },
+   {
+    "key": "BF01933190_CR10",
+    "doi-asserted-by": "crossref",
+    "first-page": "120",
+    "DOI": "10.1145/359340.359342",
+    "volume": "21",
+    "author": "R. L. Rivest",
+    "year": "1978",
+    "unstructured": "R. L. Rivest, A. Shamir and L. Adleman,A method for obtaining digital signatures and public-key cryptosystems, Comm. ACM 21 (1978), 120\u2013126.",
+    "journal-title": "Comm. ACM"
+   },
+   {
+    "key": "BF01933190_CR11",
+    "doi-asserted-by": "crossref",
+    "unstructured": "R. Sedgewick and T. G. Szymanski,The complexity of finding periods, Proc. Eleventh Annual ACM Symposium on Theory of Computing, ACM, New York, 1979, 74\u201380.",
+    "DOI": "10.1145/800135.804400"
+   },
+   {
+    "key": "BF01933190_CR12",
+    "doi-asserted-by": "crossref",
+    "unstructured": "D. Shanks,Class number, a theory of factorization, and genera, Proc. Sympos. Pure Math., vol. 20, Amer. Math. Soc., Providence, Rhode Island, 1970, 415\u2013440. MR47#4932.",
+    "DOI": "10.1090/pspum/020/0316385"
+   },
+   {
+    "key": "BF01933190_CR13",
+    "doi-asserted-by": "crossref",
+    "first-page": "84",
+    "DOI": "10.1137/0206006",
+    "volume": "6",
+    "author": "R. Solovay",
+    "year": "1977",
+    "unstructured": "R. Solovay and V. Strassen,A fast Monte-Carlo test for primality, SIAM J. Computing 6 (1977), 84\u201385.",
+    "journal-title": "SIAM J. Computing"
+   },
+   {
+    "key": "BF01933190_CR14",
+    "doi-asserted-by": "crossref",
+    "first-page": "272",
+    "DOI": "10.1145/360980.361001",
+    "volume": "17",
+    "author": "M. C. Wunderlich",
+    "year": "1974",
+    "unstructured": "M. C. Wunderlich and J. L. Selfridge,A design for a number theory package with an optimized trial division routine, Comm. ACM 17 (1974), 272\u2013276.",
+    "journal-title": "Comm. ACM"
+   },
+   {
+    "key": "BF01933190_CR15",
+    "unstructured": "Anonymous,ML-15,Random number generator, TI Programmable 58/59 Master Library, Texas Instruments Inc., 1977, 52\u201354."
+   }
+  ],
+  "container-title": [
+   "BIT"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/BF01933190.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/BF01933190/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/BF01933190",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     4,
+     8
+    ]
+   ],
+   "date-time": "2020-04-08T06:07:28Z",
+   "timestamp": 1586326048000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/BF01933190"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1980,
+     6
+    ]
+   ]
+  },
+  "references-count": 15,
+  "journal-issue": {
+   "issue": "2",
+   "published-print": {
+    "date-parts": [
+     [
+      1980,
+      6
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "BF01933190"
+  ],
+  "URL": "https://doi.org/10.1007/bf01933190",
+  "relation": {},
+  "ISSN": [
+   "0006-3835",
+   "1572-9125"
+  ],
+  "issn-type": [
+   {
+    "value": "0006-3835",
+    "type": "print"
+   },
+   {
+    "value": "1572-9125",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1980,
+     6
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,690 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.ins.2014.11.018",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     25
+    ]
+   ],
+   "date-time": "2026-10-25T12:48:58Z",
+   "timestamp": 1792932538041,
+   "version": "4.5.0"
+  },
+  "reference-count": 40,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2015,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2015-03-01T00:00:00Z",
+     "timestamp": 1425168000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Macau Science and Technology Development",
+    "award": [
+     "FDCT/017/2012/A1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "FDCT/017/2012/A1"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MYRG2014-00003-FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG2014-00003-FST"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MRG017/ZYC/2014/FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MRG017/ZYC/2014/FST"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MYRG113(Y1-L3)-FST12-ZYC"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG113(Y1-L3)-FST12-ZYC"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MRG001/ZYC/2013/FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MRG001/ZYC/2013/FST"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Information Sciences"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2015,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.ins.2014.11.018",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     11,
+     17
+    ]
+   ],
+   "date-time": "2014-11-17T13:56:13Z",
+   "timestamp": 1416232573000
+  },
+  "page": "80-94",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 733,
+  "special_numbering": "C",
+  "title": [
+   "2D Sine Logistic modulation map for image encryption"
+  ],
+  "prefix": "10.1016",
+  "volume": "297",
+  "author": [
+   {
+    "given": "Zhongyun",
+    "family": "Hua",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yicong",
+    "family": "Zhou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chi-Man",
+    "family": "Pun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C.L. Philip",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "1358",
+    "DOI": "10.1016/j.sigpro.2012.11.019",
+    "article-title": "Cryptanalysis of a one round chaos-based substitution permutation network",
+    "volume": "93",
+    "author": "Arroyo",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0010",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1063/1.2959102",
+    "article-title": "On the security of a new image encryption scheme based on chaotic map lattices",
+    "volume": "18",
+    "author": "Arroyo",
+    "year": "2008",
+    "journal-title": "Chaos: Interdiscip. J. Nonlinear Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "297",
+    "DOI": "10.1016/j.ins.2012.09.053",
+    "article-title": "Discrete fractional wavelet transform and its application to multiple encryption",
+    "volume": "223",
+    "author": "Bhatnagar",
+    "year": "2013",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3D chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0025",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J. Daemen, V. Rijmen, The Block Cipher Rijndael, 2000.",
+    "DOI": "10.1007/10721064_26"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "617",
+    "DOI": "10.1103/RevModPhys.57.617",
+    "article-title": "Ergodic theory of chaos and strange attractors",
+    "volume": "57",
+    "author": "Eckmann",
+    "year": "1985",
+    "journal-title": "Rev. Mod. Phys."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "265",
+    "DOI": "10.1016/S0167-2789(98)00177-8",
+    "article-title": "A new method to estimate the Kolmogorov entropy from recurrence plots: its application to neuronal signals",
+    "volume": "122",
+    "author": "Faure",
+    "year": "1998",
+    "journal-title": "Physica D"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0040",
+    "unstructured": "FIPS PUB 197, Advanced Encryption Standard (AES), 2001."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0045",
+    "unstructured": "FIPS PUB 46, Data Encryption Standard (DES), 1999."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0050",
+    "first-page": "249",
+    "article-title": "A new image encryption scheme based on a chaotic function",
+    "volume": "27",
+    "author": "Francois",
+    "year": "2012",
+    "journal-title": "Signal Process.: Image Commun."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "2591",
+    "DOI": "10.1103/PhysRevA.28.2591",
+    "article-title": "Estimation of the Kolmogorov entropy from a chaotic signal",
+    "volume": "28",
+    "author": "Grassberger",
+    "year": "1983",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0060",
+    "series-title": "Chaos and Nonlinear Dynamics: An Introduction for Scientists and Engineers",
+    "author": "Hilborn",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "249",
+    "DOI": "10.1016/j.ins.2011.09.008",
+    "article-title": "Keyed hash function based on a chaotic map",
+    "volume": "186",
+    "author": "Kanso",
+    "year": "2012",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "1027",
+    "DOI": "10.1016/j.cnsns.2013.07.026",
+    "article-title": "Numerical justification of Leonov conjecture on Lyapunov dimension of Rossler attractor",
+    "volume": "19",
+    "author": "Kuznetsov",
+    "year": "2014",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "2383",
+    "DOI": "10.1007/s11071-012-0626-5",
+    "article-title": "Breaking a novel colour image encryption algorithm based on chaos",
+    "volume": "70",
+    "author": "Li",
+    "year": "2012",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "2714",
+    "DOI": "10.1016/j.sigpro.2010.03.022",
+    "article-title": "A novel image encryption algorithm based on self-adaptive wave transmission",
+    "volume": "90",
+    "author": "Liao",
+    "year": "2010",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "1424",
+    "DOI": "10.1109/78.757236",
+    "article-title": "A general efficient method for chaotic signal estimation",
+    "volume": "47",
+    "author": "Ling",
+    "year": "1999",
+    "journal-title": "IEEE Trans. Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "2380",
+    "DOI": "10.1109/TCSI.2014.2304655",
+    "article-title": "Designing hyperchaotic systems with any desired number of positive Lyapunov exponents via a simple model",
+    "volume": "61",
+    "author": "Shen",
+    "year": "2014",
+    "journal-title": "IEEE Trans. Circuits Syst. I Regul. Pap."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "34",
+    "DOI": "10.1016/j.physleta.2013.10.035",
+    "article-title": "Lyapunov exponents in resonance multiplets",
+    "volume": "378",
+    "author": "Shevchenko",
+    "year": "2014",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0100",
+    "doi-asserted-by": "crossref",
+    "first-page": "84",
+    "DOI": "10.1016/j.physleta.2006.10.081",
+    "article-title": "Cryptanalysis of chaotic stream cipher",
+    "volume": "363",
+    "author": "Skrobek",
+    "year": "2007",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "227",
+    "DOI": "10.1016/j.ins.2010.09.009",
+    "article-title": "Algebraic break of image ciphers based on discretized chaotic map lattices",
+    "volume": "181",
+    "author": "Solak",
+    "year": "2011",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "21",
+    "DOI": "10.1016/j.ins.2014.02.004",
+    "article-title": "Image cryptographic algorithm based on the Haar wavelet transform",
+    "volume": "269",
+    "author": "Tedmori",
+    "year": "2014",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel colour image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "Wang",
+    "year": "2012",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "555",
+    "DOI": "10.1016/j.ins.2012.09.037",
+    "article-title": "Secure chaotic system with application to chaotic ciphers",
+    "volume": "221",
+    "author": "Wang",
+    "year": "2013",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0125",
+    "unstructured": "Wikipedia, Double-precision Floating-point Format \u2013 Wikipedia, the Free Encyclopedia, 2013 (online; accessed 10.12.13)."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0130",
+    "unstructured": "Wikipedia, Lorenz System \u2013 Wikipedia, the Free Encyclopedia, 2013 (online; accessed 01.01.14)."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "285",
+    "DOI": "10.1016/0167-2789(85)90011-9",
+    "article-title": "Determining Lyapunov exponents from a time series",
+    "volume": "16",
+    "author": "Wolf",
+    "year": "1985",
+    "journal-title": "Physica D"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0140",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1016/j.chaos.2004.02.008",
+    "article-title": "Parameter estimation only from the symbolic sequences generated by chaos system",
+    "volume": "22",
+    "author": "Wu",
+    "year": "2004",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0145",
+    "first-page": "31",
+    "article-title": "NPCR and UACI randomness tests for image encryption",
+    "author": "Wu",
+    "year": "2011",
+    "journal-title": "Cyber J. Multidiscip."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0150",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Y. Wu, J.P. Noonan, S. Agaian, A wheel-switch chaotic system for image encryption, in: 2011 International Conference on System Science and Engineering (ICSSE), 2011, pp. 23\u201327.",
+    "DOI": "10.1109/ICSSE.2011.5961867"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0155",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1117/1.JEI.21.1.013014",
+    "article-title": "Image encryption using the two-dimensional logistic chaotic map",
+    "volume": "21",
+    "author": "Wu",
+    "year": "2012",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0160",
+    "doi-asserted-by": "crossref",
+    "first-page": "323",
+    "DOI": "10.1016/j.ins.2012.07.049",
+    "article-title": "Local Shannon entropy measure with statistical tests for image randomness",
+    "volume": "222",
+    "author": "Wu",
+    "year": "2013",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0165",
+    "doi-asserted-by": "crossref",
+    "first-page": "85",
+    "DOI": "10.1016/j.ins.2012.06.003",
+    "article-title": "A piecewise linear chaotic map and sequential quadratic programming based robust hybrid particle swarm optimization",
+    "volume": "218",
+    "author": "Xu",
+    "year": "2013",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0170",
+    "doi-asserted-by": "crossref",
+    "first-page": "329",
+    "DOI": "10.1016/j.ins.2014.02.156",
+    "article-title": "A symmetric image encryption algorithm based on mixed linear-nonlinear coupled map lattice",
+    "volume": "273",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Inform. Sci."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0175",
+    "doi-asserted-by": "crossref",
+    "first-page": "3039",
+    "DOI": "10.1016/j.sigpro.2013.04.021",
+    "article-title": "Image encryption using a new parametric switching chaotic system",
+    "volume": "93",
+    "author": "Zhou",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0180",
+    "doi-asserted-by": "crossref",
+    "first-page": "172",
+    "DOI": "10.1016/j.sigpro.2013.10.034",
+    "article-title": "A new 1D chaotic system for image encryption",
+    "volume": "97",
+    "author": "Zhou",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0185",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1016/j.sigpro.2014.01.020",
+    "article-title": "Image encryption using binary bitplane",
+    "volume": "100",
+    "author": "Zhou",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0190",
+    "doi-asserted-by": "crossref",
+    "first-page": "594",
+    "DOI": "10.1016/j.optcom.2011.11.044",
+    "article-title": "Image encryption using P-Fibonacci transform and decomposition",
+    "volume": "285",
+    "author": "Zhou",
+    "year": "2012",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0195",
+    "doi-asserted-by": "crossref",
+    "first-page": "515",
+    "DOI": "10.1109/TSMCB.2012.2210706",
+    "article-title": "(n, k, p)-Gray code for image systems",
+    "volume": "43",
+    "author": "Zhou",
+    "year": "2013",
+    "journal-title": "IEEE Trans. Cybernet."
+   },
+   {
+    "key": "10.1016/j.ins.2014.11.018_b0200",
+    "doi-asserted-by": "crossref",
+    "first-page": "1171",
+    "DOI": "10.1016/j.ins.2010.11.009",
+    "article-title": "A chaos-based symmetric image encryption scheme using a bit-level permutation",
+    "volume": "181",
+    "author": "Zhu",
+    "year": "2011",
+    "journal-title": "Inform. Sci."
+   }
+  ],
+  "container-title": [
+   "Information Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0020025514010883?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0020025514010883?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     17
+    ]
+   ],
+   "date-time": "2019-08-17T13:28:22Z",
+   "timestamp": 1566048502000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0020025514010883"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2015,
+     3
+    ]
+   ]
+  },
+  "references-count": 40,
+  "alternative-id": [
+   "S0020025514010883"
+  ],
+  "URL": "https://doi.org/10.1016/j.ins.2014.11.018",
+  "relation": {},
+  "ISSN": [
+   "0020-0255"
+  ],
+  "issn-type": [
+   {
+    "value": "0020-0255",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2015,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "2D Sine Logistic modulation map for image encryption",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Information Sciences",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.ins.2014.11.018",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2014 Elsevier Inc. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

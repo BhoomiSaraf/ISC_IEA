@@ -1,0 +1,221 @@
+{
+ "query": "https://api.crossref.org/works/10.6028/nist.fips.197-upd1",
+ "message": {
+  "institution": [
+   {
+    "id": [
+     {
+      "id": "https://ror.org/05xpvk416",
+      "id-type": "ROR",
+      "asserted-by": "publisher"
+     },
+     {
+      "id": "https://www.isni.org/000000012158463X",
+      "id-type": "ISNI",
+      "asserted-by": "publisher"
+     }
+    ],
+    "name": "National Institute of Standards and Technology"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     20
+    ]
+   ],
+   "date-time": "2026-10-20T18:23:25Z",
+   "timestamp": 1792520605408,
+   "version": "4.5.0"
+  },
+  "publisher-location": "Washington, D.C.",
+  "update-to": [
+   {
+    "DOI": "10.6028/nist.fips.197",
+    "type": "new_version",
+    "label": "New version",
+    "source": "publisher",
+    "updated": {
+     "date-parts": [
+      [
+       2023,
+       5,
+       9
+      ]
+     ],
+     "date-time": "2023-05-09T00:00:00Z",
+     "timestamp": 1683590400000
+    }
+   }
+  ],
+  "reference-count": 0,
+  "publisher": "National Institute of Standards and Technology (U.S.)",
+  "funder": [
+   {
+    "DOI": "10.13039/100000161",
+    "name": "National Institute of Standards and Technology",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000161",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "nvlpubs.nist.gov"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "abstract": "<jats:p>In 2000, NIST announced the selection of the Rijndael block cipher family as the winner of the Advanced Encryption Standard (AES) competition. Block ciphers are the foundation for many cryptographic services, especially those that provide assurance of the confidentiality of data. Three members of the Rijndael family are specified in this Standard: AES-128, AES-192, and AES-256. Each of them transforms data in blocks of 128 bits, and the numerical suffix indicates the bit length of the associated cryptographic keys.</jats:p>",
+  "DOI": "10.6028/nist.fips.197-upd1",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     5,
+     8
+    ]
+   ],
+   "date-time": "2023-05-08T09:53:21Z",
+   "timestamp": 1683539601000
+  },
+  "update-policy": "https://doi.org/10.6028/nist-techpubs.crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 88,
+  "title": [
+   "Advanced Encryption Standard (AES)"
+  ],
+  "prefix": "10.6028",
+  "author": [
+   {
+    "name": "National Institute of Standards and Technology (US)",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "4068",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     5,
+     9
+    ]
+   ]
+  },
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     5,
+     19
+    ]
+   ],
+   "date-time": "2025-05-19T12:07:24Z",
+   "timestamp": 1747656444000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     5,
+     9
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.6028/nist.fips.197-upd1",
+  "relation": {
+   "replaces": [
+    {
+     "id-type": "doi",
+     "id": "10.6028/NIST.FIPS.197",
+     "asserted-by": "subject"
+    },
+    {
+     "id-type": "doi",
+     "id": "10.6028/NIST.FIPS.197-upd1.ipd",
+     "asserted-by": "subject"
+    }
+   ]
+  },
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     5,
+     9
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "URL": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "order": 0,
+    "name": "licensing",
+    "label": "Licensing Information",
+    "group": {
+     "name": "copyright_licensing",
+     "label": "Copyright, Fair Use, and Licensing"
+    }
+   },
+   {
+    "value": "https://doi.org/10.6028/NIST.FIPS.197",
+    "URL": "https://doi.org/10.6028/NIST.FIPS.197",
+    "order": 0,
+    "name": "publication_history",
+    "label": "Supersedes",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "order": 0,
+    "name": "publication_history",
+    "label": "Approved by the NIST Editorial Review Board on 2023-05-01",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

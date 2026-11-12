@@ -1,0 +1,351 @@
+{
+ "query": "https://api.crossref.org/works/10.62411/jcta.16605",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     18
+    ]
+   ],
+   "date-time": "2026-10-18T16:57:35Z",
+   "timestamp": 1792342655624,
+   "version": "4.4.0"
+  },
+  "reference-count": 31,
+  "publisher": "IntSys Research",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       7,
+       30
+      ]
+     ],
+     "date-time": "2026-07-30T00:00:00Z",
+     "timestamp": 1785369600000
+    },
+    "content-version": "unspecified",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "J. Comput. Theor. Appl."
+  ],
+  "abstract": "<jats:p>Confidentiality alone cannot establish whether a medical, forensic, cloud-stored, or remotely sensed image has been modified during transmission, while a single global authentication verdict cannot identify the affected region. This paper presents a block-wise authenticated DNA-based image encryption framework that integrates a DNA-chaos confidentiality core with pre-decryption integrity verification and spatial tamper localization. An authenticated ephemeral X25519 key exchange establishes a session secret, which is expanded by HKDF-SHA256 into four transcript-bound, domain-separated subkeys for permutation, DNA operations, diffusion, and authentication. Chaotic seeds are derived from a canonical plaintext hash and block coordinates, preserving strong plaintext differential sensitivity while confining post-encryption modifications to the affected blocks. Ciphertext integrity is enforced using a block-wise encrypt-then-MAC construction with 128-bit truncated HMAC-SHA256 tags that authenticate both the canonical header and each ciphertext block. A reduction-based security argument shows that the authentication layer provides ciphertext integrity and conditionally upgrades an IND-CPA encryption core to IND-CCA security under standard HKDF and HMAC assumptions, while the confidentiality claim remains explicitly conditional on the encryption core. Experiments on 30 tuberculosis chest radiographs across five independent sessions achieved a ciphertext entropy of 7.9972, near-zero adjacent-pixel correlation, 99.61% NPCR, and 33.47% UACI. Across five representative tampering attacks, the proposed framework achieved an observed 100% block-level true-positive rate, 0% false-positive rate, and required only 2.847 \u00b1 0.258 ms for block-wise authentication with 6.25% tag overhead using the default 16\u00d716 block configuration. These results demonstrate that the proposed framework effectively combines statistical confidentiality, modern cryptographic key management, and reliable block-level tamper localization within a unified authenticated image encryption architecture.</jats:p>",
+  "DOI": "10.62411/jcta.16605",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ],
+   "date-time": "2026-07-30T12:37:33Z",
+   "timestamp": 1785415053000
+  },
+  "page": "230-250",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+   "Block-wise Authenticated DNA-based Image Encryption with Tamper Localization using HKDF-Derived Keys"
+  ],
+  "prefix": "10.62411",
+  "volume": "4",
+  "author": [
+   {
+    "given": "Bagus Satrio Waluyo",
+    "family": "Poetro",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kusworo",
+    "family": "Adi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aris Puji",
+    "family": "Widodo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "48815",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/math13121976"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/math13081330"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-025-04021-4"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2020.2970981"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.48084/etasr.17609"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/COSITE68330.2025.11414297"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.17487/rfc5869"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.17487/RFC7748"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/cryptography6020030"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.17487/RFC8439"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.iswa.2025.200530"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s44443-025-00099-y"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2022.117861"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-025-23592-w"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.rineng.2026.111483"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-025-03898-5"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.48084/etasr.8557"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2023.3285481"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2024.3436558"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jksuci.2023.101790"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/a19020119"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.7717/peerj-cs.2249"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.48084/etasr.7181"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00145-008-9026-x"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.17487/rfc2104"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/electronics13183631"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.6028/NIST.SP.800-107r1"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIT.1983.1056650"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.21227/mps8-kb56"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2020.3031384"
+   },
+   {
+    "key": "ref31",
+    "unstructured": "Y. Wu, J. P. Noonan, and S. Agaian. NPCR and UACI Randomness Tests for Image Encryption. Cyber Journals: Multidisciplinary Journals in Science and Technology, Journal of Selected Areas in Telecommunications, pp. 31\u201338, 2011."
+   }
+  ],
+  "container-title": [
+   "Journal of Computing Theories and Applications"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://publikasi.dinus.ac.id/jcta/article/download/16605/6189",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://publikasi.dinus.ac.id/jcta/article/download/16605/6189",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ],
+   "date-time": "2026-07-30T12:37:34Z",
+   "timestamp": 1785415054000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://publikasi.dinus.ac.id/jcta/article/view/16605"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ]
+  },
+  "references-count": 31,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      31
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.62411/jcta.16605",
+  "relation": {},
+  "ISSN": [
+   "3024-9104"
+  ],
+  "issn-type": [
+   {
+    "value": "3024-9104",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     30
+    ]
+   ]
+  }
+ }
+}

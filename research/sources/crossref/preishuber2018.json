@@ -1,0 +1,650 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/tifs.2018.2812080",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T13:08:00Z",
+   "timestamp": 1792156080051,
+   "version": "4.4.0"
+  },
+  "reference-count": 69,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2018-09-01T00:00:00Z",
+     "timestamp": 1535760000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/OAPA.html"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100002428",
+    "name": "Austrian Science Fund",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "P27776"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "P27776"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100002428",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Trans.Inform.Forensic Secur."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1109/tifs.2018.2812080",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     3,
+     5
+    ]
+   ],
+   "date-time": "2018-03-05T22:07:34Z",
+   "timestamp": 1520287654000
+  },
+  "page": "2137-2150",
+  "source": "Crossref",
+  "is-referenced-by-count": 236,
+  "title": [
+   "Depreciating Motivation and Empirical Security Analysis of Chaos-Based Image and Video Encryption"
+  ],
+  "prefix": "10.1109",
+  "volume": "13",
+  "author": [
+   {
+    "given": "Mario",
+    "family": "Preishuber",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Hutter",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefan",
+    "family": "Katzenbeisser",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5921-8755",
+    "authenticated-orcid": false,
+    "given": "Andreas",
+    "family": "Uhl",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref39",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2016.10.002"
+   },
+   {
+    "key": "ref38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127410026563"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-013-0924-6"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-012-0626-5"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2015.07.008"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "crossref",
+    "first-page": "167",
+    "DOI": "10.1049/ip-vis:20000208",
+    "article-title": "Efficient hierarchical chaotic image encryption algorithm and its VLSI realisation",
+    "volume": "147",
+    "author": "yeo",
+    "year": "2000",
+    "journal-title": "IEE Proc -Vis Image Signal Process"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "crossref",
+    "first-page": "1357",
+    "DOI": "10.1016/j.physleta.2009.02.030",
+    "article-title": "Cryptanalysis of a chaos-based image encryption algorithm",
+    "volume": "373",
+    "author": "\u00e7okal",
+    "year": "2009",
+    "journal-title": "Phys Lett A"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2005.08.006"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.imavis.2008.12.008"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.imavis.2006.02.021"
+   },
+   {
+    "key": "ref60",
+    "first-page": "150",
+    "article-title": "Efficient image encryption and authentication scheme based on chaotic sequences",
+    "author": "farajallah",
+    "year": "2013",
+    "journal-title": "Proc Int Conf Emerg Secur Inf Syst Technol"
+   },
+   {
+    "key": "ref62",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CISP.2011.6100304"
+   },
+   {
+    "key": "ref61",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s13369-013-0713-z"
+   },
+   {
+    "key": "ref63",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0375-9601(99)00747-1"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S1383-7621(03)00087-0"
+   },
+   {
+    "key": "ref64",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICCIS.2013.193"
+   },
+   {
+    "key": "ref27",
+    "first-page": "1041",
+    "article-title": "Design of a new cryptography system",
+    "volume": "2532",
+    "author": "chen",
+    "year": "2002",
+    "journal-title": "Proc Advances in Multimedia Information Processing"
+   },
+   {
+    "key": "ref65",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.4218/etrij.10.1510.0063"
+   },
+   {
+    "key": "ref66",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.4236/am.2012.312262"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0960-0779(03)00065-1"
+   },
+   {
+    "key": "ref67",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jare.2015.07.002"
+   },
+   {
+    "key": "ref68",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2015.06.007"
+   },
+   {
+    "key": "ref69",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/e17042117"
+   },
+   {
+    "key": "ref2",
+    "first-page": "159",
+    "article-title": "Efficient image encryption based on chaotic maps",
+    "author": "scharinger",
+    "year": "1996",
+    "journal-title": "Proc 20th Workshop Austrian Assoc Pattern Recognit (OAGM/AAPR) Pattern Recognit"
+   },
+   {
+    "key": "ref1",
+    "author": "arnold",
+    "year": "1967",
+    "journal-title": "Probl&#x00E8;mes Ergodiques De La M&#x00E9;canique Classique"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2010.02.039"
+   },
+   {
+    "key": "ref22",
+    "first-page": "430",
+    "article-title": "A new image encryption algorithm and its VLSI architecture",
+    "author": "yen",
+    "year": "1999",
+    "journal-title": "Proc IEEE Workshop Signal Process Syst"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2007.07.037"
+   },
+   {
+    "key": "ref24",
+    "author": "rukhin",
+    "year": "2010",
+    "journal-title": "A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications"
+   },
+   {
+    "key": "ref23",
+    "first-page": "6126",
+    "article-title": "Design and implementation of a new cryptographic system for multimedia transmission",
+    "author": "yen",
+    "year": "2005",
+    "journal-title": "Proc IEEE Int Symp Circuits Syst"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11432-007-0026-5"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-015-1956-x"
+   },
+   {
+    "key": "ref50",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ISCID.2013.137"
+   },
+   {
+    "key": "ref51",
+    "first-page": "217",
+    "article-title": "A chaos-based image encryption algorithm using wavelet transform",
+    "author": "yu",
+    "year": "2010",
+    "journal-title": "Proc 2nd Int Conf Adv Comput Control"
+   },
+   {
+    "key": "ref59",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CISP.2009.5304288"
+   },
+   {
+    "key": "ref58",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CSE.2009.317"
+   },
+   {
+    "key": "ref57",
+    "author": "ahmad",
+    "year": "2014",
+    "journal-title": "An inter-component pixels permutation based color image encryption using hyper-chaos"
+   },
+   {
+    "key": "ref56",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.09.035"
+   },
+   {
+    "key": "ref55",
+    "first-page": "1020",
+    "article-title": "A novel chaos-based image encryption scheme using coupled map lattices",
+    "author": "wu",
+    "year": "2013",
+    "journal-title": "Proc Int Conf Fuzzy Syst Knowl Discovery"
+   },
+   {
+    "key": "ref54",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.07.040"
+   },
+   {
+    "key": "ref53",
+    "article-title": "A multimedia chaos-based encryption algorithm",
+    "author": "boulebtateche",
+    "year": "2011",
+    "journal-title": "Proc 12th Int Arab Conf Inf Technol (ACIT)"
+   },
+   {
+    "key": "ref52",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CISP.2008.86"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2011.11.030"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.aeue.2012.07.004"
+   },
+   {
+    "key": "ref40",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1007/978-3-642-20542-2_8",
+    "article-title": "Lessons learnt from the cryptanalysis of chaos-based ciphers",
+    "author": "alvarez",
+    "year": "2011",
+    "journal-title": "Chaos-Based Cryptography Theory Algorithms and Applications"
+   },
+   {
+    "key": "ref12",
+    "volume": "28",
+    "author": "furht",
+    "year": "2005",
+    "journal-title": "Multimedia Encryption and Watermarking"
+   },
+   {
+    "key": "ref13",
+    "volume": "15",
+    "author": "uhl",
+    "year": "2005",
+    "journal-title": "Image and Video Encryption From Digital Rights Management to Secured Personal Communication"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1201/9781420065282",
+    "author": "lian",
+    "year": "2008",
+    "journal-title": "Multimedia Content Encryption Techniques and Applications"
+   },
+   {
+    "key": "ref15",
+    "first-page": "31",
+    "article-title": "NPCR and UACI randomness tests for image encryption",
+    "volume": "4",
+    "author": "wu",
+    "year": "2011",
+    "journal-title": "Cyber J Multidiscipl J Sel Areas Telecommun"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.013"
+   },
+   {
+    "key": "ref17",
+    "first-page": "ii-708",
+    "article-title": "Cryptanalysis of a chaotic image encryption method",
+    "author": "li",
+    "year": "2002",
+    "journal-title": "Proc IEEE Int Symp Circuits Syst (ISCAS)"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physa.2005.01.001"
+   },
+   {
+    "key": "ref19",
+    "first-page": "ii-925",
+    "article-title": "On the security of an image encryption method",
+    "author": "li",
+    "year": "2002",
+    "journal-title": "Proc Int Conf Image Process"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICSMC.1997.638097"
+   },
+   {
+    "key": "ref3",
+    "first-page": "9",
+    "article-title": "On the notion of entropy (Hungarian)",
+    "volume": "1",
+    "author": "balatoni",
+    "year": "1956",
+    "journal-title": "Publ Math Inst Hungarian Acad Sci"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2012.04.002"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812749800098X"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel colour image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "wang",
+    "year": "2012",
+    "journal-title": "Signal Process"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-014-1259-7"
+   },
+   {
+    "key": "ref49",
+    "first-page": "800",
+    "article-title": "A chaos-based image encryption scheme using multimodal skew tent maps",
+    "volume": "4",
+    "author": "ye",
+    "year": "2013",
+    "journal-title": "J Emerg Trends Comput Inf Sci"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optlastec.2013.07.009"
+   },
+   {
+    "key": "ref46",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2014.11.018"
+   },
+   {
+    "key": "ref45",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-014-1533-8"
+   },
+   {
+    "key": "ref48",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/3-540-45537-X_1",
+    "article-title": "Weaknesses in the key scheduling algorithm of RC4",
+    "volume": "2259",
+    "author": "fluhrer",
+    "year": "2001",
+    "journal-title": "Selected Areas in Cryptography"
+   },
+   {
+    "key": "ref47",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2013.04.021"
+   },
+   {
+    "key": "ref42",
+    "first-page": "624",
+    "article-title": "Visual security evaluation based on SIFT object recognition",
+    "author": "jenisch",
+    "year": "2014",
+    "journal-title": "Artificial Intelligence Applications and Innovations"
+   },
+   {
+    "key": "ref41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2012.07.049"
+   },
+   {
+    "key": "ref44",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2008.11.005"
+   },
+   {
+    "key": "ref43",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1117/1.JEI.21.1.013014"
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Information Forensics and Security"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/10206/8350420/08306512.pdf?arnumber=8306512",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     26
+    ]
+   ],
+   "date-time": "2022-01-26T07:45:27Z",
+   "timestamp": 1643183127000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/8306512/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     9
+    ]
+   ]
+  },
+  "references-count": 69,
+  "journal-issue": {
+   "issue": "9"
+  },
+  "URL": "https://doi.org/10.1109/tifs.2018.2812080",
+  "relation": {},
+  "ISSN": [
+   "1556-6013",
+   "1556-6021"
+  ],
+  "issn-type": [
+   {
+    "value": "1556-6013",
+    "type": "print"
+   },
+   {
+    "value": "1556-6021",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     9
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,81 @@
+sample,appendix_b_test,official_test,series,appendix_b_p,official_sts_p,official_matches,python_p,python_matches
+pi,Frequency,Frequency,p_value,0.578211,0.578211,True,0.578211,True
+pi,Block Frequency (m = 128),BlockFrequency,p_value,0.380615,0.380615,True,0.380615,True
+pi,Cusum-Forward,CumulativeSums,forward,0.628308,0.628308,True,0.628308,True
+pi,Cusum-Reverse,CumulativeSums,reverse,0.663369,0.663369,True,0.663369,True
+pi,Runs,Runs,p_value,0.419268,0.419268,True,0.419268,True
+pi,Long Runs of Ones,LongestRun,p_value,0.024390,0.024390,True,0.024390,True
+pi,Rank,Rank,p_value,0.083553,0.083553,True,0.083553,True
+pi,Spectral DFT,FFT,p_value,0.010186,0.010186,True,0.010186,True
+pi,"Non-overlapping Templates (m = 9, B = 000000001)",NonOverlappingTemplate,template000,0.165757,0.165757,True,,
+pi,Overlapping Templates (m = 9),OverlappingTemplate,p_value,0.296897,0.296897,True,,
+pi,Universal,Universal,p_value,0.669012,0.669012,True,0.669012,True
+pi,Approximate Entropy (m = 10),ApproximateEntropy,p_value,0.361595,0.361595,True,0.361595,True
+pi,Random Excursions (x = +1),RandomExcursions,x=+1,0.844143,0.844143,True,,
+pi,Random Excursions Variant (x = -1),RandomExcursionsVariant,x=-1,0.760966,0.760966,True,,
+pi,Linear Complexity (M = 500),LinearComplexity,p_value,0.255475,0.255475,True,,
+pi,"Serial (m = 16, del Psi^2_m)",Serial,p_value1,0.143005,0.143005,True,0.143005,True
+e,Frequency,Frequency,p_value,0.953749,0.953749,True,0.953749,True
+e,Block Frequency (m = 128),BlockFrequency,p_value,0.211072,0.211072,True,0.211072,True
+e,Cusum-Forward,CumulativeSums,forward,0.669887,0.669886,False,0.669886,False
+e,Cusum-Reverse,CumulativeSums,reverse,0.724266,0.724265,False,0.724265,False
+e,Runs,Runs,p_value,0.561917,0.561917,True,0.561917,True
+e,Long Runs of Ones,LongestRun,p_value,0.718945,0.718945,True,0.718945,True
+e,Rank,Rank,p_value,0.306156,0.306156,True,0.306156,True
+e,Spectral DFT,FFT,p_value,0.847187,0.847187,True,0.847187,True
+e,"Non-overlapping Templates (m = 9, B = 000000001)",NonOverlappingTemplate,template000,0.078790,0.078790,True,,
+e,Overlapping Templates (m = 9),OverlappingTemplate,p_value,0.110434,0.110434,True,,
+e,Universal,Universal,p_value,0.282568,0.282568,True,0.282568,True
+e,Approximate Entropy (m = 10),ApproximateEntropy,p_value,0.700073,0.700073,True,0.700073,True
+e,Random Excursions (x = +1),RandomExcursions,x=+1,0.786868,0.786868,True,,
+e,Random Excursions Variant (x = -1),RandomExcursionsVariant,x=-1,0.826009,0.826009,True,,
+e,Linear Complexity (M = 500),LinearComplexity,p_value,0.826335,0.826335,True,,
+e,"Serial (m = 16, del Psi^2_m)",Serial,p_value1,0.766182,0.766182,True,0.766182,True
+sha1,Frequency,Frequency,p_value,0.604458,0.604458,True,0.604458,True
+sha1,Block Frequency (m = 128),BlockFrequency,p_value,0.091517,0.091517,True,0.091517,True
+sha1,Cusum-Forward,CumulativeSums,forward,0.451231,0.451231,True,0.451231,True
+sha1,Cusum-Reverse,CumulativeSums,reverse,0.550134,0.550134,True,0.550134,True
+sha1,Runs,Runs,p_value,0.309757,0.309757,True,0.309757,True
+sha1,Long Runs of Ones,LongestRun,p_value,0.657812,0.657812,True,0.657812,True
+sha1,Rank,Rank,p_value,0.577829,0.577829,True,0.577829,True
+sha1,Spectral DFT,FFT,p_value,0.163062,0.163062,True,0.163062,True
+sha1,"Non-overlapping Templates (m = 9, B = 000000001)",NonOverlappingTemplate,template000,0.496601,0.496601,True,,
+sha1,Overlapping Templates (m = 9),OverlappingTemplate,p_value,0.339426,0.339426,True,,
+sha1,Universal,Universal,p_value,0.411079,0.411079,True,0.411079,True
+sha1,Approximate Entropy (m = 10),ApproximateEntropy,p_value,0.982885,0.982885,True,0.982885,True
+sha1,Random Excursions (x = +1),RandomExcursions,x=+1,0.000000,0.000000,True,,
+sha1,Random Excursions Variant (x = -1),RandomExcursionsVariant,x=-1,0.000000,0.000000,True,,
+sha1,Linear Complexity (M = 500),LinearComplexity,p_value,0.309412,0.309412,True,,
+sha1,"Serial (m = 16, del Psi^2_m)",Serial,p_value1,0.760793,0.760793,True,0.760793,True
+sqrt2,Frequency,Frequency,p_value,0.811881,0.811881,True,0.811881,True
+sqrt2,Block Frequency (m = 128),BlockFrequency,p_value,0.833222,0.833222,True,0.833222,True
+sqrt2,Cusum-Forward,CumulativeSums,forward,0.879009,0.879009,True,0.879009,True
+sqrt2,Cusum-Reverse,CumulativeSums,reverse,0.957206,0.957206,True,0.957206,True
+sqrt2,Runs,Runs,p_value,0.313427,0.313427,True,0.313427,True
+sqrt2,Long Runs of Ones,LongestRun,p_value,0.012117,0.012117,True,0.012117,True
+sqrt2,Rank,Rank,p_value,0.823810,0.823810,True,0.823810,True
+sqrt2,Spectral DFT,FFT,p_value,0.581909,0.581909,True,0.581909,True
+sqrt2,"Non-overlapping Templates (m = 9, B = 000000001)",NonOverlappingTemplate,template000,0.569461,0.569461,True,,
+sqrt2,Overlapping Templates (m = 9),OverlappingTemplate,p_value,0.791982,0.791982,True,,
+sqrt2,Universal,Universal,p_value,0.130805,0.130805,True,0.130805,True
+sqrt2,Approximate Entropy (m = 10),ApproximateEntropy,p_value,0.884740,0.884740,True,0.884740,True
+sqrt2,Random Excursions (x = +1),RandomExcursions,x=+1,0.216235,0.216235,True,,
+sqrt2,Random Excursions Variant (x = -1),RandomExcursionsVariant,x=-1,0.566118,0.566118,True,,
+sqrt2,Linear Complexity (M = 500),LinearComplexity,p_value,0.317127,0.317127,True,,
+sqrt2,"Serial (m = 16, del Psi^2_m)",Serial,p_value1,0.861925,0.861925,True,0.861925,True
+sqrt3,Frequency,Frequency,p_value,0.610051,0.610051,True,0.610051,True
+sqrt3,Block Frequency (m = 128),BlockFrequency,p_value,0.473961,0.473961,True,0.473961,True
+sqrt3,Cusum-Forward,CumulativeSums,forward,0.917121,0.917121,True,0.917121,True
+sqrt3,Cusum-Reverse,CumulativeSums,reverse,0.689519,0.689519,True,0.689519,True
+sqrt3,Runs,Runs,p_value,0.261123,0.261123,True,0.261123,True
+sqrt3,Long Runs of Ones,LongestRun,p_value,0.446726,0.446726,True,0.446726,True
+sqrt3,Rank,Rank,p_value,0.314498,0.314498,True,0.314498,True
+sqrt3,Spectral DFT,FFT,p_value,0.776046,0.776046,True,0.776046,True
+sqrt3,"Non-overlapping Templates (m = 9, B = 000000001)",NonOverlappingTemplate,template000,0.532235,0.532235,True,,
+sqrt3,Overlapping Templates (m = 9),OverlappingTemplate,p_value,0.082716,0.082716,True,,
+sqrt3,Universal,Universal,p_value,0.165981,0.165981,True,0.165981,True
+sqrt3,Approximate Entropy (m = 10),ApproximateEntropy,p_value,0.180481,0.180481,True,0.180481,True
+sqrt3,Random Excursions (x = +1),RandomExcursions,x=+1,0.783283,0.783283,True,,
+sqrt3,Random Excursions Variant (x = -1),RandomExcursionsVariant,x=-1,0.155066,0.155066,True,,
+sqrt3,Linear Complexity (M = 500),LinearComplexity,p_value,0.346469,0.346469,True,,
+sqrt3,"Serial (m = 16, del Psi^2_m)",Serial,p_value1,0.157500,0.157500,True,0.157500,True

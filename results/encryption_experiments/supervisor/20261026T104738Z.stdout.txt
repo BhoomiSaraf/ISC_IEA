@@ -1,0 +1,6 @@
+[2026-10-26T16:17:43] start A6e23_merge_posthoc mode=full
+RUN_DIR C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis\results\encryption_experiments\A6e23_merge_posthoc_full_20261026T104741Z
+[2026-10-26T16:17:43] memory at start: {'working_set_mb': 140.9, 'peak_working_set_mb': 140.9, 'system_available_mb': 693.3}
+[2026-10-26T16:28:10] P2 x batch blocks 0..63: 627.1 s, {'working_set_mb': 141.9, 'peak_working_set_mb': 176.7, 'system_available_mb': 231.7}
+[2026-10-26T16:28:10] INCOMPLETE: memory guard stop (available RAM 232 MB < 300 MB at part2 x batch 64)
+[2026-10-26T16:28:10] finished in 629.52 s

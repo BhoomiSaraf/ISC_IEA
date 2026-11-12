@@ -1,0 +1,749 @@
+{
+ "query": "https://api.crossref.org/works/10.3390/e20090716",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T17:48:13Z",
+   "timestamp": 1791395293472,
+   "version": "4.3.3"
+  },
+  "reference-count": 45,
+  "publisher": "MDPI AG",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       9,
+       19
+      ]
+     ],
+     "date-time": "2018-09-19T00:00:00Z",
+     "timestamp": 1537315200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61472451"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61472451"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Shan Dong Province Nature Science Foundation",
+    "award": [
+     "ZR2017MEM019"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "ZR2017MEM019"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "The science Research Fund of Liaocheng University",
+    "award": [
+     "318011606"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "318011606"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Open Project of Guangxi Colleges and Universities Key Laboratory of Complex System Optimization and Big DataProcessing",
+    "award": [
+     "2016CSOBDP0103"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016CSOBDP0103"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Entropy"
+  ],
+  "abstract": "<jats:p>In order to overcome the difficulty of key management in \u201cone time pad\u201d encryption schemes and also resist the attack of chosen plaintext, a new image encryption algorithm based on chaos and SHA-256 is proposed in this paper. The architecture of confusion and diffusion is adopted. Firstly, the surrounding of a plaintext image is surrounded by a sequence generated from the SHA-256 hash value of the plaintext to ensure that each encrypted result is different. Secondly, the image is scrambled according to the random sequence obtained by adding the disturbance term associated with the plaintext to the chaotic sequence. Third, the cyphertext (plaintext) feedback mechanism of the dynamic index in the diffusion stage is adopted, that is, the location index of the cyphertext (plaintext) used for feedback is dynamic. The above measures can ensure that the algorithm can resist chosen plaintext attacks and can overcome the difficulty of key management in \u201cone time pad\u201d encryption scheme. Also, experimental results such as key space analysis, key sensitivity analysis, differential analysis, histograms, information entropy, and correlation coefficients show that the image encryption algorithm is safe and reliable, and has high application potential.</jats:p>",
+  "DOI": "10.3390/e20090716",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     19
+    ]
+   ],
+   "date-time": "2018-09-19T10:50:31Z",
+   "timestamp": 1537354231000
+  },
+  "page": "716",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 113,
+  "title": [
+   "A New Image Encryption Algorithm Based on Chaos and Secure Hash SHA-256"
+  ],
+  "prefix": "10.3390",
+  "volume": "20",
+  "author": [
+   {
+    "given": "Shuqin",
+    "family": "Zhu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "School of Computer and Science, Liaocheng University, Liaocheng 252059, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9662-0532",
+    "authenticated-orcid": false,
+    "given": "Congxu",
+    "family": "Zhu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Information Science and Engineering, Central South University, Changsha 410083, China"
+     },
+     {
+      "name": "School of Physics and Electronics, Central South University, Changsha 410083, China"
+     },
+     {
+      "name": "Guangxi Colleges and Universities Key Laboratory of Complex System Optimization and Big Data Processing, Yulin Normal University, Yulin 537000, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wenhong",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Computer and Science, Liaocheng University, Liaocheng 252059, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1968",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     19
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "Alvarez",
+    "year": "2006",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "ref_2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "ref_3",
+    "doi-asserted-by": "crossref",
+    "first-page": "281",
+    "DOI": "10.1016/j.sigpro.2015.06.007",
+    "article-title": "Color image encryption using chaotic nonlinear adaptive filter",
+    "volume": "117",
+    "author": "Hsiao",
+    "year": "2015",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_4",
+    "doi-asserted-by": "crossref",
+    "first-page": "557",
+    "DOI": "10.1007/s11071-011-0006-6",
+    "article-title": "A new image encryption method: Parallel sub-image encryption with hyper chaos",
+    "volume": "67",
+    "author": "Mirzaei",
+    "year": "2012",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_5",
+    "doi-asserted-by": "crossref",
+    "first-page": "122",
+    "DOI": "10.1016/j.sigpro.2014.03.015",
+    "article-title": "A symmetric image cipher using wave perturbations",
+    "volume": "102",
+    "author": "Wu",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_6",
+    "doi-asserted-by": "crossref",
+    "first-page": "2755",
+    "DOI": "10.1016/j.cnsns.2009.11.010",
+    "article-title": "Modified substitution-diffusion image cipher using chaotic standard and logistic maps",
+    "volume": "15",
+    "author": "Patidar",
+    "year": "2010",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "ref_7",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1016/j.optcom.2011.08.079",
+    "article-title": "A novel image encryption scheme based on improved hyperchaotic sequences",
+    "volume": "285",
+    "author": "Zhu",
+    "year": "2012",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "ref_8",
+    "doi-asserted-by": "crossref",
+    "first-page": "292",
+    "DOI": "10.1016/j.image.2012.12.009",
+    "article-title": "A novel image encryption scheme based on a linear hyperbolic chaotic system of partial differential equations",
+    "volume": "28",
+    "author": "Zhang",
+    "year": "2013",
+    "journal-title": "Signal Process. Image Commun."
+   },
+   {
+    "key": "ref_9",
+    "doi-asserted-by": "crossref",
+    "first-page": "584",
+    "DOI": "10.1016/j.cnsns.2012.08.010",
+    "article-title": "A symmetric color image encryption algorithm using the intrinsic features of bit distributions",
+    "volume": "18",
+    "author": "Zhang",
+    "year": "2013",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "ref_10",
+    "doi-asserted-by": "crossref",
+    "first-page": "74",
+    "DOI": "10.1016/j.cnsns.2013.06.031",
+    "article-title": "An image encryption scheme based on rotation matrix bit-level permutation and block diffusion",
+    "volume": "19",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "ref_11",
+    "doi-asserted-by": "crossref",
+    "first-page": "1159",
+    "DOI": "10.1007/s11042-015-3088-1",
+    "article-title": "An image encryption algorithm based on bit level brownian motion and new chaotic systems",
+    "volume": "76",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_12",
+    "doi-asserted-by": "crossref",
+    "first-page": "120503",
+    "DOI": "10.7498/aps.61.120503",
+    "article-title": "Cryptanalysis and improvement of a class of hyperchaos based image encryption algorithms",
+    "volume": "61",
+    "author": "Zhu",
+    "year": "2012",
+    "journal-title": "Acta Phys. Sin."
+   },
+   {
+    "key": "ref_13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1311",
+    "DOI": "10.1007/s11071-014-1517-8",
+    "article-title": "Analysis and improvement of a novel image fusion encryption algorithm based on DNA sequence operation and hyper-chaotic system",
+    "volume": "78",
+    "author": "Ozkaynak",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1511",
+    "DOI": "10.1007/s11071-014-1757-7",
+    "article-title": "Breaking a novel image encryption scheme based on brownian motion and pwlcm chaotic system",
+    "volume": "79",
+    "author": "Zhu",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_15",
+    "doi-asserted-by": "crossref",
+    "first-page": "1483",
+    "DOI": "10.1007/s11071-015-1956-x",
+    "article-title": "Cryptanalysis of a new image alternate encryption algorithm based on chaotic map",
+    "volume": "80",
+    "author": "Yap",
+    "year": "2015",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_16",
+    "doi-asserted-by": "crossref",
+    "first-page": "1797",
+    "DOI": "10.1007/s11071-016-3153-y",
+    "article-title": "Differential cryptanalysis of a novel image encryption algorithm based on chaos and line map",
+    "volume": "87",
+    "author": "Chen",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_17",
+    "doi-asserted-by": "crossref",
+    "first-page": "64",
+    "DOI": "10.1109/MMUL.2017.3051512",
+    "article-title": "Cryptanalyzing an image-scrambling encryption algorithm of pixel bits",
+    "volume": "24",
+    "author": "Li",
+    "year": "2017",
+    "journal-title": "IEEE Multimed."
+   },
+   {
+    "key": "ref_18",
+    "doi-asserted-by": "crossref",
+    "first-page": "18759",
+    "DOI": "10.1109/ACCESS.2018.2817600",
+    "article-title": "Cryptanalyzing and improving a novel color image encryption algorithm using RT-enhanced chaotic tent maps",
+    "volume": "6",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1469",
+    "DOI": "10.1007/s11042-012-1292-9",
+    "article-title": "A simple, sensitive and secure image encryption algorithm based on hyper-chaotic system with only one round diffusion process",
+    "volume": "71",
+    "author": "Norouzi",
+    "year": "2014",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_20",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.sigpro.2017.06.028",
+    "article-title": "Secure image cryptosystem with unique key streams via hyper-chaotic system",
+    "volume": "142",
+    "author": "Diab",
+    "year": "2018",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "ref_21",
+    "doi-asserted-by": "crossref",
+    "first-page": "94",
+    "DOI": "10.1016/j.optlastec.2017.04.022",
+    "article-title": "Cryptanalysis of an image encryption algorithm based on DNA encoding",
+    "volume": "95",
+    "author": "Akhavan",
+    "year": "2017",
+    "journal-title": "Opt. Laser Technol."
+   },
+   {
+    "key": "ref_22",
+    "doi-asserted-by": "crossref",
+    "first-page": "2775",
+    "DOI": "10.1016/j.optcom.2011.02.039",
+    "article-title": "A novel image encryption method based on total shuffling scheme",
+    "volume": "284",
+    "author": "Zhang",
+    "year": "2011",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "ref_23",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1007/s11071-012-0639-0",
+    "article-title": "Breaking and improving an image encryption scheme based on total shuffling scheme",
+    "volume": "71",
+    "author": "Zhu",
+    "year": "2013",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_24",
+    "doi-asserted-by": "crossref",
+    "first-page": "370",
+    "DOI": "10.1016/j.optlaseng.2017.06.015",
+    "article-title": "Image encryption algorithm based on multiple mixed hash functions and cyclic shift",
+    "volume": "107",
+    "author": "Wang",
+    "year": "2017",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "ref_25",
+    "doi-asserted-by": "crossref",
+    "first-page": "1123",
+    "DOI": "10.1007/s11071-015-2392-7",
+    "article-title": "A novel chaos-based image encryption using DNA sequence operation and secure hash algorithm sha-2",
+    "volume": "83",
+    "author": "Guesmi",
+    "year": "2016",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "ref_26",
+    "doi-asserted-by": "crossref",
+    "first-page": "3320",
+    "DOI": "10.1016/j.camwa.2010.03.017",
+    "article-title": "Color image encryption based on one-time keys and robust chaotic maps",
+    "volume": "59",
+    "author": "Liu",
+    "year": "2010",
+    "journal-title": "Comput. Math. Appl."
+   },
+   {
+    "key": "ref_27",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Huang, L., Cai, S., Xiao, M., and Xiong, X. (2018). A simple chaotic map-based image encryption system using both plaintext related permutation and diffusion. Entropy, 20.",
+    "DOI": "10.3390/e20070535"
+   },
+   {
+    "key": "ref_28",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1016/j.optlaseng.2016.08.009",
+    "article-title": "A novel chaos-based image encryption algorithm using DNA sequence operations",
+    "volume": "88",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "ref_29",
+    "doi-asserted-by": "crossref",
+    "first-page": "865",
+    "DOI": "10.1002/cta.673",
+    "article-title": "A new hyperchaotic lorenz-type system: Generation, analysis, and implementation",
+    "volume": "39",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "Int. J. Circuit Theory Appl."
+   },
+   {
+    "key": "ref_30",
+    "first-page": "369",
+    "article-title": "Pseudo-random bit generator based on chebyshev map",
+    "volume": "Volume 1561",
+    "author": "Todorov",
+    "year": "2013",
+    "journal-title": "Application of Mathematics in Technical and Natural Sciences"
+   },
+   {
+    "key": "ref_31",
+    "doi-asserted-by": "crossref",
+    "first-page": "3119",
+    "DOI": "10.1142/S0218127405014052",
+    "article-title": "On the dynamical degradation of digital piecewise linear chaotic maps",
+    "volume": "15",
+    "author": "Li",
+    "year": "2005",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "ref_32",
+    "doi-asserted-by": "crossref",
+    "first-page": "368",
+    "DOI": "10.1016/j.physleta.2004.09.028",
+    "article-title": "Baptista-type chaotic cryptosystems: Problems and countermeasures",
+    "volume": "332",
+    "author": "Li",
+    "year": "2004",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "ref_33",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1155/2012/940276",
+    "article-title": "Chaotic trajectory design for monitoring an arbitrary number of specified locations using points of interest",
+    "volume": "2012",
+    "author": "Curiac",
+    "year": "2012",
+    "journal-title": "Math. Probl. Eng."
+   },
+   {
+    "key": "ref_34",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Curiac, D.I., Iercan, D., Dranga, O., Dragan, F., and Banias, O. (2007, January 14\u201320). Chaos-Based Cryptography: End of the Road?. Proceedings of the International Conference on Emerging Security Information, System and Technologies, Valencia, Spain.",
+    "DOI": "10.1109/SECUREWARE.2007.4385313"
+   },
+   {
+    "key": "ref_35",
+    "doi-asserted-by": "crossref",
+    "first-page": "126",
+    "DOI": "10.1016/j.optlaseng.2014.12.025",
+    "article-title": "Novel image encryption algorithm based on cycle shift and chaotic system",
+    "volume": "68",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "ref_36",
+    "doi-asserted-by": "crossref",
+    "first-page": "1039",
+    "DOI": "10.1007/s13369-013-0713-z",
+    "article-title": "Image encryption using random bit sequence based on chaotic maps",
+    "volume": "39",
+    "author": "Khanzadi",
+    "year": "2014",
+    "journal-title": "Arab. J. Sci. Eng."
+   },
+   {
+    "key": "ref_37",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/s11042-014-2221-x",
+    "article-title": "An efficient and noise resistive selective image encryption scheme for gray images based on chaotic maps and DNA complementary rules",
+    "volume": "75",
+    "author": "Kulsoom",
+    "year": "2016",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_38",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.optlaseng.2015.03.022",
+    "article-title": "A novel chaotic image encryption scheme using DNA sequence operations",
+    "volume": "73",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "ref_39",
+    "doi-asserted-by": "crossref",
+    "first-page": "2117",
+    "DOI": "10.3390/e17042117",
+    "article-title": "Image encryption using chebyshev map and rotation equation",
+    "volume": "17",
+    "author": "Stoyanov",
+    "year": "2015",
+    "journal-title": "Entropy"
+   },
+   {
+    "key": "ref_40",
+    "doi-asserted-by": "crossref",
+    "first-page": "283639",
+    "DOI": "10.1155/2014/283639",
+    "article-title": "Novel image encryption scheme based on chebyshev polynomial and duffing map",
+    "volume": "2014",
+    "author": "Stoyanov",
+    "year": "2014",
+    "journal-title": "Sci. World J."
+   },
+   {
+    "key": "ref_41",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Seyedzade, S.M., Mirzakuchaki, S., and Atani, R.E. (2011, January 27\u201328). A novel image encryption algorithm based on hash function. Proceedings of the Iranian Conference on Machine Vision and Image Processing, Isfahan, Iran.",
+    "DOI": "10.1109/IranianMVIP.2010.5941167"
+   },
+   {
+    "key": "ref_42",
+    "doi-asserted-by": "crossref",
+    "first-page": "020504",
+    "DOI": "10.1088/1674-1056/26/2/020504",
+    "article-title": "An image encryption scheme based on three-dimensional brownian motion and chaotic system",
+    "volume": "26",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Chin. Phys. B"
+   },
+   {
+    "key": "ref_43",
+    "unstructured": "Wang, X., and Zhang, J. (2008, January 23\u201324). An image scrambling encryption using chaos-controlled poker shuffle operation. Proceedings of the International Symposium on Biometrics and Security Technologies, Islamabad, Pakistan."
+   },
+   {
+    "key": "ref_44",
+    "doi-asserted-by": "crossref",
+    "first-page": "4655",
+    "DOI": "10.1007/s11042-013-1828-7",
+    "article-title": "Selective encryption for gray images based on chaos and DNA complementary rules",
+    "volume": "74",
+    "author": "Rehman",
+    "year": "2015",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_45",
+    "doi-asserted-by": "crossref",
+    "first-page": "2049",
+    "DOI": "10.1007/s11771-017-3614-6",
+    "article-title": "Permutation-substitution image encryption scheme based on a modified chaotic map in transform domain",
+    "volume": "24",
+    "author": "Ramadan",
+    "year": "2017",
+    "journal-title": "J. Central South Univ."
+   }
+  ],
+  "container-title": [
+   "Entropy"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.mdpi.com/1099-4300/20/9/716/pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     11
+    ]
+   ],
+   "date-time": "2025-10-11T15:21:24Z",
+   "timestamp": 1760196084000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.mdpi.com/1099-4300/20/9/716"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     19
+    ]
+   ]
+  },
+  "references-count": 45,
+  "journal-issue": {
+   "issue": "9",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "e20090716"
+  ],
+  "URL": "https://doi.org/10.3390/e20090716",
+  "relation": {},
+  "ISSN": [
+   "1099-4300"
+  ],
+  "issn-type": [
+   {
+    "value": "1099-4300",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     19
+    ]
+   ]
+  }
+ }
+}

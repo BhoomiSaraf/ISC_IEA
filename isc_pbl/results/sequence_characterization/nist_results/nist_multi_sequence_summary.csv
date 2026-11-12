@@ -1,0 +1,21 @@
+Candidate,Test_Key,Test_Name,Sequences_Tested,Sequences_Passed,Pass_Ratio,Pass_Lower_Bound,Passed_Proportion_Criterion,Chi2_Uniformity,P_Uniformity,Uniformity_Criterion,Overall_Status
+de_k14_x,monobit,Monobit,100,99,0.9900,0.9602,True,2.8000,9.716992e-01,True,PASS
+de_k14_x,frequency_within_block,Frequency Within Block,100,99,0.9900,0.9602,True,12.8000,1.718668e-01,True,PASS
+de_k14_x,runs,Runs,100,98,0.9800,0.9602,True,8.6000,4.749857e-01,True,PASS
+de_k14_x,longest_run_ones_in_a_block,Longest Run Ones In A Block,100,99,0.9900,0.9602,True,2.6000,9.780721e-01,True,PASS
+de_k14_x,binary_matrix_rank,Binary Matrix Rank,100,98,0.9800,0.9602,True,18.4000,3.080643e-02,True,PASS
+de_k14_x,dft,Discrete Fourier Transform,100,99,0.9900,0.9602,True,15.8000,7.117741e-02,True,PASS
+de_k14_x,non_overlapping_template_matching,Non Overlapping Template Matching,100,100,1.0000,0.9602,True,900.0000,6.186801e-188,False,MARGINAL/FAIL
+de_k14_x,serial,Serial,100,99,0.9900,0.9602,True,9.4000,4.011993e-01,True,PASS
+de_k14_x,approximate_entropy,Approximate Entropy,100,98,0.9800,0.9602,True,4.8000,8.513826e-01,True,PASS
+de_k14_x,cumulative sums,Cumulative Sums,100,99,0.9900,0.9602,True,16.0000,6.688159e-02,True,PASS
+de_k14_y,monobit,Monobit,100,99,0.9900,0.9602,True,7.2000,6.163052e-01,True,PASS
+de_k14_y,frequency_within_block,Frequency Within Block,100,99,0.9900,0.9602,True,6.4000,6.993126e-01,True,PASS
+de_k14_y,runs,Runs,100,98,0.9800,0.9602,True,10.8000,2.896675e-01,True,PASS
+de_k14_y,longest_run_ones_in_a_block,Longest Run Ones In A Block,100,98,0.9800,0.9602,True,15.8000,7.117741e-02,True,PASS
+de_k14_y,binary_matrix_rank,Binary Matrix Rank,100,100,1.0000,0.9602,True,4.2000,8.977626e-01,True,PASS
+de_k14_y,dft,Discrete Fourier Transform,100,100,1.0000,0.9602,True,15.0000,9.093598e-02,True,PASS
+de_k14_y,non_overlapping_template_matching,Non Overlapping Template Matching,100,100,1.0000,0.9602,True,900.0000,6.186801e-188,False,MARGINAL/FAIL
+de_k14_y,serial,Serial,100,98,0.9800,0.9602,True,7.8000,5.544204e-01,True,PASS
+de_k14_y,approximate_entropy,Approximate Entropy,100,99,0.9900,0.9602,True,8.0000,5.341462e-01,True,PASS
+de_k14_y,cumulative sums,Cumulative Sums,100,99,0.9900,0.9602,True,18.2000,3.292282e-02,True,PASS

@@ -1,0 +1,489 @@
+{
+ "query": "https://api.crossref.org/works/10.1145/3230636",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     8
+    ]
+   ],
+   "date-time": "2026-10-08T05:35:31Z",
+   "timestamp": 1791437731218,
+   "version": "4.3.3"
+  },
+  "reference-count": 40,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       1,
+       24
+      ]
+     ],
+     "date-time": "2019-01-24T00:00:00Z",
+     "timestamp": 1548288000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100000038",
+    "name": "Natural Sciences and Engineering Research Council of Canada",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "RGPIN-2017-03910"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "RGPIN-2017-03910"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100000038",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "dl.acm.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "ACM Trans. Model. Comput. Simul."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     31
+    ]
+   ]
+  },
+  "abstract": "<jats:p>\n                    In simulations, probabilistic algorithms, and statistical tests, we often generate random integers in an interval (e.g., [0,\n                    <jats:italic>s</jats:italic>\n                    )). For example, random integers in an interval are essential to the Fisher-Yates random shuffle. Consequently, popular languages such as Java, Python, C++, Swift and Go include ranged random integer generation functions as part of their runtime libraries.\n                  </jats:p>\n                  <jats:p>\n                    Pseudo-random values are usually generated in words of a fixed number of bits (e.g., 32b,\u00a064b) using algorithms such as a linear congruential generator. We need functions to convert such random words to random integers in an interval ([0,\n                    <jats:italic>s</jats:italic>\n                    )) without introducing statistical biases. The standard functions in programming languages such as Java involve integer divisions. Unfortunately, division instructions are relatively expensive. We review an unbiased function to generate ranged integers from a source of random words that avoids integer divisions with high probability. To establish the practical usefulness of the approach, we show that this algorithm can multiply the speed of unbiased random shuffling on x64 processors. Our proposed approach has been adopted by the Go language for its implementation of the shuffle function.\n                  </jats:p>",
+  "DOI": "10.1145/3230636",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     28
+    ]
+   ],
+   "date-time": "2019-01-28T09:01:39Z",
+   "timestamp": 1548666099000
+  },
+  "page": "1-12",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 42,
+  "title": [
+   "Fast Random Integer Generation in an Interval"
+  ],
+  "prefix": "10.1145",
+  "volume": "29",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-3306-6922",
+    "authenticated-orcid": false,
+    "given": "Daniel",
+    "family": "Lemire",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Universit\u00e9 du Qu\u00e9bec (TELUQ), Montreal, Quebec, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "320",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     24
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_2_1_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1899396.1899401"
+   },
+   {
+    "key": "e_1_2_2_2_1",
+    "volume-title": "Glynn",
+    "author": "Asmussen S\u00f8ren",
+    "year": "2007",
+    "unstructured": "S\u00f8ren Asmussen and Peter W . Glynn . 2007 . Stochastic Simulation : Algorithms and Analysis. Springer Science 8 Business Media, New York, NY. S\u00f8ren Asmussen and Peter W. Glynn. 2007. Stochastic Simulation: Algorithms and Analysis. Springer Science 8 Business Media, New York, NY."
+   },
+   {
+    "key": "e_1_2_2_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3009909"
+   },
+   {
+    "key": "e_1_2_2_4_1",
+    "volume-title": "Schrage",
+    "author": "Bratley Paul",
+    "year": "1987",
+    "unstructured": "Paul Bratley , Bennet L. Fox , and Linus E . Schrage . 1987 . A Guide to Simulation (2nd ed.). Springer Science 8 Business Media, New York, NY. Paul Bratley, Bennet L. Fox, and Linus E. Schrage. 1987. A Guide to Simulation (2nd ed.). Springer Science 8 Business Media, New York, NY."
+   },
+   {
+    "key": "e_1_2_2_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/280265.280273"
+   },
+   {
+    "key": "e_1_2_2_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01397554"
+   },
+   {
+    "key": "e_1_2_2_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/268403.268413"
+   },
+   {
+    "key": "e_1_2_2_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/364520.364540"
+   },
+   {
+    "key": "e_1_2_2_9_1",
+    "volume-title": "Monte Carlo: Concepts, Algorithms, and Applications (corrected ed.)",
+    "author": "Fishman George",
+    "year": "2013",
+    "unstructured": "George Fishman . 2013 . Monte Carlo: Concepts, Algorithms, and Applications (corrected ed.) . Springer Science 8 Business Media, Berlin. George Fishman. 2013. Monte Carlo: Concepts, Algorithms, and Applications (corrected ed.). Springer Science 8 Business Media, Berlin."
+   },
+   {
+    "key": "e_1_2_2_10_1",
+    "volume-title": "Instruction Tables: Lists of Instruction Latencies, Throughputs and Micro-operation Breakdowns for Intel, AMD and VIA CPUs. Technical Report",
+    "author": "Fog Agner",
+    "year": "2016",
+    "unstructured": "Agner Fog . 2016 . Instruction Tables: Lists of Instruction Latencies, Throughputs and Micro-operation Breakdowns for Intel, AMD and VIA CPUs. Technical Report . Copenhagen University College of Engineering , Copenhagen, Denmark . Retrieved on October 2017 from http://www.agner.org/optimize/instruction_tables.pdf. Agner Fog. 2016. Instruction Tables: Lists of Instruction Latencies, Throughputs and Micro-operation Breakdowns for Intel, AMD and VIA CPUs. Technical Report. Copenhagen University College of Engineering, Copenhagen, Denmark. Retrieved on October 2017 from http://www.agner.org/optimize/instruction_tables.pdf."
+   },
+   {
+    "key": "e_1_2_2_11_1",
+    "volume-title": "The GNU C++ Library API Reference. Retrieved on",
+    "author": "Free Software",
+    "year": "2017",
+    "unstructured": "Free Software Foundation 2017. The GNU C++ Library API Reference. Retrieved on October 2017 from https://gcc.gnu.org/onlinedocs/libstdc++/api.html. Free Software Foundation 2017. The GNU C++ Library API Reference. Retrieved on October 2017 from https://gcc.gnu.org/onlinedocs/libstdc++/api.html."
+   },
+   {
+    "key": "e_1_2_2_12_1",
+    "volume-title": "Proceedings of the 2017 Winter Simulation Conference. IEEE Press",
+    "author": "Michael",
+    "unstructured": "Michael C. Fu and Shane G. Henderson. 2017. History of seeking better solutions, AKA simulation optimization . In Proceedings of the 2017 Winter Simulation Conference. IEEE Press , New York, NY, 131--157. Michael C. Fu and Shane G. Henderson. 2017. History of seeking better solutions, AKA simulation optimization. In Proceedings of the 2017 Winter Simulation Conference. IEEE Press, New York, NY, 131--157."
+   },
+   {
+    "key": "e_1_2_2_13_1",
+    "volume-title": "Engineering Parallel In-Place Random Generation of Integer Permutations",
+    "author": "Gustedt Jens",
+    "unstructured": "Jens Gustedt . 2008. Engineering Parallel In-Place Random Generation of Integer Permutations . Springer , Berlin , 129--141. Jens Gustedt. 2008. Engineering Parallel In-Place Random Generation of Integer Permutations. Springer, Berlin, 129--141."
+   },
+   {
+    "key": "e_1_2_2_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2379810.2379813"
+   },
+   {
+    "key": "e_1_2_2_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5555/2999611.2999711"
+   },
+   {
+    "key": "e_1_2_2_16_1",
+    "volume-title": "Seminumerical Algorithms. The Art of Computer Programming",
+    "author": "Knuth Donald E.",
+    "unstructured": "Donald E. Knuth . 1969. Seminumerical Algorithms. The Art of Computer Programming , Vol. 2 . Addison-Wesley , Boston, MA . Donald E. Knuth. 1969. Seminumerical Algorithms. The Art of Computer Programming, Vol. 2. Addison-Wesley, Boston, MA."
+   },
+   {
+    "key": "e_1_2_2_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1570256.1570353"
+   },
+   {
+    "key": "e_1_2_2_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2669372"
+   },
+   {
+    "key": "e_1_2_2_19_1",
+    "volume-title": "Simulation Modeling and Analysis",
+    "author": "Law Averill M.",
+    "unstructured": "Averill M. Law . 2007. Simulation Modeling and Analysis ( 4 th ed.). McGraw-Hill , New York, NY . Averill M. Law. 2007. Simulation Modeling and Analysis (4th ed.). McGraw-Hill, New York, NY.",
+    "edition": "4"
+   },
+   {
+    "key": "e_1_2_2_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/84537.84555"
+   },
+   {
+    "key": "e_1_2_2_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/S0025-5718-99-00996-5"
+   },
+   {
+    "key": "e_1_2_2_22_1",
+    "volume-title": "Proceedings of the 2017 Winter Simulation Conference. IEEE Press",
+    "author": "L\u2019Ecuyer Pierre",
+    "year": "2015",
+    "unstructured": "Pierre L\u2019Ecuyer . 2015 . History of uniform random number generation . In Proceedings of the 2017 Winter Simulation Conference. IEEE Press , New York, NY, 1--17. Pierre L\u2019Ecuyer. 2015. History of uniform random number generation. In Proceedings of the 2017 Winter Simulation Conference. IEEE Press, New York, NY, 1--17."
+   },
+   {
+    "key": "e_1_2_2_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5555/2888619.2888623"
+   },
+   {
+    "key": "e_1_2_2_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/169702.169698"
+   },
+   {
+    "key": "e_1_2_2_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1268776.1268777"
+   },
+   {
+    "key": "e_1_2_2_26_1",
+    "volume-title": "Handbook of Computational Statistics",
+    "author": "L\u2019Ecuyer Pierre",
+    "unstructured": "Pierre L\u2019Ecuyer . 2012. Random number generation . In Handbook of Computational Statistics . Springer , Berlin , 35--71. Pierre L\u2019Ecuyer. 2012. Random number generation. In Handbook of Computational Statistics. Springer, Berlin, 35--71."
+   },
+   {
+    "key": "e_1_2_2_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.18637/jss.v008.i14"
+   },
+   {
+    "key": "e_1_2_2_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/272991.272995"
+   },
+   {
+    "key": "e_1_2_2_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1540530.1540533"
+   },
+   {
+    "key": "e_1_2_2_30_1",
+    "volume-title": "Parallel Random-Number Generators: Comparing Implementations. Retrieved on",
+    "author": "Overton Mark",
+    "year": "2017",
+    "unstructured": "Mark Overton . 2011. Fast, High-Quality , Parallel Random-Number Generators: Comparing Implementations. Retrieved on October 2017 from http://www.drdobbs.com/tools/fast-high-quality-parallel-random-number/231000484. Mark Overton. 2011. Fast, High-Quality, Parallel Random-Number Generators: Comparing Implementations. Retrieved on October 2017 from http://www.drdobbs.com/tools/fast-high-quality-parallel-random-number/231000484."
+   },
+   {
+    "key": "e_1_2_2_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/272991.273010"
+   },
+   {
+    "key": "e_1_2_2_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1113316.1113319"
+   },
+   {
+    "key": "e_1_2_2_33_1",
+    "volume-title": "SIMD-Oriented Fast Mersenne Twister: A 128-bit Pseudorandom Number Generator",
+    "author": "Saito Mutsuo",
+    "unstructured": "Mutsuo Saito and Makoto Matsumoto . 2008. SIMD-Oriented Fast Mersenne Twister: A 128-bit Pseudorandom Number Generator . Springer , Berlin , 607--622. Mutsuo Saito and Makoto Matsumoto. 2008. SIMD-Oriented Fast Mersenne Twister: A 128-bit Pseudorandom Number Generator. Springer, Berlin, 607--622."
+   },
+   {
+    "key": "e_1_2_2_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0020-0190(98)00127-6"
+   },
+   {
+    "key": "e_1_2_2_35_1",
+    "volume-title": "permGPU: Using graphics processing units in RNA microarray association studies. BMC Bioinformatics 11, 1 (16",
+    "author": "Shterev Ivo D.",
+    "year": "2010",
+    "unstructured": "Ivo D. Shterev , Sin-Ho Jung , Stephen L. George , and Kouros Owzar . 2010. permGPU: Using graphics processing units in RNA microarray association studies. BMC Bioinformatics 11, 1 (16 Jun 2010 ), 329. Ivo D. Shterev, Sin-Ho Jung, Stephen L. George, and Kouros Owzar. 2010. permGPU: Using graphics processing units in RNA microarray association studies. BMC Bioinformatics 11, 1 (16 Jun 2010), 329."
+   },
+   {
+    "key": "e_1_2_2_36_1",
+    "volume-title": "math/rand: add Shuffle. Retrieved on",
+    "author": "Snyder Josh Bleecher",
+    "year": "2017",
+    "unstructured": "Josh Bleecher Snyder . 2017. math/rand: add Shuffle. Retrieved on October 2017 from https://go-review.googlesource.com/c/go/+/51891 Josh Bleecher Snyder. 2017. math/rand: add Shuffle. Retrieved on October 2017 from https://go-review.googlesource.com/c/go/+/51891"
+   },
+   {
+    "key": "e_1_2_2_37_1",
+    "volume-title": "Package rand implements pseudo-random number generators. Retrieved on",
+    "author": "The Go",
+    "year": "2017",
+    "unstructured": "The Go authors. 2017. Package rand implements pseudo-random number generators. Retrieved on October 2017 from https://github.com/golang/go/blob/master/src/math/rand/rand.go. The Go authors. 2017. Package rand implements pseudo-random number generators. Retrieved on October 2017 from https://github.com/golang/go/blob/master/src/math/rand/rand.go."
+   },
+   {
+    "key": "e_1_2_2_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3147.3165"
+   },
+   {
+    "key": "e_1_2_2_39_1",
+    "first-page": "36",
+    "article-title": "Various techniques used in connection with random digits",
+    "volume": "12",
+    "author": "Neumann John Von",
+    "year": "1951",
+    "unstructured": "John Von Neumann . 1951 . Various techniques used in connection with random digits . National Bureau of Standards Series 12 (1951), 36 -- 38 . John Von Neumann. 1951. Various techniques used in connection with random digits. National Bureau of Standards Series 12 (1951), 36--38.",
+    "journal-title": "National Bureau of Standards Series"
+   },
+   {
+    "key": "e_1_2_2_40_1",
+    "volume-title": "Is Your Permutation Algorithm Unbiased for n #2<sup>m</sup> ? Springer",
+    "author": "Waechter Michael",
+    "unstructured": "Michael Waechter , Kay Hamacher , Franziska Hoffgaard , Sven Widmer , and Michael Goesele . 2012. Is Your Permutation Algorithm Unbiased for n #2<sup>m</sup> ? Springer , Berlin , 297--306. Michael Waechter, Kay Hamacher, Franziska Hoffgaard, Sven Widmer, and Michael Goesele. 2012. Is Your Permutation Algorithm Unbiased for n #2<sup>m</sup> ? Springer, Berlin, 297--306."
+   }
+  ],
+  "container-title": [
+   "ACM Transactions on Modeling and Computer Simulation"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://dl.acm.org/doi/10.1145/3230636",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://dl.acm.org/doi/pdf/10.1145/3230636",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     17
+    ]
+   ],
+   "date-time": "2025-06-17T21:39:47Z",
+   "timestamp": 1750196387000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://dl.acm.org/doi/10.1145/3230636"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     24
+    ]
+   ]
+  },
+  "references-count": 40,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      2019,
+      1,
+      31
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1145/3230636"
+  ],
+  "URL": "https://doi.org/10.1145/3230636",
+  "relation": {},
+  "ISSN": [
+   "1049-3301",
+   "1558-1195"
+  ],
+  "issn-type": [
+   {
+    "value": "1049-3301",
+    "type": "print"
+   },
+   {
+    "value": "1558-1195",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     24
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2017-10-01",
+    "order": 0,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2018-05-01",
+    "order": 1,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2019-01-24",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

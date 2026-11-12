@@ -1,0 +1,32 @@
+{
+  "sign": {
+    "path": "results/sequence_generation/default_20261025/bitstreams/sign.bin",
+    "sha256": "d67e60866db4c86331aa4b21966ec7f4c401086e1ba3149ce650fad576fed630",
+    "bytes": 12500000,
+    "sequences": 100
+  },
+  "arccos8": {
+    "path": "results/sequence_generation/default_20261025/bitstreams/arccos8.bin",
+    "sha256": "27eec9d3f76510ea219100da802c7baec3328f74f46b5c55952da5b0e6db6a8f",
+    "bytes": 12500000,
+    "sequences": 100
+  },
+  "frac8": {
+    "path": "results/sequence_generation/default_20261025/bitstreams/frac8.bin",
+    "sha256": "87b200f999837f881a70823cd1e6fab1cde248a49413439dcd0c2f48ce771558",
+    "bytes": 12500000,
+    "sequences": 100
+  },
+  "mantissa8": {
+    "path": "results/sequence_generation/default_20261025/bitstreams/mantissa8.bin",
+    "sha256": "c6b280a57ee429e173f11189adaf10e4a2291d53c967d59e9e06300ee2b435e5",
+    "bytes": 12500000,
+    "sequences": 100
+  },
+  "mantissa8_xor": {
+    "path": "results/sequence_generation/default_20261025/bitstreams/mantissa8_xor.bin",
+    "sha256": "7f736d3ca448433a72b6077854f565c9ad29a26ae33c0200ee337a475d5bfef2",
+    "bytes": 12500000,
+    "sequences": 100
+  }
+}

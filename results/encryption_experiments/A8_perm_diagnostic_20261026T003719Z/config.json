@@ -1,0 +1,11 @@
+{
+ "dims": [
+  64,
+  64,
+  1
+ ],
+ "construction": "V-FULL",
+ "nonce": "fixed",
+ "experiment": "A8_perm",
+ "mode": "diagnostic"
+}

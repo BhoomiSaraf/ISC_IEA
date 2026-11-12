@@ -1,0 +1,506 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.imavis.2008.12.008",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T03:13:35Z",
+   "timestamp": 1790738015299,
+   "version": "4.1.0"
+  },
+  "reference-count": 26,
+  "publisher": "Elsevier BV",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2009,
+       8,
+       1
+      ]
+     ],
+     "date-time": "2009-08-01T00:00:00Z",
+     "timestamp": 1249084800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Image and Vision Computing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2009,
+     8
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.imavis.2008.12.008",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2009,
+     1,
+     24
+    ]
+   ],
+   "date-time": "2009-01-24T09:38:21Z",
+   "timestamp": 1232789901000
+  },
+  "page": "1371-1381",
+  "source": "Crossref",
+  "is-referenced-by-count": 145,
+  "title": [
+   "On the security defects of an image encryption scheme"
+  ],
+  "prefix": "10.1016",
+  "volume": "27",
+  "author": [
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shujun",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Muhammad",
+    "family": "Asim",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Juana",
+    "family": "Nunez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gonzalo",
+    "family": "Alvarez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Guanrong",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "2",
+    "key": "10.1016/j.imavis.2008.12.008_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "214",
+    "DOI": "10.1109/TCSVT.2006.888840",
+    "article-title": "On the design of perceptual MPEG-video encryption algorithms",
+    "volume": "17",
+    "author": "Li",
+    "year": "2007",
+    "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.imavis.2008.12.008_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "251",
+    "DOI": "10.1117/12.208654",
+    "article-title": "Image encryption method using a class of fractals",
+    "volume": "4",
+    "author": "Alexopoulos",
+    "year": "1995",
+    "journal-title": "Journal of Electronic Imaging"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.imavis.2008.12.008_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "350",
+    "DOI": "10.1117/1.482651",
+    "article-title": "New approach to image encryption",
+    "volume": "7",
+    "author": "Chuang",
+    "year": "1998",
+    "journal-title": "Journal of Electronic Imaging"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.imavis.2008.12.008_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1049/ip-vis:20020457",
+    "article-title": "New voice over Internet protocol technique with hierarchical data security protection",
+    "volume": "149",
+    "author": "Guo",
+    "year": "2002",
+    "journal-title": "IEE Proceedings \u2013 Vision, Image, and Signal Processing"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "355",
+    "DOI": "10.1016/S1383-7621(03)00087-0",
+    "article-title": "A new cryptography system and its VLSI realization",
+    "volume": "49",
+    "author": "Chen",
+    "year": "2003",
+    "journal-title": "Journal of Systems Architecture"
+   },
+   {
+    "issue": "5\u20136",
+    "key": "10.1016/j.imavis.2008.12.008_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "461",
+    "DOI": "10.1016/S0167-8655(98)00017-8",
+    "article-title": "Large encryption binary images with higher security",
+    "volume": "19",
+    "author": "Chung",
+    "year": "1998",
+    "journal-title": "Pattern Recognition Letters"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.imavis.2008.12.008_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "article-title": "A novel fast image encryption scheme based on 3D chaotic Baker maps",
+    "volume": "14",
+    "author": "Mao",
+    "year": "2004",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.imavis.2008.12.008_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "Chaos",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Solitons & Fractals"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.imavis.2008.12.008_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "212",
+    "DOI": "10.1016/j.image.2008.01.003",
+    "article-title": "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "volume": "23",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "Signal Processing: Image Communication"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.imavis.2008.12.008_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "aa",
+    "DOI": "10.1016/j.jss.2007.07.037",
+    "article-title": "Cryptanalysis of the RCES/RSES image encryption scheme",
+    "volume": "81",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "Journal of Systems and Software"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib11",
+    "unstructured": "C. Li, S. Li, D. Zhang, G. Chen, Cryptanalysis of a chaotic neural network based multimedia encryption scheme, in: Advances in Multimedia Information Processing \u2013 PCM 2004 Proceedings, Part III, vol. 3333 of Lecture Notes in Computer Science, Springer, Berlin, 2004, pp. 418\u2013425."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.imavis.2008.12.008_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "04301",
+    "DOI": "10.1117/1.2360697",
+    "article-title": "Cryptanalysis of an image encryption scheme",
+    "volume": "15",
+    "author": "Li",
+    "year": "2006",
+    "journal-title": "Journal of Electronic Imaging"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.imavis.2008.12.008_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1049/ip-vis:20045234",
+    "article-title": "Cryptanalysis of a data security protection scheme for VoIP",
+    "volume": "153",
+    "author": "Li",
+    "year": "2006",
+    "journal-title": "IEE Proceedings \u2013 Vision, Image, and Signal Processing"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.imavis.2008.12.008_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "338",
+    "DOI": "10.1109/TCSVT.2008.918116",
+    "article-title": "Cryptanalysis of an image scrambling scheme without bandwidth expansion",
+    "volume": "18",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.imavis.2008.12.008_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "1055",
+    "DOI": "10.1109/TCSI.2008.916540",
+    "article-title": "Cryptanalyzing an encryption scheme based on blind source separation",
+    "volume": "55",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "IEEE Transactions on Circuits and SystemI"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib16",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S. Li, G. Chen, X. Zheng, Chaos-based encryption for digital images and videos, in: B. Furht, D. Kirovski (Eds.), Multimedia Security Handbook, CRC Press, Boca Raton, FL, 2004, pp. 133\u2013167. Preprint is available at <http://www.hooklee.com/pub.html/> (Chapter 4).",
+    "DOI": "10.1201/9781420038262.ch4"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib17",
+    "series-title": "Multimedia Security Handbook",
+    "first-page": "93",
+    "article-title": "Fundamentals of multimedia encryption techniques",
+    "author": "Furht",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib18",
+    "series-title": "Image and Video Encryption: From Digital Rights Management to Secured Personal Communication",
+    "author": "Uhl",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib19",
+    "series-title": "Multimedia Encryption and Watermarking",
+    "author": "Furht",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.imavis.2008.12.008_bib20",
+    "series-title": "Multimedia Security Technologies for Digital Rights Management",
+    "year": "2006"
+   },
+   {
+    "issue": "1\u20132",
+    "key": "10.1016/j.imavis.2008.12.008_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "75",
+    "DOI": "10.1016/S0375-9601(03)00122-1",
+    "article-title": "Discrete chaotic cryptography using external key",
+    "volume": "309",
+    "author": "Pareek",
+    "year": "2003",
+    "journal-title": "Physics Letters A"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.imavis.2008.12.008_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "715",
+    "DOI": "10.1016/j.cnsns.2004.03.006",
+    "article-title": "Cryptography using multiple one-dimensional chaotic maps",
+    "volume": "10",
+    "author": "Pareek",
+    "year": "2005",
+    "journal-title": "Communications in Nonlinear Science and Numerical Simulation"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.imavis.2008.12.008_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "926",
+    "DOI": "10.1016/j.imavis.2006.02.021",
+    "article-title": "Image encryption using chaotic logistic map",
+    "volume": "24",
+    "author": "Pareek",
+    "year": "2006",
+    "journal-title": "Image and Vision Computing"
+   },
+   {
+    "issue": "3\u20134",
+    "key": "10.1016/j.imavis.2008.12.008_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "334",
+    "DOI": "10.1016/j.physleta.2003.10.044",
+    "article-title": "Cryptanalysis of a discrete chaotic cryptosystem using external key",
+    "volume": "319",
+    "author": "Alvarez",
+    "year": "2003",
+    "journal-title": "Physics Letters A"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.imavis.2008.12.008_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "299",
+    "DOI": "10.1016/j.chaos.2006.08.025",
+    "article-title": "Cryptanalysis of a chaotic block cipher with external key and its improved version",
+    "volume": "37",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "Chaos Solitons & Fractals"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.imavis.2008.12.008_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "Alvarez",
+    "year": "2006",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   }
+  ],
+  "container-title": [
+   "Image and Vision Computing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0262885609000092?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0262885609000092?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     5,
+     17
+    ]
+   ],
+   "date-time": "2019-05-17T14:19:40Z",
+   "timestamp": 1558102780000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0262885609000092"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2009,
+     8
+    ]
+   ]
+  },
+  "references-count": 26,
+  "journal-issue": {
+   "issue": "9",
+   "published-print": {
+    "date-parts": [
+     [
+      2009,
+      8
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0262885609000092"
+  ],
+  "URL": "https://doi.org/10.1016/j.imavis.2008.12.008",
+  "relation": {},
+  "ISSN": [
+   "0262-8856"
+  ],
+  "issn-type": [
+   {
+    "value": "0262-8856",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2009,
+     8
+    ]
+   ]
+  }
+ }
+}

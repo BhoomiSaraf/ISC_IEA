@@ -1,0 +1,6 @@
+dims,supported,exact,note
+2x2x1,True,True,
+3x3x1,True,True,
+5x5x1,True,True,
+2x2x3,True,True,
+3x3x3,True,True,

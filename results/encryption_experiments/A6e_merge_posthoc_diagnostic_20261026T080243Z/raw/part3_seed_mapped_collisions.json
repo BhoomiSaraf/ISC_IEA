@@ -1,0 +1,9 @@
+{
+ "seeds": 1024,
+ "seed_source": "HKDF-SHA-256(salt = public seed salt, IKM = 'A6e/part3'), labels seed/<i>, 16 bytes -> isc_cipher.state_map",
+ "duplicate_initial_states": 0,
+ "duplicate_states_after_burn_in": 0,
+ "uniform_model_95pct_lower_bound_on_distinct_post_burn_in_states": 175011.6339261553,
+ "log2_bound": 17.417091303064083,
+ "seconds": 2.8
+}

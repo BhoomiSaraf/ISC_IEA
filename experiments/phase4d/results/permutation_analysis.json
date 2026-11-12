@@ -1,0 +1,65 @@
+{
+  "fisher_yates_bijectivity": {
+    "16": {
+      "is_permutation_of_0_to_n-1": true,
+      "len": 16
+    },
+    "256": {
+      "is_permutation_of_0_to_n-1": true,
+      "len": 256
+    },
+    "4096": {
+      "is_permutation_of_0_to_n-1": true,
+      "len": 4096
+    }
+  },
+  "determinism_and_nonce_dependence": {
+    "same_key_nonce_gives_identical_permutation": true,
+    "different_nonce_gives_different_permutation": true,
+    "fraction_fixed_points_pi1_nonceA": 0.01953125,
+    "fraction_fixed_points_pi3_nonceB": 0.0,
+    "expected_fixed_points_for_uniform_random_permutation": 1.0
+  },
+  "lemire_bounded_uniformity_scaled_proof": {
+    "2": {
+      "scaled_word_space_bits": 16,
+      "all_accept_counts_equal": true,
+      "accept_count_per_value": 32768,
+      "n_rejected_words": 0,
+      "n_rejected_expected": 0
+    },
+    "3": {
+      "scaled_word_space_bits": 16,
+      "all_accept_counts_equal": true,
+      "accept_count_per_value": 21845,
+      "n_rejected_words": 1,
+      "n_rejected_expected": 1
+    },
+    "7": {
+      "scaled_word_space_bits": 16,
+      "all_accept_counts_equal": true,
+      "accept_count_per_value": 9362,
+      "n_rejected_words": 2,
+      "n_rejected_expected": 2
+    },
+    "255": {
+      "scaled_word_space_bits": 16,
+      "all_accept_counts_equal": true,
+      "accept_count_per_value": 257,
+      "n_rejected_words": 1,
+      "n_rejected_expected": 1
+    },
+    "256": {
+      "scaled_word_space_bits": 16,
+      "all_accept_counts_equal": true,
+      "accept_count_per_value": 256,
+      "n_rejected_words": 0,
+      "n_rejected_expected": 0
+    }
+  },
+  "lemire_bounded_uniformity_note": "Exact enumeration over the full 32-bit word space (2^32 ~ 4.3 billion words) is infeasible to brute-force here; instead verified the SAME debiased-rejection algorithm (sampling.py:28-39's exact arithmetic structure) on a scaled-down 16-bit word space, which is large enough to expose any asymmetry in the accept/reject logic while running in well under a second (pilot: this loop is O(2^16) = 65536 iterations per s value, negligible). This confirms the ALGORITHM is unbiased by construction (every accepted output value gets exactly the same count of accepting words, and the number of rejected words exactly equals TWO16 mod s, matching Lemire's published correctness proof), not merely that it passes a statistical sampling test.",
+  "permutation_independent_of_plaintext": {
+    "structural_fact": "build_permutation(stream, n) (sampling.py:55-62) takes only the key-derived 'perm' stream and the length n -- no plaintext byte is ever an argument.",
+    "verified_by_source_inspection": true
+  }
+}

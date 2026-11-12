@@ -1,0 +1,152 @@
+[
+ {
+  "variant": "V-FULL",
+  "key": 0,
+  "image": "camera",
+  "position": 0,
+  "npcr": 0.9989013671875,
+  "uaci": 0.33314185049019607,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-FULL",
+  "key": 0,
+  "image": "camera",
+  "position": 16383,
+  "npcr": 0.997802734375,
+  "uaci": 0.3342785405177696,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-FULL",
+  "key": 0,
+  "image": "camera",
+  "position": 8192,
+  "npcr": 1.0,
+  "uaci": 0.33644109987745097,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-FULL",
+  "key": 0,
+  "image": "camera",
+  "position": 14400,
+  "npcr": 0.998779296875,
+  "uaci": 0.33676925359987747,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-FULL",
+  "key": 0,
+  "image": "camera",
+  "position": 7268,
+  "npcr": 0.99774169921875,
+  "uaci": 0.332266295189951,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-LINEAR",
+  "key": 0,
+  "image": "camera",
+  "position": 0,
+  "npcr": 0.9991455078125,
+  "uaci": 0.09253958907781863,
+  "npcr_fail": false,
+  "uaci_fail": true
+ },
+ {
+  "variant": "V-LINEAR",
+  "key": 0,
+  "image": "camera",
+  "position": 16383,
+  "npcr": 0.99798583984375,
+  "uaci": 0.38548272824754903,
+  "npcr_fail": false,
+  "uaci_fail": true
+ },
+ {
+  "variant": "V-LINEAR",
+  "key": 0,
+  "image": "camera",
+  "position": 8192,
+  "npcr": 1.0,
+  "uaci": 0.4646922392003677,
+  "npcr_fail": false,
+  "uaci_fail": true
+ },
+ {
+  "variant": "V-LINEAR",
+  "key": 0,
+  "image": "camera",
+  "position": 6226,
+  "npcr": 0.99639892578125,
+  "uaci": 0.34085262522977944,
+  "npcr_fail": false,
+  "uaci_fail": true
+ },
+ {
+  "variant": "V-LINEAR",
+  "key": 0,
+  "image": "camera",
+  "position": 9314,
+  "npcr": 0.99957275390625,
+  "uaci": 0.21554792815563725,
+  "npcr_fail": false,
+  "uaci_fail": true
+ },
+ {
+  "variant": "V-CHACHA",
+  "key": 0,
+  "image": "camera",
+  "position": 0,
+  "npcr": 0.99737548828125,
+  "uaci": 0.3372261795343137,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-CHACHA",
+  "key": 0,
+  "image": "camera",
+  "position": 16383,
+  "npcr": 0.99871826171875,
+  "uaci": 0.3341176949295343,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-CHACHA",
+  "key": 0,
+  "image": "camera",
+  "position": 8192,
+  "npcr": 0.99920654296875,
+  "uaci": 0.333160280713848,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-CHACHA",
+  "key": 0,
+  "image": "camera",
+  "position": 13612,
+  "npcr": 0.99908447265625,
+  "uaci": 0.3332074333639706,
+  "npcr_fail": false,
+  "uaci_fail": false
+ },
+ {
+  "variant": "V-CHACHA",
+  "key": 0,
+  "image": "camera",
+  "position": 14878,
+  "npcr": 0.99786376953125,
+  "uaci": 0.3352287741268382,
+  "npcr_fail": false,
+  "uaci_fail": false
+ }
+]

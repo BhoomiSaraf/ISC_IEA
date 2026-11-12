@@ -1,0 +1,62 @@
+{
+  "key_label": "key:630dcd2966c4",
+  "nonce_label": "nonce:be45cb2605bf",
+  "determinism_leak": {
+    "n": 64,
+    "same_plaintext_same_key_nonce_same_ciphertext": true,
+    "different_plaintext_same_key_nonce_different_ciphertext": true,
+    "interpretation": "Confirmed (not merely potential): under key+nonce reuse, encryption is exactly deterministic in the plaintext. This provides a classical ECB-style 'codebook' / plaintext-equality oracle: an attacker who has observed ciphertext for a given n-byte plaintext block can recognise, with certainty, any FUTURE occurrence of that EXACT SAME block under the same (key, nonce) by ciphertext equality alone, without decrypting anything. This is a genuine confidentiality-relevant leak (message repetition / structure detection), separate from and NOT requiring full material (S, pi, a, b) recovery. It is the direct analogue of ECB-mode block repetition leakage, scaled to this cipher's chosen (n = full message) block size."
+  },
+  "n1_full_codebook": {
+    "n": 1,
+    "queries_used_to_build_table": 256,
+    "elapsed_s_total": 1015.3580424785614,
+    "mean_s_per_query": 3.96623432636261,
+    "table_size": 256,
+    "table_covers_full_domain": true,
+    "held_out_generalisation_checks": [
+      {
+        "true_plaintext_byte": 0,
+        "recovered_plaintext_byte": 0,
+        "correct": true
+      },
+      {
+        "true_plaintext_byte": 1,
+        "recovered_plaintext_byte": 1,
+        "correct": true
+      },
+      {
+        "true_plaintext_byte": 17,
+        "recovered_plaintext_byte": 17,
+        "correct": true
+      },
+      {
+        "true_plaintext_byte": 128,
+        "recovered_plaintext_byte": 128,
+        "correct": true
+      },
+      {
+        "true_plaintext_byte": 200,
+        "recovered_plaintext_byte": 200,
+        "correct": true
+      },
+      {
+        "true_plaintext_byte": 255,
+        "recovered_plaintext_byte": 255,
+        "correct": true
+      }
+    ],
+    "all_held_out_correct": true,
+    "interpretation": "CONFIRMED target-plaintext decryption without key recovery, for n=1 messages under key+nonce reuse: the attacker needed only 256 known (plaintext_byte, ciphertext_byte) pairs -- i.e. the full domain -- to build a complete lookup table equivalent to the true encryption function, and that table correctly decrypts every held-out test byte. The attacker never recovered S, a, b, iv_f or iv_b individually (Part E4: equivalent-material recovery) yet achieves the Part E5 success criterion exactly. This is a genuine, reproducible result on the ACTUAL implementation, not a toy proxy -- but it is a DEGENERATE case: at n=1 there is no permutation stage and no multi-position diffusion chaining, so this result does NOT by itself establish anything about larger, realistic message lengths."
+  },
+  "n2_partial_codebook_feasibility": {
+    "n": 2,
+    "full_domain_size": 65536,
+    "sample_size": 6,
+    "measured_per_query_s": 1.7814899285634358,
+    "projected_full_codebook_time_s": 116751.72395833333,
+    "projected_full_codebook_time_hours": 32.43103443287037,
+    "decision": "NOT ATTEMPTED at full scale -- projected time exceeds this phase's budget by orders of magnitude.",
+    "interpretation": "The codebook attack is theoretically identical at n=2 to n=1 (both are degenerate in the sense that the FULL domain could in principle be enumerated), but it is already impractical here purely due to this cipher's throughput (established independently in Phase 4B/4C: ~1-2s fixed cost per encryption call regardless of message size), not due to any cryptographic strength. A partial codebook (fewer than 65536 entries) only provides the determinism/codebook-leak demonstrated above (recognising repeated EXACT plaintexts), not general decryption of unseen plaintexts -- which is the Part E5 criterion this experiment explicitly does NOT meet at n=2 within budget."
+  }
+}

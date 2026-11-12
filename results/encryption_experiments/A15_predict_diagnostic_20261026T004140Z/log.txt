@@ -1,0 +1,13 @@
+[2026-10-26T06:11:44] start A15_predict mode=diagnostic
+[2026-10-26T06:11:44] data generated in 0.6 s
+[2026-10-26T06:11:44] evaluating ISC fwd lane 0
+[2026-10-26T06:11:56]   max z = 1.56, LC flag = False
+[2026-10-26T06:11:56] evaluating ISC perm lane 31
+[2026-10-26T06:12:04]   max z = 1.18, LC flag = False
+[2026-10-26T06:12:04] evaluating ISC bwd lane 63
+[2026-10-26T06:12:13]   max z = 2.42, LC flag = False
+[2026-10-26T06:12:13] evaluating CONTROL- ChaCha20 fwd
+[2026-10-26T06:12:21]   max z = 1.60, LC flag = False
+[2026-10-26T06:12:21] evaluating CONTROL+ arccos8 of lane 0 x
+[2026-10-26T06:12:30]   max z = 11.60, LC flag = False
+[2026-10-26T06:12:30] finished in 49.42 s

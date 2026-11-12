@@ -1,0 +1,42 @@
+{
+  "config": {
+    "n_bytes": 4096,
+    "backend": "numpy"
+  },
+  "4.1_same_key_diff_nonce": {
+    "key": "K-eaaaf985",
+    "nonce_1": "N-a3743839",
+    "nonce_2": "N-5edcbfa3",
+    "sbox_S_differs": true,
+    "permutation_pi_differs": true,
+    "fwd_stream_a_differs": true,
+    "bwd_stream_b_differs": true,
+    "ivs_differ": true,
+    "k_mac_differs": true,
+    "k_kcv_differs": true,
+    "ciphertext_bodies_differ": true
+  },
+  "4.2_same_key_nonce_materials_reuse": {
+    "key": "K-eaaaf985",
+    "nonce": "N-a3743839",
+    "S_identical": true,
+    "S_inv_identical": true,
+    "pi_identical": true,
+    "fwd_a_identical": true,
+    "bwd_b_identical": true,
+    "ivs_identical": true,
+    "k_mac_identical": true,
+    "k_kcv_identical": true,
+    "conclusion": "ALL key-derived material (S, S_inv, pi, a, b, iv_f, iv_b, k_mac, k_kcv) is identical and plaintext-independent under a fixed (key, nonce, dims) tuple. This is a STRUCTURAL fact confirmed both by source inspection (cipher.py:_materials takes no `data` argument) and by direct re-derivation."
+  },
+  "4.2_ciphertext_under_reused_key_nonce": {
+    "plaintext_diff": "1 bit flipped at byte index 0",
+    "n_bytes_total": 4096,
+    "n_bytes_differing": 4094,
+    "fraction_differing": 0.99951171875,
+    "note": "Despite S/pi/a/b/ivs being completely reused (identical) across P1 and P2, the ciphertext bodies differ almost everywhere, because the chained diffusion (forward then backward, each additive-with-feedback through a fixed but unknown-to-attacker S-box) propagates the single input difference through the whole message. Reuse of S/pi/a/b/ivs is therefore NOT equivalent to 'classical OTP-style keystream reuse': there is no XOR-with-fixed-keystream step whose keystream could be cancelled by XORing two ciphertexts, because diffusion is multiplicative-through-position-dependent-state (additive mod 256 through an S-box), not a simple additive stream cipher. See chosen_plaintext.py for the follow-on structural analysis of exactly what two ciphertexts under reused (key,nonce) DO reveal to an attacker who controls both plaintexts."
+  },
+  "4.2_determinism_check": {
+    "same_plaintext_same_key_nonce_gives_identical_ciphertext": true
+  }
+}

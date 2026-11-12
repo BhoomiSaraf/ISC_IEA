@@ -1,0 +1,582 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.6028/nist.fips.197-upd1",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W4375934760",
+  "doi": "https://doi.org/10.6028/nist.fips.197-upd1",
+  "title": "Advanced Encryption Standard (AES)",
+  "display_name": "Advanced Encryption Standard (AES)",
+  "publication_year": 2023,
+  "publication_date": "2023-05-08",
+  "ids": {
+   "openalex": "https://openalex.org/W4375934760",
+   "doi": "https://doi.org/10.6028/nist.fips.197-upd1"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.6028/nist.fips.197-upd1",
+   "doi": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "pdf_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "any_repository_has_fulltext": null
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 110,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11693",
+    "display_name": "Cryptography and Residue Arithmetic",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1710",
+     "display_name": "Information Systems"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/advanced-encryption-standard",
+    "display_name": "Advanced Encryption Standard",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/block-cipher",
+    "display_name": "block cipher",
+    "score": 0.9190000295639038
+   },
+   {
+    "id": "https://openalex.org/keywords/aes-128",
+    "display_name": "AES-128",
+    "score": 0.9819999933242798
+   },
+   {
+    "id": "https://openalex.org/keywords/aes-192",
+    "display_name": "AES-192",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/aes-256",
+    "display_name": "AES-256",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/key-length",
+    "display_name": "key length",
+    "score": 0.753000020980835
+   },
+   {
+    "id": "https://openalex.org/keywords/data-confidentiality",
+    "display_name": "data confidentiality",
+    "score": 0.8579999804496765
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptographic-standards",
+    "display_name": "cryptographic standards",
+    "score": 0.3479999899864197
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C94520183",
+    "wikidata": "https://www.wikidata.org/wiki/Q190746",
+    "display_name": "Advanced Encryption Standard",
+    "level": 3,
+    "score": 0.8693503141403198
+   },
+   {
+    "id": "https://openalex.org/C106544461",
+    "wikidata": "https://www.wikidata.org/wiki/Q543151",
+    "display_name": "Block cipher",
+    "level": 3,
+    "score": 0.6251721978187561
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.5859524011611938
+   },
+   {
+    "id": "https://openalex.org/C46331935",
+    "wikidata": "https://www.wikidata.org/wiki/Q4651362",
+    "display_name": "AES implementations",
+    "level": 4,
+    "score": 0.579243540763855
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.5592105984687805
+   },
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.5106144547462463
+   },
+   {
+    "id": "https://openalex.org/C111219384",
+    "wikidata": "https://www.wikidata.org/wiki/Q6954384",
+    "display_name": "NIST",
+    "level": 2,
+    "score": 0.43188485503196716
+   },
+   {
+    "id": "https://openalex.org/C64001112",
+    "wikidata": "https://www.wikidata.org/wiki/Q721221",
+    "display_name": "Serpent (symbolism)",
+    "level": 2,
+    "score": 0.4150090515613556
+   },
+   {
+    "id": "https://openalex.org/C94375191",
+    "wikidata": "https://www.wikidata.org/wiki/Q11205",
+    "display_name": "Arithmetic",
+    "level": 1,
+    "score": 0.3497849702835083
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.3161613941192627
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.2586996555328369
+   },
+   {
+    "id": "https://openalex.org/C205649164",
+    "wikidata": "https://www.wikidata.org/wiki/Q1071",
+    "display_name": "Geography",
+    "level": 0,
+    "score": 0.07939782738685608
+   },
+   {
+    "id": "https://openalex.org/C204321447",
+    "wikidata": "https://www.wikidata.org/wiki/Q30642",
+    "display_name": "Natural language processing",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C166957645",
+    "wikidata": "https://www.wikidata.org/wiki/Q23498",
+    "display_name": "Archaeology",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.6028/nist.fips.197-upd1",
+    "doi": "https://doi.org/10.6028/nist.fips.197-upd1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+    "pdf_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "National Institute of Standards and Technology",
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.6028/nist.fips.197-upd1",
+   "doi": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "pdf_url": "https://doi.org/10.6028/nist.fips.197-upd1",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320332178",
+    "display_name": "National Institute of Standards and Technology",
+    "ror": "https://ror.org/05xpvk416"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4375934760.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4375934760.grobid-xml"
+  },
+  "referenced_works_count": 6,
+  "referenced_works": [
+   "https://openalex.org/W2105225880",
+   "https://openalex.org/W3027260415",
+   "https://openalex.org/W3183963725",
+   "https://openalex.org/W4206322772",
+   "https://openalex.org/W4210967652",
+   "https://openalex.org/W4289126832"
+  ],
+  "related_works": [
+   "https://openalex.org/W2389373291",
+   "https://openalex.org/W2161048573",
+   "https://openalex.org/W2125214861",
+   "https://openalex.org/W1529674521",
+   "https://openalex.org/W2522069694",
+   "https://openalex.org/W1703859826",
+   "https://openalex.org/W2059218952",
+   "https://openalex.org/W3214586009",
+   "https://openalex.org/W612677566",
+   "https://openalex.org/W2740353664"
+  ],
+  "abstract_inverted_index": {
+   "In": [
+    0
+   ],
+   "2000,": [
+    1
+   ],
+   "NIST": [
+    2
+   ],
+   "announced": [
+    3
+   ],
+   "the": [
+    4,
+    7,
+    13,
+    16,
+    25,
+    37,
+    44,
+    67,
+    71,
+    75
+   ],
+   "selection": [
+    5
+   ],
+   "of": [
+    6,
+    15,
+    36,
+    39,
+    43,
+    57,
+    63,
+    74
+   ],
+   "Rijndael": [
+    8,
+    45
+   ],
+   "block": [
+    9
+   ],
+   "cipher": [
+    10
+   ],
+   "family": [
+    11,
+    46
+   ],
+   "as": [
+    12
+   ],
+   "winner": [
+    14
+   ],
+   "Advanced": [
+    17
+   ],
+   "Encryption": [
+    18
+   ],
+   "Standard": [
+    19
+   ],
+   "(AES)": [
+    20
+   ],
+   "competition.": [
+    21
+   ],
+   "Block": [
+    22
+   ],
+   "ciphers": [
+    23
+   ],
+   "are": [
+    24,
+    47
+   ],
+   "foundation": [
+    26
+   ],
+   "for": [
+    27
+   ],
+   "many": [
+    28
+   ],
+   "cryptographic": [
+    29,
+    77
+   ],
+   "services,": [
+    30
+   ],
+   "especially": [
+    31
+   ],
+   "those": [
+    32
+   ],
+   "that": [
+    33
+   ],
+   "provide": [
+    34
+   ],
+   "assurance": [
+    35
+   ],
+   "confidentiality": [
+    38
+   ],
+   "data.": [
+    40
+   ],
+   "Three": [
+    41
+   ],
+   "members": [
+    42
+   ],
+   "specified": [
+    48
+   ],
+   "in": [
+    49,
+    61
+   ],
+   "this": [
+    50
+   ],
+   "Standard:": [
+    51
+   ],
+   "AES-128,": [
+    52
+   ],
+   "AES-192,": [
+    53
+   ],
+   "and": [
+    54,
+    66
+   ],
+   "AES-256.": [
+    55
+   ],
+   "Each": [
+    56
+   ],
+   "them": [
+    58
+   ],
+   "transforms": [
+    59
+   ],
+   "data": [
+    60
+   ],
+   "blocks": [
+    62
+   ],
+   "128": [
+    64
+   ],
+   "bits,": [
+    65
+   ],
+   "numerical": [
+    68
+   ],
+   "suffix": [
+    69
+   ],
+   "indicates": [
+    70
+   ],
+   "bit": [
+    72
+   ],
+   "length": [
+    73
+   ],
+   "associated": [
+    76
+   ],
+   "keys.": [
+    78
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 30
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 32
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 24
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 11
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 1
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 3
+   }
+  ],
+  "updated_date": "2026-10-21T09:56:26.102985",
+  "created_date": "2023-05-10T00:00:00"
+ }
+}

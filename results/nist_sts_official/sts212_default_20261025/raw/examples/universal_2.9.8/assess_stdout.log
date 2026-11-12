@@ -1,0 +1,50 @@
+$ wsl -d Ubuntu-24.04 --cd /mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/results/nist_sts_official/sts212_default_20261025/raw/examples/universal_2.9.8 -- /mnt/c/Users/bhoom/Desktop/sine_chebyshev_ikeda_analysis/third_party/nist_sts/build_linux/assess 1048576
+--- stdin ---
+9
+0
+000000000100000
+1
+--- stdout/stderr ---
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 
+         INSTRUCTIONS
+            Enter a 0 or 1 to indicate whether or not the numbered statistical
+            test should be applied to each sequence.
+
+      123456789111111
+               012345
+      
+
+   How many bitstreams? 
+     Statistical Testing In Progress.........
+
+     Statistical Testing Complete!!!!!!!!!!!!
+
+
+--- returncode: 1 ---

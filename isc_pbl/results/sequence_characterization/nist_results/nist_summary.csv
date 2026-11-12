@@ -1,0 +1,11 @@
+Sequence_Key,NIST_Available,Bits_Tested,Passed_Tests,Eligible_Tests,Pass_Ratio,Zero_Crossings_J
+de_k13_x,True,100000,10,10,1.0000,231
+de_k13_y,True,100000,10,10,1.0000,461
+de_k14_x,True,100000,10,10,1.0000,137
+de_k14_y,True,100000,10,10,1.0000,463
+de_k15_x,True,100000,10,10,1.0000,493
+de_k15_y,True,100000,10,10,1.0000,418
+de_k16_x,True,100000,3,9,0.3333,16
+de_k16_y,True,100000,3,9,0.3333,40
+arccos_x,True,100000,10,10,1.0000,429
+arccos_y,True,100000,5,9,0.5556,45

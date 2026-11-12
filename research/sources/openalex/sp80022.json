@@ -1,0 +1,1481 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.6028/nist.sp.800-22r1a",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W1517403092",
+  "doi": "https://doi.org/10.6028/nist.sp.800-22r1a",
+  "title": "A statistical test suite for random and pseudorandom number generators for cryptographic applications",
+  "display_name": "A statistical test suite for random and pseudorandom number generators for cryptographic applications",
+  "publication_year": 2010,
+  "publication_date": "2010-01-01",
+  "ids": {
+   "openalex": "https://openalex.org/W1517403092",
+   "doi": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "mag": "1517403092"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.6028/nist.sp.800-22r1a",
+   "doi": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "any_repository_has_fulltext": null
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5044433428",
+     "display_name": "Lawrence E Bassham",
+     "orcid": "https://orcid.org/0000-0003-0856-9990",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-0856-9990"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "L E Bassham",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5029752487",
+     "display_name": "Andrew L. Rukhin",
+     "orcid": "https://orcid.org/0000-0002-1146-8595",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1146-8595"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "A L Rukhin",
+    "raw_affiliation_strings": [
+     "Statistical Engineering",
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "J Soto",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "J Soto",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5045422942",
+     "display_name": "James Nechvatal",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "J R Nechvatal",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5051543465",
+     "display_name": "Miles E. Smid",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "M E Smid",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "E B Barker",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "E B Barker",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5039727608",
+     "display_name": "Stefan D. Leigh",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "S D Leigh",
+    "raw_affiliation_strings": [
+     "Statistical Engineering",
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5066957107",
+     "display_name": "Mark S Levenson",
+     "orcid": "https://orcid.org/0000-0001-8971-762X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8971-762X"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "M Levenson",
+    "raw_affiliation_strings": [
+     "Statistical Engineering",
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5039914254",
+     "display_name": "Mark G Vangel",
+     "orcid": "https://orcid.org/0000-0003-2993-2365",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2993-2365"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "M Vangel",
+    "raw_affiliation_strings": [
+     "Statistical Engineering",
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5079411499",
+     "display_name": "David L. Banks",
+     "orcid": "https://orcid.org/0000-0002-2376-0710",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-2376-0710"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "D L Banks",
+    "raw_affiliation_strings": [
+     "Statistical Engineering",
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering",
+      "institution_ids": []
+     },
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5041078046",
+     "display_name": "N. Alan Heckert",
+     "orcid": "https://orcid.org/0000-0002-8430-6757",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8430-6757"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "N A Heckert",
+    "raw_affiliation_strings": [
+     "Statistical Engineering Division"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Statistical Engineering Division",
+      "institution_ids": []
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5031163960",
+     "display_name": "James F. Dray",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "J F Dray",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5057834821",
+     "display_name": "San Vo",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "S Vo",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 3612,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 0.8910999894142151,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.8910999894142151,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.01769999973475933,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.008899999782443047,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/random-number-generators",
+    "display_name": "random number generators",
+    "score": 0.843999981880188
+   },
+   {
+    "id": "https://openalex.org/keywords/pseudorandom-number-generators",
+    "display_name": "pseudorandom number generators",
+    "score": 0.9990000128746033
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptographic-randomness",
+    "display_name": "cryptographic randomness",
+    "score": 0.6460000276565552
+   },
+   {
+    "id": "https://openalex.org/keywords/nist-sp-800-22",
+    "display_name": "NIST SP 800-22",
+    "score": 0.8799999952316284
+   },
+   {
+    "id": "https://openalex.org/keywords/randomness-testing",
+    "display_name": "randomness testing",
+    "score": 0.6370000243186951
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C111219384",
+    "wikidata": "https://www.wikidata.org/wiki/Q6954384",
+    "display_name": "NIST",
+    "level": 2,
+    "score": 0.8657114505767822
+   },
+   {
+    "id": "https://openalex.org/C26713055",
+    "wikidata": "https://www.wikidata.org/wiki/Q245962",
+    "display_name": "Implementation",
+    "level": 2,
+    "score": 0.782804548740387
+   },
+   {
+    "id": "https://openalex.org/C140642157",
+    "wikidata": "https://www.wikidata.org/wiki/Q1623338",
+    "display_name": "Pseudorandom number generator",
+    "level": 2,
+    "score": 0.7546750903129578
+   },
+   {
+    "id": "https://openalex.org/C79581498",
+    "wikidata": "https://www.wikidata.org/wiki/Q1367530",
+    "display_name": "Suite",
+    "level": 2,
+    "score": 0.6795395016670227
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6161589026451111
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.6049542427062988
+   },
+   {
+    "id": "https://openalex.org/C151552104",
+    "wikidata": "https://www.wikidata.org/wiki/Q7705809",
+    "display_name": "Test suite",
+    "level": 4,
+    "score": 0.5561502575874329
+   },
+   {
+    "id": "https://openalex.org/C2777267654",
+    "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+    "display_name": "Test (biology)",
+    "level": 2,
+    "score": 0.5366738438606262
+   },
+   {
+    "id": "https://openalex.org/C201866948",
+    "wikidata": "https://www.wikidata.org/wiki/Q228206",
+    "display_name": "Random number generation",
+    "level": 2,
+    "score": 0.510412871837616
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.4851427972316742
+   },
+   {
+    "id": "https://openalex.org/C110354214",
+    "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+    "display_name": "Engineering management",
+    "level": 1,
+    "score": 0.36667126417160034
+   },
+   {
+    "id": "https://openalex.org/C115903868",
+    "wikidata": "https://www.wikidata.org/wiki/Q80993",
+    "display_name": "Software engineering",
+    "level": 1,
+    "score": 0.35122305154800415
+   },
+   {
+    "id": "https://openalex.org/C127413603",
+    "wikidata": "https://www.wikidata.org/wiki/Q11023",
+    "display_name": "Engineering",
+    "level": 0,
+    "score": 0.25760728120803833
+   },
+   {
+    "id": "https://openalex.org/C17744445",
+    "wikidata": "https://www.wikidata.org/wiki/Q36442",
+    "display_name": "Political science",
+    "level": 0,
+    "score": 0.13474419713020325
+   },
+   {
+    "id": "https://openalex.org/C128942645",
+    "wikidata": "https://www.wikidata.org/wiki/Q1568346",
+    "display_name": "Test case",
+    "level": 3,
+    "score": 0.0993497371673584
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C151730666",
+    "wikidata": "https://www.wikidata.org/wiki/Q7205",
+    "display_name": "Paleontology",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C86803240",
+    "wikidata": "https://www.wikidata.org/wiki/Q420",
+    "display_name": "Biology",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C199539241",
+    "wikidata": "https://www.wikidata.org/wiki/Q7748",
+    "display_name": "Law",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C204321447",
+    "wikidata": "https://www.wikidata.org/wiki/Q30642",
+    "display_name": "Natural language processing",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.6028/nist.sp.800-22r1a",
+    "doi": "https://doi.org/10.6028/nist.sp.800-22r1a",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+    "pdf_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "National Institute of Standards and Technology",
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.6028/nist.sp.800-22r1a",
+   "doi": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-22r1a",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W1517403092.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W1517403092.grobid-xml"
+  },
+  "referenced_works_count": 33,
+  "referenced_works": [
+   "https://openalex.org/W1480277947",
+   "https://openalex.org/W1537618872",
+   "https://openalex.org/W1577120563",
+   "https://openalex.org/W1586944506",
+   "https://openalex.org/W1619204927",
+   "https://openalex.org/W1660562555",
+   "https://openalex.org/W1976634091",
+   "https://openalex.org/W1982089252",
+   "https://openalex.org/W1985411441",
+   "https://openalex.org/W2001659245",
+   "https://openalex.org/W2020579867",
+   "https://openalex.org/W2025467229",
+   "https://openalex.org/W2025482752",
+   "https://openalex.org/W2025905409",
+   "https://openalex.org/W2028490525",
+   "https://openalex.org/W2030269782",
+   "https://openalex.org/W2060365990",
+   "https://openalex.org/W2107745473",
+   "https://openalex.org/W2108797973",
+   "https://openalex.org/W2120062331",
+   "https://openalex.org/W2752885492",
+   "https://openalex.org/W2752908210",
+   "https://openalex.org/W2795527085",
+   "https://openalex.org/W2797228403",
+   "https://openalex.org/W2986057930",
+   "https://openalex.org/W3198310217",
+   "https://openalex.org/W4241031153",
+   "https://openalex.org/W4289126832",
+   "https://openalex.org/W4299987825",
+   "https://openalex.org/W4300463303",
+   "https://openalex.org/W4300614018",
+   "https://openalex.org/W4317707897",
+   "https://openalex.org/W6636975353"
+  ],
+  "related_works": [
+   "https://openalex.org/W1485837041",
+   "https://openalex.org/W2587661352",
+   "https://openalex.org/W2104480405",
+   "https://openalex.org/W2772380824",
+   "https://openalex.org/W2062045810",
+   "https://openalex.org/W1534576401",
+   "https://openalex.org/W2988803943",
+   "https://openalex.org/W2068428530",
+   "https://openalex.org/W3124991594",
+   "https://openalex.org/W2775374936"
+  ],
+  "abstract_inverted_index": {
+   "Reports": [
+    0
+   ],
+   "on": [
+    1,
+    90
+   ],
+   "Computer": [
+    2
+   ],
+   "Systems": [
+    3
+   ],
+   "TechnologyThe": [
+    4
+   ],
+   "Information": [
+    5
+   ],
+   "Technology": [
+    6,
+    16,
+    115
+   ],
+   "Laboratory": [
+    7
+   ],
+   "(ITL)": [
+    8
+   ],
+   "at": [
+    9
+   ],
+   "the": [
+    10,
+    19,
+    30,
+    51,
+    61,
+    73,
+    156,
+    170,
+    177,
+    181
+   ],
+   "National": [
+    11,
+    110,
+    157
+   ],
+   "Institute": [
+    12,
+    111,
+    158
+   ],
+   "of": [
+    13,
+    43,
+    56,
+    63,
+    78,
+    112,
+    159
+   ],
+   "Standards": [
+    14,
+    113,
+    160
+   ],
+   "and": [
+    15,
+    22,
+    33,
+    46,
+    53,
+    67,
+    70,
+    76,
+    94,
+    100,
+    107,
+    114,
+    161
+   ],
+   "(NIST)": [
+    17
+   ],
+   "promotes": [
+    18
+   ],
+   "U.S.": [
+    20
+   ],
+   "economy": [
+    21
+   ],
+   "public": [
+    23
+   ],
+   "welfare": [
+    24
+   ],
+   "by": [
+    25,
+    155
+   ],
+   "providing": [
+    26
+   ],
+   "technical": [
+    27,
+    47
+   ],
+   "leadership": [
+    28
+   ],
+   "for": [
+    29,
+    72,
+    180
+   ],
+   "nation's": [
+    31
+   ],
+   "measurement": [
+    32
+   ],
+   "standards": [
+    34,
+    69
+   ],
+   "infrastructure.ITL": [
+    35
+   ],
+   "develops": [
+    36
+   ],
+   "tests,": [
+    37
+   ],
+   "test": [
+    38
+   ],
+   "methods,": [
+    39
+   ],
+   "reference": [
+    40
+   ],
+   "data,": [
+    41
+   ],
+   "proof": [
+    42
+   ],
+   "concept": [
+    44,
+    144
+   ],
+   "implementations,": [
+    45
+   ],
+   "analysis": [
+    48
+   ],
+   "to": [
+    49,
+    138,
+    150,
+    167
+   ],
+   "advance": [
+    50
+   ],
+   "development": [
+    52,
+    62
+   ],
+   "productive": [
+    54
+   ],
+   "use": [
+    55
+   ],
+   "information": [
+    57,
+    81
+   ],
+   "technology.ITL's": [
+    58
+   ],
+   "responsibilities": [
+    59
+   ],
+   "include": [
+    60
+   ],
+   "technical,": [
+    64
+   ],
+   "physical,": [
+    65
+   ],
+   "administrative,": [
+    66
+   ],
+   "management": [
+    68
+   ],
+   "guidelines": [
+    71
+   ],
+   "cost-effective": [
+    74
+   ],
+   "security": [
+    75,
+    99
+   ],
+   "privacy": [
+    77
+   ],
+   "sensitive": [
+    79
+   ],
+   "unclassified": [
+    80
+   ],
+   "in": [
+    82,
+    97,
+    133,
+    136
+   ],
+   "Federal": [
+    83
+   ],
+   "computer": [
+    84,
+    98
+   ],
+   "systems.This": [
+    85
+   ],
+   "Special": [
+    86,
+    116
+   ],
+   "Publication": [
+    87,
+    117
+   ],
+   "800-series": [
+    88
+   ],
+   "reports": [
+    89
+   ],
+   "ITL's": [
+    91
+   ],
+   "research,": [
+    92
+   ],
+   "guidance,": [
+    93
+   ],
+   "outreach": [
+    95
+   ],
+   "efforts": [
+    96
+   ],
+   "its": [
+    101
+   ],
+   "collaborative": [
+    102
+   ],
+   "activities": [
+    103
+   ],
+   "with": [
+    104
+   ],
+   "industry,": [
+    105
+   ],
+   "government,": [
+    106
+   ],
+   "academic": [
+    108
+   ],
+   "organizations.": [
+    109
+   ],
+   "800-22": [
+    118
+   ],
+   "revision": [
+    119
+   ],
+   "1aNatl.Inst.Stand.Technol.Spec.Publ.800-22rev1a,": [
+    120
+   ],
+   "131": [
+    121
+   ],
+   "pages": [
+    122
+   ],
+   "(April": [
+    123
+   ],
+   "2010)Certain": [
+    124
+   ],
+   "commercial": [
+    125
+   ],
+   "entities,": [
+    126,
+    171
+   ],
+   "equipment,": [
+    127
+   ],
+   "or": [
+    128,
+    143,
+    153,
+    173
+   ],
+   "materials": [
+    129
+   ],
+   "may": [
+    130
+   ],
+   "be": [
+    131
+   ],
+   "identified": [
+    132
+   ],
+   "this": [
+    134
+   ],
+   "document": [
+    135
+   ],
+   "order": [
+    137
+   ],
+   "describe": [
+    139
+   ],
+   "an": [
+    140
+   ],
+   "experimental": [
+    141
+   ],
+   "procedure": [
+    142
+   ],
+   "adequately.Such": [
+    145
+   ],
+   "identification": [
+    146
+   ],
+   "is": [
+    147,
+    164
+   ],
+   "not": [
+    148
+   ],
+   "intended": [
+    149,
+    166
+   ],
+   "imply": [
+    151,
+    168
+   ],
+   "recommendation": [
+    152
+   ],
+   "endorsement": [
+    154
+   ],
+   "Technology,": [
+    162
+   ],
+   "nor": [
+    163
+   ],
+   "it": [
+    165
+   ],
+   "that": [
+    169
+   ],
+   "materials,": [
+    172
+   ],
+   "equipment": [
+    174
+   ],
+   "are": [
+    175
+   ],
+   "necessarily": [
+    176
+   ],
+   "best": [
+    178
+   ],
+   "available": [
+    179
+   ],
+   "purpose.": [
+    182
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 120
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 205
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 192
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 208
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 166
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 292
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 290
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 251
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 255
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 207
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 183
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 184
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 201
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 155
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 139
+   }
+  ],
+  "updated_date": "2026-10-25T09:29:13.331239",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

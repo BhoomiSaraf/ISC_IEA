@@ -1,0 +1,871 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1016/j.image.2008.01.003",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2008604527",
+  "doi": "https://doi.org/10.1016/j.image.2008.01.003",
+  "title": "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+  "display_name": "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+  "publication_year": 2008,
+  "publication_date": "2008-03-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2008604527",
+   "doi": "https://doi.org/10.1016/j.image.2008.01.003",
+   "mag": "2008604527"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1016/j.image.2008.01.003",
+   "doi": "https://doi.org/10.1016/j.image.2008.01.003",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.image.2008.01.003",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S38090728",
+    "display_name": "Signal Processing Image Communication",
+    "issn_l": "0923-5965",
+    "issn": [
+     "0923-5965",
+     "1879-2677"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "ccf-c",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-1",
+     "norway-1",
+     "poland-100",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Signal Processing: Image Communication",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100745576",
+     "display_name": "Shujun Li",
+     "orcid": "https://orcid.org/0000-0001-5628-7328",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-5628-7328"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I120691247",
+      "display_name": "FernUniversit\u00e4t in Hagen",
+      "ror": "https://ror.org/04tkkr536",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I120691247"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Shujun Li",
+    "raw_affiliation_strings": [
+     "FernUniversit\u00e4t in Hagen, Lehrgebiet Informationstechnik, Universit\u00e4tsstra\u00dfe 27, 58084 Hagen, Germany",
+     "FernUniversit\u00e4t in Hagen, Lehrgebiet Informationstechnik, Universit\u00e4tsstra\u00ede 27, 58084 Hagen, Germany#TAB#"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "FernUniversit\u00e4t in Hagen, Lehrgebiet Informationstechnik, Universit\u00e4tsstra\u00dfe 27, 58084 Hagen, Germany",
+      "institution_ids": [
+       "https://openalex.org/I120691247"
+      ]
+     },
+     {
+      "raw_affiliation_string": "FernUniversit\u00e4t in Hagen, Lehrgebiet Informationstechnik, Universit\u00e4tsstra\u00ede 27, 58084 Hagen, Germany#TAB#",
+      "institution_ids": [
+       "https://openalex.org/I120691247"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5089601494",
+     "display_name": "Chengqing Li",
+     "orcid": "https://orcid.org/0000-0002-5385-7644",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5385-7644"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I168719708",
+      "display_name": "City University of Hong Kong",
+      "ror": "https://ror.org/03q8dnn23",
+      "country_code": "HK",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I168719708"
+      ]
+     }
+    ],
+    "countries": [
+     "HK"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Chengqing Li",
+    "raw_affiliation_strings": [
+     "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong, China",
+     "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong (China)"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong, China",
+      "institution_ids": [
+       "https://openalex.org/I168719708"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong (China)",
+      "institution_ids": [
+       "https://openalex.org/I168719708"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5024633466",
+     "display_name": "Guanrong Chen",
+     "orcid": "https://orcid.org/0000-0003-1381-7418",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-1381-7418"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I168719708",
+      "display_name": "City University of Hong Kong",
+      "ror": "https://ror.org/03q8dnn23",
+      "country_code": "HK",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I168719708"
+      ]
+     }
+    ],
+    "countries": [
+     "HK"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Guanrong Chen",
+    "raw_affiliation_strings": [
+     "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong, China",
+     "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong (China)"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong, China",
+      "institution_ids": [
+       "https://openalex.org/I168719708"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electronic Engineering, City University of Hong Kong, 83 Tat Chee Avenue, Kowloon, Hong Kong (China)",
+      "institution_ids": [
+       "https://openalex.org/I168719708"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5025446324",
+     "display_name": "Nikolaos Bourbakis",
+     "orcid": "https://orcid.org/0000-0003-1507-614X",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-1507-614X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I19648265",
+      "display_name": "Wright State University",
+      "ror": "https://ror.org/04qk6pt94",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I19648265"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Nikolaos G. Bourbakis",
+    "raw_affiliation_strings": [
+     "Information Technology Research Institute, College of Engineering and Computer Science, Wright State University, 3640 Glenn Hwy, Dayton, OH 45435, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Information Technology Research Institute, College of Engineering and Computer Science, Wright State University, 3640 Glenn Hwy, Dayton, OH 45435, USA",
+      "institution_ids": [
+       "https://openalex.org/I19648265"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5025822575",
+     "display_name": "Kwok\u2010Tung Lo",
+     "orcid": "https://orcid.org/0000-0002-6443-9464",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-6443-9464"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I14243506",
+      "display_name": "Hong Kong Polytechnic University",
+      "ror": "https://ror.org/0030zas98",
+      "country_code": "HK",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I14243506"
+      ]
+     }
+    ],
+    "countries": [
+     "HK"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Kwok-Tung Lo",
+    "raw_affiliation_strings": [
+     "Department of Electronic and Information Engineering, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong SAR, China",
+     "Department of Electronic and Information Engineering The Hong Kong Polytechnic University Hung Hom Kowloon Hong Kong SAR, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electronic and Information Engineering, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong SAR, China",
+      "institution_ids": [
+       "https://openalex.org/I14243506"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electronic and Information Engineering The Hong Kong Polytechnic University Hung Hom Kowloon Hong Kong SAR, China",
+      "institution_ids": [
+       "https://openalex.org/I14243506"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5100745576"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I120691247"
+  ],
+  "apc_list": {
+   "value": 2470,
+   "currency": "USD",
+   "value_usd": 2470
+  },
+  "apc_paid": null,
+  "fwci": 19.5916,
+  "has_fulltext": false,
+  "cited_by_count": 324,
+  "citation_normalized_percentile": {
+   "value": 0.99316109,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 97,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "23",
+   "issue": "3",
+   "first_page": "212",
+   "last_page": "223"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 0.8817999958992004,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.8817999958992004,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.10769999772310257,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T13674",
+    "display_name": "Computer Science and Engineering",
+    "score": 0.0031999999191612005,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/multimedia-encryption",
+    "display_name": "multimedia encryption",
+    "score": 0.7419999837875366
+   },
+   {
+    "id": "https://openalex.org/keywords/known-plaintext-attack",
+    "display_name": "known-plaintext attack",
+    "score": 0.8769999742507935
+   },
+   {
+    "id": "https://openalex.org/keywords/chosen-plaintext-attack",
+    "display_name": "chosen-plaintext attack",
+    "score": 0.9879999756813049
+   },
+   {
+    "id": "https://openalex.org/keywords/attack-complexity",
+    "display_name": "attack complexity",
+    "score": 0.6269999742507935
+   },
+   {
+    "id": "https://openalex.org/keywords/information-hiding",
+    "display_name": "information hiding",
+    "score": 0.34200000762939453
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C36123800",
+    "wikidata": "https://www.wikidata.org/wiki/Q1224471",
+    "display_name": "Differential cryptanalysis",
+    "level": 4,
+    "score": 0.7349112033843994
+   },
+   {
+    "id": "https://openalex.org/C92717368",
+    "wikidata": "https://www.wikidata.org/wiki/Q1162538",
+    "display_name": "Plaintext",
+    "level": 3,
+    "score": 0.6852319836616516
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6074002981185913
+   },
+   {
+    "id": "https://openalex.org/C82424418",
+    "wikidata": "https://www.wikidata.org/wiki/Q1826463",
+    "display_name": "Linear cryptanalysis",
+    "level": 4,
+    "score": 0.6070656776428223
+   },
+   {
+    "id": "https://openalex.org/C181149355",
+    "wikidata": "https://www.wikidata.org/wiki/Q897511",
+    "display_name": "Cryptanalysis",
+    "level": 3,
+    "score": 0.4882355034351349
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.48435696959495544
+   },
+   {
+    "id": "https://openalex.org/C21308566",
+    "wikidata": "https://www.wikidata.org/wiki/Q7169365",
+    "display_name": "Permutation (music)",
+    "level": 2,
+    "score": 0.4726784825325012
+   },
+   {
+    "id": "https://openalex.org/C151607707",
+    "wikidata": "https://www.wikidata.org/wiki/Q11673206",
+    "display_name": "Higher-order differential cryptanalysis",
+    "level": 5,
+    "score": 0.470943808555603
+   },
+   {
+    "id": "https://openalex.org/C2780221543",
+    "wikidata": "https://www.wikidata.org/wiki/Q4681865",
+    "display_name": "Cipher",
+    "level": 3,
+    "score": 0.4551231563091278
+   },
+   {
+    "id": "https://openalex.org/C71247151",
+    "wikidata": "https://www.wikidata.org/wiki/Q840498",
+    "display_name": "Transposition cipher",
+    "level": 5,
+    "score": 0.45488882064819336
+   },
+   {
+    "id": "https://openalex.org/C147552392",
+    "wikidata": "https://www.wikidata.org/wiki/Q2869899",
+    "display_name": "Boomerang attack",
+    "level": 5,
+    "score": 0.4237675070762634
+   },
+   {
+    "id": "https://openalex.org/C94375191",
+    "wikidata": "https://www.wikidata.org/wiki/Q11205",
+    "display_name": "Arithmetic",
+    "level": 1,
+    "score": 0.33920592069625854
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.33910614252090454
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.3278660178184509
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.2935820519924164
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.19467249512672424
+   },
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.17810717225074768
+   },
+   {
+    "id": "https://openalex.org/C64119674",
+    "wikidata": "https://www.wikidata.org/wiki/Q7380031",
+    "display_name": "Running key cipher",
+    "level": 4,
+    "score": 0.13385513424873352
+   },
+   {
+    "id": "https://openalex.org/C121332964",
+    "wikidata": "https://www.wikidata.org/wiki/Q413",
+    "display_name": "Physics",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C24890656",
+    "wikidata": "https://www.wikidata.org/wiki/Q82811",
+    "display_name": "Acoustics",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.1016/j.image.2008.01.003",
+    "doi": "https://doi.org/10.1016/j.image.2008.01.003",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.image.2008.01.003",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S38090728",
+     "display_name": "Signal Processing Image Communication",
+     "issn_l": "0923-5965",
+     "issn": [
+      "0923-5965",
+      "1879-2677"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "ccf-c",
+      "cwts-core",
+      "dongbi-b",
+      "jufo-1",
+      "norway-1",
+      "poland-100",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Signal Processing: Image Communication",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:ira.lib.polyu.edu.hk:10397/33250",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10397/33250",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400205",
+     "display_name": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I14243506",
+     "host_organization_name": "Hong Kong Polytechnic University",
+     "host_organization_lineage": [
+      "https://openalex.org/I14243506"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Journal/Magazine Article"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "id": "https://metadata.un.org/sdg/16",
+    "score": 0.6299999952316284,
+    "display_name": "Peace, justice, and strong institutions"
+   }
+  ],
+  "study_designs": [],
+  "awards": [
+   {
+    "id": "https://openalex.org/G26645858",
+    "display_name": null,
+    "funder_award_id": "G-YX63",
+    "funder_id": "https://openalex.org/F4320322598",
+    "funder_display_name": "Hong Kong Polytechnic University"
+   },
+   {
+    "id": "https://openalex.org/G7227691554",
+    "display_name": "Designing Efficient and Secure H.264 Video Encryption Systems",
+    "funder_award_id": "523206",
+    "funder_id": "https://openalex.org/F4320321592",
+    "funder_display_name": "Research Grants Council, University Grants Committee"
+   },
+   {
+    "id": "https://openalex.org/G8780939334",
+    "display_name": null,
+    "funder_award_id": "5232/06E",
+    "funder_id": "https://openalex.org/F4320322598",
+    "funder_display_name": "Hong Kong Polytechnic University"
+   }
+  ],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320308269",
+    "display_name": "Alexander von Humboldt-Stiftung",
+    "ror": "https://ror.org/012kf4317"
+   },
+   {
+    "id": "https://openalex.org/F4320321592",
+    "display_name": "Research Grants Council, University Grants Committee",
+    "ror": "https://ror.org/00djwmt25"
+   },
+   {
+    "id": "https://openalex.org/F4320322598",
+    "display_name": "Hong Kong Polytechnic University",
+    "ror": "https://ror.org/0030zas98"
+   }
+  ],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 77,
+  "referenced_works": [
+   "https://openalex.org/W28477886",
+   "https://openalex.org/W64760530",
+   "https://openalex.org/W97736718",
+   "https://openalex.org/W140162977",
+   "https://openalex.org/W405007189",
+   "https://openalex.org/W579876922",
+   "https://openalex.org/W610216219",
+   "https://openalex.org/W1472640182",
+   "https://openalex.org/W1505470567",
+   "https://openalex.org/W1517403092",
+   "https://openalex.org/W1519035944",
+   "https://openalex.org/W1536513979",
+   "https://openalex.org/W1539400569",
+   "https://openalex.org/W1567484412",
+   "https://openalex.org/W1585665690",
+   "https://openalex.org/W1599779438",
+   "https://openalex.org/W1660562555",
+   "https://openalex.org/W1755673139",
+   "https://openalex.org/W1756568994",
+   "https://openalex.org/W1826917248",
+   "https://openalex.org/W1973951315",
+   "https://openalex.org/W1978383253",
+   "https://openalex.org/W1982179193",
+   "https://openalex.org/W1985373990",
+   "https://openalex.org/W1989506443",
+   "https://openalex.org/W2001711118",
+   "https://openalex.org/W2005738557",
+   "https://openalex.org/W2007844764",
+   "https://openalex.org/W2013503531",
+   "https://openalex.org/W2020039621",
+   "https://openalex.org/W2021132597",
+   "https://openalex.org/W2025648402",
+   "https://openalex.org/W2032820503",
+   "https://openalex.org/W2036046179",
+   "https://openalex.org/W2041997733",
+   "https://openalex.org/W2043080145",
+   "https://openalex.org/W2051554132",
+   "https://openalex.org/W2052358343",
+   "https://openalex.org/W2055713607",
+   "https://openalex.org/W2060791695",
+   "https://openalex.org/W2060818696",
+   "https://openalex.org/W2065906350",
+   "https://openalex.org/W2075323089",
+   "https://openalex.org/W2077044445",
+   "https://openalex.org/W2083750752",
+   "https://openalex.org/W2088694610",
+   "https://openalex.org/W2097254069",
+   "https://openalex.org/W2101302656",
+   "https://openalex.org/W2105145864",
+   "https://openalex.org/W2106892689",
+   "https://openalex.org/W2109442463",
+   "https://openalex.org/W2110997719",
+   "https://openalex.org/W2112684099",
+   "https://openalex.org/W2113972033",
+   "https://openalex.org/W2121352877",
+   "https://openalex.org/W2128977689",
+   "https://openalex.org/W2133598069",
+   "https://openalex.org/W2135002386",
+   "https://openalex.org/W2138412605",
+   "https://openalex.org/W2144896094",
+   "https://openalex.org/W2147449879",
+   "https://openalex.org/W2148239175",
+   "https://openalex.org/W2150401973",
+   "https://openalex.org/W2160668065",
+   "https://openalex.org/W2161881830",
+   "https://openalex.org/W2166809149",
+   "https://openalex.org/W2171464389",
+   "https://openalex.org/W2223384635",
+   "https://openalex.org/W2493253054",
+   "https://openalex.org/W2499372985",
+   "https://openalex.org/W2912374867",
+   "https://openalex.org/W2914810349",
+   "https://openalex.org/W4211206866",
+   "https://openalex.org/W6676591625",
+   "https://openalex.org/W6681882302",
+   "https://openalex.org/W6688829517",
+   "https://openalex.org/W6723038032"
+  ],
+  "related_works": [
+   "https://openalex.org/W2557174342",
+   "https://openalex.org/W2996824228",
+   "https://openalex.org/W57168481",
+   "https://openalex.org/W4230315357",
+   "https://openalex.org/W2800335167",
+   "https://openalex.org/W2950215720",
+   "https://openalex.org/W1410349837",
+   "https://openalex.org/W3123145532",
+   "https://openalex.org/W1598870173",
+   "https://openalex.org/W3212825873"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 7
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 11
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 10
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 21
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 21
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 21
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 27
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 37
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 24
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 28
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 31
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 17
+   }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

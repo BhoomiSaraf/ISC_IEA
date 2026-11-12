@@ -1,0 +1,13 @@
+Test_Name,Status,p_value,Elapsed_ms
+Monobit,PASS,0.8100720350575996,0.0
+Frequency Within Block,PASS,0.7784594741172022,0.0
+Runs,PASS,0.5733883070067142,21.0
+Longest Run Ones In A Block,PASS,0.159562787512212,1.0
+Binary Matrix Rank,PASS,0.8294203999550704,151.0
+Discrete Fourier Transform,FAIL,0.0,17.0
+Non Overlapping Template Matching,PASS,0.019741975447662045,227.0
+Serial,FAIL,0.0,2296.0
+Approximate Entropy,FAIL,0.0,1233.0
+Cumulative Sums,FAIL,0.0,67.0
+Random Excursion,FAIL,0.68314332909863,334.0
+Random Excursion Variant,PASS,0.17025213718165474,0.0

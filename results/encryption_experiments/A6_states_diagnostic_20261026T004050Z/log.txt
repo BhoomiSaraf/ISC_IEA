@@ -1,0 +1,6 @@
+[2026-10-26T06:10:52] start A6_states mode=diagnostic
+[2026-10-26T06:10:55] (a) {'lanes': 64, 'max_steps': 3000, 'cycles_found': 0, 'periods': [], 'first_detection_steps': [], 'finding': False}
+[2026-10-26T06:11:06] (b) dup initial 0, after burn-in 0, subset checks max 0
+[2026-10-26T06:11:18] (c) {'x': {'not_diverged_by_T': 34, 'min': 11, 'median': 13.0, 'max': 16, 'pairs': 100}, 'y': {'not_diverged_by_T': 27, 'min': 10, 'median': 13.0, 'max': 16, 'pairs': 100}, 'finding': True}
+[2026-10-26T06:11:35] (d) {'tests': 2080, 'bonferroni_alpha': 4.807692307692308e-06, 'min_p': 0.0002729478442955276, 'rejections': 0, 'bytes_per_lane': 4000, 'finding': False}
+[2026-10-26T06:11:35] finished in 44.71 s

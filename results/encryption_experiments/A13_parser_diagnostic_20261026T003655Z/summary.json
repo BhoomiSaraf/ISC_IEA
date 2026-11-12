@@ -1,0 +1,11 @@
+{
+ "outcomes": {
+  "Malformed": 1795,
+  "AuthenticationError": 205
+ },
+ "generator_calls": 0,
+ "generator_calls_equal_accepted": true,
+ "undocumented_exceptions": [],
+ "finding": false,
+ "elapsed_seconds": 4.34
+}

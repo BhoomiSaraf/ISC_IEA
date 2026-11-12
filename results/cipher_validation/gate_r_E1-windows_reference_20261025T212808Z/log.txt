@@ -1,0 +1,6 @@
+[2026-10-26T02:58:08] Gate R, backend=reference, Windows-10-10.0.22631-SP0, Python 3.11.9
+[2026-10-26T02:58:08] R-fdlibm-hashes: PASS (0.0 s)
+[2026-10-26T02:58:09] R-trig-KAT: PASS (0.6 s)
+[2026-10-26T02:58:31] R-trajectory-KAT: PASS (22.1 s)
+[2026-10-26T02:58:35] R-stream-KAT: PASS (3.8 s)
+[2026-10-26T03:00:14] R-cipher-KAT: PASS (98.9 s)

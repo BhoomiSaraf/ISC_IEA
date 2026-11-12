@@ -1,0 +1,4158 @@
+{
+ "query": "https://api.openalex.org/works?search=The+CORE-MATH+Project&per-page=5",
+ "mode": "title",
+ "results": [
+  {
+   "id": "https://openalex.org/W4310997933",
+   "doi": "https://doi.org/10.1109/arith54963.2022.00014",
+   "title": "The CORE-MATH Project",
+   "display_name": "The CORE-MATH Project",
+   "relevance_score": 188.06892,
+   "publication_year": 2022,
+   "publication_date": "2022-09-01",
+   "ids": {
+    "openalex": "https://openalex.org/W4310997933",
+    "doi": "https://doi.org/10.1109/arith54963.2022.00014"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1109/arith54963.2022.00014",
+    "doi": "https://doi.org/10.1109/arith54963.2022.00014",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/arith54963.2022.00014",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210169913",
+     "display_name": "Proceedings/Proceedings - Symposium on Computer Arithmetic",
+     "issn_l": "1063-6889",
+     "issn": [
+      "1063-6889",
+      "2576-2265"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "jufo-1",
+      "norway-1"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2022 IEEE 29th Symposium on Computer Arithmetic (ARITH)",
+    "raw_type": "proceedings-article"
+   },
+   "volume": null,
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/hal-03721525",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5106923372",
+      "display_name": "Alexei Sibidanov",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I212119943",
+       "display_name": "University of Victoria",
+       "ror": "https://ror.org/04s5mat29",
+       "country_code": "CA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I212119943"
+       ]
+      }
+     ],
+     "countries": [
+      "CA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Alexei Sibidanov",
+     "raw_affiliation_strings": [
+      "University of Victoria,British Columbia,Canada,V8W 3P6",
+      "University of Victoria [Canada]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "University of Victoria,British Columbia,Canada,V8W 3P6",
+       "institution_ids": [
+        "https://openalex.org/I212119943"
+       ]
+      },
+      {
+       "raw_affiliation_string": "University of Victoria [Canada]",
+       "institution_ids": [
+        "https://openalex.org/I212119943"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5057843487",
+      "display_name": "Paul Zimmermann",
+      "orcid": "https://orcid.org/0000-0003-0718-4458",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0718-4458"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1294671590",
+       "display_name": "Centre National de la Recherche Scientifique",
+       "ror": "https://ror.org/02feahw73",
+       "country_code": "FR",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1294671590"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I1326498283",
+       "display_name": "Institut national de recherche en sciences et technologies du num\u00e9rique",
+       "ror": "https://ror.org/02kvxyf05",
+       "country_code": "FR",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1326498283"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210121838",
+       "display_name": "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+       "ror": "https://ror.org/02vnf0c38",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I90183372"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4405260044",
+       "display_name": "CARAMBA: Cryptology, arithmetic : algebraic methods for better algorithms",
+       "ror": "https://ror.org/034kszc22",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210127166",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I4405260044",
+        "https://openalex.org/I90183372"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Paul Zimmermann",
+     "raw_affiliation_strings": [
+      "Universit&#x00E9; de Lorraine CNRS, Inria, LORIA,Nancy,France,F-54000",
+      "Cryptology, arithmetic : algebraic methods for better algorithms"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Universit&#x00E9; de Lorraine CNRS, Inria, LORIA,Nancy,France,F-54000",
+       "institution_ids": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I4210121838"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Cryptology, arithmetic : algebraic methods for better algorithms",
+       "institution_ids": [
+        "https://openalex.org/I4405260044"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5074833254",
+      "display_name": "St\u00e9phane Glondu",
+      "orcid": "https://orcid.org/0000-0002-0028-0714",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-0028-0714"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1294671590",
+       "display_name": "Centre National de la Recherche Scientifique",
+       "ror": "https://ror.org/02feahw73",
+       "country_code": "FR",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1294671590"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I1326498283",
+       "display_name": "Institut national de recherche en sciences et technologies du num\u00e9rique",
+       "ror": "https://ror.org/02kvxyf05",
+       "country_code": "FR",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1326498283"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210121838",
+       "display_name": "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+       "ror": "https://ror.org/02vnf0c38",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I90183372"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4405260044",
+       "display_name": "CARAMBA: Cryptology, arithmetic : algebraic methods for better algorithms",
+       "ror": "https://ror.org/034kszc22",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210127166",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I4405260044",
+        "https://openalex.org/I90183372"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Stephane Glondu",
+     "raw_affiliation_strings": [
+      "Universit&#x00E9; de Lorraine CNRS, Inria, LORIA,Nancy,France,F-54000",
+      "Cryptology, arithmetic : algebraic methods for better algorithms"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Universit&#x00E9; de Lorraine CNRS, Inria, LORIA,Nancy,France,F-54000",
+       "institution_ids": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I4210121838"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Cryptology, arithmetic : algebraic methods for better algorithms",
+       "institution_ids": [
+        "https://openalex.org/I4405260044"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 2,
+   "institutions_distinct_count": 5,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 5.8281,
+   "has_fulltext": false,
+   "cited_by_count": 21,
+   "citation_normalized_percentile": {
+    "value": 0.97755961,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "26",
+    "last_page": "34"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13806",
+     "display_name": "Mathematical and Computational Methods",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/mathematical-functions",
+     "display_name": "mathematical functions",
+     "score": 0.5920000076293945
+    },
+    {
+     "id": "https://openalex.org/keywords/open-source-software",
+     "display_name": "open source software",
+     "score": 0.6430000066757202
+    },
+    {
+     "id": "https://openalex.org/keywords/cube-roots",
+     "display_name": "cube roots",
+     "score": 0.8679999709129333
+    },
+    {
+     "id": "https://openalex.org/keywords/ieee-754",
+     "display_name": "IEEE 754",
+     "score": 0.8880000114440918
+    },
+    {
+     "id": "https://openalex.org/keywords/single-precision",
+     "display_name": "single precision",
+     "score": 0.5400000214576721
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2164484",
+     "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+     "display_name": "Core (optical fiber)",
+     "level": 2,
+     "score": 0.6874133944511414
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.46063458919525146
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.40426719188690186
+    },
+    {
+     "id": "https://openalex.org/C145420912",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Mathematics education",
+     "level": 1,
+     "score": 0.3616551160812378
+    },
+    {
+     "id": "https://openalex.org/C76155785",
+     "wikidata": "https://www.wikidata.org/wiki/Q418",
+     "display_name": "Telecommunications",
+     "level": 1,
+     "score": 0.07187378406524658
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.1109/arith54963.2022.00014",
+     "doi": "https://doi.org/10.1109/arith54963.2022.00014",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1109/arith54963.2022.00014",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210169913",
+      "display_name": "Proceedings/Proceedings - Symposium on Computer Arithmetic",
+      "issn_l": "1063-6889",
+      "issn": [
+       "1063-6889",
+       "2576-2265"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "jufo-1",
+       "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "conference"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2022 IEEE 29th Symposium on Computer Arithmetic (ARITH)",
+     "raw_type": "proceedings-article"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03721525v3",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-03721525",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "ARITH 2022 - 29th IEEE Symposium on Computer Arithmetic, Sep 2022, virtual, France. pp.26-34, &#x27E8;10.1109/ARITH54963.2022.00014&#x27E9;",
+     "raw_type": "info:eu-repo/semantics/conferenceObject"
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:oai:HAL:hal-03721525v3",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-03721525",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "ARITH 2022 - 29th IEEE Symposium on Computer Arithmetic, Sep 2022, virtual, France. pp.26-34, &#x27E8;10.1109/ARITH54963.2022.00014&#x27E9;",
+    "raw_type": "info:eu-repo/semantics/conferenceObject"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 10,
+   "referenced_works": [
+    "https://openalex.org/W65339224",
+    "https://openalex.org/W1969213662",
+    "https://openalex.org/W1980965137",
+    "https://openalex.org/W2111536341",
+    "https://openalex.org/W2149538173",
+    "https://openalex.org/W2517887144",
+    "https://openalex.org/W2612874433",
+    "https://openalex.org/W2624158749",
+    "https://openalex.org/W3170765902",
+    "https://openalex.org/W3194246169"
+   ],
+   "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2044189972",
+    "https://openalex.org/W2913765211",
+    "https://openalex.org/W2351109918",
+    "https://openalex.org/W93493066",
+    "https://openalex.org/W2782327182",
+    "https://openalex.org/W3112181345",
+    "https://openalex.org/W2920997280",
+    "https://openalex.org/W4285208722"
+   ],
+   "abstract_inverted_index": {
+    "The": [
+     0
+    ],
+    "CORE-MATH": [
+     1,
+     24,
+     41
+    ],
+    "project": [
+     2
+    ],
+    "aims": [
+     3
+    ],
+    "at": [
+     4
+    ],
+    "providing": [
+     5
+    ],
+    "open-source": [
+     6
+    ],
+    "mathematical": [
+     7,
+     18,
+     94
+    ],
+    "functions": [
+     8,
+     51,
+     57,
+     95
+    ],
+    "with": [
+     9,
+     68
+    ],
+    "correct": [
+     10,
+     91
+    ],
+    "rounding": [
+     11,
+     92
+    ],
+    "that": [
+     12
+    ],
+    "can": [
+     13
+    ],
+    "be": [
+     14
+    ],
+    "integrated": [
+     15
+    ],
+    "into": [
+     16
+    ],
+    "current": [
+     17
+    ],
+    "libraries.": [
+     19
+    ],
+    "This": [
+     20,
+     81
+    ],
+    "article": [
+     21
+    ],
+    "demonstrates": [
+     22
+    ],
+    "the": [
+     23,
+     29,
+     35,
+     71,
+     87,
+     97,
+     101
+    ],
+    "methodology": [
+     25
+    ],
+    "on": [
+     26
+    ],
+    "two": [
+     27
+    ],
+    "functions:": [
+     28
+    ],
+    "binary32": [
+     30
+    ],
+    "power": [
+     31
+    ],
+    "function": [
+     32,
+     39
+    ],
+    "(powf)": [
+     33
+    ],
+    "and": [
+     34
+    ],
+    "binary64": [
+     36
+    ],
+    "cube": [
+     37
+    ],
+    "root": [
+     38
+    ],
+    "(cbrt).": [
+     40
+    ],
+    "already": [
+     42
+    ],
+    "provides": [
+     43
+    ],
+    "a": [
+     44,
+     84
+    ],
+    "full": [
+     45
+    ],
+    "set": [
+     46
+    ],
+    "of": [
+     47,
+     86,
+     90,
+     100
+    ],
+    "correctly": [
+     48,
+     79
+    ],
+    "rounded": [
+     49
+    ],
+    "C99": [
+     50
+    ],
+    "for": [
+     52,
+     93
+    ],
+    "single": [
+     53
+    ],
+    "precision": [
+     54
+    ],
+    "(binary32).": [
+     55
+    ],
+    "These": [
+     56
+    ],
+    "provide": [
+     58
+    ],
+    "similar": [
+     59
+    ],
+    "or": [
+     60
+    ],
+    "in": [
+     61,
+     96
+    ],
+    "some": [
+     62
+    ],
+    "cases": [
+     63
+    ],
+    "up": [
+     64
+    ],
+    "to": [
+     65,
+     70
+    ],
+    "threefold": [
+     66
+    ],
+    "speedups": [
+     67
+    ],
+    "respect": [
+     69
+    ],
+    "GNU": [
+     72
+    ],
+    "libc": [
+     73
+    ],
+    "mathematic": [
+     74
+    ],
+    "library,": [
+     75
+    ],
+    "which": [
+     76
+    ],
+    "is": [
+     77
+    ],
+    "not": [
+     78
+    ],
+    "rounded.": [
+     80
+    ],
+    "work": [
+     82
+    ],
+    "offers": [
+     83
+    ],
+    "prospect": [
+     85
+    ],
+    "mandatory": [
+     88
+    ],
+    "requirement": [
+     89
+    ],
+    "next": [
+     98
+    ],
+    "revision": [
+     99
+    ],
+    "IEEE-754": [
+     102
+    ],
+    "standard.": [
+     103
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 4
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 9
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 2
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 6
+    }
+   ],
+   "updated_date": "2026-10-25T09:29:13.331239",
+   "created_date": "2022-12-22T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7219725785",
+   "doi": "https://doi.org/10.5281/zenodo.23139158",
+   "title": "Project CORE MATH: Cultivating Operational Readiness and Excellence in Mathematics",
+   "display_name": "Project CORE MATH: Cultivating Operational Readiness and Excellence in Mathematics",
+   "relevance_score": 67.01285,
+   "publication_year": 2026,
+   "publication_date": "2026-09-30",
+   "ids": {
+    "openalex": "https://openalex.org/W7219725785",
+    "doi": "https://doi.org/10.5281/zenodo.23139158"
+   },
+   "language": null,
+   "primary_location": {
+    "id": "doi:10.5281/zenodo.23139158",
+    "doi": "https://doi.org/10.5281/zenodo.23139158",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5281/zenodo.23139158",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400562",
+     "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I67311998",
+     "host_organization_name": "European Organization for Nuclear Research",
+     "host_organization_lineage": [
+      "https://openalex.org/I67311998"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article-journal"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "datacite"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.5281/zenodo.23139158",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5157133789",
+      "display_name": "Daisy M. Gagarin",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": true,
+     "raw_author_name": "Gagarin, Daisy M.",
+     "raw_affiliation_strings": [
+      "Talon Elementary School"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Talon Elementary School",
+       "institution_ids": []
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5157133789"
+   ],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.86756982,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T12522",
+    "display_name": "Mathematics Education and Pedagogy",
+    "score": 0.8788999915122986,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2604",
+     "display_name": "Applied Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/26",
+     "display_name": "Mathematics"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T12522",
+     "display_name": "Mathematics Education and Pedagogy",
+     "score": 0.8788999915122986,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10130",
+     "display_name": "Mathematics Education and Teaching Techniques",
+     "score": 0.09359999746084213,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11345",
+     "display_name": "Cognitive and developmental aspects of mathematical skills",
+     "score": 0.019300000742077827,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/learning-gaps",
+     "display_name": "learning gaps",
+     "score": 0.7250000238418579
+    },
+    {
+     "id": "https://openalex.org/keywords/fourth-grade-students",
+     "display_name": "fourth grade",
+     "score": 0.8140000104904175
+    },
+    {
+     "id": "https://openalex.org/keywords/school-based-intervention",
+     "display_name": "school-based intervention",
+     "score": 0.7979999780654907
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematics-readiness",
+     "display_name": "mathematics readiness",
+     "score": 0.44600000977516174
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C53537400",
+     "wikidata": "https://www.wikidata.org/wiki/Q140637",
+     "display_name": "Numeracy",
+     "level": 3,
+     "score": 0.6678000092506409
+    },
+    {
+     "id": "https://openalex.org/C2777352838",
+     "wikidata": "https://www.wikidata.org/wiki/Q5419420",
+     "display_name": "Excellence",
+     "level": 2,
+     "score": 0.6636000275611877
+    },
+    {
+     "id": "https://openalex.org/C2164484",
+     "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+     "display_name": "Core (optical fiber)",
+     "level": 2,
+     "score": 0.6244999766349792
+    },
+    {
+     "id": "https://openalex.org/C145420912",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Mathematics education",
+     "level": 1,
+     "score": 0.5073000192642212
+    },
+    {
+     "id": "https://openalex.org/C127413603",
+     "wikidata": "https://www.wikidata.org/wiki/Q11023",
+     "display_name": "Engineering",
+     "level": 0,
+     "score": 0.4138000011444092
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.39250001311302185
+    },
+    {
+     "id": "https://openalex.org/C58801604",
+     "wikidata": "https://www.wikidata.org/wiki/Q3284266",
+     "display_name": "Elementary mathematics",
+     "level": 2,
+     "score": 0.3910999894142151
+    },
+    {
+     "id": "https://openalex.org/C164065428",
+     "wikidata": "https://www.wikidata.org/wiki/Q1201929",
+     "display_name": "Core competency",
+     "level": 2,
+     "score": 0.3395000100135803
+    },
+    {
+     "id": "https://openalex.org/C2778597612",
+     "wikidata": "https://www.wikidata.org/wiki/Q7097786",
+     "display_name": "Operational excellence",
+     "level": 2,
+     "score": 0.32829999923706055
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.30559998750686646
+    },
+    {
+     "id": "https://openalex.org/C2993829489",
+     "wikidata": "https://www.wikidata.org/wiki/Q5153317",
+     "display_name": "Common core",
+     "level": 3,
+     "score": 0.26829999685287476
+    },
+    {
+     "id": "https://openalex.org/C110354214",
+     "wikidata": "https://www.wikidata.org/wiki/Q6314146",
+     "display_name": "Engineering management",
+     "level": 1,
+     "score": 0.2660999894142151
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.5281/zenodo.23139158",
+     "doi": "https://doi.org/10.5281/zenodo.23139158",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5281/zenodo.23139158",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400562",
+      "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I67311998",
+      "host_organization_name": "European Organization for Nuclear Research",
+      "host_organization_lineage": [
+       "https://openalex.org/I67311998"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": "article-journal"
+    },
+    {
+     "id": "doi:10.5281/zenodo.23139159",
+     "doi": "https://doi.org/10.5281/zenodo.23139159",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5281/zenodo.23139159",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400562",
+      "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I67311998",
+      "host_organization_name": "European Organization for Nuclear Research",
+      "host_organization_lineage": [
+       "https://openalex.org/I67311998"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": "article-journal"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.5281/zenodo.23139158",
+    "doi": "https://doi.org/10.5281/zenodo.23139158",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5281/zenodo.23139158",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400562",
+     "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I67311998",
+     "host_organization_name": "European Organization for Nuclear Research",
+     "host_organization_lineage": [
+      "https://openalex.org/I67311998"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article-journal"
+   },
+   "sustainable_development_goals": [
+    {
+     "score": 0.9235000014305115,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "Project": [
+     0
+    ],
+    "CORE": [
+     1
+    ],
+    "MATH": [
+     2
+    ],
+    "(Cultivating": [
+     3
+    ],
+    "Operational": [
+     4
+    ],
+    "Readiness": [
+     5
+    ],
+    "and": [
+     6,
+     30
+    ],
+    "Excellence": [
+     7
+    ],
+    "in": [
+     8,
+     22
+    ],
+    "Mathematics)": [
+     9
+    ],
+    "is": [
+     10
+    ],
+    "a": [
+     11
+    ],
+    "school-based": [
+     12
+    ],
+    "numeracy": [
+     13
+    ],
+    "enhancement": [
+     14
+    ],
+    "project": [
+     15
+    ],
+    "designed": [
+     16
+    ],
+    "to": [
+     17
+    ],
+    "address": [
+     18
+    ],
+    "identified": [
+     19
+    ],
+    "learning": [
+     20
+    ],
+    "gaps": [
+     21
+    ],
+    "the": [
+     23
+    ],
+    "four": [
+     24
+    ],
+    "fundamental": [
+     25
+    ],
+    "mathematical": [
+     26
+    ],
+    "operations\u2014addition,": [
+     27
+    ],
+    "subtraction,": [
+     28
+    ],
+    "multiplication,": [
+     29
+    ],
+    "division\u2014among": [
+     31
+    ],
+    "Grade": [
+     32
+    ],
+    "4": [
+     33
+    ],
+    "learners": [
+     34
+    ],
+    "of": [
+     35
+    ],
+    "Talon": [
+     36
+    ],
+    "Elementary": [
+     37
+    ],
+    "School.": [
+     38
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-10-07T09:51:55.459714",
+   "created_date": "2026-10-05T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W10348397",
+   "doi": "https://doi.org/10.26076/bb8c-8c04",
+   "title": "A Collection and Analysis of Local Middle Grade Math Projects for the Common Core",
+   "display_name": "A Collection and Analysis of Local Middle Grade Math Projects for the Common Core",
+   "relevance_score": 57.525257,
+   "publication_year": 2021,
+   "publication_date": "2021-09-28",
+   "ids": {
+    "openalex": "https://openalex.org/W10348397",
+    "doi": "https://doi.org/10.26076/bb8c-8c04",
+    "mag": "10348397",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10348397"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmid:10348397",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10348397",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306525036",
+     "display_name": "PubMed",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I1299303238",
+     "host_organization_name": "National Institutes of Health",
+     "host_organization_lineage": [
+      "https://openalex.org/I1299303238"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Clinical rehabilitation",
+    "raw_type": "Journal Article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "datacite",
+    "pubmed"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.26076/bb8c-8c04",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5035631520",
+      "display_name": "Lynnette Checketts",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": true,
+     "raw_author_name": "Checketts, Lynnette",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5035631520"
+   ],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.0,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "13",
+    "issue": "2",
+    "first_page": "164",
+    "last_page": "70"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T12522",
+    "display_name": "Mathematics Education and Pedagogy",
+    "score": 0.4690000116825104,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2604",
+     "display_name": "Applied Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/26",
+     "display_name": "Mathematics"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T12522",
+     "display_name": "Mathematics Education and Pedagogy",
+     "score": 0.4690000116825104,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11299",
+     "display_name": "Problem and Project Based Learning",
+     "score": 0.19900000095367432,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12884",
+     "display_name": "Educational Assessment and Pedagogy",
+     "score": 0.05460000038146973,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/test-retest-reliability",
+     "display_name": "test-retest reliability",
+     "score": 0.8740000128746033
+    },
+    {
+     "id": "https://openalex.org/keywords/intra-rater-reliability",
+     "display_name": "intra-rater reliability",
+     "score": 0.8960000276565552
+    },
+    {
+     "id": "https://openalex.org/keywords/verbal-memory",
+     "display_name": "verbal memory",
+     "score": 0.9089999794960022
+    },
+    {
+     "id": "https://openalex.org/keywords/rivermead-behavioural-memory-test",
+     "display_name": "Rivermead Behavioural Memory Test",
+     "score": 0.8930000066757202
+    },
+    {
+     "id": "https://openalex.org/keywords/neurological-disorders",
+     "display_name": "neurological disorders",
+     "score": 0.5590000152587891
+    },
+    {
+     "id": "https://openalex.org/keywords/cognitive-assessment",
+     "display_name": "cognitive assessment",
+     "score": 0.48399999737739563
+    },
+    {
+     "id": "https://openalex.org/keywords/common-core-state-standards",
+     "display_name": "Common Core State Standards",
+     "score": 0.8180000185966492
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2164484",
+     "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+     "display_name": "Core (optical fiber)",
+     "level": 2,
+     "score": 0.49221912026405334
+    },
+    {
+     "id": "https://openalex.org/C145420912",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Mathematics education",
+     "level": 1,
+     "score": 0.4755163788795471
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.39883121848106384
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.3419221043586731
+    },
+    {
+     "id": "https://openalex.org/C76155785",
+     "wikidata": "https://www.wikidata.org/wiki/Q418",
+     "display_name": "Telecommunications",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [
+    {
+     "descriptor_ui": "D000203",
+     "descriptor_name": "Activities of Daily Living",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D000203",
+     "descriptor_name": "Activities of Daily Living",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D000203",
+     "descriptor_name": "Activities of Daily Living",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D000328",
+     "descriptor_name": "Adult",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D000328",
+     "descriptor_name": "Adult",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D000328",
+     "descriptor_name": "Adult",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D004185",
+     "descriptor_name": "Disability Evaluation",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D004185",
+     "descriptor_name": "Disability Evaluation",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D004185",
+     "descriptor_name": "Disability Evaluation",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D005260",
+     "descriptor_name": "Female",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D005260",
+     "descriptor_name": "Female",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D005260",
+     "descriptor_name": "Female",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D006801",
+     "descriptor_name": "Humans",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D006801",
+     "descriptor_name": "Humans",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D006801",
+     "descriptor_name": "Humans",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008297",
+     "descriptor_name": "Male",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008297",
+     "descriptor_name": "Male",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008297",
+     "descriptor_name": "Male",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008568",
+     "descriptor_name": "Memory",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008568",
+     "descriptor_name": "Memory",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008568",
+     "descriptor_name": "Memory",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008875",
+     "descriptor_name": "Middle Aged",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008875",
+     "descriptor_name": "Middle Aged",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D008875",
+     "descriptor_name": "Middle Aged",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000175",
+     "qualifier_name": "diagnosis",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000175",
+     "qualifier_name": "diagnosis",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000175",
+     "qualifier_name": "diagnosis",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000523",
+     "qualifier_name": "psychology",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000523",
+     "qualifier_name": "psychology",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009422",
+     "descriptor_name": "Nervous System Diseases",
+     "qualifier_ui": "Q000523",
+     "qualifier_name": "psychology",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009483",
+     "descriptor_name": "Neuropsychological Tests",
+     "qualifier_ui": "Q000706",
+     "qualifier_name": "statistics & numerical data",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009483",
+     "descriptor_name": "Neuropsychological Tests",
+     "qualifier_ui": "Q000706",
+     "qualifier_name": "statistics & numerical data",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D009483",
+     "descriptor_name": "Neuropsychological Tests",
+     "qualifier_ui": "Q000706",
+     "qualifier_name": "statistics & numerical data",
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D015203",
+     "descriptor_name": "Reproducibility of Results",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D015203",
+     "descriptor_name": "Reproducibility of Results",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    },
+    {
+     "descriptor_ui": "D015203",
+     "descriptor_name": "Reproducibility of Results",
+     "qualifier_ui": null,
+     "qualifier_name": null,
+     "is_major_topic": false
+    }
+   ],
+   "locations_count": 4,
+   "locations": [
+    {
+     "id": "pmid:10348397",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10348397",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+       "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Clinical rehabilitation",
+     "raw_type": "Journal Article"
+    },
+    {
+     "id": "pmh:oai:digitalcommons.usu.edu:gradreports-1209",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://digitalcommons.usu.edu/gradreports/212",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4377196327",
+      "display_name": "Digital Commons - USU (Utah State University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I121980950",
+      "host_organization_name": "Utah State University",
+      "host_organization_lineage": [
+       "https://openalex.org/I121980950"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "All Graduate Plan B and other Reports, Spring 1920 to Spring 2023",
+     "raw_type": "text"
+    },
+    {
+     "id": "mag:10348397",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1209&context=gradreports",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": null
+    },
+    {
+     "id": "doi:10.26076/bb8c-8c04",
+     "doi": "https://doi.org/10.26076/bb8c-8c04",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.26076/bb8c-8c04",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4377196327",
+      "display_name": "Digital Commons - USU (Utah State University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I121980950",
+      "host_organization_name": "Utah State University",
+      "host_organization_lineage": [
+       "https://openalex.org/I121980950"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": "article-journal"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.26076/bb8c-8c04",
+    "doi": "https://doi.org/10.26076/bb8c-8c04",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.26076/bb8c-8c04",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4377196327",
+     "display_name": "Digital Commons - USU (Utah State University)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I121980950",
+     "host_organization_name": "Utah State University",
+     "host_organization_lineage": [
+      "https://openalex.org/I121980950"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article-journal"
+   },
+   "sustainable_development_goals": [
+    {
+     "score": 0.9391000270843506,
+     "display_name": "Good health and well-being",
+     "id": "https://metadata.un.org/sdg/3"
+    }
+   ],
+   "sustainable_development_goals_aurora": [
+    {
+     "score": 0.8299999833106995,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "study_designs": [
+    {
+     "display_name": "Observational Study",
+     "id": "https://openalex.org/study-designs/observational-study"
+    }
+   ],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 7,
+   "referenced_works": [
+    "https://openalex.org/W150910068",
+    "https://openalex.org/W1532525943",
+    "https://openalex.org/W1598337633",
+    "https://openalex.org/W1792595847",
+    "https://openalex.org/W2072328209",
+    "https://openalex.org/W2097993933",
+    "https://openalex.org/W2122909371"
+   ],
+   "related_works": [
+    "https://openalex.org/W2913523131",
+    "https://openalex.org/W3200483709",
+    "https://openalex.org/W2188237786",
+    "https://openalex.org/W2906175040",
+    "https://openalex.org/W2916013019",
+    "https://openalex.org/W3042749236",
+    "https://openalex.org/W614593046",
+    "https://openalex.org/W3125227606",
+    "https://openalex.org/W2552345415",
+    "https://openalex.org/W1565576265",
+    "https://openalex.org/W2347046570",
+    "https://openalex.org/W625551535",
+    "https://openalex.org/W2225770701",
+    "https://openalex.org/W2983642094",
+    "https://openalex.org/W2942599689"
+   ],
+   "abstract_inverted_index": {
+    "OBJECTIVE:": [
+     0
+    ],
+    "To": [
+     1
+    ],
+    "establish": [
+     2
+    ],
+    "the": [
+     3,
+     10,
+     18,
+     23,
+     38,
+     99,
+     107,
+     112,
+     130,
+     139,
+     149,
+     155,
+     159,
+     193,
+     205,
+     214,
+     219
+    ],
+    "limits": [
+     4
+    ],
+    "of": [
+     5,
+     9,
+     20,
+     28,
+     44,
+     76,
+     82,
+     102,
+     111,
+     132,
+     136,
+     158
+    ],
+    "intra-observer": [
+     6
+    ],
+    "test-retest": [
+     7
+    ],
+    "reliability": [
+     8
+    ],
+    "Short": [
+     11,
+     96
+    ],
+    "Orientation-Memory-Concentration": [
+     12,
+     97
+    ],
+    "Test": [
+     13,
+     116
+    ],
+    "(SOMC),": [
+     14
+    ],
+    "and": [
+     15,
+     106,
+     184,
+     198
+    ],
+    "to": [
+     16,
+     90,
+     148,
+     154,
+     170,
+     224,
+     248
+    ],
+    "investigate": [
+     17
+    ],
+    "relationship": [
+     19
+    ],
+    "performance": [
+     21
+    ],
+    "on": [
+     22
+    ],
+    "SOMC": [
+     24,
+     188,
+     220,
+     245
+    ],
+    "with": [
+     25,
+     53,
+     55,
+     73,
+     192
+    ],
+    "a": [
+     26,
+     74,
+     121,
+     180,
+     226
+    ],
+    "test": [
+     27,
+     141
+    ],
+    "verbal": [
+     29,
+     250
+    ],
+    "memory.": [
+     30,
+     251
+    ],
+    "DESIGN:": [
+     31
+    ],
+    "Each": [
+     32
+    ],
+    "patient": [
+     33
+    ],
+    "was": [
+     34,
+     120,
+     145
+    ],
+    "assessed": [
+     35
+    ],
+    "twice": [
+     36
+    ],
+    "by": [
+     37,
+     165,
+     213,
+     232,
+     239
+    ],
+    "same": [
+     39,
+     215
+    ],
+    "assessor": [
+     40
+    ],
+    "over": [
+     41
+    ],
+    "an": [
+     42
+    ],
+    "interval": [
+     43,
+     150
+    ],
+    "3-7": [
+     45
+    ],
+    "days.": [
+     46
+    ],
+    "SETTING:": [
+     47
+    ],
+    "Two": [
+     48
+    ],
+    "specialist": [
+     49
+    ],
+    "rehabilitation": [
+     50
+    ],
+    "units": [
+     51
+    ],
+    "concerned": [
+     52
+    ],
+    "patients": [
+     54,
+     66,
+     174
+    ],
+    "severe": [
+     56
+    ],
+    "and/or": [
+     57
+    ],
+    "complex": [
+     58
+    ],
+    "disability": [
+     59
+    ],
+    "arising": [
+     60
+    ],
+    "from": [
+     61,
+     88
+    ],
+    "neurological": [
+     62,
+     77
+    ],
+    "disease.": [
+     63
+    ],
+    "SUBJECTS:": [
+     64
+    ],
+    "Thirty-eight": [
+     65
+    ],
+    "aged": [
+     67
+    ],
+    "17-63": [
+     68
+    ],
+    "years,": [
+     69
+    ],
+    "25": [
+     70
+    ],
+    "being": [
+     71
+    ],
+    "men,": [
+     72
+    ],
+    "variety": [
+     75
+    ],
+    "diseases.": [
+     78
+    ],
+    "The": [
+     79,
+     95,
+     162,
+     187,
+     244
+    ],
+    "Barthel": [
+     80,
+     100
+    ],
+    "Activities": [
+     81,
+     101
+    ],
+    "Daily": [
+     83,
+     103
+    ],
+    "Living": [
+     84,
+     104
+    ],
+    "Index": [
+     85,
+     105
+    ],
+    "score": [
+     86,
+     131,
+     157,
+     221
+    ],
+    "ranged": [
+     87
+    ],
+    "0": [
+     89
+    ],
+    "20,": [
+     91
+    ],
+    "median": [
+     92
+    ],
+    "10.5.": [
+     93
+    ],
+    "MEASURES:": [
+     94
+    ],
+    "Test,": [
+     98
+    ],
+    "paragraph": [
+     108,
+     195
+    ],
+    "recall": [
+     109,
+     196
+    ],
+    "subtest": [
+     110
+    ],
+    "Rivermead": [
+     113
+    ],
+    "Behavioural": [
+     114
+    ],
+    "Memory": [
+     115
+    ],
+    "(RBMT).": [
+     117
+    ],
+    "RESULTS:": [
+     118
+    ],
+    "There": [
+     119
+    ],
+    "slight": [
+     122
+    ],
+    "but": [
+     123,
+     143,
+     172,
+     204
+    ],
+    "statistically": [
+     124
+    ],
+    "significant": [
+     125
+    ],
+    "(p": [
+     126
+    ],
+    "<0.01)": [
+     127
+    ],
+    "improvement": [
+     128
+    ],
+    "in": [
+     129,
+     218
+    ],
+    "2": [
+     133,
+     242
+    ],
+    "points": [
+     134,
+     236
+    ],
+    "(out": [
+     135
+    ],
+    "28)": [
+     137
+    ],
+    "between": [
+     138,
+     151,
+     182
+    ],
+    "two": [
+     140,
+     160
+    ],
+    "occasions,": [
+     142
+    ],
+    "this": [
+     144
+    ],
+    "not": [
+     146
+    ],
+    "related": [
+     147
+    ],
+    "testing": [
+     152
+    ],
+    "or": [
+     153,
+     237
+    ],
+    "mean": [
+     156
+    ],
+    "tests.": [
+     161
+    ],
+    "scores": [
+     163,
+     189,
+     200
+    ],
+    "differed": [
+     164
+    ],
+    "as": [
+     166,
+     168
+    ],
+    "much": [
+     167
+    ],
+    "+10": [
+     169
+    ],
+    "-8,": [
+     171
+    ],
+    "most": [
+     173
+    ],
+    "(n": [
+     175
+    ],
+    "=": [
+     176,
+     202
+    ],
+    "35;": [
+     177
+    ],
+    "92%)": [
+     178
+    ],
+    "showed": [
+     179,
+     207
+    ],
+    "difference": [
+     181,
+     228
+    ],
+    "-2": [
+     183
+    ],
+    "+6": [
+     185
+    ],
+    "points.": [
+     186,
+     243
+    ],
+    "were": [
+     190
+    ],
+    "correlated": [
+     191
+    ],
+    "RBMT": [
+     194
+    ],
+    "immediate": [
+     197
+    ],
+    "delayed": [
+     199
+    ],
+    "(r": [
+     201
+    ],
+    "0.74)": [
+     203
+    ],
+    "scatterplot": [
+     206
+    ],
+    "considerable": [
+     208
+    ],
+    "variation.": [
+     209
+    ],
+    "CONCLUSION:": [
+     210
+    ],
+    "If": [
+     211
+    ],
+    "used": [
+     212
+    ],
+    "observer,": [
+     216
+    ],
+    "changes": [
+     217
+    ],
+    "are": [
+     222
+    ],
+    "likely": [
+     223
+    ],
+    "reflect": [
+     225,
+     249
+    ],
+    "real": [
+     227
+    ],
+    "if": [
+     229
+    ],
+    "it": [
+     230
+    ],
+    "increases": [
+     231
+    ],
+    "more": [
+     233,
+     240
+    ],
+    "than": [
+     234,
+     241
+    ],
+    "6": [
+     235
+    ],
+    "decreases": [
+     238
+    ],
+    "does": [
+     246
+    ],
+    "seem": [
+     247
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-09-26T08:19:03.415552",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W3207143104",
+   "doi": "https://doi.org/10.33232/bims.0074.27.66",
+   "title": "Teacher Change and Project Maths: Implications and Lessons Learned",
+   "display_name": "Teacher Change and Project Maths: Implications and Lessons Learned",
+   "relevance_score": 33.422237,
+   "publication_year": 2014,
+   "publication_date": "2014-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W3207143104",
+    "doi": "https://doi.org/10.33232/bims.0074.27.66",
+    "mag": "3207143104"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.33232/bims.0074.27.66",
+    "doi": "https://doi.org/10.33232/bims.0074.27.66",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.33232/bims.0074.27.66",
+    "pdf_url": "https://doi.org/10.33232/bims.0074.27.66",
+    "source": {
+     "id": "https://openalex.org/S4210185566",
+     "display_name": "Irish Mathematical Society Bulletin",
+     "issn_l": "0791-5578",
+     "issn": [
+      "0791-5578"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4310315404",
+     "host_organization_name": "Irish Mathematical Society",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310315404"
+     ],
+     "host_organization_lineage_names": [
+      "Irish Mathematical Society"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Irish Mathematical Society Bulletin",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.33232/bims.0074.27.66",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5046964594",
+      "display_name": "Shannon M. Guerrero",
+      "orcid": "https://orcid.org/0000-0002-9229-4020",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-9229-4020"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I203172682",
+       "display_name": "Northern Arizona University",
+       "ror": "https://ror.org/0272j5188",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I203172682"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "S. Guerrero",
+     "raw_affiliation_strings": [
+      "Northern Arizona University , Department of Mathematics & Sta- tistics , PO Box 5717 , Flagstaff , AZ 86011 , USA",
+      "Northern Arizona University , Department of Mathematics & Sta-tistics, PO Box 5717, Flagstaff, AZ 86011, USA"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Northern Arizona University , Department of Mathematics & Sta- tistics , PO Box 5717 , Flagstaff , AZ 86011 , USA",
+       "institution_ids": [
+        "https://openalex.org/I203172682"
+       ]
+      },
+      {
+       "raw_affiliation_string": "Northern Arizona University , Department of Mathematics & Sta-tistics, PO Box 5717, Flagstaff, AZ 86011, USA",
+       "institution_ids": [
+        "https://openalex.org/I203172682"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5046964594"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I203172682"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": true,
+   "cited_by_count": 5,
+   "citation_normalized_percentile": {
+    "value": 0.69359823,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+   },
+   "biblio": {
+    "volume": "0074",
+    "issue": null,
+    "first_page": "27",
+    "last_page": "66"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10130",
+    "display_name": "Mathematics Education and Teaching Techniques",
+    "score": 0.9980000257492065,
+    "subfield": {
+     "id": "https://openalex.org/subfields/3304",
+     "display_name": "Education"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/33",
+     "display_name": "Social Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10130",
+     "display_name": "Mathematics Education and Teaching Techniques",
+     "score": 0.9980000257492065,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10008",
+     "display_name": "Teacher Education and Leadership Studies",
+     "score": 0.0010999999940395355,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10457",
+     "display_name": "Education Pedagogy and Practices",
+     "score": 0.0003000000142492354,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/common-core-state-standards-for-mathematics",
+     "display_name": "Common Core State Standards for Mathematics",
+     "score": 0.8700000047683716
+    },
+    {
+     "id": "https://openalex.org/keywords/teacher-change",
+     "display_name": "teacher change",
+     "score": 0.9459999799728394
+    },
+    {
+     "id": "https://openalex.org/keywords/curriculum-adoption",
+     "display_name": "curriculum adoption",
+     "score": 0.8930000066757202
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematics-teacher-professional-development",
+     "display_name": "mathematics teacher professional development",
+     "score": 0.8679999709129333
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematics-pedagogy",
+     "display_name": "mathematics pedagogy",
+     "score": 0.8529999852180481
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematics-assessment",
+     "display_name": "mathematics assessment",
+     "score": 0.9559999704360962
+    },
+    {
+     "id": "https://openalex.org/keywords/teacher-beliefs",
+     "display_name": "teacher beliefs",
+     "score": 0.375
+    },
+    {
+     "id": "https://openalex.org/keywords/ireland",
+     "display_name": "Ireland",
+     "score": 0.3400000035762787
+    },
+    {
+     "id": "https://openalex.org/keywords/united-states",
+     "display_name": "United States",
+     "score": 0.9909999966621399
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C145420912",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Mathematics education",
+     "level": 1,
+     "score": 0.6496472358703613
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.3394947946071625
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.33232/bims.0074.27.66",
+     "doi": "https://doi.org/10.33232/bims.0074.27.66",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.33232/bims.0074.27.66",
+     "pdf_url": "https://doi.org/10.33232/bims.0074.27.66",
+     "source": {
+      "id": "https://openalex.org/S4210185566",
+      "display_name": "Irish Mathematical Society Bulletin",
+      "issn_l": "0791-5578",
+      "issn": [
+       "0791-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310315404",
+      "host_organization_name": "Irish Mathematical Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315404"
+      ],
+      "host_organization_lineage_names": [
+       "Irish Mathematical Society"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Irish Mathematical Society Bulletin",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.33232/bims.0074.27.66",
+    "doi": "https://doi.org/10.33232/bims.0074.27.66",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.33232/bims.0074.27.66",
+    "pdf_url": "https://doi.org/10.33232/bims.0074.27.66",
+    "source": {
+     "id": "https://openalex.org/S4210185566",
+     "display_name": "Irish Mathematical Society Bulletin",
+     "issn_l": "0791-5578",
+     "issn": [
+      "0791-5578"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4310315404",
+     "host_organization_name": "Irish Mathematical Society",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310315404"
+     ],
+     "host_organization_lineage_names": [
+      "Irish Mathematical Society"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Irish Mathematical Society Bulletin",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "score": 0.975600004196167,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "sustainable_development_goals_aurora": [
+    {
+     "score": 0.6499999761581421,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W3207143104.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W3207143104.grobid-xml"
+   },
+   "referenced_works_count": 15,
+   "referenced_works": [
+    "https://openalex.org/W28745885",
+    "https://openalex.org/W100896537",
+    "https://openalex.org/W1486731211",
+    "https://openalex.org/W1498861356",
+    "https://openalex.org/W1536573182",
+    "https://openalex.org/W1565408702",
+    "https://openalex.org/W1991171139",
+    "https://openalex.org/W2128068105",
+    "https://openalex.org/W2184235202",
+    "https://openalex.org/W2414366206",
+    "https://openalex.org/W2484833837",
+    "https://openalex.org/W2500601876",
+    "https://openalex.org/W2540642268",
+    "https://openalex.org/W3009871862",
+    "https://openalex.org/W6632099607"
+   ],
+   "related_works": [
+    "https://openalex.org/W1979597421",
+    "https://openalex.org/W2007980826",
+    "https://openalex.org/W4245490552",
+    "https://openalex.org/W4225152035",
+    "https://openalex.org/W2061531152",
+    "https://openalex.org/W3002753104",
+    "https://openalex.org/W2077600819",
+    "https://openalex.org/W1587224694",
+    "https://openalex.org/W2911598644",
+    "https://openalex.org/W2142036596"
+   ],
+   "abstract_inverted_index": {
+    "Because": [
+     0
+    ],
+    "of": [
+     1,
+     9,
+     28,
+     49,
+     75,
+     105,
+     129,
+     143
+    ],
+    "the": [
+     2,
+     14,
+     32,
+     149
+    ],
+    "similar": [
+     3
+    ],
+    "intents,": [
+     4
+    ],
+    "practices,": [
+     5
+    ],
+    "and": [
+     6,
+     13,
+     54,
+     66,
+     78,
+     83,
+     93,
+     96,
+     103,
+     118,
+     127
+    ],
+    "expected": [
+     7
+    ],
+    "outcomes": [
+     8
+    ],
+    "Ireland's": [
+     10
+    ],
+    "Project": [
+     11,
+     50,
+     69,
+     87,
+     106,
+     134
+    ],
+    "Maths": [
+     12
+    ],
+    "United": [
+     15,
+     150
+    ],
+    "States'": [
+     16
+    ],
+    "Common": [
+     17,
+     29,
+     146
+    ],
+    "Core": [
+     18,
+     30,
+     147
+    ],
+    "State": [
+     19
+    ],
+    "Standards": [
+     20
+    ],
+    "for": [
+     21,
+     114,
+     124,
+     140
+    ],
+    "Mathematics,": [
+     22
+    ],
+    "insights": [
+     23,
+     67
+    ],
+    "into": [
+     24,
+     68
+    ],
+    "promoting": [
+     25
+    ],
+    "successful": [
+     26
+    ],
+    "adoption": [
+     27,
+     48,
+     104
+    ],
+    "in": [
+     31,
+     86,
+     148
+    ],
+    "U.S.": [
+     33,
+     59
+    ],
+    "can": [
+     34
+    ],
+    "be": [
+     35
+    ],
+    "gained": [
+     36
+    ],
+    "by": [
+     37
+    ],
+    "looking": [
+     38
+    ],
+    "at": [
+     39
+    ],
+    "factors": [
+     40,
+     98
+    ],
+    "that": [
+     41
+    ],
+    "have": [
+     42
+    ],
+    "supported": [
+     43
+    ],
+    "and/or": [
+     44
+    ],
+    "hindered": [
+     45
+    ],
+    "Irish": [
+     46,
+     130
+    ],
+    "teacher": [
+     47,
+     101,
+     116
+    ],
+    "Maths-related": [
+     51
+    ],
+    "content,": [
+     52
+    ],
+    "pedagogy,": [
+     53
+    ],
+    "assessment.In": [
+     55
+    ],
+    "this": [
+     56
+    ],
+    "paper,": [
+     57
+    ],
+    "a": [
+     58,
+     73
+    ],
+    "mathematics": [
+     60
+    ],
+    "educator": [
+     61
+    ],
+    "summarizes": [
+     62
+    ],
+    "her": [
+     63
+    ],
+    "experiences": [
+     64
+    ],
+    "with": [
+     65,
+     80,
+     120
+    ],
+    "Math": [
+     70
+    ],
+    "based": [
+     71
+    ],
+    "on": [
+     72
+    ],
+    "variety": [
+     74
+    ],
+    "observations,": [
+     76
+    ],
+    "interviews": [
+     77
+    ],
+    "interactions": [
+     79
+    ],
+    "various": [
+     81
+    ],
+    "aspects": [
+     82
+    ],
+    "players": [
+     84
+    ],
+    "involved": [
+     85
+    ],
+    "Maths.This": [
+     88
+    ],
+    "paper": [
+     89,
+     108
+    ],
+    "highlights": [
+     90
+    ],
+    "observed": [
+     91
+    ],
+    "strengths": [
+     92
+    ],
+    "limiting": [
+     94
+    ],
+    "structural": [
+     95
+    ],
+    "personal": [
+     97
+    ],
+    "related": [
+     99
+    ],
+    "to": [
+     100
+    ],
+    "change": [
+     102,
+     117
+    ],
+    "Maths.The": [
+     107
+    ],
+    "then": [
+     109
+    ],
+    "discusses": [
+     110
+    ],
+    "an": [
+     111
+    ],
+    "integrated": [
+     112
+    ],
+    "framework": [
+     113
+    ],
+    "considering": [
+     115
+    ],
+    "concludes": [
+     119
+    ],
+    "suggested": [
+     121
+    ],
+    "next": [
+     122
+    ],
+    "steps": [
+     123
+    ],
+    "continued": [
+     125
+    ],
+    "growth": [
+     126
+    ],
+    "development": [
+     128,
+     142
+    ],
+    "math": [
+     131
+    ],
+    "teachers": [
+     132,
+     144
+    ],
+    "under": [
+     133
+    ],
+    "Maths,": [
+     135
+    ],
+    "as": [
+     136,
+     138
+    ],
+    "well": [
+     137
+    ],
+    "implications": [
+     139
+    ],
+    "professional": [
+     141
+    ],
+    "adopting": [
+     145
+    ],
+    "States.": [
+     151
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 3
+    },
+    {
+     "year": 2018,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-10-16T09:59:22.235173",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W2744631685",
+   "doi": null,
+   "title": "The Early Take-up of Core Maths: Emerging Findings",
+   "display_name": "The Early Take-up of Core Maths: Emerging Findings",
+   "relevance_score": 32.897133,
+   "publication_year": 2017,
+   "publication_date": "2017-07-27",
+   "ids": {
+    "openalex": "https://openalex.org/W2744631685",
+    "mag": "2744631685"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmh:oai:eprints.whiterose.ac.uk:119598",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://eprints.whiterose.ac.uk/119598/",
+    "pdf_url": "http://www.bsrlm.org.uk/wp-content/uploads/2017/08/BSRLM-CP-37-2-17.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306400854",
+     "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I2800616092",
+     "host_organization_name": "White Rose University Consortium",
+     "host_organization_lineage": [
+      "https://openalex.org/I2800616092"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Proceedings Paper"
+   },
+   "volume": null,
+   "type": "conference-paper",
+   "indexed_in": [],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://www.bsrlm.org.uk/wp-content/uploads/2017/08/BSRLM-CP-37-2-17.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5014780067",
+      "display_name": "Matt Homer",
+      "orcid": "https://orcid.org/0000-0002-1161-5938",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-1161-5938"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Matt Homer",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0002-1161-5938",
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5077725411",
+      "display_name": "Rachel Mathieson",
+      "orcid": "https://orcid.org/0000-0002-6272-5088",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6272-5088"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Rachel Mathieson",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0002-6272-5088",
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5074207917",
+      "display_name": "Indira Banner",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Indira Banner",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5026649000",
+      "display_name": "Innocent Tasara",
+      "orcid": "https://orcid.org/0000-0002-1864-7609",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-1864-7609"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "I Tasara",
+     "raw_affiliation_strings": [],
+     "raw_orcid": "https://orcid.org/0000-0002-1864-7609",
+     "affiliations": []
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.9882,
+   "has_fulltext": true,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.73764906,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 88,
+    "max": 93
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T14079",
+    "display_name": "Mathematics Education and Programs",
+    "score": 0.7759000062942505,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2611",
+     "display_name": "Modeling and Simulation"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/26",
+     "display_name": "Mathematics"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T14079",
+     "display_name": "Mathematics Education and Programs",
+     "score": 0.7759000062942505,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12522",
+     "display_name": "Mathematics Education and Pedagogy",
+     "score": 0.10000000149011612,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10130",
+     "display_name": "Mathematics Education and Teaching Techniques",
+     "score": 0.05820000171661377,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/mathematics-qualifications",
+     "display_name": "mathematics qualifications",
+     "score": 0.7419999837875366
+    },
+    {
+     "id": "https://openalex.org/keywords/level-3-qualifications",
+     "display_name": "level 3 qualifications",
+     "score": 0.5839999914169312
+    },
+    {
+     "id": "https://openalex.org/keywords/as-level",
+     "display_name": "AS level",
+     "score": 0.5270000100135803
+    },
+    {
+     "id": "https://openalex.org/keywords/england",
+     "display_name": "England",
+     "score": 0.4129999876022339
+    },
+    {
+     "id": "https://openalex.org/keywords/nuffield-foundation",
+     "display_name": "Nuffield Foundation",
+     "score": 0.6819999814033508
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematics-education-policy",
+     "display_name": "mathematics education policy",
+     "score": 0.6880000233650208
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2164484",
+     "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+     "display_name": "Core (optical fiber)",
+     "level": 2,
+     "score": 0.6794549822807312
+    },
+    {
+     "id": "https://openalex.org/C145420912",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Mathematics education",
+     "level": 1,
+     "score": 0.6433977484703064
+    },
+    {
+     "id": "https://openalex.org/C2778755073",
+     "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+     "display_name": "Scale (ratio)",
+     "level": 2,
+     "score": 0.4974673092365265
+    },
+    {
+     "id": "https://openalex.org/C2984408293",
+     "wikidata": "https://www.wikidata.org/wiki/Q853077",
+     "display_name": "Math education",
+     "level": 2,
+     "score": 0.48362651467323303
+    },
+    {
+     "id": "https://openalex.org/C2780966255",
+     "wikidata": "https://www.wikidata.org/wiki/Q5474306",
+     "display_name": "Foundation (evidence)",
+     "level": 2,
+     "score": 0.4446325898170471
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.37732285261154175
+    },
+    {
+     "id": "https://openalex.org/C17744445",
+     "wikidata": "https://www.wikidata.org/wiki/Q36442",
+     "display_name": "Political science",
+     "level": 0,
+     "score": 0.28513962030410767
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.22324374318122864
+    },
+    {
+     "id": "https://openalex.org/C205649164",
+     "wikidata": "https://www.wikidata.org/wiki/Q1071",
+     "display_name": "Geography",
+     "level": 0,
+     "score": 0.20695585012435913
+    },
+    {
+     "id": "https://openalex.org/C199539241",
+     "wikidata": "https://www.wikidata.org/wiki/Q7748",
+     "display_name": "Law",
+     "level": 1,
+     "score": 0.0740261971950531
+    },
+    {
+     "id": "https://openalex.org/C58640448",
+     "wikidata": "https://www.wikidata.org/wiki/Q42515",
+     "display_name": "Cartography",
+     "level": 1,
+     "score": 0.07227969169616699
+    },
+    {
+     "id": "https://openalex.org/C76155785",
+     "wikidata": "https://www.wikidata.org/wiki/Q418",
+     "display_name": "Telecommunications",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "pmh:oai:eprints.whiterose.ac.uk:119598",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "http://eprints.whiterose.ac.uk/119598/",
+     "pdf_url": "http://www.bsrlm.org.uk/wp-content/uploads/2017/08/BSRLM-CP-37-2-17.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306400854",
+      "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I2800616092",
+      "host_organization_name": "White Rose University Consortium",
+      "host_organization_lineage": [
+       "https://openalex.org/I2800616092"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "",
+     "raw_type": "Proceedings Paper"
+    },
+    {
+     "id": "mag:2744631685",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://eprints.whiterose.ac.uk/119598/",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": null
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:oai:eprints.whiterose.ac.uk:119598",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://eprints.whiterose.ac.uk/119598/",
+    "pdf_url": "http://www.bsrlm.org.uk/wp-content/uploads/2017/08/BSRLM-CP-37-2-17.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306400854",
+     "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I2800616092",
+     "host_organization_name": "White Rose University Consortium",
+     "host_organization_lineage": [
+      "https://openalex.org/I2800616092"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Proceedings Paper"
+   },
+   "sustainable_development_goals": [
+    {
+     "score": 0.9235000014305115,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "sustainable_development_goals_aurora": [
+    {
+     "score": 0.6399999856948853,
+     "display_name": "No poverty",
+     "id": "https://metadata.un.org/sdg/1"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2744631685.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2744631685.grobid-xml"
+   },
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [
+    "https://openalex.org/W2944146268",
+    "https://openalex.org/W2599030818",
+    "https://openalex.org/W2543298805",
+    "https://openalex.org/W2566525067",
+    "https://openalex.org/W2669923949",
+    "https://openalex.org/W2292903200",
+    "https://openalex.org/W1620022371",
+    "https://openalex.org/W193893169",
+    "https://openalex.org/W2518302292",
+    "https://openalex.org/W2900375935",
+    "https://openalex.org/W2920833647",
+    "https://openalex.org/W2968526500",
+    "https://openalex.org/W1991413030",
+    "https://openalex.org/W2529941922",
+    "https://openalex.org/W2564878715",
+    "https://openalex.org/W2040872634",
+    "https://openalex.org/W2992070047",
+    "https://openalex.org/W3087352730",
+    "https://openalex.org/W2153227729",
+    "https://openalex.org/W1987501309"
+   ],
+   "abstract_inverted_index": {
+    "Core": [
+     0,
+     30,
+     55
+    ],
+    "Maths,": [
+     1,
+     56
+    ],
+    "a": [
+     2,
+     22,
+     62
+    ],
+    "new": [
+     3
+    ],
+    "Level": [
+     4
+    ],
+    "3": [
+     5
+    ],
+    "qualification": [
+     6
+    ],
+    "equivalent": [
+     7
+    ],
+    "in": [
+     8,
+     35,
+     44,
+     86
+    ],
+    "\u2018size\u2019": [
+     9
+    ],
+    "to": [
+     10,
+     15,
+     24,
+     73,
+     80
+    ],
+    "an": [
+     11
+    ],
+    "AS-level": [
+     12
+    ],
+    "but": [
+     13
+    ],
+    "intended": [
+     14,
+     72
+    ],
+    "be": [
+     16
+    ],
+    "studied": [
+     17
+    ],
+    "over": [
+     18
+    ],
+    "two": [
+     19
+    ],
+    "years,": [
+     20
+    ],
+    "is": [
+     21
+    ],
+    "response": [
+     23
+    ],
+    "England\u2019s": [
+     25
+    ],
+    "poor": [
+     26
+    ],
+    "post-16": [
+     27,
+     83
+    ],
+    "mathematics": [
+     28,
+     84
+    ],
+    "participation.": [
+     29
+    ],
+    "Maths": [
+     31
+    ],
+    "has": [
+     32
+    ],
+    "been": [
+     33
+    ],
+    "taught": [
+     34
+    ],
+    "Early": [
+     36
+    ],
+    "Adopter": [
+     37
+    ],
+    "institutions": [
+     38
+    ],
+    "since": [
+     39
+    ],
+    "2014,": [
+     40
+    ],
+    "with": [
+     41
+    ],
+    "first": [
+     42
+    ],
+    "examination": [
+     43
+    ],
+    "summer": [
+     45
+    ],
+    "2016.": [
+     46
+    ],
+    "This": [
+     47
+    ],
+    "paper": [
+     48
+    ],
+    "reports": [
+     49
+    ],
+    "on": [
+     50
+    ],
+    "the": [
+     51,
+     58,
+     69
+    ],
+    "historic": [
+     52
+    ],
+    "development": [
+     53
+    ],
+    "of": [
+     54,
+     61
+    ],
+    "and": [
+     57,
+     77
+    ],
+    "early": [
+     59
+    ],
+    "findings": [
+     60
+    ],
+    "large-scale": [
+     63
+    ],
+    "three-year": [
+     64
+    ],
+    "mixed-methods": [
+     65
+    ],
+    "project": [
+     66
+    ],
+    "funded": [
+     67
+    ],
+    "by": [
+     68
+    ],
+    "Nuffield": [
+     70
+    ],
+    "Foundation": [
+     71
+    ],
+    "provide": [
+     74
+    ],
+    "clear": [
+     75
+    ],
+    "practical": [
+     76
+    ],
+    "policy": [
+     78
+    ],
+    "guidance": [
+     79
+    ],
+    "secure": [
+     81
+    ],
+    "improved": [
+     82
+    ],
+    "participation": [
+     85
+    ],
+    "England.": [
+     87
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2020,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-09-22T06:50:58.402377",
+   "created_date": "2025-10-10T00:00:00"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "flip": "key[0]",
+  "stream_sbox": 0.4949375,
+  "stream_perm": 0.50125,
+  "stream_fwd": 0.5030625,
+  "stream_bwd": 0.499375,
+  "ciphertext_body": 0.499267578125
+ },
+ {
+  "flip": "key[255]",
+  "stream_sbox": 0.5003125,
+  "stream_perm": 0.5046875,
+  "stream_fwd": 0.505375,
+  "stream_bwd": 0.502625,
+  "ciphertext_body": 0.50262451171875
+ },
+ {
+  "flip": "nonce[0]",
+  "stream_sbox": 0.506125,
+  "stream_perm": 0.496,
+  "stream_fwd": 0.4948125,
+  "stream_bwd": 0.4970625,
+  "ciphertext_body": 0.4989013671875
+ },
+ {
+  "flip": "nonce[127]",
+  "stream_sbox": 0.5025625,
+  "stream_perm": 0.502625,
+  "stream_fwd": 0.5015,
+  "stream_bwd": 0.5015625,
+  "ciphertext_body": 0.49859619140625
+ }
+]

@@ -1,0 +1,470 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.sigpro.2015.07.008",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     22
+    ]
+   ],
+   "date-time": "2026-09-22T17:38:52Z",
+   "timestamp": 1790098732703,
+   "version": "4.0.1"
+  },
+  "reference-count": 26,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2016-01-01T00:00:00Z",
+     "timestamp": 1451606400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Distinguished Young Scholar Program of the Hunan Provincial Natural Science Foundation of China",
+    "award": [
+     "2015JJ1013"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2015JJ1013"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Scientific Research Fund of Hunan Provincial Education Department",
+    "award": [
+     "15A186"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "15A186"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2016,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.sigpro.2015.07.008",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2015,
+     7,
+     21
+    ]
+   ],
+   "date-time": "2015-07-21T15:57:33Z",
+   "timestamp": 1437494253000
+  },
+  "page": "203-210",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 159,
+  "special_numbering": "C",
+  "title": [
+   "Cracking a hierarchical chaotic image encryption algorithm based on permutation"
+  ],
+  "prefix": "10.1016",
+  "volume": "118",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-5385-7644",
+    "authenticated-orcid": false,
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib1",
+    "unstructured": "S. Li, Analyses and new designs of digital chaotic ciphers (Ph.D. Thesis), School of Electronic and Information Engineering, Xi\u05f3an Jiaotong University, Xi\u05f3an, China, Available online at \u3008http://www.hooklee.com/pub.html\u3009, June 2003."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2015.07.008_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3D chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2015.07.008_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "\u00c1lvarez",
+    "year": "2006",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.sigpro.2015.07.008_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "46",
+    "DOI": "10.1038/scientificamerican1286-46",
+    "article-title": "Chaos",
+    "volume": "255",
+    "author": "Crutchfield",
+    "year": "1986",
+    "journal-title": "Sci. Am."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib5",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Y. Matias, A. Shamir, A video scrambling technique based on space filling curve (extended abstract), in: Advances in Cryptology \u2014 Crypto\u05f387, Lecture Notes in Computer Science, vol. 293, 1987, pp. 398\u2013417.",
+    "DOI": "10.1007/3-540-48184-2_35"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2015.07.008_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "118",
+    "DOI": "10.1109/TMM.2003.808817",
+    "article-title": "Efficient frequency domain selective scrambling of digital video",
+    "volume": "5",
+    "author": "Zeng",
+    "year": "2003",
+    "journal-title": "IEEE Trans. Multimed."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2015.07.008_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "261",
+    "DOI": "10.1016/S0020-0190(96)00168-8",
+    "article-title": "On the security of image encryption method",
+    "volume": "60",
+    "author": "Jan",
+    "year": "1996",
+    "journal-title": "Inf. Process. Lett."
+   },
+   {
+    "issue": "14",
+    "key": "10.1016/j.sigpro.2015.07.008_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "1847",
+    "DOI": "10.1016/S0167-8655(02)00157-5",
+    "article-title": "Cryptanalysis of an encryption scheme for binary images",
+    "volume": "23",
+    "author": "Chang",
+    "year": "2002",
+    "journal-title": "Pattern Recognit. Lett."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib9",
+    "doi-asserted-by": "crossref",
+    "unstructured": "W. Li, Y. Yan, N. Yu, Breaking row-column shuffle based image cipher, in: Proceedings of ACM International Conference on Multimedia, 2012, p. art. no. 6011939, http://dx.doi.org/10.1145/2393347.2396392",
+    "DOI": "10.1145/2393347.2396392"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2015.07.008_bib10",
+    "first-page": "212",
+    "article-title": "A general quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "volume": "23",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "Signal Process.: Image Commun."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2015.07.008_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "949",
+    "DOI": "10.1016/j.sigpro.2010.09.014",
+    "article-title": "Optimal quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "volume": "91",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2015.07.008_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "338",
+    "DOI": "10.1109/TCSVT.2008.918116",
+    "article-title": "Cryptanalysis of an image scrambling scheme without bandwidth expansion",
+    "volume": "18",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2015.07.008_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "170",
+    "DOI": "10.1109/TCSVT.2011.2106250",
+    "article-title": "Privacy protection in video surveillance systems",
+    "volume": "21",
+    "author": "Sohn",
+    "year": "2011",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "122",
+    "DOI": "10.1016/j.sigpro.2014.03.015",
+    "article-title": "A symmetric image cipher using wave perturbations",
+    "volume": "102",
+    "author": "Wu",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib15",
+    "doi-asserted-by": "crossref",
+    "unstructured": "H. Zheng, S. Yu, J. Lu, Design and ARM platform-based realization of digital color image encryption and decryption via single state variable feedback control, Int. J. Bifurc. Chaos 24 (4) (2014) art. no. 1450049.",
+    "DOI": "10.1142/S0218127414500497"
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib16",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J.-C. Yen, J.-I. Guo, Efficient hierarchical chaotic image encryption algorithm and its VLSI realisation, IEE Proc. \u2013 Vis. Image Signal Process. 147 (2) (2000) 167\u2013175.",
+    "DOI": "10.1049/ip-vis:20000208"
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib17",
+    "unstructured": "R.E. Korf, Finding optimal solutions to Rubik\u05f3s cube using pattern databases, in: Proceedings of AAAI-97, 1997, pp. 700\u2013705, \u3008https://www.aaai.org/Papers/AAAI/1997/AAAI97-109.pdf\u3009."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib18",
+    "series-title": "An Introduction to Chaotic Dynamical Systems",
+    "author": "Devaney",
+    "year": "2003"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2015.07.008_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1545",
+    "DOI": "10.1007/s11071-014-1533-8",
+    "article-title": "Cryptanalyzing image encryption using chaotic logistic map",
+    "volume": "78",
+    "author": "Li",
+    "year": "2014",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib20",
+    "unstructured": "J.-I. Guo, J.-C. Yen, J.-C. Yeh, The design and realization of a new chaotic image encryption algorithm, in: Proceedings of 1999 International Symposium on Communications, 1999, pp. 210\u2013214."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2015.07.008_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1130",
+    "DOI": "10.1016/j.jss.2007.07.037",
+    "article-title": "Cryptanalysis of the RCES/RSES image encryption scheme",
+    "volume": "81",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "J. Syst. Softw."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2015.07.008_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "571",
+    "DOI": "10.1109/TMM.2013.2291968",
+    "article-title": "Solving a special type of jigsaw puzzles: banknote reconstruction from a large number of fragments",
+    "volume": "16",
+    "author": "Li",
+    "year": "2014",
+    "journal-title": "IEEE Trans. Multimed."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2015.07.008_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "840",
+    "DOI": "10.1109/TPAMI.2007.1058",
+    "article-title": "An efficient earth mover\u05f3s distance algorithm for robust histogram comparison",
+    "volume": "29",
+    "author": "Ling",
+    "year": "2007",
+    "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib24",
+    "doi-asserted-by": "crossref",
+    "unstructured": "C. Li, S. Li, G. Chen, G. Chen, L. Hu, Cryptanalysis of a new signal security system for multimedia data transmission, EURASIP J. Appl. Signal Process. 2005 (8) (2005) 1277\u20131288.",
+    "DOI": "10.1155/ASP.2005.1277"
+   },
+   {
+    "key": "10.1016/j.sigpro.2015.07.008_bib25",
+    "series-title": "Concrete Mathematics",
+    "author": "Graham",
+    "year": "1989"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2015.07.008_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "1443",
+    "DOI": "10.1016/j.jss.2010.02.039",
+    "article-title": "A differential cryptanalysis of Yen\u2013Chen\u2013Wu multimedia cryptography system",
+    "volume": "83",
+    "author": "Li",
+    "year": "2010",
+    "journal-title": "J. Syst. Softw."
+   }
+  ],
+  "container-title": [
+   "Signal Processing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168415002431?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168415002431?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     28
+    ]
+   ],
+   "date-time": "2019-08-28T11:03:13Z",
+   "timestamp": 1566990193000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165168415002431"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     1
+    ]
+   ]
+  },
+  "references-count": 26,
+  "alternative-id": [
+   "S0165168415002431"
+  ],
+  "URL": "https://doi.org/10.1016/j.sigpro.2015.07.008",
+  "relation": {},
+  "ISSN": [
+   "0165-1684"
+  ],
+  "issn-type": [
+   {
+    "value": "0165-1684",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     1
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Cracking a hierarchical chaotic image encryption algorithm based on permutation",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.sigpro.2015.07.008",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2015 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

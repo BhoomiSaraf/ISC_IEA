@@ -1,0 +1,74 @@
+{
+ "nonce_respecting_findings": [
+  {
+   "construction": "V-STREAM",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.004475911458333333,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "keystream from one known pair"
+  },
+  {
+   "construction": "V-PERM",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.004557291666666667,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "position coding"
+  },
+  {
+   "construction": "V-LINEAR",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.004475911458333333,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "zero image + key-independent linear inversion + position coding"
+  },
+  {
+   "construction": "V-FULL",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.0027669270833333335,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "zero image + key-independent linear inversion + position coding"
+  },
+  {
+   "construction": "V-CHACHA",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.003987630208333333,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "zero image + key-independent linear inversion + position coding"
+  },
+  {
+   "construction": "AES-256-GCM",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.0027669270833333335,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "keystream from one known pair"
+  },
+  {
+   "construction": "ChaCha20-Poly1305",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime_mean_agreement": 0.00439453125,
+   "threshold": 0.005594399009514079,
+   "F5prime_transfer_success": false,
+   "method": "keystream from one known pair"
+  },
+  {
+   "construction": "AES-256-GCM-SIV",
+   "setting": "nonce-respecting (fresh random nonces)",
+   "F1prime_equal_bodies": false,
+   "F5prime": "not applicable (no equivalent key)"
+  }
+ ],
+ "elapsed_seconds": 106.59
+}

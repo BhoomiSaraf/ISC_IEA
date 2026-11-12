@@ -1,0 +1,9 @@
+Metric,Value,Status
+ACF_Lag1_X,-0.10157990695724044,OK
+ACF_Lag1_Y,0.005780523667538748,OK
+Zero_One_K,0.9982937294395118,OK
+ApEn_X,1.7377833251952657,OK
+Divergence_Iter_1e-10,8,OK
+Cycle_Length_Float32,290196,OK
+Cycle_Length_Float64,No Cycle (<1M),OK
+NIST_Score,3/13,OK

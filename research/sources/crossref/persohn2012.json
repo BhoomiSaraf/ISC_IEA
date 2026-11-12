@@ -1,0 +1,382 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.chaos.2011.12.006",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     25
+    ]
+   ],
+   "date-time": "2026-07-25T16:15:04Z",
+   "timestamp": 1784996104144,
+   "version": "3.55.0"
+  },
+  "reference-count": 21,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2012,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2012-03-01T00:00:00Z",
+     "timestamp": 1330560000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Chaos, Solitons &amp; Fractals"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.chaos.2011.12.006",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     1,
+     28
+    ]
+   ],
+   "date-time": "2012-01-28T00:47:28Z",
+   "timestamp": 1327711648000
+  },
+  "page": "238-245",
+  "source": "Crossref",
+  "is-referenced-by-count": 130,
+  "title": [
+   "Analyzing logistic map pseudorandom number generators for periodicity induced by finite precision floating-point representation"
+  ],
+  "prefix": "10.1016",
+  "volume": "45",
+  "author": [
+   {
+    "given": "K.J.",
+    "family": "Persohn",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "R.J.",
+    "family": "Povinelli",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "3",
+    "key": "10.1016/j.chaos.2011.12.006_b0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "775",
+    "DOI": "10.1016/j.chaos.2004.09.038",
+    "article-title": "Breaking projective chaos synchronization secure communication using filtering and generalized synchronization",
+    "volume": "24",
+    "author": "Alvarez",
+    "year": "2005",
+    "journal-title": "Chaos Solitons Fract"
+   },
+   {
+    "issue": "1\u20132",
+    "key": "10.1016/j.chaos.2011.12.006_b0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "50",
+    "DOI": "10.1016/S0375-9601(98)00086-3",
+    "article-title": "Cryptography with chaos",
+    "volume": "240",
+    "author": "Baptista",
+    "year": "1998",
+    "journal-title": "Phys Lett A"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.chaos.2011.12.006_b0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "921",
+    "DOI": "10.1142/S021797929800051X",
+    "article-title": "Logistic map as a random number generator",
+    "volume": "12",
+    "author": "Andrecut",
+    "year": "1998",
+    "journal-title": "Int J Modern Phys B"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.chaos.2011.12.006_b0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "1498",
+    "DOI": "10.1109/TCSI.2001.972857",
+    "article-title": "Chaos and cryptography",
+    "volume": "48",
+    "author": "Dachselt",
+    "year": "2001",
+    "journal-title": "IEEE Trans Circ Syst I: Fundam Theory Appl"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0025",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wang F, Zhang Y, Cao T. Research of chaotic block cipher algorithm based on logistic map. In: Second international conference on intelligent computation technology and automation, 2009, ICICTA\u201909; 2009. p. 678 \u201381.",
+    "DOI": "10.1109/ICICTA.2009.169"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.chaos.2011.12.006_b0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "163",
+    "DOI": "10.1109/81.904880",
+    "article-title": "Chaos and cryptography: block encryption ciphers based on chaotic maps",
+    "volume": "48",
+    "author": "Jakimoski",
+    "year": "2001",
+    "journal-title": "IEEE Trans Circ Syst I: Fundam Theory Appl"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.chaos.2011.12.006_b0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "65",
+    "DOI": "10.1016/j.chaos.2004.07.003",
+    "article-title": "One-way hash function construction based on the chaotic map with changeable-parameter",
+    "volume": "24",
+    "author": "Xiao",
+    "year": "2005",
+    "journal-title": "Chaos Solitons Fract"
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.chaos.2011.12.006_b0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "1192",
+    "DOI": "10.1145/63039.63042",
+    "article-title": "Random number generators: good ones are hard to find",
+    "volume": "31",
+    "author": "Park",
+    "year": "1988",
+    "journal-title": "Commun ACM"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0045",
+    "volume": "vol. 2",
+    "author": "Knuth",
+    "year": "1981"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.chaos.2011.12.006_b0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "3670",
+    "DOI": "10.1103/PhysRevE.51.3670",
+    "article-title": "Logistic map: a possible random-number generator",
+    "volume": "51",
+    "author": "Phatak",
+    "year": "1995",
+    "journal-title": "Phys Rev E"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0055",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jiang C, Wu S. A valid algorithm of converting chaos sequences to uniformity pseudo-random ones. In: International symposium on information engineering and electronic commerce, 2009, IEEC\u201909; 2009. p. 295\u20138.",
+    "DOI": "10.1109/IEEC.2009.67"
+   },
+   {
+    "issue": "23",
+    "key": "10.1016/j.chaos.2011.12.006_b0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "3382",
+    "DOI": "10.1103/PhysRevLett.69.3382",
+    "article-title": "Monte Carlo simulations: hidden errors from \u201cgood\u201d random number generators",
+    "volume": "69",
+    "author": "Ferrenberg",
+    "year": "1992",
+    "journal-title": "Phys Rev Lett"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0065",
+    "first-page": "141",
+    "article-title": "Mathematical methods in large-scale computing units",
+    "volume": "26",
+    "author": "Lehmer",
+    "year": "1951",
+    "journal-title": "Ann Comput Lab Harvard Univ"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0070",
+    "unstructured": "Oracle. Java 2 platform se random class. <http://download.oracle.com/javase/1.4.2/docs/api/java/util/Random.html>; 2010."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.chaos.2011.12.006_b0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "3",
+    "DOI": "10.1145/272991.272995",
+    "article-title": "Mersenne twister: a 623-dimensionally equidistributed uniform pseudo-random number generator",
+    "volume": "8",
+    "author": "Matsumoto",
+    "year": "1998",
+    "journal-title": "Trans Model Comput Simul"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0080",
+    "unstructured": "Matsumoto M, Nishimura T, Hagita M, Saito M. Cryptographic Mersenne twister and Fubaki stream/block cipher, cryptology ePrint archive, Report 2005/165; 2005."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.chaos.2011.12.006_b0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "6",
+    "DOI": "10.1109/7384.963463",
+    "article-title": "Chaos-based cryptography: a brief overview",
+    "volume": "1",
+    "author": "Kocarev",
+    "year": "2001",
+    "journal-title": "IEEE Circ Syst Mag"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "Alvarez",
+    "year": "2006",
+    "journal-title": "Int J Bifurcat Chaos"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.chaos.2011.12.006_b0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1007/BF01020332",
+    "article-title": "Quantitative universality for a class of nonlinear transformations",
+    "volume": "19",
+    "author": "Feigenbaum",
+    "year": "1978",
+    "journal-title": "J Stat Phys"
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0100",
+    "unstructured": "Condor high throughput computing. <http://www.cs.wisc.edu/condor/>."
+   },
+   {
+    "key": "10.1016/j.chaos.2011.12.006_b0105",
+    "unstructured": "Standard for floating-point arithmetic, Tech. Rep. 754-2008, IEEE; 2008."
+   }
+  ],
+  "container-title": [
+   "Chaos, Solitons &amp; Fractals"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0960077911002384?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0960077911002384?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     6,
+     23
+    ]
+   ],
+   "date-time": "2019-06-23T00:19:15Z",
+   "timestamp": 1561249155000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0960077911002384"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2012,
+     3
+    ]
+   ]
+  },
+  "references-count": 21,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0960077911002384"
+  ],
+  "URL": "https://doi.org/10.1016/j.chaos.2011.12.006",
+  "relation": {},
+  "ISSN": [
+   "0960-0779"
+  ],
+  "issn-type": [
+   {
+    "value": "0960-0779",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2012,
+     3
+    ]
+   ]
+  }
+ }
+}

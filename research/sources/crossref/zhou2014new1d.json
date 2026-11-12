@@ -1,0 +1,712 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.sigpro.2013.10.034",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     24
+    ]
+   ],
+   "date-time": "2026-10-24T06:03:41Z",
+   "timestamp": 1792821821431,
+   "version": "4.5.0"
+  },
+  "reference-count": 39,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2014,
+       4,
+       1
+      ]
+     ],
+     "date-time": "2014-04-01T00:00:00Z",
+     "timestamp": 1396310400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Macau Science and Technology Development Fund",
+    "award": [
+     "017/2012/A1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "017/2012/A1"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "SRG007-FST12-ZYC"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "SRG007-FST12-ZYC"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MYRG113(Y1-L3)-FST12-ZYC"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG113(Y1-L3)-FST12-ZYC"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MRG001/ZYC/2013/FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MRG001/ZYC/2013/FST"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     4
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.sigpro.2013.10.034",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2013,
+     11,
+     13
+    ]
+   ],
+   "date-time": "2013-11-13T03:46:54Z",
+   "timestamp": 1384314414000
+  },
+  "page": "172-182",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 799,
+  "special_numbering": "C",
+  "title": [
+   "A new 1D chaotic system for image encryption"
+  ],
+  "prefix": "10.1016",
+  "volume": "97",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-4487-6384",
+    "authenticated-orcid": false,
+    "given": "Yicong",
+    "family": "Zhou",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Long",
+    "family": "Bao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C.L. Philip",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "11",
+    "key": "10.1016/j.sigpro.2013.10.034_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "2986",
+    "DOI": "10.1016/j.sigpro.2013.03.031",
+    "article-title": "A new approach to chaotic image encryption based on quantum chaotic system, exploiting color spaces",
+    "volume": "93",
+    "author": "Abd El-Latif",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2013.10.034_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1328",
+    "DOI": "10.1016/j.sigpro.2012.11.008",
+    "article-title": "Image encryption process based on chaotic synchronization phenomena",
+    "volume": "93",
+    "author": "Volos",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2013.10.034_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "2422",
+    "DOI": "10.1016/j.sigpro.2013.03.017",
+    "article-title": "Chaos-based partial encryption of SPIHT coded color images",
+    "volume": "93",
+    "author": "Zhang",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "0",
+    "key": "10.1016/j.sigpro.2013.10.034_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "290",
+    "DOI": "10.1016/j.ins.2013.01.006",
+    "article-title": "Block-based progressive visual secret sharing",
+    "volume": "233",
+    "author": "Hou",
+    "year": "2013",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2013.10.034_bib5",
+    "first-page": "413",
+    "article-title": "Novel SCAN-CA-based image security system using SCAN and 2-D von Neumann cellular automata",
+    "volume": "25",
+    "author": "Chen",
+    "year": "2010",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2013.10.034_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "725",
+    "DOI": "10.1016/j.patcog.2003.08.011",
+    "article-title": "Image and video encryption using SCAN patterns",
+    "volume": "37",
+    "author": "Maniccam",
+    "year": "2004",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2013.10.034_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1582",
+    "DOI": "10.1016/j.patcog.2008.08.023",
+    "article-title": "Image encryption by multiple random grids",
+    "volume": "42",
+    "author": "Shyu",
+    "year": "2009",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "issue": "0",
+    "key": "10.1016/j.sigpro.2013.10.034_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "255",
+    "DOI": "10.1016/j.ins.2011.11.026",
+    "article-title": "Multi-image encryption by circular random grids",
+    "volume": "189",
+    "author": "Chen",
+    "year": "2012",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2013.10.034_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1069",
+    "DOI": "10.1016/j.sigpro.2011.10.020",
+    "article-title": "Elliptic curve Elgamal based homomorphic image encryption scheme for sharing secret images",
+    "volume": "92",
+    "author": "Li",
+    "year": "2012",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2013.10.034_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "515",
+    "DOI": "10.1109/TSMCB.2012.2210706",
+    "article-title": "(n, k, p)-gray code for image systems",
+    "volume": "43",
+    "author": "Zhou",
+    "year": "2013",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "2714",
+    "DOI": "10.1016/j.sigpro.2010.03.022",
+    "article-title": "A novel image encryption algorithm based on self-adaptive wave transmission",
+    "volume": "90",
+    "author": "Liao",
+    "year": "2010",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2013.10.034_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "1690",
+    "DOI": "10.1016/j.ins.2009.12.021",
+    "article-title": "Compression-unimpaired batch-image encryption combining vector quantization and index compression",
+    "volume": "180",
+    "author": "Chen",
+    "year": "2010",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2013.10.034_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "262",
+    "DOI": "10.1109/TSMCA.2011.2147307",
+    "article-title": "A new fractional random wavelet transform for fingerprint security",
+    "volume": "42",
+    "author": "Bhatnagar",
+    "year": "2012",
+    "journal-title": "IEEE Trans. Syst. Man Cybern. Part A"
+   },
+   {
+    "issue": "0",
+    "key": "10.1016/j.sigpro.2013.10.034_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "297",
+    "DOI": "10.1016/j.ins.2012.09.053",
+    "article-title": "Discrete fractional wavelet transform and its application to multiple encryption",
+    "volume": "223",
+    "author": "Bhatnagar",
+    "year": "2013",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2013.10.034_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "594",
+    "DOI": "10.1016/j.optcom.2011.11.044",
+    "article-title": "Image encryption using P-Fibonacci transform and decomposition",
+    "volume": "285",
+    "author": "Zhou",
+    "year": "2012",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "issue": "0",
+    "key": "10.1016/j.sigpro.2013.10.034_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "125",
+    "DOI": "10.1016/j.ins.2012.01.016",
+    "article-title": "Personalized information encryption using ECG signals with chaotic functions",
+    "volume": "193",
+    "author": "Chen",
+    "year": "2012",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "1202",
+    "DOI": "10.1016/j.sigpro.2011.11.004",
+    "article-title": "A fast color image encryption algorithm based on coupled two-dimensional piecewise chaotic map",
+    "volume": "92",
+    "author": "Seyedzadeh",
+    "year": "2012",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "480",
+    "DOI": "10.1016/j.sigpro.2008.09.011",
+    "article-title": "Image encryption scheme based on 3D baker with dynamical compound chaotic sequence cipher generator",
+    "volume": "89",
+    "author": "Tong",
+    "year": "2009",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2013.10.034_bib19",
+    "first-page": "292",
+    "article-title": "A novel image encryption scheme based on a linear hyperbolic chaotic system of partial differential equations",
+    "volume": "28",
+    "author": "Zhang",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.sigpro.2013.10.034_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "2825",
+    "DOI": "10.1016/j.cnsns.2013.02.011",
+    "article-title": "An asymmetric image cryptosystem based on the adaptive synchronization of an uncertain unified chaotic system and a cellular neural network",
+    "volume": "18",
+    "author": "Cheng",
+    "year": "2013",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib21",
+    "doi-asserted-by": "crossref",
+    "unstructured": "L. Bao, Y. Zhou, C.L.P. Chen, H. Liu, A new chaotic system for image encryption, in: 2012 International Conference on System Science and Engineering (ICSSE), 2012, pp. 69\u201373.",
+    "DOI": "10.1109/ICSSE.2012.6257151"
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib22",
+    "doi-asserted-by": "crossref",
+    "unstructured": "G.A. Sathishkumar, K. Bhoopathy bagan, N. Sriraam, Image encryption based on diffusion and multiple chaotic maps, International Journal of Network Security & Its Applications, 3 (2) (2011) 181\u2013194.",
+    "DOI": "10.5121/ijnsa.2011.3214"
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib23",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. El-Latif, L. Li, N. Wang, X. Niu, Image encryption scheme of pixel bit based on combination of chaotic systems, in: 2011 Seventh International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP), 2011, pp. 369\u2013373.",
+    "DOI": "10.1109/IIHMSP.2011.67"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2013.10.034_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "2943",
+    "DOI": "10.1016/j.cnsns.2011.11.030",
+    "article-title": "A novel image encryption algorithm based on a 3D chaotic map",
+    "volume": "17",
+    "author": "Kanso",
+    "year": "2012",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "issue": "10\u201311",
+    "key": "10.1016/j.sigpro.2013.10.034_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "1003",
+    "DOI": "10.1016/j.physleta.2012.01.040",
+    "article-title": "An improved chaotic cryptosystem based on circular bit shift and XOR operations",
+    "volume": "376",
+    "author": "Xu",
+    "year": "2012",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2013.10.034_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "408",
+    "DOI": "10.1016/j.chaos.2006.05.011",
+    "article-title": "A novel algorithm for image encryption based on mixture of chaotic maps",
+    "volume": "35",
+    "author": "Behnia",
+    "year": "2008",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2013.10.034_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "347",
+    "DOI": "10.1016/j.patrec.2009.11.008",
+    "article-title": "Image scrambling encryption algorithm of pixel bit based on chaos map",
+    "volume": "31",
+    "author": "Ye",
+    "year": "2010",
+    "journal-title": "Pattern Recognit. Lett."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "1101",
+    "DOI": "10.1016/j.sigpro.2011.10.023",
+    "article-title": "A novel colour image encryption algorithm based on chaos",
+    "volume": "92",
+    "author": "Wang",
+    "year": "2012",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2013.10.034_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "1171",
+    "DOI": "10.1016/j.ins.2010.11.009",
+    "article-title": "A chaos-based symmetric image encryption scheme using a bit-level permutation",
+    "volume": "181",
+    "author": "Zhu",
+    "year": "2011",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2013.10.034_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "648",
+    "DOI": "10.1016/j.dsp.2012.02.005",
+    "article-title": "Selective image encryption based on pixels of interest and singular value decomposition",
+    "volume": "22",
+    "author": "Bhatnagar",
+    "year": "2012",
+    "journal-title": "Digit. Signal Process."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2013.10.034_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "3056",
+    "DOI": "10.1016/j.cnsns.2008.11.005",
+    "article-title": "A new substitution\u2013diffusion based image cipher using chaotic standard and Logistic maps",
+    "volume": "14",
+    "author": "Patidar",
+    "year": "2009",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2013.10.034_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "1371",
+    "DOI": "10.1016/j.imavis.2008.12.008",
+    "article-title": "On the security defects of an image encryption scheme",
+    "volume": "27",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Image Vis. Comput."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2013.10.034_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "1358",
+    "DOI": "10.1016/j.sigpro.2012.11.019",
+    "article-title": "Cryptanalysis of a one round chaos-based substitution permutation network",
+    "volume": "93",
+    "author": "Arroyo",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2013.10.034_bib34",
+    "doi-asserted-by": "crossref",
+    "unstructured": "M.I. Sobhy, A.E.R. Shehata, Methods of attacking chaotic encryption and countermeasures, in: Proceedings of 2001 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP '01), 2001, pp. 1001\u20131004.",
+    "DOI": "10.1109/ICASSP.2001.941086"
+   },
+   {
+    "issue": "38",
+    "key": "10.1016/j.sigpro.2013.10.034_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "5973",
+    "DOI": "10.1016/j.physleta.2008.07.057",
+    "article-title": "Cryptanalysis of a new image encryption algorithm based on hyper-chaos",
+    "volume": "372",
+    "author": "Rhouma",
+    "year": "2008",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2013.10.034_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "908",
+    "DOI": "10.1016/j.physleta.2010.12.065",
+    "article-title": "Cryptanalysis of a spatiotemporal chaotic image/video cryptosystem and its improved version",
+    "volume": "375",
+    "author": "Ge",
+    "year": "2011",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.sigpro.2013.10.034_bib37",
+    "doi-asserted-by": "crossref",
+    "first-page": "1035",
+    "DOI": "10.1016/j.imavis.2008.09.004",
+    "article-title": "Cryptanalysis of an image encryption scheme based on a compound chaotic sequence",
+    "volume": "27",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Image Vis. Comput."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2013.10.034_bib38",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1117/1.JEI.21.1.013014",
+    "article-title": "Image encryption using the two-dimensional Logistic chaotic map",
+    "volume": "21",
+    "author": "Wu",
+    "year": "2012",
+    "journal-title": "J. Electron. Imaging"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2013.10.034_bib39",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3D chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos, Solitons Fractals"
+   }
+  ],
+  "container-title": [
+   "Signal Processing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168413004258?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168413004258?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     10,
+     10
+    ]
+   ],
+   "date-time": "2018-10-10T17:23:34Z",
+   "timestamp": 1539192214000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165168413004258"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     4
+    ]
+   ]
+  },
+  "references-count": 39,
+  "alternative-id": [
+   "S0165168413004258"
+  ],
+  "URL": "https://doi.org/10.1016/j.sigpro.2013.10.034",
+  "relation": {},
+  "ISSN": [
+   "0165-1684"
+  ],
+  "issn-type": [
+   {
+    "value": "0165-1684",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     4
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "A new 1D chaotic system for image encryption",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.sigpro.2013.10.034",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2013 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

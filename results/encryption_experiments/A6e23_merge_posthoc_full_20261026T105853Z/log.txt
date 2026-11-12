@@ -1,0 +1,6 @@
+[2026-10-26T16:28:57] start A6e23_merge_posthoc mode=full
+[2026-10-26T16:28:57] memory at start: {'working_set_mb': 141.1, 'peak_working_set_mb': 141.1, 'system_available_mb': 1424.1}
+[2026-10-26T16:31:29] P2 x batch blocks 0..63: 152.1 s, {'working_set_mb': 145.6, 'peak_working_set_mb': 177.2, 'system_available_mb': 1154.4}
+[2026-10-26T16:32:49] P2 x batch blocks 64..99: 80.3 s, {'working_set_mb': 161.9, 'peak_working_set_mb': 177.2, 'system_available_mb': 845.3}
+[2026-10-26T16:32:49] P2 x: distinct mean after 1 step 984.99, after burn-in 984.40 of 1024
+[2026-10-26T16:41:08] P2 y batch blocks 0..63: 498.9 s, {'working_set_mb': 27.4, 'peak_working_set_mb': 178.5, 'system_available_mb': 1067.1}

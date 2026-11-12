@@ -1,0 +1,7 @@
+[2026-10-26T06:12:34] start A14_perf mode=diagnostic
+[2026-10-26T06:13:21] 64x64x1 V-FULL: enc 20.6526 s, dec 25.9008 s
+[2026-10-26T06:13:21] 64x64x1 V-CHACHA: enc 0.2863 s, dec 0.1764 s
+[2026-10-26T06:13:21] 64x64x1 AES-256-GCM: enc 0.0122 s, dec 0.0000 s
+[2026-10-26T06:13:21] 64x64x1 ChaCha20-Poly1305: enc 0.0009 s, dec 0.0001 s
+[2026-10-26T06:13:21] 64x64x1 AES-256-GCM-SIV: enc 0.0007 s, dec 0.0001 s
+[2026-10-26T06:13:21] finished in 50.38 s

@@ -1,0 +1,5 @@
+python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+Windows-10-10.0.22631-SP0
+numpy 2.0.2 cryptography 50.0.0 skimage 0.26.0
+command: python -m pytest tests -rA -p no:cacheprovider --junitxml=results/cipher_validation/gate_c_E1-windows_20261025T214654Z/junit_full.xml
+slow command: ISC_SLOW=1 python -m pytest tests/test_isc_cipher_roundtrip.py -k 'scikit or maximum' -rA -p no:cacheprovider --durations=0

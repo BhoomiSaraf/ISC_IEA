@@ -1,0 +1,1262 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1109/tcsi.2005.851701",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2105709923",
+  "doi": "https://doi.org/10.1109/tcsi.2005.851701",
+  "title": "Security of public-key cryptosystems based on Chebyshev polynomials",
+  "display_name": "Security of public-key cryptosystems based on Chebyshev polynomials",
+  "publication_year": 2005,
+  "publication_date": "2005-07-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2105709923",
+   "doi": "https://doi.org/10.1109/tcsi.2005.851701",
+   "mag": "2105709923"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1109/tcsi.2005.851701",
+   "doi": "https://doi.org/10.1109/tcsi.2005.851701",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/tcsi.2005.851701",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210171352",
+    "display_name": "IEEE Transactions on Circuits and Systems I Fundamental Theory and Applications",
+    "issn_l": "1057-7122",
+    "issn": [
+     "1057-7122",
+     "1558-1268"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core"
+    ],
+    "host_organization": "https://openalex.org/P4310319808",
+    "host_organization_name": "Institute of Electrical and Electronics Engineers",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "arxiv",
+   "crossref",
+   "datacite"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/cs/0411030",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5073897700",
+     "display_name": "Pierpaolo Bergamo",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I131729948",
+      "display_name": "University of Salerno",
+      "ror": "https://ror.org/0192m2k53",
+      "country_code": "IT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "P. Bergamo",
+    "raw_affiliation_strings": [
+     "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+     "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5066040641",
+     "display_name": "Paolo D\u2019Arco",
+     "orcid": "https://orcid.org/0000-0002-9271-4240",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9271-4240"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I131729948",
+      "display_name": "University of Salerno",
+      "ror": "https://ror.org/0192m2k53",
+      "country_code": "IT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "P. D'Arco",
+    "raw_affiliation_strings": [
+     "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+     "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5078114782",
+     "display_name": "Alfredo De Santis",
+     "orcid": "https://orcid.org/0000-0001-8962-1919",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8962-1919"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I131729948",
+      "display_name": "University of Salerno",
+      "ror": "https://ror.org/0192m2k53",
+      "country_code": "IT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ],
+    "countries": [
+     "IT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "A. De Santis",
+    "raw_affiliation_strings": [
+     "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+     "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Dipartimento di Informatica ed Applicazioni, Universit\u00e0 degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Dipt. di Informatica ed Applicazioni, Univ. degli Studi di Salerno, Baronissi, Italy",
+      "institution_ids": [
+       "https://openalex.org/I131729948"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5028515169",
+     "display_name": "Ljup\u010do Kocarev",
+     "orcid": "https://orcid.org/0000-0001-7243-7074",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-7243-7074"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "L. Kocarev",
+    "raw_affiliation_strings": [
+     "Institute for Nonlinear Science, University of California, San Diego, La Jolla, CA, USA",
+     "[Institute for Nonlinear Science, University of California, San Diego, La Jolla, CA, USA]"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Nonlinear Science, University of California, San Diego, La Jolla, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     },
+     {
+      "raw_affiliation_string": "[Institute for Nonlinear Science, University of California, San Diego, La Jolla, CA, USA]",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.5884,
+  "has_fulltext": true,
+  "cited_by_count": 316,
+  "citation_normalized_percentile": {
+   "value": 0.97739298,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 98,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "52",
+   "issue": "7",
+   "first_page": "1382",
+   "last_page": "1393"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10237",
+   "display_name": "Cryptography and Data Security",
+   "score": 0.7534000277519226,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10237",
+    "display_name": "Cryptography and Data Security",
+    "score": 0.7534000277519226,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.17579999566078186,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.031700000166893005,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/chebyshev-polynomials",
+    "display_name": "Chebyshev polynomials",
+    "score": 0.9639999866485596
+   },
+   {
+    "id": "https://openalex.org/keywords/public-key-cryptosystems",
+    "display_name": "public-key cryptosystems",
+    "score": 0.9200000166893005
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptanalysis",
+    "display_name": "cryptanalysis",
+    "score": 0.7570000290870667
+   },
+   {
+    "id": "https://openalex.org/keywords/digital-signatures",
+    "display_name": "digital signatures",
+    "score": 0.800000011920929
+   },
+   {
+    "id": "https://openalex.org/keywords/forgery",
+    "display_name": "forgery",
+    "score": 0.7950000166893005
+   },
+   {
+    "id": "https://openalex.org/keywords/diffie-hellman-key-exchange",
+    "display_name": "Diffie-Hellman key exchange",
+    "score": 0.8759999871253967
+   },
+   {
+    "id": "https://openalex.org/keywords/authentication-protocols",
+    "display_name": "authentication protocols",
+    "score": 0.9039999842643738
+   },
+   {
+    "id": "https://openalex.org/keywords/chaos-based-encryption",
+    "display_name": "chaos-based cryptography",
+    "score": 0.6800000071525574
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C73468433",
+    "wikidata": "https://www.wikidata.org/wiki/Q1639918",
+    "display_name": "Hybrid cryptosystem",
+    "level": 4,
+    "score": 0.7379360795021057
+   },
+   {
+    "id": "https://openalex.org/C92717368",
+    "wikidata": "https://www.wikidata.org/wiki/Q1162538",
+    "display_name": "Plaintext",
+    "level": 3,
+    "score": 0.680059552192688
+   },
+   {
+    "id": "https://openalex.org/C6295992",
+    "wikidata": "https://www.wikidata.org/wiki/Q976521",
+    "display_name": "Cryptosystem",
+    "level": 3,
+    "score": 0.6381846070289612
+   },
+   {
+    "id": "https://openalex.org/C119133118",
+    "wikidata": "https://www.wikidata.org/wiki/Q7200761",
+    "display_name": "Plaintext-aware encryption",
+    "level": 5,
+    "score": 0.6081132292747498
+   },
+   {
+    "id": "https://openalex.org/C203062551",
+    "wikidata": "https://www.wikidata.org/wiki/Q201339",
+    "display_name": "Public-key cryptography",
+    "level": 3,
+    "score": 0.5854187607765198
+   },
+   {
+    "id": "https://openalex.org/C204806902",
+    "wikidata": "https://www.wikidata.org/wiki/Q2333581",
+    "display_name": "Semantic security",
+    "level": 5,
+    "score": 0.5781781673431396
+   },
+   {
+    "id": "https://openalex.org/C93974786",
+    "wikidata": "https://www.wikidata.org/wiki/Q1589480",
+    "display_name": "Ciphertext",
+    "level": 3,
+    "score": 0.5385398268699646
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.49195000529289246
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.47527164220809937
+   },
+   {
+    "id": "https://openalex.org/C57795399",
+    "wikidata": "https://www.wikidata.org/wiki/Q5265706",
+    "display_name": "Deterministic encryption",
+    "level": 4,
+    "score": 0.4739687144756317
+   },
+   {
+    "id": "https://openalex.org/C129785596",
+    "wikidata": "https://www.wikidata.org/wiki/Q619511",
+    "display_name": "Chebyshev polynomials",
+    "level": 2,
+    "score": 0.4682268798351288
+   },
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.4636323153972626
+   },
+   {
+    "id": "https://openalex.org/C118463975",
+    "wikidata": "https://www.wikidata.org/wiki/Q220849",
+    "display_name": "Digital signature",
+    "level": 3,
+    "score": 0.46145591139793396
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.45307350158691406
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.4471651017665863
+   },
+   {
+    "id": "https://openalex.org/C26517878",
+    "wikidata": "https://www.wikidata.org/wiki/Q228039",
+    "display_name": "Key (lock)",
+    "level": 2,
+    "score": 0.44274261593818665
+   },
+   {
+    "id": "https://openalex.org/C182776695",
+    "wikidata": "https://www.wikidata.org/wiki/Q840661",
+    "display_name": "Ciphertext indistinguishability",
+    "level": 5,
+    "score": 0.4418207108974457
+   },
+   {
+    "id": "https://openalex.org/C123744220",
+    "wikidata": "https://www.wikidata.org/wiki/Q5668690",
+    "display_name": "Threshold cryptosystem",
+    "level": 5,
+    "score": 0.43670088052749634
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.31189581751823425
+   },
+   {
+    "id": "https://openalex.org/C2984195096",
+    "wikidata": "https://www.wikidata.org/wiki/Q201339",
+    "display_name": "Public key cryptosystem",
+    "level": 4,
+    "score": 0.1031445860862732
+   },
+   {
+    "id": "https://openalex.org/C99138194",
+    "wikidata": "https://www.wikidata.org/wiki/Q183427",
+    "display_name": "Hash function",
+    "level": 2,
+    "score": 0.09715017676353455
+   },
+   {
+    "id": "https://openalex.org/C7646194",
+    "wikidata": "https://www.wikidata.org/wiki/Q4818713",
+    "display_name": "Attribute-based encryption",
+    "level": 4,
+    "score": 0.06660208106040955
+   },
+   {
+    "id": "https://openalex.org/C134306372",
+    "wikidata": "https://www.wikidata.org/wiki/Q7754",
+    "display_name": "Mathematical analysis",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+   {
+    "id": "doi:10.1109/tcsi.2005.851701",
+    "doi": "https://doi.org/10.1109/tcsi.2005.851701",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tcsi.2005.851701",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210171352",
+     "display_name": "IEEE Transactions on Circuits and Systems I Fundamental Theory and Applications",
+     "issn_l": "1057-7122",
+     "issn": [
+      "1057-7122",
+      "1558-1268"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:arXiv.org:cs/0411030",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/cs/0411030",
+    "pdf_url": "https://arxiv.org/pdf/cs/0411030",
+    "source": {
+     "id": "https://openalex.org/S4306400194",
+     "display_name": "arXiv (Cornell University)",
+     "issn_l": "2331-8422",
+     "issn": [
+      "2331-8422"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I205783295",
+     "host_organization_name": "Cornell University",
+     "host_organization_lineage": [
+      "https://openalex.org/I205783295"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.106.1156",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.1156",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://www.dia.unisa.it/~paodar/preprint/pdf/web_chaos.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "doi:10.48550/arxiv.cs/0411030",
+    "doi": "https://doi.org/10.48550/arxiv.cs/0411030",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.48550/arxiv.cs/0411030",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400194",
+     "display_name": "arXiv (Cornell University)",
+     "issn_l": "2331-8422",
+     "issn": [
+      "2331-8422"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I205783295",
+     "host_organization_name": "Cornell University",
+     "host_organization_lineage": [
+      "https://openalex.org/I205783295"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": null,
+    "raw_source_name": null,
+    "raw_type": "Preprint"
+   }
+  ],
+  "best_oa_location": {
+   "id": "pmh:oai:arXiv.org:cs/0411030",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "http://arxiv.org/abs/cs/0411030",
+   "pdf_url": "https://arxiv.org/pdf/cs/0411030",
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "display_name": "Peace, justice, and strong institutions",
+    "score": 0.6800000071525574,
+    "id": "https://metadata.un.org/sdg/16"
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": true,
+   "pdf": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W2105709923.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W2105709923.grobid-xml"
+  },
+  "referenced_works_count": 42,
+  "referenced_works": [
+   "https://openalex.org/W1514889335",
+   "https://openalex.org/W1531522605",
+   "https://openalex.org/W1549421758",
+   "https://openalex.org/W1582952605",
+   "https://openalex.org/W1589176872",
+   "https://openalex.org/W1622597480",
+   "https://openalex.org/W1660562555",
+   "https://openalex.org/W1674506414",
+   "https://openalex.org/W1761845828",
+   "https://openalex.org/W1849280677",
+   "https://openalex.org/W1970442252",
+   "https://openalex.org/W1974068838",
+   "https://openalex.org/W1987292828",
+   "https://openalex.org/W1993268787",
+   "https://openalex.org/W1996360405",
+   "https://openalex.org/W2000384583",
+   "https://openalex.org/W2002930326",
+   "https://openalex.org/W2005864986",
+   "https://openalex.org/W2010213277",
+   "https://openalex.org/W2021658388",
+   "https://openalex.org/W2025266594",
+   "https://openalex.org/W2039343706",
+   "https://openalex.org/W2052267638",
+   "https://openalex.org/W2078830190",
+   "https://openalex.org/W2082145193",
+   "https://openalex.org/W2099498815",
+   "https://openalex.org/W2101803085",
+   "https://openalex.org/W2108834246",
+   "https://openalex.org/W2117420234",
+   "https://openalex.org/W2120062331",
+   "https://openalex.org/W2141420453",
+   "https://openalex.org/W2147263373",
+   "https://openalex.org/W2152688060",
+   "https://openalex.org/W2156186849",
+   "https://openalex.org/W2157679418",
+   "https://openalex.org/W2752885492",
+   "https://openalex.org/W2946046356",
+   "https://openalex.org/W2970097841",
+   "https://openalex.org/W3145128584",
+   "https://openalex.org/W4210300416",
+   "https://openalex.org/W4210694990",
+   "https://openalex.org/W4232836212"
+  ],
+  "related_works": [
+   "https://openalex.org/W1988628032",
+   "https://openalex.org/W2081859688",
+   "https://openalex.org/W28861363",
+   "https://openalex.org/W2415181691",
+   "https://openalex.org/W2101803085",
+   "https://openalex.org/W2570425541",
+   "https://openalex.org/W2613185318",
+   "https://openalex.org/W2950576867",
+   "https://openalex.org/W206433945",
+   "https://openalex.org/W1563221498"
+  ],
+  "abstract_inverted_index": {
+   "Chebyshev": [
+    0
+   ],
+   "polynomials": [
+    1
+   ],
+   "have": [
+    2
+   ],
+   "been": [
+    3
+   ],
+   "recently": [
+    4
+   ],
+   "proposed": [
+    5
+   ],
+   "for": [
+    6,
+    22,
+    109
+   ],
+   "designing": [
+    7
+   ],
+   "public-key": [
+    8,
+    45,
+    159
+   ],
+   "systems.": [
+    9
+   ],
+   "Indeed,": [
+    10
+   ],
+   "they": [
+    11,
+    27
+   ],
+   "enjoy": [
+    12
+   ],
+   "some": [
+    13
+   ],
+   "nice": [
+    14
+   ],
+   "chaotic": [
+    15
+   ],
+   "properties,": [
+    16
+   ],
+   "which": [
+    17,
+    32,
+    51,
+    84
+   ],
+   "seem": [
+    18
+   ],
+   "to": [
+    19,
+    86,
+    101,
+    142
+   ],
+   "be": [
+    20,
+    99
+   ],
+   "suitable": [
+    21
+   ],
+   "use": [
+    23
+   ],
+   "in": [
+    24
+   ],
+   "Cryptography.": [
+    25
+   ],
+   "Moreover,": [
+    26
+   ],
+   "satisfy": [
+    28
+   ],
+   "a": [
+    29,
+    36,
+    44,
+    92,
+    120
+   ],
+   "semi-group": [
+    30
+   ],
+   "property,": [
+    31
+   ],
+   "makes": [
+    33
+   ],
+   "possible": [
+    34
+   ],
+   "implementing": [
+    35
+   ],
+   "trapdoor": [
+    37
+   ],
+   "mechanism.": [
+    38
+   ],
+   "In": [
+    39
+   ],
+   "this": [
+    40
+   ],
+   "paper,": [
+    41
+   ],
+   "we": [
+    42,
+    113
+   ],
+   "study": [
+    43
+   ],
+   "cryptosystem": [
+    46,
+    59,
+    106
+   ],
+   "based": [
+    47
+   ],
+   "on": [
+    48,
+    61,
+    161
+   ],
+   "such": [
+    49
+   ],
+   "polynomials,": [
+    50
+   ],
+   "provides": [
+    52
+   ],
+   "both": [
+    53
+   ],
+   "encryption": [
+    54
+   ],
+   "and": [
+    55,
+    64,
+    126,
+    154
+   ],
+   "digital": [
+    56
+   ],
+   "signature.": [
+    57
+   ],
+   "The": [
+    58,
+    95
+   ],
+   "works": [
+    60
+   ],
+   "real": [
+    62,
+    162
+   ],
+   "numbers": [
+    63
+   ],
+   "is": [
+    65,
+    77,
+    107
+   ],
+   "quite": [
+    66
+   ],
+   "efficient.": [
+    67
+   ],
+   "Unfortunately,": [
+    68
+   ],
+   "from": [
+    69,
+    91
+   ],
+   "our": [
+    70
+   ],
+   "analysis,": [
+    71
+   ],
+   "it": [
+    72,
+    76
+   ],
+   "comes": [
+    73
+   ],
+   "up": [
+    74
+   ],
+   "that": [
+    75,
+    116
+   ],
+   "not": [
+    78,
+    139
+   ],
+   "secure.": [
+    79
+   ],
+   "We": [
+    80,
+    146
+   ],
+   "describe": [
+    81
+   ],
+   "an": [
+    82,
+    127
+   ],
+   "attack": [
+    83,
+    97
+   ],
+   "permits": [
+    85
+   ],
+   "recover": [
+    87
+   ],
+   "the": [
+    88,
+    105,
+    132,
+    136,
+    143,
+    148,
+    152,
+    155
+   ],
+   "corresponding": [
+    89
+   ],
+   "plaintext": [
+    90
+   ],
+   "given": [
+    93
+   ],
+   "ciphertext.": [
+    94
+   ],
+   "same": [
+    96,
+    133
+   ],
+   "can": [
+    98
+   ],
+   "applied": [
+    100
+   ],
+   "produce": [
+    102
+   ],
+   "forgeries": [
+    103
+   ],
+   "if": [
+    104
+   ],
+   "used": [
+    108
+   ],
+   "signing": [
+    110
+   ],
+   "messages.": [
+    111
+   ],
+   "Then,": [
+    112
+   ],
+   "point": [
+    114
+   ],
+   "out": [
+    115
+   ],
+   "also": [
+    117
+   ],
+   "other": [
+    118
+   ],
+   "primitives,": [
+    119
+   ],
+   "Diffie-Hellman": [
+    121
+   ],
+   "like": [
+    122
+   ],
+   "key": [
+    123
+   ],
+   "agreement": [
+    124
+   ],
+   "scheme": [
+    125
+   ],
+   "authentication": [
+    128
+   ],
+   "scheme,": [
+    129
+   ],
+   "designed": [
+    130
+   ],
+   "along": [
+    131
+   ],
+   "lines": [
+    134
+   ],
+   "of": [
+    135,
+    157
+   ],
+   "cryptosystem,": [
+    137
+   ],
+   "are": [
+    138
+   ],
+   "secure": [
+    140
+   ],
+   "due": [
+    141
+   ],
+   "aforementioned": [
+    144
+   ],
+   "attack.": [
+    145
+   ],
+   "close": [
+    147
+   ],
+   "paper": [
+    149
+   ],
+   "by": [
+    150
+   ],
+   "discussing": [
+    151
+   ],
+   "issues": [
+    153
+   ],
+   "possibilities": [
+    156
+   ],
+   "constructing": [
+    158
+   ],
+   "cryptosystems": [
+    160
+   ],
+   "numbers.": [
+    163
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 14
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 12
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 18
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 14
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 23
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 17
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 19
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 25
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 22
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 23
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 20
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 5
+   }
+  ],
+  "updated_date": "2026-10-12T09:40:04.860316",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

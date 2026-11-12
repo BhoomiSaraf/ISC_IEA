@@ -1,0 +1,22 @@
+{
+ "label": "POST-HOC investigation of the A6(c) diagnostic finding; no pass/fail criterion",
+ "seed": 6005,
+ "part1_samples": 2000,
+ "part1_multi_samples": 500,
+ "distances": [
+  1,
+  2,
+  1024
+ ],
+ "multi_step_distances": [
+  1
+ ],
+ "multi_steps": 64,
+ "part2_blocks_after_1_step": 20,
+ "part2_blocks_after_burn_in": 4,
+ "part3_seeds": 1024,
+ "profile": 1,
+ "backend": "V1 (NumPy)",
+ "experiment": "A6e_merge_posthoc",
+ "mode": "diagnostic"
+}

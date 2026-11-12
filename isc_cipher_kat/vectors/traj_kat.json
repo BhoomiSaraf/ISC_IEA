@@ -1,0 +1,325 @@
+{
+ "description": "ISC trajectories, profile 1, no burn-in; state i is after i steps; hash = SHA-256 over BE64(x)||BE64(y) for i = 1..steps (C oracle)",
+ "trajectories": [
+  {
+   "x0": "3fb999999999999a",
+   "y0": "3fb999999999999a",
+   "steps": 100000,
+   "sha256_all_states": "346ceecc48e6081ad497306ca43256dda008721926806d63252154005458f425",
+   "checkpoints": {
+    "1": [
+     "bfdc645b481e70f4",
+     "3fea7a2a3c18e558"
+    ],
+    "10": [
+     "bfe6d846c130bbbc",
+     "3fec2a12b47d3f72"
+    ],
+    "100": [
+     "bfdb318e5afc37d4",
+     "3f8f53ef6dcd8380"
+    ],
+    "1000": [
+     "bfe519dbc9819e01",
+     "3fcb9affe850c8a8"
+    ],
+    "10000": [
+     "3fef558d8ad642b2",
+     "3fefce5aac91bc5e"
+    ],
+    "100000": [
+     "bfd8555e27ad7832",
+     "3fef29b46334932c"
+    ]
+   }
+  },
+  {
+   "x0": "bff0000000000000",
+   "y0": "bff0000000000000",
+   "steps": 100000,
+   "sha256_all_states": "977275e79d0acfce45ce2a355fb2186af5db71a07407b69539e041456df470f2",
+   "checkpoints": {
+    "1": [
+     "3fea426711c9ca9c",
+     "bfee419da9be1b92"
+    ],
+    "10": [
+     "bfe49403ab0ad287",
+     "bfeb689a488ac170"
+    ],
+    "100": [
+     "3fee9322f3a124cc",
+     "bfefce26210ee5e5"
+    ],
+    "1000": [
+     "3fd05b95f709013c",
+     "bfd01c10ccea1dd8"
+    ],
+    "10000": [
+     "3fec8893c7cc62cc",
+     "bfcadeaf2ef641ac"
+    ],
+    "100000": [
+     "bfe3b08a0e0a840a",
+     "3fea7cd4174789a2"
+    ]
+   }
+  },
+  {
+   "x0": "3feffffffffffffe",
+   "y0": "3feffffffffffffe",
+   "steps": 100000,
+   "sha256_all_states": "1cd4b5fb4127164d6e2da547304c9542a3d9594153734a38a60f13cff4ee3bf1",
+   "checkpoints": {
+    "1": [
+     "bfef23cf896fa946",
+     "bfee419da9be1b9c"
+    ],
+    "10": [
+     "bfefec77aa015d43",
+     "3fb66dc1828cb6f0"
+    ],
+    "100": [
+     "bfb32a1ed96df230",
+     "3fd826efa55559b8"
+    ],
+    "1000": [
+     "bfd2830065aaefe2",
+     "3fe4e38506ba4584"
+    ],
+    "10000": [
+     "bfd2b03f9cf8e01a",
+     "3fd46718d31aa448"
+    ],
+    "100000": [
+     "bfcb145ef43992b8",
+     "bfefff227861cff1"
+    ]
+   }
+  },
+  {
+   "x0": "0000000000000000",
+   "y0": "0000000000000000",
+   "steps": 100000,
+   "sha256_all_states": "775ec1bb138f6f6cae74dd8e4bfcc1ed94577a014ae0c423dba71f3baa46309c",
+   "checkpoints": {
+    "1": [
+     "bfda1e043964a840",
+     "bff0000000000000"
+    ],
+    "10": [
+     "bfe9b5eb7342bd57",
+     "bfeda4d4e4246ee0"
+    ],
+    "100": [
+     "bfd681836a71ccf4",
+     "3fecb94a8dea837e"
+    ],
+    "1000": [
+     "bfe7e6bfb69702b0",
+     "bfef2ee7a966ceea"
+    ],
+    "10000": [
+     "3fde37c09c1c50e8",
+     "bfc25834935ac090"
+    ],
+    "100000": [
+     "bfd83db19df0b3a6",
+     "bfe5294c97f7bd60"
+    ]
+   }
+  },
+  {
+   "x0": "bff0000000000000",
+   "y0": "3feffffffffffffe",
+   "steps": 100000,
+   "sha256_all_states": "eca492e97a43a6fa9b1eb3690ad0578660ebf57f7baac527b083f4bddeaccc6d",
+   "checkpoints": {
+    "1": [
+     "bfe5dbe9c4b1d2ae",
+     "bfc7eb515b158f10"
+    ],
+    "10": [
+     "3f96d409089db180",
+     "3fed4a4acc8c9e1c"
+    ],
+    "100": [
+     "bfe32a8f73dcda02",
+     "bfed097446e38855"
+    ],
+    "1000": [
+     "3fec4658bdf32ce8",
+     "bfe3c9ef1591d3b8"
+    ],
+    "10000": [
+     "bfeca3e0ad414e1e",
+     "3fc0a3ba6fcc9da0"
+    ],
+    "100000": [
+     "bfed71c4aa0a45a3",
+     "3fe2ba629f434cbc"
+    ]
+   }
+  },
+  {
+   "x0": "3fe0000000000000",
+   "y0": "bfe0000000000000",
+   "steps": 100000,
+   "sha256_all_states": "611f98a6a3531d3d7c619d37ce06dbdd17a791f3b5a3f6bd36a501d840f4689b",
+   "checkpoints": {
+    "1": [
+     "3fef564e3225b3da",
+     "bfebe20d7d25bf56"
+    ],
+    "10": [
+     "3fd33a92e6828020",
+     "bfec3d6bcc96f502"
+    ],
+    "100": [
+     "bfefa201a8fd5d64",
+     "3fe0223bd23eecf2"
+    ],
+    "1000": [
+     "bfed3392ce87d6a4",
+     "3fd9aee90efe447c"
+    ],
+    "10000": [
+     "3fd85c42fff24cbc",
+     "3fecc150bd58f44a"
+    ],
+    "100000": [
+     "bfe4c817a185924c",
+     "bfbc6c29f1045b10"
+    ]
+   }
+  },
+  {
+   "x0": "bcb0000000000000",
+   "y0": "3cb0000000000000",
+   "steps": 100000,
+   "sha256_all_states": "596b01c1edf29d7b65fb253197412a42fa017c3ee50755741f0c83acdb4b5b3f",
+   "checkpoints": {
+    "1": [
+     "bfda1e043964a8b2",
+     "bff0000000000000"
+    ],
+    "10": [
+     "bfe9bcb7e2cbb337",
+     "bfed9db02eff5118"
+    ],
+    "100": [
+     "bfe775b1f98ba5f5",
+     "bfbbc49c9d838508"
+    ],
+    "1000": [
+     "bfd55073ab8bb492",
+     "3fea0b5d96c66428"
+    ],
+    "10000": [
+     "bfe248128c434147",
+     "bfe4171c292abc26"
+    ],
+    "100000": [
+     "bfeeed0341251956",
+     "bfe207dcc59a07ea"
+    ]
+   }
+  },
+  {
+   "x0": "bfe11bf4471ef292",
+   "y0": "bfefcb407a4a5acc",
+   "steps": 100000,
+   "sha256_all_states": "4ed3ec4dafb63ebda1a0785bb431cab274ba16b1267fd34ca5b57a5ba70a7697",
+   "checkpoints": {
+    "1": [
+     "bfe9de8d4d251ad4",
+     "bfef4cc736d66dbf"
+    ],
+    "10": [
+     "bfdb5c6ae9cfd832",
+     "3feae5882d4ce79a"
+    ],
+    "100": [
+     "3fee7cd7cc5e1378",
+     "3fd5f8bae432df1c"
+    ],
+    "1000": [
+     "bfefd2d24104961b",
+     "bfed7644e820c1fe"
+    ],
+    "10000": [
+     "bfe0615cef4a84fb",
+     "bfefc78273a66d31"
+    ],
+    "100000": [
+     "bfd1a77559426080",
+     "3febe35e3fe90522"
+    ]
+   }
+  },
+  {
+   "x0": "3fe0456e49baf62c",
+   "y0": "bfe86332e96e1034",
+   "steps": 100000,
+   "sha256_all_states": "1d7fc9db5ac64a58a8a02d10352a96e7784b383fc49bba7db9b0c6d77cb05bb5",
+   "checkpoints": {
+    "1": [
+     "bfdb11bd0fdb23aa",
+     "3fd519b8b0983280"
+    ],
+    "10": [
+     "bfb22bc7ba3f9990",
+     "3fef7cce6178a75e"
+    ],
+    "100": [
+     "3feb6991b83a43e8",
+     "bfe172a6b6b8fb7c"
+    ],
+    "1000": [
+     "3fee56839ba79b0e",
+     "bfefff29b8188f17"
+    ],
+    "10000": [
+     "bfec58ebac83044e",
+     "3fe986e360fb5038"
+    ],
+    "100000": [
+     "bfeeae394c1093de",
+     "3fd17f58c99769dc"
+    ]
+   }
+  },
+  {
+   "x0": "3fe15379fe967544",
+   "y0": "bfeffe3a0442a5f4",
+   "steps": 100000,
+   "sha256_all_states": "52c6da5b113a118dc88073d3680ee837d39e2a2b4b74005725903bd13e880169",
+   "checkpoints": {
+    "1": [
+     "bfef1c4b04b21870",
+     "3fefe1608129e92a"
+    ],
+    "10": [
+     "bfe321de77019d86",
+     "3fe9dc6fd326c698"
+    ],
+    "100": [
+     "3fc1af342f038440",
+     "3fe7e8ec4052107e"
+    ],
+    "1000": [
+     "bfee0b7a32b88e06",
+     "3fb9231fb1855c50"
+    ],
+    "10000": [
+     "bfefd11e775d4ca7",
+     "3fece8a40b0bfc4a"
+    ],
+    "100000": [
+     "bfee5b9ecf0d4972",
+     "bfec24630cc1ce3b"
+    ]
+   }
+  }
+ ]
+}

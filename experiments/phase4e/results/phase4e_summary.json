@@ -1,0 +1,567 @@
+{
+  "constraint_formulation": {
+    "shared_unknowns": {
+      "S": "bijection on Z_256 (256 byte values, constrained to be a permutation)",
+      "S_inv": "inverse of S (not independent -- determined by S)",
+      "pi": "permutation of {0..n-1} (byte-position permutation), fixed for a given (h,w,c)",
+      "a": "n bytes in Z_256 (forward diffusion stream)",
+      "b": "n bytes in Z_256 (backward diffusion stream)",
+      "iv_f": "1 byte in Z_256",
+      "iv_b": "1 byte in Z_256"
+    },
+    "per_message_known": {
+      "p_i": "n known plaintext bytes (chosen/known by the attacker)",
+      "c_i": "n known ciphertext BODY bytes (header/nonce/tag excluded per experimental validity rules)"
+    },
+    "per_message_derived_not_free": {
+      "q_i_k": "p_i[pi(k)]",
+      "u_i_k": "S[(q_i_k + u_i_{k-1} + a_k) mod 256], u_i_{-1} = iv_f",
+      "c_i_k": "S[(u_i_k + c_i_{k+1} + b_k) mod 256], c_i_n = iv_b"
+    },
+    "key_structural_fact": "u^(i) and c^(i) are deterministic functions of (S, pi, a, b, iv_f, iv_b, p^(i)); they are not independent free variables. The problem is a constraint-satisfaction search over (S, pi, a, b, iv_f, iv_b), not a linear system to invert.",
+    "equations_per_message": "2n byte-equality constraints (n forward S-applications implicitly checked via the final backward output matching c_i exactly over all n positions)",
+    "bijectivity_constraints": {
+      "S": "256 values must be a permutation of {0..255} (S injective & total)",
+      "pi": "n values must be a permutation of {0..n-1}"
+    },
+    "cross_message_sharing": "S, pi, a, b, iv_f, iv_b are IDENTICAL across all M messages (this is the nonce-reuse premise); only p^(i) (hence q^(i), u^(i), c^(i)) vary per message.",
+    "success_criterion": "NOT exact recovery of (S, pi, a, b, iv_f, iv_b). Success = recovering ANY tuple (possibly a different, functionally-equivalent tuple) that correctly predicts c^(target) from p^(target), or equivalently decrypts an unseen c^(target) to the correct p^(target), for a message not among the known pairs."
+  },
+  "constraint_counts": [
+    {
+      "A": 256,
+      "n": 4096,
+      "M": 1,
+      "unknowns_raw_slot_count": 12546,
+      "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+      "equations_raw_count": 8192,
+      "equation_bits_upper_bound_IF_independent": 65536.0,
+      "naive_verdict_bits_only": "underdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 256,
+      "n": 4096,
+      "M": 2,
+      "unknowns_raw_slot_count": 12546,
+      "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+      "equations_raw_count": 16384,
+      "equation_bits_upper_bound_IF_independent": 131072.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 256,
+      "n": 4096,
+      "M": 4,
+      "unknowns_raw_slot_count": 12546,
+      "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+      "equations_raw_count": 32768,
+      "equation_bits_upper_bound_IF_independent": 262144.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 256,
+      "n": 4096,
+      "M": 8,
+      "unknowns_raw_slot_count": 12546,
+      "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+      "equations_raw_count": 65536,
+      "equation_bits_upper_bound_IF_independent": 524288.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 256,
+      "n": 4096,
+      "M": 16,
+      "unknowns_raw_slot_count": 12546,
+      "effective_unknown_bits_respecting_bijectivity": 110486.04317715947,
+      "equations_raw_count": 131072,
+      "equation_bits_upper_bound_IF_independent": 1048576.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 1,
+      "unknowns_raw_slot_count": 15,
+      "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+      "equations_raw_count": 6,
+      "equation_bits_upper_bound_IF_independent": 12.0,
+      "naive_verdict_bits_only": "underdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 2,
+      "unknowns_raw_slot_count": 15,
+      "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+      "equations_raw_count": 12,
+      "equation_bits_upper_bound_IF_independent": 24.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 4,
+      "unknowns_raw_slot_count": 15,
+      "effective_unknown_bits_respecting_bijectivity": 23.169925001442312,
+      "equations_raw_count": 24,
+      "equation_bits_upper_bound_IF_independent": 48.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 8,
+      "n": 4,
+      "M": 2,
+      "unknowns_raw_slot_count": 22,
+      "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+      "equations_raw_count": 16,
+      "equation_bits_upper_bound_IF_independent": 48.0,
+      "naive_verdict_bits_only": "underdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 8,
+      "n": 4,
+      "M": 4,
+      "unknowns_raw_slot_count": 22,
+      "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+      "equations_raw_count": 32,
+      "equation_bits_upper_bound_IF_independent": 96.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    },
+    {
+      "A": 8,
+      "n": 4,
+      "M": 8,
+      "unknowns_raw_slot_count": 22,
+      "effective_unknown_bits_respecting_bijectivity": 49.88417051910844,
+      "equations_raw_count": 64,
+      "equation_bits_upper_bound_IF_independent": 192.0,
+      "naive_verdict_bits_only": "overdetermined (upper bound)",
+      "why_naive_bound_is_not_proof": "Each equation's 'bit budget' (log2(A)) is an UPPER bound on how many bits of unknown-material information it can reveal, not a guarantee. Equations that touch a chain position for the first time introduce a brand-new, previously-unconstrained latent chain value (u^(i)_k) at the SAME time as they touch a point of S -- so many early-position equations are consistent with many (S-point, u-value) pairs simultaneously and reveal close to ZERO net bits until later equations cross-link the same S domain point from a different chain path. Whether that cross-linking happens frequently enough to pin down S is an empirical question about the search space, not something the raw bit count can settle.",
+      "identifiability_classes_considered": [
+        "1. underdetermined: multiple materially different (S,pi,a,b,iv) tuples fit all M pairs    and disagree on an unseen target.",
+        "2. overdetermined_inconsistent: not applicable here by construction (we only ever test    pairs actually produced by a real/toy encryption, so a consistent tuple always exists).",
+        "3. overdetermined_unique: exactly one tuple (up to irrelevant relabeling) fits all M pairs    and it is the true tuple (or a functional equivalent that agrees with it everywhere).",
+        "4. overdetermined_multiple_equivalent: more than one tuple fits all M known pairs, but    all surviving candidates agree on the unseen target (functional equivalence for    decryption purposes even though the raw material differs).",
+        "5. computationally_hard_despite_overdetermined: a unique/near-unique solution may exist    in principle, but no tractable search method was available to find it within budget."
+      ],
+      "empirical_question_for_toy_solver": "For small (A, n), does an exhaustive/backtracking search over ALL consistent (S,pi,a,b,iv_f,iv_b) tuples collapse to a single tuple (or a set that all agree on a held-out target) as M increases from 1 to a modest number? This is tested directly, not assumed from the bit count above."
+    }
+  ],
+  "toy_solver_results": {
+    "pilots": [
+      {
+        "A": 3,
+        "n": 2,
+        "M": 1,
+        "naive_space": 8748,
+        "measured_s": 0.027213335037231445,
+        "n_tested": 8748,
+        "n_found": 972
+      }
+    ],
+    "experiments": [
+      {
+        "A": 4,
+        "n": 3,
+        "M": 1,
+        "seed": 1,
+        "n_tested": 9437184,
+        "n_found": 147456,
+        "exhausted": true,
+        "elapsed_s": 46.06391787528992,
+        "unique_true_tuple_found": false,
+        "num_consistent_tuples": 147456,
+        "all_found_tuples_agree_on_held_out_target": false,
+        "at_least_one_found_tuple_agrees_on_held_out_target": true,
+        "target_decryption_succeeded": false
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 2,
+        "seed": 1,
+        "n_tested": 9437184,
+        "n_found": 10752,
+        "exhausted": true,
+        "elapsed_s": 54.38616132736206,
+        "unique_true_tuple_found": false,
+        "num_consistent_tuples": 10752,
+        "all_found_tuples_agree_on_held_out_target": false,
+        "at_least_one_found_tuple_agrees_on_held_out_target": true,
+        "target_decryption_succeeded": false
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 4,
+        "seed": 1,
+        "n_tested": 9437184,
+        "n_found": 64,
+        "exhausted": true,
+        "elapsed_s": 55.23130774497986,
+        "unique_true_tuple_found": false,
+        "num_consistent_tuples": 64,
+        "all_found_tuples_agree_on_held_out_target": true,
+        "at_least_one_found_tuple_agrees_on_held_out_target": true,
+        "target_decryption_succeeded": true
+      }
+    ],
+    "scale_decision_arithmetic": {
+      "per_candidate_cost_s": 3.1108064743062925e-06,
+      "candidates": [
+        {
+          "A": 3,
+          "n": 3,
+          "naive_space": 236196,
+          "projected_s": 0.734760046005249
+        },
+        {
+          "A": 4,
+          "n": 2,
+          "naive_space": 196608,
+          "projected_s": 0.6116094393004116
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "naive_space": 9437184,
+          "projected_s": 29.357253086419753
+        },
+        {
+          "A": 5,
+          "n": 2,
+          "naive_space": 3750000,
+          "projected_s": 11.665524278648597
+        }
+      ]
+    },
+    "chosen_scale": {
+      "A": 4,
+      "n": 3,
+      "naive_space": 9437184,
+      "projected_s": 29.357253086419753
+    }
+  },
+  "toy_solver_robustness": [
+    {
+      "A": 4,
+      "n": 3,
+      "M": 1,
+      "seed": 2,
+      "n_found": 147456,
+      "exhausted": true,
+      "elapsed_s": 45.18522644042969,
+      "all_agree_on_held_out_target": false,
+      "wall_s": 45.62138533592224
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 4,
+      "seed": 2,
+      "n_found": 4096,
+      "exhausted": true,
+      "elapsed_s": 63.816983699798584,
+      "all_agree_on_held_out_target": true,
+      "wall_s": 63.84548258781433
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 1,
+      "seed": 3,
+      "n_found": 147456,
+      "exhausted": true,
+      "elapsed_s": 71.0371823310852,
+      "all_agree_on_held_out_target": false,
+      "wall_s": 72.03124713897705
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 4,
+      "seed": 3,
+      "n_found": 64,
+      "exhausted": true,
+      "elapsed_s": 66.4404788017273,
+      "all_agree_on_held_out_target": true,
+      "wall_s": 66.4404788017273
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 1,
+      "seed": 4,
+      "n_found": 147456,
+      "exhausted": true,
+      "elapsed_s": 69.13311505317688,
+      "all_agree_on_held_out_target": false,
+      "wall_s": 70.20177125930786
+    },
+    {
+      "A": 4,
+      "n": 3,
+      "M": 4,
+      "seed": 4,
+      "n_found": 64,
+      "exhausted": true,
+      "elapsed_s": 74.18203592300415,
+      "all_agree_on_held_out_target": true,
+      "wall_s": 74.18400812149048
+    }
+  ],
+  "actual_attack_results": {
+    "key_label": "key:630dcd2966c4",
+    "nonce_label": "nonce:be45cb2605bf",
+    "determinism_leak": {
+      "n": 64,
+      "same_plaintext_same_key_nonce_same_ciphertext": true,
+      "different_plaintext_same_key_nonce_different_ciphertext": true,
+      "interpretation": "Confirmed (not merely potential): under key+nonce reuse, encryption is exactly deterministic in the plaintext. This provides a classical ECB-style 'codebook' / plaintext-equality oracle: an attacker who has observed ciphertext for a given n-byte plaintext block can recognise, with certainty, any FUTURE occurrence of that EXACT SAME block under the same (key, nonce) by ciphertext equality alone, without decrypting anything. This is a genuine confidentiality-relevant leak (message repetition / structure detection), separate from and NOT requiring full material (S, pi, a, b) recovery. It is the direct analogue of ECB-mode block repetition leakage, scaled to this cipher's chosen (n = full message) block size."
+    },
+    "n1_full_codebook": {
+      "n": 1,
+      "queries_used_to_build_table": 256,
+      "elapsed_s_total": 1015.3580424785614,
+      "mean_s_per_query": 3.96623432636261,
+      "table_size": 256,
+      "table_covers_full_domain": true,
+      "held_out_generalisation_checks": [
+        {
+          "true_plaintext_byte": 0,
+          "recovered_plaintext_byte": 0,
+          "correct": true
+        },
+        {
+          "true_plaintext_byte": 1,
+          "recovered_plaintext_byte": 1,
+          "correct": true
+        },
+        {
+          "true_plaintext_byte": 17,
+          "recovered_plaintext_byte": 17,
+          "correct": true
+        },
+        {
+          "true_plaintext_byte": 128,
+          "recovered_plaintext_byte": 128,
+          "correct": true
+        },
+        {
+          "true_plaintext_byte": 200,
+          "recovered_plaintext_byte": 200,
+          "correct": true
+        },
+        {
+          "true_plaintext_byte": 255,
+          "recovered_plaintext_byte": 255,
+          "correct": true
+        }
+      ],
+      "all_held_out_correct": true,
+      "interpretation": "CONFIRMED target-plaintext decryption without key recovery, for n=1 messages under key+nonce reuse: the attacker needed only 256 known (plaintext_byte, ciphertext_byte) pairs -- i.e. the full domain -- to build a complete lookup table equivalent to the true encryption function, and that table correctly decrypts every held-out test byte. The attacker never recovered S, a, b, iv_f or iv_b individually (Part E4: equivalent-material recovery) yet achieves the Part E5 success criterion exactly. This is a genuine, reproducible result on the ACTUAL implementation, not a toy proxy -- but it is a DEGENERATE case: at n=1 there is no permutation stage and no multi-position diffusion chaining, so this result does NOT by itself establish anything about larger, realistic message lengths."
+    },
+    "n2_partial_codebook_feasibility": {
+      "n": 2,
+      "full_domain_size": 65536,
+      "sample_size": 6,
+      "measured_per_query_s": 1.7814899285634358,
+      "projected_full_codebook_time_s": 116751.72395833333,
+      "projected_full_codebook_time_hours": 32.43103443287037,
+      "decision": "NOT ATTEMPTED at full scale -- projected time exceeds this phase's budget by orders of magnitude.",
+      "interpretation": "The codebook attack is theoretically identical at n=2 to n=1 (both are degenerate in the sense that the FULL domain could in principle be enumerated), but it is already impractical here purely due to this cipher's throughput (established independently in Phase 4B/4C: ~1-2s fixed cost per encryption call regardless of message size), not due to any cryptographic strength. A partial codebook (fewer than 65536 entries) only provides the determinism/codebook-leak demonstrated above (recognising repeated EXACT plaintexts), not general decryption of unseen plaintexts -- which is the Part E5 criterion this experiment explicitly does NOT meet at n=2 within budget."
+    }
+  },
+  "solver_benchmarks": {
+    "smt_solver_availability": {
+      "z3_available": false,
+      "note": "z3-solver is NOT installed in this environment, and this phase's sandbox denies ad-hoc `pip install` (classified as an oversight-risk action by the harness). This is a genuine TOOLING limitation, recorded explicitly per Part F category 3 (solver encoding/availability limitations) -- it is the reason brute-force search (exact but combinatorially limited) was used instead of SMT/SAT/CP solving for Part C/D, and the reason real-scale (alphabet=256) structural material recovery (S, pi, a, b) was not attempted via solver search at all (see actual_attack_harness.py's codebook-based approach instead, which sidesteps needing to solve for internal structure)."
+    },
+    "toy_solver_scale_limit": "Exhaustive brute force (with early-abort pruning) was tractable up to A=4, n=3 (naive search space 9,437,184) within ~55s per instance. Extrapolated cost grows as n! * A! * A^(2n) * A^2 -- e.g. A=5,n=3 or A=4,n=4 would already run into tens of minutes to hours by the measured per-candidate cost (~3.1 microseconds), and the REAL cipher's A=256 is astronomically beyond brute-force reach (256! alone has ~1684 bits of entropy) regardless of n.",
+    "real_cipher_codebook_limit": "Measured directly in actual_attack_harness.py: ~2s fixed cost per encryption call (independent of message size, matching Phase 4B/4C's burn-in-dominated finding). A full n=1 codebook (256 queries) costs ~512s and was completed. A full n=2 codebook (65536 queries) would cost on the order of 36 hours by direct extrapolation -- not attempted, reported as infeasible within this phase's budget rather than left unexplained."
+  },
+  "recovery_verdict": {
+    "toy_model": {
+      "scale": {
+        "A": 4,
+        "n": 3,
+        "naive_space": 9437184,
+        "projected_s": 29.357253086419753
+      },
+      "E1_permutation_recovery": "NOT uniquely recovered at any tested M (pi is one of several free components across all surviving tuples; not separately verified component-by-component, only as part of the full tuple).",
+      "E2_sbox_recovery": "NOT uniquely recovered at any tested M (same caveat as E1).",
+      "E3_diffusion_material_recovery": "NOT uniquely recovered at any tested M.",
+      "E4_equivalent_material_recovery": "YES at M=4 (A=4, n=3): 64 distinct tuples remain consistent with all 4 known pairs, and ALL of them are functionally equivalent on the held-out target (E5 below) -- i.e. recovery succeeds at the level of 'a tuple that behaves identically to the true one', not at the level of 'the unique true tuple'.",
+      "E5_target_plaintext_recovery": {
+        "1": false,
+        "2": false,
+        "4": true
+      },
+      "robustness_across_seeds": [
+        {
+          "A": 4,
+          "n": 3,
+          "M": 1,
+          "seed": 2,
+          "n_found": 147456,
+          "exhausted": true,
+          "elapsed_s": 45.18522644042969,
+          "all_agree_on_held_out_target": false,
+          "wall_s": 45.62138533592224
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "M": 4,
+          "seed": 2,
+          "n_found": 4096,
+          "exhausted": true,
+          "elapsed_s": 63.816983699798584,
+          "all_agree_on_held_out_target": true,
+          "wall_s": 63.84548258781433
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "M": 1,
+          "seed": 3,
+          "n_found": 147456,
+          "exhausted": true,
+          "elapsed_s": 71.0371823310852,
+          "all_agree_on_held_out_target": false,
+          "wall_s": 72.03124713897705
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "M": 4,
+          "seed": 3,
+          "n_found": 64,
+          "exhausted": true,
+          "elapsed_s": 66.4404788017273,
+          "all_agree_on_held_out_target": true,
+          "wall_s": 66.4404788017273
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "M": 1,
+          "seed": 4,
+          "n_found": 147456,
+          "exhausted": true,
+          "elapsed_s": 69.13311505317688,
+          "all_agree_on_held_out_target": false,
+          "wall_s": 70.20177125930786
+        },
+        {
+          "A": 4,
+          "n": 3,
+          "M": 4,
+          "seed": 4,
+          "n_found": 64,
+          "exhausted": true,
+          "elapsed_s": 74.18203592300415,
+          "all_agree_on_held_out_target": true,
+          "wall_s": 74.18400812149048
+        }
+      ]
+    },
+    "real_implementation": {
+      "determinism_codebook_leak": "CONFIRMED (n=64 test): True",
+      "E5_target_plaintext_recovery_n1": true,
+      "E5_target_plaintext_recovery_n2": "NOT ATTEMPTED (infeasible within budget, see n2_partial_codebook_feasibility.projected_full_codebook_time_hours)",
+      "n2_projected_hours": 32.43103443287037
+    }
+  }
+}

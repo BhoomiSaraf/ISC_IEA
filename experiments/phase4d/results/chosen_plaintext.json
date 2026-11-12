@@ -1,0 +1,71 @@
+{
+  "config": {
+    "h": 64,
+    "w": 64,
+    "c": 1,
+    "n": 4096,
+    "key": "K-eaaaf985",
+    "nonce": "N-a3743839"
+  },
+  "structured_plaintext_ciphertext_appearance": {
+    "all_zero": {
+      "chi2": 243.625,
+      "n_adjacent_repeats": 16,
+      "n_adjacent_repeats_expected_random": 16.0,
+      "first_16_bytes_hex": "9c191df3376ee264f2ba7b1cac65d59e"
+    },
+    "all_255": {
+      "chi2": 249.875,
+      "n_adjacent_repeats": 18,
+      "n_adjacent_repeats_expected_random": 16.0,
+      "first_16_bytes_hex": "c35dfcf2ee546e23101ca9c33c16dcf8"
+    },
+    "sequential": {
+      "chi2": 270.25,
+      "n_adjacent_repeats": 14,
+      "n_adjacent_repeats_expected_random": 16.0,
+      "first_16_bytes_hex": "51003c440738c80a997ee147d3123ac1"
+    },
+    "alternating_0_255": {
+      "chi2": 264.75,
+      "n_adjacent_repeats": 20,
+      "n_adjacent_repeats_expected_random": 16.0,
+      "first_16_bytes_hex": "654df11a24965e30dd0b05c25613dbb5"
+    },
+    "repeated_block_16": {
+      "chi2": 248.0,
+      "n_adjacent_repeats": 13,
+      "n_adjacent_repeats_expected_random": 16.0,
+      "first_16_bytes_hex": "0ba3d8ddaeb135aa014e61fb9a419dea"
+    }
+  },
+  "permutation_invisible_under_constant_plaintext": {
+    "claim": "apply_permutation(constant_array, pi) == constant_array for ANY pi",
+    "confirmed": true,
+    "implication": "A chosen all-zero (or any constant-byte) plaintext bypasses observing the permutation stage entirely -- diffusion then operates directly on the constant input. This does not leak S/pi/a/b to an attacker (the ciphertext bytes still pass through the full forward+backward diffusion chain, which remains unknown), but it IS a structural degenerate case worth recording: confusion (permutation) contributes nothing against constant-plaintext inputs; all observed nonlinearity for such inputs comes solely from the diffusion stage's S-box."
+  },
+  "single_bit_propagation_by_position": {
+    "beginning": {
+      "plaintext_bit_flip_byte_index": 0,
+      "n_ciphertext_bytes_differing": 4094,
+      "fraction_differing": 0.99951171875
+    },
+    "middle": {
+      "plaintext_bit_flip_byte_index": 2048,
+      "n_ciphertext_bytes_differing": 4091,
+      "fraction_differing": 0.998779296875
+    },
+    "end": {
+      "plaintext_bit_flip_byte_index": 4095,
+      "n_ciphertext_bytes_differing": 4095,
+      "fraction_differing": 0.999755859375
+    }
+  },
+  "single_bit_propagation_note": "If propagation fraction is markedly position-dependent (e.g. flips near the END changing fewer bytes than flips near the BEGINNING), that would indicate asymmetric diffusion strength -- expected in principle, since forward diffusion chains left-to-right from the flip point and backward diffusion then chains right-to-left over ALL of u, so a flip anywhere should in theory reach the full ciphertext. See diffusion_analysis.py for the isolated, non-combined measurement of each pass.",
+  "two_time_pad_style_xor_check": {
+    "description": "Classical two-time-pad attacks on C=P XOR K (K reused) rely on C1 XOR C2 == P1 XOR P2 -- i.e. the keystream K cancels exactly under XOR. This construction has no such additive-XOR keystream step at the top level (addition is mod 256 through an S-box, not XOR with a fixed keystream), so this check establishes whether that specific classical structure is present.",
+    "xor_of_two_reused_nonce_ciphertexts_chi2_vs_uniform": 243.5,
+    "expected_chi2_for_uniform_256cat_n4096": "approx 255 (df=255, mean=255)",
+    "conclusion": "chi2 close to the theoretical mean under uniformity indicates the XOR of the two ciphertexts shows no obvious two-time-pad-style structure recoverable by simple XOR-cancellation. This does NOT prove general nonce-reuse safety (see nonce_analysis.py's equation-counting discussion and the final report's Track B section) -- it only rules out the SPECIFIC classical stream-cipher XOR-cancellation attack, which does not apply to this construction's algebraic form."
+  }
+}

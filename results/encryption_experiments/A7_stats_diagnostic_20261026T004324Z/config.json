@@ -1,0 +1,23 @@
+{
+ "images": {
+  "camera": [
+   64,
+   64
+  ],
+  "random": [
+   64,
+   64
+  ]
+ },
+ "constructions": [
+  "V-FULL",
+  "V-CHACHA",
+  "AES-256-GCM",
+  "ChaCha20-Poly1305"
+ ],
+ "nonces": "fresh random per encryption (recorded)",
+ "nist_sequences": 2,
+ "nist_crops": "250x500 crops of camera, moon, brick, grass, gravel at rows 0..262 step 14 (20 per image), columns 0/12",
+ "experiment": "A7_stats",
+ "mode": "diagnostic"
+}

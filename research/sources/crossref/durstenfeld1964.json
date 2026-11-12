@@ -1,0 +1,243 @@
+{
+ "query": "https://api.crossref.org/works/10.1145/364520.364540",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     17
+    ]
+   ],
+   "date-time": "2026-10-17T20:46:41Z",
+   "timestamp": 1792270001308,
+   "version": "4.4.0"
+  },
+  "reference-count": 7,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1964,
+       7,
+       1
+      ]
+     ],
+     "date-time": "1964-07-01T00:00:00Z",
+     "timestamp": -173664000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "dl.acm.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Commun. ACM"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1964,
+     7
+    ]
+   ]
+  },
+  "DOI": "10.1145/364520.364540",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2002-07-27T07:35:28Z",
+   "timestamp": 1027755328000
+  },
+  "page": "420",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 357,
+  "title": [
+   "Algorithm 235: Random permutation"
+  ],
+  "prefix": "10.1145",
+  "volume": "7",
+  "author": [
+   {
+    "given": "Richard",
+    "family": "Durstenfeld",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "General Atomic, San Diego, CA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "320",
+  "published-online": {
+   "date-parts": [
+    [
+     1964,
+     7
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_1_1_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/366862.366910"
+   },
+   {
+    "key": "e_1_2_1_2_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/367710.367750"
+   },
+   {
+    "key": "e_1_2_1_3_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/366349.366437"
+   },
+   {
+    "key": "e_1_2_1_4_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF01385877"
+   },
+   {
+    "key": "e_1_2_1_5_2",
+    "volume-title": "Sept.",
+    "author": "KEEMAN W. M.",
+    "year": "1963",
+    "unstructured": "Mc KEEMAN , W. M. Personal communication , Sept. 1963 . McKEEMAN, W. M. Personal communication, Sept. 1963."
+   },
+   {
+    "key": "e_1_2_1_6_2",
+    "volume-title": "Jan.",
+    "author": "ENGELI M.",
+    "year": "1964",
+    "unstructured": "ENGELI , M. Personal communication , Jan. 1964 . ENGELI, M. Personal communication, Jan. 1964."
+   },
+   {
+    "key": "e_1_2_1_7_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/psapm/015/0174177"
+   }
+  ],
+  "container-title": [
+   "Communications of the ACM"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://dl.acm.org/doi/10.1145/364520.364540",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://dl.acm.org/doi/pdf/10.1145/364520.364540",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     18
+    ]
+   ],
+   "date-time": "2025-06-18T20:03:21Z",
+   "timestamp": 1750277001000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://dl.acm.org/doi/10.1145/364520.364540"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1964,
+     7
+    ]
+   ]
+  },
+  "references-count": 7,
+  "journal-issue": {
+   "issue": "7",
+   "published-print": {
+    "date-parts": [
+     [
+      1964,
+      7
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1145/364520.364540"
+  ],
+  "URL": "https://doi.org/10.1145/364520.364540",
+  "relation": {},
+  "ISSN": [
+   "0001-0782",
+   "1557-7317"
+  ],
+  "issn-type": [
+   {
+    "value": "0001-0782",
+    "type": "print"
+   },
+   {
+    "value": "1557-7317",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1964,
+     7
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "1964-07-01",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

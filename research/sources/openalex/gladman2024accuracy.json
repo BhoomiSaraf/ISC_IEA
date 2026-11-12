@@ -1,0 +1,4196 @@
+{
+ "query": "https://api.openalex.org/works?search=Accuracy+of+Mathematical+Functions+in+Single%2C+Double%2C+Double+Extended%2C+and+Quadruple+Precision&per-page=5",
+ "mode": "title",
+ "results": [
+  {
+   "id": "https://openalex.org/W4391916219",
+   "doi": null,
+   "title": "Accuracy of Mathematical Functions in Single, Double, Double Extended, and Quadruple Precision",
+   "display_name": "Accuracy of Mathematical Functions in Single, Double, Double Extended, and Quadruple Precision",
+   "relevance_score": 395.97012,
+   "publication_year": 2024,
+   "publication_date": "2024-02-15",
+   "ids": {
+    "openalex": "https://openalex.org/W4391916219"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmh:oai:HAL:hal-03141101v6",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-03141101",
+    "pdf_url": "https://inria.hal.science/hal-03141101v6/document",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://inria.hal.science/hal-03141101",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "volume": null,
+   "type": "preprint",
+   "indexed_in": [],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/hal-03141101v6/document",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5071428379",
+      "display_name": "Brian Gladman",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Gladman, Brian",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004130425",
+      "display_name": "Vincenzo Innocente",
+      "orcid": "https://orcid.org/0000-0003-3209-2088",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3209-2088"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I67311998",
+       "display_name": "European Organization for Nuclear Research",
+       "ror": "https://ror.org/01ggx4157",
+       "country_code": "CH",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I67311998"
+       ]
+      }
+     ],
+     "countries": [
+      "CH"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Innocente, Vincenzo",
+     "raw_affiliation_strings": [
+      "CERN [Gen\u00e8ve] (Route de Meyrin 385, 1217 Meyrin, Gen\u00e8ve - Switzerland)"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "CERN [Gen\u00e8ve] (Route de Meyrin 385, 1217 Meyrin, Gen\u00e8ve - Switzerland)",
+       "institution_ids": [
+        "https://openalex.org/I67311998"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": null,
+      "display_name": "Mather, John",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Mather, John",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5057843487",
+      "display_name": "Paul Zimmermann",
+      "orcid": "https://orcid.org/0000-0003-0718-4458",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0718-4458"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4405260044",
+       "display_name": "CARAMBA: Cryptology, arithmetic : algebraic methods for better algorithms",
+       "ror": "https://ror.org/034kszc22",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210127166",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I4405260044",
+        "https://openalex.org/I90183372"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Zimmermann, Paul",
+     "raw_affiliation_strings": [
+      "CARAMBA - Cryptology, arithmetic : algebraic methods for better algorithms (615 rue du Jardin Botanique\r\n54600 Villers-l\u00e8s-Nancy - France)"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "CARAMBA - Cryptology, arithmetic : algebraic methods for better algorithms (615 rue du Jardin Botanique\r\n54600 Villers-l\u00e8s-Nancy - France)",
+       "institution_ids": [
+        "https://openalex.org/I4405260044"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 2,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": true,
+   "cited_by_count": 2,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13806",
+     "display_name": "Mathematical and Computational Methods",
+     "score": 9.999999747378752e-05,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/quadruple-precision",
+     "display_name": "quadruple precision",
+     "score": 0.9959999918937683
+    },
+    {
+     "id": "https://openalex.org/keywords/single-precision",
+     "display_name": "single precision",
+     "score": 0.8460000157356262
+    },
+    {
+     "id": "https://openalex.org/keywords/double-precision",
+     "display_name": "double precision",
+     "score": 0.9610000252723694
+    },
+    {
+     "id": "https://openalex.org/keywords/rounding-modes",
+     "display_name": "rounding modes",
+     "score": 0.8510000109672546
+    },
+    {
+     "id": "https://openalex.org/keywords/floating-point-arithmetic",
+     "display_name": "floating-point arithmetic",
+     "score": 0.49900001287460327
+    },
+    {
+     "id": "https://openalex.org/keywords/trigonometric-functions",
+     "display_name": "trigonometric functions",
+     "score": 0.6690000295639038
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C35912277",
+     "wikidata": "https://www.wikidata.org/wiki/Q1243369",
+     "display_name": "Double-precision floating-point format",
+     "level": 3,
+     "score": 0.6018949747085571
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.4301249384880066
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.3749922811985016
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.3631551265716553
+    },
+    {
+     "id": "https://openalex.org/C84211073",
+     "wikidata": "https://www.wikidata.org/wiki/Q117879",
+     "display_name": "Floating point",
+     "level": 2,
+     "score": 0.07296997308731079
+    }
+   ],
+   "mesh": [],
+   "locations_count": 3,
+   "locations": [
+    {
+     "id": "pmh:oai:HAL:hal-03141101v6",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-03141101",
+     "pdf_url": "https://inria.hal.science/hal-03141101v6/document",
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://inria.hal.science/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v7",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-03141101",
+     "pdf_url": "https://inria.hal.science/hal-03141101v7/document",
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "2024",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v8",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-03141101",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "2025",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:oai:HAL:hal-03141101v6",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-03141101",
+    "pdf_url": "https://inria.hal.science/hal-03141101v6/document",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://inria.hal.science/hal-03141101",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320313559",
+     "display_name": "CERN",
+     "ror": "https://ror.org/01ggx4157"
+    },
+    {
+     "id": "https://openalex.org/F4320320300",
+     "display_name": "European Commission",
+     "ror": "https://ror.org/00k4n6c32"
+    },
+    {
+     "id": "https://openalex.org/F4320322890",
+     "display_name": "Minist\u00e8re de l'Enseignement Sup\u00e9rieur et de la Recherche",
+     "ror": "https://ror.org/03sjk9a61"
+    },
+    {
+     "id": "https://openalex.org/F4320322892",
+     "display_name": "Centre National de la Recherche Scientifique",
+     "ror": "https://ror.org/02feahw73"
+    },
+    {
+     "id": "https://openalex.org/F4320325802",
+     "display_name": "Conseil R\u00e9gional de Lorraine",
+     "ror": "https://ror.org/0466jcd14"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4391916219.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4391916219.grobid-xml"
+   },
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W1979597421",
+    "https://openalex.org/W2007980826",
+    "https://openalex.org/W2051487156",
+    "https://openalex.org/W2061531152",
+    "https://openalex.org/W3002753104",
+    "https://openalex.org/W2077600819",
+    "https://openalex.org/W2142036596"
+   ],
+   "abstract_inverted_index": {
+    "1": [
+     0
+    ],
+    "sin,": [
+     1
+    ],
+    "tan)": [
+     2
+    ],
+    "of": [
+     3
+    ],
+    "the": [
+     4,
+     12
+    ],
+    "Intel": [
+     5
+    ],
+    "Math": [
+     6
+    ],
+    "Library,": [
+     7
+    ],
+    "in": [
+     8
+    ],
+    "some": [
+     9
+    ],
+    "domains": [
+     10
+    ],
+    "(however": [
+     11
+    ],
+    "code": [
+     13
+    ],
+    "might": [
+     14
+    ],
+    "have": [
+     15
+    ],
+    "changed": [
+     16
+    ],
+    "since": [
+     17
+    ],
+    "then).Today,": [
+     18
+    ],
+    "at": [
+     19,
+     47
+    ],
+    "least": [
+     20
+    ],
+    "for": [
+     21,
+     43
+    ],
+    "single": [
+     22
+    ],
+    "precision": [
+     23,
+     27
+    ],
+    "and": [
+     24,
+     51
+    ],
+    "most": [
+     25
+    ],
+    "double": [
+     26
+    ],
+    "functions,": [
+     28
+    ],
+    "it": [
+     29
+    ],
+    "is": [
+     30
+    ],
+    "known": [
+     31
+    ],
+    "how": [
+     32
+    ],
+    "to": [
+     33,
+     45
+    ],
+    "get": [
+     34
+    ],
+    "correct": [
+     35
+    ],
+    "rounding": [
+     36,
+     39,
+     44
+    ],
+    "(for": [
+     37
+    ],
+    "all": [
+     38
+    ],
+    "modes,": [
+     40
+    ],
+    "not": [
+     41
+    ],
+    "only": [
+     42
+    ],
+    "nearest)": [
+     46
+    ],
+    "very": [
+     48
+    ],
+    "low": [
+     49
+    ],
+    "cost,": [
+     50
+    ],
+    "reference": [
+     52
+    ],
+    "implementations": [
+     53
+    ],
+    "exist": [
+     54
+    ],
+    "that": [
+     55
+    ],
+    "outperform": [
+     56
+    ],
+    "current": [
+     57
+    ],
+    "libraries": [
+     58
+    ],
+    "[28,15].": [
+     59
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2024,
+     "cited_by_count": 2
+    }
+   ],
+   "updated_date": "2026-10-25T09:29:13.331239",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W3132827079",
+   "doi": null,
+   "title": "Accuracy of Mathematical Functions in Single, Double, Extended Double and Quadruple Precision",
+   "display_name": "Accuracy of Mathematical Functions in Single, Double, Extended Double and Quadruple Precision",
+   "relevance_score": 221.00766,
+   "publication_year": 2021,
+   "publication_date": "2021-02-15",
+   "ids": {
+    "openalex": "https://openalex.org/W3132827079",
+    "mag": "3132827079"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmh:oai:HAL:hal-03141101v4",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://hal.inria.fr/hal-03141101",
+    "pdf_url": "https://inria.hal.science/hal-03141101/document",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://hal.inria.fr/hal-03141101",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "volume": null,
+   "type": "preprint",
+   "indexed_in": [],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/hal-03141101/document",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5071428379",
+      "display_name": "Brian Gladman",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4405260044",
+       "display_name": "CARAMBA: Cryptology, arithmetic : algebraic methods for better algorithms",
+       "ror": "https://ror.org/034kszc22",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210127166",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I4405260044",
+        "https://openalex.org/I90183372"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Gladman, Brian",
+     "raw_affiliation_strings": [
+      "Cryptology, arithmetic : algebraic methods for better algorithms"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Cryptology, arithmetic : algebraic methods for better algorithms",
+       "institution_ids": [
+        "https://openalex.org/I4405260044"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004130425",
+      "display_name": "Vincenzo Innocente",
+      "orcid": "https://orcid.org/0000-0003-3209-2088",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3209-2088"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Innocente, Vincenzo",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5057843487",
+      "display_name": "Paul Zimmermann",
+      "orcid": "https://orcid.org/0000-0003-0718-4458",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0718-4458"
+      ]
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Zimmermann, Paul",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5071428379"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4405260044"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": true,
+   "cited_by_count": 5,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 0.9994999766349792,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 0.9994999766349792,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13806",
+     "display_name": "Mathematical and Computational Methods",
+     "score": 9.999999747378752e-05,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/elementary-functions",
+     "display_name": "elementary functions",
+     "score": 0.7400000095367432
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematical-libraries",
+     "display_name": "mathematical libraries",
+     "score": 0.5569999814033508
+    },
+    {
+     "id": "https://openalex.org/keywords/quadruple-precision",
+     "display_name": "quadruple precision",
+     "score": 0.6980000138282776
+    },
+    {
+     "id": "https://openalex.org/keywords/ieee-754",
+     "display_name": "IEEE 754",
+     "score": 0.8299999833106995
+    },
+    {
+     "id": "https://openalex.org/keywords/round-off-error",
+     "display_name": "rounding errors",
+     "score": 0.3179999887943268
+    },
+    {
+     "id": "https://openalex.org/keywords/reproducibility",
+     "display_name": "reproducibility",
+     "score": 0.6970000267028809
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C35912277",
+     "wikidata": "https://www.wikidata.org/wiki/Q1243369",
+     "display_name": "Double-precision floating-point format",
+     "level": 3,
+     "score": 0.7259650230407715
+    },
+    {
+     "id": "https://openalex.org/C199163554",
+     "wikidata": "https://www.wikidata.org/wiki/Q1681619",
+     "display_name": "Univariate",
+     "level": 3,
+     "score": 0.6928727626800537
+    },
+    {
+     "id": "https://openalex.org/C64341305",
+     "wikidata": "https://www.wikidata.org/wiki/Q4919225",
+     "display_name": "Bivariate analysis",
+     "level": 2,
+     "score": 0.6709698438644409
+    },
+    {
+     "id": "https://openalex.org/C42058472",
+     "wikidata": "https://www.wikidata.org/wiki/Q810214",
+     "display_name": "Base (topology)",
+     "level": 2,
+     "score": 0.5797842741012573
+    },
+    {
+     "id": "https://openalex.org/C2776291640",
+     "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+     "display_name": "Value (mathematics)",
+     "level": 2,
+     "score": 0.543600857257843
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.5174575448036194
+    },
+    {
+     "id": "https://openalex.org/C133095886",
+     "wikidata": "https://www.wikidata.org/wiki/Q1307173",
+     "display_name": "Single-precision floating-point format",
+     "level": 3,
+     "score": 0.5118724703788757
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.49990034103393555
+    },
+    {
+     "id": "https://openalex.org/C2776760102",
+     "wikidata": "https://www.wikidata.org/wiki/Q5139990",
+     "display_name": "Code (set theory)",
+     "level": 3,
+     "score": 0.4947893023490906
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.4570406377315521
+    },
+    {
+     "id": "https://openalex.org/C105795698",
+     "wikidata": "https://www.wikidata.org/wiki/Q12483",
+     "display_name": "Statistics",
+     "level": 1,
+     "score": 0.35223138332366943
+    },
+    {
+     "id": "https://openalex.org/C161584116",
+     "wikidata": "https://www.wikidata.org/wiki/Q1952580",
+     "display_name": "Multivariate statistics",
+     "level": 2,
+     "score": 0.15829908847808838
+    },
+    {
+     "id": "https://openalex.org/C84211073",
+     "wikidata": "https://www.wikidata.org/wiki/Q117879",
+     "display_name": "Floating point",
+     "level": 2,
+     "score": 0.1041029691696167
+    },
+    {
+     "id": "https://openalex.org/C134306372",
+     "wikidata": "https://www.wikidata.org/wiki/Q7754",
+     "display_name": "Mathematical analysis",
+     "level": 1,
+     "score": 0.0965614914894104
+    },
+    {
+     "id": "https://openalex.org/C199360897",
+     "wikidata": "https://www.wikidata.org/wiki/Q9143",
+     "display_name": "Programming language",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C177264268",
+     "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+     "display_name": "Set (abstract data type)",
+     "level": 2,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 5,
+   "locations": [
+    {
+     "id": "pmh:oai:HAL:hal-03141101v4",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://hal.inria.fr/hal-03141101",
+     "pdf_url": "https://inria.hal.science/hal-03141101/document",
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://hal.inria.fr/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v5",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-03141101",
+     "pdf_url": "https://inria.hal.science/hal-03141101v5/document",
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://inria.hal.science/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v1",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://hal.inria.fr/hal-03141101",
+     "pdf_url": null,
+     "source": null,
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://hal.inria.fr/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v2",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://hal.inria.fr/hal-03141101",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://hal.inria.fr/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-03141101v3",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://hal.inria.fr/hal-03141101",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "https://hal.inria.fr/hal-03141101",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:oai:HAL:hal-03141101v4",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://hal.inria.fr/hal-03141101",
+    "pdf_url": "https://inria.hal.science/hal-03141101/document",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://hal.inria.fr/hal-03141101",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [
+    {
+     "score": 0.6399999856948853,
+     "display_name": "Quality education",
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "study_designs": [],
+   "awards": [],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320313559",
+     "display_name": "CERN",
+     "ror": "https://ror.org/01ggx4157"
+    },
+    {
+     "id": "https://openalex.org/F4320320300",
+     "display_name": "European Commission",
+     "ror": "https://ror.org/00k4n6c32"
+    },
+    {
+     "id": "https://openalex.org/F4320322890",
+     "display_name": "Minist\u00e8re de l'Enseignement Sup\u00e9rieur et de la Recherche",
+     "ror": "https://ror.org/03sjk9a61"
+    },
+    {
+     "id": "https://openalex.org/F4320322892",
+     "display_name": "Centre National de la Recherche Scientifique",
+     "ror": "https://ror.org/02feahw73"
+    },
+    {
+     "id": "https://openalex.org/F4320325802",
+     "display_name": "Conseil R\u00e9gional de Lorraine",
+     "ror": "https://ror.org/0466jcd14"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W3132827079.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W3132827079.grobid-xml"
+   },
+   "referenced_works_count": 1,
+   "referenced_works": [
+    "https://openalex.org/W1969213662"
+   ],
+   "related_works": [
+    "https://openalex.org/W2030498341",
+    "https://openalex.org/W2348840575",
+    "https://openalex.org/W3122841410",
+    "https://openalex.org/W2046205453",
+    "https://openalex.org/W2770017172",
+    "https://openalex.org/W89977309",
+    "https://openalex.org/W2183901182",
+    "https://openalex.org/W2030930882",
+    "https://openalex.org/W2204614510",
+    "https://openalex.org/W3005618458"
+   ],
+   "abstract_inverted_index": {
+    "Computer": [
+     0
+    ],
+    "users,": [
+     1
+    ],
+    "most": [
+     2,
+     54,
+     347
+    ],
+    "of": [
+     3,
+     40,
+     55,
+     78,
+     81,
+     101,
+     173,
+     201,
+     208,
+     295,
+     299
+    ],
+    "whom": [
+     4
+    ],
+    "assume": [
+     5
+    ],
+    "they": [
+     6,
+     326
+    ],
+    "are": [
+     7,
+     45,
+     120,
+     248,
+     284
+    ],
+    "working": [
+     8
+    ],
+    "with": [
+     9,
+     167,
+     263,
+     277
+    ],
+    "reliable": [
+     10
+    ],
+    "routines,": [
+     11
+    ],
+    "unwittingly": [
+     12
+    ],
+    "accept": [
+     13
+    ],
+    "results": [
+     14,
+     77,
+     166
+    ],
+    "from": [
+     15,
+     22,
+     28,
+     84
+    ],
+    "functions": [
+     16,
+     83
+    ],
+    "where": [
+     17
+    ],
+    "the": [
+     18,
+     41,
+     59,
+     62,
+     71,
+     76,
+     94,
+     99,
+     158,
+     174,
+     186,
+     199,
+     206,
+     223,
+     230,
+     245,
+     275,
+     278,
+     281,
+     296,
+     312,
+     318,
+     328,
+     336
+    ],
+    "accuracies": [
+     19
+    ],
+    "vary": [
+     20
+    ],
+    "significantly": [
+     21
+    ],
+    "one": [
+     23,
+     29
+    ],
+    "mathematical": [
+     24,
+     108,
+     141,
+     149,
+     203,
+     209
+    ],
+    "library": [
+     25,
+     30
+    ],
+    "to": [
+     26,
+     32,
+     48,
+     64,
+     273,
+     355,
+     367
+    ],
+    "another,": [
+     27,
+     33
+    ],
+    "function": [
+     31
+    ],
+    "and": [
+     34,
+     106,
+     117,
+     214,
+     220,
+     227,
+     346,
+     373
+    ],
+    "even": [
+     35,
+     129
+    ],
+    "over": [
+     36
+    ],
+    "different": [
+     37,
+     165,
+     168,
+     171,
+     300,
+     309
+    ],
+    "argument": [
+     38
+    ],
+    "intervals": [
+     39
+    ],
+    "same": [
+     42,
+     175,
+     313,
+     320,
+     329
+    ],
+    "function.[...]": [
+     43
+    ],
+    "Users": [
+     44
+    ],
+    "not": [
+     46,
+     69,
+     97,
+     137,
+     152,
+     261,
+     363
+    ],
+    "likely": [
+     47
+    ],
+    "demand": [
+     49
+    ],
+    "an": [
+     50,
+     236,
+     257,
+     293
+    ],
+    "improved": [
+     51
+    ],
+    "situation": [
+     52
+    ],
+    "because": [
+     53
+    ],
+    "them,": [
+     56
+    ],
+    "having": [
+     57
+    ],
+    "neither": [
+     58
+    ],
+    "time": [
+     60
+    ],
+    "nor": [
+     61
+    ],
+    "inclination": [
+     63
+    ],
+    "test": [
+     65
+    ],
+    "manufacturer-supplied": [
+     66
+    ],
+    "software,": [
+     67
+    ],
+    "do": [
+     68,
+     151
+    ],
+    "know": [
+     70
+    ],
+    "problem": [
+     72
+    ],
+    "exists.This": [
+     73
+    ],
+    "paper": [
+     74
+    ],
+    "contains": [
+     75
+    ],
+    "such": [
+     79
+    ],
+    "tests": [
+     80
+    ],
+    "elementary": [
+     82
+    ],
+    "several": [
+     85,
+     202,
+     307
+    ],
+    "computer": [
+     86
+    ],
+    "companies.The": [
+     87
+    ],
+    "data": [
+     88
+    ],
+    "(see": [
+     89
+    ],
+    "Table": [
+     90
+    ],
+    "I)": [
+     91
+    ],
+    "demonstrate": [
+     92
+    ],
+    "that": [
+     93,
+     271,
+     332,
+     377
+    ],
+    "industry": [
+     95
+    ],
+    "does": [
+     96,
+     136
+    ],
+    "satisfy": [
+     98
+    ],
+    "needs": [
+     100
+    ],
+    "those": [
+     102
+    ],
+    "who": [
+     103
+    ],
+    "require": [
+     104,
+     138
+    ],
+    "accurate": [
+     105
+    ],
+    "efficient": [
+     107
+    ],
+    "software.These": [
+     109
+    ],
+    "lines,": [
+     110
+    ],
+    "written": [
+     111
+    ],
+    "in": [
+     112,
+     130,
+     185,
+     194,
+     211,
+     222,
+     229
+    ],
+    "1984": [
+     113
+    ],
+    "by": [
+     114
+    ],
+    "Black,": [
+     115
+    ],
+    "Burton": [
+     116
+    ],
+    "Miller": [
+     118
+    ],
+    "[5],": [
+     119
+    ],
+    "unfortunately": [
+     121
+    ],
+    "still": [
+     122
+    ],
+    "very": [
+     123,
+     370
+    ],
+    "true": [
+     124
+    ],
+    "today.The": [
+     125
+    ],
+    "IEEE": [
+     126,
+     224
+    ],
+    "754": [
+     127,
+     225
+    ],
+    "standard,": [
+     128
+    ],
+    "its": [
+     131
+    ],
+    "latest": [
+     132
+    ],
+    "2019": [
+     133
+    ],
+    "revision": [
+     134
+    ],
+    "[13],": [
+     135
+    ],
+    "correctly": [
+     139
+    ],
+    "rounded": [
+     140
+    ],
+    "functions,": [
+     142,
+     210,
+     243,
+     255,
+     308,
+     350
+    ],
+    "it": [
+     143,
+     351
+    ],
+    "only": [
+     144,
+     285,
+     364
+    ],
+    "recommends": [
+     145
+    ],
+    "them.In": [
+     146
+    ],
+    "turn,": [
+     147
+    ],
+    "current": [
+     148,
+     379
+    ],
+    "libraries": [
+     150,
+     204,
+     310,
+     334,
+     380
+    ],
+    "provide": [
+     153
+    ],
+    "correct": [
+     154,
+     357
+    ],
+    "rounding,": [
+     155
+    ],
+    "which": [
+     156,
+     323
+    ],
+    "is": [
+     157,
+     239,
+     260,
+     304,
+     352
+    ],
+    "best": [
+     159
+    ],
+    "possible": [
+     160,
+     240,
+     262
+    ],
+    "result.Thus,": [
+     161
+    ],
+    "users": [
+     162
+    ],
+    "might": [
+     163
+    ],
+    "get": [
+     164,
+     356
+    ],
+    "libraries,": [
+     169
+    ],
+    "or": [
+     170,
+     191,
+     253
+    ],
+    "versions": [
+     172
+    ],
+    "library.This": [
+     176
+    ],
+    "can": [
+     177,
+     291
+    ],
+    "have": [
+     178
+    ],
+    "dramatic": [
+     179
+    ],
+    "consequences:": [
+     180
+    ],
+    "for": [
+     181,
+     205,
+     241,
+     306,
+     317,
+     343,
+     365
+    ],
+    "example": [
+     182
+    ],
+    "missed": [
+     183
+    ],
+    "collisions": [
+     184
+    ],
+    "Large": [
+     187
+    ],
+    "Hadron": [
+     188
+    ],
+    "Collider": [
+     189
+    ],
+    "[4]": [
+     190
+    ],
+    "reproducibility": [
+     192
+    ],
+    "issues": [
+     193
+    ],
+    "neuroimaging": [
+     195
+    ],
+    "[10].This": [
+     196
+    ],
+    "document": [
+     197,
+     335
+    ],
+    "compares": [
+     198
+    ],
+    "accuracy": [
+     200,
+     298
+    ],
+    "evaluation": [
+     207
+    ],
+    "single,": [
+     212
+    ],
+    "double": [
+     213,
+     232,
+     348
+    ],
+    "quadruple": [
+     215
+    ],
+    "precision": [
+     216,
+     345,
+     349
+    ],
+    "(respectively": [
+     217
+    ],
+    "binary32,": [
+     218
+    ],
+    "binary64,": [
+     219
+    ],
+    "binary128": [
+     221
+    ],
+    "standard),": [
+     226
+    ],
+    "also": [
+     228
+    ],
+    "extended": [
+     231
+    ],
+    "format.For": [
+     233
+    ],
+    "single": [
+     234,
+     344
+    ],
+    "precision,": [
+     235
+    ],
+    "exhaustive": [
+     237,
+     258
+    ],
+    "search": [
+     238,
+     259
+    ],
+    "univariate": [
+     242
+    ],
+    "thus": [
+     244
+    ],
+    "given": [
+     246,
+     282
+    ],
+    "values": [
+     247,
+     276,
+     283
+    ],
+    "upper": [
+     249
+    ],
+    "bounds.For": [
+     250
+    ],
+    "larger": [
+     251
+    ],
+    "precisions": [
+     252
+    ],
+    "bivariate": [
+     254
+    ],
+    "since": [
+     256
+    ],
+    "academic": [
+     264
+    ],
+    "resources,": [
+     265
+    ],
+    "we": [
+     266
+    ],
+    "use": [
+     267,
+     327
+    ],
+    "a": [
+     268
+    ],
+    "black-box": [
+     269
+    ],
+    "algorithm": [
+     270
+    ],
+    "tries": [
+     272
+    ],
+    "locate": [
+     274
+    ],
+    "largest": [
+     279,
+     314
+    ],
+    "error;": [
+     280
+    ],
+    "lower": [
+     286
+    ],
+    "bounds,": [
+     287
+    ],
+    "but": [
+     288
+    ],
+    "comparing": [
+     289
+    ],
+    "them": [
+     290
+    ],
+    "give": [
+     292
+    ],
+    "idea": [
+     294
+    ],
+    "relative": [
+     297
+    ],
+    "libraries.An": [
+     301
+    ],
+    "interesting": [
+     302
+    ],
+    "fact": [
+     303
+    ],
+    "that,": [
+     305
+    ],
+    "yield": [
+     311
+    ],
+    "known": [
+     315,
+     338,
+     353
+    ],
+    "error,": [
+     316
+    ],
+    "exact": [
+     319
+    ],
+    "input": [
+     321
+    ],
+    "value,": [
+     322
+    ],
+    "probably": [
+     324
+    ],
+    "means": [
+     325
+    ],
+    "code": [
+     330
+    ],
+    "base.Note": [
+     331
+    ],
+    "some": [
+     333
+    ],
+    "maximal": [
+     337
+    ],
+    "errors": [
+     339
+    ],
+    "[6,11].Today,": [
+     340
+    ],
+    "at": [
+     341,
+     369
+    ],
+    "least": [
+     342
+    ],
+    "how": [
+     354
+    ],
+    "rounding": [
+     358,
+     361,
+     366
+    ],
+    "(for": [
+     359
+    ],
+    "all": [
+     360
+    ],
+    "modes,": [
+     362
+    ],
+    "nearest)": [
+     368
+    ],
+    "low": [
+     371
+    ],
+    "cost,": [
+     372
+    ],
+    "reference": [
+     374
+    ],
+    "implementations": [
+     375
+    ],
+    "exist": [
+     376
+    ],
+    "outperform": [
+     378
+    ],
+    "[22].": [
+     381
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2023,
+     "cited_by_count": 4
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-10-25T09:29:13.331239",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4403048351",
+   "doi": null,
+   "title": "Accuracy of Complex Mathematical Operations and Functions in Single and Double Precision",
+   "display_name": "Accuracy of Complex Mathematical Operations and Functions in Single and Double Precision",
+   "relevance_score": 71.88244,
+   "publication_year": 2024,
+   "publication_date": "2024-09-30",
+   "ids": {
+    "openalex": "https://openalex.org/W4403048351"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmh:oai:HAL:hal-04714173v1",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-04714173",
+    "pdf_url": "https://inria.hal.science/hal-04714173v1/file/complex.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "2024",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "volume": null,
+   "type": "preprint",
+   "indexed_in": [],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/hal-04714173v1/file/complex.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5054145116",
+      "display_name": "Paul Caprioli",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Caprioli, Paul",
+     "raw_affiliation_strings": [
+      "High Performance Kernels LLC (United States)"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "High Performance Kernels LLC (United States)",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5004130425",
+      "display_name": "Vincenzo Innocente",
+      "orcid": "https://orcid.org/0000-0003-3209-2088",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-3209-2088"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I67311998",
+       "display_name": "European Organization for Nuclear Research",
+       "ror": "https://ror.org/01ggx4157",
+       "country_code": "CH",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I67311998"
+       ]
+      }
+     ],
+     "countries": [
+      "CH"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Innocente, Vincenzo",
+     "raw_affiliation_strings": [
+      "CERN - European Organization for Nuclear Research (Route de Meyrin 385, 1217 Meyrin - Switzerland)"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "CERN - European Organization for Nuclear Research (Route de Meyrin 385, 1217 Meyrin - Switzerland)",
+       "institution_ids": [
+        "https://openalex.org/I67311998"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5057843487",
+      "display_name": "Paul Zimmermann",
+      "orcid": "https://orcid.org/0000-0003-0718-4458",
+      "observed_orcids": [
+       "https://orcid.org/0000-0003-0718-4458"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4405260044",
+       "display_name": "CARAMBA: Cryptology, arithmetic : algebraic methods for better algorithms",
+       "ror": "https://ror.org/034kszc22",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I1326498283",
+        "https://openalex.org/I277688954",
+        "https://openalex.org/I4210107720",
+        "https://openalex.org/I4210121838",
+        "https://openalex.org/I4210127166",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I4405260044",
+        "https://openalex.org/I90183372"
+       ]
+      }
+     ],
+     "countries": [
+      "FR"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Zimmermann, Paul",
+     "raw_affiliation_strings": [
+      "CARAMBA - Cryptology, arithmetic : algebraic methods for better algorithms (615 rue du Jardin Botanique\r\n54600 Villers-l\u00e8s-Nancy - France)"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "CARAMBA - Cryptology, arithmetic : algebraic methods for better algorithms (615 rue du Jardin Botanique\r\n54600 Villers-l\u00e8s-Nancy - France)",
+       "institution_ids": [
+        "https://openalex.org/I4405260044"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 2,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": true,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 0.9994999766349792,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 0.9994999766349792,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13806",
+     "display_name": "Mathematical and Computational Methods",
+     "score": 0.00019999999494757503,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/numerical-accuracy",
+     "display_name": "numerical accuracy",
+     "score": 0.7229999899864197
+    },
+    {
+     "id": "https://openalex.org/keywords/floating-point-arithmetic",
+     "display_name": "floating-point arithmetic",
+     "score": 0.8820000290870667
+    },
+    {
+     "id": "https://openalex.org/keywords/single-precision",
+     "display_name": "single precision",
+     "score": 0.8090000152587891
+    },
+    {
+     "id": "https://openalex.org/keywords/double-precision",
+     "display_name": "double precision",
+     "score": 1.0
+    },
+    {
+     "id": "https://openalex.org/keywords/mathematical-functions",
+     "display_name": "mathematical functions",
+     "score": 0.8939999938011169
+    },
+    {
+     "id": "https://openalex.org/keywords/complex-number-arithmetic",
+     "display_name": "complex arithmetic",
+     "score": 0.34599998593330383
+    },
+    {
+     "id": "https://openalex.org/keywords/round-off-error",
+     "display_name": "rounding errors",
+     "score": 0.4269999861717224
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.5148496031761169
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.37316974997520447
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "pmh:oai:HAL:hal-04714173v1",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-04714173",
+     "pdf_url": "https://inria.hal.science/hal-04714173v1/file/complex.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "2024",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    },
+    {
+     "id": "pmh:oai:HAL:hal-04714173v2",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://inria.hal.science/hal-04714173v2/document",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+       "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "2026",
+     "raw_type": "info:eu-repo/semantics/preprint"
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:oai:HAL:hal-04714173v1",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-04714173",
+    "pdf_url": "https://inria.hal.science/hal-04714173v1/file/complex.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306402512",
+     "display_name": "HAL",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I4405252976",
+     "host_organization_name": "Centre pour la Communication Scientifique Directe",
+     "host_organization_lineage": [
+      "https://openalex.org/I4405252976"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "2024",
+    "raw_type": "info:eu-repo/semantics/preprint"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4403048351.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4403048351.grobid-xml"
+   },
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2051487156",
+    "https://openalex.org/W2073681303",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W4396701345",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2001405890",
+    "https://openalex.org/W4396696052"
+   ],
+   "abstract_inverted_index": null,
+   "counts_by_year": [],
+   "updated_date": "2026-10-25T09:29:13.331239",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W2104380208",
+   "doi": "https://doi.org/10.1109/arith.2001.930115",
+   "title": "Algorithms for quad-double precision floating point arithmetic",
+   "display_name": "Algorithms for quad-double precision floating point arithmetic",
+   "relevance_score": 49.57518,
+   "publication_year": 2002,
+   "publication_date": "2002-11-13",
+   "ids": {
+    "openalex": "https://openalex.org/W2104380208",
+    "doi": "https://doi.org/10.1109/arith.2001.930115",
+    "mag": "2104380208"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1109/arith.2001.930115",
+    "doi": "https://doi.org/10.1109/arith.2001.930115",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/arith.2001.930115",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings 15th IEEE Symposium on Computer Arithmetic. ARITH-15 2001",
+    "raw_type": "proceedings-article"
+   },
+   "volume": null,
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://digital.library.unt.edu/ark:/67531/metadc791505/m2/1/high_res_d/861569.pdf",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5084188814",
+      "display_name": "Yozo Hida",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I95457486",
+       "display_name": "University of California, Berkeley",
+       "ror": "https://ror.org/01an7q238",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I95457486"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Y. Hida",
+     "raw_affiliation_strings": [
+      "Computer Science Division, University of California, Berkeley, CA, USA",
+      "[Dept. of Comput. Sci., California Univ., Berkeley, CA, USA]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Computer Science Division, University of California, Berkeley, CA, USA",
+       "institution_ids": [
+        "https://openalex.org/I95457486"
+       ]
+      },
+      {
+       "raw_affiliation_string": "[Dept. of Comput. Sci., California Univ., Berkeley, CA, USA]",
+       "institution_ids": [
+        "https://openalex.org/I95457486"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5088451673",
+      "display_name": "X.S. Li",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148283060",
+       "display_name": "Lawrence Berkeley National Laboratory",
+       "ror": "https://ror.org/02jbv0t02",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1330989302",
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I39565521"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210151627",
+       "display_name": "National Energy Research Scientific Computing Center",
+       "ror": "https://ror.org/05v3mvq14",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1330989302",
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I39565521",
+        "https://openalex.org/I4210151627"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "X.S. Li",
+     "raw_affiliation_strings": [
+      "Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA",
+      "[Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA",
+       "institution_ids": [
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I4210151627"
+       ]
+      },
+      {
+       "raw_affiliation_string": "[Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA]",
+       "institution_ids": [
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I4210151627"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5081580336",
+      "display_name": "David H. Bailey",
+      "orcid": "https://orcid.org/0000-0002-7574-8342",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-7574-8342"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I148283060",
+       "display_name": "Lawrence Berkeley National Laboratory",
+       "ror": "https://ror.org/02jbv0t02",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1330989302",
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I39565521"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210151627",
+       "display_name": "National Energy Research Scientific Computing Center",
+       "ror": "https://ror.org/05v3mvq14",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1330989302",
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I39565521",
+        "https://openalex.org/I4210151627"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "D.H. Bailey",
+     "raw_affiliation_strings": [
+      "Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA",
+      "[Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA]"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA",
+       "institution_ids": [
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I4210151627"
+       ]
+      },
+      {
+       "raw_affiliation_string": "[Lawrence Berkeley National Laboratory, NERSC, Berkeley, CA, USA]",
+       "institution_ids": [
+        "https://openalex.org/I148283060",
+        "https://openalex.org/I4210151627"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 3,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 3.4374,
+   "has_fulltext": true,
+   "cited_by_count": 240,
+   "citation_normalized_percentile": {
+    "value": 0.93923456,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "155",
+    "last_page": "162"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13806",
+     "display_name": "Mathematical and Computational Methods",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2611",
+      "display_name": "Modeling and Simulation"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/arithmetic-algorithms",
+     "display_name": "arithmetic algorithms",
+     "score": 0.546999990940094
+    },
+    {
+     "id": "https://openalex.org/keywords/transcendental-functions",
+     "display_name": "transcendental functions",
+     "score": 0.9120000004768372
+    },
+    {
+     "id": "https://openalex.org/keywords/algebraic-operations",
+     "display_name": "algebraic operations",
+     "score": 0.800000011920929
+    },
+    {
+     "id": "https://openalex.org/keywords/algorithm-performance",
+     "display_name": "algorithm performance",
+     "score": 0.4009999930858612
+    },
+    {
+     "id": "https://openalex.org/keywords/c-implementation",
+     "display_name": "C++ implementation",
+     "score": 0.8360000252723694
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C35912277",
+     "wikidata": "https://www.wikidata.org/wiki/Q1243369",
+     "display_name": "Double-precision floating-point format",
+     "level": 3,
+     "score": 0.8062077760696411
+    },
+    {
+     "id": "https://openalex.org/C136003732",
+     "wikidata": "https://www.wikidata.org/wiki/Q3854337",
+     "display_name": "Algebraic operation",
+     "level": 3,
+     "score": 0.6899775862693787
+    },
+    {
+     "id": "https://openalex.org/C94375191",
+     "wikidata": "https://www.wikidata.org/wiki/Q11205",
+     "display_name": "Arithmetic",
+     "level": 1,
+     "score": 0.6700865030288696
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.6272258758544922
+    },
+    {
+     "id": "https://openalex.org/C84211073",
+     "wikidata": "https://www.wikidata.org/wiki/Q117879",
+     "display_name": "Floating point",
+     "level": 2,
+     "score": 0.6227143406867981
+    },
+    {
+     "id": "https://openalex.org/C9376300",
+     "wikidata": "https://www.wikidata.org/wiki/Q168817",
+     "display_name": "Algebraic number",
+     "level": 2,
+     "score": 0.5692873001098633
+    },
+    {
+     "id": "https://openalex.org/C83581934",
+     "wikidata": "https://www.wikidata.org/wiki/Q527381",
+     "display_name": "Arbitrary-precision arithmetic",
+     "level": 2,
+     "score": 0.5442221164703369
+    },
+    {
+     "id": "https://openalex.org/C28719098",
+     "wikidata": "https://www.wikidata.org/wiki/Q44946",
+     "display_name": "Point (geometry)",
+     "level": 2,
+     "score": 0.4579834043979645
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.42363104224205017
+    },
+    {
+     "id": "https://openalex.org/C173608175",
+     "wikidata": "https://www.wikidata.org/wiki/Q232661",
+     "display_name": "Parallel computing",
+     "level": 1,
+     "score": 0.3244556784629822
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.3187851905822754
+    },
+    {
+     "id": "https://openalex.org/C134306372",
+     "wikidata": "https://www.wikidata.org/wiki/Q7754",
+     "display_name": "Mathematical analysis",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C2524010",
+     "wikidata": "https://www.wikidata.org/wiki/Q8087",
+     "display_name": "Geometry",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 8,
+   "locations": [
+    {
+     "id": "doi:10.1109/arith.2001.930115",
+     "doi": "https://doi.org/10.1109/arith.2001.930115",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1109/arith.2001.930115",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Proceedings 15th IEEE Symposium on Computer Arithmetic. ARITH-15 2001",
+     "raw_type": "proceedings-article"
+    },
+    {
+     "id": "pmh:info:ark/67531/metadc791505",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://digital.library.unt.edu/ark:/67531/metadc791505/",
+     "pdf_url": "https://digital.library.unt.edu/ark:/67531/metadc791505/m2/1/high_res_d/861569.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306400792",
+      "display_name": "University of North Texas Digital Library (University of North Texas)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I123534392",
+      "host_organization_name": "University of North Texas",
+      "host_organization_lineage": [
+       "https://openalex.org/I123534392"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "15th IEEE Symposium on Computer Arithmetic, Vail,CO, June 15, 2001",
+     "raw_type": "Article"
+    },
+    {
+     "id": "pmh:oai:osti.gov:861569",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://www.osti.gov/biblio/861569",
+     "pdf_url": "https://www.osti.gov/servlets/purl/861569",
+     "source": {
+      "id": "https://openalex.org/S4306402487",
+      "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I139351228",
+      "host_organization_name": "Office of Scientific and Technical Information",
+      "host_organization_lineage": [
+       "https://openalex.org/I139351228"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": null
+    },
+    {
+     "id": "pmh:oai:CiteSeerX.psu:10.1.1.4.6352",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.4.6352",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "http://www.cs.berkeley.edu/~yozo/papers/arith15.ps.gz",
+     "raw_type": "text"
+    },
+    {
+     "id": "pmh:oai:CiteSeerX.psu:10.1.1.800.207",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.800.207",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "http://www.davidhbailey.com/dhbpapers/arith15.pdf",
+     "raw_type": "text"
+    },
+    {
+     "id": "pmh:oai:escholarship.org/ark:/13030/qt69q5t2mj",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://escholarship.org/uc/item/69q5t2mj",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400115",
+      "display_name": "eScholarship (California Digital Library)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I2801248553",
+      "host_organization_name": "California Digital Library",
+      "host_organization_lineage": [
+       "https://openalex.org/I2801248553"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "",
+     "raw_type": "article"
+    },
+    {
+     "id": "pmh:qt69q5t2mj",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "http://www.escholarship.org/uc/item/69q5t2mj",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400115",
+      "display_name": "eScholarship (California Digital Library)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I2801248553",
+      "host_organization_name": "California Digital Library",
+      "host_organization_lineage": [
+       "https://openalex.org/I2801248553"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Hida, Yozo; Li, Xiaoye S.; &amp; Bailey, David H.(2000). Algorithms for quad-double precision floating point arithmetic. Lawrence Berkeley National Laboratory. Lawrence Berkeley National Laboratory: Lawrence Berkeley National Laboratory. Retrieved from: http://www.escholarship.org/uc/item/69q5t2mj",
+     "raw_type": "article"
+    },
+    {
+     "id": "mag:2244518586",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://escholarship.org/uc/item/69q5t2mj.pdf",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764971142",
+      "display_name": "Lawrence Berkeley National Laboratory",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4320800592",
+      "host_organization_name": "United States Department of Energy",
+      "host_organization_lineage": [
+       "https://openalex.org/P4320800592"
+      ],
+      "host_organization_lineage_names": [
+       "United States Department of Energy"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": "Lawrence Berkeley National Laboratory",
+     "raw_type": null
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:info:ark/67531/metadc791505",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://digital.library.unt.edu/ark:/67531/metadc791505/",
+    "pdf_url": "https://digital.library.unt.edu/ark:/67531/metadc791505/m2/1/high_res_d/861569.pdf",
+    "source": {
+     "id": "https://openalex.org/S4306400792",
+     "display_name": "University of North Texas Digital Library (University of North Texas)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I123534392",
+     "host_organization_name": "University of North Texas",
+     "host_organization_lineage": [
+      "https://openalex.org/I123534392"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "15th IEEE Symposium on Computer Arithmetic, Vail,CO, June 15, 2001",
+    "raw_type": "Article"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2104380208.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2104380208.grobid-xml"
+   },
+   "referenced_works_count": 11,
+   "referenced_works": [
+    "https://openalex.org/W16036026",
+    "https://openalex.org/W1500512458",
+    "https://openalex.org/W1514932805",
+    "https://openalex.org/W1981663184",
+    "https://openalex.org/W2005242289",
+    "https://openalex.org/W2012407419",
+    "https://openalex.org/W2119352997",
+    "https://openalex.org/W2161477758",
+    "https://openalex.org/W2171681164",
+    "https://openalex.org/W6600637270",
+    "https://openalex.org/W6630819763"
+   ],
+   "related_works": [
+    "https://openalex.org/W2116803521",
+    "https://openalex.org/W2773283032",
+    "https://openalex.org/W3150959508",
+    "https://openalex.org/W1571090276",
+    "https://openalex.org/W2012407419",
+    "https://openalex.org/W3150370983",
+    "https://openalex.org/W2930605373",
+    "https://openalex.org/W2239119680",
+    "https://openalex.org/W2185760795",
+    "https://openalex.org/W1564887326"
+   ],
+   "abstract_inverted_index": {
+    "A": [
+     0
+    ],
+    "quad-double": [
+     1,
+     42
+    ],
+    "number": [
+     2
+    ],
+    "is": [
+     3,
+     52
+    ],
+    "an": [
+     4
+    ],
+    "unevaluated": [
+     5
+    ],
+    "sum": [
+     6
+    ],
+    "of": [
+     7,
+     14,
+     20,
+     46
+    ],
+    "four": [
+     8,
+     32
+    ],
+    "IEEE": [
+     9
+    ],
+    "double": [
+     10
+    ],
+    "precision": [
+     11
+    ],
+    "numbers,": [
+     12
+    ],
+    "capable": [
+     13
+    ],
+    "representing": [
+     15
+    ],
+    "at": [
+     16
+    ],
+    "least": [
+     17
+    ],
+    "212": [
+     18
+    ],
+    "bits": [
+     19
+    ],
+    "significand.": [
+     21
+    ],
+    "We": [
+     22
+    ],
+    "present": [
+     23
+    ],
+    "the": [
+     24,
+     31,
+     47
+    ],
+    "algorithms": [
+     25
+    ],
+    "for": [
+     26
+    ],
+    "various": [
+     27,
+     36
+    ],
+    "arithmetic": [
+     28
+    ],
+    "operations": [
+     29,
+     34
+    ],
+    "(including": [
+     30
+    ],
+    "basic": [
+     33
+    ],
+    "and": [
+     35,
+     38
+    ],
+    "algebraic": [
+     37
+    ],
+    "transcendental": [
+     39
+    ],
+    "operations)": [
+     40
+    ],
+    "on": [
+     41
+    ],
+    "numbers.": [
+     43
+    ],
+    "The": [
+     44
+    ],
+    "performance": [
+     45
+    ],
+    "algorithms,": [
+     48
+    ],
+    "implemented": [
+     49
+    ],
+    "in": [
+     50
+    ],
+    "C++,": [
+     51
+    ],
+    "also": [
+     53
+    ],
+    "presented.": [
+     54
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 5
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 9
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 6
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 4
+    },
+    {
+     "year": 2022,
+     "cited_by_count": 8
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 10
+    },
+    {
+     "year": 2020,
+     "cited_by_count": 14
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 14
+    },
+    {
+     "year": 2018,
+     "cited_by_count": 11
+    },
+    {
+     "year": 2017,
+     "cited_by_count": 14
+    },
+    {
+     "year": 2016,
+     "cited_by_count": 18
+    },
+    {
+     "year": 2015,
+     "cited_by_count": 16
+    },
+    {
+     "year": 2014,
+     "cited_by_count": 17
+    },
+    {
+     "year": 2013,
+     "cited_by_count": 15
+    },
+    {
+     "year": 2012,
+     "cited_by_count": 11
+    }
+   ],
+   "updated_date": "2026-10-16T09:59:22.235173",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W1999254174",
+   "doi": "https://doi.org/10.1587/nolta.5.15",
+   "title": "Fast quadruple-double floating point format",
+   "display_name": "Fast quadruple-double floating point format",
+   "relevance_score": 47.79329,
+   "publication_year": 2013,
+   "publication_date": "2013-12-31",
+   "ids": {
+    "openalex": "https://openalex.org/W1999254174",
+    "doi": "https://doi.org/10.1587/nolta.5.15",
+    "mag": "1999254174"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1587/nolta.5.15",
+    "doi": "https://doi.org/10.1587/nolta.5.15",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1587/nolta.5.15",
+    "pdf_url": "https://www.jstage.jst.go.jp/article/nolta/5/1/5_15/_pdf",
+    "source": {
+     "id": "https://openalex.org/S2764931419",
+     "display_name": "Nonlinear Theory and Its Applications IEICE",
+     "issn_l": "2185-4106",
+     "issn": [
+      "2185-4106"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nonlinear Theory and Its Applications, IEICE",
+    "raw_type": "journal-article"
+   },
+   "volume": null,
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.jstage.jst.go.jp/article/nolta/5/1/5_15/_pdf",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5045002064",
+      "display_name": "Naoya Yamanaka",
+      "orcid": null,
+      "observed_orcids": []
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I150744194",
+       "display_name": "Waseda University",
+       "ror": "https://ror.org/00ntfnx83",
+       "country_code": "JP",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I150744194"
+       ]
+      }
+     ],
+     "countries": [
+      "JP"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Naoya Yamanaka",
+     "raw_affiliation_strings": [
+      "Research Institute for Science and Engineering, Waseda University"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Research Institute for Science and Engineering, Waseda University",
+       "institution_ids": [
+        "https://openalex.org/I150744194"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5063201472",
+      "display_name": "Shin\u2019ichi Oishi",
+      "orcid": "https://orcid.org/0000-0002-6582-265X",
+      "observed_orcids": [
+       "https://orcid.org/0000-0002-6582-265X"
+      ]
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I150744194",
+       "display_name": "Waseda University",
+       "ror": "https://ror.org/00ntfnx83",
+       "country_code": "JP",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I150744194"
+       ]
+      }
+     ],
+     "countries": [
+      "JP"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Shin'ichi Oishi",
+     "raw_affiliation_strings": [
+      "Faculty of Science and Engineering, Waseda University"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Science and Engineering, Waseda University",
+       "institution_ids": [
+        "https://openalex.org/I150744194"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I150744194"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": true,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.07841129,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": "5",
+    "issue": "1",
+    "first_page": "15",
+    "last_page": "34"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T11697",
+    "display_name": "Numerical Methods and Algorithms",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T11697",
+     "display_name": "Numerical Methods and Algorithms",
+     "score": 1.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11693",
+     "display_name": "Cryptography and Residue Arithmetic",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1710",
+      "display_name": "Information Systems"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11191",
+     "display_name": "Mathematical functions and polynomials",
+     "score": 0.0,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2604",
+      "display_name": "Applied Mathematics"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/double-precision",
+     "display_name": "double precision",
+     "score": 0.3269999921321869
+    },
+    {
+     "id": "https://openalex.org/keywords/high-precision-arithmetic",
+     "display_name": "high-precision arithmetic",
+     "score": 0.7590000033378601
+    },
+    {
+     "id": "https://openalex.org/keywords/floating-point-addition",
+     "display_name": "floating-point addition",
+     "score": 0.4560000002384186
+    },
+    {
+     "id": "https://openalex.org/keywords/floating-point-multiplication",
+     "display_name": "floating-point multiplication",
+     "score": 0.5619999766349792
+    },
+    {
+     "id": "https://openalex.org/keywords/arithmetic-algorithms",
+     "display_name": "arithmetic algorithms",
+     "score": 0.4790000021457672
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C35912277",
+     "wikidata": "https://www.wikidata.org/wiki/Q1243369",
+     "display_name": "Double-precision floating-point format",
+     "level": 3,
+     "score": 0.7921522855758667
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.7111150026321411
+    },
+    {
+     "id": "https://openalex.org/C11413529",
+     "wikidata": "https://www.wikidata.org/wiki/Q8366",
+     "display_name": "Algorithm",
+     "level": 1,
+     "score": 0.599778413772583
+    },
+    {
+     "id": "https://openalex.org/C84211073",
+     "wikidata": "https://www.wikidata.org/wiki/Q117879",
+     "display_name": "Floating point",
+     "level": 2,
+     "score": 0.5672126412391663
+    },
+    {
+     "id": "https://openalex.org/C28719098",
+     "wikidata": "https://www.wikidata.org/wiki/Q44946",
+     "display_name": "Point (geometry)",
+     "level": 2,
+     "score": 0.5540593266487122
+    },
+    {
+     "id": "https://openalex.org/C133095886",
+     "wikidata": "https://www.wikidata.org/wiki/Q1307173",
+     "display_name": "Single-precision floating-point format",
+     "level": 3,
+     "score": 0.42947399616241455
+    },
+    {
+     "id": "https://openalex.org/C173608175",
+     "wikidata": "https://www.wikidata.org/wiki/Q232661",
+     "display_name": "Parallel computing",
+     "level": 1,
+     "score": 0.4128660261631012
+    },
+    {
+     "id": "https://openalex.org/C459310",
+     "wikidata": "https://www.wikidata.org/wiki/Q117801",
+     "display_name": "Computational science",
+     "level": 1,
+     "score": 0.40591275691986084
+    },
+    {
+     "id": "https://openalex.org/C94375191",
+     "wikidata": "https://www.wikidata.org/wiki/Q11205",
+     "display_name": "Arithmetic",
+     "level": 1,
+     "score": 0.3652271628379822
+    },
+    {
+     "id": "https://openalex.org/C33923547",
+     "wikidata": "https://www.wikidata.org/wiki/Q395",
+     "display_name": "Mathematics",
+     "level": 0,
+     "score": 0.1955198347568512
+    },
+    {
+     "id": "https://openalex.org/C2524010",
+     "wikidata": "https://www.wikidata.org/wiki/Q8087",
+     "display_name": "Geometry",
+     "level": 1,
+     "score": 0.07468217611312866
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1587/nolta.5.15",
+     "doi": "https://doi.org/10.1587/nolta.5.15",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1587/nolta.5.15",
+     "pdf_url": "https://www.jstage.jst.go.jp/article/nolta/5/1/5_15/_pdf",
+     "source": {
+      "id": "https://openalex.org/S2764931419",
+      "display_name": "Nonlinear Theory and Its Applications IEICE",
+      "issn_l": "2185-4106",
+      "issn": [
+       "2185-4106"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "poland-20",
+       "russia-white-list-4"
+      ],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Nonlinear Theory and Its Applications, IEICE",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.1587/nolta.5.15",
+    "doi": "https://doi.org/10.1587/nolta.5.15",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1587/nolta.5.15",
+    "pdf_url": "https://www.jstage.jst.go.jp/article/nolta/5/1/5_15/_pdf",
+    "source": {
+     "id": "https://openalex.org/S2764931419",
+     "display_name": "Nonlinear Theory and Its Applications IEICE",
+     "issn_l": "2185-4106",
+     "issn": [
+      "2185-4106"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "doaj",
+      "dongbi-c",
+      "poland-20",
+      "russia-white-list-4"
+     ],
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nonlinear Theory and Its Applications, IEICE",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [],
+   "sustainable_development_goals_aurora": [],
+   "study_designs": [],
+   "awards": [
+    {
+     "id": "https://openalex.org/G5071548455",
+     "display_name": "Development of Fast Numerical Algorithms for Elementary and Special Functions retaining High Reliability, High Accuracy and High Portability",
+     "funder_award_id": "24700015",
+     "funder_id": "https://openalex.org/F4320334764",
+     "funder_display_name": "Japan Society for the Promotion of Science"
+    }
+   ],
+   "funders": [
+    {
+     "id": "https://openalex.org/F4320322638",
+     "display_name": "Waseda University",
+     "ror": "https://ror.org/00ntfnx83"
+    },
+    {
+     "id": "https://openalex.org/F4320334764",
+     "display_name": "Japan Society for the Promotion of Science",
+     "ror": "https://ror.org/00hhkn466"
+    }
+   ],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1999254174.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W1999254174.grobid-xml"
+   },
+   "referenced_works_count": 15,
+   "referenced_works": [
+    "https://openalex.org/W16036026",
+    "https://openalex.org/W1514351294",
+    "https://openalex.org/W1871270088",
+    "https://openalex.org/W1968165559",
+    "https://openalex.org/W1975602595",
+    "https://openalex.org/W1981663184",
+    "https://openalex.org/W2001460356",
+    "https://openalex.org/W2002064155",
+    "https://openalex.org/W2012407419",
+    "https://openalex.org/W2119352997",
+    "https://openalex.org/W2149796605",
+    "https://openalex.org/W2155673213",
+    "https://openalex.org/W2169004268",
+    "https://openalex.org/W2207050309",
+    "https://openalex.org/W2752499892"
+   ],
+   "related_works": [
+    "https://openalex.org/W3150370983",
+    "https://openalex.org/W2239119680",
+    "https://openalex.org/W1564887326",
+    "https://openalex.org/W3150959508",
+    "https://openalex.org/W3215589575",
+    "https://openalex.org/W2116803521",
+    "https://openalex.org/W2773283032",
+    "https://openalex.org/W1571090276",
+    "https://openalex.org/W1973800584",
+    "https://openalex.org/W2185760795"
+   ],
+   "abstract_inverted_index": {
+    "An": [
+     0
+    ],
+    "efficient": [
+     1
+    ],
+    "format": [
+     2,
+     17,
+     44,
+     57
+    ],
+    "and": [
+     3
+    ],
+    "fast": [
+     4
+    ],
+    "algorithms": [
+     5,
+     53,
+     72
+    ],
+    "of": [
+     6,
+     22,
+     28,
+     34
+    ],
+    "basic": [
+     7
+    ],
+    "operations": [
+     8
+    ],
+    "for": [
+     9
+    ],
+    "4-fold": [
+     10
+    ],
+    "working": [
+     11
+    ],
+    "precision": [
+     12,
+     25
+    ],
+    "are": [
+     13,
+     58,
+     73
+    ],
+    "proposed.": [
+     14
+    ],
+    "The": [
+     15
+    ],
+    "proposed": [
+     16,
+     45,
+     71
+    ],
+    "is": [
+     18,
+     38,
+     67
+    ],
+    "an": [
+     19
+    ],
+    "unevaluated": [
+     20
+    ],
+    "sum": [
+     21
+    ],
+    "four": [
+     23
+    ],
+    "double": [
+     24
+    ],
+    "numbers,": [
+     26
+    ],
+    "capable": [
+     27
+    ],
+    "representing": [
+     29
+    ],
+    "at": [
+     30
+    ],
+    "least": [
+     31
+    ],
+    "203": [
+     32
+    ],
+    "bits": [
+     33
+    ],
+    "mantissa.": [
+     35
+    ],
+    "Hence,": [
+     36
+    ],
+    "it": [
+     37,
+     66
+    ],
+    "slightly": [
+     39
+    ],
+    "less": [
+     40
+    ],
+    "accurate": [
+     41
+    ],
+    "than": [
+     42,
+     60
+    ],
+    "quad-double": [
+     43
+    ],
+    "by": [
+     46
+    ],
+    "Hida": [
+     47
+    ],
+    "et.": [
+     48
+    ],
+    "al.": [
+     49
+    ],
+    "[1],": [
+     50
+    ],
+    "however": [
+     51
+    ],
+    "presented": [
+     52
+    ],
+    "based": [
+     54
+    ],
+    "on": [
+     55
+    ],
+    "the": [
+     56,
+     70
+    ],
+    "faster": [
+     59
+    ],
+    "those": [
+     61
+    ],
+    "algorithms.": [
+     62
+    ],
+    "By": [
+     63
+    ],
+    "numerical": [
+     64
+    ],
+    "experiments": [
+     65
+    ],
+    "shown": [
+     68
+    ],
+    "that": [
+     69
+    ],
+    "efficient.": [
+     74
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-08-09T07:27:16.801131",
+   "created_date": "2025-10-10T00:00:00"
+  }
+ ]
+}

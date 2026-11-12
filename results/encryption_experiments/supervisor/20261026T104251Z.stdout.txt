@@ -1,0 +1,8 @@
+[2026-10-26T16:12:58] start A6e23_merge_posthoc mode=diagnostic
+RUN_DIR C:\Users\bhoom\Desktop\sine_chebyshev_ikeda_analysis\results\encryption_experiments\A6e23_merge_posthoc_diagnostic_20261026T104255Z
+[2026-10-26T16:12:58] memory at start: {'working_set_mb': 140.6, 'peak_working_set_mb': 140.6, 'system_available_mb': 397.6}
+[2026-10-26T16:15:13] P2 x batch blocks 0..63: 134.6 s, {'working_set_mb': 169.6, 'peak_working_set_mb': 177.0, 'system_available_mb': 455.3}
+[2026-10-26T16:15:13] P2 x: distinct mean after 1 step 974.67, after burn-in 973.75 of 1024
+[2026-10-26T16:17:15] P3 batch -> 65536 states: {'states_done': 65536, 'messages': [0, 255], 'seconds': 122.7, 'working_set_mb': 118.9, 'peak_working_set_mb': 177.0, 'system_available_mb': 832.6}
+[2026-10-26T16:17:16] P3: 65536 states, duplicates {'initial': {'overall': {'duplicate_states': 0, 'colliding_pairs': 0}, 'within_message': {'duplicate_states': 0, 'colliding_pairs': 0}}, 'after_1_step': {'overall': {'duplicate_states': 0, 'colliding_pairs': 0}, 'within_message': {'duplicate_states': 0, 'colliding_pairs': 0}}, 'after_burn_in_1024': {'overall': {'duplicate_states': 0, 'colliding_pairs': 0}, 'within_message': {'duplicate_states': 0, 'colliding_pairs': 0}}}
+[2026-10-26T16:17:16] finished in 261.01 s

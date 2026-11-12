@@ -1,0 +1,264 @@
+{
+ "query": "https://api.crossref.org/works/10.1103/physreva.38.3688",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     3
+    ]
+   ],
+   "date-time": "2026-08-03T19:37:23Z",
+   "timestamp": 1785785843894,
+   "version": "3.56.0"
+  },
+  "reference-count": 7,
+  "publisher": "American Physical Society (APS)",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1988,
+       10,
+       1
+      ]
+     ],
+     "date-time": "1988-10-01T00:00:00Z",
+     "timestamp": 591667200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://link.aps.org/licenses/aps-default-license"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Phys. Rev. A"
+  ],
+  "DOI": "10.1103/physreva.38.3688",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2002-07-27T00:37:12Z",
+   "timestamp": 1027730232000
+  },
+  "page": "3688-3692",
+  "source": "Crossref",
+  "is-referenced-by-count": 82,
+  "title": [
+   "Roundoff-induced periodicity and the correlation dimension of chaotic attractors"
+  ],
+  "prefix": "10.1103",
+  "volume": "38",
+  "author": [
+   {
+    "given": "Celso",
+    "family": "Grebogi",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Edward",
+    "family": "Ott",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "James A.",
+    "family": "Yorke",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "16",
+  "published-online": {
+   "date-parts": [
+    [
+     1988,
+     10,
+     1
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "PhysRevA.38.3688Cc2R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1045",
+    "DOI": "10.1214/aoms/1177705677",
+    "volume": "31",
+    "author": "B. Harris",
+    "year": "1960",
+    "journal-title": "Ann. Math. Stat."
+   },
+   {
+    "key": "PhysRevA.38.3688Cc3R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/0375-9601(82)90408-X",
+    "volume": "88A",
+    "author": "Y. E. Levy",
+    "year": "1982",
+    "journal-title": "Phys. Lett."
+   },
+   {
+    "key": "PhysRevA.38.3688Cc4R1",
+    "first-page": "173",
+    "volume": "25D",
+    "author": "C. Beck",
+    "year": "1987",
+    "journal-title": "Physica"
+   },
+   {
+    "key": "PhysRevA.38.3688Cc5R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "346",
+    "DOI": "10.1103/PhysRevLett.50.346",
+    "volume": "50",
+    "author": "P. Grassberger",
+    "year": "1983",
+    "journal-title": "Phys. Rev. Lett."
+   },
+   {
+    "key": "PhysRevA.38.3688Cc7R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "392",
+    "DOI": "10.2307/2307900",
+    "volume": "61",
+    "author": "M. D. Kruskal",
+    "year": "1954",
+    "journal-title": "Ann. Math. Monthly"
+   },
+   {
+    "key": "PhysRevA.38.3688Cc8R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "687",
+    "DOI": "10.1007/BF01012932",
+    "volume": "36",
+    "author": "E. Ott",
+    "year": "1984",
+    "journal-title": "J. Stat. Phys."
+   },
+   {
+    "key": "PhysRevA.38.3688Cc9R1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1169",
+    "DOI": "10.1103/PhysRevLett.58.1169",
+    "volume": "58",
+    "author": "D. Katzen",
+    "year": "1987",
+    "journal-title": "Phys. Rev. Lett."
+   }
+  ],
+  "container-title": [
+   "Physical Review A"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.aps.org/article/10.1103/PhysRevA.38.3688",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.38.3688/fulltext",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2017,
+     6,
+     15
+    ]
+   ],
+   "date-time": "2017-06-15T07:52:40Z",
+   "timestamp": 1497513160000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.aps.org/doi/10.1103/PhysRevA.38.3688"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1988,
+     10,
+     1
+    ]
+   ]
+  },
+  "references-count": 7,
+  "journal-issue": {
+   "issue": "7",
+   "published-print": {
+    "date-parts": [
+     [
+      1988,
+      10
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1103/physreva.38.3688",
+  "relation": {},
+  "ISSN": [
+   "0556-2791"
+  ],
+  "issn-type": [
+   {
+    "value": "0556-2791",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1988,
+     10,
+     1
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "query": "https://api.crossref.org/works/10.6028/nist.fips.180-4",
+ "message": {
+  "institution": [
+   {
+    "id": [
+     {
+      "id": "https://ror.org/05xpvk416",
+      "id-type": "ROR",
+      "asserted-by": "publisher"
+     },
+     {
+      "id": "https://www.isni.org/000000012158463X",
+      "id-type": "ISNI",
+      "asserted-by": "publisher"
+     }
+    ],
+    "name": "National Institute of Standards and Technology"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     25
+    ]
+   ],
+   "date-time": "2026-10-25T15:29:34Z",
+   "timestamp": 1792942174912,
+   "version": "4.5.0"
+  },
+  "publisher-location": "Washington, D.C.",
+  "reference-count": 0,
+  "publisher": "National Institute of Standards and Technology (U.S.)",
+  "funder": [
+   {
+    "DOI": "10.13039/100000161",
+    "name": "National Institute of Standards and Technology",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000161",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100000161",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "nvlpubs.nist.gov"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "abstract": "<jats:p/>",
+  "DOI": "10.6028/nist.fips.180-4",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2015,
+     7,
+     24
+    ]
+   ],
+   "date-time": "2015-07-24T17:13:29Z",
+   "timestamp": 1437758009000
+  },
+  "update-policy": "https://doi.org/10.6028/nist-techpubs.crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 284,
+  "title": [
+   "Secure hash standard"
+  ],
+  "prefix": "10.6028",
+  "author": [
+   {
+    "name": "National Institute of Standards and Technology (US)",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "4068",
+  "published-online": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     11
+    ]
+   ],
+   "date-time": "2024-10-11T14:40:16Z",
+   "timestamp": 1728657616000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.6028/nist.fips.180-4",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "URL": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "order": 0,
+    "name": "licensing",
+    "label": "Licensing Information",
+    "group": {
+     "name": "copyright_licensing",
+     "label": "Copyright, Fair Use, and Licensing"
+    }
+   }
+  ]
+ }
+}

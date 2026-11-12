@@ -1,0 +1,16 @@
+{
+  "name": "quick",
+  "n_sequences": 10,
+  "bits_per_sequence": 100000,
+  "transient": 1000,
+  "batch_size": 10,
+  "raw_stats": {"max_lag": 10, "entropy_ns": [10000, 50000]},
+  "periodicity": {
+    "float32_ics": 2, "float32_max_steps": 2000000,
+    "float64_ics": 1, "float64_max_steps": 20000,
+    "quant_bits": [8, 10], "quant_ics": 3, "quant_max_steps": 200000,
+    "legacy_check": false
+  },
+  "legacy_reproduction": false,
+  "save": {"raw_trajectory_first_sequence": true, "bitstreams": true}
+}

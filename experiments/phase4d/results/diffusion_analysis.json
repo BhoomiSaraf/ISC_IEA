@@ -1,0 +1,104 @@
+{
+  "D1_permutation": {
+    "claim": "q_k = p[pi(k)] is a pure relabeling: changing p[j] changes q at exactly the single position k = pi^{-1}(j), and no other position. This follows directly from the definition in sampling.py:65-67 (apply_permutation) -- a gather operation, one-to-one and onto by construction of Fisher-Yates.",
+    "verified_algebraically": true,
+    "verification_method": "direct inspection of sampling.py:65-67; permutation changes POSITION of a difference, never its VALUE or its count."
+  },
+  "D2_forward_diffusion": {
+    "recurrence": "u_k = S[(q_k + u_{k-1} + a_k) mod 256], u_{-1}=iv_f",
+    "measurement": {
+      "0": {
+        "n_u_positions_changed": 64,
+        "changed_positions_are_subset_of_j_and_later": true,
+        "min_changed_pos": 0,
+        "max_changed_pos": 63
+      },
+      "32": {
+        "n_u_positions_changed": 32,
+        "changed_positions_are_subset_of_j_and_later": true,
+        "min_changed_pos": 32,
+        "max_changed_pos": 63
+      },
+      "63": {
+        "n_u_positions_changed": 1,
+        "changed_positions_are_subset_of_j_and_later": true,
+        "min_changed_pos": 63,
+        "max_changed_pos": 63
+      }
+    },
+    "interpretation": "A change at input position j can only affect u_k for k >= j, because u_k's recurrence only looks backward (at u_{k-1}, not u_{k+1}). This is an ALGEBRAIC fact of the recurrence's direction, confirmed empirically above: every changed position is >= j. Forward diffusion alone therefore has a strictly triangular (lower-to-upper, causal) dependency structure, NOT full dependency on its own."
+  },
+  "D3_backward_diffusion": {
+    "recurrence": "c_k = S[(u_k + c_{k+1} + b_k) mod 256], c_N=iv_b",
+    "measurement": {
+      "0": {
+        "n_c_positions_changed": 1,
+        "changed_positions_are_subset_of_j_and_earlier": true,
+        "min_changed_pos": 0,
+        "max_changed_pos": 0
+      },
+      "32": {
+        "n_c_positions_changed": 33,
+        "changed_positions_are_subset_of_j_and_earlier": true,
+        "min_changed_pos": 0,
+        "max_changed_pos": 32
+      },
+      "63": {
+        "n_c_positions_changed": 64,
+        "changed_positions_are_subset_of_j_and_earlier": true,
+        "min_changed_pos": 0,
+        "max_changed_pos": 63
+      }
+    },
+    "interpretation": "Symmetric to D2 but reversed: a change at u-position j can only affect c_k for k <= j, since backward's recurrence looks at c_{k+1}, not c_{k-1}. Confirmed empirically: every changed position is <= j."
+  },
+  "D4_combined_diffusion": {
+    "measurement": {
+      "0": {
+        "n_c_positions_changed": 64,
+        "n_total": 64,
+        "all_positions_changed": true
+      },
+      "32": {
+        "n_c_positions_changed": 64,
+        "n_total": 64,
+        "all_positions_changed": true
+      },
+      "63": {
+        "n_c_positions_changed": 64,
+        "n_total": 64,
+        "all_positions_changed": true
+      }
+    },
+    "interpretation": "Combining forward (affects k>=j) then backward (propagates each affected u_k backward to all c_{<=k}) means: forward makes u differ for all k in [j, N-1]; backward then makes c differ for all k in [0, N-1] UNLESS the difference happens to cancel through the S-box lookup for some specific k (algebraically possible in principle for an adversarially chosen input/S-box pairing, but not observed in this random-S/random-plaintext measurement). The empirical result above shows ALL N positions change for every tested j in {0, N/2, N-1} -- consistent with, but NOT A PROOF of, full avalanche for all possible inputs. A single-input demonstration cannot establish a universal guarantee; see the dependency matrix below for exhaustive (not sampled) per-position coverage on this fixed S/a/b/iv.",
+    "caveat": "High NPCR from Phase 4B/4C is NOT used here as evidence -- this section relies only on the direct recurrence structure and this exhaustive-matrix measurement."
+  },
+  "dependency_matrix_pilot": {
+    "per_flip_seconds": 2.040015533566475e-05,
+    "n_small": 64,
+    "planned_trials": 192,
+    "estimated_total_seconds": 0.003916829824447632,
+    "decision": "N_SMALL=64 (8x8) chosen specifically so the exact exhaustive matrix (3 x 64 = 192 flip-rerun trials, estimated 0.004s) completes in well under a second; a matrix at natural image sizes (e.g. 256x256=65536 positions) would need 1024x more trials (196608 trials), estimated 4.0s -- judged not worth it for a STRUCTURAL demonstration, since the recurrence structure (D2/D3 above) already proves the general triangular pattern algebraically for any N; the exact matrix below is included only as a concrete, visualizable confirmation at a small, exhaustively-checkable size."
+  },
+  "dependency_matrix_summary": {
+    "forward_only": {
+      "density": 0.5078125,
+      "is_lower_triangular_i_ge_j": true
+    },
+    "combined": {
+      "density": 0.995849609375,
+      "fraction_fully_dense_rows": 0.734375
+    }
+  },
+  "combined_density_anomaly_investigation": {
+    "observation": "Exhaustive matrix density for 'combined' is 0.9958, not the naively-expected 1.0 (27% of rows not fully dense).",
+    "root_cause_confirmed_not_a_harness_bug": "Hand-traced the backward recurrence for j=9 on this fixed (S,a,b,iv) and this plaintext. At k=9, the two chains' S-box ARGUMENTS collide exactly: arg0 = (u_base[9] + nxt0 + b[9]) mod 256 == arg1 = (u2[9] + nxt1 + b[9]) mod 256, even though u_base[9] != u2[9] AND nxt0 != nxt1 individually -- because the diffusion step SUMS two independently-differing terms (u[k] and the carried nxt) BEFORE applying the bijective S-box, and modular addition lets two nonzero differences cancel exactly (delta_u + delta_nxt ~ 0 mod 256). Once the S-box argument coincides, S's output coincides too (same input -> same output, by definition of a function), and the two chains become IDENTICAL for every subsequent (lower-k) position -- i.e. the propagated difference is fully extinguished at that single point, not gradually attenuated.",
+    "demo_key": "K-eaaaf985",
+    "demo_nonce": "N-a3743839",
+    "demo_n": 64,
+    "demo_flip_position_j": 9,
+    "demo_collision_position_k": 9,
+    "classification": "STRUCTURAL PROPERTY of the modular-additive chained-diffusion design, not a harness bug and not, by itself, a demonstrated confidentiality/integrity break. Expected per-position cancellation probability under near-uniform byte differences is approximately 1/256 (~0.39%) per chain position, which is the same order of magnitude as the measured 0.42% non-dependent (i,j) pairs -- consistent with ordinary modular-arithmetic coincidence, not a distinguishing weakness exploitable with the data gathered here. It DOES mean that the informal claim 'every ciphertext byte depends on every plaintext byte' is a near-universal, not a mathematically absolute, property of this construction: exact exceptions exist and are reproducible once you know (key, nonce, plaintext)."
+  },
+  "dependency_matrix_plot": "plots/dependency_matrix.png"
+}

@@ -1,0 +1,806 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.sigpro.2017.10.004",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T21:46:29Z",
+   "timestamp": 1790891189846,
+   "version": "4.1.0"
+  },
+  "reference-count": 47,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2018-03-01T00:00:00Z",
+     "timestamp": 1519862400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61701137"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61701137"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100004733",
+    "name": "University of Macau",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "MYRG2014-00003-FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG2014-00003-FST"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004733",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100004733",
+    "name": "University of Macau",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "MYRG2016-00123-FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG2016-00123-FST"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004733",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Signal Processing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.sigpro.2017.10.004",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2017,
+     10,
+     5
+    ]
+   ],
+   "date-time": "2017-10-05T05:31:24Z",
+   "timestamp": 1507181484000
+  },
+  "page": "134-144",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 321,
+  "special_numbering": "C",
+  "title": [
+   "Medical image encryption using high-speed scrambling and pixel adaptive diffusion"
+  ],
+  "prefix": "10.1016",
+  "volume": "144",
+  "author": [
+   {
+    "given": "Zhongyun",
+    "family": "Hua",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shuang",
+    "family": "Yi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yicong",
+    "family": "Zhou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "128",
+    "DOI": "10.1109/TCSVT.2011.2158362",
+    "article-title": "View interpolation for medical images on autostereoscopic displays",
+    "volume": "22",
+    "author": "Zinger",
+    "year": "2012",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "889",
+    "DOI": "10.1109/TCSVT.2007.897114",
+    "article-title": "Medical-image retrieval based on knowledge-assisted text and image indexing",
+    "volume": "17",
+    "author": "Lacoste",
+    "year": "2007",
+    "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0003",
+    "doi-asserted-by": "crossref",
+    "first-page": "197",
+    "DOI": "10.1016/j.optlaseng.2016.08.009",
+    "article-title": "A novel chaos-based image encryption algorithm using DNA sequence operations",
+    "volume": "88",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0004",
+    "doi-asserted-by": "crossref",
+    "first-page": "10",
+    "DOI": "10.1016/j.asoc.2014.09.039",
+    "article-title": "A new image encryption algorithm based on non-adjacent coupled map lattices",
+    "volume": "26",
+    "author": "Zhang",
+    "year": "2015",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "419",
+    "DOI": "10.1016/j.sigpro.2014.06.020",
+    "article-title": "Image encryption based on non-affine and balanced cellular automata",
+    "volume": "105",
+    "author": "Ping",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "35",
+    "DOI": "10.1016/j.sigpro.2016.11.016",
+    "article-title": "A visually secure image encryption scheme based on compressive sensing",
+    "volume": "134",
+    "author": "Chai",
+    "year": "2017",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "112",
+    "DOI": "10.1016/j.optlaseng.2014.08.016",
+    "article-title": "Modified computational integral imaging-based double image encryption using fractional fourier transform",
+    "volume": "66",
+    "author": "Li",
+    "year": "2015",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0008",
+    "doi-asserted-by": "crossref",
+    "first-page": "1457",
+    "DOI": "10.1016/j.asoc.2012.01.016",
+    "article-title": "Image encryption using DNA complementary rule and chaotic maps",
+    "volume": "12",
+    "author": "Liu",
+    "year": "2012",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "issue": "13",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "1074",
+    "DOI": "10.1080/09500340.2013.831139",
+    "article-title": "Flexible multiple-image encryption algorithm based on log-polar transform and double random phase encoding technique",
+    "volume": "60",
+    "author": "Gong",
+    "year": "2013",
+    "journal-title": "J. Modern Opt."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.optlaseng.2015.03.022",
+    "article-title": "A novel chaotic image encryption scheme using dna sequence operations",
+    "volume": "73",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Opt. Lasers Eng."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0011",
+    "doi-asserted-by": "crossref",
+    "first-page": "164",
+    "DOI": "10.1007/s11128-017-1612-0",
+    "article-title": "Quantum image encryption scheme with iterative generalized Arnold transforms and quantum image cycle shift operations",
+    "volume": "16",
+    "author": "Zhou",
+    "year": "2017",
+    "journal-title": "Quant. Inf. Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0012",
+    "doi-asserted-by": "crossref",
+    "first-page": "329",
+    "DOI": "10.1016/j.ins.2014.02.156",
+    "article-title": "A symmetric image encryption algorithm based on mixed linear\u2013nonlinear coupled map lattice",
+    "volume": "273",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0013",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.1016/j.ins.2014.11.018",
+    "article-title": "2D Sine logistic modulation map for image encryption",
+    "volume": "297",
+    "author": "Hua",
+    "year": "2015",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "288",
+    "DOI": "10.1016/j.ins.2014.02.131",
+    "article-title": "Gray code permutation algorithm for high-dimensional data encryption",
+    "volume": "270",
+    "author": "Zanin",
+    "year": "2014",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "86",
+    "DOI": "10.1016/j.neunet.2016.07.001",
+    "article-title": "Synchronization of Markovian jumping inertial neural networks and its applications in image encryption",
+    "volume": "83",
+    "author": "Prakash",
+    "year": "2016",
+    "journal-title": "Neural Networks"
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0016",
+    "doi-asserted-by": "crossref",
+    "first-page": "155",
+    "DOI": "10.1016/j.sigpro.2016.03.021",
+    "article-title": "A novel image encryption scheme based on substitution-permutation network and chaos",
+    "volume": "128",
+    "author": "Belazi",
+    "year": "2016",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0017",
+    "doi-asserted-by": "crossref",
+    "first-page": "97",
+    "DOI": "10.1016/j.ins.2017.02.036",
+    "article-title": "Design of image cipher using block-based scrambling and image filtering",
+    "volume": "396",
+    "author": "Hua",
+    "year": "2017",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0018",
+    "doi-asserted-by": "crossref",
+    "first-page": "4614",
+    "DOI": "10.1109/TIP.2015.2467317",
+    "article-title": "A new quaternion-based encryption method for DICOM images",
+    "volume": "24",
+    "author": "Dzwonkowski",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Image Process."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0019",
+    "doi-asserted-by": "crossref",
+    "first-page": "920",
+    "DOI": "10.1007/s003300101100",
+    "article-title": "Introduction to the DICOM standard",
+    "volume": "12",
+    "author": "Mildenberger",
+    "year": "2002",
+    "journal-title": "Eur. Radiol."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "74",
+    "DOI": "10.1016/j.cnsns.2013.06.031",
+    "article-title": "An image encryption scheme based on rotation matrix bit-level permutation and block diffusion",
+    "volume": "19",
+    "author": "Zhang",
+    "year": "2014",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0021",
+    "doi-asserted-by": "crossref",
+    "first-page": "121",
+    "DOI": "10.1016/j.optlastec.2016.02.018",
+    "article-title": "Image compression\u2013encryption scheme based on hyper-chaotic system and 2D compressive sensing",
+    "volume": "82",
+    "author": "Zhou",
+    "year": "2016",
+    "journal-title": "Optics Laser Technol."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0022",
+    "first-page": "940638",
+    "article-title": "Medical image encryption and compression scheme using compressive sensing and pixel swapping based permutation approach",
+    "volume": "2015",
+    "author": "Zhang",
+    "year": "2015",
+    "journal-title": "Math. Probl. Eng."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0023",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1109/MMUL.2017.3051512",
+    "article-title": "Cryptanalyzing an image scrambling encryption algorithm of pixel bits",
+    "author": "Li",
+    "year": "2017",
+    "journal-title": "IEEE MultiMedia"
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0024",
+    "doi-asserted-by": "crossref",
+    "first-page": "150",
+    "DOI": "10.1016/j.sigpro.2016.10.002",
+    "article-title": "On the cryptanalysis of Fridrich\u2019s chaotic image encryption scheme",
+    "volume": "132",
+    "author": "Xie",
+    "year": "2017",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0025",
+    "article-title": "On the security of a class of diffusion mechanisms for image encryption",
+    "author": "Zhang",
+    "year": "2017",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0026",
+    "article-title": "Designing hyperchaotic cat maps with any desired number of positive Lyapunov exponents",
+    "author": "Hua",
+    "year": "2017",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0027",
+    "doi-asserted-by": "crossref",
+    "first-page": "2083",
+    "DOI": "10.1007/s11071-013-0924-6",
+    "article-title": "Breaking a novel image encryption scheme based on improved hyperchaotic sequences",
+    "volume": "73",
+    "author": "Li",
+    "year": "2013",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0028",
+    "doi-asserted-by": "crossref",
+    "first-page": "363",
+    "DOI": "10.1587/transfun.E99.A.363",
+    "article-title": "On the security of chaos based \u201dtrue\u201d random number generators",
+    "volume": "99",
+    "author": "Erg\u00fcn",
+    "year": "2016",
+    "journal-title": "IEICE Trans. Fundam. Electron. Commun. Comput. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0029",
+    "series-title": "Weaknesses in Security Considerations Related to Chaos-Based Image Encryption",
+    "author": "H\u00fctter",
+    "year": "2016"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "200",
+    "DOI": "10.1007/s10278-013-9657-9",
+    "article-title": "Medical image file formats",
+    "volume": "27",
+    "author": "Larobina",
+    "year": "2014",
+    "journal-title": "J. Digital Imag."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0031",
+    "doi-asserted-by": "crossref",
+    "first-page": "10",
+    "DOI": "10.1016/j.optlaseng.2014.08.005",
+    "article-title": "A novel chaotic block image encryption algorithm based on dynamic random growth technique",
+    "volume": "66",
+    "author": "Wang",
+    "year": "2015",
+    "journal-title": "Optics Lasers Eng."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0032",
+    "doi-asserted-by": "crossref",
+    "first-page": "317",
+    "DOI": "10.1016/j.ins.2013.11.027",
+    "article-title": "Design of image cipher using latin squares",
+    "volume": "264",
+    "author": "Wu",
+    "year": "2014",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0033",
+    "doi-asserted-by": "crossref",
+    "first-page": "340",
+    "DOI": "10.1016/j.sigpro.2017.07.034",
+    "article-title": "Exploiting self-adaptive permutation-diffusion and dna random encoding for secure and efficient image encryption",
+    "volume": "142",
+    "author": "Chen",
+    "year": "2018",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0034",
+    "doi-asserted-by": "crossref",
+    "first-page": "2001",
+    "DOI": "10.1109/TCYB.2014.2363168",
+    "article-title": "Cascade chaotic system with applications",
+    "volume": "45",
+    "author": "Zhou",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Cybern."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1016/j.ins.2016.01.017",
+    "article-title": "Image encryption using 2D logistic-adjusted-sine map",
+    "volume": "339",
+    "author": "Hua",
+    "year": "2016",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0036",
+    "first-page": "292",
+    "article-title": "A novel image encryption scheme based on a linear hyperbolic chaotic system of partial differential equations",
+    "volume": "28",
+    "author": "Zhang",
+    "year": "2013",
+    "journal-title": "Signal Process."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0037",
+    "doi-asserted-by": "crossref",
+    "first-page": "172",
+    "DOI": "10.1016/j.sigpro.2013.10.034",
+    "article-title": "A new 1D chaotic system for image encryption",
+    "volume": "97",
+    "author": "Zhou",
+    "year": "2014",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0038",
+    "doi-asserted-by": "crossref",
+    "first-page": "1234",
+    "DOI": "10.1109/TSMC.2014.2303789",
+    "article-title": "Biometric inspired multimedia encryption based on dual parameter fractional fourier transform",
+    "volume": "44",
+    "author": "Bhatnagar",
+    "year": "2014",
+    "journal-title": "IEEE Trans. Syst. Man Cybern."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0039",
+    "doi-asserted-by": "crossref",
+    "first-page": "734",
+    "DOI": "10.1109/TIFS.2010.2068289",
+    "article-title": "Image encryption with multiorders of fractional fourier transforms",
+    "volume": "5",
+    "author": "Tao",
+    "year": "2010",
+    "journal-title": "IEEE Trans. Inf. Foren. Secur."
+   },
+   {
+    "issue": "08",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "Alvarez",
+    "year": "2006",
+    "journal-title": "Int. J. Bifur. Chaos"
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0041",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1016/j.sigpro.2015.07.008",
+    "article-title": "Cracking a hierarchical chaotic image encryption algorithm based on permutation",
+    "volume": "118",
+    "author": "Li",
+    "year": "2016",
+    "journal-title": "Signal Process."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_sbref0042",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127417500043",
+    "article-title": "Cryptanalysis of a classical chaos-based cryptosystem with some quantum cryptography features",
+    "volume": "27",
+    "author": "Arroyo",
+    "year": "2017",
+    "journal-title": "Int. J. Bifur. Chaos"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0043",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.matcom.2004.09.001",
+    "article-title": "The strict avalanche criterion randomness test",
+    "volume": "68",
+    "author": "Castro",
+    "year": "2005",
+    "journal-title": "Math. Comput. Simul."
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0044",
+    "doi-asserted-by": "crossref",
+    "first-page": "164",
+    "DOI": "10.1016/j.optcom.2014.10.050",
+    "article-title": "Correlated-imaging-based chosen plaintext attack on general cryptosystems composed of linear canonical transforms and phase encodings",
+    "volume": "338",
+    "author": "Wu",
+    "year": "2015",
+    "journal-title": "Optics Commun."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "36",
+    "DOI": "10.1016/0167-4048(86)90116-1",
+    "article-title": "A chosen-plaintext attack on the microsoft basic protection",
+    "volume": "5",
+    "author": "Van Den Assem",
+    "year": "1986",
+    "journal-title": "Comput. Secur."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.sigpro.2017.10.004_bib0046",
+    "doi-asserted-by": "crossref",
+    "first-page": "2363",
+    "DOI": "10.1364/OE.20.002363",
+    "article-title": "A chaos-based digital image encryption scheme with an improved diffusion strategy",
+    "volume": "20",
+    "author": "Fu",
+    "year": "2012",
+    "journal-title": "Optics Express"
+   },
+   {
+    "key": "10.1016/j.sigpro.2017.10.004_bib0047",
+    "doi-asserted-by": "crossref",
+    "first-page": "198",
+    "DOI": "10.1016/j.eswa.2016.07.003",
+    "article-title": "An automatic filtering convergence method for iterative impulse noise filters based on PSNR checking and filtered pixels detection",
+    "volume": "63",
+    "author": "Chen",
+    "year": "2016",
+    "journal-title": "Expert Syst. Appl."
+   }
+  ],
+  "container-title": [
+   "Signal Processing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168417303559?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0165168417303559?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     29
+    ]
+   ],
+   "date-time": "2019-11-29T01:44:51Z",
+   "timestamp": 1574991891000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165168417303559"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     3
+    ]
+   ]
+  },
+  "references-count": 47,
+  "alternative-id": [
+   "S0165168417303559"
+  ],
+  "URL": "https://doi.org/10.1016/j.sigpro.2017.10.004",
+  "relation": {},
+  "ISSN": [
+   "0165-1684"
+  ],
+  "issn-type": [
+   {
+    "value": "0165-1684",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Medical image encryption using high-speed scrambling and pixel adaptive diffusion",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Signal Processing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.sigpro.2017.10.004",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2017 Elsevier B.V. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

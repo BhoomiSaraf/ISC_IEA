@@ -1,0 +1,612 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.17487/rfc2104",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W1656678770",
+  "doi": "https://doi.org/10.17487/rfc2104",
+  "title": "HMAC: Keyed-Hashing for Message Authentication",
+  "display_name": "HMAC: Keyed-Hashing for Message Authentication",
+  "publication_year": 1997,
+  "publication_date": "1997-02-01",
+  "ids": {
+   "openalex": "https://openalex.org/W1656678770",
+   "doi": "https://doi.org/10.17487/rfc2104",
+   "mag": "1656678770"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.17487/rfc2104",
+   "doi": "https://doi.org/10.17487/rfc2104",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.17487/rfc2104",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": null,
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5057824781",
+     "display_name": "Hugo Krawczyk",
+     "orcid": "https://orcid.org/0000-0003-3130-1888",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-3130-1888"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "H. Krawczyk",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5033480276",
+     "display_name": "Mihir Bellare Y",
+     "orcid": "https://orcid.org/0000-0002-8765-5573",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-8765-5573"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "M. Bellare",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5036229923",
+     "display_name": "Ran Canetti",
+     "orcid": "https://orcid.org/0000-0002-5479-7540",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5479-7540"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "R. Canetti",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 2047,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 0.9940999746322632,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.9940999746322632,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11504",
+    "display_name": "Advanced Authentication Protocols Security",
+    "score": 0.002199999988079071,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1705",
+     "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.0012000000569969416,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/hmac",
+    "display_name": "HMAC",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/message-authentication",
+    "display_name": "message authentication",
+    "score": 0.8640000224113464
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptographic-hash-functions",
+    "display_name": "cryptographic hash functions",
+    "score": 0.8500000238418579
+   },
+   {
+    "id": "https://openalex.org/keywords/md5",
+    "display_name": "MD5",
+    "score": 0.8199999928474426
+   },
+   {
+    "id": "https://openalex.org/keywords/sha-1",
+    "display_name": "SHA-1",
+    "score": 0.9990000128746033
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C100485629",
+    "wikidata": "https://www.wikidata.org/wiki/Q1669397",
+    "display_name": "Hash-based message authentication code",
+    "level": 4,
+    "score": 0.9633796215057373
+   },
+   {
+    "id": "https://openalex.org/C99138194",
+    "wikidata": "https://www.wikidata.org/wiki/Q183427",
+    "display_name": "Hash function",
+    "level": 2,
+    "score": 0.7295472621917725
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6118214130401611
+   },
+   {
+    "id": "https://openalex.org/C141492731",
+    "wikidata": "https://www.wikidata.org/wiki/Q1052621",
+    "display_name": "Message authentication code",
+    "level": 3,
+    "score": 0.5937114357948303
+   },
+   {
+    "id": "https://openalex.org/C148417208",
+    "wikidata": "https://www.wikidata.org/wiki/Q4825882",
+    "display_name": "Authentication (law)",
+    "level": 2,
+    "score": 0.5677639245986938
+   },
+   {
+    "id": "https://openalex.org/C179733262",
+    "wikidata": "https://www.wikidata.org/wiki/Q6821765",
+    "display_name": "Message broker",
+    "level": 2,
+    "score": 0.5196993947029114
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.40962570905685425
+   },
+   {
+    "id": "https://openalex.org/C31258907",
+    "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+    "display_name": "Computer network",
+    "level": 1,
+    "score": 0.33322516083717346
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.18668875098228455
+   }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+   {
+    "id": "doi:10.17487/rfc2104",
+    "doi": "https://doi.org/10.17487/rfc2104",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.17487/rfc2104",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "report"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.383.2086",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.383.2086",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://ietfreport.isoc.org/rfc/PDF/rfc2104.pdf",
+    "raw_type": "text"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.418.9555",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.418.9555",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://www.hakusan.tsg.ne.jp/~tjkawa/www.ietf.org/rfc/pdf/rfc2104.txt.pdf",
+    "raw_type": "text"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+   "https://openalex.org/W2026522166",
+   "https://openalex.org/W2104633167",
+   "https://openalex.org/W2121657064",
+   "https://openalex.org/W2148555789",
+   "https://openalex.org/W2254691854",
+   "https://openalex.org/W3145042860",
+   "https://openalex.org/W3216850242"
+  ],
+  "related_works": [
+   "https://openalex.org/W2157901542",
+   "https://openalex.org/W3210438939",
+   "https://openalex.org/W2280933377",
+   "https://openalex.org/W2783731972",
+   "https://openalex.org/W1582906022",
+   "https://openalex.org/W1550771246",
+   "https://openalex.org/W2543951870",
+   "https://openalex.org/W9162323",
+   "https://openalex.org/W1528628021",
+   "https://openalex.org/W2116285675"
+  ],
+  "abstract_inverted_index": {
+   "This": [
+    0,
+    8,
+    25
+   ],
+   "memo": [
+    1,
+    9,
+    22
+   ],
+   "provides": [
+    2
+   ],
+   "information": [
+    3
+   ],
+   "for": [
+    4,
+    31
+   ],
+   "the": [
+    5,
+    65,
+    68
+   ],
+   "Internet": [
+    6,
+    14
+   ],
+   "community.": [
+    7
+   ],
+   "does": [
+    10
+   ],
+   "not": [
+    11
+   ],
+   "specify": [
+    12
+   ],
+   "an": [
+    13
+   ],
+   "standard": [
+    15
+   ],
+   "of": [
+    16,
+    20,
+    61,
+    67
+   ],
+   "any": [
+    17,
+    43
+   ],
+   "kind.": [
+    18
+   ],
+   "Distribution": [
+    19
+   ],
+   "this": [
+    21
+   ],
+   "is": [
+    23
+   ],
+   "unlimited.": [
+    24
+   ],
+   "document": [
+    26
+   ],
+   "describes": [
+    27
+   ],
+   "HMAC,": [
+    28
+   ],
+   "a": [
+    29,
+    54
+   ],
+   "mechanism": [
+    30
+   ],
+   "message": [
+    32
+   ],
+   "authentication": [
+    33
+   ],
+   "using": [
+    34
+   ],
+   "cryptographic": [
+    35,
+    45,
+    59
+   ],
+   "hash": [
+    36,
+    46,
+    70
+   ],
+   "functions.": [
+    37
+   ],
+   "HMAC": [
+    38,
+    62
+   ],
+   "can": [
+    39
+   ],
+   "be": [
+    40
+   ],
+   "used": [
+    41
+   ],
+   "with": [
+    42,
+    53
+   ],
+   "iterative": [
+    44
+   ],
+   "function,": [
+    47
+   ],
+   "e.g.,": [
+    48
+   ],
+   "MD5,": [
+    49
+   ],
+   "SHA-1,": [
+    50
+   ],
+   "in": [
+    51
+   ],
+   "combination": [
+    52
+   ],
+   "secret": [
+    55
+   ],
+   "shared": [
+    56
+   ],
+   "key.": [
+    57
+   ],
+   "The": [
+    58
+   ],
+   "strength": [
+    60
+   ],
+   "depends": [
+    63
+   ],
+   "on": [
+    64
+   ],
+   "properties": [
+    66
+   ],
+   "underlying": [
+    69
+   ],
+   "function.": [
+    71
+   ],
+   "1.": [
+    72
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 61
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 57
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 42
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 46
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 42
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 87
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 66
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 67
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 70
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 69
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 76
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 73
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 79
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 78
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 96
+   }
+  ],
+  "updated_date": "2026-10-24T09:50:30.924529",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

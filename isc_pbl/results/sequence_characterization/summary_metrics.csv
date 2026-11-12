@@ -1,0 +1,17 @@
+Section,Metric,Value,Notes
+Continuous,X_Mean,-0.035323964973034166,Baseline parameter
+Continuous,X_Std,0.7034330359362048,Theoretical Arcsine = ~0.7071
+Continuous,X_KS_Distance_Arcsine,0.03122666814500885,Departure from pure 1D Chebyshev arcsine
+Continuous,Y_Mean,-0.05552043501536168,Baseline parameter
+Continuous,Y_Std,0.7111897410574175,Theoretical Arcsine = ~0.7071
+Continuous,Y_KS_Distance_Arcsine,0.035109323380971225,Departure from pure 1D Chebyshev arcsine
+Correlation,ACF_X_Lag1,-0.10344735610338321,Pronounced lag-1 peak
+Correlation,CCF_XY_Lag_Minus1,0.13524587346115266,Peak cross-correlation at lag -1
+Correlation,XY_Raw_Mutual_Info,0.06067062016535684,Plug-in continuous MI
+Correlation,XY_Miller_Madow_Bias,0.046905622516902425,Analytical finite-sample bias
+Correlation,XY_Adjusted_Mutual_Info,0.013764997648454416,Bias-corrected MI
+Quantisation_Mod,Mod_k13_X_Chi2,268.017152,p=2.7549e-01
+Quantisation_Mod,Mod_k14_X_Chi2,234.072576,p=8.2215e-01
+Quantisation_Mod,Mod_k15_X_Chi2,254.94579199999998,p=4.8918e-01
+Quantisation_Mod,Mod_k16_X_Chi2,80290.634752,p=0.0000e+00
+Quantisation_Arccos,Arccos_X_Chi2,5258.977279999999,p=0.0000e+00

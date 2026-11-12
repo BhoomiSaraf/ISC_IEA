@@ -1,0 +1,37 @@
+{
+ "public_signatures": {
+  "encrypt": [
+   "key",
+   "image",
+   "backend"
+  ],
+  "decrypt": [
+   "key",
+   "ciphertext",
+   "backend"
+  ],
+  "encrypt_bytes": [
+   "key",
+   "data",
+   "h",
+   "w",
+   "c",
+   "backend"
+  ],
+  "decrypt_bytes": [
+   "key",
+   "z",
+   "backend"
+  ]
+ },
+ "nonce_parameters_in_public_api": {
+  "encrypt": [],
+  "decrypt": [],
+  "encrypt_bytes": [],
+  "decrypt_bytes": []
+ },
+ "public_api_accepts_nonce": false,
+ "replay_protection": "not provided (stateless), as documented in threat_model.md \u00a75",
+ "test_only_fixed_nonce_entry_point": "isc_cipher._testing.encrypt_bytes_with_nonce_TEST_ONLY",
+ "elapsed_seconds": 5.34
+}

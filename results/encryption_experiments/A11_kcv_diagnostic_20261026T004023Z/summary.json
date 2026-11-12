@@ -1,0 +1,41 @@
+{
+ "sin_calls_per_decryption": 3111,
+ "counts": {
+  "identical_states_correct_plaintext": 2,
+  "detected_by_kcv": 3,
+  "WRONG_PLAINTEXT_RELEASED": 0,
+  "states_differ_but_correct_plaintext": 0
+ },
+ "rates_clopper_pearson_95": {
+  "identical_states_correct_plaintext": [
+   0.4,
+   [
+    0.052744950526316906,
+    0.8533672003653268
+   ]
+  ],
+  "detected_by_kcv": [
+   0.6,
+   [
+    0.14663279963467313,
+    0.9472550494736831
+   ]
+  ],
+  "WRONG_PLAINTEXT_RELEASED": [
+   0.0,
+   [
+    0.0,
+    0.5218237501049814
+   ]
+  ],
+  "states_differ_but_correct_plaintext": [
+   0.0,
+   [
+    0.0,
+    0.5218237501049814
+   ]
+  ]
+ },
+ "test_failed": false,
+ "elapsed_seconds": 24.45
+}

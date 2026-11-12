@@ -1,0 +1,431 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/access.2018.2883690",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     6
+    ]
+   ],
+   "date-time": "2026-10-06T16:27:22Z",
+   "timestamp": 1791304042230,
+   "version": "4.1.0"
+  },
+  "reference-count": 33,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2018,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2018-01-01T00:00:00Z",
+     "timestamp": 1514764800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/OAPA.html"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61772447"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61772447"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61532020"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61532020"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "U1736113"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "U1736113"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Access"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "DOI": "10.1109/access.2018.2883690",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     11,
+     27
+    ]
+   ],
+   "date-time": "2018-11-27T19:50:15Z",
+   "timestamp": 1543348215000
+  },
+  "page": "75834-75842",
+  "source": "Crossref",
+  "is-referenced-by-count": 228,
+  "title": [
+   "Cryptanalysis of a Chaotic Image Encryption Algorithm Based on Information Entropy"
+  ],
+  "prefix": "10.1109",
+  "volume": "6",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-5385-7644",
+    "authenticated-orcid": false,
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dongdong",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bingbing",
+    "family": "Feng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jinhu",
+    "family": "Lu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Feng",
+    "family": "Hao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIFS.2016.2515503"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2016.10.002"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/rsa.20385"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIFS.2018.2812080"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127417502042"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127416501121"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-017-3825-2"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/JBHI.2016.2517146"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127416501923"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127417500730"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-014-1533-8"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2015.07.008"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jss.2007.07.037"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MMUL.2018.2873472"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIE.2017.2736515"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TDSC.2016.2616876"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127418500104"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2018.2820724"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2016.01.017"
+   },
+   {
+    "key": "ref29",
+    "author": "li",
+    "year": "2017",
+    "journal-title": "Dynamic analysis of chaotic maps as complex networks in the digital domain"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MMUL.2017.3051512"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127417501061"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2018.03.010"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MCOM.2018.1701148"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2011.08.079"
+   },
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MMUL.2017.4031322"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-017-3715-7"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2016.2515398"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-015-1956-x"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127406015970"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812741750033X"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ACCESS.2018.2817600"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-018-4056-x"
+   }
+  ],
+  "container-title": [
+   "IEEE Access"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/6287639/8274985/08548554.pdf?arnumber=8548554",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     12
+    ]
+   ],
+   "date-time": "2022-01-12T16:16:05Z",
+   "timestamp": 1642004165000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/8548554/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "references-count": 33,
+  "URL": "https://doi.org/10.1109/access.2018.2883690",
+  "relation": {},
+  "ISSN": [
+   "2169-3536"
+  ],
+  "issn-type": [
+   {
+    "value": "2169-3536",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  }
+ }
+}

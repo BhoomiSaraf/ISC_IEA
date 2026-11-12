@@ -1,0 +1,779 @@
+{
+ "query": "https://api.crossref.org/works/10.3390/jsan11040066",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     25
+    ]
+   ],
+   "date-time": "2026-07-25T16:44:14Z",
+   "timestamp": 1784997854939,
+   "version": "3.55.0"
+  },
+  "reference-count": 53,
+  "publisher": "MDPI AG",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       10,
+       17
+      ]
+     ],
+     "date-time": "2022-10-17T00:00:00Z",
+     "timestamp": 1665964800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "university-enterprise cooperative R&amp;D project of SZTU",
+    "award": [
+     "20221061030001"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "20221061030001"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "JSAN"
+  ],
+  "abstract": "<jats:p>Data security can involve embedding hidden images, text, audio, or video files within other media to prevent hackers from stealing encrypted data. Existing mechanisms suffer from a high risk of security breaches or large computational costs, however. The method proposed in this work incorporates low-complexity encryption and steganography mechanisms to enhance security during transmission while lowering computational complexity. In message encryption, it is recommended that text file data slicing in binary representation, to achieve different lengths of string, be conducted before text file data masking based on the lightweight Lucas series and mod function to ensure the retrieval of text messages is impossible. The steganography algorithm starts by generating a random key stream using a hybrid of two low-complexity chaotic maps, the Tent map and the Ikeda map. By finding a position vector parallel to the input image vector, these keys are used based on the previously generated position vector to randomly select input image data and create four vectors that can be later used as input for the Lah transform. In this paper, we present an approach for hiding encrypted text files using LSB colour image steganography by applying a low-complexity XOR operation to the most significant bits in 24-bit colour cover images. It is necessary to perform inverse Lah transformation to recover the image pixels and ensure that invisible data cannot be retrieved in a particular sequence. Evaluation of the quality of the resulting stego-images and comparison with other ways of performing encryption and message concealment shows that the stego-image has a higher PSNR, a lower MSE, and an SSIM value close to one, illustrating the suitability of the proposed method. It is also considered lightweight in terms of having lower computational overhead.</jats:p>",
+  "DOI": "10.3390/jsan11040066",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     10,
+     17
+    ]
+   ],
+   "date-time": "2022-10-17T05:08:02Z",
+   "timestamp": 1665983282000
+  },
+  "page": "66",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 16,
+  "title": [
+   "A Lightweight Hybrid Scheme for Hiding Text Messages in Colour Images Using LSB, Lah Transform and Chaotic Techniques"
+  ],
+  "prefix": "10.3390",
+  "volume": "11",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-8068-5710",
+    "authenticated-orcid": false,
+    "given": "Iman Qays",
+    "family": "Abduljaleel",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, College of Computer Science and Information Technology, University of Basrah, Basrah 61004, Iraq"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zaid Ameen",
+    "family": "Abduljabbar",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, College of Education for Pure Sciences, University of Basrah, Basrah 61004, Iraq"
+     },
+     {
+      "name": "Technical Computer Engineering Department, Al-Kunooze University College, Basrah 61001, Iraq"
+     },
+     {
+      "name": "Shenzhen Institute, Huazhong University of Science and Technology, Shenzhen 430074, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mustafa A.",
+    "family": "Al Sibahee",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "College of Big Data and Internet, Shenzhen Technology University, Shenzhen 518118, China"
+     },
+     {
+      "name": "Computer Technology Engineering Department, Iraq University College, Basrah 61004, Iraq"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9126-6143",
+    "authenticated-orcid": false,
+    "given": "Mudhafar Jalil Jassim",
+    "family": "Ghrabat",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Design and IoT Lab, Al-Turath University College, Baghdad 10013, Iraq"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2666-6874",
+    "authenticated-orcid": false,
+    "given": "Junchao",
+    "family": "Ma",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "College of Big Data and Internet, Shenzhen Technology University, Shenzhen 518118, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6546-8083",
+    "authenticated-orcid": false,
+    "given": "Vincent Omollo",
+    "family": "Nyangaresi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Faculty of Biological & Physical Sciences, Tom Mboya University, Homabay 40300, Kenya"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1968",
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     10,
+     17
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref_1",
+    "unstructured": "Biradar, R.L., and Burkpalli, V. (2019). Encryption-Based Steganography of Images by Multiobjective Whale Optimal Pixel Selection. Int. J. Comput. Appl., 1\u201310."
+   },
+   {
+    "key": "ref_2",
+    "doi-asserted-by": "crossref",
+    "first-page": "218331",
+    "DOI": "10.1109/ACCESS.2020.3041809",
+    "article-title": "Lightweight Secure Message Delivery for E2E S2S Communication in the IoT-Cloud System",
+    "volume": "8",
+    "author": "Lu",
+    "year": "2020",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_3",
+    "doi-asserted-by": "crossref",
+    "first-page": "684824",
+    "DOI": "10.1155/2015/684824",
+    "article-title": "An Image Steganography Method Hiding Secret Data into Coefficients of Integer Wavelet Transform Using Pixel Value Differencing Approach",
+    "volume": "2015",
+    "author": "Gulve",
+    "year": "2015",
+    "journal-title": "Math. Probl. Eng."
+   },
+   {
+    "key": "ref_4",
+    "doi-asserted-by": "crossref",
+    "first-page": "6610678",
+    "DOI": "10.1155/2021/6610678",
+    "article-title": "A New Method of Coding for Steganography Based on LSB Matching Revisited",
+    "volume": "2021",
+    "author": "Fateh",
+    "year": "2021",
+    "journal-title": "Secur. Commun. Netw."
+   },
+   {
+    "key": "ref_5",
+    "doi-asserted-by": "crossref",
+    "first-page": "17",
+    "DOI": "10.1016/j.ieri.2013.11.004",
+    "article-title": "Color Image Steganography Based on Pixel Value Modification Method Using Modulus Function",
+    "volume": "4",
+    "author": "Nagaraj",
+    "year": "2013",
+    "journal-title": "IERI Procedia"
+   },
+   {
+    "key": "ref_6",
+    "doi-asserted-by": "crossref",
+    "first-page": "296",
+    "DOI": "10.1515/comp-2020-0136",
+    "article-title": "Digital Image Steganography and Steganalysis: A Journey of the Past Three Decades",
+    "volume": "10",
+    "author": "Sahu",
+    "year": "2020",
+    "journal-title": "Open Comput. Sci."
+   },
+   {
+    "key": "ref_7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1429",
+    "DOI": "10.18421/TEM103-54",
+    "article-title": "Speech Encryption Technique Using S-Box Based on Multi Chaotic Maps",
+    "volume": "10",
+    "author": "Abdullah",
+    "year": "2021",
+    "journal-title": "TEM J."
+   },
+   {
+    "key": "ref_8",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1080/19393555.2020.1854902",
+    "article-title": "A Modified LSB Image Steganography Method Using Filtering Algorithm and Stream of Password",
+    "volume": "30",
+    "author": "Islam",
+    "year": "2021",
+    "journal-title": "Inf. Secur. J. A Glob. Perspect."
+   },
+   {
+    "key": "ref_9",
+    "doi-asserted-by": "crossref",
+    "first-page": "148935",
+    "DOI": "10.1109/ACCESS.2020.3015687",
+    "article-title": "A New Fuzzy-DNA Image Encryption and Steganography Technique",
+    "volume": "8",
+    "author": "Korany",
+    "year": "2020",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_10",
+    "unstructured": "Priyadharshini, A., Umamaheswari, R., Jayapandian, N., and Priyananci, S. (2021, January 19). Securing Medical Images Using Encryption and LSB Steganography. Proceedings of the 2021 International Conference on Advances in Electrical, Computing, Communication and Sustainable Technologies (ICAECT), Bhilai, India."
+   },
+   {
+    "key": "ref_11",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Gedkhaw, E., Soodtoetong, N., and Ketcham, M. (2018, January 26\u201329). The Performance of Cover Image Steganography for Hidden Information within Image File Using Least Significant Bit Algorithm. Proceedings of the 2018 18th International Symposium on Communications and Information Technologies (ISCIT), Bangkok, Thailand.",
+    "DOI": "10.1109/ISCIT.2018.8588011"
+   },
+   {
+    "key": "ref_12",
+    "doi-asserted-by": "crossref",
+    "first-page": "68",
+    "DOI": "10.1007/s12046-018-0848-4",
+    "article-title": "New LSB-Based Colour Image Steganography Method to Enhance the Efficiency in Payload Capacity, Security and Integrity Check",
+    "volume": "43",
+    "author": "Elmasry",
+    "year": "2018",
+    "journal-title": "S\u0101dhan\u0101"
+   },
+   {
+    "key": "ref_13",
+    "doi-asserted-by": "crossref",
+    "first-page": "148495",
+    "DOI": "10.1109/ACCESS.2019.2946807",
+    "article-title": "A New Chaotic Image Steganography Technique Based on Huffman Compression of Turkish Texts and Fractal Encryption with Post-Quantum Security",
+    "volume": "7",
+    "author": "Kasapbasi",
+    "year": "2019",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_14",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Darbani, A., AlyanNezhadi, M.M., and Forghani, M. (March, January 28). A New Steganography Method for Embedding Message in JPEG Images. Proceedings of the 2019 5th Conference on Knowledge Based Engineering and Innovation (KBEI), Tehran, Iran.",
+    "DOI": "10.1109/KBEI.2019.8735054"
+   },
+   {
+    "key": "ref_15",
+    "first-page": "9475142",
+    "article-title": "A New Method of Image Steganography Using 7th Bit of a Pixel as Indicator by Introducing the Successive Temporary Pixel in the Gray Scale Image",
+    "volume": "2018",
+    "author": "Joshi",
+    "year": "2018",
+    "journal-title": "J. Comput. Netw. Commun."
+   },
+   {
+    "key": "ref_16",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Abduljabbar, Z.A., Jin, H., Hussien, Z.A., Yassin, A.A., Hussain, M.A., Abbdal, S.H., and Zou, D. (2015, January 14\u201316). Robust Image Document Authentication Code with Autonomous Biometrie Key Generation, Selection, and Updating in Cloud Environment. Proceedings of the 2015 11th International Conference on Information Assurance and Security (IAS), Marrakech, Morocco.",
+    "DOI": "10.1109/ISIAS.2015.7492746"
+   },
+   {
+    "key": "ref_17",
+    "doi-asserted-by": "crossref",
+    "first-page": "26571",
+    "DOI": "10.1007/s11042-020-09120-0",
+    "article-title": "Color Image Analysis of Quaternion Discrete Radial Krawtchouk Moments",
+    "volume": "79",
+    "author": "Amakdouf",
+    "year": "2020",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_18",
+    "doi-asserted-by": "crossref",
+    "first-page": "3173",
+    "DOI": "10.1007/s11042-020-09781-x",
+    "article-title": "Artificial Intelligent Classification of Biomedical Color Image Using Quaternion Discrete Radial Tchebichef Moments",
+    "volume": "80",
+    "author": "Amakdouf",
+    "year": "2021",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_19",
+    "doi-asserted-by": "crossref",
+    "first-page": "16522",
+    "DOI": "10.1109/ACCESS.2021.3050737",
+    "article-title": "Coverless Image Steganography Based on Optical Mark Recognition and Machine Learning",
+    "volume": "9",
+    "author": "Saad",
+    "year": "2021",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_20",
+    "first-page": "5977",
+    "article-title": "Image Steganography Based on Odd/Even Pixels Distribution Scheme and Two Parameters Random Function",
+    "volume": "95",
+    "author": "Hashim",
+    "year": "2017",
+    "journal-title": "J. Theor. Appl. Inf. Technol."
+   },
+   {
+    "key": "ref_21",
+    "doi-asserted-by": "crossref",
+    "first-page": "151",
+    "DOI": "10.20473/jisebi.6.2.151-158",
+    "article-title": "Dynamic Steganography Least Significant Bit with Stretch on Pixels Neighborhood",
+    "volume": "6",
+    "author": "Harahap",
+    "year": "2020",
+    "journal-title": "JISEBI"
+   },
+   {
+    "key": "ref_22",
+    "doi-asserted-by": "crossref",
+    "first-page": "012032",
+    "DOI": "10.1088/1742-6596/1003/1/012032",
+    "article-title": "Hiding Text in Gray Image Using Mapping Technique",
+    "volume": "1003",
+    "author": "Hussein",
+    "year": "2018",
+    "journal-title": "J. Phys. Conf. Ser."
+   },
+   {
+    "key": "ref_23",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Almayyahi, A.A., Sulaiman, R., Qamar, F., and Essa, A. (2020). High-Security Image Steganography Technique Using XNOR Operation and Fibonacci Algorithm. IJACSA, 11.",
+    "DOI": "10.14569/IJACSA.2020.0111064"
+   },
+   {
+    "key": "ref_24",
+    "first-page": "59",
+    "article-title": "Text to Color Image Steganography Using LSB Technique and XOR Operations",
+    "volume": "3",
+    "author": "Ratnasari",
+    "year": "2019",
+    "journal-title": "Int. J. Appl. Bus. Inf. Syst."
+   },
+   {
+    "key": "ref_25",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Madhu, D., and Vasuhi, S. (2020, January 28). Image Steganography: 2-Bit XOR Algorithm Used in YCbCr Color Model with Crypto-Algorithm. Proceedings of the 2020 4th International Conference on Computer, Communication and Signal Processing (ICCCSP), Chennai, India.",
+    "DOI": "10.1109/ICCCSP49186.2020.9315245"
+   },
+   {
+    "key": "ref_26",
+    "doi-asserted-by": "crossref",
+    "first-page": "012061",
+    "DOI": "10.1088/1742-6596/1339/1/012061",
+    "article-title": "Hybrid Cryptography and Steganography Method to Embed Encrypted Text Message within Image",
+    "volume": "1339",
+    "author": "Hazidar",
+    "year": "2019",
+    "journal-title": "J. Phys. Conf. Ser."
+   },
+   {
+    "key": "ref_27",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sulaiman, R., Kirana, C., Sugihartono, T., and Juniawan, F.P. (2020, January 23\u201324). RC4 Algorithm and Steganography to Double Secure Messages in Digital Image. Proceedings of the 2020 8th International Conference on Cyber and IT Service Management (CITSM), Pangkal Pinang, Indonesia.",
+    "DOI": "10.1109/CITSM50537.2020.9268833"
+   },
+   {
+    "key": "ref_28",
+    "unstructured": "Muhammad, K., Ahmad, J., Farman, H., and Zubair, M. (2015). A Novel Image Steganographic Approach for Hiding Text in Color Images Using HSI Color Model. arXiv."
+   },
+   {
+    "key": "ref_29",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Ronaldo Cahyono, H.K., Atika Sari, C., Ignatius Moses Setiadi, D.R., and Hari Rachmawanto, E. (2019, January 24\u201325). Dual Protection on Message Transmission Based on Chinese Remainder Theorem and Rivest Cipher 4. Proceedings of the 2019 International Conference on Information and Communications Technology (ICOIACT), Yogyakarta, Indonesia.",
+    "DOI": "10.1109/ICOIACT46704.2019.8938568"
+   },
+   {
+    "key": "ref_30",
+    "doi-asserted-by": "crossref",
+    "first-page": "6679284",
+    "DOI": "10.1155/2021/6679284",
+    "article-title": "A High-Capacity Image Steganography Method Using Chaotic Particle Swarm Optimization",
+    "volume": "2021",
+    "author": "Jaradat",
+    "year": "2021",
+    "journal-title": "Secur. Commun. Netw."
+   },
+   {
+    "key": "ref_31",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Vishwas, C.G.M., and Kunte, R.S. (2020, January 20\u201322). An Image Cryptosystem Based on Tent Map. Proceedings of the 2020 Third International Conference on Smart Systems and Inventive Technology (ICSSIT), Tirunelveli, India.",
+    "DOI": "10.1109/ICSSIT48917.2020.9214291"
+   },
+   {
+    "key": "ref_32",
+    "doi-asserted-by": "crossref",
+    "first-page": "18759",
+    "DOI": "10.1109/ACCESS.2018.2817600",
+    "article-title": "Cryptanalyzing and Improving a Novel Color Image Encryption Algorithm Using RT-Enhanced Chaotic Tent Maps",
+    "volume": "6",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_33",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Tayel, M., Dawood, G., and Shawky, H. (2018, January 8\u201311). Block Cipher S-Box Modification Based on Fisher-Yates Shuffle and Ikeda Map. Proceedings of the 2018 IEEE 18th International Conference on Communication Technology (ICCT), Chongqing, China.",
+    "DOI": "10.1109/ICCT.2018.8600161"
+   },
+   {
+    "key": "ref_34",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sekertekin, Y., and Atan, O. (2016, January 22\u201323). An Image Encryption Algorithm Using Ikeda and Henon Chaotic Maps. Proceedings of the 2016 24th Telecommunications Forum (TELFOR), Belgrade, Serbia.",
+    "DOI": "10.1109/TELFOR.2016.7818872"
+   },
+   {
+    "key": "ref_35",
+    "doi-asserted-by": "crossref",
+    "first-page": "26583",
+    "DOI": "10.1109/ACCESS.2021.3058112",
+    "article-title": "A Dual Layer Secure Data Encryption and Hiding Scheme for Color Images Using the Three-Dimensional Chaotic Map and Lah Transformation",
+    "volume": "9",
+    "author": "Alanazi",
+    "year": "2021",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_36",
+    "doi-asserted-by": "crossref",
+    "first-page": "639",
+    "DOI": "10.21629/JSEE.2018.03.21",
+    "article-title": "A Secure Image Steganography Algorithm Based on Least Significant Bit and Integer Wavelet Transform",
+    "volume": "29",
+    "author": "Emad",
+    "year": "2018",
+    "journal-title": "J. Syst. Eng. Electron."
+   },
+   {
+    "key": "ref_37",
+    "doi-asserted-by": "crossref",
+    "first-page": "133496",
+    "DOI": "10.1109/ACCESS.2019.2941440",
+    "article-title": "An Optimized Steganography Hiding Capacity and Imperceptibly Using Genetic Algorithms",
+    "volume": "7",
+    "author": "Wazirali",
+    "year": "2019",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_38",
+    "first-page": "1",
+    "article-title": "Data Hiding Technique Using Catalan-Lucas Number Sequence",
+    "volume": "10",
+    "author": "Desai",
+    "year": "2017",
+    "journal-title": "Indian J. Sci. Technol."
+   },
+   {
+    "key": "ref_39",
+    "first-page": "1",
+    "article-title": "Encryption and Decryption of the Data by Using the Terms of the Lucas Series",
+    "volume": "9",
+    "author": "Duman",
+    "year": "2021",
+    "journal-title": "Duzce Univ. J. Sci. Technol."
+   },
+   {
+    "key": "ref_40",
+    "doi-asserted-by": "crossref",
+    "first-page": "4975",
+    "DOI": "10.1007/s11042-020-09815-4",
+    "article-title": "Breaking an Image Encryption Scheme Based on Arnold Map and Lucas Series",
+    "volume": "80",
+    "author": "Zenkouar",
+    "year": "2021",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_41",
+    "doi-asserted-by": "crossref",
+    "first-page": "24",
+    "DOI": "10.5815/ijmsc.2021.03.03",
+    "article-title": "A LSB Based Image Steganography Using Random Pixel and Bit Selection for High Payload",
+    "volume": "7",
+    "author": "Ali",
+    "year": "2021",
+    "journal-title": "IJMSC"
+   },
+   {
+    "key": "ref_42",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.7717/peerj-cs.380",
+    "article-title": "Steganography in Color Images with Random Order of Pixel Selection and Encrypted Text Message Embedding",
+    "volume": "7",
+    "author": "Kordov",
+    "year": "2021",
+    "journal-title": "PeerJ Comput. Sci."
+   },
+   {
+    "key": "ref_43",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1134/S1054661820010186",
+    "article-title": "Invariant Gaussian\u2013Hermite Moments Based Neural Networks for 3D Object Classification",
+    "volume": "30",
+    "author": "Zouhri",
+    "year": "2020",
+    "journal-title": "Pattern Recognit. Image Anal."
+   },
+   {
+    "key": "ref_44",
+    "doi-asserted-by": "crossref",
+    "first-page": "277",
+    "DOI": "10.1007/s11633-017-1071-1",
+    "article-title": "Radial Hahn Moment Invariants for 2D and 3D Image Recognition",
+    "volume": "15",
+    "author": "Zouhri",
+    "year": "2018",
+    "journal-title": "Int. J. Autom. Comput."
+   },
+   {
+    "key": "ref_45",
+    "doi-asserted-by": "crossref",
+    "first-page": "63",
+    "DOI": "10.1007/s10044-021-01030-7",
+    "article-title": "A New Approach for H\u221e Deconvolution Filtering of 2D Systems Described by the Fornasini\u2013Marchesini and Discrete Moments",
+    "volume": "25",
+    "author": "Boukili",
+    "year": "2022",
+    "journal-title": "Pattern Anal. Appl."
+   },
+   {
+    "key": "ref_46",
+    "doi-asserted-by": "crossref",
+    "first-page": "1337",
+    "DOI": "10.1002/oca.2730",
+    "article-title": "H\u221e Deconvolution Filter for Two-dimensional Numerical Systems Using Orthogonal Moments",
+    "volume": "42",
+    "author": "Boukili",
+    "year": "2021",
+    "journal-title": "Optim. Control. Appl. Meth."
+   },
+   {
+    "key": "ref_47",
+    "doi-asserted-by": "crossref",
+    "first-page": "25965",
+    "DOI": "10.1007/s11042-021-10845-9",
+    "article-title": "Robust H\u221e Deconvolution Filtering of 2-D Digital Systems of Orthogonal Local Descriptor",
+    "volume": "80",
+    "author": "Boukili",
+    "year": "2021",
+    "journal-title": "Multimed. Tools Appl."
+   },
+   {
+    "key": "ref_48",
+    "doi-asserted-by": "crossref",
+    "first-page": "26257",
+    "DOI": "10.1109/ACCESS.2022.3151174",
+    "article-title": "Provably Secure and Fast Color Image Encryption Algorithm Based on S-Boxes and Hyperchaotic Map",
+    "volume": "10",
+    "author": "Abduljabbar",
+    "year": "2022",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_49",
+    "doi-asserted-by": "crossref",
+    "first-page": "87563",
+    "DOI": "10.1109/ACCESS.2021.3089357",
+    "article-title": "SSII: Secured and High-Quality Steganography Using Intelligent Hybrid Optimization Algorithms for IoT",
+    "volume": "9",
+    "author": "Dhawan",
+    "year": "2021",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_50",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sugiarto, B., Sari, C.A., De Rosal, I.M.S., and Rachmawanto, E.H. (2020, January 19). Performance Analysis of LSB Color Image Steganography Based on Embedding Pattern of the RGB Channels. Proceedings of the 2020 International Seminar on Application for Technology of Information and Communication (iSemantic), Semarang, Indonesia.",
+    "DOI": "10.1109/iSemantic50169.2020.9234247"
+   },
+   {
+    "key": "ref_51",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Giuclea, M., and Popescu, C.-C. (2022). On Geometric Mean and Cumulative Residual Entropy for Two Random Variables with Lindley Type Distribution. Mathematics, 10.",
+    "DOI": "10.3390/math10091499"
+   },
+   {
+    "key": "ref_52",
+    "doi-asserted-by": "crossref",
+    "first-page": "51",
+    "DOI": "10.5815/ijigsp.2017.09.06",
+    "article-title": "An Efficient Embedding Technique in Image Steganography Using Lucas Sequence",
+    "volume": "9",
+    "author": "Das",
+    "year": "2017",
+    "journal-title": "IJIGSP"
+   },
+   {
+    "key": "ref_53",
+    "doi-asserted-by": "crossref",
+    "first-page": "11747",
+    "DOI": "10.1007/s11042-019-08472-6",
+    "article-title": "LSB Based Steganography with OCR: An Intelligent Amalgamation",
+    "volume": "79",
+    "author": "Chatterjee",
+    "year": "2020",
+    "journal-title": "Multimed. Tools Appl."
+   }
+  ],
+  "container-title": [
+   "Journal of Sensor and Actuator Networks"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.mdpi.com/2224-2708/11/4/66/pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     11
+    ]
+   ],
+   "date-time": "2025-10-11T00:55:29Z",
+   "timestamp": 1760144129000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.mdpi.com/2224-2708/11/4/66"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     10,
+     17
+    ]
+   ]
+  },
+  "references-count": 53,
+  "journal-issue": {
+   "issue": "4",
+   "published-online": {
+    "date-parts": [
+     [
+      2022,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "jsan11040066"
+  ],
+  "URL": "https://doi.org/10.3390/jsan11040066",
+  "relation": {},
+  "ISSN": [
+   "2224-2708"
+  ],
+  "issn-type": [
+   {
+    "value": "2224-2708",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     10,
+     17
+    ]
+   ]
+  }
+ }
+}

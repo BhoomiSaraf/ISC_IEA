@@ -1,0 +1,24 @@
+{
+  "track_a": {
+    "enc_gray_mean_sec": 4.835454050102271,
+    "enc_rgb_mean_sec": 26.108625350054353,
+    "dec_gray_mean_sec": 10.73511640005745,
+    "dec_rgb_mean_sec": 26.276076199952513,
+    "n_gray_variants": 7,
+    "n_rgb_variants": 5,
+    "estimated_full_matrix_sec_mantissa8_only": 370.9175009011524,
+    "estimated_full_matrix_sec_both_profiles_full_dataset": 741.8350018023048,
+    "decision": "mantissa8_v1 (primary) run on the FULL 18-variant dataset (~371s estimated); k14_scaled_modulo_v1 run only on a representative SUBSET (one gray + one RGB image, chosen for variety: astronaut [portrait/high-entropy] and hubble_deep_field [low-entropy structured scene]) rather than the full dataset, since doubling to both profiles on all 18 variants (~742s) adds disproportionate runtime for a comparison Phase 4B already found statistically negligible at the image level across 63 synthetic images; a 2-image confirmatory subset is sufficient to check the finding replicates on natural images without re-running the full battery."
+  },
+  "track_b": {
+    "per_trial_sec_gray_256class": 22.439694999950007,
+    "per_trial_sec_rgb_256class": 53.488045499892905,
+    "planned_n_images": 5,
+    "planned_n_positions": 4,
+    "planned_n_keynonce_configs": 3,
+    "planned_n_channel_trials": 3,
+    "estimated_trials": 69,
+    "estimated_full_runtime_sec": 1827.7741094960365,
+    "decision": "Estimated 69 trials, ~1828s. This fits comfortably without reduction: plan is 5 images x 4 positions x 3 key/nonce configs (gray) + 3 per-channel trials x 3 configs on one RGB image = kept at this size (no further scale-back needed)."
+  }
+}

@@ -1,0 +1,77 @@
+Phase 3B run log
+Python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+Platform: Windows-10-10.0.22631-SP0
+NumPy: 2.4.6  SciPy: 1.17.1
+
+=== pilot_benchmark.py ===
+{
+  "extraction_1": {
+    "burn_in": 1024,
+    "bytes_per_lane_requested": 20000,
+    "bytes_per_stream": 1280000,
+    "t_build_seconds": 1.2355806999839842,
+    "t_take_seconds": 36.844397499924526,
+    "total_bytes_all_4_streams": 5120000,
+    "throughput_bytes_per_sec": 138962.78260515694
+  },
+  "extraction_2": {
+    "burn_in": 1024,
+    "bytes_per_lane_requested": 20000,
+    "bytes_per_stream": 1280000,
+    "t_build_seconds": 1.0819832000415772,
+    "t_take_seconds": 44.8543332000263,
+    "total_bytes_all_4_streams": 5120000,
+    "throughput_bytes_per_sec": 114147.27707950851
+  },
+  "burn_in_scaling_seconds": {
+    "1024": 1.5054826999548823,
+    "2048": 2.3435132999438792,
+    "5000": 5.732923700008541,
+    "10000": 11.754330600146204
+  }
+}
+
+=== stage_a_primary.py ===
+[19:57:07] generating extraction=1 seed=seedA (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:01:34]   generation done in 267.1s
+[20:01:45]   reproducibility check (independent re-run, byte-exact): True
+[20:02:01]   cross-stream MI (6 pairs, n=200000) done
+[20:06:11]   NIST lane battery (64 lanes/stream): 122.9s; stream-chunk battery (64 chunks/stream): 126.9s
+[20:06:11] generating extraction=1 seed=seedB (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:10:52]   generation done in 280.6s
+[20:11:08]   cross-stream MI (6 pairs, n=200000) done
+[20:12:49]   NIST lane battery (32 lanes/stream): 67.2s; stream-chunk battery (16 chunks/stream): 33.9s
+[20:12:49] generating extraction=1 seed=seedC (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:17:17]   generation done in 267.7s
+[20:17:32]   cross-stream MI (6 pairs, n=200000) done
+[20:19:05]   NIST lane battery (32 lanes/stream): 60.9s; stream-chunk battery (16 chunks/stream): 31.6s
+[20:19:05] generating extraction=2 seed=seedA (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:24:09]   generation done in 304.6s
+[20:24:30]   cross-stream MI (6 pairs, n=200000) done
+[20:29:15]   NIST lane battery (64 lanes/stream): 150.8s; stream-chunk battery (64 chunks/stream): 133.8s
+[20:29:15] generating extraction=2 seed=seedB (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:33:56]   generation done in 280.7s
+[20:34:11]   cross-stream MI (6 pairs, n=200000) done
+[20:35:43]   NIST lane battery (32 lanes/stream): 61.5s; stream-chunk battery (16 chunks/stream): 30.9s
+[20:35:43] generating extraction=2 seed=seedC (125000 bytes/lane, 4 streams, burn_in=1024)
+[20:40:11]   generation done in 267.1s
+[20:40:25]   cross-stream MI (6 pairs, n=200000) done
+[20:42:05]   NIST lane battery (32 lanes/stream): 63.6s; stream-chunk battery (16 chunks/stream): 35.8s
+
+=== stage_b_burnin.py ===
+[20:42:21] generating extraction=1 burn_in=1024 seed=seedA (20000 bytes/lane)
+[20:43:19]   done in 58.0s
+[20:43:34] generating extraction=1 burn_in=2048 seed=seedA (20000 bytes/lane)
+[20:44:37]   done in 63.5s
+[20:44:58] generating extraction=1 burn_in=5000 seed=seedA (20000 bytes/lane)
+[20:45:57]   done in 59.4s
+[20:46:39] generating extraction=1 burn_in=10000 seed=seedA (20000 bytes/lane)
+[20:47:33]   done in 53.6s
+[20:48:54] generating extraction=2 burn_in=1024 seed=seedA (20000 bytes/lane)
+[20:49:38]   done in 44.0s
+[20:49:48] generating extraction=2 burn_in=2048 seed=seedA (20000 bytes/lane)
+[20:50:34]   done in 45.9s
+[20:50:52] generating extraction=2 burn_in=5000 seed=seedA (20000 bytes/lane)
+[20:51:41]   done in 48.1s
+[20:52:22] generating extraction=2 burn_in=10000 seed=seedA (20000 bytes/lane)
+[20:53:16]   done in 54.1s

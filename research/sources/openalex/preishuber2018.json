@@ -1,0 +1,1092 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1109/tifs.2018.2812080",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2790225553",
+  "doi": "https://doi.org/10.1109/tifs.2018.2812080",
+  "title": "Depreciating Motivation and Empirical Security Analysis of Chaos-Based Image and Video Encryption",
+  "display_name": "Depreciating Motivation and Empirical Security Analysis of Chaos-Based Image and Video Encryption",
+  "publication_year": 2018,
+  "publication_date": "2018-03-05",
+  "ids": {
+   "openalex": "https://openalex.org/W2790225553",
+   "doi": "https://doi.org/10.1109/tifs.2018.2812080",
+   "mag": "2790225553"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1109/tifs.2018.2812080",
+   "doi": "https://doi.org/10.1109/tifs.2018.2812080",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/tifs.2018.2812080",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S61310614",
+    "display_name": "IEEE Transactions on Information Forensics and Security",
+    "issn_l": "1556-6013",
+    "issn": [
+     "1556-6013",
+     "1556-6021"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "ccf-a",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-2",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319808",
+    "host_organization_name": "Institute of Electrical and Electronics Engineers",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319808"
+    ],
+    "host_organization_lineage_names": [
+     "Institute of Electrical and Electronics Engineers"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5091475287",
+     "display_name": "Mario Preishuber",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182212641",
+      "display_name": "University of Salzburg",
+      "ror": "https://ror.org/05gs8cd61",
+      "country_code": "AT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ],
+    "countries": [
+     "AT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Mario Preishuber",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, University of Salzburg, Salzburg, Austria"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, University of Salzburg, Salzburg, Austria",
+      "institution_ids": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5060455340",
+     "display_name": "Thomas H\u00fctter",
+     "orcid": "https://orcid.org/0000-0002-7190-6825",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-7190-6825"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182212641",
+      "display_name": "University of Salzburg",
+      "ror": "https://ror.org/05gs8cd61",
+      "country_code": "AT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ],
+    "countries": [
+     "AT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Thomas Hutter",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, University of Salzburg, Salzburg, Austria"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, University of Salzburg, Salzburg, Austria",
+      "institution_ids": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5036400192",
+     "display_name": "Stefan Katzenbeisser",
+     "orcid": "https://orcid.org/0009-0005-3608-874X",
+     "observed_orcids": [
+      "https://orcid.org/0009-0005-3608-874X"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I31512782",
+      "display_name": "Technische Universit\u00e4t Darmstadt",
+      "ror": "https://ror.org/05n911h24",
+      "country_code": "DE",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I31512782"
+      ]
+     }
+    ],
+    "countries": [
+     "DE"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Stefan Katzenbeisser",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, Technische Universit\u00e4t Darmstadt, Darmstadt, Germany"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, Technische Universit\u00e4t Darmstadt, Darmstadt, Germany",
+      "institution_ids": [
+       "https://openalex.org/I31512782"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5062946437",
+     "display_name": "Andreas Uhl",
+     "orcid": "https://orcid.org/0000-0002-5921-8755",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-5921-8755",
+      "https://orcid.org/0000-0001-5489-2989"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I182212641",
+      "display_name": "University of Salzburg",
+      "ror": "https://ror.org/05gs8cd61",
+      "country_code": "AT",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ],
+    "countries": [
+     "AT"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Andreas Uhl",
+    "raw_affiliation_strings": [
+     "Department of Computer Science, University of Salzburg, Salzburg, Austria"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0002-5921-8755",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer Science, University of Salzburg, Salzburg, Austria",
+      "institution_ids": [
+       "https://openalex.org/I182212641"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+   "value": 2645,
+   "currency": "USD",
+   "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 15.3186,
+  "has_fulltext": false,
+  "cited_by_count": 254,
+  "citation_normalized_percentile": {
+   "value": 0.99331159,
+   "is_in_top_1_percent": true,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 99,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "13",
+   "issue": "9",
+   "first_page": "2137",
+   "last_page": "2150"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T13674",
+    "display_name": "Computer Science and Engineering",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/chaos-based-encryption",
+    "display_name": "chaos-based cryptography",
+    "score": 0.9359999895095825
+   },
+   {
+    "id": "https://openalex.org/keywords/image-encryption",
+    "display_name": "image encryption",
+    "score": 0.9629999995231628
+   },
+   {
+    "id": "https://openalex.org/keywords/video-encryption",
+    "display_name": "video encryption",
+    "score": 1.0
+   },
+   {
+    "id": "https://openalex.org/keywords/randomness-testing",
+    "display_name": "randomness testing",
+    "score": 0.6499999761581421
+   },
+   {
+    "id": "https://openalex.org/keywords/security-assessment",
+    "display_name": "security analysis",
+    "score": 0.48899999260902405
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptanalysis",
+    "display_name": "cryptanalysis",
+    "score": 0.6869999766349792
+   },
+   {
+    "id": "https://openalex.org/keywords/security-metrics",
+    "display_name": "security metrics",
+    "score": 0.4950000047683716
+   },
+   {
+    "id": "https://openalex.org/keywords/computational-effort",
+    "display_name": "computational effort",
+    "score": 0.45399999618530273
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.8649921417236328
+   },
+   {
+    "id": "https://openalex.org/C2779374083",
+    "wikidata": "https://www.wikidata.org/wiki/Q5011038",
+    "display_name": "CHAOS (operating system)",
+    "level": 2,
+    "score": 0.8001865148544312
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.7736129760742188
+   },
+   {
+    "id": "https://openalex.org/C54569210",
+    "wikidata": "https://www.wikidata.org/wiki/Q7246854",
+    "display_name": "Probabilistic encryption",
+    "level": 3,
+    "score": 0.6527489423751831
+   },
+   {
+    "id": "https://openalex.org/C115961682",
+    "wikidata": "https://www.wikidata.org/wiki/Q860623",
+    "display_name": "Image (mathematics)",
+    "level": 2,
+    "score": 0.5799687504768372
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.576387345790863
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.524451494216919
+   },
+   {
+    "id": "https://openalex.org/C38369872",
+    "wikidata": "https://www.wikidata.org/wiki/Q7445009",
+    "display_name": "Security analysis",
+    "level": 2,
+    "score": 0.47539934515953064
+   },
+   {
+    "id": "https://openalex.org/C57795399",
+    "wikidata": "https://www.wikidata.org/wiki/Q5265706",
+    "display_name": "Deterministic encryption",
+    "level": 4,
+    "score": 0.4566449820995331
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.4519954025745392
+   },
+   {
+    "id": "https://openalex.org/C46905813",
+    "wikidata": "https://www.wikidata.org/wiki/Q4640678",
+    "display_name": "56-bit encryption",
+    "level": 4,
+    "score": 0.44838476181030273
+   },
+   {
+    "id": "https://openalex.org/C184685986",
+    "wikidata": "https://www.wikidata.org/wiki/Q3505167",
+    "display_name": "Multiple encryption",
+    "level": 3,
+    "score": 0.4356327950954437
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.37111371755599976
+   },
+   {
+    "id": "https://openalex.org/C154945302",
+    "wikidata": "https://www.wikidata.org/wiki/Q11660",
+    "display_name": "Artificial intelligence",
+    "level": 1,
+    "score": 0.2270735800266266
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.1109/tifs.2018.2812080",
+    "doi": "https://doi.org/10.1109/tifs.2018.2812080",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tifs.2018.2812080",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S61310614",
+     "display_name": "IEEE Transactions on Information Forensics and Security",
+     "issn_l": "1556-6013",
+     "issn": [
+      "1556-6013",
+      "1556-6021"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "ccf-a",
+      "cwts-core",
+      "dongbi-a",
+      "jufo-2",
+      "norway-2",
+      "poland-200",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319808",
+     "host_organization_name": "Institute of Electrical and Electronics Engineers",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319808"
+     ],
+     "host_organization_lineage_names": [
+      "Institute of Electrical and Electronics Engineers"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+    "raw_type": "journal-article"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "score": 0.6800000071525574,
+    "id": "https://metadata.un.org/sdg/16",
+    "display_name": "Peace, justice, and strong institutions"
+   }
+  ],
+  "study_designs": [],
+  "awards": [
+   {
+    "id": "https://openalex.org/G6999840980",
+    "display_name": "Metrics for Assessing Visual Security of Image and Video Encryption Schemes",
+    "funder_award_id": "P27776",
+    "funder_id": "https://openalex.org/F4320321181",
+    "funder_display_name": "Austrian Science Fund"
+   }
+  ],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320321181",
+    "display_name": "Austrian Science Fund",
+    "ror": "https://ror.org/013tf3c58"
+   }
+  ],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 73,
+  "referenced_works": [
+   "https://openalex.org/W140162977",
+   "https://openalex.org/W405007189",
+   "https://openalex.org/W610216219",
+   "https://openalex.org/W1059959567",
+   "https://openalex.org/W1130088951",
+   "https://openalex.org/W1502839034",
+   "https://openalex.org/W1517403092",
+   "https://openalex.org/W1552524157",
+   "https://openalex.org/W1556597491",
+   "https://openalex.org/W1577024337",
+   "https://openalex.org/W1750292977",
+   "https://openalex.org/W1824637837",
+   "https://openalex.org/W1884290963",
+   "https://openalex.org/W1963898829",
+   "https://openalex.org/W1967126832",
+   "https://openalex.org/W1974073264",
+   "https://openalex.org/W1976813621",
+   "https://openalex.org/W1978868455",
+   "https://openalex.org/W1980795195",
+   "https://openalex.org/W1984250197",
+   "https://openalex.org/W1993503741",
+   "https://openalex.org/W1994778761",
+   "https://openalex.org/W2001249479",
+   "https://openalex.org/W2005738557",
+   "https://openalex.org/W2005748876",
+   "https://openalex.org/W2006076110",
+   "https://openalex.org/W2007422993",
+   "https://openalex.org/W2013503531",
+   "https://openalex.org/W2026503049",
+   "https://openalex.org/W2029752739",
+   "https://openalex.org/W2033975883",
+   "https://openalex.org/W2038927331",
+   "https://openalex.org/W2041330138",
+   "https://openalex.org/W2045544406",
+   "https://openalex.org/W2049277103",
+   "https://openalex.org/W2052785775",
+   "https://openalex.org/W2053475402",
+   "https://openalex.org/W2057835419",
+   "https://openalex.org/W2060791695",
+   "https://openalex.org/W2062086221",
+   "https://openalex.org/W2079817965",
+   "https://openalex.org/W2081724812",
+   "https://openalex.org/W2090951139",
+   "https://openalex.org/W2092886131",
+   "https://openalex.org/W2094449439",
+   "https://openalex.org/W2099221163",
+   "https://openalex.org/W2100143145",
+   "https://openalex.org/W2100272833",
+   "https://openalex.org/W2115515583",
+   "https://openalex.org/W2124346268",
+   "https://openalex.org/W2132992376",
+   "https://openalex.org/W2144458058",
+   "https://openalex.org/W2144896094",
+   "https://openalex.org/W2147480372",
+   "https://openalex.org/W2150168985",
+   "https://openalex.org/W2150401973",
+   "https://openalex.org/W2152834677",
+   "https://openalex.org/W2157068942",
+   "https://openalex.org/W2161881830",
+   "https://openalex.org/W2164030560",
+   "https://openalex.org/W2170234221",
+   "https://openalex.org/W2170926081",
+   "https://openalex.org/W2185055537",
+   "https://openalex.org/W2289003196",
+   "https://openalex.org/W2425286230",
+   "https://openalex.org/W2523137896",
+   "https://openalex.org/W2596594906",
+   "https://openalex.org/W2604360450",
+   "https://openalex.org/W2914810349",
+   "https://openalex.org/W4237773508",
+   "https://openalex.org/W4285719527",
+   "https://openalex.org/W6678456162",
+   "https://openalex.org/W6734375639"
+  ],
+  "related_works": [
+   "https://openalex.org/W2389178160",
+   "https://openalex.org/W2355986883",
+   "https://openalex.org/W2545514196",
+   "https://openalex.org/W2144246620",
+   "https://openalex.org/W2564633714",
+   "https://openalex.org/W2184870945",
+   "https://openalex.org/W3211136635",
+   "https://openalex.org/W2994118162",
+   "https://openalex.org/W1988224692",
+   "https://openalex.org/W2391125300"
+  ],
+  "abstract_inverted_index": {
+   "Over": [
+    0
+   ],
+   "the": [
+    1,
+    81,
+    150
+   ],
+   "past": [
+    2
+   ],
+   "years,": [
+    3
+   ],
+   "an": [
+    4
+   ],
+   "enormous": [
+    5
+   ],
+   "variety": [
+    6
+   ],
+   "of": [
+    7,
+    34,
+    83,
+    112,
+    136
+   ],
+   "different": [
+    8
+   ],
+   "chaos-based": [
+    9,
+    54,
+    84
+   ],
+   "image": [
+    10,
+    55
+   ],
+   "and": [
+    11,
+    18,
+    65,
+    103
+   ],
+   "video": [
+    12
+   ],
+   "encryption": [
+    13,
+    56,
+    85,
+    101,
+    156
+   ],
+   "algorithms": [
+    14
+   ],
+   "have": [
+    15
+   ],
+   "been": [
+    16
+   ],
+   "proposed": [
+    17
+   ],
+   "published.": [
+    19
+   ],
+   "While": [
+    20
+   ],
+   "any": [
+    21
+   ],
+   "algorithm": [
+    22
+   ],
+   "published": [
+    23
+   ],
+   "undergoes": [
+    24
+   ],
+   "some": [
+    25
+   ],
+   "more": [
+    26
+   ],
+   "or": [
+    27
+   ],
+   "less": [
+    28
+   ],
+   "strict": [
+    29
+   ],
+   "experimental": [
+    30
+   ],
+   "security": [
+    31,
+    66,
+    82,
+    91,
+    140,
+    151
+   ],
+   "analysis,": [
+    32
+   ],
+   "many": [
+    33
+   ],
+   "those": [
+    35
+   ],
+   "schemes": [
+    36,
+    102,
+    157
+   ],
+   "are": [
+    37,
+    68,
+    87,
+    145
+   ],
+   "being": [
+    38
+   ],
+   "broken": [
+    39
+   ],
+   "in": [
+    40,
+    142
+   ],
+   "subsequent": [
+    41
+   ],
+   "publications.": [
+    42
+   ],
+   "In": [
+    43,
+    115
+   ],
+   "this": [
+    44,
+    95,
+    137
+   ],
+   "paper,": [
+    45,
+    138
+   ],
+   "we": [
+    46
+   ],
+   "show": [
+    47
+   ],
+   "that": [
+    48,
+    73,
+    105
+   ],
+   "two": [
+    49
+   ],
+   "main": [
+    50
+   ],
+   "motivations": [
+    51
+   ],
+   "for": [
+    52,
+    90,
+    131,
+    149,
+    153
+   ],
+   "preferring": [
+    53
+   ],
+   "over": [
+    57
+   ],
+   "classical": [
+    58
+   ],
+   "strong": [
+    59
+   ],
+   "cryptographic": [
+    60
+   ],
+   "encryption,": [
+    61
+   ],
+   "namely": [
+    62
+   ],
+   "computational": [
+    63
+   ],
+   "effort": [
+    64
+   ],
+   "benefits,": [
+    67
+   ],
+   "highly": [
+    69
+   ],
+   "questionable.": [
+    70
+   ],
+   "We": [
+    71,
+    93
+   ],
+   "demonstrate": [
+    72
+   ],
+   "several": [
+    74,
+    111,
+    139
+   ],
+   "statistical": [
+    75
+   ],
+   "tests,": [
+    76
+   ],
+   "commonly": [
+    77
+   ],
+   "used": [
+    78
+   ],
+   "to": [
+    79,
+    159
+   ],
+   "assess": [
+    80
+   ],
+   "schemes,": [
+    86
+   ],
+   "insufficient": [
+    88
+   ],
+   "metrics": [
+    89
+   ],
+   "analysis.": [
+    92
+   ],
+   "do": [
+    94
+   ],
+   "experimentally": [
+    96
+   ],
+   "by": [
+    97,
+    125
+   ],
+   "constructing": [
+    98
+   ],
+   "obviously": [
+    99
+   ],
+   "insecure": [
+    100
+   ],
+   "demonstrating": [
+    104
+   ],
+   "they": [
+    106
+   ],
+   "perform": [
+    107
+   ],
+   "well": [
+    108
+   ],
+   "and/or": [
+    109
+   ],
+   "pass": [
+    110
+   ],
+   "these": [
+    113,
+    117
+   ],
+   "tests.": [
+    114
+   ],
+   "conclusion,": [
+    116
+   ],
+   "tests": [
+    118
+   ],
+   "can": [
+    119
+   ],
+   "only": [
+    120
+   ],
+   "give": [
+    121
+   ],
+   "a": [
+    122,
+    128,
+    134
+   ],
+   "necessary,": [
+    123
+   ],
+   "but": [
+    124
+   ],
+   "no": [
+    126
+   ],
+   "means": [
+    127
+   ],
+   "sufficient": [
+    129
+   ],
+   "condition": [
+    130
+   ],
+   "security.": [
+    132
+   ],
+   "As": [
+    133
+   ],
+   "consequence": [
+    135
+   ],
+   "analyses": [
+    141
+   ],
+   "related": [
+    143
+   ],
+   "work": [
+    144
+   ],
+   "questionable;": [
+    146
+   ],
+   "further,": [
+    147
+   ],
+   "methodologies": [
+    148
+   ],
+   "assessment": [
+    152
+   ],
+   "chaos": [
+    154
+   ],
+   "based": [
+    155
+   ],
+   "need": [
+    158
+   ],
+   "be": [
+    160
+   ],
+   "entirely": [
+    161
+   ],
+   "reconsidered.": [
+    162
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 7
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 23
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 23
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 29
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 48
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 34
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 51
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 32
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 7
+   }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

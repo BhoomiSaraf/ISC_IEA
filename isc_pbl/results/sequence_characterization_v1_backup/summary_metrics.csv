@@ -1,0 +1,12 @@
+Section,Metric,Value,Notes
+Continuous,X_Mean,-0.035323964973034166,Baseline parameter
+Continuous,X_Std,0.7034330359362048,Theoretical Arcsine = ~0.7071
+Continuous,Y_Mean,-0.05552043501536168,Baseline parameter
+Continuous,Y_Std,0.7111897410574175,Theoretical Arcsine = ~0.7071
+Correlation,XY_Pearson_r,0.005759144120288798,Zero-lag correlation
+Correlation,XY_Mutual_Info,0.06067062016535684,Binned continuous MI
+Quantisation_DE,DE_k13_X_Chi2,268.017152,p=2.7549e-01
+Quantisation_DE,DE_k14_X_Chi2,234.072576,p=8.2215e-01
+Quantisation_DE,DE_k15_X_Chi2,254.94579199999998,p=4.8918e-01
+Quantisation_DE,DE_k16_X_Chi2,80290.634752,p=0.0000e+00
+Quantisation_Arccos,Arccos_X_Chi2,5258.977279999999,p=0.0000e+00

@@ -1,0 +1,569 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.jisa.2020.102566",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T10:58:41Z",
+   "timestamp": 1790506721527,
+   "version": "4.1.0"
+  },
+  "reference-count": 29,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       10,
+       1
+      ]
+     ],
+     "date-time": "2020-10-01T00:00:00Z",
+     "timestamp": 1601510400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       10,
+       1
+      ]
+     ],
+     "date-time": "2020-10-01T00:00:00Z",
+     "timestamp": 1601510400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of Information Security and Applications"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jisa.2020.102566",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2020,
+     7,
+     23
+    ]
+   ],
+   "date-time": "2020-07-23T04:56:50Z",
+   "timestamp": 1595480210000
+  },
+  "page": "102566",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 46,
+  "special_numbering": "C",
+  "title": [
+   "Cryptanalysis of an image block encryption algorithm based on chaotic maps"
+  ],
+  "prefix": "10.1016",
+  "volume": "54",
+  "author": [
+   {
+    "given": "Yunling",
+    "family": "Ma",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chengqing",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bo",
+    "family": "Ou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "5",
+    "key": "10.1016/j.jisa.2020.102566_bib0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "560",
+    "DOI": "10.1016/j.tele.2016.11.006",
+    "article-title": "Personality traits and psychological motivations predicting selfie posting behaviors on social networking sites",
+    "volume": "34",
+    "author": "Kim",
+    "year": "2017",
+    "journal-title": "Telematics and Informatics"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "180",
+    "DOI": "10.1016/j.ins.2016.09.056",
+    "article-title": "Server-aided private set intersection based on reputation",
+    "volume": "387",
+    "author": "Zhang",
+    "year": "2017",
+    "journal-title": "Inf Sci (Ny)"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0003",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1155/2015/462345",
+    "article-title": "Verifiable rational secret sharing scheme in mobile networks",
+    "volume": "2015",
+    "author": "Zhang",
+    "year": "2015",
+    "journal-title": "Mobile Information Systems"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0004",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.jisa.2019.102361",
+    "article-title": "When an attacker meets a cipher-image in 2018: a year in review",
+    "volume": "48",
+    "author": "Li",
+    "year": "2019",
+    "journal-title": "Journal of Information Security and Applications"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "8660",
+    "DOI": "10.1109/ACCESS.2018.2890116",
+    "article-title": "Image encryption using josephus problem and filtering diffusion",
+    "volume": "7",
+    "author": "Hua",
+    "year": "2019",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jisa.2020.102566_bib0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "2129",
+    "DOI": "10.1142/S0218127406015970",
+    "article-title": "Some basic cryptographic requirements for chaos-based cryptosystems",
+    "volume": "16",
+    "author": "\u00c1lvarez",
+    "year": "2006",
+    "journal-title": "Int J Bifurcation Chaos"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jisa.2020.102566_bib0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "4767",
+    "DOI": "10.1109/TCSI.2019.2933365",
+    "article-title": "Generating multi-scroll chua\u2019s attractors via simplified piecewise-linear chua\u2019s diode",
+    "volume": "66",
+    "author": "Wang",
+    "year": "2019",
+    "journal-title": "IEEE Trans Circuits Syst I Regul Pap"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0008",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.sigpro.2020.107484",
+    "article-title": "A novel image encryption scheme based on conservative hyperchaotic system and closed-loop diffusion between blocks",
+    "volume": "171",
+    "author": "Zhou",
+    "year": "2020",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "191",
+    "DOI": "10.1016/j.ins.2019.10.070",
+    "article-title": "Design and implementation of a simple dynamical 4-D chaotic circuit with applications in image encryption",
+    "volume": "515",
+    "author": "Tsafack",
+    "year": "2020",
+    "journal-title": "Inf Sci (Ny)"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "237",
+    "DOI": "10.1016/j.ins.2016.01.017",
+    "article-title": "Image encryption using 2D logistic-adjusted-Sine map",
+    "volume": "339",
+    "author": "Hua",
+    "year": "2016",
+    "journal-title": "Inf Sci (Ny)"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2020.102566_sbref0011",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S0218127419501244",
+    "article-title": "A pseudorandom number generator based on a 4Dpiecewise logistic map with coupled parameters",
+    "volume": "29",
+    "author": "Wang",
+    "year": "2019",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jisa.2020.102566_bib0012",
+    "first-page": "2549",
+    "article-title": "DNA Key based visual chaotic image encryption",
+    "volume": "37",
+    "author": "Khan",
+    "year": "2019",
+    "journal-title": "Journal of Intelligent & Fuzzy Systems"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0013",
+    "doi-asserted-by": "crossref",
+    "first-page": "107280",
+    "DOI": "10.1016/j.sigpro.2019.107280",
+    "article-title": "A novel image encryption system merging fractional-order edge detection and generalized chaotic maps",
+    "volume": "167",
+    "author": "Ismail",
+    "year": "2020",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/BF01692494",
+    "article-title": "Disjointness in ergodic theory, minimal sets, and a problem in diophantine approximation",
+    "volume": "1",
+    "author": "Furstenberg",
+    "year": "1967",
+    "journal-title": "Mathematical Systems Theory"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_sbref0015",
+    "article-title": "Counteracting dynamical degradation of digital chaotic chebyshev map via perturbation",
+    "volume": "27",
+    "author": "Liu",
+    "year": "2017",
+    "journal-title": "International Journal of Bifurcation and Chaos"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2020.102566_bib0016",
+    "doi-asserted-by": "crossref",
+    "first-page": "46",
+    "DOI": "10.1109/MMUL.2018.2873472",
+    "article-title": "Cryptanalyzing an image encryption algorithm based on autoblocking and electrocardiography",
+    "volume": "25",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Multimedia"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jisa.2020.102566_bib0017",
+    "doi-asserted-by": "crossref",
+    "first-page": "2322",
+    "DOI": "10.1109/TCSI.2018.2888688",
+    "article-title": "Dynamic analysis of digital chaotic maps via state-mapping networks",
+    "volume": "66",
+    "author": "Li",
+    "year": "2019",
+    "journal-title": "IEEE Trans Circuits Syst I Regul Pap"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jisa.2020.102566_bib0018",
+    "doi-asserted-by": "crossref",
+    "first-page": "92",
+    "DOI": "10.1109/MMUL.2018.112142439",
+    "article-title": "Cryptanalysis and improvement of a chaotic image encryption by first-order time-delay system",
+    "volume": "25",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Multimedia"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0019",
+    "doi-asserted-by": "crossref",
+    "first-page": "305",
+    "DOI": "10.1007/s11071-018-4056-x",
+    "article-title": "Brief review on application of nonlinear dynamics in image encryption",
+    "volume": "92",
+    "author": "\u00d6zkaynak",
+    "year": "2018",
+    "journal-title": "Nonlinear Dyn"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "18759",
+    "DOI": "10.1109/ACCESS.2018.2817600",
+    "article-title": "Cryptanalyzing and improving a novel color image encryption algorithm using RT-enhanced chaotic tent maps",
+    "volume": "6",
+    "author": "Zhu",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2020.102566_bib0021",
+    "doi-asserted-by": "crossref",
+    "first-page": "191",
+    "DOI": "10.1109/TNSM.2020.2969863",
+    "article-title": "Secure data encryption based on quantum walks for 5G internet of things scenario",
+    "volume": "17",
+    "author": "El-Latif",
+    "year": "2020",
+    "journal-title": "IEEE Trans Netw Serv Manage"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0022",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1049/iet-spr.2016.0584",
+    "article-title": "Image block encryption algorithm based on chaotic maps",
+    "volume": "12",
+    "author": "Liu",
+    "year": "2017",
+    "journal-title": "IET Signal Proc"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0023",
+    "doi-asserted-by": "crossref",
+    "first-page": "75834",
+    "DOI": "10.1109/ACCESS.2018.2883690",
+    "article-title": "Cryptanalysis of a chaotic image encryption algorithm based on information entropy",
+    "volume": "6",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jisa.2020.102566_bib0024",
+    "doi-asserted-by": "crossref",
+    "first-page": "949",
+    "DOI": "10.1016/j.sigpro.2010.09.014",
+    "article-title": "Optimal quantitative cryptanalysis of permutation-only multimedia ciphers against plaintext attacks",
+    "volume": "91",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "28",
+    "DOI": "10.1016/j.sigpro.2017.08.018",
+    "article-title": "Cryptanalysis of a color image encryption using chaotic APFM nonlinear adaptive filter",
+    "volume": "143",
+    "author": "Fan",
+    "year": "2018",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_bib0026",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1016/j.sigpro.2015.07.008",
+    "article-title": "Cracking a hierarchical chaotic image encryption algorithm based on permutation",
+    "volume": "118",
+    "author": "Li",
+    "year": "2016",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jisa.2020.102566_bib0027",
+    "doi-asserted-by": "crossref",
+    "first-page": "2137",
+    "DOI": "10.1109/TIFS.2018.2812080",
+    "article-title": "Depreciating motivation and empirical security analysis of chaos-based image and video encryption",
+    "volume": "13",
+    "author": "Preishuber",
+    "year": "2018",
+    "journal-title": "IEEE Trans Inf Forensics Secur"
+   },
+   {
+    "key": "10.1016/j.jisa.2020.102566_sbref0028",
+    "series-title": "The graph structure of the generalized discrete Arnold\u2019s Cat map",
+    "author": "Li",
+    "year": "2019"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jisa.2020.102566_bib0029",
+    "doi-asserted-by": "crossref",
+    "first-page": "831",
+    "DOI": "10.1007/s11071-019-05015-4",
+    "article-title": "Analysing the dynamics of digital chaotic maps via a new period search algorithm",
+    "volume": "97",
+    "author": "Fan",
+    "year": "2019",
+    "journal-title": "Nonlinear Dyn"
+   }
+  ],
+  "container-title": [
+   "Journal of Information Security and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2214212620301629?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2214212620301629?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     1
+    ]
+   ],
+   "date-time": "2025-11-01T11:56:02Z",
+   "timestamp": 1761998162000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2214212620301629"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     10
+    ]
+   ]
+  },
+  "references-count": 29,
+  "alternative-id": [
+   "S2214212620301629"
+  ],
+  "URL": "https://doi.org/10.1016/j.jisa.2020.102566",
+  "relation": {},
+  "ISSN": [
+   "2214-2126"
+  ],
+  "issn-type": [
+   {
+    "value": "2214-2126",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     10
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Cryptanalysis of an image block encryption algorithm based on chaotic maps",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Journal of Information Security and Applications",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.jisa.2020.102566",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2020 Elsevier Ltd. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ],
+  "article-number": "102566"
+ }
+}

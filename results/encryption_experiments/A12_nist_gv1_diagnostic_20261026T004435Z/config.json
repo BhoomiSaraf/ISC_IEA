@@ -1,0 +1,17 @@
+{
+ "generator": "G_v1 (profile 1, HKDF seeds, 4 streams x 64 lanes, T = 1024)",
+ "sequences_per_batch": 2,
+ "bits_per_sequence": 1000000,
+ "message_dims_for_ctx": [
+  250,
+  500,
+  1
+ ],
+ "batches": [
+  "fwd stream",
+  "perm stream (raw bytes)",
+  "single-lane sequences"
+ ],
+ "experiment": "A12_nist_gv1",
+ "mode": "diagnostic"
+}

@@ -1,0 +1,28 @@
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0238
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1306
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  9.295939 p_value = 0.097827
+SUCCESS		x = -3 chi^2 =  8.136385 p_value = 0.148878
+SUCCESS		x = -2 chi^2 =  1.429679 p_value = 0.921039
+SUCCESS		x = -1 chi^2 =  1.306279 p_value = 0.934284
+SUCCESS		x =  1 chi^2 =  5.820827 p_value = 0.324046
+SUCCESS		x =  2 chi^2 =  5.834080 p_value = 0.322700
+SUCCESS		x =  3 chi^2 =  1.657972 p_value = 0.894151
+FAILURE		x =  4 chi^2 = 16.679093 p_value = 0.005150
+

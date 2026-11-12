@@ -1,0 +1,614 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1109/iscas.2003.1204947",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W1849280677",
+  "doi": "https://doi.org/10.1109/iscas.2003.1204947",
+  "title": "Public-key encryption based on Chebyshev maps",
+  "display_name": "Public-key encryption based on Chebyshev maps",
+  "publication_year": 2003,
+  "publication_date": "2003-11-21",
+  "ids": {
+   "openalex": "https://openalex.org/W1849280677",
+   "doi": "https://doi.org/10.1109/iscas.2003.1204947",
+   "mag": "1849280677"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1109/iscas.2003.1204947",
+   "doi": "https://doi.org/10.1109/iscas.2003.1204947",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1109/iscas.2003.1204947",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the 2003 International Symposium on Circuits and Systems, 2003. ISCAS '03.",
+   "raw_type": "proceedings-article"
+  },
+  "volume": null,
+  "type": "conference-paper",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5028515169",
+     "display_name": "Ljup\u010do Kocarev",
+     "orcid": "https://orcid.org/0000-0001-7243-7074",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-7243-7074"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2803209242",
+      "display_name": "University of California System",
+      "ror": "https://ror.org/00pjdza24",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2803209242"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "L. Kocarev",
+    "raw_affiliation_strings": [
+     "Institute for Nonlinear Science, University of California, La Jolla, CA, USA",
+     "Inst. for Nonlinear Sci., California Univ., San Diego, La Jolla, CA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Nonlinear Science, University of California, La Jolla, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I2803209242"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Inst. for Nonlinear Sci., California Univ., San Diego, La Jolla, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5037097226",
+     "display_name": "\u017darko Tasev",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I2803209242",
+      "display_name": "University of California System",
+      "ror": "https://ror.org/00pjdza24",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I2803209242"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Z. Tasev",
+    "raw_affiliation_strings": [
+     "Institute for Nonlinear Science, University of California, La Jolla, CA, USA",
+     "Inst. for Nonlinear Sci., California Univ., San Diego, La Jolla, CA, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Institute for Nonlinear Science, University of California, La Jolla, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I2803209242"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Inst. for Nonlinear Sci., California Univ., San Diego, La Jolla, CA, USA",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.4488,
+  "has_fulltext": false,
+  "cited_by_count": 195,
+  "citation_normalized_percentile": {
+   "value": 0.93362986,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 96,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "3",
+   "issue": null,
+   "first_page": "III",
+   "last_page": "28"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 0.6812000274658203,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.6812000274658203,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10237",
+    "display_name": "Cryptography and Data Security",
+    "score": 0.22840000689029694,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11693",
+    "display_name": "Cryptography and Residue Arithmetic",
+    "score": 0.051500000059604645,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1710",
+     "display_name": "Information Systems"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/public-key-encryption",
+    "display_name": "public-key encryption",
+    "score": 0.9950000047683716
+   },
+   {
+    "id": "https://openalex.org/keywords/chebyshev-map",
+    "display_name": "Chebyshev map",
+    "score": 0.9900000095367432
+   },
+   {
+    "id": "https://openalex.org/keywords/chaotic-maps",
+    "display_name": "chaotic maps",
+    "score": 0.7070000171661377
+   },
+   {
+    "id": "https://openalex.org/keywords/digital-signatures",
+    "display_name": "digital signatures",
+    "score": 0.8849999904632568
+   },
+   {
+    "id": "https://openalex.org/keywords/chaos-based-encryption",
+    "display_name": "chaos-based cryptography",
+    "score": 0.5529999732971191
+   },
+   {
+    "id": "https://openalex.org/keywords/software-implementation",
+    "display_name": "software implementation",
+    "score": 0.5559999942779541
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.7523089647293091
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.7179198861122131
+   },
+   {
+    "id": "https://openalex.org/C21424316",
+    "wikidata": "https://www.wikidata.org/wiki/Q718621",
+    "display_name": "Chebyshev filter",
+    "level": 2,
+    "score": 0.6945046186447144
+   },
+   {
+    "id": "https://openalex.org/C118463975",
+    "wikidata": "https://www.wikidata.org/wiki/Q220849",
+    "display_name": "Digital signature",
+    "level": 3,
+    "score": 0.6762800812721252
+   },
+   {
+    "id": "https://openalex.org/C203062551",
+    "wikidata": "https://www.wikidata.org/wiki/Q201339",
+    "display_name": "Public-key cryptography",
+    "level": 3,
+    "score": 0.6740949153900146
+   },
+   {
+    "id": "https://openalex.org/C26517878",
+    "wikidata": "https://www.wikidata.org/wiki/Q228039",
+    "display_name": "Key (lock)",
+    "level": 2,
+    "score": 0.6361944079399109
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.46933332085609436
+   },
+   {
+    "id": "https://openalex.org/C54569210",
+    "wikidata": "https://www.wikidata.org/wiki/Q7246854",
+    "display_name": "Probabilistic encryption",
+    "level": 3,
+    "score": 0.4644038677215576
+   },
+   {
+    "id": "https://openalex.org/C2779696439",
+    "wikidata": "https://www.wikidata.org/wiki/Q7512811",
+    "display_name": "Signature (topology)",
+    "level": 2,
+    "score": 0.4334612488746643
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.3372949957847595
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.32565081119537354
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.19268497824668884
+   },
+   {
+    "id": "https://openalex.org/C31972630",
+    "wikidata": "https://www.wikidata.org/wiki/Q844240",
+    "display_name": "Computer vision",
+    "level": 1,
+    "score": 0.07477128505706787
+   },
+   {
+    "id": "https://openalex.org/C99138194",
+    "wikidata": "https://www.wikidata.org/wiki/Q183427",
+    "display_name": "Hash function",
+    "level": 2,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C2524010",
+    "wikidata": "https://www.wikidata.org/wiki/Q8087",
+    "display_name": "Geometry",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.1109/iscas.2003.1204947",
+    "doi": "https://doi.org/10.1109/iscas.2003.1204947",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/iscas.2003.1204947",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the 2003 International Symposium on Circuits and Systems, 2003. ISCAS '03.",
+    "raw_type": "proceedings-article"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 11,
+  "referenced_works": [
+   "https://openalex.org/W1660562555",
+   "https://openalex.org/W1970442252",
+   "https://openalex.org/W1995875735",
+   "https://openalex.org/W2005864986",
+   "https://openalex.org/W2025266594",
+   "https://openalex.org/W2059998776",
+   "https://openalex.org/W2109394932",
+   "https://openalex.org/W2156186849",
+   "https://openalex.org/W2599437684",
+   "https://openalex.org/W4235059123",
+   "https://openalex.org/W6636975353"
+  ],
+  "related_works": [
+   "https://openalex.org/W3209325202",
+   "https://openalex.org/W3129130129",
+   "https://openalex.org/W2558023823",
+   "https://openalex.org/W2969821712",
+   "https://openalex.org/W2049702087",
+   "https://openalex.org/W1542548105",
+   "https://openalex.org/W3107515487",
+   "https://openalex.org/W2463119508",
+   "https://openalex.org/W1849280677",
+   "https://openalex.org/W2388085307"
+  ],
+  "abstract_inverted_index": {
+   "We": [
+    0
+   ],
+   "propose": [
+    1
+   ],
+   "a": [
+    2
+   ],
+   "public-key": [
+    3
+   ],
+   "encryption": [
+    4,
+    20
+   ],
+   "algorithm": [
+    5,
+    30
+   ],
+   "based": [
+    6
+   ],
+   "on": [
+    7
+   ],
+   "Chebyshev": [
+    8
+   ],
+   "maps,": [
+    9
+   ],
+   "which": [
+    10
+   ],
+   "is": [
+    11
+   ],
+   "secure,": [
+    12
+   ],
+   "practical,": [
+    13
+   ],
+   "and": [
+    14,
+    21,
+    26
+   ],
+   "can": [
+    15
+   ],
+   "be": [
+    16
+   ],
+   "used": [
+    17
+   ],
+   "for": [
+    18
+   ],
+   "both": [
+    19
+   ],
+   "digital": [
+    22
+   ],
+   "signature.": [
+    23
+   ],
+   "Software": [
+    24
+   ],
+   "implementation": [
+    25
+   ],
+   "properties": [
+    27
+   ],
+   "of": [
+    28
+   ],
+   "the": [
+    29
+   ],
+   "are": [
+    31
+   ],
+   "discussed": [
+    32
+   ],
+   "in": [
+    33
+   ],
+   "detail.": [
+    34
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 2
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 7
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 7
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 10
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 8
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 10
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 9
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 12
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 17
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 5
+   }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

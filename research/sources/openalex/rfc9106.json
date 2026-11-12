@@ -1,0 +1,384 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.17487/rfc9106",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W3198445466",
+  "doi": "https://doi.org/10.17487/rfc9106",
+  "title": "Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications",
+  "display_name": "Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications",
+  "publication_year": 2021,
+  "publication_date": "2021-09-01",
+  "ids": {
+   "openalex": "https://openalex.org/W3198445466",
+   "doi": "https://doi.org/10.17487/rfc9106",
+   "mag": "3198445466"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.17487/rfc9106",
+   "doi": "https://doi.org/10.17487/rfc9106",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.17487/rfc9106",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": null,
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5072754929",
+     "display_name": "Alex Biryukov",
+     "orcid": "https://orcid.org/0000-0003-1404-6686",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-1404-6686"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "A. Biryukov",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": null,
+     "display_name": "D. Dinu",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "D. Dinu",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5059822476",
+     "display_name": "Dmitry Khovratovich",
+     "orcid": "https://orcid.org/0009-0001-0347-3378",
+     "observed_orcids": [
+      "https://orcid.org/0009-0001-0347-3378"
+     ]
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "D. Khovratovich",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5012626344",
+     "display_name": "Simon Josefsson",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [],
+    "countries": [],
+    "is_corresponding": false,
+    "raw_author_name": "S. Josefsson",
+    "raw_affiliation_strings": [],
+    "raw_orcid": null,
+    "affiliations": []
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 28,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 0.7422000169754028,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.7422000169754028,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11800",
+    "display_name": "User Authentication and Security Systems",
+    "score": 0.08820000290870667,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1710",
+     "display_name": "Information Systems"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10237",
+    "display_name": "Cryptography and Data Security",
+    "score": 0.018699999898672104,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/argon2",
+    "display_name": "Argon2",
+    "score": 0.9729999899864197
+   },
+   {
+    "id": "https://openalex.org/keywords/memory-hard-functions",
+    "display_name": "memory-hard functions",
+    "score": 0.8349999785423279
+   },
+   {
+    "id": "https://openalex.org/keywords/password-hashing",
+    "display_name": "password hashing",
+    "score": 0.9950000047683716
+   },
+   {
+    "id": "https://openalex.org/keywords/proof-of-work",
+    "display_name": "proof-of-work",
+    "score": 0.9800000190734863
+   },
+   {
+    "id": "https://openalex.org/keywords/key-derivation",
+    "display_name": "key derivation",
+    "score": 0.6349999904632568
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C109297577",
+    "wikidata": "https://www.wikidata.org/wiki/Q161157",
+    "display_name": "Password",
+    "level": 2,
+    "score": 0.6864080429077148
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.6732869148254395
+   },
+   {
+    "id": "https://openalex.org/C99138194",
+    "wikidata": "https://www.wikidata.org/wiki/Q183427",
+    "display_name": "Hash function",
+    "level": 2,
+    "score": 0.672414243221283
+   },
+   {
+    "id": "https://openalex.org/C116058348",
+    "wikidata": "https://www.wikidata.org/wiki/Q846912",
+    "display_name": "Universal hashing",
+    "level": 5,
+    "score": 0.5981274247169495
+   },
+   {
+    "id": "https://openalex.org/C123436394",
+    "wikidata": "https://www.wikidata.org/wiki/Q7249984",
+    "display_name": "Proof-of-work system",
+    "level": 3,
+    "score": 0.5630427002906799
+   },
+   {
+    "id": "https://openalex.org/C77088390",
+    "wikidata": "https://www.wikidata.org/wiki/Q8513",
+    "display_name": "Database",
+    "level": 1,
+    "score": 0.32235702872276306
+   },
+   {
+    "id": "https://openalex.org/C67388219",
+    "wikidata": "https://www.wikidata.org/wiki/Q207440",
+    "display_name": "Hash table",
+    "level": 3,
+    "score": 0.3171597719192505
+   },
+   {
+    "id": "https://openalex.org/C199360897",
+    "wikidata": "https://www.wikidata.org/wiki/Q9143",
+    "display_name": "Programming language",
+    "level": 1,
+    "score": 0.31015586853027344
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.2775840759277344
+   },
+   {
+    "id": "https://openalex.org/C138111711",
+    "wikidata": "https://www.wikidata.org/wiki/Q478351",
+    "display_name": "Double hashing",
+    "level": 4,
+    "score": 0.10451608896255493
+   },
+   {
+    "id": "https://openalex.org/C180706569",
+    "wikidata": "https://www.wikidata.org/wiki/Q13479982",
+    "display_name": "Cryptocurrency",
+    "level": 2,
+    "score": 0.07520735263824463
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.17487/rfc9106",
+    "doi": "https://doi.org/10.17487/rfc9106",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.17487/rfc9106",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+   "https://openalex.org/W4297726362",
+   "https://openalex.org/W4362501973",
+   "https://openalex.org/W2132034299",
+   "https://openalex.org/W3124800526",
+   "https://openalex.org/W1835589799",
+   "https://openalex.org/W2088296667",
+   "https://openalex.org/W1551533237",
+   "https://openalex.org/W4251536634",
+   "https://openalex.org/W2144265691",
+   "https://openalex.org/W4385261619"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 7
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 9
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 4
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-22T09:42:04.148104",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

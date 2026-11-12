@@ -1,0 +1,28 @@
+{
+  "shared_unknowns": {
+    "S": "bijection on Z_256 (256 byte values, constrained to be a permutation)",
+    "S_inv": "inverse of S (not independent -- determined by S)",
+    "pi": "permutation of {0..n-1} (byte-position permutation), fixed for a given (h,w,c)",
+    "a": "n bytes in Z_256 (forward diffusion stream)",
+    "b": "n bytes in Z_256 (backward diffusion stream)",
+    "iv_f": "1 byte in Z_256",
+    "iv_b": "1 byte in Z_256"
+  },
+  "per_message_known": {
+    "p_i": "n known plaintext bytes (chosen/known by the attacker)",
+    "c_i": "n known ciphertext BODY bytes (header/nonce/tag excluded per experimental validity rules)"
+  },
+  "per_message_derived_not_free": {
+    "q_i_k": "p_i[pi(k)]",
+    "u_i_k": "S[(q_i_k + u_i_{k-1} + a_k) mod 256], u_i_{-1} = iv_f",
+    "c_i_k": "S[(u_i_k + c_i_{k+1} + b_k) mod 256], c_i_n = iv_b"
+  },
+  "key_structural_fact": "u^(i) and c^(i) are deterministic functions of (S, pi, a, b, iv_f, iv_b, p^(i)); they are not independent free variables. The problem is a constraint-satisfaction search over (S, pi, a, b, iv_f, iv_b), not a linear system to invert.",
+  "equations_per_message": "2n byte-equality constraints (n forward S-applications implicitly checked via the final backward output matching c_i exactly over all n positions)",
+  "bijectivity_constraints": {
+    "S": "256 values must be a permutation of {0..255} (S injective & total)",
+    "pi": "n values must be a permutation of {0..n-1}"
+  },
+  "cross_message_sharing": "S, pi, a, b, iv_f, iv_b are IDENTICAL across all M messages (this is the nonce-reuse premise); only p^(i) (hence q^(i), u^(i), c^(i)) vary per message.",
+  "success_criterion": "NOT exact recovery of (S, pi, a, b, iv_f, iv_b). Success = recovering ANY tuple (possibly a different, functionally-equivalent tuple) that correctly predicts c^(target) from p^(target), or equivalently decrypts an unseen c^(target) to the correct p^(target), for a message not among the known pairs."
+}

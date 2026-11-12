@@ -1,0 +1,1063 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1142/s021812749800098x",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2060791695",
+  "doi": "https://doi.org/10.1142/s021812749800098x",
+  "title": "Symmetric Ciphers Based on Two-Dimensional Chaotic Maps",
+  "display_name": "Symmetric Ciphers Based on Two-Dimensional Chaotic Maps",
+  "publication_year": 1998,
+  "publication_date": "1998-06-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2060791695",
+   "doi": "https://doi.org/10.1142/s021812749800098x",
+   "mag": "2060791695"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1142/s021812749800098x",
+   "doi": "https://doi.org/10.1142/s021812749800098x",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1142/s021812749800098x",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S81011612",
+    "display_name": "International Journal of Bifurcation and Chaos",
+    "issn_l": "0218-1274",
+    "issn": [
+     "0218-1274",
+     "1793-6551"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-d",
+     "jufo-1",
+     "norway-1",
+     "poland-70",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319815",
+    "host_organization_name": "World Scientific",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319815"
+    ],
+    "host_organization_lineage_names": [
+     "World Scientific"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Journal of Bifurcation and Chaos",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": false,
+   "oa_status": "closed",
+   "oa_url": null,
+   "any_repository_has_fulltext": false
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5047878801",
+     "display_name": "Ji\u0159\u00ed Fridrich",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I123946342",
+      "display_name": "Binghamton University",
+      "ror": "https://ror.org/008rmbt77",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I123946342"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Jiri Fridrich",
+    "raw_affiliation_strings": [
+     "Center for Intelligent Systems, Department of Systems Science and Industrial Engineering, SUNY Binghamton, Binghamton, NY 13902-6000, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Center for Intelligent Systems, Department of Systems Science and Industrial Engineering, SUNY Binghamton, Binghamton, NY 13902-6000, USA",
+      "institution_ids": [
+       "https://openalex.org/I123946342"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5047878801"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I123946342"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 4.6383,
+  "has_fulltext": false,
+  "cited_by_count": 1915,
+  "citation_normalized_percentile": {
+   "value": 0.94852781,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 99,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "08",
+   "issue": "06",
+   "first_page": "1259",
+   "last_page": "1284"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.9994999766349792,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10588",
+    "display_name": "Mathematical Dynamics and Fractals",
+    "score": 9.999999747378752e-05,
+    "subfield": {
+     "id": "https://openalex.org/subfields/2610",
+     "display_name": "Mathematical Physics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/26",
+     "display_name": "Mathematics"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T12162",
+    "display_name": "Cellular Automata and Applications",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1703",
+     "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/two-dimensional-chaotic-map",
+    "display_name": "two-dimensional chaotic map",
+    "score": 0.9589999914169312
+   },
+   {
+    "id": "https://openalex.org/keywords/baker-map",
+    "display_name": "Baker map",
+    "score": 0.871999979019165
+   },
+   {
+    "id": "https://openalex.org/keywords/image-encryption",
+    "display_name": "image encryption",
+    "score": 0.6430000066757202
+   },
+   {
+    "id": "https://openalex.org/keywords/diffusion",
+    "display_name": "diffusion",
+    "score": 0.4650000035762787
+   },
+   {
+    "id": "https://openalex.org/keywords/permutation-cipher",
+    "display_name": "permutation cipher",
+    "score": 0.5120000243186951
+   },
+   {
+    "id": "https://openalex.org/keywords/pseudorandom-number-generators",
+    "display_name": "pseudorandom number generators",
+    "score": 0.75
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptosystems",
+    "display_name": "ciphers",
+    "score": 0.6060000061988831
+   },
+   {
+    "id": "https://openalex.org/keywords/torus-maps",
+    "display_name": "torus maps",
+    "score": 0.47099998593330383
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C148730421",
+    "wikidata": "https://www.wikidata.org/wiki/Q141090",
+    "display_name": "Encryption",
+    "level": 2,
+    "score": 0.6735480427742004
+   },
+   {
+    "id": "https://openalex.org/C2777052490",
+    "wikidata": "https://www.wikidata.org/wiki/Q5072826",
+    "display_name": "Chaotic",
+    "level": 2,
+    "score": 0.6139973998069763
+   },
+   {
+    "id": "https://openalex.org/C73000952",
+    "wikidata": "https://www.wikidata.org/wiki/Q17007827",
+    "display_name": "Discretization",
+    "level": 2,
+    "score": 0.5851319432258606
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.5795049667358398
+   },
+   {
+    "id": "https://openalex.org/C6295992",
+    "wikidata": "https://www.wikidata.org/wiki/Q976521",
+    "display_name": "Cryptosystem",
+    "level": 3,
+    "score": 0.5547295808792114
+   },
+   {
+    "id": "https://openalex.org/C15998118",
+    "wikidata": "https://www.wikidata.org/wiki/Q11319849",
+    "display_name": "Tent map",
+    "level": 3,
+    "score": 0.514123260974884
+   },
+   {
+    "id": "https://openalex.org/C21308566",
+    "wikidata": "https://www.wikidata.org/wiki/Q7169365",
+    "display_name": "Permutation (music)",
+    "level": 2,
+    "score": 0.4273899495601654
+   },
+   {
+    "id": "https://openalex.org/C106544461",
+    "wikidata": "https://www.wikidata.org/wiki/Q543151",
+    "display_name": "Block cipher",
+    "level": 3,
+    "score": 0.4136265814304352
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.41352179646492004
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.4010782837867737
+   },
+   {
+    "id": "https://openalex.org/C80444323",
+    "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+    "display_name": "Theoretical computer science",
+    "level": 1,
+    "score": 0.3512493669986725
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.33945953845977783
+   },
+   {
+    "id": "https://openalex.org/C134306372",
+    "wikidata": "https://www.wikidata.org/wiki/Q7754",
+    "display_name": "Mathematical analysis",
+    "level": 1,
+    "score": 0.12766706943511963
+   },
+   {
+    "id": "https://openalex.org/C154945302",
+    "wikidata": "https://www.wikidata.org/wiki/Q11660",
+    "display_name": "Artificial intelligence",
+    "level": 1,
+    "score": 0.09663599729537964
+   },
+   {
+    "id": "https://openalex.org/C24890656",
+    "wikidata": "https://www.wikidata.org/wiki/Q82811",
+    "display_name": "Acoustics",
+    "level": 1,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C121332964",
+    "wikidata": "https://www.wikidata.org/wiki/Q413",
+    "display_name": "Physics",
+    "level": 0,
+    "score": 0.0
+   },
+   {
+    "id": "https://openalex.org/C111919701",
+    "wikidata": "https://www.wikidata.org/wiki/Q9135",
+    "display_name": "Operating system",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.1142/s021812749800098x",
+    "doi": "https://doi.org/10.1142/s021812749800098x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1142/s021812749800098x",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S81011612",
+     "display_name": "International Journal of Bifurcation and Chaos",
+     "issn_l": "0218-1274",
+     "issn": [
+      "0218-1274",
+      "1793-6551"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "cwts-core",
+      "dongbi-d",
+      "jufo-1",
+      "norway-1",
+      "poland-70",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310319815",
+     "host_organization_name": "World Scientific",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319815"
+     ],
+     "host_organization_lineage_names": [
+      "World Scientific"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Bifurcation and Chaos",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.39.5132",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.5132",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://207.99.18.201/journals/ijbc/86/rich.pdf",
+    "raw_type": "text"
+   }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "grobid_xml": false,
+   "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 38,
+  "referenced_works": [
+   "https://openalex.org/W317319720",
+   "https://openalex.org/W1491483938",
+   "https://openalex.org/W1506612485",
+   "https://openalex.org/W1519861888",
+   "https://openalex.org/W1529605586",
+   "https://openalex.org/W1552672329",
+   "https://openalex.org/W1554476035",
+   "https://openalex.org/W1563212586",
+   "https://openalex.org/W1598573928",
+   "https://openalex.org/W1877956519",
+   "https://openalex.org/W1887847298",
+   "https://openalex.org/W1970442252",
+   "https://openalex.org/W1976799435",
+   "https://openalex.org/W1979684610",
+   "https://openalex.org/W1986955663",
+   "https://openalex.org/W1998538686",
+   "https://openalex.org/W2010385540",
+   "https://openalex.org/W2010620862",
+   "https://openalex.org/W2015710702",
+   "https://openalex.org/W2030327091",
+   "https://openalex.org/W2058396478",
+   "https://openalex.org/W2060759080",
+   "https://openalex.org/W2061695646",
+   "https://openalex.org/W2079092820",
+   "https://openalex.org/W2094780448",
+   "https://openalex.org/W2104081868",
+   "https://openalex.org/W2109394932",
+   "https://openalex.org/W2113453379",
+   "https://openalex.org/W2123585987",
+   "https://openalex.org/W2170196446",
+   "https://openalex.org/W2496842803",
+   "https://openalex.org/W2505106866",
+   "https://openalex.org/W2751862591",
+   "https://openalex.org/W2752853835",
+   "https://openalex.org/W3023825486",
+   "https://openalex.org/W3042780930",
+   "https://openalex.org/W3099909118",
+   "https://openalex.org/W3118259273"
+  ],
+  "related_works": [
+   "https://openalex.org/W2075203706",
+   "https://openalex.org/W2393587766",
+   "https://openalex.org/W4293054941",
+   "https://openalex.org/W2769452669",
+   "https://openalex.org/W1974181783",
+   "https://openalex.org/W3103400228",
+   "https://openalex.org/W2219576803",
+   "https://openalex.org/W4387314557",
+   "https://openalex.org/W2383498754",
+   "https://openalex.org/W2383950738"
+  ],
+  "abstract_inverted_index": {
+   "In": [
+    0
+   ],
+   "this": [
+    1
+   ],
+   "paper,": [
+    2
+   ],
+   "methods": [
+    3
+   ],
+   "are": [
+    4,
+    194
+   ],
+   "shown": [
+    5,
+    141
+   ],
+   "how": [
+    6
+   ],
+   "to": [
+    7,
+    20,
+    39,
+    89,
+    121,
+    167
+   ],
+   "adapt": [
+    8
+   ],
+   "invertible": [
+    9
+   ],
+   "two-dimensional": [
+    10,
+    136,
+    191
+   ],
+   "chaotic": [
+    11,
+    28,
+    192
+   ],
+   "maps": [
+    12,
+    193
+   ],
+   "on": [
+    13,
+    17,
+    179
+   ],
+   "a": [
+    14,
+    18,
+    40,
+    59,
+    95,
+    100,
+    102,
+    208,
+    212
+   ],
+   "torus": [
+    15
+   ],
+   "or": [
+    16,
+    49
+   ],
+   "square": [
+    19,
+    42
+   ],
+   "create": [
+    21
+   ],
+   "new": [
+    22
+   ],
+   "symmetric": [
+    23,
+    103
+   ],
+   "block": [
+    24,
+    104
+   ],
+   "encryption": [
+    25,
+    106,
+    181,
+    201
+   ],
+   "schemes.": [
+    26
+   ],
+   "A": [
+    27,
+    173
+   ],
+   "map": [
+    29,
+    57,
+    85,
+    117,
+    149
+   ],
+   "is": [
+    30,
+    58,
+    86,
+    108,
+    118,
+    132,
+    140,
+    183,
+    202
+   ],
+   "first": [
+    31
+   ],
+   "generalized": [
+    32
+   ],
+   "by": [
+    33,
+    146
+   ],
+   "introducing": [
+    34
+   ],
+   "parameters": [
+    35
+   ],
+   "and": [
+    36,
+    61,
+    92,
+    129,
+    170,
+    185,
+    196,
+    218
+   ],
+   "then": [
+    37
+   ],
+   "discretized": [
+    38,
+    56,
+    84,
+    216
+   ],
+   "finite": [
+    41
+   ],
+   "lattice": [
+    43
+   ],
+   "of": [
+    44,
+    79,
+    126,
+    188,
+    211
+   ],
+   "points": [
+    45
+   ],
+   "which": [
+    46
+   ],
+   "represent": [
+    47
+   ],
+   "pixels": [
+    48
+   ],
+   "some": [
+    50,
+    189
+   ],
+   "other": [
+    51,
+    190
+   ],
+   "data": [
+    52
+   ],
+   "items.": [
+    53
+   ],
+   "Although": [
+    54
+   ],
+   "the": [
+    55,
+    77,
+    115,
+    122,
+    127,
+    135,
+    143,
+    147,
+    159,
+    168,
+    171,
+    180
+   ],
+   "permutation": [
+    60
+   ],
+   "thus": [
+    62
+   ],
+   "cannot": [
+    63
+   ],
+   "be": [
+    64
+   ],
+   "chaotic,": [
+    65
+   ],
+   "it": [
+    66
+   ],
+   "shares": [
+    67
+   ],
+   "certain": [
+    68
+   ],
+   "properties": [
+    69,
+    164
+   ],
+   "with": [
+    70,
+    94,
+    134,
+    165,
+    207
+   ],
+   "its": [
+    71,
+    130
+   ],
+   "continuous": [
+    72
+   ],
+   "counterpart": [
+    73
+   ],
+   "as": [
+    74,
+    76,
+    151
+   ],
+   "long": [
+    75
+   ],
+   "number": [
+    78,
+    176
+   ],
+   "iterations": [
+    80
+   ],
+   "remains": [
+    81
+   ],
+   "small.": [
+    82
+   ],
+   "The": [
+    83,
+    124,
+    204
+   ],
+   "further": [
+    87
+   ],
+   "extended": [
+    88
+   ],
+   "three": [
+    90
+   ],
+   "dimensions": [
+    91
+   ],
+   "composed": [
+    93
+   ],
+   "simple": [
+    96
+   ],
+   "diffusion": [
+    97,
+    163
+   ],
+   "mechanism.": [
+    98
+   ],
+   "As": [
+    99
+   ],
+   "result,": [
+    101
+   ],
+   "product": [
+    105
+   ],
+   "scheme": [
+    107,
+    182
+   ],
+   "obtained.": [
+    109
+   ],
+   "To": [
+    110
+   ],
+   "encrypt": [
+    111
+   ],
+   "an": [
+    112
+   ],
+   "N\u00d7N": [
+    113
+   ],
+   "image,": [
+    114
+   ],
+   "ciphering": [
+    116
+   ],
+   "iteratively": [
+    119
+   ],
+   "applied": [
+    120
+   ],
+   "image.": [
+    123
+   ],
+   "construction": [
+    125
+   ],
+   "cipher": [
+    128,
+    160
+   ],
+   "security": [
+    131
+   ],
+   "explained": [
+    133
+   ],
+   "Baker": [
+    137,
+    148
+   ],
+   "map.": [
+    138
+   ],
+   "It": [
+    139
+   ],
+   "that": [
+    142,
+    158
+   ],
+   "permutations": [
+    144
+   ],
+   "induced": [
+    145
+   ],
+   "behave": [
+    150
+   ],
+   "typical": [
+    152
+   ],
+   "random": [
+    153
+   ],
+   "permutations.": [
+    154
+   ],
+   "Computer": [
+    155
+   ],
+   "simulations": [
+    156
+   ],
+   "indicate": [
+    157
+   ],
+   "has": [
+    161
+   ],
+   "good": [
+    162
+   ],
+   "respect": [
+    166
+   ],
+   "plain-text": [
+    169
+   ],
+   "key.": [
+    172
+   ],
+   "nontraditional": [
+    174
+   ],
+   "pseudo-random": [
+    175
+   ],
+   "generator": [
+    177
+   ],
+   "based": [
+    178
+   ],
+   "described": [
+    184
+   ],
+   "studied.": [
+    186
+   ],
+   "Examples": [
+    187
+   ],
+   "given": [
+    195
+   ],
+   "their": [
+    197
+   ],
+   "suitability": [
+    198
+   ],
+   "for": [
+    199
+   ],
+   "secure": [
+    200
+   ],
+   "discussed.": [
+    203
+   ],
+   "paper": [
+    205
+   ],
+   "closes": [
+    206
+   ],
+   "brief": [
+    209
+   ],
+   "discussion": [
+    210
+   ],
+   "possible": [
+    213
+   ],
+   "relationship": [
+    214
+   ],
+   "between": [
+    215
+   ],
+   "chaos": [
+    217
+   ],
+   "cryptosystems.": [
+    219
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 78
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 81
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 99
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 105
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 121
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 108
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 135
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 115
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 117
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 107
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 88
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 98
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 94
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 85
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 91
+   }
+  ],
+  "updated_date": "2026-10-25T09:29:13.331239",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

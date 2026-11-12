@@ -1,0 +1,6 @@
+{
+  "bytes_per_lane": 125000,
+  "burn_in": 1024,
+  "seeds": {},
+  "reproducibility_check_byte_exact": true
+}

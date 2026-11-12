@@ -1,0 +1,488 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s11071-011-0155-7",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T14:04:16Z",
+   "timestamp": 1791381856149,
+   "version": "4.3.3"
+  },
+  "reference-count": 28,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2011,
+       8,
+       11
+      ]
+     ],
+     "date-time": "2011-08-11T00:00:00Z",
+     "timestamp": 1313020800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Nonlinear Dyn"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11071-011-0155-7",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     10
+    ]
+   ],
+   "date-time": "2011-08-10T06:48:55Z",
+   "timestamp": 1312958935000
+  },
+  "page": "2411-2417",
+  "source": "Crossref",
+  "is-referenced-by-count": 171,
+  "title": [
+   "Image encryption algorithm using chaotic Chebyshev generator"
+  ],
+  "prefix": "10.1007",
+  "volume": "67",
+  "author": [
+   {
+    "given": "Xiaoling",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     11
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "155_CR1",
+    "volume-title": "Applied Cryptography: Protocols, Algorithms, and Source Code in C",
+    "author": "B. Schneier",
+    "year": "1996",
+    "unstructured": "Schneier, B.: Applied Cryptography: Protocols, Algorithms, and Source Code in C. Wiley, New York (1996)"
+   },
+   {
+    "key": "155_CR2",
+    "doi-asserted-by": "crossref",
+    "first-page": "109",
+    "DOI": "10.1016/j.physleta.2005.02.083",
+    "volume": "349",
+    "author": "T. Xiang",
+    "year": "2006",
+    "unstructured": "Xiang, T., Liao, X.F., Tang, G.P., Chen, Y., Wong, K.W.: A\u00a0novel block cryptosystem based on iterating a chaotic map. Phys. Lett. A 349, 109\u2013115 (2006)",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "155_CR3",
+    "first-page": "231",
+    "volume": "7",
+    "author": "K. Faraoun",
+    "year": "2010",
+    "unstructured": "Faraoun, K.: Chaos-based key stream generator based on multiple maps combinations and its application to images encryption. Int. Arab J. Inf. Technol. 7, 231\u2013240 (2010)",
+    "journal-title": "Int. Arab J. Inf. Technol."
+   },
+   {
+    "key": "155_CR4",
+    "doi-asserted-by": "crossref",
+    "first-page": "3507",
+    "DOI": "10.1016/j.cnsns.2010.01.004",
+    "volume": "15",
+    "author": "H.Q. Yang",
+    "year": "2010",
+    "unstructured": "Yang, H.Q., Wong, K.W., Liao, X.F., Zhang, W., Wei, P.C.: A fast image encryption and authentication scheme based on chaotic maps. Commun. Nonlinear Sci. Numer. Simul. 15, 3507\u20133517 (2010)",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "155_CR5",
+    "doi-asserted-by": "crossref",
+    "first-page": "2028",
+    "DOI": "10.1016/j.mcm.2010.06.005",
+    "volume": "52",
+    "author": "Q. Zhang",
+    "year": "2010",
+    "unstructured": "Zhang, Q., Guo, L., Wei, X.P.: Image encryption using DNA addition combining with chaotic mpas. Math. Comput. Model. 52, 2028\u20132035 (2010)",
+    "journal-title": "Math. Comput. Model."
+   },
+   {
+    "key": "155_CR6",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "volume": "14",
+    "author": "Y.B. Mao",
+    "year": "2004",
+    "unstructured": "Mao, Y.B., Chen, G.R., Lian, S.G.: A novel fast image encryption scheme based on 3D chaotic baker maps. Int. J. Bifurc. Chaos 14, 3613\u20133624 (2004)",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "155_CR7",
+    "doi-asserted-by": "crossref",
+    "first-page": "153",
+    "DOI": "10.1016/j.physleta.2005.08.006",
+    "volume": "346",
+    "author": "Z.H. Guan",
+    "year": "2005",
+    "unstructured": "Guan, Z.H., Huang, F.J., Guan, W.J.: Chaos-based image encryption algorithm. Phys. Lett. A 346, 153\u2013157 (2005)",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "155_CR8",
+    "doi-asserted-by": "crossref",
+    "first-page": "926",
+    "DOI": "10.1016/j.imavis.2006.02.021",
+    "volume": "24",
+    "author": "N.K. Pareek",
+    "year": "2006",
+    "unstructured": "Pareek, N.K., Patidar, V., Sud, K.K.: Image encryption using chaotic logistic map. Image Vis. Comput. 24, 926\u2013934 (2006)",
+    "journal-title": "Image Vis. Comput."
+   },
+   {
+    "key": "155_CR9",
+    "doi-asserted-by": "crossref",
+    "first-page": "2066",
+    "DOI": "10.1016/j.optcom.2010.01.028",
+    "volume": "283",
+    "author": "F.Y. Sun",
+    "year": "2010",
+    "unstructured": "Sun, F.Y., L\u00fc, Z.W., Liu, S.T.: A new cryptosystem based on spatial chaotic system. Opt. Commun. 283, 2066\u20132073 (2010)",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "155_CR10",
+    "doi-asserted-by": "crossref",
+    "first-page": "2645",
+    "DOI": "10.1016/j.physleta.2007.12.026",
+    "volume": "372",
+    "author": "K.W. Wong",
+    "year": "2008",
+    "unstructured": "Wong, K.W., Kwok, B.S.H., Law, W.S.: A fast image encryption scheme based on chaotic standard map. Phys. Lett. A 372, 2645\u20132652 (2008)",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "155_CR11",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1016/j.chaos.2006.11.009",
+    "volume": "38",
+    "author": "T.G. Gao",
+    "year": "2008",
+    "unstructured": "Gao, T.G., Chen, Z.Q.: Image encryption based on a new total shuffling algorithm. Chaos Solitons Fractals 38, 213\u2013220 (2008)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "155_CR12",
+    "doi-asserted-by": "crossref",
+    "first-page": "2123",
+    "DOI": "10.1016/j.optcom.2009.02.044",
+    "volume": "282",
+    "author": "C.K. Huang",
+    "year": "2009",
+    "unstructured": "Huang, C.K., Nien, H.H.: Multi chaotic systems based on pixel shuffle for image encryption. Opt. Commun. 282, 2123\u20132127 (2009)",
+    "journal-title": "Opt. Commun."
+   },
+   {
+    "key": "155_CR13",
+    "doi-asserted-by": "crossref",
+    "first-page": "2755",
+    "DOI": "10.1016/j.cnsns.2009.11.010",
+    "volume": "15",
+    "author": "V. Patidar",
+    "year": "2010",
+    "unstructured": "Patidar, V., Pareek, N.K., Purohit, G., Sud, K.K.: Modified substitution-diffusion image cipher using chaotic standard and logistic maps. Commun. Nonlinear Sci. Numer. Simul. 15, 2755\u20132765 (2010)",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "155_CR14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1518",
+    "DOI": "10.1016/j.chaos.2005.11.090",
+    "volume": "32",
+    "author": "H.S. Kwok",
+    "year": "2007",
+    "unstructured": "Kwok, H.S., Tang, W.K.S.: A fast image encryption system based on chaotic maps with finite precision representation. Chaos Solitons Fractals 32, 1518\u20131529 (2007)",
+    "journal-title": "Chaos Solitons Fractals"
+   },
+   {
+    "key": "155_CR15",
+    "doi-asserted-by": "crossref",
+    "first-page": "3833",
+    "DOI": "10.1142/S021812740902516X",
+    "volume": "19",
+    "author": "C. Gangadhar",
+    "year": "2009",
+    "unstructured": "Gangadhar, C., Rao, K.D.: Hyperchaos based image encryption. Int. J. Bifurc. Chaos 19, 3833\u20133839 (2009)",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "155_CR16",
+    "doi-asserted-by": "crossref",
+    "first-page": "326",
+    "DOI": "10.1016/j.camwa.2009.12.033",
+    "volume": "60",
+    "author": "U. Muhammad",
+    "year": "2010",
+    "unstructured": "Muhammad, U., Muhammad, K.K., Khaled, A., Changhoon, L.: Chaos-based secure satellite imagery cryptosystem. Comput. Math. Appl. 60, 326\u2013337 (2010)",
+    "journal-title": "Comput. Math. Appl."
+   },
+   {
+    "key": "155_CR17",
+    "doi-asserted-by": "crossref",
+    "first-page": "388",
+    "DOI": "10.1166/jctn.2010.1370",
+    "volume": "7",
+    "author": "Q. Wang",
+    "year": "2010",
+    "unstructured": "Wang, Q., Zhang, Q., Wei, X.P., Xue, X.L., Guo, L., Image encryption based on chaotic map and DNA coding. J.\u00a0Comput. Theor. Nanosci. 7, 388\u2013393 (2010)",
+    "journal-title": "J.\u00a0Comput. Theor. Nanosci."
+   },
+   {
+    "key": "155_CR18",
+    "doi-asserted-by": "crossref",
+    "first-page": "3224",
+    "DOI": "10.1016/j.neucom.2010.05.011",
+    "volume": "73",
+    "author": "X.Y. Wang",
+    "year": "2010",
+    "unstructured": "Wang, X.Y., Zhao, J.F.: Cryptanalysis on a parallel keyed hash function based on chaotic neural network. Neurocomputing 73, 3224\u20133228 (2010)",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "155_CR19",
+    "doi-asserted-by": "crossref",
+    "first-page": "3320",
+    "DOI": "10.1016/j.camwa.2010.03.017",
+    "volume": "59",
+    "author": "H.J. Liu",
+    "year": "2010",
+    "unstructured": "Liu, H.J., Wang, X.Y.: Color image encryption based on one-time keys and robust chaotic maps. Comput. Math. Appl. 59, 3320\u20133327 (2010)",
+    "journal-title": "Comput. Math. Appl."
+   },
+   {
+    "key": "155_CR20",
+    "doi-asserted-by": "crossref",
+    "first-page": "587",
+    "DOI": "10.1007/s11071-010-9821-4",
+    "volume": "63",
+    "author": "X.Y. Wang",
+    "year": "2011",
+    "unstructured": "Wang, X.Y., Wang, X.J., Zhao, J.F., Zhang, Z.F.: Chaotic encryption algorithm based on alternant of stream cipher and block cipher. Nonlinear Dyn. 63, 587\u2013597 (2011)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "155_CR21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "volume": "8",
+    "author": "J. Fridrich",
+    "year": "1998",
+    "unstructured": "Fridrich, J.: Symmetric ciphers based on two-dimensional chaotic maps. Int. J. Bifurc. Chaos 8, 1259\u20131284 (1998)",
+    "journal-title": "Int. J. Bifurc. Chaos"
+   },
+   {
+    "key": "155_CR22",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Borujeni, S.E., Eshghi, M.: Chaotic image encryption design using Tompkins\u2013Paige algorithm. Math. Problems Eng. 762652 (2009). doi: 10.1155/2009/762652",
+    "DOI": "10.1155/2009/762652"
+   },
+   {
+    "key": "155_CR23",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1109/CISP.2008.129",
+    "volume-title": "Proceeding of 1st International Congress on Image and Signal Processing",
+    "author": "L. Wang",
+    "year": "2008",
+    "unstructured": "Wang, L., Ye, Q., Xiao, Y.Q., Zou, Y.X., Zhang, B.: An image encryption scheme based on cross chaotic map. In: Proceeding of 1st International Congress on Image and Signal Processing, Sanya, China, vol. 3, pp. 22\u201326 (2008)"
+   },
+   {
+    "key": "155_CR24",
+    "first-page": "2025",
+    "volume": "E85A",
+    "author": "K. Yano",
+    "year": "2002",
+    "unstructured": "Yano, K., Tanaka, K.: Image encryption scheme based on a truncated Baker transformation. IEICE Trans. Fundam. Electron. Commun. Comput. Sci. E85A, 2025\u20132035 (2002)",
+    "journal-title": "IEICE Trans. Fundam. Electron. Commun. Comput. Sci."
+   },
+   {
+    "key": "155_CR25",
+    "doi-asserted-by": "crossref",
+    "first-page": "2231",
+    "DOI": "10.7498/aps.58.2231",
+    "volume": "58",
+    "author": "H.S. Liu",
+    "year": "2009",
+    "unstructured": "Liu, H.S., Yu, C.X., Yin, X.L., Zhang, Q., Xin, X.J.: An optimization scheme for generating of Chebyshev optical chaotic sequence. Acta Phys. Sin. 58, 2231\u20132234 (2009)",
+    "journal-title": "Acta Phys. Sin."
+   },
+   {
+    "key": "155_CR26",
+    "doi-asserted-by": "crossref",
+    "first-page": "843",
+    "DOI": "10.1016/j.imavis.2007.09.005",
+    "volume": "26",
+    "author": "X.J. Tong",
+    "year": "2008",
+    "unstructured": "Tong, X.J., Cui, M.G.: Image encryption with compound chaotic sequence cipher shifting dynamically. Image Vis. Comput. 26, 843\u2013850 (2008)",
+    "journal-title": "Image Vis. Comput."
+   },
+   {
+    "key": "155_CR27",
+    "doi-asserted-by": "crossref",
+    "first-page": "2479",
+    "DOI": "10.1016/j.cnsns.2009.10.001",
+    "volume": "15",
+    "author": "X.Y. Wang",
+    "year": "2010",
+    "unstructured": "Wang, X.Y., Chen, F., Wang, T.: A new compound mode of confusion and diffusion for block encryption of image based on chaos. Commun. Nonlinear Sci. Numer. Simul. 15, 2479\u20132485 (2010)",
+    "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+   },
+   {
+    "key": "155_CR28",
+    "doi-asserted-by": "crossref",
+    "first-page": "615",
+    "DOI": "10.1007/s11071-010-9749-8",
+    "volume": "62",
+    "author": "X.Y. Wang",
+    "year": "2010",
+    "unstructured": "Wang, X.Y., Yang, L., Liu, R., Kadir, A.: A chaotic image encryption algorithm based on perceptron model. Nonlinear Dyn. 62, 615\u2013621 (2010)",
+    "journal-title": "Nonlinear Dyn."
+   }
+  ],
+  "container-title": [
+   "Nonlinear Dynamics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-011-0155-7.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/s11071-011-0155-7/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-011-0155-7",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     6,
+     8
+    ]
+   ],
+   "date-time": "2023-06-08T17:12:55Z",
+   "timestamp": 1686244375000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/s11071-011-0155-7"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     11
+    ]
+   ]
+  },
+  "references-count": 28,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "155"
+  ],
+  "URL": "https://doi.org/10.1007/s11071-011-0155-7",
+  "relation": {},
+  "ISSN": [
+   "0924-090X",
+   "1573-269X"
+  ],
+  "issn-type": [
+   {
+    "value": "0924-090X",
+    "type": "print"
+   },
+   {
+    "value": "1573-269X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     11
+    ]
+   ]
+  }
+ }
+}

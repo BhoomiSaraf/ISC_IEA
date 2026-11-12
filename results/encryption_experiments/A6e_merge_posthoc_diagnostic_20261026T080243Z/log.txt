@@ -1,0 +1,19 @@
+[2026-10-26T13:32:48] start A6e_merge_posthoc mode=diagnostic
+[2026-10-26T13:32:48] P1 grid x d=1: step1 rate 0.0190, by 64: 0.0140
+[2026-10-26T13:32:48] P1 grid x d=2: step1 rate 0.0115
+[2026-10-26T13:32:48] P1 grid x d=1024: step1 rate 0.0000
+[2026-10-26T13:32:48] P1 grid y d=1: step1 rate 0.0190, by 64: 0.0200
+[2026-10-26T13:32:48] P1 grid y d=2: step1 rate 0.0095
+[2026-10-26T13:32:48] P1 grid y d=1024: step1 rate 0.0000
+[2026-10-26T13:32:48] P1 float x d=1: step1 rate 0.3545, by 64: 0.3320
+[2026-10-26T13:32:48] P1 float x d=2: step1 rate 0.1750
+[2026-10-26T13:32:48] P1 float x d=1024: step1 rate 0.0000
+[2026-10-26T13:32:49] P1 float y d=1: step1 rate 0.3380, by 64: 0.3340
+[2026-10-26T13:32:49] P1 float y d=2: step1 rate 0.1800
+[2026-10-26T13:32:49] P1 float y d=1024: step1 rate 0.0000
+[2026-10-26T13:32:49] P2 x after_1_step: distinct mean 990.8/1024, log2 compression mean 0.052
+[2026-10-26T13:32:54] P2 x after_burn_in_1024: distinct mean 1016.8/1024, log2 compression mean 0.010
+[2026-10-26T13:32:54] P2 y after_1_step: distinct mean 958.4/1024, log2 compression mean 0.148
+[2026-10-26T13:33:00] P2 y after_burn_in_1024: distinct mean 1011.8/1024, log2 compression mean 0.017
+[2026-10-26T13:33:02] P3: {'seeds': 1024, 'seed_source': "HKDF-SHA-256(salt = public seed salt, IKM = 'A6e/part3'), labels seed/<i>, 16 bytes -> isc_cipher.state_map", 'duplicate_initial_states': 0, 'duplicate_states_after_burn_in': 0, 'uniform_model_95pct_lower_bound_on_distinct_post_burn_in_states': np.float64(175011.6339261553), 'log2_bound': 17.417091303064083, 'seconds': 2.8}
+[2026-10-26T13:33:02] finished in 19.61 s

@@ -1,0 +1,54 @@
+{
+ "arguments": 100063,
+ "files": [
+  "trig_kat.txt.gz",
+  "trig_kat_ext.txt.gz"
+ ],
+ "reference": "mpmath 200-bit, rounded to binary64 for the correctly-rounded comparison",
+ "ulp_definition": "|fdlibm - exact| / ulp(round(exact))",
+ "by_branch": {
+  "direct |x|<=pi/4": {
+   "arguments": 22949,
+   "sin_max_ulp": 0.7063096160591409,
+   "cos_max_ulp": 0.7546033644641763,
+   "sin_not_correctly_rounded": 171,
+   "cos_not_correctly_rounded": 183
+  },
+  "n=+-1": {
+   "arguments": 8372,
+   "sin_max_ulp": 0.8172279512297588,
+   "cos_max_ulp": 0.6719607458989834,
+   "sin_not_correctly_rounded": 349,
+   "cos_not_correctly_rounded": 240
+  },
+  "medium, 1 reduction": {
+   "arguments": 64862,
+   "sin_max_ulp": 0.8088543393841496,
+   "cos_max_ulp": 0.8107916581004655,
+   "sin_not_correctly_rounded": 2046,
+   "cos_not_correctly_rounded": 2281
+  },
+  "n=+-1 (near pi/2)": {
+   "arguments": 268,
+   "sin_max_ulp": 0.4602896678999738,
+   "cos_max_ulp": 0.4392588520506427,
+   "sin_not_correctly_rounded": 0,
+   "cos_not_correctly_rounded": 0
+  },
+  "medium, 2 reductions": {
+   "arguments": 3164,
+   "sin_max_ulp": 0.47648944148030575,
+   "cos_max_ulp": 0.47648944145087146,
+   "sin_not_correctly_rounded": 0,
+   "cos_not_correctly_rounded": 0
+  },
+  "medium, 3 reductions": {
+   "arguments": 448,
+   "sin_max_ulp": 0.49532425222786197,
+   "cos_max_ulp": 0.49532425222784837,
+   "sin_not_correctly_rounded": 0,
+   "cos_not_correctly_rounded": 0
+  }
+ },
+ "ext_sha256": "77aa9d1a85b8a3efcba1884555768dd0fcf5bd8e145d7e055218dea51e763403"
+}

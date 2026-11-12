@@ -1,0 +1,30 @@
+[
+  {
+    "size": 64,
+    "profile": "mantissa8_v1",
+    "mean_sec": 1.6975930666861434,
+    "std_sec": 0.010946278611269717,
+    "reps": 3
+  },
+  {
+    "size": 64,
+    "profile": "k14_scaled_modulo_v1",
+    "mean_sec": 1.8333201999776065,
+    "std_sec": 0.22827621935286488,
+    "reps": 3
+  },
+  {
+    "size": 256,
+    "profile": "mantissa8_v1",
+    "mean_sec": 5.323860933383306,
+    "std_sec": 0.1206319642504007,
+    "reps": 3
+  },
+  {
+    "size": 256,
+    "profile": "k14_scaled_modulo_v1",
+    "mean_sec": 5.300425466693317,
+    "std_sec": 0.2373239202310298,
+    "reps": 3
+  }
+]

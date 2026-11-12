@@ -1,0 +1,20 @@
+{
+ "small": [
+  4,
+  6,
+  3
+ ],
+ "large": [
+  16,
+  16,
+  3
+ ],
+ "random_flips_large": 200,
+ "wrong_keys": 20,
+ "constructions": [
+  "V-FULL",
+  "V-CHACHA"
+ ],
+ "experiment": "A2_tamper",
+ "mode": "diagnostic"
+}

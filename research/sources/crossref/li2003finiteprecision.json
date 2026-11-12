@@ -1,0 +1,615 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/s0010-4655%2802%2900875-5",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     3
+    ]
+   ],
+   "date-time": "2026-10-03T15:41:27Z",
+   "timestamp": 1791042087835,
+   "version": "4.1.0"
+  },
+  "reference-count": 39,
+  "publisher": "Elsevier BV",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2003,
+       6,
+       1
+      ]
+     ],
+     "date-time": "2003-06-01T00:00:00Z",
+     "timestamp": 1054425600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Computer Physics Communications"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2003,
+     6
+    ]
+   ]
+  },
+  "DOI": "10.1016/s0010-4655(02)00875-5",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2003,
+     5,
+     12
+    ]
+   ],
+   "date-time": "2003-05-12T19:54:49Z",
+   "timestamp": 1052769289000
+  },
+  "page": "52-58",
+  "source": "Crossref",
+  "is-referenced-by-count": 145,
+  "title": [
+   "On the security of a chaotic encryption scheme: problems with computerized chaos in finite computing precision"
+  ],
+  "prefix": "10.1016",
+  "volume": "153",
+  "author": [
+   {
+    "given": "Shujun",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xuanqin",
+    "family": "Mou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuanlong",
+    "family": "Cai",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhen",
+    "family": "Ji",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jihong",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB001",
+    "series-title": "Chaos, Fractals, and Noise\u2014Stochastic Aspects of Dynamics",
+    "author": "Lasota",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB002",
+    "series-title": "Starting with Parabolas: An Introduction to Chaotic Dynamics",
+    "author": "Bai-Lin",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB003",
+    "series-title": "Discreteness and Continuity in Problems of Chaotic Dynamics",
+    "volume": "161",
+    "author": "Blank",
+    "year": "1997"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB004",
+    "doi-asserted-by": "crossref",
+    "first-page": "219",
+    "DOI": "10.1142/S0218127496000023",
+    "article-title": "Clarifying chaos: Examples and counterexamples",
+    "volume": "6",
+    "author": "Brown",
+    "year": "1996",
+    "journal-title": "Int. J. Bifurcation Chaos"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB005",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1142/S021812749800098X",
+    "article-title": "Symmetric ciphers based on two-dimensional chaotic maps",
+    "volume": "8",
+    "author": "Fridrich",
+    "year": "1998",
+    "journal-title": "Int. J. Bifurcation Chaos"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB006",
+    "series-title": "Applied Cryptography\u2014Protocols, Algorithms, and Source Code in C",
+    "author": "Schneier",
+    "year": "1996"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB007",
+    "series-title": "Proc. IEEE 33rd Annual Int. Carnahan Conf. Security Technology",
+    "first-page": "332",
+    "article-title": "Chaotic cryptosystems",
+    "author": "Alvarez",
+    "year": "1999"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB008",
+    "series-title": "Cryptography and Coding\u20148th IMA Int. Conf. Proc.",
+    "first-page": "205",
+    "article-title": "Statistical properties of digital piecewise linear chaotic maps and their roles in cryptography and pseudo-random coding",
+    "volume": "2260",
+    "author": "Li",
+    "year": "2001"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB009",
+    "doi-asserted-by": "crossref",
+    "first-page": "1498",
+    "DOI": "10.1109/TCSI.2001.972857",
+    "article-title": "Chaos and cryptography",
+    "volume": "48",
+    "author": "Dachselt",
+    "year": "2001",
+    "journal-title": "IEEE Trans. Circuits Systems I"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB010",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1080/0161-118991863745",
+    "article-title": "On the derivation of a \u2018chaotic\u2019 encryption algorithm",
+    "volume": "13",
+    "author": "Matthews",
+    "year": "1989",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB011",
+    "series-title": "Advances in Cryptology\u2014EuroCrypt'91",
+    "first-page": "127",
+    "article-title": "A secret key cryptosystem by iterating a chaotic map",
+    "volume": "547",
+    "author": "Habutsu",
+    "year": "1991"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB012",
+    "doi-asserted-by": "crossref",
+    "first-page": "50",
+    "DOI": "10.1016/S0375-9601(98)00086-3",
+    "article-title": "Cryptography with chaos",
+    "volume": "240",
+    "author": "Baptista",
+    "year": "1998",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB013",
+    "doi-asserted-by": "crossref",
+    "first-page": "234",
+    "DOI": "10.1016/S0010-4655(01)00220-X",
+    "article-title": "A modified chaotic cryptographic method",
+    "volume": "138",
+    "author": "Wong",
+    "year": "2001",
+    "journal-title": "Comput. Phys. Comm."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB014",
+    "doi-asserted-by": "crossref",
+    "first-page": "163",
+    "DOI": "10.1109/81.904880",
+    "article-title": "Chaos and cryptography: Block encryption ciphers based on chaotic maps",
+    "volume": "48",
+    "author": "Jakimoski",
+    "year": "2001",
+    "journal-title": "IEEE Trans. Circuits Systems I"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB015",
+    "doi-asserted-by": "crossref",
+    "first-page": "373",
+    "DOI": "10.1016/S0375-9601(99)00747-1",
+    "article-title": "New approach to chaotic encryption",
+    "volume": "263",
+    "author": "Alvarez",
+    "year": "1999",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB016",
+    "doi-asserted-by": "crossref",
+    "first-page": "28",
+    "DOI": "10.1109/81.974872",
+    "article-title": "Cryptosystems with discretized chaotic maps",
+    "volume": "49",
+    "author": "Masuda",
+    "year": "2002",
+    "journal-title": "IEEE Trans. Circuits Systems I"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB017",
+    "doi-asserted-by": "crossref",
+    "first-page": "268",
+    "DOI": "10.1109/81.557386",
+    "article-title": "Problems with the chaotic inverse system encryption approach",
+    "volume": "44",
+    "author": "Zhou",
+    "year": "1997",
+    "journal-title": "IEEE Trans. Circuits Systems I"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB018",
+    "series-title": "Proc. IEEE Int. Symposium Circuits and Systems 1997, Vol. 2",
+    "first-page": "9",
+    "article-title": "Secure communication via one-dimensional chaotic inverse systems",
+    "author": "Zhou",
+    "year": "1997"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB019",
+    "first-page": "47",
+    "article-title": "The theoretical design for a class of new chaotic feedback stream ciphers",
+    "volume": "27",
+    "author": "Tao",
+    "year": "1999",
+    "journal-title": "Acta Eletron. Sinica"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB020",
+    "series-title": "Progress in Cryptology\u2014INDOCRYPT 2001",
+    "first-page": "316",
+    "article-title": "Pseudo-random bit generator based on couple chaotic systems and its application in stream-ciphers cryptography",
+    "volume": "2247",
+    "author": "Shujun",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB021",
+    "doi-asserted-by": "crossref",
+    "first-page": "127",
+    "DOI": "10.1016/S0375-9601(01)00612-0",
+    "article-title": "Improving security of a chaotic encryption approach",
+    "volume": "290 (3\u20134)",
+    "author": "Li",
+    "year": "2001",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB022",
+    "series-title": "Real-Time Imaging VI",
+    "first-page": "149",
+    "article-title": "Chaotic encryption scheme for real-time digital video",
+    "volume": "4666",
+    "author": "Li",
+    "year": "2002"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB023",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1016/S0375-9601(02)01659-6",
+    "article-title": "Performance analysis of Jakimoski-Kocarev attack on a class of chaotic cryptosystems",
+    "volume": "307",
+    "author": "Li",
+    "year": "2003",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB024",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S. Li, X. Mou, B.L. Yang, Z. Ji, J. Zhang, Problems with a probabilistic encryption scheme based on chaotic systems, accepted by Int. J. Bifurcation and Chaos, initially scheduled to be published in vol. 13, no. 10, 2003, Preprint available online at http://www.hooklee.com/pub.html",
+    "DOI": "10.1142/S0218127403008442"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB025",
+    "first-page": "522",
+    "article-title": "Some tools for attacking secure communication systems employing chaotic carriers",
+    "volume": "4",
+    "author": "Ogorzatek",
+    "year": "1998"
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB026",
+    "doi-asserted-by": "crossref",
+    "first-page": "1579",
+    "DOI": "10.1142/S0218127497001230",
+    "article-title": "Signal extraction from chaotic communications",
+    "volume": "7",
+    "author": "Short",
+    "year": "1997",
+    "journal-title": "Int. J. Bifurcation Chaos"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB027",
+    "doi-asserted-by": "crossref",
+    "first-page": "140",
+    "DOI": "10.1080/0161-119191865821",
+    "article-title": "Supercomputer investigations of a chaotic encryption algorithm",
+    "volume": "15",
+    "author": "Wheeler",
+    "year": "1991",
+    "journal-title": "Cryptologia"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB028",
+    "series-title": "Advances in Cryptology\u2014EuroCrypt'91",
+    "first-page": "532",
+    "article-title": "Cryptanalysis of the chaotic-map cryptosystem suggested at EuroCrypt'91",
+    "volume": "547",
+    "author": "Biham",
+    "year": "1991"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB029",
+    "doi-asserted-by": "crossref",
+    "first-page": "381",
+    "DOI": "10.1016/S0375-9601(01)00771-X",
+    "article-title": "Analysis of some recently proposed chaos-based encryption algorithms",
+    "volume": "291",
+    "author": "Jakimoski",
+    "year": "2001",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB030",
+    "doi-asserted-by": "crossref",
+    "first-page": "191",
+    "DOI": "10.1016/S0375-9601(00)00642-3",
+    "article-title": "Cryptanalysis of a chaotic encryption system",
+    "volume": "276",
+    "author": "Alvarez",
+    "year": "2000",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB031",
+    "doi-asserted-by": "crossref",
+    "first-page": "6",
+    "DOI": "10.1109/7384.963463",
+    "article-title": "Chaos-based cryptography: A brief overview",
+    "volume": "1",
+    "author": "Kocarev",
+    "year": "2001",
+    "journal-title": "IEEE Circuits Syst. Magazine"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB032",
+    "doi-asserted-by": "crossref",
+    "first-page": "429",
+    "DOI": "10.1016/S0016-0032(00)00087-9",
+    "article-title": "Use of chaotic dynamical systems in cryptography",
+    "volume": "338",
+    "author": "Schmitz",
+    "year": "2001",
+    "journal-title": "J. Franklin Institute"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB033",
+    "doi-asserted-by": "crossref",
+    "first-page": "551",
+    "DOI": "10.1002/(SICI)1097-007X(199609/10)24:5<551::AID-CTA936>3.0.CO;2-H",
+    "article-title": "Communication by chaotic signals: The inverse system approach",
+    "volume": "24",
+    "author": "Feldmann",
+    "year": "1996",
+    "journal-title": "Int. J. Circuit Theory Appl."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB034",
+    "doi-asserted-by": "crossref",
+    "first-page": "1585",
+    "DOI": "10.1142/S0218127495001198",
+    "article-title": "Design of one-dimensional chaotic maps with prescribed statistical properties",
+    "volume": "5",
+    "author": "Baranovsky",
+    "year": "1995",
+    "journal-title": "Int. J. Bifurcation Chaos"
+   },
+   {
+    "issue": "3\u20134",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB035",
+    "doi-asserted-by": "crossref",
+    "first-page": "151",
+    "DOI": "10.1016/0375-9601(96)00179-X",
+    "article-title": "Digital generators of chaos",
+    "volume": "214",
+    "author": "\u010cern\u00e1k",
+    "year": "1996",
+    "journal-title": "Phys. Lett. A"
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB036",
+    "doi-asserted-by": "crossref",
+    "first-page": "4460",
+    "DOI": "10.1103/PhysRevA.34.4460",
+    "article-title": "Simulating chaotic behavior with finite-state machines",
+    "volume": "34",
+    "author": "Binder",
+    "year": "1986",
+    "journal-title": "Phys. Rev. A"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB037",
+    "doi-asserted-by": "crossref",
+    "first-page": "873",
+    "DOI": "10.1049/el:19980680",
+    "article-title": "Perturbance-based algorithm to expand cycle length of chaotic key stream",
+    "volume": "34",
+    "author": "Tao",
+    "year": "1998",
+    "journal-title": "Electron. Lett."
+   },
+   {
+    "key": "10.1016/S0010-4655(02)00875-5_BIB038",
+    "series-title": "Discrete Iterations: A Metric Study",
+    "volume": "6",
+    "author": "Robert",
+    "year": "1986"
+   },
+   {
+    "issue": "1\u20133",
+    "key": "10.1016/S0010-4655(02)00875-5_BIB039",
+    "first-page": "95",
+    "article-title": "Effects of phase space discretization on the long-time behavior of dynamical systems",
+    "volume": "25",
+    "author": "Beck",
+    "year": "1987",
+    "journal-title": "Physica D"
+   }
+  ],
+  "container-title": [
+   "Computer Physics Communications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0010465502008755?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0010465502008755?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     3,
+     27
+    ]
+   ],
+   "date-time": "2019-03-27T02:30:41Z",
+   "timestamp": 1553653841000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0010465502008755"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2003,
+     6
+    ]
+   ]
+  },
+  "references-count": 39,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      2003,
+      6
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0010465502008755"
+  ],
+  "URL": "https://doi.org/10.1016/s0010-4655(02)00875-5",
+  "relation": {},
+  "ISSN": [
+   "0010-4655"
+  ],
+  "issn-type": [
+   {
+    "value": "0010-4655",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2003,
+     6
+    ]
+   ]
+  }
+ }
+}

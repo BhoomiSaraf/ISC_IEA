@@ -1,0 +1,14 @@
+Test Name,Passed,Time_ms
+Monobit,False,0
+Frequency Within Block,False,0
+Longest Run Ones In A Block,False,262
+Binary Matrix Rank,True,3848
+Discrete Fourier Transform,False,112
+Non Overlapping Template Matching,False,7623
+Maurers Universal,False,1323
+Linear Complexity,False,182902
+Serial,False,72993
+Approximate Entropy,False,30823
+Cumulative Sums,True,1723
+Random Excursion,False,8343
+Random Excursion Variant,True,26

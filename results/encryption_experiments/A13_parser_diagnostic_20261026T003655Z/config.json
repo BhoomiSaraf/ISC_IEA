@@ -1,0 +1,6 @@
+{
+ "random_blobs": 1000,
+ "mutations": 1000,
+ "experiment": "A13_parser",
+ "mode": "diagnostic"
+}

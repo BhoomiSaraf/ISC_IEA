@@ -1,0 +1,427 @@
+{
+ "query": "https://api.crossref.org/works/10.1145/3519939.3523447",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     28
+    ]
+   ],
+   "date-time": "2026-03-28T08:17:07Z",
+   "timestamp": 1774685827211,
+   "version": "3.50.1"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 41,
+  "publisher": "ACM",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       6,
+       9
+      ]
+     ],
+     "date-time": "2022-06-09T00:00:00Z",
+     "timestamp": 1654732800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "dl.acm.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     9
+    ]
+   ]
+  },
+  "DOI": "10.1145/3519939.3523447",
+  "type": "proceedings-article",
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     2
+    ]
+   ],
+   "date-time": "2022-06-02T21:05:05Z",
+   "timestamp": 1654203905000
+  },
+  "page": "552-565",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 10,
+  "title": [
+   "Progressive polynomial approximations for fast correctly rounded math libraries"
+  ],
+  "prefix": "10.1145",
+  "author": [
+   {
+    "given": "Mridul",
+    "family": "Aanjaneya",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Rutgers University, USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Jay P.",
+    "family": "Lim",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Yale University, USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Santosh",
+    "family": "Nagarakatte",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Rutgers University, USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "320",
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     9
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_3_2_1_1_1",
+    "unstructured": "Mridul Aanjaneya Jay P. Lim and Santosh Nagarakatte. 2022. RLibm-Prog. https://github.com/rutgers-apl/rlibm-prog  Mridul Aanjaneya Jay P. Lim and Santosh Nagarakatte. 2022. RLibm-Prog. https://github.com/rutgers-apl/rlibm-prog"
+   },
+   {
+    "key": "e_1_3_2_1_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TC.2008.216"
+   },
+   {
+    "key": "e_1_3_2_1_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4612-0793-1"
+   },
+   {
+    "key": "e_1_3_2_1_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ARITH.2015.22"
+   },
+   {
+    "key": "e_1_3_2_1_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CCECE.1999.807240"
+   },
+   {
+    "key": "e_1_3_2_1_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tcs.2010.11.052"
+   },
+   {
+    "key": "e_1_3_2_1_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-15582-6_5"
+   },
+   {
+    "key": "e_1_3_2_1_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/QSIC.2007.4385491"
+   },
+   {
+    "key": "e_1_3_2_1_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/201019.201036"
+   },
+   {
+    "key": "e_1_3_2_1_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/1024023"
+   },
+   {
+    "key": "e_1_3_2_1_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1117/12.505591"
+   },
+   {
+    "key": "e_1_3_2_1_12_1",
+    "unstructured": "Catherine Daramy-Loirat David Defour Florent de Dinechin Matthieu Gallet Nicolas Gast Christoph Lauter and Jean-Michel Muller. 2006. CR-LIBM A library of correctly rounded elementary functions in double-precision. Laboratoire de l\u2019Informatique du Parall\u00e9lisme. https://hal-ens-lyon.archives-ouvertes.fr/ensl-01529804  Catherine Daramy-Loirat David Defour Florent de Dinechin Matthieu Gallet Nicolas Gast Christoph Lauter and Jean-Michel Muller. 2006. CR-LIBM A library of correctly rounded elementary functions in double-precision. Laboratoire de l\u2019Informatique du Parall\u00e9lisme. https://hal-ens-lyon.archives-ouvertes.fr/ensl-01529804"
+   },
+   {
+    "key": "e_1_3_2_1_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ipl.2005.11.003"
+   },
+   {
+    "key": "e_1_3_2_1_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1236463.1236468"
+   },
+   {
+    "key": "e_1_3_2_1_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2442829.2442858"
+   },
+   {
+    "key": "e_1_3_2_1_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/103162.103163"
+   },
+   {
+    "key": "e_1_3_2_1_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BFb0000475"
+   },
+   {
+    "key": "e_1_3_2_1_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BFb0028391"
+   },
+   {
+    "key": "e_1_3_2_1_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-03359-9_4"
+   },
+   {
+    "key": "e_1_3_2_1_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TC.2010.152"
+   },
+   {
+    "key": "e_1_3_2_1_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-662-44199-2_106"
+   },
+   {
+    "key": "e_1_3_2_1_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/12.736435"
+   },
+   {
+    "key": "e_1_3_2_1_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3434310"
+   },
+   {
+    "key": "e_1_3_2_1_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3453483.3454049"
+   },
+   {
+    "key": "e_1_3_2_1_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3498664"
+   },
+   {
+    "key": "e_1_3_2_1_30_1",
+    "unstructured": "Tue Ly. 2021. Implement correctly rounded logf based on RLIBM library. https://github.com/llvm/llvm-project/commit/d08a801b5f5678af52c89d202e5f22e0d43a38cd  Tue Ly. 2021. Implement correctly rounded logf based on RLIBM library. https://github.com/llvm/llvm-project/commit/d08a801b5f5678af52c89d202e5f22e0d43a38cd"
+   },
+   {
+    "key": "e_1_3_2_1_31_1",
+    "unstructured": "Tue Ly. 2022. Implement correctly rounded log10f based on RLIBM library. https://github.com/llvm/llvm-project/commit/e581841e8cf46109acea92e1acb661c404fa62b9  Tue Ly. 2022. Implement correctly rounded log10f based on RLIBM library. https://github.com/llvm/llvm-project/commit/e581841e8cf46109acea92e1acb661c404fa62b9"
+   },
+   {
+    "key": "e_1_3_2_1_32_1",
+    "unstructured": "Tue Ly. 2022. Implement correctly rounded log2f based on RLIBM library. https://github.com/llvm/llvm-project/commit/63d2df003e9c198bfa70d448f8ad7b361cbb1351  Tue Ly. 2022. Implement correctly rounded log2f based on RLIBM library. https://github.com/llvm/llvm-project/commit/63d2df003e9c198bfa70d448f8ad7b361cbb1351"
+   },
+   {
+    "key": "e_1_3_2_1_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2422.322418"
+   },
+   {
+    "key": "e_1_3_2_1_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4899-7983-4"
+   },
+   {
+    "key": "e_1_3_2_1_35_1",
+    "volume-title": "Lim",
+    "author": "Nagarakatte Santosh",
+    "year": "2022",
+    "unstructured": "Santosh Nagarakatte , Mridul Aanjaneya , and Jay P . Lim . 2022 . The RLIBM Project . https://www.cs.rutgers.edu/~santosh.nagarakatte/rlibm/ Santosh Nagarakatte, Mridul Aanjaneya, and Jay P. Lim. 2022. The RLIBM Project. https://www.cs.rutgers.edu/~santosh.nagarakatte/rlibm/"
+   },
+   {
+    "key": "e_1_3_2_1_36_1",
+    "unstructured": "NVIDIA. 2020. TensorFloat-32 in the A100 GPU Accelerates AI Training HPC up to 20x. https://blogs.nvidia.com/blog/2020/05/14/tensorfloat-32-precision-format/  NVIDIA. 2020. TensorFloat-32 in the A100 GPU Accelerates AI Training HPC up to 20x. https://blogs.nvidia.com/blog/2020/05/14/tensorfloat-32-precision-format/"
+   },
+   {
+    "key": "e_1_3_2_1_37_1",
+    "volume-title": "Sur un proc\u00e9d\u00e9 convergent d\u2019approximations successives pour d\u00e9terminer les polyn\u00f4mes d\u2019approximation. Comptes rendus de l\u2019Acad\u00e9mie des Sciences, 198",
+    "author": "Remes Eugene",
+    "year": "1934",
+    "unstructured": "Eugene Remes . 1934. Sur un proc\u00e9d\u00e9 convergent d\u2019approximations successives pour d\u00e9terminer les polyn\u00f4mes d\u2019approximation. Comptes rendus de l\u2019Acad\u00e9mie des Sciences, 198 ( 1934 ), 2063\u20132065. Eugene Remes. 1934. Sur un proc\u00e9d\u00e9 convergent d\u2019approximations successives pour d\u00e9terminer les polyn\u00f4mes d\u2019approximation. Comptes rendus de l\u2019Acad\u00e9mie des Sciences, 198 (1934), 2063\u20132065."
+   },
+   {
+    "key": "e_1_3_2_1_38_1",
+    "volume-title": "3rd International Workshop on the ACL2 Theorem Prover and its Applications.",
+    "author": "Sawada Jun",
+    "year": "2002",
+    "unstructured": "Jun Sawada . 2002 . Formal verification of divide and square root algorithms using series calculation . In 3rd International Workshop on the ACL2 Theorem Prover and its Applications. Jun Sawada. 2002. Formal verification of divide and square root algorithms using series calculation. In 3rd International Workshop on the ACL2 Theorem Prover and its Applications."
+   },
+   {
+    "key": "e_1_3_2_1_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ARITH.1999.762822"
+   },
+   {
+    "key": "e_1_3_2_1_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.23919/DATE.2018.8342167"
+   },
+   {
+    "key": "e_1_3_2_1_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/63522.214389"
+   },
+   {
+    "key": "e_1_3_2_1_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/98267.98294"
+   },
+   {
+    "key": "e_1_3_2_1_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ARITH.1991.145565"
+   },
+   {
+    "key": "e_1_3_2_1_44_1",
+    "volume-title": "Approximation Theory and Approximation Practice (Other Titles in Applied Mathematics)",
+    "author": "Trefethen Lloyd N.",
+    "year": "1972",
+    "unstructured": "Lloyd N. Trefethen . 2012. Approximation Theory and Approximation Practice (Other Titles in Applied Mathematics) . Society for Industrial and Applied Mathematics , USA. isbn:161 1972 396 Lloyd N. Trefethen. 2012. Approximation Theory and Approximation Practice (Other Titles in Applied Mathematics). Society for Industrial and Applied Mathematics, USA. isbn:1611972396"
+   },
+   {
+    "key": "e_1_3_2_1_45_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/114697.116813"
+   }
+  ],
+  "event": {
+   "name": "PLDI '22: 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation",
+   "location": "San Diego CA USA",
+   "acronym": "PLDI '22",
+   "sponsor": [
+    "SIGPLAN ACM Special Interest Group on Programming Languages"
+   ]
+  },
+  "container-title": [
+   "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://dl.acm.org/doi/10.1145/3519939.3523447",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://dl.acm.org/doi/pdf/10.1145/3519939.3523447",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     17
+    ]
+   ],
+   "date-time": "2025-06-17T19:31:16Z",
+   "timestamp": 1750188676000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://dl.acm.org/doi/10.1145/3519939.3523447"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     9
+    ]
+   ]
+  },
+  "references-count": 41,
+  "alternative-id": [
+   "10.1145/3519939.3523447",
+   "10.1145/3519939"
+  ],
+  "URL": "https://doi.org/10.1145/3519939.3523447",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     6,
+     9
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2022-06-09",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ }
+}

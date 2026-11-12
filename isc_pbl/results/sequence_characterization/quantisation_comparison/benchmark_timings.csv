@@ -1,0 +1,5 @@
+Operation,Mean_Time_Seconds,Std_Time_Seconds
+sequence_generation_1M,4.9980,0.2241
+digit_extraction_1M,0.0332,0.0019
+arccos_transformation_1M,0.0407,0.0046
+byte_statistics_and_chi2,0.0834,0.0083

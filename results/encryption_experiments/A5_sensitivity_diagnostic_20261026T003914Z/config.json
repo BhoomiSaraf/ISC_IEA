@@ -1,0 +1,11 @@
+{
+ "stream_bytes": 2000,
+ "dims": [
+  64,
+  64,
+  1
+ ],
+ "flips": "key bits 0, 255 and nonce bits 0, 127",
+ "experiment": "A5_sensitivity",
+ "mode": "diagnostic"
+}

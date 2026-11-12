@@ -1,0 +1,27 @@
+{
+  "auth_before_generator_construction": {
+    "flip_header_byte": "OK: rejected before generator work (Malformed)",
+    "flip_body_byte": "OK: rejected before generator work (AuthenticationError)",
+    "flip_tag_byte": "OK: rejected before generator work (AuthenticationError)",
+    "truncate": "OK: rejected before generator work (Malformed)"
+  },
+  "wrong_key_rejected": "OK: AuthenticationError",
+  "error_oracle_shape": {
+    "probe_results": {
+      "too_short": "Malformed",
+      "bad_magic": "Malformed",
+      "bad_version_byte": "Malformed",
+      "valid_tampered_body": "AuthenticationError",
+      "valid_tampered_tag": "AuthenticationError"
+    },
+    "distinct_exception_types_observed": [
+      "AuthenticationError",
+      "Malformed"
+    ],
+    "assessment": "Malformed (format-level: bad magic, bad version, too short) and AuthenticationError (crypto-level: valid format but tag/key mismatch) ARE distinguishable exception types at the Python API level. Whether this constitutes an exploitable CCA oracle depends entirely on how a CALLER surfaces these exceptions (e.g., over a network service that returns different HTTP codes or timings for Malformed vs AuthenticationError would leak format-validity information to an attacker who cannot otherwise probe ciphertext structure). The isc_cipher LIBRARY itself does not constitute such a service -- this is a STRUCTURAL OBSERVATION about what a caller must be careful about, not a demonstrated CCA break of the library in isolation. No numeric 'NumericalDivergenceError' (KCV mismatch) was observed to arise BEFORE AuthenticationError in any probe here, consistent with the auth-before-decrypt ordering already confirmed in Phase 4A/this phase's monkeypatch test."
+  },
+  "plaintext_release_ordering": {
+    "source_inspection": "cipher.py:140-145: p = sampling.invert_permutation(q, m['pi']) is computed on line 142 but the function does not `return p` until line 145, AFTER the KCV hmac.compare_digest check on line 143-144 raises NumericalDivergenceError if it fails -- confirmed by direct re-reading of the current source in this phase's own file read.",
+    "duplicate_of_phase4a_test": "tests/test_isc_cipher_auth.py's test_kcv_fails_iff_final_states_differ_and_never_releases_wrong_plaintext already executed this check; not re-run here to avoid redundant work, per instruction."
+  }
+}

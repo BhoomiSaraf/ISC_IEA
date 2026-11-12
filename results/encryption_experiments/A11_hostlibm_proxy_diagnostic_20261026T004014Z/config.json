@@ -1,0 +1,5 @@
+{
+ "label": "HOST-MATH-LIBRARY PROXY: Python math.sin/math.cos on E1 (MSVC CRT) vs E2 (glibc). Does NOT test NumPy profile 2 and does NOT establish its cross-platform reproducibility. NumPy is not installed on E2.",
+ "experiment": "A11_hostlibm_proxy",
+ "mode": "diagnostic"
+}

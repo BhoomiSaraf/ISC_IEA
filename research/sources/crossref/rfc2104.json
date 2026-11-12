@@ -1,0 +1,131 @@
+{
+ "query": "https://api.crossref.org/works/10.17487/rfc2104",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2026-10-23T21:53:49Z",
+   "timestamp": 1792792429829,
+   "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "RFC Editor",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "DOI": "10.17487/rfc2104",
+  "type": "report",
+  "created": {
+   "date-parts": [
+    [
+     2015,
+     4,
+     11
+    ]
+   ],
+   "date-time": "2015-04-11T00:33:23Z",
+   "timestamp": 1428712403000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 925,
+  "title": [
+   "HMAC: Keyed-Hashing for Message Authentication"
+  ],
+  "prefix": "10.17487",
+  "author": [
+   {
+    "given": "H.",
+    "family": "Krawczyk",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "M.",
+    "family": "Bellare",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "R.",
+    "family": "Canetti",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "7045",
+  "published-online": {
+   "date-parts": [
+    [
+     1997,
+     2
+    ]
+   ]
+  },
+  "container-title": [],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2015,
+     4,
+     11
+    ]
+   ],
+   "date-time": "2015-04-11T00:33:29Z",
+   "timestamp": 1428712409000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.rfc-editor.org/info/rfc2104"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1997,
+     2
+    ]
+   ]
+  },
+  "references-count": 0,
+  "URL": "https://doi.org/10.17487/rfc2104",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1997,
+     2
+    ]
+   ]
+  }
+ }
+}

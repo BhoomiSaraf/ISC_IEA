@@ -1,0 +1,65 @@
+{
+  "natural_images": {
+    "n_runs": 22,
+    "n_exact_recovery_failures": 0,
+    "entropy_mean": 7.997612914751462,
+    "entropy_min": 7.995047144009144,
+    "entropy_max": 7.999127079729807,
+    "chi2_pvalue_mean": 0.6680714996149226,
+    "chi2_pvalue_below_0.05": 1,
+    "chi2_expected_freq_min": 170.0,
+    "chi2_assumption_satisfied_all_rows": true,
+    "by_profile": {
+      "1": {
+        "n": 18,
+        "mean_entropy": 7.99750300589323,
+        "mean_chi2_pvalue": 0.6462630931592291,
+        "mean_enc_time_sec": 10.2934437778054
+      },
+      "2": {
+        "n": 4,
+        "mean_entropy": 7.998107504613515,
+        "mean_chi2_pvalue": 0.7662093286655438,
+        "mean_enc_time_sec": 15.60029495001072
+      }
+    }
+  },
+  "correlation": {
+    "n_rows": 38,
+    "orig_mean_abs_r": 0.886079536744635,
+    "enc_mean_abs_r": 0.0031529868463944055,
+    "highest_single_encrypted_abs_r": 0.0136984358169266,
+    "highest_case_image": "chelsea_rgb",
+    "highest_case_channel": "1",
+    "outlier_investigated": true,
+    "outlier_note": "Highest residual |r| found and reported, not hidden, per instruction 7 of Track A/B. Magnitude context given in README.md interpretation."
+  },
+  "npcr_uaci": {
+    "n_trials": 21,
+    "n_independent_groups_used_for_ci": 12,
+    "note_on_independence": "21 raw trial rows collapse to 12 (image, channel, position) groups by averaging across key/nonce configs before computing the aggregate CI, since repeated key/nonce configs on the same (image, position) are dependent observations of the same structural trial, not independent samples.",
+    "aggregate_npcr_mean": 99.74470046366038,
+    "aggregate_npcr_95ci": [
+      99.68820774945497,
+      99.80119317786578
+    ],
+    "aggregate_uaci_mean": 33.486169331404255,
+    "aggregate_uaci_95ci": [
+      33.448255917988774,
+      33.52408274481974
+    ],
+    "reference_expectation_ideal_random_npcr_pct": 99.609375,
+    "reference_expectation_ideal_random_uaci_pct": 33.46354166666667,
+    "per_image_npcr_mean": {
+      "astronaut_gray": 99.79960123697917,
+      "astronaut_rgb": 99.70058865017363,
+      "chelsea_gray": 99.72005208333333,
+      "hubble_deep_field_gray": 99.75855988415545
+    },
+    "per_keynonce_npcr_mean": {
+      "plaintext_diff_gray|0": 99.7857851076351,
+      "plaintext_diff_gray|1": 99.73302369534353,
+      "plaintext_diff_rgb_channel|0": 99.70058865017363
+    }
+  }
+}

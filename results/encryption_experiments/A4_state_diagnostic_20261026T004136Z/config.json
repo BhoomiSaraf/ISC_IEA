@@ -1,0 +1,10 @@
+{
+ "type": "EXPLORATORY",
+ "model": "ISC on a k-bit grid: after every step x, y are rounded to multiples of 2^-(k-1); output per step = b = k//4 middle bits of each coordinate index",
+ "ks": [
+  8
+ ],
+ "cap_seconds": 21600,
+ "experiment": "A4_state",
+ "mode": "diagnostic"
+}

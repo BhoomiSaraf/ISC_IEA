@@ -1,0 +1,815 @@
+{
+ "query": "https://api.crossref.org/works/10.1016/j.ins.2012.07.049",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     21
+    ]
+   ],
+   "date-time": "2026-10-21T07:55:30Z",
+   "timestamp": 1792569330520,
+   "version": "4.5.0"
+  },
+  "reference-count": 66,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2013,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2013-02-01T00:00:00Z",
+     "timestamp": 1359676800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Information Sciences"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2013,
+     2
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.ins.2012.07.049",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     8,
+     7
+    ]
+   ],
+   "date-time": "2012-08-07T10:02:35Z",
+   "timestamp": 1344333755000
+  },
+  "page": "323-342",
+  "source": "Crossref",
+  "is-referenced-by-count": 657,
+  "special_numbering": "C",
+  "title": [
+   "Local Shannon entropy measure with statistical tests for image randomness"
+  ],
+  "prefix": "10.1016",
+  "volume": "222",
+  "author": [
+   {
+    "given": "Yue",
+    "family": "Wu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yicong",
+    "family": "Zhou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "George",
+    "family": "Saveriades",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sos",
+    "family": "Agaian",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joseph P.",
+    "family": "Noonan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Premkumar",
+    "family": "Natarajan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0005",
+    "unstructured": "FIPS PUB 140-1: Security Requirements for Cryptographic Modules, 1994."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0010",
+    "unstructured": "FIPS PUB 46: Data Encryption Standard, 1999."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0015",
+    "unstructured": "FIPS PUB 197: Avdanced Encryption Standard, 2001."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0020",
+    "unstructured": "FIPS PUB140-2: Security Requirements for Cryptographic Modules, 2001."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "3",
+    "DOI": "10.1016/0377-0427(90)90330-3",
+    "article-title": "Criteria for the assessment of random number generators",
+    "volume": "31",
+    "author": "Afflerbach",
+    "year": "1990",
+    "journal-title": "Journal of Computational and Applied Mathematics"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "3259",
+    "DOI": "10.1016/j.optcom.2010.04.056",
+    "article-title": "A novel scheme for image encryption based on 2d piecewise chaotic maps",
+    "volume": "283",
+    "author": "Akhshani",
+    "year": "2010",
+    "journal-title": "Optics Communications"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0035",
+    "first-page": "191",
+    "article-title": "Description of a new variable-length key, 64-bit block cipher (blowfish)",
+    "volume": "vol. 809",
+    "author": "Anderson",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/0020-0255(81)90036-0",
+    "article-title": "On the Shannon measure of entropy",
+    "volume": "23",
+    "author": "Arora",
+    "year": "1981",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0045",
+    "series-title": "Probability and Statistics with Applications: A Problem Solving Text",
+    "author": "Asimow",
+    "year": "2010"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.2307/2346807",
+    "article-title": "The computer generation of poisson random variables",
+    "volume": "28",
+    "author": "Atkinson",
+    "year": "1979",
+    "journal-title": "Applied Statistics"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0055",
+    "series-title": "Fast Software Encryption",
+    "first-page": "111",
+    "article-title": "Cryptanalysis of sober-t32",
+    "volume": "vol. 2887",
+    "author": "Babbage",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "408",
+    "DOI": "10.1016/j.chaos.2006.05.011",
+    "article-title": "A novel algorithm for image encryption based on mixture of chaotic maps",
+    "volume": "35",
+    "author": "Behnia",
+    "year": "2008",
+    "journal-title": "Chaos, Solitons and Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "567",
+    "DOI": "10.1016/0031-3203(92)90074-S",
+    "article-title": "Picture data encryption using scan patterns",
+    "volume": "25",
+    "author": "Bourbakis",
+    "year": "1992",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "79",
+    "DOI": "10.1109/MMUL.2003.1218259",
+    "article-title": "Scan-based compression\u2013encryption-hiding for video on demand",
+    "volume": "10",
+    "author": "Bourbakis",
+    "year": "2003",
+    "journal-title": "IEEE Multimedia"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "125",
+    "DOI": "10.1016/j.ins.2012.01.016",
+    "article-title": "Personalized information encryption using ecg signals with chaotic functions",
+    "volume": "193",
+    "author": "Chen",
+    "year": "2012",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/j.chaos.2003.12.022",
+    "article-title": "A symmetric image encryption scheme based on 3d chaotic cat maps",
+    "volume": "21",
+    "author": "Chen",
+    "year": "2004",
+    "journal-title": "Chaos, Solitons and Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "53",
+    "DOI": "10.1016/j.ins.2012.02.049",
+    "article-title": "Cross-entropy measure of uncertain variables",
+    "volume": "201",
+    "author": "Chen",
+    "year": "2012",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "205",
+    "DOI": "10.1016/0167-9473(93)90115-A",
+    "article-title": "The computer generation of multinomial random variates",
+    "volume": "16",
+    "author": "Davis",
+    "year": "1993",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0095",
+    "series-title": "Proceedings of the 14th Annual International Cryptology Conference on Advances in Cryptology",
+    "first-page": "114",
+    "article-title": "Cryptographic randomness from air turbulence in disk drives",
+    "author": "Davis",
+    "year": "1994"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0100",
+    "doi-asserted-by": "crossref",
+    "first-page": "10",
+    "DOI": "10.1145/1609956.1609966",
+    "article-title": "Cryptanalysis of the random number generator of the windows operating system",
+    "volume": "13",
+    "author": "Dorrendorf",
+    "year": "2009",
+    "journal-title": "ACM Transactions on Information and System Security (TISSEC)"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/S0020-0255(00)00008-6",
+    "article-title": "The characterization of a measure of information discrepancy",
+    "volume": "125",
+    "author": "Fang",
+    "year": "2000",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "394",
+    "DOI": "10.1016/j.physleta.2007.07.040",
+    "article-title": "A new image encryption algorithm based on hyper-chaos",
+    "volume": "372",
+    "author": "Gao",
+    "year": "2008",
+    "journal-title": "Physics Letters A"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0115",
+    "series-title": "Digital Image Processing",
+    "author": "Gonz\u00e1lez",
+    "year": "2008"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "329",
+    "DOI": "10.1016/0010-4655(90)90032-V",
+    "article-title": "A review of pseudorandom number generators",
+    "volume": "60",
+    "author": "James",
+    "year": "1990",
+    "journal-title": "Computer Physics Communications"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0125",
+    "unstructured": "B. Jun, P. Kocher, The Intel Random Number Generator, Cryptography Research Inc., white paper, 1999."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "96",
+    "DOI": "10.2307/2310388",
+    "article-title": "An identity for the sum of multinomial coefficients",
+    "volume": "64",
+    "author": "Kao",
+    "year": "1957",
+    "journal-title": "The American Mathematical Monthly"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1016/j.amc.2003.12.122",
+    "article-title": "A randomness test for block ciphers",
+    "volume": "162",
+    "author": "Katos",
+    "year": "2005",
+    "journal-title": "Applied Mathematics and Computation"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0140",
+    "doi-asserted-by": "crossref",
+    "first-page": "372",
+    "DOI": "10.1016/j.cnsns.2010.04.010",
+    "article-title": "Extended substitution\u2013diffusion based image cipher using chaotic standard map",
+    "volume": "16",
+    "author": "Kumar",
+    "year": "2011",
+    "journal-title": "Communications in Nonlinear Science and Numerical Simulation"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0145",
+    "doi-asserted-by": "crossref",
+    "first-page": "1518",
+    "DOI": "10.1016/j.chaos.2005.11.090",
+    "article-title": "A fast image encryption system based on chaotic maps with finite precision representation",
+    "volume": "32",
+    "author": "Kwok",
+    "year": "2007",
+    "journal-title": "Chaos, Solitons and Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0150",
+    "series-title": "Statistics: Concepts and Applications for Science",
+    "author": "LeBlanc",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0155",
+    "doi-asserted-by": "crossref",
+    "first-page": "449",
+    "DOI": "10.1145/138351.138364",
+    "article-title": "A fast normal random number generator",
+    "volume": "18",
+    "author": "Leva",
+    "year": "1992",
+    "journal-title": "ACM Transactions on Mathematical Software"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0160",
+    "doi-asserted-by": "crossref",
+    "first-page": "23",
+    "DOI": "10.1016/j.physleta.2007.04.023",
+    "article-title": "Cryptanalysis of two chaotic encryption schemes based on circular bit shift and XOR operations",
+    "volume": "369",
+    "author": "Li",
+    "year": "2007",
+    "journal-title": "Physics Letters A"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0165",
+    "doi-asserted-by": "crossref",
+    "first-page": "368",
+    "DOI": "10.1016/j.physleta.2004.09.028",
+    "article-title": "Baptista-type chaotic cryptosystems: problems and countermeasures",
+    "volume": "332",
+    "author": "Li",
+    "year": "2004",
+    "journal-title": "Physics Letters A"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0170",
+    "doi-asserted-by": "crossref",
+    "unstructured": "X. Li, A new measure of image scrambling degree based on grey level difference and information entropy, in: Proceedings of the 2008 International Conference on Computational Intelligence and Security, vol. 01, Washington, DC, USA, pp. 350\u2013354.",
+    "DOI": "10.1109/CIS.2008.203"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0175",
+    "doi-asserted-by": "crossref",
+    "first-page": "2714",
+    "DOI": "10.1016/j.sigpro.2010.03.022",
+    "article-title": "A novel image encryption algorithm based on self-adaptive wave transmission",
+    "volume": "90",
+    "author": "Liao",
+    "year": "2010",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0180",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1016/j.ins.2012.04.016",
+    "article-title": "Local measures of information storage in complex distributed computation",
+    "volume": "208",
+    "author": "Lizier",
+    "year": "2012",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0185",
+    "doi-asserted-by": "crossref",
+    "first-page": "3613",
+    "DOI": "10.1142/S021812740401151X",
+    "article-title": "A novel fast image encryption scheme based on 3d chaotic baker maps",
+    "volume": "14",
+    "author": "Mao",
+    "year": "2004",
+    "journal-title": "International Journal of Bifurcation and Chaos in June"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0190",
+    "doi-asserted-by": "crossref",
+    "first-page": "1111",
+    "DOI": "10.1016/j.patcog.2005.01.002",
+    "article-title": "Efficient encryption of wavelet-based coded color images",
+    "volume": "38",
+    "author": "Martin",
+    "year": "2005",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0195",
+    "doi-asserted-by": "crossref",
+    "first-page": "59",
+    "DOI": "10.1016/j.ins.2012.03.017",
+    "article-title": "Using entropy measures for comparison of software traces",
+    "volume": "203",
+    "author": "Miranskyy",
+    "year": "2012",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0200",
+    "doi-asserted-by": "crossref",
+    "first-page": "926",
+    "DOI": "10.1016/j.imavis.2006.02.021",
+    "article-title": "Image encryption using chaotic logistic map",
+    "volume": "24",
+    "author": "Pareek",
+    "year": "2006",
+    "journal-title": "Image and Vision Computing"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0205",
+    "series-title": "Introduction to Statistics and Data Analysis",
+    "author": "Peck",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0210",
+    "doi-asserted-by": "crossref",
+    "first-page": "183",
+    "DOI": "10.1007/978-0-387-88735-7_8",
+    "article-title": "Image encryption and chaotic cellular neural network",
+    "author": "Peng",
+    "year": "2009",
+    "journal-title": "Machine Learning in Cyber Trust"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0215",
+    "doi-asserted-by": "crossref",
+    "unstructured": "C. Petit, F.X. Standaert, O. Pereira, T.G. Malkin, M. Yung, A block cipher based pseudo random number generator secure against side-channel key recovery, in: Proceedings of the 2008 ACM symposium on Information, computer and communications security, ASIACCS \u201908, ACM, New York, NY, USA, 2008, pp. 56\u201365.",
+    "DOI": "10.1145/1368310.1368322"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0220",
+    "series-title": "Numerical Recipes: The Art of Scientific Computing",
+    "author": "Press",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0225",
+    "unstructured": "J. Rigau, M. Feixas, M. Sbert, Entropy-based adaptive sampling, in: Graphics Interface, pp. 149\u2013157."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0230",
+    "series-title": "The Twofish Encryption Algorithm: A 128-bit Block Cipher",
+    "author": "Schneier",
+    "year": "1999"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0235",
+    "doi-asserted-by": "crossref",
+    "first-page": "379",
+    "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+    "article-title": "A mathematical theory of communication",
+    "volume": "27",
+    "author": "Shannon",
+    "year": "1948",
+    "journal-title": "Bell System Technical Journal"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0240",
+    "doi-asserted-by": "crossref",
+    "first-page": "656",
+    "DOI": "10.1002/j.1538-7305.1949.tb00928.x",
+    "article-title": "Communication theory of secrecy systems",
+    "volume": "28",
+    "author": "Shannon",
+    "year": "1949",
+    "journal-title": "Bell System Technical Journal"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0245",
+    "doi-asserted-by": "crossref",
+    "first-page": "270",
+    "DOI": "10.1007/11582267_24",
+    "article-title": "A color image encryption algorithm based on magic cube transformation and modular arithmetic operation",
+    "volume": "2005",
+    "author": "Shen",
+    "year": "2005",
+    "journal-title": "Advances in Mulitmedia Information Processing \u2013 PCM"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0250",
+    "series-title": "Handbook of Parametric and Nonparametric Statistical Procedures",
+    "author": "Sheskin",
+    "year": "2004"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0255",
+    "unstructured": "J. Soto, Statistical testing of random number generators, in: Proceedings of the 22nd National Information Systems Security Conference, vol. 10, NIST Gaithersburg, MD, p. 99."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0260",
+    "unstructured": "M. Sternstein, Statistics, Barron\u2019s Educational Series, 1996."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0265",
+    "series-title": "Cryptography: Theory and Practice",
+    "author": "Stinson",
+    "year": "2006"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0270",
+    "doi-asserted-by": "crossref",
+    "first-page": "843",
+    "DOI": "10.1016/j.imavis.2007.09.005",
+    "article-title": "Image encryption with compound chaotic sequence cipher shifting dynamically",
+    "volume": "26",
+    "author": "Tong",
+    "year": "2008",
+    "journal-title": "Image and Vision Computing"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0275",
+    "doi-asserted-by": "crossref",
+    "first-page": "480",
+    "DOI": "10.1016/j.sigpro.2008.09.011",
+    "article-title": "Image encryption scheme based on 3d baker with dynamical compound chaotic sequence cipher generator",
+    "volume": "89",
+    "author": "Tong",
+    "year": "2009",
+    "journal-title": "Signal Processing"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0280",
+    "series-title": "Advances in Cryptology CRYPTO \u201997",
+    "first-page": "526",
+    "article-title": "Cryptanalysis of the cellular message encryption algorithm",
+    "volume": "vol. 1294",
+    "author": "Wagner",
+    "year": "1997"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0285",
+    "doi-asserted-by": "crossref",
+    "first-page": "514",
+    "DOI": "10.1016/j.asoc.2009.12.011",
+    "article-title": "A new chaos-based fast image encryption algorithm",
+    "volume": "11",
+    "author": "Wang",
+    "year": "2011",
+    "journal-title": "Applied Soft Computing"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0290",
+    "series-title": "Introduction to Digital Communication Systems",
+    "author": "Wesolowski",
+    "year": "2009"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0295",
+    "first-page": "31",
+    "article-title": "Npcr and uaci randomness tests for image encryption, Cyber Journals: Multidisciplinary Journals in Science and Technology",
+    "author": "Wu",
+    "year": "2011",
+    "journal-title": "Journal of Selected Areas in Telecommunications (JSAT)"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0300",
+    "unstructured": "Y. Wu, Y. Zhou, J.P. Noonan, K. Panetta, S. Agaian, Image encryption using the sudoku matrix, in: Mobile Multimedia/Image Processing, Security, and Applications 2010, vol. 7708, SPIE, Orlando, Florida, USA, 2010, pp. 77080P\u201312."
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0305",
+    "doi-asserted-by": "crossref",
+    "first-page": "28",
+    "DOI": "10.1109/MP.2004.1341784",
+    "article-title": "Data-image-video encryption",
+    "volume": "23",
+    "author": "Yang",
+    "year": "2004",
+    "journal-title": "IEEE Potentials"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0310",
+    "doi-asserted-by": "crossref",
+    "first-page": "408",
+    "DOI": "10.1088/1742-6596/48/1/077",
+    "article-title": "A new measurement for image encryption effect",
+    "volume": "48",
+    "author": "Yu",
+    "year": "2006",
+    "journal-title": "Journal of Physics: Conference Series"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0315",
+    "doi-asserted-by": "crossref",
+    "first-page": "759",
+    "DOI": "10.1016/j.chaos.2004.09.035",
+    "article-title": "An image encryption approach based on chaotic maps",
+    "volume": "24",
+    "author": "Zhang",
+    "year": "2005",
+    "journal-title": "Chaos, Solitons and Fractals"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0320",
+    "doi-asserted-by": "crossref",
+    "first-page": "2028",
+    "DOI": "10.1016/j.mcm.2010.06.005",
+    "article-title": "Image encryption using DNA addition combining with chaotic maps",
+    "volume": "52",
+    "author": "Zhang",
+    "year": "2010",
+    "journal-title": "Mathematical and Computer Modelling"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0325",
+    "doi-asserted-by": "crossref",
+    "first-page": "594",
+    "DOI": "10.1016/j.optcom.2011.11.044",
+    "article-title": "Image encryption using p-fibonacci transform and decomposition",
+    "volume": "285",
+    "author": "Zhou",
+    "year": "2012",
+    "journal-title": "Optics Communications"
+   },
+   {
+    "key": "10.1016/j.ins.2012.07.049_b0330",
+    "doi-asserted-by": "crossref",
+    "first-page": "1171",
+    "DOI": "10.1016/j.ins.2010.11.009",
+    "article-title": "A chaos-based symmetric image encryption scheme using a bit-level permutation",
+    "volume": "181",
+    "author": "Zhu",
+    "year": "2011",
+    "journal-title": "Information Sciences"
+   }
+  ],
+  "container-title": [
+   "Information Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S002002551200521X?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S002002551200521X?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     7,
+     2
+    ]
+   ],
+   "date-time": "2019-07-02T12:03:56Z",
+   "timestamp": 1562069036000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S002002551200521X"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2013,
+     2
+    ]
+   ]
+  },
+  "references-count": 66,
+  "alternative-id": [
+   "S002002551200521X"
+  ],
+  "URL": "https://doi.org/10.1016/j.ins.2012.07.049",
+  "relation": {},
+  "ISSN": [
+   "0020-0255"
+  ],
+  "issn-type": [
+   {
+    "value": "0020-0255",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2013,
+     2
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,861 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.6028/nist.sp.800-38d",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W2727655671",
+  "doi": "https://doi.org/10.6028/nist.sp.800-38d",
+  "title": "Recommendation for block cipher modes of operation :",
+  "display_name": "Recommendation for block cipher modes of operation :",
+  "publication_year": 2007,
+  "publication_date": "2007-01-01",
+  "ids": {
+   "openalex": "https://openalex.org/W2727655671",
+   "doi": "https://doi.org/10.6028/nist.sp.800-38d",
+   "mag": "2727655671"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.6028/nist.sp.800-38d",
+   "doi": "https://doi.org/10.6028/nist.sp.800-38d",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-38d",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-38d",
+   "source": null,
+   "license": "public-domain",
+   "license_id": "https://openalex.org/licenses/public-domain",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.6028/nist.sp.800-38d",
+   "any_repository_has_fulltext": null
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5057089955",
+     "display_name": "Morris J. Dworkin",
+     "orcid": "https://orcid.org/0000-0003-2745-9906",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-2745-9906"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1321296531",
+      "display_name": "National Institute of Standards and Technology",
+      "ror": "https://ror.org/05xpvk416",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I1343035065",
+      "display_name": "United States Department of Commerce",
+      "ror": "https://ror.org/04chq2495",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1343035065"
+      ]
+     },
+     {
+      "id": "https://openalex.org/I4210126846",
+      "display_name": "Information Technology Laboratory",
+      "ror": "https://ror.org/0440c3437",
+      "country_code": "US",
+      "type": "government",
+      "lineage": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I1343035065",
+       "https://openalex.org/I4210126846"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "M J Dworkin",
+    "raw_affiliation_strings": [
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+     "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+     "National Institute of Standards and Technology",
+     "U.S. Department of Commerce"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg , MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930",
+      "institution_ids": [
+       "https://openalex.org/I1321296531",
+       "https://openalex.org/I4210126846"
+      ]
+     },
+     {
+      "raw_affiliation_string": "National Institute of Standards and Technology",
+      "institution_ids": [
+       "https://openalex.org/I1321296531"
+      ]
+     },
+     {
+      "raw_affiliation_string": "U.S. Department of Commerce",
+      "institution_ids": [
+       "https://openalex.org/I1343035065"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5057089955"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I1321296531",
+   "https://openalex.org/I1343035065",
+   "https://openalex.org/I4210126846"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 469,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 1.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T10237",
+    "display_name": "Cryptography and Data Security",
+    "score": 0.0,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/block-cipher",
+    "display_name": "block cipher",
+    "score": 0.8410000205039978
+   },
+   {
+    "id": "https://openalex.org/keywords/modes-of-operation",
+    "display_name": "modes of operation",
+    "score": 0.9629999995231628
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptographic-standards",
+    "display_name": "cryptographic standards",
+    "score": 0.5649999976158142
+   },
+   {
+    "id": "https://openalex.org/keywords/block-cipher-modes-of-operation",
+    "display_name": "block cipher modes of operation",
+    "score": 0.5709999799728394
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C106544461",
+    "wikidata": "https://www.wikidata.org/wiki/Q543151",
+    "display_name": "Block cipher",
+    "level": 3,
+    "score": 0.6507456302642822
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.5187116265296936
+   },
+   {
+    "id": "https://openalex.org/C2777210771",
+    "wikidata": "https://www.wikidata.org/wiki/Q4927124",
+    "display_name": "Block (permutation group theory)",
+    "level": 2,
+    "score": 0.501563310623169
+   },
+   {
+    "id": "https://openalex.org/C94375191",
+    "wikidata": "https://www.wikidata.org/wiki/Q11205",
+    "display_name": "Arithmetic",
+    "level": 1,
+    "score": 0.43531888723373413
+   },
+   {
+    "id": "https://openalex.org/C173608175",
+    "wikidata": "https://www.wikidata.org/wiki/Q232661",
+    "display_name": "Parallel computing",
+    "level": 1,
+    "score": 0.34487470984458923
+   },
+   {
+    "id": "https://openalex.org/C11413529",
+    "wikidata": "https://www.wikidata.org/wiki/Q8366",
+    "display_name": "Algorithm",
+    "level": 1,
+    "score": 0.26144617795944214
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.21480754017829895
+   },
+   {
+    "id": "https://openalex.org/C178489894",
+    "wikidata": "https://www.wikidata.org/wiki/Q8789",
+    "display_name": "Cryptography",
+    "level": 2,
+    "score": 0.17490187287330627
+   },
+   {
+    "id": "https://openalex.org/C114614502",
+    "wikidata": "https://www.wikidata.org/wiki/Q76592",
+    "display_name": "Combinatorics",
+    "level": 1,
+    "score": 0.1145218014717102
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.6028/nist.sp.800-38d",
+    "doi": "https://doi.org/10.6028/nist.sp.800-38d",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6028/nist.sp.800-38d",
+    "pdf_url": "https://doi.org/10.6028/nist.sp.800-38d",
+    "source": null,
+    "license": "public-domain",
+    "license_id": "https://openalex.org/licenses/public-domain",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "National Institute of Standards and Technology",
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.6028/nist.sp.800-38d",
+   "doi": "https://doi.org/10.6028/nist.sp.800-38d",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.sp.800-38d",
+   "pdf_url": "https://doi.org/10.6028/nist.sp.800-38d",
+   "source": null,
+   "license": "public-domain",
+   "license_id": "https://openalex.org/licenses/public-domain",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320319880",
+    "display_name": "Government of Canada",
+    "ror": "https://ror.org/010q4q527"
+   },
+   {
+    "id": "https://openalex.org/F4320332178",
+    "display_name": "National Institute of Standards and Technology",
+    "ror": "https://ror.org/05xpvk416"
+   }
+  ],
+  "has_content": {
+   "grobid_xml": true,
+   "pdf": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W2727655671.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W2727655671.grobid-xml"
+  },
+  "referenced_works_count": 8,
+  "referenced_works": [
+   "https://openalex.org/W6541406",
+   "https://openalex.org/W13103650",
+   "https://openalex.org/W112964067",
+   "https://openalex.org/W1504211573",
+   "https://openalex.org/W1591098212",
+   "https://openalex.org/W2004513455",
+   "https://openalex.org/W4214745194",
+   "https://openalex.org/W4242557096"
+  ],
+  "related_works": [
+   "https://openalex.org/W2899084033",
+   "https://openalex.org/W2748952813",
+   "https://openalex.org/W2390279801",
+   "https://openalex.org/W2358668433",
+   "https://openalex.org/W2376932109",
+   "https://openalex.org/W2382290278",
+   "https://openalex.org/W2350741829",
+   "https://openalex.org/W2130043461",
+   "https://openalex.org/W2530322880",
+   "https://openalex.org/W2029210135"
+  ],
+  "abstract_inverted_index": {
+   "Reports": [
+    0
+   ],
+   "on": [
+    1,
+    90
+   ],
+   "Information": [
+    2,
+    5
+   ],
+   "Security": [
+    3
+   ],
+   "TechnologyThe": [
+    4
+   ],
+   "Technology": [
+    6,
+    16
+   ],
+   "Laboratory": [
+    7
+   ],
+   "(ITL)": [
+    8
+   ],
+   "at": [
+    9
+   ],
+   "the": [
+    10,
+    19,
+    30,
+    51,
+    61,
+    73,
+    141,
+    155,
+    162,
+    166
+   ],
+   "National": [
+    11,
+    142
+   ],
+   "Institute": [
+    12,
+    143
+   ],
+   "of": [
+    13,
+    43,
+    56,
+    63,
+    78,
+    144
+   ],
+   "Standards": [
+    14,
+    145
+   ],
+   "and": [
+    15,
+    22,
+    33,
+    46,
+    53,
+    67,
+    70,
+    76,
+    94,
+    100,
+    107,
+    146
+   ],
+   "(NIST)": [
+    17
+   ],
+   "promotes": [
+    18
+   ],
+   "U.S.": [
+    20
+   ],
+   "economy": [
+    21
+   ],
+   "public": [
+    23
+   ],
+   "welfare": [
+    24
+   ],
+   "by": [
+    25,
+    140
+   ],
+   "providing": [
+    26
+   ],
+   "technical": [
+    27,
+    47
+   ],
+   "leadership": [
+    28
+   ],
+   "for": [
+    29,
+    72,
+    165
+   ],
+   "Nation's": [
+    31
+   ],
+   "measurement": [
+    32
+   ],
+   "standards": [
+    34,
+    69
+   ],
+   "infrastructure.ITL": [
+    35
+   ],
+   "develops": [
+    36
+   ],
+   "tests,": [
+    37
+   ],
+   "test": [
+    38
+   ],
+   "methods,": [
+    39
+   ],
+   "reference": [
+    40
+   ],
+   "data,": [
+    41
+   ],
+   "proof": [
+    42
+   ],
+   "concept": [
+    44,
+    129
+   ],
+   "implementations,": [
+    45
+   ],
+   "analyses": [
+    48
+   ],
+   "to": [
+    49,
+    123,
+    135,
+    152
+   ],
+   "advance": [
+    50
+   ],
+   "development": [
+    52,
+    62
+   ],
+   "productive": [
+    54
+   ],
+   "use": [
+    55
+   ],
+   "information": [
+    57,
+    81
+   ],
+   "technology.ITL's": [
+    58
+   ],
+   "responsibilities": [
+    59
+   ],
+   "include": [
+    60
+   ],
+   "technical,": [
+    64
+   ],
+   "physical,": [
+    65
+   ],
+   "administrative,": [
+    66
+   ],
+   "management": [
+    68
+   ],
+   "guidelines": [
+    71
+   ],
+   "cost-effective": [
+    74
+   ],
+   "security": [
+    75
+   ],
+   "privacy": [
+    77
+   ],
+   "sensitive": [
+    79
+   ],
+   "unclassified": [
+    80
+   ],
+   "in": [
+    82,
+    97,
+    118,
+    121
+   ],
+   "Federal": [
+    83
+   ],
+   "computer": [
+    84,
+    98
+   ],
+   "systems.This": [
+    85
+   ],
+   "Special": [
+    86
+   ],
+   "Publication": [
+    87
+   ],
+   "800-series": [
+    88
+   ],
+   "reports": [
+    89
+   ],
+   "ITL's": [
+    91
+   ],
+   "research,": [
+    92
+   ],
+   "guidance,": [
+    93
+   ],
+   "outreach": [
+    95
+   ],
+   "efforts": [
+    96
+   ],
+   "security,": [
+    99
+   ],
+   "its": [
+    101
+   ],
+   "collaborative": [
+    102
+   ],
+   "activities": [
+    103
+   ],
+   "with": [
+    104
+   ],
+   "industry,": [
+    105
+   ],
+   "government,": [
+    106
+   ],
+   "academic": [
+    108
+   ],
+   "organizations.Certain": [
+    109
+   ],
+   "commercial": [
+    110
+   ],
+   "entities,": [
+    111,
+    156
+   ],
+   "equipment,": [
+    112
+   ],
+   "or": [
+    113,
+    128,
+    138,
+    158
+   ],
+   "materials": [
+    114
+   ],
+   "may": [
+    115
+   ],
+   "be": [
+    116
+   ],
+   "identified": [
+    117
+   ],
+   "this": [
+    119
+   ],
+   "document": [
+    120
+   ],
+   "order": [
+    122
+   ],
+   "describe": [
+    124
+   ],
+   "an": [
+    125
+   ],
+   "experimental": [
+    126
+   ],
+   "procedure": [
+    127
+   ],
+   "adequately.Such": [
+    130
+   ],
+   "identification": [
+    131
+   ],
+   "is": [
+    132,
+    149
+   ],
+   "not": [
+    133
+   ],
+   "intended": [
+    134,
+    151
+   ],
+   "imply": [
+    136,
+    153
+   ],
+   "recommendation": [
+    137
+   ],
+   "endorsement": [
+    139
+   ],
+   "Technology,": [
+    147
+   ],
+   "nor": [
+    148
+   ],
+   "it": [
+    150
+   ],
+   "that": [
+    154
+   ],
+   "materials,": [
+    157
+   ],
+   "equipment": [
+    159
+   ],
+   "are": [
+    160
+   ],
+   "necessarily": [
+    161
+   ],
+   "best": [
+    163
+   ],
+   "available": [
+    164
+   ],
+   "purpose.": [
+    167
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 86
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 31
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 25
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 27
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 19
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 28
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 27
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 33
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 24
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 24
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 18
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 29
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 27
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 15
+   }
+  ],
+  "updated_date": "2026-10-23T09:35:12.469056",
+  "created_date": "2025-10-10T00:00:00"
+ }
+}

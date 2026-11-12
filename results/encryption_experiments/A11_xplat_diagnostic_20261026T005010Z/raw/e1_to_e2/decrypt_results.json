@@ -1,0 +1,24 @@
+{
+ "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+ "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+ "results": {
+  "img000.isci": {
+   "ok": true,
+   "sha256": "b13df7fef72f5c9dfa0d5182abca49857294db0074f9a12e403a81a9fdc9514c",
+   "dims": [
+    16,
+    16,
+    1
+   ]
+  },
+  "img001.isci": {
+   "ok": true,
+   "sha256": "ff600e1222490c7839489121858a9bf1c010697ac64f1bcaaeeabe10a55e85b8",
+   "dims": [
+    16,
+    16,
+    1
+   ]
+  }
+ }
+}

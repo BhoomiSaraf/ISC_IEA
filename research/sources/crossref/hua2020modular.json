@@ -1,0 +1,636 @@
+{
+ "query": "https://api.crossref.org/works/10.1109/tsp.2020.2979596",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     10
+    ]
+   ],
+   "date-time": "2026-09-10T19:49:10Z",
+   "timestamp": 1789069750623,
+   "version": "build-2803163510"
+  },
+  "reference-count": 56,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2020-01-01T00:00:00Z",
+     "timestamp": 1577836800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2020-01-01T00:00:00Z",
+     "timestamp": 1577836800000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-029"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2020-01-01T00:00:00Z",
+     "timestamp": 1577836800000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-037"
+   }
+  ],
+  "funder": [
+   {
+    "name": "National Key R&amp;D Program of China",
+    "award": [
+     "2018YFB1003800"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2018YFB1003800"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "National Key R&amp;D Program of China",
+    "award": [
+     "2018YFB1003805"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2018YFB1003805"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "61701137"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "61701137"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Natural Scientific Research Innovation Foundation in Harbin Institute of Technology",
+    "award": [
+     "HIT.NSRIF.2020077"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "HIT.NSRIF.2020077"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Shenzhen Science and Technology Program",
+    "award": [
+     "JCYJ20170811160212033"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "JCYJ20170811160212033"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100003009",
+    "name": "Science and Technology Development Fund",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "189/2017/A3"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "189/2017/A3"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100003009",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Research Committee at University of Macau",
+    "award": [
+     "MYRG2018-00136-FST"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "MYRG2018-00136-FST"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Trans. Signal Process."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "DOI": "10.1109/tsp.2020.2979596",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2020,
+     3,
+     12
+    ]
+   ],
+   "date-time": "2020-03-12T16:10:07Z",
+   "timestamp": 1584029407000
+  },
+  "page": "1937-1949",
+  "source": "Crossref",
+  "is-referenced-by-count": 134,
+  "title": [
+   "Two-Dimensional Modular Chaotification System for Improving Chaos Complexity"
+  ],
+  "prefix": "10.1109",
+  "volume": "68",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-3529-0541",
+    "authenticated-orcid": false,
+    "given": "Zhongyun",
+    "family": "Hua",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yinxing",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4487-6384",
+    "authenticated-orcid": false,
+    "given": "Yicong",
+    "family": "Zhou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref39",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2013.10.034"
+   },
+   {
+    "key": "ref38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2017.2717943"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127417501036"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSMC.2019.2932616"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSMC.2015.2398836"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2018.2888688"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2017.03.011"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "crossref",
+    "first-page": "996",
+    "DOI": "10.1109/TCSII.2010.2083170",
+    "article-title": "Randomness enhancement using digitalized modified logistic map",
+    "volume": "57",
+    "author": "chen",
+    "year": "2010",
+    "journal-title": "IEEE Trans Circuits Syst II"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2006.11.027"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TVLSI.2010.2103332"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MMUL.2018.2873472"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TNNLS.2012.2188414"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1587/transfun.E99.A.363"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSIPN.2018.2854669"
+   },
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-319-30279-9"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2017.2770092"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2005.11.087"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0895-7177(00)00256-9"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2012.2195659"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2016.01.040"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCYB.2018.2825253"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "crossref",
+    "first-page": "1114",
+    "DOI": "10.1109/TNNLS.2013.2251000",
+    "article-title": "Exponential ${H}_{\\infty }$ synchronization and state estimation for chaotic systems via a unified model",
+    "volume": "24",
+    "author": "liu",
+    "year": "2013",
+    "journal-title": "IEEE Trans Neural Netw Learn Syst"
+   },
+   {
+    "key": "ref50",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSVT.2017.2703946"
+   },
+   {
+    "key": "ref51",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1152/ajpheart.2000.278.6.H2039"
+   },
+   {
+    "key": "ref56",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCYB.2014.2363168"
+   },
+   {
+    "key": "ref55",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2018.03.010"
+   },
+   {
+    "key": "ref54",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSII.2013.2251949"
+   },
+   {
+    "key": "ref53",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIFS.2013.2286268"
+   },
+   {
+    "key": "ref52",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1103/PhysRevLett.110.168703"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2016.2515398"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2016.2621728"
+   },
+   {
+    "key": "ref40",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127411028325"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSVT.2017.2703946"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TIE.2016.2620103"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCE.2014.6852001"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2012.2235433"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "crossref",
+    "first-page": "1203",
+    "DOI": "10.1109/TCSVT.2014.2369711",
+    "article-title": "Design and ARM-embedded implementation of a chaotic map-based real-time secure video communication system",
+    "volume": "25",
+    "author": "lin",
+    "year": "2015",
+    "journal-title": "IEEE Trans Circuits Syst Video Technol"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2017.2706180"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2018.2858212"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1053",
+    "DOI": "10.1109/TSMCB.2012.2185842",
+    "article-title": "H$_{\\infty }$ state estimation for discrete-time chaotic systems based on a unified model",
+    "volume": "42",
+    "author": "liu",
+    "year": "2012",
+    "journal-title": "IEEE Trans Syst Man Cybern B"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TFUZZ.2017.2686373"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2017.2777391"
+   },
+   {
+    "key": "ref6",
+    "author": "hirsch",
+    "year": "2012",
+    "journal-title": "Differential Equations Dynamical Systems and an Introduction to Chaos"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TSP.2019.2918981"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCYB.2014.2336976"
+   },
+   {
+    "key": "ref7",
+    "author": "schuster",
+    "year": "2006",
+    "journal-title": "Deterministic Chaos An Introduction"
+   },
+   {
+    "key": "ref49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1137/S0036142993247311"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TII.2019.2923553"
+   },
+   {
+    "key": "ref46",
+    "volume": "2",
+    "author": "proctor",
+    "year": "1994",
+    "journal-title": "Lectures on Solar and Planetary Dynamos"
+   },
+   {
+    "key": "ref45",
+    "author": "alligood",
+    "year": "2000",
+    "journal-title": "Chaos An Introduction to Dynamical Systems"
+   },
+   {
+    "key": "ref48",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1201/b16113"
+   },
+   {
+    "key": "ref47",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/CBO9780511608339"
+   },
+   {
+    "key": "ref42",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-011-0320-z"
+   },
+   {
+    "key": "ref41",
+    "first-page": "16",
+    "article-title": "Digital chaotic scrambling of voice based on duffing map",
+    "volume": "1",
+    "author": "mahdi",
+    "year": "2016",
+    "journal-title": "Int J Inf Commun Sci Commun"
+   },
+   {
+    "key": "ref44",
+    "article-title": "Chaos theory",
+    "year": "0"
+   },
+   {
+    "key": "ref43",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.557372"
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Signal Processing"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/78/8933520/09034175.pdf?arnumber=9034175",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     27
+    ]
+   ],
+   "date-time": "2022-04-27T10:40:42Z",
+   "timestamp": 1651056042000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/9034175/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "references-count": 56,
+  "URL": "https://doi.org/10.1109/tsp.2020.2979596",
+  "relation": {},
+  "ISSN": [
+   "1053-587X",
+   "1941-0476"
+  ],
+  "issn-type": [
+   {
+    "value": "1053-587X",
+    "type": "print"
+   },
+   {
+    "value": "1941-0476",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  }
+ }
+}

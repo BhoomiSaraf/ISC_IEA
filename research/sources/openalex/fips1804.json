@@ -1,0 +1,405 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.6028/nist.fips.180-4",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W4248987559",
+  "doi": "https://doi.org/10.6028/nist.fips.180-4",
+  "title": "Secure hash standard",
+  "display_name": "Secure hash standard",
+  "publication_year": 2015,
+  "publication_date": "2015-01-01",
+  "ids": {
+   "openalex": "https://openalex.org/W4248987559",
+   "doi": "https://doi.org/10.6028/nist.fips.180-4"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.6028/nist.fips.180-4",
+   "doi": "https://doi.org/10.6028/nist.fips.180-4",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.fips.180-4",
+   "pdf_url": "https://doi.org/10.6028/nist.fips.180-4",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "volume": null,
+  "type": "report",
+  "indexed_in": [
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "gold",
+   "oa_url": "https://doi.org/10.6028/nist.fips.180-4",
+   "any_repository_has_fulltext": null
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 353,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+   "volume": null,
+   "issue": null,
+   "first_page": null,
+   "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T10951",
+   "display_name": "Cryptographic Implementations and Security",
+   "score": 0.9818999767303467,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T10951",
+    "display_name": "Cryptographic Implementations and Security",
+    "score": 0.9818999767303467,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11130",
+    "display_name": "Coding theory and cryptography",
+    "score": 0.005799999926239252,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11693",
+    "display_name": "Cryptography and Residue Arithmetic",
+    "score": 0.003000000026077032,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1710",
+     "display_name": "Information Systems"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/secure-hash-algorithm",
+    "display_name": "secure hash algorithm",
+    "score": 0.8180000185966492
+   },
+   {
+    "id": "https://openalex.org/keywords/message-digest",
+    "display_name": "message digest",
+    "score": 0.6909999847412109
+   },
+   {
+    "id": "https://openalex.org/keywords/message-authentication",
+    "display_name": "message authentication",
+    "score": 0.7009999752044678
+   },
+   {
+    "id": "https://openalex.org/keywords/data-integrity",
+    "display_name": "data integrity",
+    "score": 0.7049999833106995
+   },
+   {
+    "id": "https://openalex.org/keywords/cryptographic-hash-functions",
+    "display_name": "cryptographic hash functions",
+    "score": 0.6909999847412109
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C99138194",
+    "wikidata": "https://www.wikidata.org/wiki/Q183427",
+    "display_name": "Hash function",
+    "level": 2,
+    "score": 0.6072053909301758
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.5558227896690369
+   },
+   {
+    "id": "https://openalex.org/C38652104",
+    "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+    "display_name": "Computer security",
+    "level": 1,
+    "score": 0.23017844557762146
+   }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+   {
+    "id": "doi:10.6028/nist.fips.180-4",
+    "doi": "https://doi.org/10.6028/nist.fips.180-4",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6028/nist.fips.180-4",
+    "pdf_url": "https://doi.org/10.6028/nist.fips.180-4",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "National Institute of Standards and Technology",
+    "raw_type": "report"
+   }
+  ],
+  "best_oa_location": {
+   "id": "doi:10.6028/nist.fips.180-4",
+   "doi": "https://doi.org/10.6028/nist.fips.180-4",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.6028/nist.fips.180-4",
+   "pdf_url": "https://doi.org/10.6028/nist.fips.180-4",
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "National Institute of Standards and Technology",
+   "raw_type": "report"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+   {
+    "display_name": "Affordable and clean energy",
+    "id": "https://metadata.un.org/sdg/7",
+    "score": 0.49000000953674316
+   }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+   {
+    "id": "https://openalex.org/F4320306111",
+    "display_name": "U.S. Department of Commerce",
+    "ror": "https://ror.org/04chq2495"
+   },
+   {
+    "id": "https://openalex.org/F4320332178",
+    "display_name": "National Institute of Standards and Technology",
+    "ror": "https://ror.org/05xpvk416"
+   },
+   {
+    "id": "https://openalex.org/F4320337573",
+    "display_name": "Information Technology Laboratory",
+    "ror": "https://ror.org/0440c3437"
+   }
+  ],
+  "has_content": {
+   "pdf": true,
+   "grobid_xml": true
+  },
+  "content_urls": {
+   "pdf": "https://content.openalex.org/works/W4248987559.pdf",
+   "grobid_xml": "https://content.openalex.org/works/W4248987559.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+   "https://openalex.org/W4391375266",
+   "https://openalex.org/W2899084033",
+   "https://openalex.org/W2748952813",
+   "https://openalex.org/W2390279801",
+   "https://openalex.org/W4391913857",
+   "https://openalex.org/W2358668433",
+   "https://openalex.org/W4396701345",
+   "https://openalex.org/W2376932109",
+   "https://openalex.org/W2001405890",
+   "https://openalex.org/W4396696052"
+  ],
+  "abstract_inverted_index": {
+   "This": [
+    0
+   ],
+   "standard": [
+    1
+   ],
+   "specifies": [
+    2
+   ],
+   "hash": [
+    3
+   ],
+   "algorithms": [
+    4
+   ],
+   "that": [
+    5
+   ],
+   "can": [
+    6
+   ],
+   "be": [
+    7
+   ],
+   "used": [
+    8,
+    16
+   ],
+   "to": [
+    9,
+    17
+   ],
+   "generate": [
+    10
+   ],
+   "digests": [
+    11,
+    14,
+    26
+   ],
+   "of": [
+    12
+   ],
+   "messages.The": [
+    13
+   ],
+   "are": [
+    15
+   ],
+   "detect": [
+    18
+   ],
+   "whether": [
+    19
+   ],
+   "messages": [
+    20
+   ],
+   "have": [
+    21
+   ],
+   "been": [
+    22
+   ],
+   "changed": [
+    23
+   ],
+   "since": [
+    24
+   ],
+   "the": [
+    25
+   ],
+   "were": [
+    27
+   ],
+   "generated.": [
+    28
+   ]
+  },
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 53
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 45
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 41
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 38
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 47
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 33
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 32
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 22
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 17
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 12
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 9
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 3
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-22T09:42:04.148104",
+  "created_date": "2022-05-12T00:00:00"
+ }
+}

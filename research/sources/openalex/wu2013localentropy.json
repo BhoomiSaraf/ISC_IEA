@@ -1,0 +1,872 @@
+{
+ "query": "https://api.openalex.org/works/doi:10.1016/j.ins.2012.07.049",
+ "mode": "doi",
+ "result": {
+  "id": "https://openalex.org/W1750292977",
+  "doi": "https://doi.org/10.1016/j.ins.2012.07.049",
+  "title": "Local Shannon entropy measure with statistical tests for image randomness",
+  "display_name": "Local Shannon entropy measure with statistical tests for image randomness",
+  "publication_year": 2012,
+  "publication_date": "2012-08-07",
+  "ids": {
+   "openalex": "https://openalex.org/W1750292977",
+   "doi": "https://doi.org/10.1016/j.ins.2012.07.049",
+   "mag": "1750292977"
+  },
+  "language": "en",
+  "primary_location": {
+   "id": "doi:10.1016/j.ins.2012.07.049",
+   "doi": "https://doi.org/10.1016/j.ins.2012.07.049",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.ins.2012.07.049",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S192650101",
+    "display_name": "Information Sciences",
+    "issn_l": "0020-0255",
+    "issn": [
+     "0020-0255",
+     "1872-6291"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "ccf-b",
+     "cwts-core",
+     "dongbi-b",
+     "fnege-4",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Information Sciences",
+   "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+   "arxiv",
+   "crossref"
+  ],
+  "open_access": {
+   "is_oa": true,
+   "oa_status": "green",
+   "oa_url": "https://arxiv.org/pdf/1103.5520",
+   "any_repository_has_fulltext": true
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5100668826",
+     "display_name": "Yue Wu",
+     "orcid": "https://orcid.org/0000-0003-0126-3614",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-0126-3614"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I121934306",
+      "display_name": "Tufts University",
+      "ror": "https://ror.org/05wvpxv85",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "raw_author_name": "Yue Wu",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5009595085",
+     "display_name": "Yicong Zhou",
+     "orcid": "https://orcid.org/0000-0002-4487-6384",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4487-6384"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I204512498",
+      "display_name": "University of Macau",
+      "ror": "https://ror.org/01r4q9n85",
+      "country_code": "MO",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I204512498"
+      ]
+     }
+    ],
+    "countries": [
+     "MO"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Yicong Zhou",
+    "raw_affiliation_strings": [
+     "Department of Computer and Information Science, University of Macau, Ave. Padre Tom\u00e1s Pereira, Taipa, Macau, China"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Computer and Information Science, University of Macau, Ave. Padre Tom\u00e1s Pereira, Taipa, Macau, China",
+      "institution_ids": [
+       "https://openalex.org/I204512498"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5010202006",
+     "display_name": "George Saveriades",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I121934306",
+      "display_name": "Tufts University",
+      "ror": "https://ror.org/05wvpxv85",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "George Saveriades",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5048285657",
+     "display_name": "Sos \u0421. Agaian",
+     "orcid": "https://orcid.org/0000-0003-4601-4507",
+     "observed_orcids": [
+      "https://orcid.org/0000-0003-4601-4507"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I45438204",
+      "display_name": "The University of Texas at San Antonio",
+      "ror": "https://ror.org/01kd65564",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I45438204"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Sos Agaian",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering, University of Texas at San Antonio, One UTSA Circle, San Antonio, TX 78249, USA",
+     "Department of Electrical and Computer Engineering, University of Texas at San Antonio, One UTSA Circle, San Antonio, TX, 78249, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Texas at San Antonio, One UTSA Circle, San Antonio, TX 78249, USA",
+      "institution_ids": [
+       "https://openalex.org/I45438204"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Texas at San Antonio, One UTSA Circle, San Antonio, TX, 78249, USA",
+      "institution_ids": [
+       "https://openalex.org/I45438204"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5109422898",
+     "display_name": "Joseph P. Noonan",
+     "orcid": "https://orcid.org/0000-0002-9709-9734",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-9709-9734"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I121934306",
+      "display_name": "Tufts University",
+      "ror": "https://ror.org/05wvpxv85",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Joseph P. Noonan",
+    "raw_affiliation_strings": [
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+     "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave., Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Electrical and Computer Engineering, Tufts University, 161 College Ave, Medford, MA 02155, USA",
+      "institution_ids": [
+       "https://openalex.org/I121934306"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5066184920",
+     "display_name": "Prem Natarajan",
+     "orcid": "https://orcid.org/0000-0002-4386-6651",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-4386-6651",
+      "https://orcid.org/0000-0002-5554-8896"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I1306686416",
+      "display_name": "RTX (United States)",
+      "ror": "https://ror.org/0354t7b78",
+      "country_code": "US",
+      "type": "company",
+      "lineage": [
+       "https://openalex.org/I1306686416"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "raw_author_name": "Premkumar Natarajan",
+    "raw_affiliation_strings": [
+     "Raytheon BBN Technologies, 10 Moulton Street, Cambridge, MA 02138, USA",
+     "Raytheon BBN Technologies , 10 Moulton Street, Cambridge, MA 02138, USA"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Raytheon BBN Technologies, 10 Moulton Street, Cambridge, MA 02138, USA",
+      "institution_ids": [
+       "https://openalex.org/I1306686416"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Raytheon BBN Technologies , 10 Moulton Street, Cambridge, MA 02138, USA",
+      "institution_ids": [
+       "https://openalex.org/I1306686416"
+      ]
+     }
+    ]
+   }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+   "https://openalex.org/A5100668826"
+  ],
+  "corresponding_institution_ids": [
+   "https://openalex.org/I121934306"
+  ],
+  "apc_list": {
+   "value": 3200,
+   "currency": "USD",
+   "value_usd": 3200
+  },
+  "apc_paid": null,
+  "fwci": 11.1282,
+  "has_fulltext": false,
+  "cited_by_count": 720,
+  "citation_normalized_percentile": {
+   "value": 0.98590519,
+   "is_in_top_1_percent": false,
+   "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+   "min": 89,
+   "max": 100
+  },
+  "biblio": {
+   "volume": "222",
+   "issue": null,
+   "first_page": "323",
+   "last_page": "342"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+   "id": "https://openalex.org/T11017",
+   "display_name": "Chaos-based Image/Signal Encryption",
+   "score": 0.9613999724388123,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1707",
+    "display_name": "Computer Vision and Pattern Recognition"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  "topics": [
+   {
+    "id": "https://openalex.org/T11017",
+    "display_name": "Chaos-based Image/Signal Encryption",
+    "score": 0.9613999724388123,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T11165",
+    "display_name": "Image and Video Quality Assessment",
+    "score": 0.017799999564886093,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1707",
+     "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   {
+    "id": "https://openalex.org/T13674",
+    "display_name": "Computer Science and Engineering",
+    "score": 0.004999999888241291,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   }
+  ],
+  "keywords": [
+   {
+    "id": "https://openalex.org/keywords/image-encryption",
+    "display_name": "image encryption",
+    "score": 0.7699999809265137
+   },
+   {
+    "id": "https://openalex.org/keywords/randomness-testing",
+    "display_name": "randomness testing",
+    "score": 0.7789999842643738
+   }
+  ],
+  "concepts": [
+   {
+    "id": "https://openalex.org/C125112378",
+    "wikidata": "https://www.wikidata.org/wiki/Q176640",
+    "display_name": "Randomness",
+    "level": 2,
+    "score": 0.683776319026947
+   },
+   {
+    "id": "https://openalex.org/C2780009758",
+    "wikidata": "https://www.wikidata.org/wiki/Q6804172",
+    "display_name": "Measure (data warehouse)",
+    "level": 2,
+    "score": 0.5760748386383057
+   },
+   {
+    "id": "https://openalex.org/C106301342",
+    "wikidata": "https://www.wikidata.org/wiki/Q4117933",
+    "display_name": "Entropy (arrow of time)",
+    "level": 2,
+    "score": 0.5676068067550659
+   },
+   {
+    "id": "https://openalex.org/C121864883",
+    "wikidata": "https://www.wikidata.org/wiki/Q677916",
+    "display_name": "Statistical physics",
+    "level": 1,
+    "score": 0.48984500765800476
+   },
+   {
+    "id": "https://openalex.org/C142611142",
+    "wikidata": "https://www.wikidata.org/wiki/Q1433083",
+    "display_name": "R\u00e9nyi entropy",
+    "level": 3,
+    "score": 0.48612236976623535
+   },
+   {
+    "id": "https://openalex.org/C33923547",
+    "wikidata": "https://www.wikidata.org/wiki/Q395",
+    "display_name": "Mathematics",
+    "level": 0,
+    "score": 0.48117050528526306
+   },
+   {
+    "id": "https://openalex.org/C18017163",
+    "wikidata": "https://www.wikidata.org/wiki/Q13560113",
+    "display_name": "Randomness tests",
+    "level": 3,
+    "score": 0.4603114128112793
+   },
+   {
+    "id": "https://openalex.org/C182049051",
+    "wikidata": "https://www.wikidata.org/wiki/Q17147155",
+    "display_name": "Transfer entropy",
+    "level": 3,
+    "score": 0.432649701833725
+   },
+   {
+    "id": "https://openalex.org/C41008148",
+    "wikidata": "https://www.wikidata.org/wiki/Q21198",
+    "display_name": "Computer science",
+    "level": 0,
+    "score": 0.39981669187545776
+   },
+   {
+    "id": "https://openalex.org/C105795698",
+    "wikidata": "https://www.wikidata.org/wiki/Q12483",
+    "display_name": "Statistics",
+    "level": 1,
+    "score": 0.38574159145355225
+   },
+   {
+    "id": "https://openalex.org/C154945302",
+    "wikidata": "https://www.wikidata.org/wiki/Q11660",
+    "display_name": "Artificial intelligence",
+    "level": 1,
+    "score": 0.3563547730445862
+   },
+   {
+    "id": "https://openalex.org/C153180895",
+    "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+    "display_name": "Pattern recognition (psychology)",
+    "level": 2,
+    "score": 0.33031928539276123
+   },
+   {
+    "id": "https://openalex.org/C9679016",
+    "wikidata": "https://www.wikidata.org/wiki/Q1417473",
+    "display_name": "Principle of maximum entropy",
+    "level": 2,
+    "score": 0.23675966262817383
+   },
+   {
+    "id": "https://openalex.org/C124101348",
+    "wikidata": "https://www.wikidata.org/wiki/Q172491",
+    "display_name": "Data mining",
+    "level": 1,
+    "score": 0.22012171149253845
+   },
+   {
+    "id": "https://openalex.org/C121332964",
+    "wikidata": "https://www.wikidata.org/wiki/Q413",
+    "display_name": "Physics",
+    "level": 0,
+    "score": 0.10206031799316406
+   },
+   {
+    "id": "https://openalex.org/C62520636",
+    "wikidata": "https://www.wikidata.org/wiki/Q944",
+    "display_name": "Quantum mechanics",
+    "level": 1,
+    "score": 0.0
+   }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+   {
+    "id": "doi:10.1016/j.ins.2012.07.049",
+    "doi": "https://doi.org/10.1016/j.ins.2012.07.049",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ins.2012.07.049",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S192650101",
+     "display_name": "Information Sciences",
+     "issn_l": "0020-0255",
+     "issn": [
+      "0020-0255",
+      "1872-6291"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "anvur-class-a",
+      "anvur-scientific",
+      "ccf-b",
+      "cwts-core",
+      "dongbi-b",
+      "fnege-4",
+      "jufo-3",
+      "ki-jl-1",
+      "norway-2",
+      "poland-200",
+      "russia-white-list-1",
+      "vabb-shw"
+     ],
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Information Sciences",
+    "raw_type": "journal-article"
+   },
+   {
+    "id": "pmh:oai:arXiv.org:1103.5520",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1103.5520",
+    "pdf_url": "https://arxiv.org/pdf/1103.5520",
+    "source": {
+     "id": "https://openalex.org/S4306400194",
+     "display_name": "arXiv (Cornell University)",
+     "issn_l": "2331-8422",
+     "issn": [
+      "2331-8422"
+     ],
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "listed_in": [],
+     "host_organization": "https://openalex.org/I205783295",
+     "host_organization_name": "Cornell University",
+     "host_organization_lineage": [
+      "https://openalex.org/I205783295"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+   }
+  ],
+  "best_oa_location": {
+   "id": "pmh:oai:arXiv.org:1103.5520",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "http://arxiv.org/abs/1103.5520",
+   "pdf_url": "https://arxiv.org/pdf/1103.5520",
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+   "pdf": false,
+   "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 76,
+  "referenced_works": [
+   "https://openalex.org/W12955791",
+   "https://openalex.org/W25360022",
+   "https://openalex.org/W44291118",
+   "https://openalex.org/W96159813",
+   "https://openalex.org/W141606104",
+   "https://openalex.org/W160083575",
+   "https://openalex.org/W1521783451",
+   "https://openalex.org/W1527701244",
+   "https://openalex.org/W1536444395",
+   "https://openalex.org/W1567983738",
+   "https://openalex.org/W1587679486",
+   "https://openalex.org/W1591098212",
+   "https://openalex.org/W1607313240",
+   "https://openalex.org/W1629323543",
+   "https://openalex.org/W1817278314",
+   "https://openalex.org/W1966784722",
+   "https://openalex.org/W1970716157",
+   "https://openalex.org/W1974073264",
+   "https://openalex.org/W1978383253",
+   "https://openalex.org/W1978868455",
+   "https://openalex.org/W1989786584",
+   "https://openalex.org/W1990178832",
+   "https://openalex.org/W1992242854",
+   "https://openalex.org/W1995875735",
+   "https://openalex.org/W1998907739",
+   "https://openalex.org/W2000093475",
+   "https://openalex.org/W2008916607",
+   "https://openalex.org/W2009543464",
+   "https://openalex.org/W2009965926",
+   "https://openalex.org/W2013503531",
+   "https://openalex.org/W2016380472",
+   "https://openalex.org/W2020039621",
+   "https://openalex.org/W2020981190",
+   "https://openalex.org/W2026713334",
+   "https://openalex.org/W2032820503",
+   "https://openalex.org/W2035991700",
+   "https://openalex.org/W2036046179",
+   "https://openalex.org/W2041404167",
+   "https://openalex.org/W2041437267",
+   "https://openalex.org/W2052395460",
+   "https://openalex.org/W2060818696",
+   "https://openalex.org/W2060895947",
+   "https://openalex.org/W2070115517",
+   "https://openalex.org/W2073609117",
+   "https://openalex.org/W2074976143",
+   "https://openalex.org/W2076805164",
+   "https://openalex.org/W2079210112",
+   "https://openalex.org/W2085807870",
+   "https://openalex.org/W2089626334",
+   "https://openalex.org/W2089805565",
+   "https://openalex.org/W2094051246",
+   "https://openalex.org/W2101774955",
+   "https://openalex.org/W2109394932",
+   "https://openalex.org/W2117420234",
+   "https://openalex.org/W2134755853",
+   "https://openalex.org/W2140169016",
+   "https://openalex.org/W2146704586",
+   "https://openalex.org/W2162669222",
+   "https://openalex.org/W2166809149",
+   "https://openalex.org/W2199322517",
+   "https://openalex.org/W2312985728",
+   "https://openalex.org/W2360007975",
+   "https://openalex.org/W2432517183",
+   "https://openalex.org/W2495889793",
+   "https://openalex.org/W2581221175",
+   "https://openalex.org/W2591743939",
+   "https://openalex.org/W2913269373",
+   "https://openalex.org/W3004157836",
+   "https://openalex.org/W4210694990",
+   "https://openalex.org/W4214651586",
+   "https://openalex.org/W4237938455",
+   "https://openalex.org/W4285719527",
+   "https://openalex.org/W4293857795",
+   "https://openalex.org/W4322095736",
+   "https://openalex.org/W6631213220",
+   "https://openalex.org/W6636438009"
+  ],
+  "related_works": [
+   "https://openalex.org/W3153452272",
+   "https://openalex.org/W2252778103",
+   "https://openalex.org/W2375762236",
+   "https://openalex.org/W2117564859",
+   "https://openalex.org/W3039360660",
+   "https://openalex.org/W2909868240",
+   "https://openalex.org/W4390098337",
+   "https://openalex.org/W4230703017",
+   "https://openalex.org/W983383239",
+   "https://openalex.org/W4378574941"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+   {
+    "year": 2026,
+    "cited_by_count": 34
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 87
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 86
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 76
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 86
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 81
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 90
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 67
+   },
+   {
+    "year": 2018,
+    "cited_by_count": 38
+   },
+   {
+    "year": 2017,
+    "cited_by_count": 25
+   },
+   {
+    "year": 2016,
+    "cited_by_count": 16
+   },
+   {
+    "year": 2015,
+    "cited_by_count": 13
+   },
+   {
+    "year": 2014,
+    "cited_by_count": 14
+   },
+   {
+    "year": 2013,
+    "cited_by_count": 6
+   },
+   {
+    "year": 2012,
+    "cited_by_count": 1
+   }
+  ],
+  "updated_date": "2026-10-21T09:56:26.102985",
+  "created_date": "2016-06-24T00:00:00"
+ }
+}

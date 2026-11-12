@@ -1,0 +1,313 @@
+{
+ "query": "https://api.crossref.org/works/10.1007/s11071-014-1591-y",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     24
+    ]
+   ],
+   "date-time": "2026-10-24T17:22:06Z",
+   "timestamp": 1792862526674,
+   "version": "4.5.0"
+  },
+  "reference-count": 14,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2014,
+       7,
+       23
+      ]
+     ],
+     "date-time": "2014-07-23T00:00:00Z",
+     "timestamp": 1406073600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Nonlinear Dyn"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     11
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11071-014-1591-y",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     7,
+     22
+    ]
+   ],
+   "date-time": "2014-07-22T00:21:55Z",
+   "timestamp": 1405988515000
+  },
+  "page": "2015-2020",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 79,
+  "title": [
+   "Cryptographically secure random number generator with chaotic additional input"
+  ],
+  "prefix": "10.1007",
+  "volume": "78",
+  "author": [
+   {
+    "given": "Fatih",
+    "family": "\u00d6zkaynak",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     7,
+     23
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "1591_CR1",
+    "volume-title": "Handbook of Applied Cryptography",
+    "author": "AJ Menezes",
+    "year": "1997",
+    "unstructured": "Menezes, A.J., Oorschot, P.C., Vanstone, S.A.: Handbook of Applied Cryptography. CRC Press, Boca Raton (1997)"
+   },
+   {
+    "key": "1591_CR2",
+    "volume-title": "Cryptographic Engineering. Signals and Communication Theory",
+    "author": "W Schindler",
+    "year": "2009",
+    "unstructured": "Schindler, W.: Random number generators for cryptographic applications. In: Koc, C.K. (ed.) Cryptographic Engineering. Signals and Communication Theory. Springer, Berlin (2009)"
+   },
+   {
+    "key": "1591_CR3",
+    "unstructured": "Gauravaram, P., Knudsen, L.R., Matusievicz, K., Mendel, F., Rechberger, C., Schl\u00e4ffer, M., Thomsen, S.S.: Gr\u00f8stl\u2014a SHA-3 candidate. 31 Oct 2008. http://www.groestl.info/Groestl.pdf"
+   },
+   {
+    "key": "1591_CR4",
+    "doi-asserted-by": "crossref",
+    "first-page": "281",
+    "DOI": "10.1109/81.915385",
+    "volume": "48",
+    "author": "T Stojanovski",
+    "year": "2001",
+    "unstructured": "Stojanovski, T., Kocarev, L.: Chaos-based random number generators\u2014Part I: Analysis. IEEE Trans. Circuits Syst. I Fundam. Theory Appl. 48, 281\u2013288 (2001)",
+    "journal-title": "IEEE Trans. Circuits Syst. I Fundam. Theory Appl."
+   },
+   {
+    "key": "1591_CR5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1589",
+    "DOI": "10.1007/s11071-012-0558-0",
+    "volume": "70",
+    "author": "X Wang",
+    "year": "2012",
+    "unstructured": "Wang, X., Qin, X.: A new pseudo-random number generator based on CML and chaotic iteration. Nonlinear Dyn. 70, 1589\u20131592 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "1591_CR6",
+    "doi-asserted-by": "crossref",
+    "first-page": "551",
+    "DOI": "10.1007/s11071-013-0987-4",
+    "volume": "74",
+    "author": "F \u00d6zkaynak",
+    "year": "2013",
+    "unstructured": "\u00d6zkaynak, F., Yavuz, S.: Designing chaotic S-boxes based on time-delay chaotic system. Nonlinear Dyn. 74, 551\u2013557 (2013)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "1591_CR7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1525",
+    "DOI": "10.1007/s11071-012-0367-5",
+    "volume": "69",
+    "author": "SMR Farschi",
+    "year": "2012",
+    "unstructured": "Farschi, S.M.R., Farschi, H.: A novel chaotic approach for information hiding in image. Nonlinear Dyn. 69, 1525\u20131539 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "1591_CR8",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wang, X., Bao, X.: A novel block cryptosystem based on the coupled chaotic map lattice. Nonlinear Dyn. 72, 707\u2013715 (2013)",
+    "DOI": "10.1007/s11071-012-0747-x"
+   },
+   {
+    "key": "1591_CR9",
+    "doi-asserted-by": "crossref",
+    "first-page": "549",
+    "DOI": "10.1007/s11071-011-0005-7",
+    "volume": "67",
+    "author": "N Liu",
+    "year": "2012",
+    "unstructured": "Liu, N., Guo, D., Parr, G.: Complexity of chaotic binary sequence and precision of its numerical simulation. Nonlinear Dyn. 67, 549\u2013556 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "1591_CR10",
+    "doi-asserted-by": "crossref",
+    "first-page": "2401",
+    "DOI": "10.1007/s11071-012-0628-3",
+    "volume": "70",
+    "author": "P Gong",
+    "year": "2012",
+    "unstructured": "Gong, P., Li, P., Shi, W.: A secure chaotic maps-based key agreement protocol without using smart cards. Nonlinear Dyn. 70, 2401\u20132406 (2012)",
+    "journal-title": "Nonlinear Dyn."
+   },
+   {
+    "key": "1591_CR11",
+    "unstructured": "Kocarev, L., Jakimoski, G.: Pseudorandom bits generated by chaotic maps. IEEE Trans. Circuits Syst. I Fundam. Theory Appl. 50, 123\u2013126 (2003)"
+   },
+   {
+    "key": "1591_CR12",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-3-662-04722-4",
+    "volume-title": "The Design of Rijndael",
+    "author": "J Daemen",
+    "year": "2002",
+    "unstructured": "Daemen, J., Rijmen, V.: The Design of Rijndael. Springer, Berlin (2002)"
+   },
+   {
+    "key": "1591_CR13",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/7183",
+    "volume-title": "Elegant Chaos Algebraically Simple Chaotic Flows",
+    "author": "J Sprott",
+    "year": "2010",
+    "unstructured": "Sprott, J.: Elegant Chaos Algebraically Simple Chaotic Flows. World Scientific, Singapore (2010)"
+   },
+   {
+    "key": "1591_CR14",
+    "unstructured": "Rukhin, A., Soto, J., Nechvatal, J., Smid, M., Barker, E., Leigh, S., Levenson, M., Vangel, M., Banks, D., Heckert, A., Dray, J., Vo, S.: A statistical test suite for random and pseudorandom number generators for cryptographic applications . NIST Special Publication 800\u201322rev1a (2010)"
+   }
+  ],
+  "container-title": [
+   "Nonlinear Dynamics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-014-1591-y.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/s11071-014-1591-y/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s11071-014-1591-y",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     6,
+     1
+    ]
+   ],
+   "date-time": "2019-06-01T01:07:51Z",
+   "timestamp": 1559351271000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/s11071-014-1591-y"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     7,
+     23
+    ]
+   ]
+  },
+  "references-count": 14,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      11
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "1591"
+  ],
+  "URL": "https://doi.org/10.1007/s11071-014-1591-y",
+  "relation": {},
+  "ISSN": [
+   "0924-090X",
+   "1573-269X"
+  ],
+  "issn-type": [
+   {
+    "value": "0924-090X",
+    "type": "print"
+   },
+   {
+    "value": "1573-269X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     7,
+     23
+    ]
+   ]
+  }
+ }
+}

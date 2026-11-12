@@ -1,0 +1,16 @@
+Test_Key,Test_Name,Min_Bits_Required,Eligibility_Status_100k,Eligibility_Status_1M,Technical_Notes_and_Known_Defects
+monobit,Monobit (Frequency),100,ELIGIBLE,ELIGIBLE,"Fundamental frequency test. Passes across k=13, 14, 15."
+frequency_within_block,Frequency within a Block,100,ELIGIBLE,ELIGIBLE,"Block size M=128 for 100k bits. Passes across k=13, 14, 15."
+runs,Runs Test,100,ELIGIBLE,ELIGIBLE,Requires frequency prerequisite |pi - 0.5| < 2/sqrt(n). Fails prerequisite on k=16 due to parity defect.
+longest_run_ones_in_a_block,Longest Run of Ones,128,ELIGIBLE,ELIGIBLE,"Block size M=128, K=3, N=49. Passes across candidates."
+binary_matrix_rank,Binary Matrix Rank,38912,ELIGIBLE,ELIGIBLE,Requires defensive copying (bits.copy()) to prevent in-place matrix corruption in nistrng.
+dft,Discrete Fourier Transform (Spectral),1000,ELIGIBLE,ELIGIBLE,Evaluates peak spectral height. Passes when defensive copying is enforced.
+non_overlapping_template_matching,Non-overlapping Template Matching,1000,ELIGIBLE,ELIGIBLE,B=100 blocks of M=1000 bits. Passes across candidates.
+overlapping_template_matching,Overlapping Template Matching,1028016,INELIGIBLE,INCONCLUSIVE,"Requires n >= 1,028,016 bits. Contains fatal bug in nistrng 1.2.3 resulting in negative 6th bin probability."
+maurers_universal,Maurer's Universal Statistical Test,387840,INELIGIBLE,ELIGIBLE,"Requires n >= 387,840 bits (L=6 or 7, Q=10*2^L). Ineligible at n=100k."
+linear_complexity,Linear Complexity Test,1000000,INELIGIBLE,INCONCLUSIVE,"Requires n >= 1,000,000 bits. nistrng Berlekamp-Massey pure-Python bottleneck and int truncation binning flaw."
+serial,Serial Test,100,ELIGIBLE,ELIGIBLE,Evaluates overlapping m-bit frequency. Passes when defensive copying and fast counting are applied.
+approximate_entropy,Approximate Entropy Test,100,ELIGIBLE,ELIGIBLE,Evaluates regularity. Passes when defensive copying and fast counting are applied.
+cumulative sums,Cumulative Sums Test,100,ELIGIBLE,ELIGIBLE,Evaluates forward/backward random walk excursion. Passes across candidates.
+random_excursion,Random Excursion Test,1000000,INELIGIBLE,CONDITIONAL,Strictly ineligible unless random walk zero-crossings J >= 500 per SP 800-22 Sec 2.14. Typically J ~ 137 at 100k.
+random_excursion_variant,Random Excursion Variant,1000000,INELIGIBLE,CONDITIONAL,Strictly ineligible unless random walk zero-crossings J >= 500 per SP 800-22 Sec 2.15.

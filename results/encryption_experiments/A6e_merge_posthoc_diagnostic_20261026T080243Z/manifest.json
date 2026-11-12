@@ -1,0 +1,10 @@
+{
+ "command.txt": "74660c115c66b8e5a8ba31cc82c527845b37d9b9b9b7b53e0eed5df329ff2a96",
+ "config.json": "cbbaec2eee0964fd06abe2e1bd05ffcda6407fe122537671652940d4b604821b",
+ "environment.json": "1a28a1143324aec6abe9d30743ad4d3aed5a59583e7b6fdace812e743cf1b8db",
+ "log.txt": "f9a56eab51daee0ed9489bda058e1a7aafb8228661d6019cef9a87c16847c76d",
+ "summary.json": "8ffe1e20474dfe72fcd1b4d39730f7e77e83dcaac3cfb1f4b596117bdbdfcb57",
+ "raw/part1_local_merging.json": "e61bbcfcb6b398fe6c65486d967c8cb9dd71eb48f48f7be07ceac433a6543241",
+ "raw/part2_block_compression.json": "3c1712bcb21be99b0a452032fb67252cdf141055950af9db773db3c387c47426",
+ "raw/part3_seed_mapped_collisions.json": "0a69c75a7d1165b83c12db6d4fae2ff3bc3509391102ee974fe7e26162e0d729"
+}

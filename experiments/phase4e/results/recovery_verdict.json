@@ -1,0 +1,93 @@
+{
+  "toy_model": {
+    "scale": {
+      "A": 4,
+      "n": 3,
+      "naive_space": 9437184,
+      "projected_s": 29.357253086419753
+    },
+    "E1_permutation_recovery": "NOT uniquely recovered at any tested M (pi is one of several free components across all surviving tuples; not separately verified component-by-component, only as part of the full tuple).",
+    "E2_sbox_recovery": "NOT uniquely recovered at any tested M (same caveat as E1).",
+    "E3_diffusion_material_recovery": "NOT uniquely recovered at any tested M.",
+    "E4_equivalent_material_recovery": "YES at M=4 (A=4, n=3): 64 distinct tuples remain consistent with all 4 known pairs, and ALL of them are functionally equivalent on the held-out target (E5 below) -- i.e. recovery succeeds at the level of 'a tuple that behaves identically to the true one', not at the level of 'the unique true tuple'.",
+    "E5_target_plaintext_recovery": {
+      "1": false,
+      "2": false,
+      "4": true
+    },
+    "robustness_across_seeds": [
+      {
+        "A": 4,
+        "n": 3,
+        "M": 1,
+        "seed": 2,
+        "n_found": 147456,
+        "exhausted": true,
+        "elapsed_s": 45.18522644042969,
+        "all_agree_on_held_out_target": false,
+        "wall_s": 45.62138533592224
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 4,
+        "seed": 2,
+        "n_found": 4096,
+        "exhausted": true,
+        "elapsed_s": 63.816983699798584,
+        "all_agree_on_held_out_target": true,
+        "wall_s": 63.84548258781433
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 1,
+        "seed": 3,
+        "n_found": 147456,
+        "exhausted": true,
+        "elapsed_s": 71.0371823310852,
+        "all_agree_on_held_out_target": false,
+        "wall_s": 72.03124713897705
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 4,
+        "seed": 3,
+        "n_found": 64,
+        "exhausted": true,
+        "elapsed_s": 66.4404788017273,
+        "all_agree_on_held_out_target": true,
+        "wall_s": 66.4404788017273
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 1,
+        "seed": 4,
+        "n_found": 147456,
+        "exhausted": true,
+        "elapsed_s": 69.13311505317688,
+        "all_agree_on_held_out_target": false,
+        "wall_s": 70.20177125930786
+      },
+      {
+        "A": 4,
+        "n": 3,
+        "M": 4,
+        "seed": 4,
+        "n_found": 64,
+        "exhausted": true,
+        "elapsed_s": 74.18203592300415,
+        "all_agree_on_held_out_target": true,
+        "wall_s": 74.18400812149048
+      }
+    ]
+  },
+  "real_implementation": {
+    "determinism_codebook_leak": "CONFIRMED (n=64 test): True",
+    "E5_target_plaintext_recovery_n1": true,
+    "E5_target_plaintext_recovery_n2": "NOT ATTEMPTED (infeasible within budget, see n2_partial_codebook_feasibility.projected_full_codebook_time_hours)",
+    "n2_projected_hours": 32.43103443287037
+  }
+}

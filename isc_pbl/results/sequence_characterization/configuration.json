@@ -1,0 +1,39 @@
+{
+    "experiment_name": "ISC_Sequence_Characterization_Step1_1_Final_Closure",
+    "map_name": "Ikeda-Sine-Chebyshev (ISC) 2D Map",
+    "parameters": {
+        "a": 0.9,
+        "c": 0.4,
+        "d": 6.0,
+        "omega": 10.0
+    },
+    "initial_conditions": {
+        "x0": 0.1,
+        "y0": 0.1
+    },
+    "numerical_precision": "float64",
+    "n_transient": 5000,
+    "n_retained": 1000000,
+    "digit_extraction_k_candidates": [
+        13,
+        14,
+        15,
+        16
+    ],
+    "max_autocorr_lag": 100,
+    "max_crosscorr_lag": 100,
+    "histogram_1d_bins": 256,
+    "joint_histogram_bins": [
+        256,
+        256
+    ],
+    "significance_alpha": 0.05,
+    "nist_significance_alpha": 0.01,
+    "nist_num_bits": 100000,
+    "nist_multi_sequence_count": 100,
+    "nist_multi_sequence_seed": 20261110,
+    "permutation_trials": 1000,
+    "permutation_seed": 42,
+    "timing_repetitions": 3,
+    "output_dir": "results\\sequence_characterization"
+}

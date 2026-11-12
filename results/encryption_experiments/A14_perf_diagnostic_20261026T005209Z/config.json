@@ -1,0 +1,18 @@
+{
+ "sizes": [
+  64
+ ],
+ "channels": [
+  1
+ ],
+ "reps": 1,
+ "constructions": [
+  "V-FULL (isc_cipher, V1)",
+  "V-CHACHA",
+  "AES-256-GCM",
+  "ChaCha20-Poly1305",
+  "AES-256-GCM-SIV"
+ ],
+ "experiment": "A14_perf",
+ "mode": "diagnostic"
+}

@@ -1,0 +1,361 @@
+{
+ "query": "https://api.crossref.org/works/10.1142/s0218127416500218",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T19:20:49Z",
+   "timestamp": 1791400849658,
+   "version": "4.3.3"
+  },
+  "reference-count": 30,
+  "publisher": "World Scientific Pub Co Pte Lt",
+  "issue": "02",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Int. J. Bifurcation Chaos"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  },
+  "abstract": "<jats:p> Nonlinear dynamic cryptosystems or chaos-based cryptosystems have been attracting a large amount of research since 1990. The critical aspect of cryptography is to face the growth of communication and to achieve the design of fast and secure cryptosystems. In this paper, we introduce three versions of a chaos-based cryptosystem based on a similar structure of the Zhang and Fridrich cryptosystems. Each version is composed of two layers: a confusion layer and a diffusion layer. The confusion layer is achieved by using a modified 2-D cat map to overcome the fixed-point problem and some other weaknesses, and also to increase the dynamic key space. The 32-bit logistic map is used as a diffusion layer for the first version, which is more robust than using it in 8-bit. In the other versions, the logistic map is replaced by a modified Finite Skew Tent Map (FSTM) for three reasons: to increase the nonlinearity properties of the diffusion layer, to overcome the fixed-point problem, and to increase the dynamic key space. Finally, all versions of the proposed cryptosystem are more resistant against known attacks and faster than Zhang cryptosystems. Moreover, the dynamic key space is much larger than the one used in Zhang cryptosystems. Performance and security analysis prove that the proposed cryptosystems are suitable for securing real-time applications. </jats:p>",
+  "DOI": "10.1142/s0218127416500218",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2016,
+     3,
+     9
+    ]
+   ],
+   "date-time": "2016-03-09T22:26:20Z",
+   "timestamp": 1457562380000
+  },
+  "page": "1650021",
+  "source": "Crossref",
+  "is-referenced-by-count": 51,
+  "title": [
+   "Fast and Secure Chaos-Based Cryptosystem for Images"
+  ],
+  "prefix": "10.1142",
+  "volume": "26",
+  "author": [
+   {
+    "given": "Mousa",
+    "family": "Farajallah",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Ecole Polytech Nantes-Rue Christian Pauc, 44306 Nantes Cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Safwan",
+    "family": "El Assad",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Ecole Polytech Nantes-Rue Christian Pauc, 44306 Nantes Cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Olivier",
+    "family": "Deforges",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "INSA of Rennes, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "219",
+  "published-online": {
+   "date-parts": [
+    [
+     2016,
+     3,
+     9
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "S0218127416500218BIB001",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.optcom.2012.06.041"
+   },
+   {
+    "key": "S0218127416500218BIB002",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2012.05.033"
+   },
+   {
+    "key": "S0218127416500218BIB003",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2006.05.011"
+   },
+   {
+    "key": "S0218127416500218BIB004",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/B:MTAP.0000033983.62130.00"
+   },
+   {
+    "key": "S0218127416500218BIB005",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2012.02.005"
+   },
+   {
+    "key": "S0218127416500218BIB006",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00630563"
+   },
+   {
+    "key": "S0218127416500218BIB007",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2008.03.004"
+   },
+   {
+    "key": "S0218127416500218BIB008",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2003.12.022"
+   },
+   {
+    "key": "S0218127416500218BIB009",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2014.06.032"
+   },
+   {
+    "key": "S0218127416500218BIB010",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCE.2003.1196410"
+   },
+   {
+    "key": "S0218127416500218BIB017",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812749800098X"
+   },
+   {
+    "key": "S0218127416500218BIB020",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2013.11.004"
+   },
+   {
+    "key": "S0218127416500218BIB021",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1201/9781420013450.ch4"
+   },
+   {
+    "key": "S0218127416500218BIB022",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physa.2005.01.001"
+   },
+   {
+    "key": "S0218127416500218BIB023",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2006.03.120"
+   },
+   {
+    "key": "S0218127416500218BIB026",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S021812740401151X"
+   },
+   {
+    "key": "S0218127416500218BIB027",
+    "first-page": "150",
+    "volume": "48",
+    "author": "Mar P. P.",
+    "year": "2008",
+    "journal-title": "World Acad. Sci. Engin. Technol."
+   },
+   {
+    "key": "S0218127416500218BIB028",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/81.974872"
+   },
+   {
+    "key": "S0218127416500218BIB029",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TCSI.2006.874182"
+   },
+   {
+    "key": "S0218127416500218BIB030",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.sigpro.2014.10.033"
+   },
+   {
+    "key": "S0218127416500218BIB031",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2013.01.005"
+   },
+   {
+    "key": "S0218127416500218BIB033",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1538-7305.1949.tb00928.x"
+   },
+   {
+    "key": "S0218127416500218BIB035",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/S0218127410026563"
+   },
+   {
+    "key": "S0218127416500218BIB036",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ijleo.2012.11.002"
+   },
+   {
+    "key": "S0218127416500218BIB037",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2009.12.011"
+   },
+   {
+    "key": "S0218127416500218BIB038",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.dsp.2013.10.020"
+   },
+   {
+    "key": "S0218127416500218BIB039",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.physleta.2007.12.026"
+   },
+   {
+    "key": "S0218127416500218BIB041",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2010.01.004"
+   },
+   {
+    "key": "S0218127416500218BIB042",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.chaos.2004.09.035"
+   },
+   {
+    "key": "S0218127416500218BIB043",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cnsns.2012.12.012"
+   }
+  ],
+  "container-title": [
+   "International Journal of Bifurcation and Chaos"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.worldscientific.com/doi/pdf/10.1142/S0218127416500218",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     6
+    ]
+   ],
+   "date-time": "2019-08-06T20:24:19Z",
+   "timestamp": 1565123059000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.worldscientific.com/doi/abs/10.1142/S0218127416500218"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  },
+  "references-count": 30,
+  "journal-issue": {
+   "issue": "02",
+   "published-online": {
+    "date-parts": [
+     [
+      2016,
+      3,
+      9
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2016,
+      2
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1142/S0218127416500218"
+  ],
+  "URL": "https://doi.org/10.1142/s0218127416500218",
+  "relation": {},
+  "ISSN": [
+   "0218-1274",
+   "1793-6551"
+  ],
+  "issn-type": [
+   {
+    "value": "0218-1274",
+    "type": "print"
+   },
+   {
+    "value": "1793-6551",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  }
+ }
+}
