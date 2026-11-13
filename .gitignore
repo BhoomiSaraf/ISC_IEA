@@ -9,3 +9,13 @@ third_party/nist_sts/build_linux/
 third_party/nist_sts/download/
 third_party/nist_sts/src_pristine/
 research/sources/fulltext/
+*.pdf
+*.zip
+scratch_*.txt
+research/*.md
+experiments/paper_workflow_study/*.md
+experiments/diffusion_study/*.md
+experiments/step4_candidates/*.md
+experiments/phase5_followup/*.md
+
+

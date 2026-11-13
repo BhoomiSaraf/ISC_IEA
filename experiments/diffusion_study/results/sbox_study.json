@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Baseline Generated (Fisher-Yates N=1)",
+    "is_bijective": true,
+    "max_ddt_count": 12,
+    "max_ddt_prob": 0.046875,
+    "max_lat_bias": 0.28125,
+    "min_nonlinearity": 92,
+    "fixed_points": 1,
+    "opposite_fixed_points": 4,
+    "stream_bytes_consumed": 1020
+  },
+  {
+    "name": "Candidate S1 (Selection N=16)",
+    "is_bijective": true,
+    "max_ddt_count": 10,
+    "max_ddt_prob": 0.039062,
+    "max_lat_bias": 0.265625,
+    "min_nonlinearity": 94,
+    "fixed_points": 1,
+    "opposite_fixed_points": 2,
+    "stream_bytes_consumed": 16320
+  },
+  {
+    "name": "Candidate S2 (Dynamic Galois Inversion)",
+    "is_bijective": true,
+    "max_ddt_count": 4,
+    "max_ddt_prob": 0.015625,
+    "max_lat_bias": 0.125,
+    "min_nonlinearity": 112,
+    "fixed_points": 2,
+    "opposite_fixed_points": 0,
+    "stream_bytes_consumed": 2
+  },
+  {
+    "name": "AES S-box (Fixed Standard Control)",
+    "is_bijective": false,
+    "max_ddt_count": 4,
+    "max_ddt_prob": 0.015625,
+    "max_lat_bias": 0.132812,
+    "min_nonlinearity": 111,
+    "fixed_points": 0,
+    "opposite_fixed_points": 0,
+    "stream_bytes_consumed": 0
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "camera_gray.npy": {
+    "description": "Cameraman (Gray 256x256)",
+    "shape": [
+      256,
+      256
+    ],
+    "throughput_mbps": 0.09,
+    "histogram_cipher_chi2": 274.01,
+    "histogram_cipher_p": 0.19739059486438143,
+    "apc_plain": {
+      "horizontal": 0.978098,
+      "vertical": 0.983705,
+      "diagonal": 0.968399
+    },
+    "apc_cipher": {
+      "horizontal": 0.006744,
+      "vertical": -0.017951,
+      "diagonal": 0.020391
+    },
+    "npcr": 99.647522,
+    "uaci": 33.523841,
+    "global_entropy": 7.996954,
+    "locse": {
+      "locse_mean": 7.902515,
+      "locse_ideal": 7.902469,
+      "critical_interval": [
+        7.901516,
+        7.903423
+      ],
+      "passed": true
+    },
+    "nbcr": {
+      "mean_nbcr_enc": 0.500108,
+      "mean_nbcr_dec": 0.500177,
+      "std_nbcr_enc": 0.000409,
+      "sample_bits_tested": 4
+    }
+  },
+  "brick_gray.npy": {
+    "description": "Brick (Gray 256x256)",
+    "shape": [
+      256,
+      256
+    ],
+    "throughput_mbps": 0.08,
+    "histogram_cipher_chi2": 247.1,
+    "histogram_cipher_p": 0.6269641762195691,
+    "apc_plain": {
+      "horizontal": 0.724101,
+      "vertical": 0.932118,
+      "diagonal": 0.658456
+    },
+    "apc_cipher": {
+      "horizontal": -0.001818,
+      "vertical": 0.005503,
+      "diagonal": 0.006784
+    },
+    "npcr": 99.649048,
+    "uaci": 33.51173,
+    "global_entropy": 7.997279,
+    "locse": {
+      "locse_mean": 7.902278,
+      "locse_ideal": 7.902469,
+      "critical_interval": [
+        7.901516,
+        7.903423
+      ],
+      "passed": true
+    },
+    "nbcr": {
+      "mean_nbcr_enc": 0.500115,
+      "mean_nbcr_dec": 0.499823,
+      "std_nbcr_enc": 0.000401,
+      "sample_bits_tested": 4
+    }
+  },
+  "astronaut_rgb.npy": {
+    "description": "Astronaut (RGB 256x256)",
+    "shape": [
+      256,
+      256,
+      3
+    ],
+    "throughput_mbps": 0.07,
+    "histogram_cipher_chi2": 273.55,
+    "histogram_cipher_p": 0.20284171125091238,
+    "apc_plain": {
+      "horizontal": 0.96564,
+      "vertical": 0.9740633333333334,
+      "diagonal": 0.9484363333333333
+    },
+    "apc_cipher": {
+      "horizontal": 0.009083333333333334,
+      "vertical": -0.005344666666666667,
+      "diagonal": -0.010683999999999999
+    },
+    "npcr": 99.627177,
+    "uaci": 33.46039,
+    "global_entropy": 7.998995,
+    "locse": {
+      "locse_mean": 7.905542,
+      "locse_ideal": 7.902469,
+      "critical_interval": [
+        7.901516,
+        7.903423
+      ],
+      "passed": false
+    },
+    "nbcr": {
+      "mean_nbcr_enc": 0.500013,
+      "mean_nbcr_dec": 0.499993,
+      "std_nbcr_enc": 0.000375,
+      "sample_bits_tested": 4
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "mantissa8_v1 (Baseline)": {
+    "chi2_full": 232.95,
+    "p_full": 0.8355925596433779,
+    "chi2_lo": 25.25,
+    "p_lo": 0.046627028255428096,
+    "chi2_hi": 7.65,
+    "p_hi": 0.9369047685546203,
+    "lag1_autocorr": 0.00099,
+    "throughput_mbps": 1.8
+  },
+  "k14_scaled_modulo_v1": {
+    "chi2_full": 245.88,
+    "p_full": 0.6476778516034339,
+    "chi2_lo": 8.72,
+    "p_lo": 0.891505463581117,
+    "chi2_hi": 16.26,
+    "p_hi": 0.3647242940977257,
+    "lag1_autocorr": -0.001445,
+    "throughput_mbps": 1.26
+  },
+  "mantissa_mid_xor": {
+    "chi2_full": 187.47,
+    "p_full": 0.9994706542760006,
+    "chi2_lo": 11.73,
+    "p_lo": 0.6993462733758229,
+    "chi2_hi": 7.57,
+    "p_hi": 0.9397154501933392,
+    "lag1_autocorr": 0.000553,
+    "throughput_mbps": 1.26
+  },
+  "u64_folded_whitening": {
+    "chi2_full": 287.98,
+    "p_full": 0.07619973419030014,
+    "chi2_lo": 15.46,
+    "p_lo": 0.41889800813377376,
+    "chi2_hi": 16.21,
+    "p_hi": 0.3681286705458123,
+    "lag1_autocorr": -0.00047,
+    "throughput_mbps": 1.58
+  }
+}

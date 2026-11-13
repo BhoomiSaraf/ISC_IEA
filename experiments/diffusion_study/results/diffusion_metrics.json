@@ -1,0 +1,57 @@
+{
+  "Original (Baseline)": {
+    "forward_propagation_coverage": 0.981113,
+    "decryption_window_bytes": 3,
+    "decryption_window_type": "FIR (3 bytes)",
+    "sbox_peeling_susceptible": true,
+    "throughput_mbps": {
+      "64B": 4.05,
+      "1024B": 3.68,
+      "65536B": 3.77
+    }
+  },
+  "Candidate A (ARX-S, 1 round)": {
+    "forward_propagation_coverage": 0.995469,
+    "decryption_window_bytes": 3,
+    "decryption_window_type": "FIR (3 bytes)",
+    "sbox_peeling_susceptible": false,
+    "throughput_mbps": {
+      "64B": 1.56,
+      "1024B": 1.45,
+      "65536B": 1.09
+    }
+  },
+  "Candidate A (ARX-S, 2 rounds)": {
+    "forward_propagation_coverage": 0.996113,
+    "decryption_window_bytes": 5,
+    "decryption_window_type": "FIR (5 bytes)",
+    "sbox_peeling_susceptible": false,
+    "throughput_mbps": {
+      "64B": 0.63,
+      "1024B": 0.76,
+      "65536B": 0.3
+    }
+  },
+  "Candidate B (4-Stream Coupled)": {
+    "forward_propagation_coverage": 0.994531,
+    "decryption_window_bytes": 1024,
+    "decryption_window_type": "IIR (Global)",
+    "sbox_peeling_susceptible": false,
+    "throughput_mbps": {
+      "64B": 0.73,
+      "1024B": 0.99,
+      "65536B": 0.42
+    }
+  },
+  "Candidate C (Block Feistel, 4 rounds)": {
+    "forward_propagation_coverage": 0.99541,
+    "decryption_window_bytes": 12,
+    "decryption_window_type": "FIR (12 bytes)",
+    "sbox_peeling_susceptible": false,
+    "throughput_mbps": {
+      "64B": 0.41,
+      "1024B": 0.37,
+      "65536B": 0.17
+    }
+  }
+}

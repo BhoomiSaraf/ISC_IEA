@@ -1,0 +1,6 @@
+Candidate,Algebraic Groups,Invertibility Mechanism,Stream Dependency,Rounds,Propagation Coverage,Decryption Window Type,Decryption Window Width (of 1024),S-Box Peeling Resistant,Throughput 1KB (MB/s),Throughput 64KB (MB/s),Key Limitation / Weakness
+Original Baseline,Z256,Subtraction mod 256 after S_inv,"fwd (a), bwd (b)",1,98.11%,FIR (Strictly Local),3,NO (Exposed in 256 CPA queries),3.68,3.77,0.42% cancellation gap; 3-byte decryption FIR; S-box peeling attack
+"Candidate A (ARX-S, 1R)","Z256, Rot, XOR","Subtraction mod 256, inverse rot, XOR","fwd (a), bwd (b)",1,99.55%,FIR (Strictly Local),3,YES,1.45,1.09,Decryption remains FIR (3 bytes); requires R>=2 for full multi-byte avalanche
+"Candidate A (ARX-S, 2R)","Z256, Rot, XOR","Subtraction mod 256, inverse rot, XOR","fwd (a), bwd (b)",2,99.61%,FIR (Local),5,YES,0.76,0.3,Decryption window is 5 bytes; 2x computational overhead over 1 round
+Candidate B (4-Stream Coupled),"Z256, Rot, XOR, State Machine",Forward-tracked state recurrence + S_inv,"All 4 (fwd, bwd, perm, sbox)",2 passes (fwd+bwd),99.45%,IIR (Full Avalanche),1024,YES,0.99,0.42,Requires dual state tracking; consumes 4x keystream bytes
+Candidate C (Block Feistel),"Z256, XOR, GFN",Feistel involution (XOR),"fwd (a), bwd (b)",4,99.54%,Block Chained,12,YES,0.37,0.17,Lower throughput due to 4 rounds per 4-byte block; padding required for non-multiples of 4

@@ -1,0 +1,23 @@
+{
+  "transcendental_costs": {
+    "16_lanes_per_stream": {
+      "total_lanes": 64,
+      "burn_in_transcendentals": 131072
+    },
+    "32_lanes_per_stream": {
+      "total_lanes": 128,
+      "burn_in_transcendentals": 262144
+    },
+    "64_lanes_per_stream": {
+      "total_lanes": 256,
+      "burn_in_transcendentals": 524288
+    }
+  },
+  "burn_in_timing_ms": {
+    "16_lanes": 452.92,
+    "32_lanes": 648.48,
+    "64_lanes": 1128.45
+  },
+  "cross_lane_mean_abs_corr": 0.007952,
+  "cross_lane_max_abs_corr": 0.028001
+}
