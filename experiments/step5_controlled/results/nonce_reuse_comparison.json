@@ -1,0 +1,90 @@
+{
+  "test_image_size": "64x64x1",
+  "n_bytes": 4096,
+  "nonce_reuse_results": [
+    {
+      "variant": "ISC-IMG_v1",
+      "type": "diffusion",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": false,
+      "xor_byte_match_fraction": 0.003418,
+      "xor_correlation": -0.004017,
+      "xor_bit_agreement": 0.494873,
+      "ct_xor_chi2_255": 246.62
+    },
+    {
+      "variant": "ISC-IMG_v2_k14",
+      "type": "diffusion",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": false,
+      "xor_byte_match_fraction": 0.003906,
+      "xor_correlation": -0.031212,
+      "xor_bit_agreement": 0.502655,
+      "ct_xor_chi2_255": 273.12
+    },
+    {
+      "variant": "V-CHACHA",
+      "type": "diffusion",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": false,
+      "xor_byte_match_fraction": 0.002197,
+      "xor_correlation": 0.001509,
+      "xor_bit_agreement": 0.50119,
+      "ct_xor_chi2_255": 263.0
+    },
+    {
+      "variant": "V-STREAM-ISC",
+      "type": "stream",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": true,
+      "xor_byte_match_fraction": 1.0,
+      "xor_correlation": 1.0,
+      "xor_bit_agreement": 1.0,
+      "ct_xor_chi2_255": 305.5
+    },
+    {
+      "variant": "AES-256-GCM",
+      "type": "stream",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": true,
+      "xor_byte_match_fraction": 1.0,
+      "xor_correlation": 1.0,
+      "xor_bit_agreement": 1.0,
+      "ct_xor_chi2_255": 305.5
+    },
+    {
+      "variant": "ChaCha20-Poly1305",
+      "type": "stream",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": true,
+      "xor_byte_match_fraction": 1.0,
+      "xor_correlation": 1.0,
+      "xor_bit_agreement": 1.0,
+      "ct_xor_chi2_255": 305.5
+    },
+    {
+      "variant": "AES-256-GCM-SIV",
+      "type": "nonce-misuse-resistant",
+      "deterministic": true,
+      "ct_equality_fraction": 1.0,
+      "xor_exact_leak": false,
+      "xor_byte_match_fraction": 0.002441,
+      "xor_correlation": 0.021275,
+      "xor_bit_agreement": 0.497467,
+      "ct_xor_chi2_255": 234.38
+    }
+  ],
+  "notes": {
+    "xor_exact_leak": "True means ct1\u2295ct2 = p1\u2295p2 exactly \u2014 complete plaintext-difference leakage",
+    "xor_correlation": "Pearson correlation between ct1\u2295ct2 and p1\u2295p2; >0.1 indicates structural leakage",
+    "deterministic": "Same plaintext + same key/nonce \u2192 identical ciphertext",
+    "random_baseline_byte_match": "~1/256 \u2248 0.39%",
+    "random_baseline_bit_agreement": "~50%"
+  }
+}

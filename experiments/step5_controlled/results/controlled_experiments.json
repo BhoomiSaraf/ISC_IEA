@@ -1,0 +1,160 @@
+{
+  "test_image": "256x256x1",
+  "n_bytes": 65536,
+  "ciphertext_statistics": [
+    {
+      "variant": "plaintext",
+      "entropy": 7.997235,
+      "chi_square_255": 251.36,
+      "correlation_h": -0.000805,
+      "correlation_v": -0.002725,
+      "correlation_d": -0.005584
+    },
+    {
+      "variant": "ISC-IMG_v1",
+      "entropy": 7.997311,
+      "chi_square_255": 244.21,
+      "correlation_h": -0.001482,
+      "correlation_v": -0.002342,
+      "correlation_d": -0.007525
+    },
+    {
+      "variant": "ISC-IMG_v2_k14",
+      "entropy": 7.997227,
+      "chi_square_255": 251.58,
+      "correlation_h": -0.001839,
+      "correlation_v": -0.005016,
+      "correlation_d": -0.002633
+    },
+    {
+      "variant": "V-CHACHA",
+      "entropy": 7.99729,
+      "chi_square_255": 246.77,
+      "correlation_h": 0.001464,
+      "correlation_v": 0.002697,
+      "correlation_d": -0.004063
+    },
+    {
+      "variant": "V-STREAM-ISC",
+      "entropy": 7.997536,
+      "chi_square_255": 223.23,
+      "correlation_h": -0.004191,
+      "correlation_v": -0.002965,
+      "correlation_d": 0.000601
+    },
+    {
+      "variant": "AES-256-GCM",
+      "entropy": 7.997462,
+      "chi_square_255": 231.23,
+      "correlation_h": -0.001537,
+      "correlation_v": 0.002983,
+      "correlation_d": 0.002105
+    },
+    {
+      "variant": "ChaCha20-Poly1305",
+      "entropy": 7.996806,
+      "chi_square_255": 290.59,
+      "correlation_h": 0.002388,
+      "correlation_v": 0.005078,
+      "correlation_d": 0.002588
+    }
+  ],
+  "npcr_uaci": [
+    {
+      "variant": "ISC-IMG_v1",
+      "npcr_pct": 99.939,
+      "uaci_pct": 33.6977
+    },
+    {
+      "variant": "ISC-IMG_v2_k14",
+      "npcr_pct": 99.6567,
+      "uaci_pct": 33.4644
+    },
+    {
+      "variant": "V-CHACHA",
+      "npcr_pct": 99.9023,
+      "uaci_pct": 33.3317
+    },
+    {
+      "variant": "V-STREAM-ISC",
+      "npcr_pct": 0.0015,
+      "uaci_pct": 0.0
+    },
+    {
+      "variant": "AES-256-GCM",
+      "npcr_pct": 0.0015,
+      "uaci_pct": 0.0
+    },
+    {
+      "variant": "ChaCha20-Poly1305",
+      "npcr_pct": 0.0015,
+      "uaci_pct": 0.0
+    }
+  ],
+  "timing": [
+    {
+      "variant": "ISC-IMG_v1",
+      "encrypt_time_ms_median": 5390.14,
+      "encrypt_time_ms_min": 5031.52
+    },
+    {
+      "variant": "ISC-IMG_v2_k14",
+      "encrypt_time_ms_median": 5159.67,
+      "encrypt_time_ms_min": 5024.09
+    },
+    {
+      "variant": "V-CHACHA",
+      "encrypt_time_ms_median": 92.21,
+      "encrypt_time_ms_min": 86.95
+    },
+    {
+      "variant": "V-STREAM-ISC",
+      "encrypt_time_ms_median": 2030.44,
+      "encrypt_time_ms_min": 1955.25
+    },
+    {
+      "variant": "AES-256-GCM",
+      "encrypt_time_ms_median": 0.04,
+      "encrypt_time_ms_min": 0.04
+    },
+    {
+      "variant": "ChaCha20-Poly1305",
+      "encrypt_time_ms_median": 0.08,
+      "encrypt_time_ms_min": 0.07
+    }
+  ],
+  "sbox_quality": [
+    {
+      "source": "ISC",
+      "ddt_max_prob": 0.039062,
+      "lat_max_bias": 0.265625
+    },
+    {
+      "source": "V-CHACHA",
+      "ddt_max_prob": 0.046875,
+      "lat_max_bias": 0.25
+    },
+    {
+      "source": "AES",
+      "ddt_max_prob": 0.015625,
+      "lat_max_bias": 0.125
+    }
+  ],
+  "diffusion_propagation": [
+    {
+      "variant": "ISC",
+      "propagation_pct": 99.7943
+    },
+    {
+      "variant": "V-CHACHA",
+      "propagation_pct": 99.798
+    }
+  ],
+  "ideal_references": {
+    "entropy": 8.0,
+    "npcr_pct": 99.6094,
+    "uaci_pct": 33.4635,
+    "ddt_max_prob_aes": 0.015625,
+    "lat_max_bias_aes": 0.125
+  }
+}

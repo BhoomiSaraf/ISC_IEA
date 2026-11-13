@@ -1,0 +1,53 @@
+[
+  {
+    "n_candidates": 1,
+    "ddt_max_prob": 0.054688,
+    "lat_max_bias": 0.28125,
+    "stream_bytes_consumed": 1020,
+    "wall_time_s": 0.039,
+    "aes_ddt_reference": 0.015625,
+    "aes_lat_reference": 0.125
+  },
+  {
+    "n_candidates": 4,
+    "ddt_max_prob": 0.039062,
+    "lat_max_bias": 0.265625,
+    "stream_bytes_consumed": 4080,
+    "wall_time_s": 0.173,
+    "aes_ddt_reference": 0.015625,
+    "aes_lat_reference": 0.125
+  },
+  {
+    "n_candidates": 8,
+    "ddt_max_prob": 0.039062,
+    "lat_max_bias": 0.28125,
+    "stream_bytes_consumed": 8160,
+    "wall_time_s": 0.599,
+    "aes_ddt_reference": 0.015625,
+    "aes_lat_reference": 0.125
+  },
+  {
+    "n_candidates": 16,
+    "ddt_max_prob": 0.039062,
+    "lat_max_bias": 0.296875,
+    "stream_bytes_consumed": 16320,
+    "wall_time_s": 0.946,
+    "aes_ddt_reference": 0.015625,
+    "aes_lat_reference": 0.125
+  },
+  {
+    "n_candidates": 32,
+    "ddt_max_prob": 0.039062,
+    "lat_max_bias": 0.265625,
+    "stream_bytes_consumed": 32640,
+    "wall_time_s": 3.074,
+    "aes_ddt_reference": 0.015625,
+    "aes_lat_reference": 0.125
+  },
+  {
+    "n_candidates": "baseline_actual",
+    "ddt_max_prob": 0.046875,
+    "lat_max_bias": 0.28125,
+    "note": "actual cipher S-box from the standard key/nonce"
+  }
+]

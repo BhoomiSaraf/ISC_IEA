@@ -1,0 +1,62 @@
+[
+  {
+    "extraction": "mantissa8_v1",
+    "n_bytes": 125000,
+    "full_byte_chi2": 251.12,
+    "full_byte_p": 0.5568838751490319,
+    "high_nibble_chi2": 17.25,
+    "high_nibble_p": 0.3040930731338786,
+    "low_nibble_chi2": 21.14,
+    "low_nibble_p": 0.13244844623129512
+  },
+  {
+    "extraction": "mantissa8_v1",
+    "n_bytes": 1000000,
+    "full_byte_chi2": 237.83,
+    "full_byte_p": 0.7728231314722468,
+    "high_nibble_chi2": 17.42,
+    "high_nibble_p": 0.2944645278144833,
+    "low_nibble_chi2": 11.9,
+    "low_nibble_p": 0.6865024168375349
+  },
+  {
+    "extraction": "mantissa8_v1",
+    "n_bytes": 8000000,
+    "full_byte_chi2": 381.22,
+    "full_byte_p": 4.918973242457435e-07,
+    "high_nibble_chi2": 10.53,
+    "high_nibble_p": 0.7848598262730409,
+    "low_nibble_chi2": 83.84,
+    "low_nibble_p": 1.379445293503615e-11
+  },
+  {
+    "extraction": "k14_scaled_modulo_v1",
+    "n_bytes": 125000,
+    "full_byte_chi2": 245.12,
+    "full_byte_p": 0.6603590881503856,
+    "high_nibble_chi2": 14.87,
+    "high_nibble_p": 0.4608573556930483,
+    "low_nibble_chi2": 15.52,
+    "low_nibble_p": 0.4146489267827302
+  },
+  {
+    "extraction": "k14_scaled_modulo_v1",
+    "n_bytes": 1000000,
+    "full_byte_chi2": 232.91,
+    "full_byte_p": 0.8360513870068687,
+    "high_nibble_chi2": 11.96,
+    "high_nibble_p": 0.6819163691130009,
+    "low_nibble_chi2": 13.24,
+    "low_nibble_p": 0.5837021718842725
+  },
+  {
+    "extraction": "k14_scaled_modulo_v1",
+    "n_bytes": 8000000,
+    "full_byte_chi2": 290.23,
+    "full_byte_p": 0.06389932742830517,
+    "high_nibble_chi2": 21.46,
+    "high_nibble_p": 0.12285018888435842,
+    "low_nibble_chi2": 12.06,
+    "low_nibble_p": 0.674251265827694
+  }
+]
