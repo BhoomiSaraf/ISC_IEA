@@ -12,6 +12,7 @@ research/sources/fulltext/
 *.pdf
 *.zip
 scratch_*.txt
+Claude outputs/
 research/*.md
 experiments/paper_workflow_study/*.md
 experiments/diffusion_study/*.md
